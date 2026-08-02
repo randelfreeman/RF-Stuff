@@ -1,0 +1,221 @@
+rank,company,ticker,item_type,seq,text
+1,Shimano,7309,Elevator pitch,1,"Net cash ¥550bn = 29% of market cap. No capital allocation policy, no ROE target, no payout framework."
+1,Shimano,7309,Elevator pitch,2,EBIT margin 27% to 17% since 2021. Volumes normalised; the fixed cost base did not.
+1,Shimano,7309,Elevator pitch,3,~70% share of a component duopoly with intact pricing power. The franchise is not the problem; the balance sheet is.
+1,Shimano,7309,Actionable change,1,Cap net cash at ~1yr capex plus working capital; return the ~¥300–350bn surplus (~18% of market cap) via a multi-year buyback.
+1,Shimano,7309,Actionable change,2,"Publish a margin bridge to 22–24% EBIT, including Southeast Asian assembly capacity rationalisation."
+1,Shimano,7309,Actionable change,3,"Review fishing tackle (~20% of sales, no operating overlap with cycling) for separation or sale."
+1,Shimano,7309,Activist angle,1,Capital allocation
+1,Shimano,7309,Activist angle,2,Cost / margin recovery
+1,Shimano,7309,Activist angle,3,Portfolio simplification
+1,Shimano,7309,Shareholder support,1,Trust-bank and foreign register (~35–40% foreign); family stake below 10% and non-blocking. Overcapitalisation is easy to evidence post-TSE reform. Lead with capital return — domestic holders will resist board-level demands on a revered Osaka franchise.
+1,Shimano,7309,Company defence,1,"Fortress balance sheet funded share gains against SRAM and Campagnolo through cycles; bicycle demand is volatile. Counter: ¥550bn exceeds any credible investment programme, and none has been published."
+2,SMC Corporation,6273,Elevator pitch,1,"28% EBIT margin, global share leadership, and five-year TSR below the index. Cause is ¥1.1tn of idle cash — over 30% of market cap."
+2,SMC Corporation,6273,Elevator pitch,2,"Governance is among the weakest in Japanese large caps: insider-dominated board, minimal English disclosure, no cost-of-capital disclosure."
+2,SMC Corporation,6273,Elevator pitch,3,Palliser has disclosed a stake and proposed a ~¥560bn buyback. The company would remain net cash after executing it in full.
+2,SMC Corporation,6273,Actionable change,1,Execute a buyback at the scale proposed and adopt a standing policy capping net cash at a stated multiple of operating needs.
+2,SMC Corporation,6273,Actionable change,2,"Bring governance to large-cap norms: majority-independent board, empowered nomination committee, full English disclosure, explicit ROE and cost-of-capital targets."
+2,SMC Corporation,6273,Actionable change,3,Disclose segment and regional profitability to underwrite earnings quality.
+2,SMC Corporation,6273,Activist angle,1,Capital allocation
+2,SMC Corporation,6273,Activist angle,2,Governance
+2,SMC Corporation,6273,Activist angle,3,Disclosure / re-rating
+2,SMC Corporation,6273,Shareholder support,1,"Close to the ideal register: ~40% foreign, trust-bank heavy, no controlling holder, credible activist already public. Proxy advisers likely supportive on buyback and disclosure given non-engagement with TSE guidance. Family plus sympathetic domestic holders can still defeat a board-composition fight — win on capital and disclosure first."
+2,SMC Corporation,6273,Company defence,1,"Inventory depth and lead times funded by cash are a genuine operational moat; capex is highly cyclical. Counter: the working-capital argument justifies a fraction of ¥1.1tn, and the calculation has never been published."
+3,Kyocera,6971,Elevator pitch,1,"KDDI stake ~¥2.5tn against a ~¥3.0tn market cap. The operating business — components, packages, tools, printers, solar — is free."
+3,Kyocera,6971,Elevator pitch,2,Core EBIT margin 4–5%. The stake has been held for decades as 'strategic' with no strategy disclosed.
+3,Kyocera,6971,Elevator pitch,3,ISS and Glass Lewis backed Oasis against the chairman's reappointment at the June 2026 AGM. Voluntary action is not the base case.
+3,Kyocera,6971,Actionable change,1,"Monetise the KDDI stake via a phased, tax-efficient programme (collar, exchangeable, or staged blocks); commit proceeds to buyback."
+3,Kyocera,6971,Actionable change,2,"Exit or divest loss-making and subscale segments (solar, document solutions); set a divisional hurdle rate with a fixed timetable."
+3,Kyocera,6971,Actionable change,3,Refresh the board with capital-markets and restructuring experience; separate chairman and CEO roles.
+3,Kyocera,6971,Activist angle,1,Portfolio simplification / SOTP
+3,Kyocera,6971,Activist angle,2,Capital allocation
+3,Kyocera,6971,Activist angle,3,Governance
+3,Kyocera,6971,Shareholder support,1,"Fragmented register, high foreign ownership, and proxy advisers already on record against the chairman. The SOTP argument requires arithmetic rather than a strategic judgement, which gives domestic institutions cover. Risk: management concedes a partial buyback to defuse momentum without touching the stake."
+3,Kyocera,6971,Company defence,1,"Inamori management philosophy; KDDI is a founding legacy asset with telecoms-component linkage; sale triggers a large deferred tax liability on a near-zero cost basis. The tax point is the only serious one — and argues for phased monetisation, not inaction."
+4,Omron,6645,Elevator pitch,1,~60% of equity value destroyed from the 2021 peak. Keyence and SMC face the same end markets and did not lose two-thirds of their margin — this is not a China cycle story.
+4,Omron,6645,Elevator pitch,2,"A ~55% stake in listed JMDC (~¥350bn, ~35% of market cap) sits inside an automation company with no operating overlap."
+4,Omron,6645,Elevator pitch,3,"Two mid-term plans announced, two missed. The board has not been held accountable for either."
+4,Omron,6645,Actionable change,1,Monetise or distribute the JMDC stake; it is non-core and its consolidation obscures the core P&L.
+4,Omron,6645,Actionable change,2,"Deliver an externally verifiable overhead reduction with a published bridge to double-digit EBIT, including headcount and site consolidation in control components."
+4,Omron,6645,Actionable change,3,Exit subscale social systems and device businesses; refresh the directors who approved the JMDC purchase.
+4,Omron,6645,Activist angle,1,Portfolio simplification
+4,Omron,6645,Activist angle,2,Cost / operational turnaround
+4,Omron,6645,Activist angle,3,Governance
+4,Omron,6645,Shareholder support,1,"No anchor shareholder, heavy trust-bank and foreign presence, and a TSR record that gives domestic institutions little cover for supporting the board. Japan Activation Capital's domestic credibility makes the campaign harder to dismiss as foreign short-termism. Anchor demands in the two missed plans — a factual record, not an opinion."
+4,Omron,6645,Company defence,1,Cyclical China automation downturn plus a semiconductor capex trough; investing through the cycle; JMDC is a long-term growth pillar and selling crystallises a low. Counter: the cycle does not explain a margin outcome twice as bad as comparable peers.
+5,Nikon,7731,Elevator pitch,1,"0.7x book with 35% of market cap in net cash. The discount is a verdict on reinvestment, not on the assets."
+5,Nikon,7731,Elevator pitch,2,RED Digital Cinema and SLM Solutions were bought at full prices into markets where Nikon has no structural advantage. Neither has moved earnings.
+5,Nikon,7731,Elevator pitch,3,"3.5% EBIT margin on this revenue base is a cost and portfolio problem, not a demand problem."
+5,Nikon,7731,Actionable change,1,Impose a board-level M&A moratorium with a published hurdle rate; redirect cash to buyback — repurchasing at 0.7x book is the highest-returning use available.
+5,Nikon,7731,Actionable change,2,"Set a hard decision date on digital manufacturing (SLM) and components: meet a stated return threshold within 24 months or divest, with quarterly segment ROIC disclosure."
+5,Nikon,7731,Actionable change,3,Refresh the board; the incumbents approved each of the value-destructive transactions.
+5,Nikon,7731,Activist angle,1,Capital allocation / M&A discipline
+5,Nikon,7731,Activist angle,2,Portfolio simplification
+5,Nikon,7731,Activist angle,3,Governance
+5,Nikon,7731,Shareholder support,1,"No anchor shareholder, high foreign ownership, and an argument requiring no forecast — only the historic return on deployed capital. Sub-book plus large net cash is the exact fact pattern the TSE directive addresses, giving conservative domestic holders a mandate. Proxy advisers receptive on both capital return and board accountability."
+5,Nikon,7731,Company defence,1,Deliberate diversification from a declining camera market into industrial and medical precision; SLM and RED are long-term platforms; lithography retains a defensible legacy-node niche. Counter: the diversification narrative is over a decade old and returns have not appeared in any segment.
+6,Casio Computer,6952,Elevator pitch,1,"G-Shock is a global, price-inelastic brand buried inside a portfolio of subscale electronics that consume the cash it generates."
+6,Casio Computer,6952,Elevator pitch,2,Group EBIT 7% against a watch segment materially higher. Calculators are in structural decline; education has no scale.
+6,Casio Computer,6952,Elevator pitch,3,Net cash 30% of market cap against ¥5bn buyback tranches — a rounding error against the balance.
+6,Casio Computer,6952,Actionable change,1,"Reposition as a branded watch company: divest or wind down education, system equipment and residual hardware; report watches with standalone P&L and ROIC."
+6,Casio Computer,6952,Actionable change,2,Upsize capital return against the ~¥90bn net cash position and adopt a permanent payout policy.
+6,Casio Computer,6952,Actionable change,3,Reallocate marketing and R&D to the watch franchise; add independent directors with global consumer-brand experience.
+6,Casio Computer,6952,Activist angle,1,Portfolio simplification
+6,Casio Computer,6952,Activist angle,2,Capital allocation
+6,Casio Computer,6952,Activist angle,3,Governance
+6,Casio Computer,6952,Shareholder support,1,"Institutionally fragmented with a non-blocking family stake, so votes are winnable. The 'hidden brand' framing is attractive to domestic long-only holders. Friction: family attachment to the diversified electronics heritage, and a market cap small enough that few institutions will expend governance capital. Coalition with domestic value funds is the practical route."
+6,Casio Computer,6952,Company defence,1,Non-watch segments share miniaturisation and LSI design capability with watches; education is a long-term emerging-market platform; the projector exit shows the portfolio is pruned. Counter: the shared-capability argument has run twenty years with group margin static at 7%.
+7,Mabuchi Motor,6592,Elevator pitch,1,Net cash ¥130bn = 72% of market cap. Buyers pay ~5x EBIT for a global leader in small motors and receive the deposit free.
+7,Mabuchi Motor,6592,Elevator pitch,2,"ROE mid-single-digit for years, structurally below cost of equity — entirely a denominator problem. The operating business earns acceptable returns on capital actually employed."
+7,Mabuchi Motor,6592,Elevator pitch,3,"The most mechanically fixable balance sheet in the Japanese mid-cap universe. No strategy change required, only a decision."
+7,Mabuchi Motor,6592,Actionable change,1,Run a large front-loaded buyback or tender; returning half the net cash lifts ROE above cost of equity immediately without touching operations.
+7,Mabuchi Motor,6592,Actionable change,2,"Publish a capital allocation policy with an ROE floor, a net cash ceiling, and an M&A hurdle rate."
+7,Mabuchi Motor,6592,Actionable change,3,Unwind residual cross-shareholdings; add directors with capital allocation experience.
+7,Mabuchi Motor,6592,Activist angle,1,Capital allocation
+7,Mabuchi Motor,6592,Activist angle,2,Governance
+7,Mabuchi Motor,6592,Activist angle,3,M&A discipline
+7,Mabuchi Motor,6592,Shareholder support,1,"Arithmetic rather than strategy — the easiest category to win. Large free float, non-blocking family bloc, and TSE cover for balance-sheet action at mid-single-digit ROE and sub-1x PBR. Proxy advisers reliably support this fact pattern. Constraint is liquidity: building influence in a ¥180bn name takes time and moves price."
+7,Mabuchi Motor,6592,Company defence,1,"Automotive OEM customers audit supplier balance sheets; cash funds diversification away from automotive concentration and M&A dry powder; dividends have risen. Counter: customer stability justifies a strong balance sheet, not net cash above 60% of market cap, and the diversification programme has been small relative to resources."
+8,Hirose Electric,6806,Elevator pitch,1,"EBIT margin 30%+ to low-20s over five years with no published diagnosis. For a company whose case was best-in-class connector profitability, that is the entire story."
+8,Hirose Electric,6806,Elevator pitch,2,Net cash 36% of market cap. The 2026 buyback was executed slowly and paused in April — a token response to a structural issue.
+8,Hirose Electric,6806,Elevator pitch,3,"No controlling holder, no family bloc, no cross-shareholding defence. The ownership structure offers management no protection."
+8,Hirose Electric,6806,Actionable change,1,Upsize and accelerate the buyback; commit to returning free cash flow above a defined reinvestment budget rather than accumulating.
+8,Hirose Electric,6806,Actionable change,2,"Publish a margin recovery plan diagnosing the decline (mix, pricing, or R&D productivity) with segment-level ROIC disclosure."
+8,Hirose Electric,6806,Actionable change,3,Add independent directors with global components and capital-markets experience; disclose cost of capital per TSE guidance.
+8,Hirose Electric,6806,Activist angle,1,Capital allocation
+8,Hirose Electric,6806,Activist angle,2,Margin recovery
+8,Hirose Electric,6806,Activist angle,3,Governance
+8,Hirose Electric,6806,Shareholder support,1,Almost purely institutional with substantial foreign ownership and no anchor holder — structurally the most attackable large register here. Capital-return and disclosure demands are conventional and proxy-adviser friendly. Frame around the objective margin decline rather than management competence; domestic holders still regard Hirose as a quality name.
+8,Hirose Electric,6806,Company defence,1,"Margin decline reflects deliberate investment in automotive and data-centre platforms with longer qualification cycles and lower initial margins; cash supports the associated capacity. A more respectable defence than most — the response is to demand segment ROIC, which management has resisted providing."
+9,Alps Alpine,6770,Elevator pitch,1,Merger synergies have not appeared seven years on. EBIT margin ~3% against components peers at 10–15%.
+9,Alps Alpine,6770,Elevator pitch,2,"Two structurally different businesses — components and automotive infotainment — with different customers, cycles and capital intensity, combined for no demonstrated benefit."
+9,Alps Alpine,6770,Elevator pitch,3,Murakami holds ~10% and has forced a ¥30bn buyback covering >10% of shares. Management concedes under pressure but has not addressed the structure.
+9,Alps Alpine,6770,Actionable change,1,"Separate automotive infotainment from components via sale, spin-off, or a formal strategic review with a public timetable."
+9,Alps Alpine,6770,Actionable change,2,Commit to an EBIT margin target with a published bridge and site-level restructuring plan.
+9,Alps Alpine,6770,Actionable change,3,Convert the buyback into a permanent capital return policy; refresh the board with directors independent of both legacy organisations.
+9,Alps Alpine,6770,Activist angle,1,Portfolio simplification
+9,Alps Alpine,6770,Activist angle,2,Operational turnaround
+9,Alps Alpine,6770,Activist angle,3,Capital allocation
+9,Alps Alpine,6770,Shareholder support,1,"Arithmetic favourable — Murakami's ~10% plus institutions is a formidable base, and the buyback shows management yields to pressure. Caveat: some domestic institutions vote against Murakami-associated proposals on principle, so a differently-positioned second activist can achieve more than joining the bloc. Frame demands operationally, not extractively."
+9,Alps Alpine,6770,Company defence,1,The merger created genuine overlap in sensing and communication modules; infotainment margins recover as legacy loss-making programmes roll off; current margin is an automotive volume trough plus cockpit-platform investment. Counter: the same trough explanation has spanned several distinct automotive cycles.
+10,Yamaha Corporation,7951,Elevator pitch,1,"Strongest global brand in musical instruments, with an installed base competitors cannot replicate, down 40% over five years."
+10,Yamaha Corporation,7951,Elevator pitch,2,Proximate cause was a China inventory and demand-planning failure that was neither anticipated nor communicated; the deeper cause is a cost base built for a growth path that stopped.
+10,Yamaha Corporation,7951,Elevator pitch,3,A reciprocal Yamaha Motor cross-shareholding (~¥100bn+) serves no purpose for either shareholder base beyond mutual board protection.
+10,Yamaha Corporation,7951,Actionable change,1,"Unwind the Yamaha Motor cross-shareholding and return the proceeds — dead capital, and directly aligned with TSE policy."
+10,Yamaha Corporation,7951,Actionable change,2,Restructure the subscale audio and AV equipment segment; publish a margin bridge back toward the historic 13% EBIT level.
+10,Yamaha Corporation,7951,Actionable change,3,Overhaul demand planning and inventory governance with board oversight; add directors with global consumer and supply-chain experience.
+10,Yamaha Corporation,7951,Activist angle,1,Capital allocation / cross-shareholdings
+10,Yamaha Corporation,7951,Activist angle,2,Portfolio simplification
+10,Yamaha Corporation,7951,Activist angle,3,Operational governance
+10,Yamaha Corporation,7951,Shareholder support,1,"Institutional and fragmented register. Cross-shareholding unwind is among the most consensus-friendly demands available in Japan — aligned with explicit TSE and METI policy, so conservative domestic holders can support it without appearing adversarial. Cost restructuring is harder: Yamaha is culturally prized with deep Hamamatsu roots. Sequence: win the cross-shareholding first."
+10,Yamaha Corporation,7951,Company defence,1,"The China downturn was an industry-wide contraction, not a company-specific failure; inventory corrections are taken; brand requires sustained education and channel investment. On the cross-holding, the two companies share the Yamaha name and tuning-fork mark. The brand point has substance but is addressable by licensing, not equity."
+11,Kamigumi,9364,Elevator pitch,1,"Leading container handling position at Kobe, Yokohama and Tokyo, on port-adjacent land held at historic cost. Book value bears no relation to realisable value."
+11,Kamigumi,9364,Elevator pitch,2,"A large listed cross-shareholding portfolio ties up capital unrelated to logistics, sustaining relationships rather than returns."
+11,Kamigumi,9364,Elevator pitch,3,Mid-single-digit ROE on a defensible infrastructure franchise. The business is sound; the balance sheet is not.
+11,Kamigumi,9364,Actionable change,1,Sell the listed cross-shareholding portfolio on a published timetable and return proceeds.
+11,Kamigumi,9364,Actionable change,2,Commission and disclose an independent market appraisal of the real estate; monetise or recycle non-operational land via REIT or sale-and-leaseback.
+11,Kamigumi,9364,Actionable change,3,Set an explicit ROE target and cost-of-capital disclosure; add directors with real estate and capital-markets expertise.
+11,Kamigumi,9364,Activist angle,1,Capital allocation
+11,Kamigumi,9364,Activist angle,2,Undervalued assets
+11,Kamigumi,9364,Activist angle,3,Governance
+11,Kamigumi,9364,Shareholder support,1,"Economics compelling, register the constraint: Kansai cross-shareholders and relationship banks form a conservative bloc, and Kamigumi's own holdings embed it in a reciprocal network. Cross-shareholding unwind is now policy direction, which removes most of the intellectual defence. Open with real estate appraisal disclosure — low-cost, hard to refuse publicly, and it builds the evidence base."
+11,Kamigumi,9364,Company defence,1,"Port concessions and land are operating assets that cannot be monetised without impairing the franchise; cross-shareholdings maintain long-term relationships with shipping lines and trading houses. Partly true for operational berths, a shield for everything else — and the relationship-capital argument is precisely what policymakers have rejected."
+12,Mitsubishi Logistics,9301,Elevator pitch,1,"Prime Tokyo, Yokohama and Kobe waterfront land held at historic cost. On market appraisal the real estate alone approaches or exceeds market cap."
+12,Mitsubishi Logistics,9301,Elevator pitch,2,"Mid-single-digit ROE on those assets — unacceptable to a dedicated property owner, tolerated only because the assets are hidden inside a logistics company."
+12,Mitsubishi Logistics,9301,Elevator pitch,3,"A disclosure and structure problem, not a business problem. The market cannot value what management will not appraise."
+12,Mitsubishi Logistics,9301,Actionable change,1,"Disclose an independent market appraisal of the property portfolio with returns on appraised value — highest impact, lowest cost."
+12,Mitsubishi Logistics,9301,Actionable change,2,"Separate real estate structurally (REIT, spin-off, or developer JV) so assets are valued on property metrics rather than logistics multiples."
+12,Mitsubishi Logistics,9301,Actionable change,3,Unwind the listed cross-shareholding portfolio; set an explicit ROE target under the TSE framework.
+12,Mitsubishi Logistics,9301,Activist angle,1,Undervalued assets
+12,Mitsubishi Logistics,9301,Activist angle,2,Portfolio simplification
+12,Mitsubishi Logistics,9301,Activist angle,3,Capital allocation
+12,Mitsubishi Logistics,9301,Shareholder support,1,"On numbers this should be straightforward; the obstacle is the ~20% Mitsubishi holding, reliably pro-management, requiring a large majority of the remainder to carry a contested vote. Avoid contested votes initially — campaign on disclosure, where refusal is publicly indefensible and the resulting appraisal does the persuading."
+12,Mitsubishi Logistics,9301,Company defence,1,"Warehouses are operating assets integral to the network; redevelopment is already on a measured schedule for long-lived assets; historic-cost accounting is Japanese GAAP, not concealment. Strongest for genuinely operational sites, weakest for redevelopment-ready land — which is why site-by-site appraisal is resisted."
+13,Yamato Holdings,9064,Elevator pitch,1,Strongest brand and densest last-mile network in Japanese parcel delivery; -45% over five years against an index up 55%.
+13,Yamato Holdings,9064,Elevator pitch,2,EBIT margin 5% to 2% through a period when the 2024 driver regulations handed the industry pricing power. Competitors used it.
+13,Yamato Holdings,9064,Elevator pitch,3,Successive reform plans announced and missed; the Japan Post arrangement transferred economics away. The April 2026 CEO departure is the opening.
+13,Yamato Holdings,9064,Actionable change,1,"Force network and overhead restructuring with externally verifiable milestones — terminal consolidation, route density, and a published bridge to 5%+ EBIT."
+13,Yamato Holdings,9064,Actionable change,2,Renegotiate or exit the Japan Post arrangement; reprice low-margin large-account contracts driving mix deterioration.
+13,Yamato Holdings,9064,Actionable change,3,"Monetise non-core real estate, return surplus cash, and refresh the board that supervised two failed plans."
+13,Yamato Holdings,9064,Activist angle,1,Operational turnaround
+13,Yamato Holdings,9064,Activist angle,2,Governance
+13,Yamato Holdings,9064,Activist angle,3,Capital allocation
+13,Yamato Holdings,9064,Shareholder support,1,"The most straightforward support case in the screen. No anchor shareholder, substantial foreign ownership, an indefensible record, and a leadership change that lets institutions demand change without attacking a sitting team. Proxy advisers receptive on board accountability. Constraint: the fix is operational and slow — winning the vote is easy, realising value is not."
+13,Yamato Holdings,9064,Company defence,1,The 2024 driver-hours regulation raised the industry cost base permanently; service quality and driver welfare were prioritised over margin; new leadership's plan addresses the network. Real content on costs — but it does not explain why competitors facing the same regulation preserved margins Yamato surrendered.
+14,Shimamura,8227,Elevator pitch,1,"Differentiated low-cost apparel model, owned real estate, no debt, net cash ~38% of market cap, 7% FCF yield — valued as a business in decline."
+14,Shimamura,8227,Elevator pitch,2,"No meaningful e-commerce capability and no international presence in a category where both are table stakes. An absence of strategy, not a strategic choice."
+14,Shimamura,8227,Elevator pitch,3,"The 2021 merchandising turnaround worked, then stalled. Management executes under pressure and reverts to accumulating cash."
+14,Shimamura,8227,Actionable change,1,"Return surplus cash via a buyback sized against the ~¥150bn position, with a permanent payout policy replacing ad hoc distributions."
+14,Shimamura,8227,Actionable change,2,Build or acquire e-commerce capability; disclose a store-level ROIC framework so capital rotates out of underperforming sites.
+14,Shimamura,8227,Actionable change,3,Obtain an independent appraisal of owned store real estate; consider sale-and-leaseback where property value dominates retail economics.
+14,Shimamura,8227,Activist angle,1,Capital allocation
+14,Shimamura,8227,Activist angle,2,Undervalued assets
+14,Shimamura,8227,Activist angle,3,Strategy / governance
+14,Shimamura,8227,Shareholder support,1,"Trust banks and foreign institutions comfortably outweigh the family bloc, and the balance-sheet argument is clean at a debt-free, sub-1x-adjusted valuation. Domestic value investors are already present. Friction: family board influence and a self-funding culture treating cash as identity. Prefer collaborative engagement before public escalation."
+14,Shimamura,8227,Company defence,1,Cash funds store expansion and inventory in a business with no debt-capacity tolerance; the low-cost model depends on avoiding fulfilment costs that make apparel e-commerce structurally unprofitable; discipline is why it survived while competitors failed. The e-commerce point has merit at low price points; the cash argument does not — expansion consumes a small fraction of the balance.
+15,Wacoal Holdings,3591,Elevator pitch,1,"Dominant Japanese innerwear brand earning 2–3% EBIT against global branded peers at five to eight times that. The gap is cost structure and international mismanagement, not brand."
+15,Wacoal Holdings,3591,Elevator pitch,2,"Overseas operations, notably US and Europe, have consumed capital for two decades without earning cost of capital."
+15,Wacoal Holdings,3591,Elevator pitch,3,Kyoto real estate and a listed securities portfolio sit at historic cost. Shareholders own a good brand and hidden assets; management has monetised neither.
+15,Wacoal Holdings,3591,Actionable change,1,Complete the exit from loss-making overseas operations rather than restructuring indefinitely; set a firm date after which sub-cost-of-capital businesses are sold.
+15,Wacoal Holdings,3591,Actionable change,2,Monetise non-operating real estate and the listed cross-shareholding portfolio; return proceeds via a defined buyback.
+15,Wacoal Holdings,3591,Actionable change,3,Rebuild the board with genuinely independent directors and consumer-industry operators.
+15,Wacoal Holdings,3591,Activist angle,1,Portfolio simplification
+15,Wacoal Holdings,3591,Activist angle,2,Undervalued assets
+15,Wacoal Holdings,3591,Activist angle,3,Governance
+15,Wacoal Holdings,3591,Shareholder support,1,"Oasis has established that Wacoal is contestable and management has conceded on restructuring. Against that, the Tsukamoto family and the Kyoto corporate and banking network form a cohesive bloc that behaves unlike ordinary institutional holders, and Kyoto business culture is the most resistant in Japan to external pressure. Frame demands as supporting the existing restructuring, not displacing management."
+15,Wacoal Holdings,3591,Company defence,1,"International restructuring is underway and delivering; innerwear requires long-term brand and fit-technology investment; Kyoto properties are operational headquarters and heritage assets. The share price supports their case — awkward to rebut, since the re-rating is real even if activist-induced."
+16,TBS Holdings,9401,Elevator pitch,1,Listed securities worth more than the entire market cap; the Recruit stake alone is transformative. Broadcasting is valued at approximately nothing.
+16,TBS Holdings,9401,Elevator pitch,2,"A media company functioning for decades as an accidental investment trust, with no shareholder mandate and no disclosed policy governing holdings."
+16,TBS Holdings,9401,Elevator pitch,3,The Akasaka redevelopment adds prime Tokyo property. The market has started pricing the assets; it has not finished.
+16,TBS Holdings,9401,Actionable change,1,Establish and disclose a formal securities portfolio policy with a monetisation timetable; commit proceeds to buyback rather than broadcast investment.
+16,TBS Holdings,9401,Actionable change,2,"Separate the real estate business into a structure valued on property metrics, with independent appraisal disclosure."
+16,TBS Holdings,9401,Actionable change,3,"Set return targets for broadcasting and reduce sub-cost-of-capital content and overhead spend, with board accountability."
+16,TBS Holdings,9401,Activist angle,1,Undervalued assets / SOTP
+16,TBS Holdings,9401,Activist angle,2,Portfolio simplification
+16,TBS Holdings,9401,Activist angle,3,Governance
+16,TBS Holdings,9401,Shareholder support,1,"The hardest support case in the screen. A cohesive ~20% cross-shareholder bloc motivated by editorial rather than return considerations, and broadcasting foreign-ownership limits structurally cap the most sympathetic holders. The realistic path is public pressure on disclosure rather than a contested vote — the February 2026 Fuji Media precedent produced dividend and real-estate concessions without a vote being won."
+16,TBS Holdings,9401,Company defence,1,"Broadcast licensing and public-interest obligations; stable long-term shareholdings protect editorial independence; regulation limits balance sheet flexibility; securities are legacy relationship holdings supporting content partnerships. The most rhetorically effective defence in the screen because it is not primarily financial — which is why the campaign should run on disclosure and policy, not forced sales."
+17,Square Enix Holdings,9684,Elevator pitch,1,"Owns Final Fantasy and Dragon Quest and delivered a negative five-year return while Capcom, with thinner IP, roughly doubled."
+17,Square Enix Holdings,9684,Elevator pitch,2,"The gap is execution discipline: a large HD games write-off, a fragmented multi-geography studio structure with inconsistent quality control, and exclusivity deals that capped the addressable market on major releases."
+17,Square Enix Holdings,9684,Elevator pitch,3,Net cash 23% of market cap alongside non-core arcade and publishing businesses unrelated to the IP that creates the value.
+17,Square Enix Holdings,9684,Actionable change,1,Consolidate the studio footprint and impose formal greenlight and portfolio governance with per-title return accountability.
+17,Square Enix Holdings,9684,Actionable change,2,"Divest the amusement/arcade and publishing segments; commit fully to multiplatform, day-one release across PC and all consoles."
+17,Square Enix Holdings,9684,Actionable change,3,Return a substantial portion of the ~¥250bn net cash under a formal capital allocation policy with an ROE target.
+17,Square Enix Holdings,9684,Activist angle,1,Operational / capital allocation
+17,Square Enix Holdings,9684,Activist angle,2,Portfolio simplification
+17,Square Enix Holdings,9684,Activist angle,3,Capital allocation
+17,Square Enix Holdings,9684,Shareholder support,1,"Foreign institutional ownership near 40%, benchmarking directly against Capcom, Bandai Namco and Western publishers — the underperformance argument needs no explanation. The founder's ~10% is a consideration, not a barrier, and management has already moved toward multiplatform under investor pressure. Studio management is a matter of judgement, so anchor demands in disclosure and capital return."
+17,Square Enix Holdings,9684,Company defence,1,"Multi-year IP investment cycles are lumpy; the write-offs were a deliberate pipeline reset; the share price recovery vindicates the strategy; a hit-driven business with long development cycles requires cash buffers. The most legitimate cash defence in the screen — the counter is Capcom, managing the same risk profile with tighter discipline and better returns."
+18,Nihon Kohden,6849,Elevator pitch,1,"Commanding share of Japanese patient monitoring — recurring revenue, high switching costs — with EBIT margin down from 12% to 8% while global peers expanded."
+18,Nihon Kohden,6849,Elevator pitch,2,Erosion traces directly to a decade of overseas expansion that has not reached the scale required to earn cost of capital in the US or Europe.
+18,Nihon Kohden,6849,Elevator pitch,3,"The domestic business remains excellent. Shareholders fund an international ambition the results do not support, with no evident board challenge."
+18,Nihon Kohden,6849,Actionable change,1,"Impose a return threshold on overseas businesses with a hard review date: scale via targeted acquisition, partner, or exit. Subscale drift is the worst of the three."
+18,Nihon Kohden,6849,Actionable change,2,"Publish a margin bridge back toward 12% EBIT with regional profitability disclosure, making the cost of the international strategy visible."
+18,Nihon Kohden,6849,Actionable change,3,Adopt a capital allocation policy with an explicit ROE target; add directors with global medtech operating experience.
+18,Nihon Kohden,6849,Activist angle,1,Portfolio / strategy
+18,Nihon Kohden,6849,Activist angle,2,Operational turnaround
+18,Nihon Kohden,6849,Activist angle,3,Governance
+18,Nihon Kohden,6849,Shareholder support,1,"Fragmented register, non-blocking family bloc, unambiguous underperformance across all horizons, and healthcare specialists on the register already benchmarking against global medtech. Complication: the fix is strategic rather than mechanical — no large cash pile to demand back — so the campaign must win an argument about international strategy. Open with regional profitability disclosure."
+18,Nihon Kohden,6849,Company defence,1,"International expansion is essential as the Japanese hospital market shrinks on demographics and reimbursement; overseas businesses need a decade to scale; retreat surrenders the growth option permanently. The strongest strategic defence in the screen. The rebuttal is not that international is wrong, but that a decade of investment without disclosed regional returns is an absence of accountability."
+19,Shimizu Corporation,1803,Elevator pitch,1,Large losses on fixed-price Tokyo contracts during an inflationary period — a risk management failure. Direct competitors bid the same market without the same outcome.
+19,Shimizu Corporation,1803,Elevator pitch,2,"A substantial investment property portfolio and a large listed cross-shareholding book sit outside the core business, neither managed for return."
+19,Shimizu Corporation,1803,Elevator pitch,3,Construction earns 2–3% EBIT; property returns are invisible in the consolidated accounts. Buyers cannot see what they own.
+19,Shimizu Corporation,1803,Actionable change,1,Overhaul bidding and project risk governance with board oversight and disclosed contingency policy — the precondition for margin recovery.
+19,Shimizu Corporation,1803,Actionable change,2,Unwind the listed cross-shareholding portfolio on a published timetable and return proceeds.
+19,Shimizu Corporation,1803,Actionable change,3,Report real estate development and investment as a separate segment with independent appraisal; evaluate structural separation.
+19,Shimizu Corporation,1803,Activist angle,1,Governance / risk management
+19,Shimizu Corporation,1803,Activist angle,2,Capital allocation
+19,Shimizu Corporation,1803,Activist angle,3,Undervalued assets
+19,Shimizu Corporation,1803,Shareholder support,1,"Cross-shareholding unwind is effectively official policy, making it difficult for domestic institutions to oppose, and Shimizu's holdings are large enough to matter. Project risk governance is an easy argument given a direct and damning peer comparison. Friction is sectoral: contractors are embedded in bank and client relationship networks and resist external input on bidding, which they treat as proprietary."
+19,Shimizu Corporation,1803,Company defence,1,Losses stemmed from unprecedented materials and labour inflation on pre-pandemic contracts; pricing discipline is restored and the order book repriced; the property portfolio is a deliberate earnings stabiliser against construction cyclicality. The stabiliser argument supports keeping the real estate — not refusing to disclose its value.
+20,Nippon Shokubai,4114,Elevator pitch,1,"0.6x book. The largest business, superabsorbent polymers, has been commoditised by Middle Eastern and Chinese capacity and will not earn cost of capital again."
+20,Nippon Shokubai,4114,Elevator pitch,2,A genuinely differentiated electronic and functional materials business with real pricing power is entirely obscured by the commodity drag.
+20,Nippon Shokubai,4114,Elevator pitch,3,Management's response is incremental cost programmes and continued cross-shareholdings. No portfolio decision is being made.
+20,Nippon Shokubai,4114,Actionable change,1,"Take a decision on superabsorbent polymers — exit, consolidate with a competitor, or restructure to a defensible cost position — with a stated deadline."
+20,Nippon Shokubai,4114,Actionable change,2,Separate and separately disclose electronic and functional materials so the growth asset can be valued independently.
+20,Nippon Shokubai,4114,Actionable change,3,Unwind the listed cross-shareholding portfolio; adopt an explicit ROE and cost-of-capital framework.
+20,Nippon Shokubai,4114,Activist angle,1,Portfolio simplification
+20,Nippon Shokubai,4114,Activist angle,2,Undervalued assets
+20,Nippon Shokubai,4114,Activist angle,3,Capital allocation / governance
+20,Nippon Shokubai,4114,Shareholder support,1,"0.6x PBR makes this an archetypal TSE capital-efficiency target, giving domestic institutions a clear mandate, and the cross-shareholding demand is close to unopposable in the current policy environment. Japanese chemicals is well-trodden ground for activists. Obstacles: commodity-chemical restructuring is slow and capital-intensive, and relationship banks on the register are conservative. Expect multi-year engagement."
+20,Nippon Shokubai,4114,Company defence,1,Superabsorbent polymers retain a technology and quality edge in premium hygiene; the business is cash-generative at trough margins and funds materials growth investment; exit would strand assets and incur large closure costs. The cash-generation point has merit — but has been offered through several cycles while returns declined.
