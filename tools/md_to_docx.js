@@ -32,7 +32,22 @@ function inlineRuns(text, base = {}) {
   const out = [];
   const re = /(\[([^\]]+)\]\(([^)\s]+)\))|(\*\*\*(.+?)\*\*\*)|(\*\*(.+?)\*\*)|(\*(.+?)\*)|(`([^`]+)`)/g;
   let last = 0, m;
-  const push = (t, opts) => { if (t) out.push(new TextRun({ text: t, ...base, ...opts })); };
+  // ᵛ / ᵉ provenance markers become real superscripts: no reliance on the reader
+  // having the Unicode modifier-letter glyphs (Calibri fallback is inconsistent).
+  const push = (t, opts) => {
+    if (!t) return;
+    for (const piece of t.split(/([ᵛᵉ])/)) {
+      if (!piece) continue;
+      if (piece === 'ᵛ' || piece === 'ᵉ') {
+        out.push(new TextRun({
+          text: piece === 'ᵛ' ? 'v' : 'e',
+          ...base, ...opts, superScript: true, bold: undefined, italics: undefined,
+        }));
+      } else {
+        out.push(new TextRun({ text: piece, ...base, ...opts }));
+      }
+    }
+  };
   while ((m = re.exec(text)) !== null) {
     push(text.slice(last, m.index), {});
     if (m[1]) {
@@ -213,7 +228,14 @@ function convert(md, usable) {
     if (h) {
       const level = h[1].length;
       const text = h[2].trim();
-      if (level === 1 && !skippedTitle) { skippedTitle = true; i++; continue; } // title page handles it
+      // The H1 and the front-matter block beneath it are already on the title page;
+      // skip forward to the first '##' so they are not printed twice.
+      if (level === 1 && !skippedTitle) {
+        skippedTitle = true;
+        i++;
+        while (i < lines.length && !/^##\s/.test(lines[i].trim())) i++;
+        continue;
+      }
       if (level === 2) {
         out.push(new Paragraph({
           heading: HeadingLevel.HEADING_1,
@@ -337,7 +359,7 @@ function titlePage() {
     gap(2100),
     new Paragraph({
       spacing: { after: 90 },
-      children: [new TextRun({ text: 'EQUITY RESEARCH  ·  SHAREHOLDER ACTIVISM', size: 17, bold: true, color: ACCENT, font: HEAD_FONT, characterSpacing: 34 })],
+      children: [new TextRun({ text: 'EQUITY RESEARCH  ·  SHAREHOLDER ACTIVISM', size: 17, bold: true, color: ACCENT, font: HEAD_FONT })],
     }),
     new Paragraph({
       spacing: { after: 40 },
@@ -385,6 +407,36 @@ function titlePage() {
   ];
 }
 
+// ---------- static contents list (no Word field: avoids dirty-TOC prompts) ----------
+function staticContents(md) {
+  const out = [];
+  for (const raw of md.split('\n')) {
+    const t = raw.trim();
+    const m2 = t.match(/^##\s+(.*)$/);
+    const m3 = t.match(/^###\s+(.*)$/);
+    if (m2 && !t.startsWith('###')) {
+      out.push(new Paragraph({
+        spacing: { before: 130, after: 30 },
+        children: [new TextRun({ text: m2[1].replace(/\*\*/g, ''), size: 20, bold: true, color: NAVY, font: HEAD_FONT })],
+      }));
+    } else if (m3) {
+      const txt = m3[1].replace(/\*\*/g, '');
+      out.push(new Paragraph({
+        indent: { left: 300 },
+        spacing: { before: 12, after: 12 },
+        children: [new TextRun({
+          text: txt,
+          size: 17,
+          color: /^Type [A-D]\b/.test(txt) ? ACCENT : SLATE,
+          bold: /^Type [A-D]\b/.test(txt),
+          font: BODY_FONT,
+        })],
+      }));
+    }
+  }
+  return out;
+}
+
 // ---------- assemble ----------
 const src = process.argv[2];
 const dest = process.argv[3];
@@ -395,7 +447,6 @@ const doc = new Document({
   creator: 'Equity Research',
   title: 'Korea Activist Target Screen — 20 Candidates',
   description: 'Activist screen of the Korean market, August 2026',
-  features: { updateFields: true },
   styles: {
     default: {
       document: { run: { font: BODY_FONT, size: 19, color: INK } },
@@ -434,7 +485,7 @@ const doc = new Document({
           border: { bottom: { style: BorderStyle.SINGLE, size: 8, color: NAVY, space: 6 } },
           children: [new TextRun({ text: 'Contents', size: 30, bold: true, color: NAVY, font: HEAD_FONT })],
         }),
-        new TableOfContents('Contents', { hyperlink: true, headingStyleRange: '1-2' }),
+        ...staticContents(md),
       ],
     },
     // Section 2 — body
@@ -449,7 +500,7 @@ const doc = new Document({
             border: { bottom: { style: BorderStyle.SINGLE, size: 3, color: RULE, space: 5 } },
             children: [new TextRun({
               text: 'Korea Activist Target Screen  ·  20 Candidates  ·  6 August 2026',
-              size: 14, color: MUTED, font: BODY_FONT, characterSpacing: 12,
+              size: 14, color: MUTED, font: BODY_FONT,
             })],
           })],
         }),
