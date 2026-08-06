@@ -2,7 +2,7 @@
 
 *Companion to the deep-dive & SOTP · August 2026 · KRW · covers the holding company 078070 (opco 264450 shown separately for context)*
 
-> **Data note.** Every Korean disclosure portal (DART, KIND, FnGuide, Naver, Hankyung) 403'd the research proxy, so this is assembled from news disclosures and filing headlines. Cells marked **✓** are corroborated; **~** are approximate; **n/d** = not disclosed in reachable sources — verify on DART (dart.fss.or.kr) before relying on them.
+> **Data note.** The authoritative sources — **DART (`dart.fss.or.kr`), OpenDART (`opendart.fss.or.kr`) and KIND (`kind.krx.co.kr`)** — are **blocked by this session's network egress policy** (the proxy rejects the CONNECT with a 403 `connect_rejected`), so the exact filing tables could not be retrieved from this environment; an OpenDART API key does **not** help because the host itself is denied. This timeline is therefore assembled from `WebSearch` snippets of news disclosures and filing headlines. Cells marked **✓** are corroborated; **~** are approximate; **n/d** = not disclosed in reachable sources. **To harden every ~/n/d cell:** allowlist `fss.or.kr` + `krx.co.kr` in the environment's network policy (then I can parse the keyless KIND 사업보고서 HTML directly), or paste/upload the 사업보고서 "배당에 관한 사항" and "자기주식 취득·처분·소각 현황" tables and I will convert them to exact figures.
 
 ---
 
@@ -13,7 +13,7 @@
 | FY2021 | n/d | n/d | — | — | n/d |
 | FY2022 | n/d | n/d | — | — | n/d |
 | FY2023 | n/d (policy formalized) | n/d | — | — | ~ |
-| **FY2024** | **₩130** | **~₩2.1bn** *(₩130 × ~16.5m)* | record 2024-12-31 / paid ~Mar-2025 | ~ | ✓ DPS |
+| **FY2024** | **₩130** | **~₩2.1bn** *(₩130 × ~16.5m)* | record 2024-12-31 / paid ~Mar-2025 | ~1.29% *(payout ~24.1% of consol. NI)* | ✓ DPS |
 | **FY2025** | **₩240** *(+85% YoY)* | **~₩3.963bn (≈39.6억)** | record 2025-12-31 / paid 2026-03-31 | ~2.2% | ✓ |
 
 **Policy:** since **FY2023**, payout ≈ **70% of adjusted net income**, stated to hold **through 2028**; management commits to a **rolling 3-year** shareholder-return plan. (Pre-2023, capital was returned mainly via buybacks — see §B — so early-year dividends were likely small or nil.)
@@ -25,8 +25,10 @@
 | Date (approx.) | Action | Size | Detail | Conf. |
 |---|---|--:|---|:--:|
 | **2021-07-06 → 2022-01-05** | Buyback — trust contract | **₩5.0bn** | Treasury-acquisition trust via Daishin Securities | ✓ |
-| **2022-05-13** | Buyback — new trust contract | n/d (amount) | Fresh 자기주식취득 신탁계약 (KIND filing) | ✓ event, ~ size |
-| **~2025-05-30** | **Cancellation** | **~₩3.4bn (≈34억)** | Treasury shares retired; 변경상장 (change-listing) filed 2025-05-30 | ✓ event, ~ size |
+| **2022-05-13** | Buyback — new trust contract | n/d (amount) | 자기주식취득 신탁계약 체결 (KIND doc 20220513002920) | ✓ event, ~ size |
+| **2023-06-02** | Buyback — direct acquisition | n/d (amount) | 자기주식 취득 결정 (KIND doc 20230602000564) | ✓ event, n/d size |
+| **~2025-05-30** | **Cancellation** | **~₩3.4bn (≈34억)** | Treasury retired; 변경상장 (change-listing) filed 2025-05-30 | ✓ event, ~ size |
+| **2025-05-08** | Buyback — direct acquisition | n/d (amount) | 자기주식 취득 결정 (KIND doc 20250508000685) | ✓ event, n/d size |
 | **2026-05-22** (ann. 05-13) | **Cancellation** | **₩3.445bn (34.45억)** | **545,929 shares = 3.10% of issued**; funded from distributable profit (no capital reduction) | ✓ |
 
 **Memo — operating company Ubiquoss Inc. (264450), for group context (not 078070):**
