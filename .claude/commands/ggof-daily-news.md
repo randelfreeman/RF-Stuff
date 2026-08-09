@@ -48,6 +48,10 @@ that could not be verified.
 - Commit all three files with a clear message and push to branch
   `claude/portfolio-morning-brief-1g844t` (`git push -u origin <branch>`; retry with backoff
   on network errors). Do not open a pull request.
+- **Email delivery:** if a Gmail/email tool is available in the session (check with ToolSearch),
+  send the Word and PDF versions to **randel.freeman@gam.com** with the day's top items as the
+  message body. If no email tool is available, state that clearly in the end-of-run summary so
+  the owner knows the report is only in the repo.
 
 ## Maintenance rules
 - If an instrument in the watchlist has expired (e.g., an option past expiry, a futures
