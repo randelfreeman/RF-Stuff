@@ -1,0 +1,460 @@
+<title>Europe's Stagflation Rally</title>
+<style>
+  :root{
+    --ground:#E9EBEE; --surface:#FCFCFB; --surface-2:#F3F4F6;
+    --ink:#141A20; --ink-2:#3D4750; --ink-3:#68727C;
+    --rule:#D3D7DC; --rule-2:#E3E6EA;
+    --accent:#8A5A12; --accent-mark:#B07D2B; --accent-soft:#F0E6D2;
+    --pos:#107A5D; --neg:#B2402C;
+    --serif:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif;
+    --sans:ui-sans-serif,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+    --mono:ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --ground:#0C1218; --surface:#151D26; --surface-2:#1B242E;
+      --ink:#E7EAED; --ink-2:#B4BEC8; --ink-3:#8A96A2;
+      --rule:#2A343F; --rule-2:#212B35;
+      --accent:#D9A441; --accent-mark:#D9A441; --accent-soft:#2A2415;
+      --pos:#2FA483; --neg:#DE6A50;
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#0C1218; --surface:#151D26; --surface-2:#1B242E;
+    --ink:#E7EAED; --ink-2:#B4BEC8; --ink-3:#8A96A2;
+    --rule:#2A343F; --rule-2:#212B35;
+    --accent:#D9A441; --accent-mark:#D9A441; --accent-soft:#2A2415;
+    --pos:#2FA483; --neg:#DE6A50;
+  }
+
+  *{box-sizing:border-box}
+  body{
+    background:var(--ground); color:var(--ink);
+    font-family:var(--sans); font-size:16px; line-height:1.62;
+    margin:0; padding:0 20px 88px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:820px;margin:0 auto}
+  p{margin:0}
+  h1,h2,h3{margin:0;text-wrap:balance;font-weight:600}
+
+  /* ---------- masthead ---------- */
+  .masthead{
+    border-bottom:2px solid var(--ink);
+    padding:52px 0 18px; margin-bottom:34px;
+    display:flex; flex-direction:column; gap:18px;
+  }
+  .kicker{
+    font-family:var(--mono); font-size:11px; letter-spacing:.18em;
+    text-transform:uppercase; color:var(--accent);
+    display:flex; flex-wrap:wrap; gap:14px;
+  }
+  .kicker span:not(:first-child){color:var(--ink-3)}
+  h1{
+    font-family:var(--serif); font-weight:400;
+    font-size:clamp(2.5rem,7vw,4rem); line-height:1.04;
+    letter-spacing:-.015em;
+  }
+  .standfirst{
+    font-family:var(--serif); font-size:1.2rem; line-height:1.55;
+    color:var(--ink-2); max-width:62ch;
+  }
+
+  /* ---------- verdict ---------- */
+  .verdict{
+    background:var(--surface); border:1px solid var(--rule);
+    border-left:3px solid var(--accent-mark);
+    padding:26px 30px; margin-bottom:46px;
+    display:flex; flex-direction:column; gap:12px;
+  }
+  .verdict-label{
+    font-family:var(--mono); font-size:11px; letter-spacing:.16em;
+    text-transform:uppercase; color:var(--ink-3);
+  }
+  .verdict-call{
+    font-family:var(--serif); font-size:1.55rem; line-height:1.3;
+    letter-spacing:-.01em;
+  }
+  .verdict p{color:var(--ink-2);max-width:64ch}
+
+  /* ---------- sections ---------- */
+  section{margin-bottom:52px;display:flex;flex-direction:column;gap:18px}
+  .eyebrow{
+    font-family:var(--mono); font-size:11px; letter-spacing:.16em;
+    text-transform:uppercase; color:var(--accent);
+    padding-bottom:8px; border-bottom:1px solid var(--rule);
+  }
+  h2{font-family:var(--serif);font-weight:400;font-size:2rem;line-height:1.18;letter-spacing:-.012em}
+  h3{font-size:1rem;letter-spacing:.005em}
+  section p{max-width:68ch;color:var(--ink-2)}
+  section p strong{color:var(--ink);font-weight:600}
+  em{font-style:italic}
+
+  /* ---------- exhibits ---------- */
+  figure{
+    margin:8px 0; background:var(--surface);
+    border:1px solid var(--rule); padding:24px 26px 20px;
+    display:flex; flex-direction:column; gap:18px;
+  }
+  figcaption{display:flex;flex-direction:column;gap:5px}
+  .ex-no{
+    font-family:var(--mono); font-size:10.5px; letter-spacing:.16em;
+    text-transform:uppercase; color:var(--ink-3);
+  }
+  .ex-title{font-weight:600;font-size:1rem;color:var(--ink)}
+  .ex-note{font-size:.82rem;color:var(--ink-3);line-height:1.5;max-width:66ch}
+
+  /* stat tiles */
+  .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--rule-2)}
+  .tile{background:var(--surface);padding:16px 18px;display:flex;flex-direction:column;gap:5px}
+  .tile-k{font-size:.76rem;color:var(--ink-3);line-height:1.35}
+  .tile-v{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:1.5rem;font-weight:600;letter-spacing:-.02em}
+  .tile-v.up{color:var(--pos)} .tile-v.down{color:var(--neg)}
+  .tile-s{font-size:.74rem;color:var(--ink-3)}
+
+  /* bar charts */
+  .chart{display:flex;flex-direction:column;gap:7px}
+  .row{display:grid;grid-template-columns:minmax(88px,132px) 1fr;gap:14px;align-items:center}
+  .row-lab{font-size:.82rem;color:var(--ink-2);text-align:right;line-height:1.25}
+  .row-lab b{font-weight:600;color:var(--ink)}
+  .plot{position:relative;height:22px}
+  .zero{position:absolute;top:-3px;bottom:-3px;width:1px;background:var(--rule);z-index:1}
+  .bar{position:absolute;top:0;height:22px;border-radius:0;z-index:2}
+  .bar.pos{background:var(--pos);border-radius:0 4px 4px 0}
+  .bar.neg{background:var(--neg);border-radius:4px 0 0 4px}
+  .bar.acc{background:var(--accent-mark);border-radius:0 4px 4px 0}
+  .bar.mut{background:var(--ink-3);border-radius:0 4px 4px 0;opacity:.55}
+  .val{
+    position:absolute;top:0;height:22px;display:flex;align-items:center;
+    font-family:var(--mono);font-variant-numeric:tabular-nums;
+    font-size:.78rem;font-weight:600;color:var(--ink-2);z-index:3;white-space:nowrap;
+  }
+  .axis{
+    display:flex;justify-content:space-between;
+    font-family:var(--mono);font-size:.7rem;color:var(--ink-3);
+    padding-top:7px;border-top:1px solid var(--rule-2);margin-top:3px;
+  }
+  /* hover layer */
+  .row{position:relative}
+  .row[data-tip]:hover{background:var(--surface-2)}
+  .row[data-tip]::after{
+    content:attr(data-tip);position:absolute;right:0;bottom:calc(100% + 4px);
+    background:var(--ink);color:var(--surface);
+    font-family:var(--sans);font-size:.74rem;line-height:1.4;
+    padding:6px 9px;border-radius:3px;max-width:300px;
+    opacity:0;pointer-events:none;transition:opacity .12s;z-index:9;
+  }
+  .row[data-tip]:hover::after{opacity:1}
+
+  /* ---------- positions ---------- */
+  ol.positions{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:1px;background:var(--rule-2);border:1px solid var(--rule)}
+  ol.positions li{background:var(--surface);padding:18px 22px;display:grid;grid-template-columns:32px 1fr;gap:16px;align-items:start}
+  .rank{font-family:var(--mono);font-size:1.1rem;font-weight:600;color:var(--accent);line-height:1.4}
+  .pos-body{display:flex;flex-direction:column;gap:6px}
+  .pos-head{display:flex;flex-wrap:wrap;gap:10px;align-items:baseline}
+  .pos-name{font-weight:600;color:var(--ink)}
+  .chip{
+    font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+    padding:3px 8px;border:1px solid var(--rule);color:var(--ink-3);border-radius:2px;white-space:nowrap;
+  }
+  .chip.high{color:var(--pos);border-color:var(--pos)}
+  .chip.opt{color:var(--accent);border-color:var(--accent-mark)}
+  .pos-body p{font-size:.92rem;color:var(--ink-2);max-width:62ch}
+
+  /* ---------- risks ---------- */
+  .risks{display:flex;flex-direction:column;gap:1px;background:var(--rule-2);border:1px solid var(--rule)}
+  .risk{background:var(--surface);padding:16px 20px;display:flex;flex-direction:column;gap:5px}
+  .risk-h{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+  .risk-t{font-weight:600;font-size:.95rem}
+  .risk.dominant{border-left:3px solid var(--neg)}
+  .risk p{font-size:.9rem;color:var(--ink-2);max-width:64ch}
+  .trigger{font-family:var(--mono);font-size:.78rem;color:var(--neg)}
+
+  /* ---------- table ---------- */
+  .tbl-scroll{overflow-x:auto}
+  table{border-collapse:collapse;width:100%;font-size:.86rem;min-width:440px}
+  caption{text-align:left;font-size:.82rem;color:var(--ink-3);padding-bottom:10px}
+  th,td{text-align:left;padding:9px 14px 9px 0;border-bottom:1px solid var(--rule-2)}
+  th{font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);border-bottom:1px solid var(--rule)}
+  td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:right;padding-right:0}
+  td.up{color:var(--pos)} td.down{color:var(--neg)}
+
+  /* ---------- pull ---------- */
+  .pull{
+    font-family:var(--serif);font-size:1.4rem;line-height:1.42;
+    color:var(--ink);border-left:3px solid var(--accent-mark);
+    padding:6px 0 6px 24px;margin:6px 0;max-width:60ch;
+  }
+
+  footer{
+    border-top:1px solid var(--rule);padding-top:22px;margin-top:12px;
+    display:flex;flex-direction:column;gap:14px;
+    font-size:.82rem;color:var(--ink-3);
+  }
+  footer a{color:var(--accent)}
+  footer h3{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);font-weight:400}
+  .srcs{display:flex;flex-wrap:wrap;gap:6px 16px}
+  .disclaim{max-width:68ch;line-height:1.55}
+  a:focus-visible,.row:focus-visible{outline:2px solid var(--accent-mark);outline-offset:2px}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+  @media (max-width:560px){
+    .row{grid-template-columns:1fr;gap:3px}
+    .row-lab{text-align:left}
+    ol.positions li{grid-template-columns:24px 1fr;gap:12px}
+  }
+</style>
+
+<div class="wrap">
+
+<header class="masthead">
+  <div class="kicker">
+    <span>Investment Case</span><span>EMEA Equities</span><span>17 August 2026</span>
+  </div>
+  <h1>Europe's Stagflation Rally</h1>
+  <p class="standfirst">The Stoxx 600 is at a record high. The eurozone economy shrank last quarter and the ECB is raising rates. Both of those facts are true, and the reason they can be true at once is the entire investment case.</p>
+</header>
+
+<div class="verdict">
+  <div class="verdict-label">The call</div>
+  <div class="verdict-call">Moderate overweight EMEA, funded from US large-cap — but own the war-resilient earnings, not the index.</div>
+  <p>The cheap-Europe argument you have heard is roughly half right and badly reasoned. The valuation gap is real. The macro is genuinely bad. The resolution is that the earnings driving this market are produced by sectors the bad macro is <em>helping</em>. Buy those. Do not buy a European economic recovery — that is a separate trade, it has not started, and it needs a war to end first.</p>
+</div>
+
+<section>
+  <div class="eyebrow">The setup</div>
+  <h2>A record that nobody is celebrating</h2>
+  <p>The pan-European Stoxx 600 closed at 656.86 on 4 August, an all-time high, and is up roughly 10% year-to-date. The German DAX, French CAC 40 and Italian FTSE MIB have all printed record peaks. The FTSE 100 entered the year through 10,000 for the first time.</p>
+  <p>Europe is still <em>behind</em> North America in 2026 — 10% against 13.5%. But Goldman Sachs makes the point that gets lost: measured from the start of 2025, through both a tariff shock and an energy crisis, the Stoxx has <strong>outperformed the S&amp;P 500</strong>. European banks have beaten the Magnificent 7 since 2022. The "Europe is uninvestable" narrative is not a view, it is an unchecked habit.</p>
+</section>
+
+<section>
+  <div class="eyebrow">The contradiction</div>
+  <h2>Records printed into a contracting economy</h2>
+  <p>Here is what most notes on European equities skip, because it is inconvenient.</p>
+
+  <figure>
+    <div class="tiles">
+      <div class="tile"><div class="tile-k">Stoxx 600 YTD</div><div class="tile-v up">+10%</div><div class="tile-s">Record 656.86</div></div>
+      <div class="tile"><div class="tile-k">Eurozone GDP, Q1 2026</div><div class="tile-v down">&minus;0.2%</div><div class="tile-s">Quarter on quarter</div></div>
+      <div class="tile"><div class="tile-k">Headline inflation</div><div class="tile-v down">3.2%</div><div class="tile-s">Core 2.5%, rising</div></div>
+      <div class="tile"><div class="tile-k">ECB deposit rate</div><div class="tile-v down">2.25%</div><div class="tile-s">Hiked June, first in 3 yrs</div></div>
+    </div>
+    <figcaption>
+      <div class="ex-no">Exhibit A</div>
+      <div class="ex-title">The market and the economy have decoupled</div>
+      <p class="ex-note">Output contracting, prices accelerating, policy tightening — a textbook stagflation. Full-year 2026 eurozone growth has been revised down to 0.8–0.9%. The ECB expects inflation to average 3% this year, cooling to 2.3% in 2027 and hitting target only in 2028.</p>
+    </figcaption>
+  </figure>
+
+  <p>The proximate cause is the US–Israel war on Iran, which drove Brent to a peak above $126 on 30 April. Europe is a large net energy importer, so the shock landed directly on both inflation and real incomes. In June the ECB lifted the deposit rate from 2.00% to 2.25% — its first increase in nearly three years — abandoning the easing path the market had assumed all year.</p>
+  <p class="pull">A market at all-time highs, an economy in contraction, and a central bank tightening into it. If that combination does not make you uncomfortable, you have not understood the position.</p>
+</section>
+
+<section>
+  <div class="eyebrow">The resolution</div>
+  <h2>The index is not the economy</h2>
+  <p>The Stoxx 600 is a claim on global earnings that happen to be listed in Europe — roughly 60% of its revenue is earned outside the region. Its largest sectors are financials, pharma, technology, energy, utilities, telecoms and aerospace. Almost none of that is a bet on eurozone GDP.</p>
+  <p>And the three engines of the 2026 rally are each <strong>helped by the same macro that is hurting the domestic economy</strong>:</p>
+  <p><strong>Banks, the largest sector, are up 22% year-to-date.</strong> The ECB hike is a direct tailwind — it defers the net-interest-income compression the market had priced in for 2026. Consolidation and strong margins are doing the rest. A hawkish ECB is bullish for the biggest thing you own. <strong>Energy</strong> repriced upward on the war and led one of Europe's strongest quarters of earnings growth in years. <strong>Semiconductors</strong> are riding global AI capex, not European demand.</p>
+  <p>Meanwhile the parts genuinely exposed to a weak European consumer have already been marked down hard.</p>
+
+  <figure>
+    <div class="chart">
+      <div class="row" data-tip="Soitec — SOI wafer maker, AI/RF demand. The single best European performer of 2026."><div class="row-lab"><b>Soitec</b></div><div class="plot"><div class="zero" style="left:12.3%"></div><div class="bar pos" style="left:12.3%;width:87.7%"></div><div class="val" style="left:calc(12.3% + 8px);color:var(--surface)">+371%</div></div></div>
+      <div class="row" data-tip="AT&amp;S — Austrian IC substrate manufacturer."><div class="row-lab"><b>AT&amp;S</b></div><div class="plot"><div class="zero" style="left:12.3%"></div><div class="bar pos" style="left:12.3%;width:78.0%"></div><div class="val" style="left:calc(12.3% + 8px);color:var(--surface)">+330%</div></div></div>
+      <div class="row" data-tip="Technoprobe — semiconductor test probe cards."><div class="row-lab"><b>Technoprobe</b></div><div class="plot"><div class="zero" style="left:12.3%"></div><div class="bar pos" style="left:12.3%;width:29.1%"></div><div class="val" style="left:calc(12.3% + 8px);color:var(--surface)">+123%</div></div></div>
+      <div class="row" data-tip="Aixtron — deposition equipment for compound semiconductors."><div class="row-lab"><b>Aixtron</b></div><div class="plot"><div class="zero" style="left:12.3%"></div><div class="bar pos" style="left:12.3%;width:27.4%"></div><div class="val" style="left:calc(12.3% + 8px);color:var(--surface)">+116%</div></div></div>
+      <div class="row" data-tip="STMicroelectronics — the largest of the semi leaders by market cap."><div class="row-lab"><b>STMicro</b></div><div class="plot"><div class="zero" style="left:12.3%"></div><div class="bar pos" style="left:12.3%;width:23.9%"></div><div class="val" style="left:calc(12.3% + 8px);color:var(--surface)">+101%</div></div></div>
+      <div class="row" data-tip="Stoxx 600 Banks index — the largest index sector, lifted by consolidation and margins."><div class="row-lab"><b>Banks index</b></div><div class="plot"><div class="zero" style="left:12.3%"></div><div class="bar pos" style="left:12.3%;width:5.2%"></div><div class="val" style="left:calc(17.5% + 8px)">+22%</div></div></div>
+      <div class="row" data-tip="The headline index — the average of a market pulling violently in both directions."><div class="row-lab"><b>Stoxx 600</b></div><div class="plot"><div class="zero" style="left:12.3%"></div><div class="bar mut" style="left:12.3%;width:2.4%"></div><div class="val" style="left:calc(14.7% + 8px)">+10%</div></div></div>
+      <div class="row" data-tip="Stoxx Autos index — the clearest expression of the weak European consumer."><div class="row-lab"><b>Autos index</b></div><div class="plot"><div class="zero" style="left:12.3%"></div><div class="bar neg" style="left:8.5%;width:3.8%"></div><div class="val" style="left:calc(12.3% + 8px);color:var(--neg)">&minus;16%</div></div></div>
+      <div class="row" data-tip="Volkswagen — volume autos, squeezed on demand and transition costs."><div class="row-lab"><b>Volkswagen</b></div><div class="plot"><div class="zero" style="left:12.3%"></div><div class="bar neg" style="left:5.8%;width:6.5%"></div><div class="val" style="left:calc(12.3% + 8px);color:var(--neg)">&minus;27.6%</div></div></div>
+      <div class="row" data-tip="Stellantis — the worst major European performer of 2026."><div class="row-lab"><b>Stellantis</b></div><div class="plot"><div class="zero" style="left:12.3%"></div><div class="bar neg" style="left:0%;width:12.3%"></div><div class="val" style="left:calc(12.3% + 8px);color:var(--neg)">&minus;51.9%</div></div></div>
+      <div class="axis"><span>&minus;52%</span><span>0</span><span>+371%</span></div>
+    </div>
+    <figcaption>
+      <div class="ex-no">Exhibit B</div>
+      <div class="ex-title">Total return dispersion, 2026 year-to-date</div>
+      <p class="ex-note">Single linear axis. The market has already sorted itself: it is not ignoring the stagflation, it has priced it into the domestic cyclicals and paid up for everything insulated from it. Values direct-labelled because the range compresses the negative bars.</p>
+    </figcaption>
+  </figure>
+
+  <p>That dispersion is the most important chart in this note. A market that pays 371% for a wafer maker and takes 52% off a mass-market carmaker is <em>discriminating</em>, not euphoric. It changes what "buying Europe" should mean — index exposure buys you the average of two violently opposed trades.</p>
+</section>
+
+<section>
+  <div class="eyebrow">Why now</div>
+  <h2>Four supports under the position</h2>
+
+  <h3>1 &nbsp;Earnings are actually delivering</h3>
+  <p>Q2 growth came in around 17%, the strongest in four years, led by energy and technology. Revision breadth is running 65% upward against 35% downward and has been improving since late May. Consensus for Q3 and full-year 2026 has moved to roughly 20% EPS growth, up from mid-teens three months ago. This is a market being repriced on rising estimates, not just a rising multiple.</p>
+  <p><strong>The honest caveat:</strong> the sell-side spread here is enormous. Goldman models 5% EPS growth for 2026; UBS models 14%; bottom-up consensus says 20%. That is not a forecast, it is a range of opinion four times wide. Underwrite the low end and treat anything above it as upside.</p>
+
+  <h3>2 &nbsp;The valuation gap is still open</h3>
+  <figure>
+    <div class="chart">
+      <div class="row" data-tip="S&amp;P 500 — roughly 24–25x forward earnings."><div class="row-lab"><b>S&amp;P 500</b></div><div class="plot"><div class="bar mut" style="left:0;width:81.7%"></div><div class="val" style="left:calc(81.7% + 8px)">24.5&times;</div></div></div>
+      <div class="row" data-tip="European equity market forward P/E — roughly a 30% discount to the S&amp;P 500."><div class="row-lab"><b>Europe</b></div><div class="plot"><div class="bar acc" style="left:0;width:53.0%"></div><div class="val" style="left:calc(53.0% + 8px)">15.9&times;</div></div></div>
+      <div class="row" data-tip="FTSE 100 — the widest discount of the major developed indices."><div class="row-lab"><b>FTSE 100</b></div><div class="plot"><div class="bar acc" style="left:0;width:46.7%"></div><div class="val" style="left:calc(46.7% + 8px)">14.0&times;</div></div></div>
+      <div class="axis"><span>0&times;</span><span>30&times;</span></div>
+    </div>
+    <figcaption>
+      <div class="ex-no">Exhibit C</div>
+      <div class="ex-title">12-month forward price/earnings</div>
+      <p class="ex-note">MSCI Europe carries roughly a 30% P/E discount to the S&amp;P 500. MSCI Europe ex-UK is the only major equity index whose forward P/E currently sits below its start-2022 level.</p>
+    </figcaption>
+  </figure>
+  <p>Part of that gap is justified — sector mix and genuinely lower structural growth explain a chunk of it. But not all of it, and the residual is wide enough that you are paid for holding the part that is not explained. One correction to the usual pitch: Europe's 2.4% trailing dividend yield versus the S&amp;P's 1.06% <em>overstates</em> the income advantage, because US buybacks lift American total shareholder yield to 2.5–3.0%. Europe is dividend-led, the US is buyback-led; the real yield gap is narrow.</p>
+
+  <h3>3 &nbsp;Positioning is mid-cycle, not crowded</h3>
+  <figure>
+    <div class="chart">
+      <div class="row" data-tip="February 2026 — peak enthusiasm, rotation out of the US into Europe and EM."><div class="row-lab"><b>Feb 2026</b></div><div class="plot"><div class="zero" style="left:18.2%"></div><div class="bar pos" style="left:18.2%;width:63.6%"></div><div class="val" style="left:calc(81.8% + 8px)">+35</div></div></div>
+      <div class="row" data-tip="May 2026 — one of the most extreme Europe-to-US rotations in BofA's data back to 1999."><div class="row-lab"><b>May 2026</b></div><div class="plot"><div class="zero" style="left:18.2%"></div><div class="bar neg" style="left:10.9%;width:7.3%"></div><div class="val" style="left:calc(18.2% + 8px);color:var(--neg)">&minus;4</div></div></div>
+      <div class="row" data-tip="August 2026 — back to a marginal overweight, with the index at record highs."><div class="row-lab"><b>Aug 2026</b></div><div class="plot"><div class="zero" style="left:18.2%"></div><div class="bar pos" style="left:18.2%;width:3.6%"></div><div class="val" style="left:calc(21.8% + 8px)">+2</div></div></div>
+      <div class="axis"><span>&minus;10</span><span>0</span><span>+45</span></div>
+    </div>
+    <figcaption>
+      <div class="ex-no">Exhibit D</div>
+      <div class="ex-title">Net % of fund managers overweight European equities</div>
+      <p class="ex-note">BofA Global Fund Manager Survey. Investors are barely overweight a market at all-time highs, having round-tripped an extreme rotation. Citigroup separately finds Europe the only major region with improving risk appetite.</p>
+    </figcaption>
+  </figure>
+  <p>This matters because it means the sentiment trade is <em>not</em> finished. A net 2% overweight is not a crowded position — it is the shallow end of a range that touched net 35% as recently as February.</p>
+
+  <h3>4 &nbsp;The reallocation pool is structural</h3>
+  <p>Between 2009 and early 2026, US equity funds attracted roughly €224bn of net inflows while European funds shed about €316bn — a divergence exceeding €540bn. That flow gap does not need to <em>reverse</em> for European equities to work. It only needs to stop getting worse.</p>
+</section>
+
+<section>
+  <div class="eyebrow">Currency</div>
+  <h2>The FX point that gets double-counted</h2>
+  <p>EUR/USD sits at 1.1564. Goldman targets roughly 1.25 by year-end; J.P. Morgan and ING target 1.22. For a dollar-based investor that is a material unhedged tailwind on top of local returns.</p>
+  <p>But the same euro strength is a <strong>headwind to the earnings themselves</strong>. Goldman explicitly cut its European EPS forecast by two to three percentage points because of expected dollar weakness — an index earning 60% of revenue abroad translates a strong euro into weaker reported profit.</p>
+  <p class="pull">Anyone showing you a 20% EPS number and a 1.25 euro in the same bull case is counting the same move twice. They partly cancel.</p>
+  <p><strong>Practical conclusion:</strong> stay unhedged as a USD investor — the currency gain is first-order and the translation drag second-order — but do not underwrite both legs at once. If the euro runs to 1.25, expect the earnings number to be revised toward the lower end of that four-times-wide sell-side range.</p>
+</section>
+
+<section>
+  <div class="eyebrow">Implementation</div>
+  <h2>What to own, in order of conviction</h2>
+  <ol class="positions">
+    <li>
+      <div class="rank">1</div>
+      <div class="pos-body">
+        <div class="pos-head"><span class="pos-name">European banks</span><span class="chip high">Highest conviction</span></div>
+        <p>The largest index sector, up 22% year-to-date and still not expensive. The ECB hiking cycle is the tailwind, consolidation is live, and margins are holding. This is the one position that works <em>because of</em> the bad macro rather than despite it — which is exactly what you want when the macro is the main risk.</p>
+      </div>
+    </li>
+    <li>
+      <div class="rank">2</div>
+      <div class="pos-body">
+        <div class="pos-head"><span class="pos-name">Defence &amp; infrastructure</span><span class="chip">Structural</span></div>
+        <p>German fiscal spending is the strongest single growth impulse in 2026, worth an estimated 0.5pp cumulatively to euro-area growth over 2025–28 on ECB numbers. It is legislated, multi-year, and largely insensitive to the business cycle. Ongoing conflict makes reversal politically impossible in the forecast horizon.</p>
+      </div>
+    </li>
+    <li>
+      <div class="rank">3</div>
+      <div class="pos-body">
+        <div class="pos-head"><span class="pos-name">Energy</span><span class="chip">Internal hedge</span></div>
+        <p>Hold it specifically as the offset to the Iran risk carried by everything else in the book. If the ceasefire collapses and Brent runs back toward $126, this is the position that protects the rest. You are buying it for the correlation, not the multiple.</p>
+      </div>
+    </li>
+    <li>
+      <div class="rank">4</div>
+      <div class="pos-body">
+        <div class="pos-head"><span class="pos-name">Emerging EMEA</span><span class="chip">Cheapest genuine opportunity</span></div>
+        <p>Greece, Poland and Czechia have advanced 16–25% year-to-date and still trade at discounts to eurozone peers with real convergence room. South African financials are leading on GNU policy continuity and macro stability. Saudi is more balanced — valuations have reset and bank earnings are resilient, but lower oil and tight liquidity offset; the expected easing of foreign ownership limits in 2026 is a concrete catalyst worth pre-positioning for.</p>
+      </div>
+    </li>
+    <li>
+      <div class="rank">5</div>
+      <div class="pos-body">
+        <div class="pos-head"><span class="pos-name">Domestic cyclicals</span><span class="chip opt">Option, not a position</span></div>
+        <p>Autos and luxury are down far enough that a durable ceasefire plus falling energy costs would re-rate them violently. Size this as premium you can afford to lose entirely, because the trigger is genuinely binary and outside your control.</p>
+      </div>
+    </li>
+  </ol>
+  <p><strong>Underweight:</strong> broad domestic consumer discretionary and rate-sensitive real estate. And do not chase the semiconductor leadership after moves of +101% to +371% into a group that is already showing a pullback — that is where the froth in this market actually sits, and it is the one part of Europe that carries US-style AI concentration risk.</p>
+</section>
+
+<section>
+  <div class="eyebrow">Risk</div>
+  <h2>What kills this trade</h2>
+  <div class="risks">
+    <div class="risk dominant">
+      <div class="risk-h"><span class="risk-t">Ceasefire collapse</span><span class="chip" style="color:var(--neg);border-color:var(--neg)">Dominant &amp; binary</span></div>
+      <p>Washington and Tehran have "mostly agreed" a 60-day memorandum extending the ceasefire, but strikes continue — ballistic missiles at Kuwait, drones toward the Strait of Hormuz — and UBS notes little evidence of improving vessel traffic or energy flows. Brent has round-tripped from $126 on 30 April to about $71. A move back above $100 restores the inflation impulse, forces further ECB tightening and compresses the multiple.</p>
+      <p class="trigger">Exit trigger: Brent sustained &gt; $100</p>
+    </div>
+    <div class="risk">
+      <div class="risk-h"><span class="risk-t">Core inflation above 3%</span></div>
+      <p>The market is priced for the June hike being close to one-and-done. A core print above 3% turns the bank thesis inside out — from an NII tailwind into credit costs and recession fear, which would take out the highest-conviction leg of the position.</p>
+      <p class="trigger">Exit trigger: euro-area core CPI &gt; 3.0%</p>
+    </div>
+    <div class="risk">
+      <div class="risk-h"><span class="risk-t">Earnings breadth rolls over</span></div>
+      <p>Revision breadth at 65% up / 35% down is the cleanest single confirmation that the earnings leg is intact. Below 50% the thesis has lost its main support, regardless of what the valuation gap says.</p>
+      <p class="trigger">Exit trigger: upward revisions &lt; 50% of total</p>
+    </div>
+    <div class="risk">
+      <div class="risk-h"><span class="risk-t">Consensus converges downward</span></div>
+      <p>If bottom-up 2026 EPS drifts from 20% toward Goldman's 5% rather than the reverse, the market is paying 15.9x for materially less growth than advertised — and the discount to the US stops looking like an opportunity.</p>
+      <p class="trigger">Watch: FY26 consensus EPS revisions</p>
+    </div>
+    <div class="risk">
+      <div class="risk-h"><span class="risk-t">AI capex disappointment</span><span class="chip">Partly cushioned</span></div>
+      <p>This hits the semiconductor leadership hardest, and those names are extended. Note the asymmetry, though: Europe's <em>lower</em> AI concentration is a relative cushion versus the US in that scenario — one of the few places where the region's structural weakness becomes a defensive advantage.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Summary</div>
+  <h2>The position in one page</h2>
+  <div class="tbl-scroll">
+    <table>
+      <caption>Key figures underpinning the case, as at 17 August 2026.</caption>
+      <thead><tr><th>Measure</th><th>Reading</th><th style="text-align:right">Implication</th></tr></thead>
+      <tbody>
+        <tr><td>Stoxx 600 YTD</td><td class="num up">+10%</td><td style="text-align:right">Record high, still behind US at +13.5%</td></tr>
+        <tr><td>Europe forward P/E</td><td class="num">15.9&times;</td><td style="text-align:right">~30% discount to S&amp;P 500</td></tr>
+        <tr><td>Q2 earnings growth</td><td class="num up">+17%</td><td style="text-align:right">Strongest in four years</td></tr>
+        <tr><td>Revision breadth</td><td class="num up">65% up</td><td style="text-align:right">Improving since late May</td></tr>
+        <tr><td>FY26 EPS consensus</td><td class="num">5–20%</td><td style="text-align:right">Range too wide to trust; underwrite 5%</td></tr>
+        <tr><td>Positioning</td><td class="num">net +2% OW</td><td style="text-align:right">Room to run; peaked at +35% in Feb</td></tr>
+        <tr><td>Eurozone GDP, Q1</td><td class="num down">&minus;0.2%</td><td style="text-align:right">The risk you are accepting</td></tr>
+        <tr><td>ECB deposit rate</td><td class="num">2.25%</td><td style="text-align:right">Tightening — but a bank tailwind</td></tr>
+        <tr><td>Brent crude</td><td class="num">~$71</td><td style="text-align:right">Down 38% from April peak of $126</td></tr>
+        <tr><td>EUR/USD</td><td class="num">1.1564</td><td style="text-align:right">Street targets 1.22–1.25; stay unhedged</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>You are buying an index at record highs during a stagflation, which sounds indefensible and is not — because the earnings driving it come from banks, energy and global technology that the stagflation is actively helping. You get a 30% valuation discount, a positioning base barely above neutral, and a €540bn structural underallocation that only has to stop getting worse.</p>
+  <p class="pull">Own the first leg now. Keep the option on the second. The war is the hinge on both.</p>
+</section>
+
+<footer>
+  <h3>Sources</h3>
+  <div class="srcs">
+    <a href="https://www.euronews.com/business/2026/08/06/european-stocks-hit-record-highs-the-10-best-performers-of-2026">Euronews — best performers 2026</a>
+    <a href="https://www.cnbc.com/2026/08/05/stoxx-600-record-leaders-laggards-markets.html">CNBC — Stoxx 600 record high</a>
+    <a href="https://www.cnbc.com/2026/08/16/goldman-stock-market-outperformance.html">CNBC — Goldman on Europe's myths</a>
+    <a href="https://www.euronews.com/business/2026/06/11/ecb-raises-interest-rates-for-the-first-time-in-three-years-as-iran-war-fuels-inflation">Euronews — ECB June hike</a>
+    <a href="https://www.ecb.europa.eu/press/projections/html/ecb.projections202606_eurosystemstaff~a495110f8d.en.html">ECB — June 2026 staff projections</a>
+    <a href="https://www.goldmansachs.com/insights/articles/economic-growth-is-forecast-to-drive-a-modest-rise-in-europe">Goldman Sachs — European equity outlook</a>
+    <a href="https://insight.factset.com/stoxx-600-europe-delivers-one-of-its-strongest-q2-earnings-growth-rates-in-years-led-by-energy">FactSet — Q2 earnings</a>
+    <a href="https://www.aljazeera.com/economy/2026/7/2/oil-prices-fall-to-levels-not-seen-since-start-of-us-israel-war-on-iran">Al Jazeera — oil off war peak</a>
+    <a href="https://www.cnbc.com/2026/05/29/oil-prices-iran-ceasefire-us-trump-strait-hormuz-energy-costs.html">CNBC — Iran ceasefire talks</a>
+    <a href="https://portfolio-adviser.com/boa-merrill-lynch-record-number-of-european-fund-managers-rotate-into-us-stocks/">Portfolio Adviser — BofA FMS rotation</a>
+    <a href="https://am.jpmorgan.com/lu/en/asset-management/per/insights/market-insights/investment-outlook/global-ex-us-equities/">J.P. Morgan AM — global ex-US equities</a>
+    <a href="https://www.trustnet.com/news/13471007/from-warsaw-to-cape-town-the-emerging-markets-stories-investors-shouldnt-miss">Trustnet — emerging EMEA</a>
+    <a href="https://www.lazardassetmanagement.com/li/en_gb/research-insights/investment-insights/investment-research/emerging-markets-outlook-2026">Lazard — EM outlook 2026</a>
+    <a href="https://www.ig.com/uk/news-and-trade-ideas/ftse-100-breaches-10-000-for-the-first-time-and-how-high-it-may--260102">IG — FTSE 100 through 10,000</a>
+    <a href="https://tradingeconomics.com/euro-area/currency">Trading Economics — EUR/USD</a>
+    <a href="https://www.ishares.com/ch/individual/en/products/251931/ishares-stoxx-europe-600-ucits-etf-de-fund">iShares — Stoxx 600 yield</a>
+  </div>
+  <p class="disclaim"><strong>Not investment advice.</strong> This note is a research summary prepared from publicly available secondary sources on 17 August 2026 and reflects a point-in-time view. Figures are as reported by the sources cited and have not been independently verified against primary market data; forward estimates are third-party forecasts, not projections of outcome. Market conditions — particularly the Iran conflict and the energy complex — are moving quickly and may have changed materially since publication. Do your own diligence and consider your own circumstances before acting.</p>
+</footer>
+
+</div>
