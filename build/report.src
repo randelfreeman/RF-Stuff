@@ -1,0 +1,1209 @@
+# Liontrust Asset Management PLC
+@@ LIO LN  ·  LSE Main Market  ·  ISIN GB0007388407  ·  UK Specialist Asset Manager  ·  Initiation of Coverage  ·  30 August 2026
+
+## Snapshot
+
+| Metric | Value | Metric | Value |
+|---|---|---|---|
+| Share price (last close, late Aug-26) | ~306.5p | AuMA (30 Jun 2026) | £24,255m |
+| Shares in issue (post River Global) | ~63.0m | FY26 gross profit | £123.0m |
+| Market capitalisation | ~£193m | FY26 adjusted PBT | £30.5m |
+| Net cash (31 Mar 2026) | £50.6m | FY26 adjusted operating margin | 24.0% |
+| Enterprise value | ~£142m | FY26 adjusted diluted EPS | 36.7p |
+| EV / AuMA | ~0.59% | FY26 total DPS | 19.0p |
+| P/E (FY26A adj.) | 8.4x | Dividend yield (FY26A) | 6.2% |
+| EV / FY26 gross profit | 1.16x | Gross debt | £nil |
+| All-time high (8 Sep 2021) | 2,560p | Drawdown from peak | -88% |
+
+> **The one-line thesis.** Liontrust is a debt-free, cash-generative, sub-scale UK active manager whose equity is priced at roughly 0.6% of assets — a level that implies terminal decline — while the operating business still converts ~24% of revenue into profit, has just posted its first sequential improvement in flows in four years, and sits in the most actively consolidating corner of the European asset management market. The debate is not whether the franchise has been impaired: it plainly has. The debate is whether the residual is worth more than the market's £142m enterprise value, and whether the board is the right owner of that residual.
+
+### Investment summary
+
+- **What has happened.** AuMA has fallen from a peak of ~£33.5bn (FY22) to £19.6bn at 31 March 2026, driven by ~£21bn of cumulative net outflows over four years and persistent underperformance in the flagship UK equity franchise. Gross profit has halved from £229.8m (FY23) to £123.0m (FY26); adjusted diluted EPS has fallen from 109.8p to 36.7p; the dividend has been cut from 72p to 19p. The shares are down ~88% from their September 2021 all-time high.
+- **What is changing.** FY26 showed the first genuine inflection points: net outflows narrowed to £4.2bn (FY25: £4.9bn) and then to just £357m in the June-2026 quarter (prior year: £1.1bn); institutional gross inflows exceeded £500m in a single quarter with £447m of net institutional inflows; the cost base was cut hard; a new capital allocation policy (minimum 50% payout plus buybacks) replaced an unaffordable fixed dividend; £10m of stock was retired at an average 266p; and the River Global acquisition added £3.0bn of AuMA and £10.5m of run-rate revenue for £7.6m of paper.
+- **Why the shares can work.** At ~£142m EV the market is paying ~4.2x our estimate of FY26 adjusted EBITDA and 0.59% of AuMA for a business with no debt, £50.6m of net cash, a 6%+ yield and a live consolidation option. River Global brings Martin Gilbert onto the board — the most experienced asset management consolidator in the UK — alongside a two-year lock-up for holders of 22.3% of River Global. That is not the profile of a company that intends to stand still.
+- **Why they may not.** The core Economic Advantage UK equity franchise, which built the company, has been substantially destroyed: Liontrust Special Situations has fallen from £6.5bn at the start of 2022 to under £1bn by January 2026. Revenue margin is compressing (0.60% to 0.55%, and River Global comes in at ~0.35%). Operational gearing works violently in both directions. And an activist holder of 3.6% has publicly told the board the business is worth more sold than run.
+- **Our stance.** The risk/reward is asymmetric but the catalyst is governance, not fundamentals. We see a 12-month standalone fair value of ~370–420p, a three-year base case of ~510p, and ~430–520p in a change-of-control scenario, against 12-month downside to ~180–200p (and ~130p in the full three-year bear case) if flows re-deteriorate and the revenue margin breaks below 0.50%.
+
+[PAGEBREAK]
+
+## 1 · A layman's guide: what Liontrust actually does
+
+### 1.1 The business in plain English
+
+Liontrust is a **fund management company**. It does not make anything, own factories, or lend money. It employs teams of investment professionals who pick shares and bonds on behalf of other people, pools that money into funds, and charges an annual fee — expressed as a percentage of the money it looks after — for doing so.
+
+Think of it as a **toll booth on a pile of money**. If Liontrust manages £24bn and charges an average of roughly 0.53% a year, it collects about £128m of revenue annually. That pile grows when (a) markets go up, or (b) more clients give it money. It shrinks when (a) markets fall, or (b) clients take money away. Almost everything else in the financial statements is a consequence of that single number.
+
+### 1.2 How the money actually flows
+
+1. An investor — a UK financial adviser's client, a wealth manager, a pension scheme, a European private bank — decides to buy a Liontrust fund.
+2. The money is invested into the fund. The fund's value is calculated daily and a slice of the annual management charge accrues every day.
+3. Liontrust receives that fee, pays away part of it to platforms, distributors and third-party administrators (this is why the company reports "gross profit" rather than pure revenue), and keeps the rest.
+4. Out of what it keeps, it pays salaries and bonuses to fund managers and distribution staff, rent, technology, regulatory and audit costs. What is left is operating profit.
+5. Because the cost base is largely fixed in the short run and the revenue line moves with markets and flows, profits are **highly geared** to AuMA.
+
+### 1.3 Where the "gross profit" language comes from
+
+Liontrust reports **revenue** (all fee income) and **gross profit** (revenue less direct commissions, rebates and distribution costs paid away). Gross profit is the line management, analysts and the incentive plans all focus on, because it is the true top line available to the shareholder. In FY2026 revenue was £134.4m and gross profit £123.0m.
+
+### 1.4 The divisions — and what each contributes
+
+Liontrust is not organised into legal "divisions" with separate P&Ls. It is organised into **investment processes** — self-contained teams, each with a codified philosophy, running money under the Liontrust brand. This matters: it is the source of both the company's culture and its key-person risk.
+
+| Investment process / team | What it does | Origin | Strategic role today |
+|---|---|---|---|
+| **Economic Advantage** (Anthony Cross, Julian Fosh, Victoria Stevens, Matt Tonge) | UK equities — companies with hard-to-replicate intangible assets (IP, distribution, recurring revenue) | Founding franchise, 1998 | Historically the profit engine; now materially shrunken. Special Situations fell from £6.5bn (Jan-22) to <£1.0bn (Jan-26) |
+| **Sustainable Investment** (Peter Michaelis, Simon Clements, Chris Foster) | Global, UK, European and fixed income sustainable strategies; all 10 UK funds carry the FCA "Sustainability Focus" SDR label from Apr-25 | Acquired with Alliance Trust Investments, 2017 | The largest single franchise and the principal international and institutional selling proposition |
+| **Multi-Asset** (John Husselbee, James Klempster) | Risk-targeted managed portfolios, MPS, managed funds — sold through UK financial advisers | Built out via Architas UK, 2020 | The most "sticky", advice-embedded and scalable channel; a genuine structural growth market |
+| **Global Fundamental** | Global and regional equity income / value strategies | Acquired with Majedie, 2022 | Diversifier; sub-scale relative to acquisition cost |
+| **Global Equity / Global Innovation** (Storm Uru, Clare Pleydell-Bouverie, James O'Connor) | Global technology, innovation and growth equities | Neptune (2019), rebuilt post-2021 | The strongest recent performance story and the best institutional pitch |
+| **Global Fixed Income** (Phil Milburn, Donald Phillips) | Global high yield, strategic bond, sustainable fixed income | Hired 2018 | Provides asset-class diversification away from equities |
+| **Cashflow Solution** (James Inglis-Jones, Samantha Gleave) | European and global equities screened on cash-flow characteristics | In-house | Niche; institutionally credible |
+| **European Opportunities** (Alexander Darwall) | Concentrated European equities | River Global / Devon Equity, 2026 | New; arrives with the EOT rollover vehicle |
+| **River Global strategies** | UK, global and specialist equity funds — eight top-quartile funds | Acquired 30 Jun 2026 | £2.96bn AuMA, £10.5m run-rate revenue, ~50% target operating margin post-synergies |
+
+~ Note: Liontrust does not disclose profit by investment process. Contribution above is characterised from AuMA, disclosed fund-level data, acquisition consideration and management commentary.
+
+[PAGEBREAK]
+
+## 2 · Business model, key drivers and the commercial architecture
+
+### 2.1 The five variables that determine the P&L
+
+| Driver | What it is | Direction FY23 to FY26 | Sensitivity |
+|---|---|---|---|
+| **Volume (AuMA)** | Average assets on which fees accrue | £38bn  to  £22.4bn average; -41% | ~£1.2m of gross profit per £220m of average AuMA |
+| **Pricing (revenue margin)** | Blended fee rate, net of rebates | 0.60% (FY25)  to  0.55% (FY26) | Each 1bp of margin ~ £2.4m of gross profit at current AuMA |
+| **Mix** | Retail (high fee) vs institutional / MPS (low fee); UK vs international | Adverse — retail shrinking, institutional and River Global growing at lower margin | River Global revenue margin ~0.35% vs group 0.55% |
+| **Cost base** | Largely fixed staff, premises, technology, regulatory | 16% reduction in total administration expenses in FY26; ~25 roles (~12% of group) removed | ~£93.5m of adjusted operating cost; each £1m ~ 0.8pt of margin |
+| **Capital / share count** | Buybacks vs LTIP dilution vs acquisition paper | 3.76m shares retired; ~3.0m issued for River Global | Roughly neutral in FY26–27 |
+
+> **The core mechanic to understand.** Liontrust has essentially no capital expenditure cycle, no inventory, no working capital of consequence and no debt. It is a pure operating-leverage machine. In FY23 it converted £229.8m of gross profit into £87.1m of adjusted PBT (37.9%). In FY26 it converted £123.0m into £30.5m (24.8%). Roughly 53% of every pound of lost gross profit fell straight through to lost profit. The same arithmetic works in reverse on the way up — which is the entire bull case.
+
+### 2.2 Products and services
+
+- **UK-domiciled open-ended funds** (OEICs/unit trusts) — the historical core; sold to UK retail investors through advisers and platforms.
+- **Irish- and Luxembourg-domiciled funds** (Liontrust GF range, SICAV) — the vehicle for international distribution into Continental Europe, Asia and Latin America.
+- **Managed Portfolio Service (MPS) and model portfolios** — risk-targeted portfolios delivered on adviser platforms; the fastest-growing UK distribution format.
+- **Segregated institutional mandates** — sub-advisory and direct mandates for pension schemes, insurers and sovereign clients; the current strategic priority.
+- **Investment trusts / closed-end funds** — including the Edinburgh Investment Trust mandate and, from 2026, the European Opportunities rollover vehicle.
+- **Sustainable / SDR-labelled range** — a regulatory-credentialed product set, one of the largest single-manager ranges to adopt the FCA "Sustainability Focus" label.
+
+### 2.3 Customers, suppliers, competitors
+
+**Customers.** Liontrust has almost no direct end-customers. Its economic clients are:
+- **UK financial advisers and their platforms** — Hargreaves Lansdown, AJ Bell, Fidelity Adviser Solutions, Transact, Quilter, abrdn Wrap, Aviva, Aegon, Nucleus. Fund selection is intermediated by these platforms' buy-lists and by adviser due-diligence teams.
+- **Discretionary wealth managers and private banks** — Rathbones, Brewin (RBC), Investec W&I, Evelyn Partners, Brooks Macdonald, plus Continental European private banks reached via the Luxembourg entity.
+- **Institutional asset owners** — UK and international pension schemes, insurers, endowments and sovereign investors; increasingly the growth channel (£800m+ of mandate wins in recent months, £447m net institutional inflows in the June-2026 quarter).
+- **Fund-of-fund and multi-manager buyers** — including model portfolio providers and DFMs.
+
+**Suppliers.** Market data and index vendors (Bloomberg, LSEG, FactSet, MSCI, FTSE Russell, Morningstar and ESG data vendors); execution and research brokers; fund administration, depositary, custody and transfer agency providers; audit, legal and compliance advisers; and outsourced operational providers — Liontrust has explicitly outsourced fund factsheet production and regulatory reporting to **Broadgate** as part of its cost programme. Corporate broking and equity research coverage includes **Peel Hunt**, **Berenberg** and **Deutsche Bank**.
+
+**Competitors.** See §12.3 for the full listed and private competitive set. The immediate competitive threat is threefold: (i) other UK active specialists with better performance (Polar Capital, Artemis, Baillie Gifford, Royal London, Jupiter post-CCLA); (ii) passive and ETF providers (BlackRock iShares, Vanguard, Legal & General, Amundi, State Street) taking the low-cost core allocation; and (iii) vertically-integrated distribution (St James's Place, Quilter, abrdn, platform in-house MPS) internalising the manufacturing margin.
+
+### 2.4 Key markets and geographies
+
+- **United Kingdom** — the overwhelming majority of AuMA and revenue. This is both the strength (deep adviser relationships, brand recognition, SDR credentials) and the structural problem (UK retail equity funds have been in persistent net redemption since 2021).
+- **Continental Europe** — served from **Liontrust International (Luxembourg) S.A.**, marketing the Dublin-domiciled GF range into France, Germany, Italy, Spain, Switzerland, Benelux and the Nordics through global banks, private banks and multi-managers.
+- **Rest of world** — selective institutional and sub-advisory relationships; management has repeatedly cited "expansion of our distribution internationally and broadening our client types" as the explanation for improving flows.
+
+### 2.5 Contracts and payment terms
+
+Disclosure is limited, as is normal for the sector, but the economics are well understood:
+- **Open-ended funds** — investment management agreements are terminable at short notice (typically 3–6 months, in some cases less) by the fund's board or ACD. Fees accrue daily on net asset value and are paid monthly in arrears out of fund assets. There is no contracted revenue and no backlog.
+- **Segregated institutional mandates** — typically 30–90 day termination, ad valorem fees billed quarterly in arrears, occasionally with performance fees subject to high-water marks. FY26 performance fee revenue was £3.7m (FY25: £3.6m), i.e. ~3% of gross profit — deliberately low.
+- **Investment trust mandates** — annual or continuing appointment subject to board review and, increasingly, continuation votes; the European Opportunities Trust experience is the cautionary case.
+- **Distribution** — platform and distributor rebates are deducted before gross profit. Liontrust bears these as a cost of access; it has no long-term distribution contracts that lock in shelf space.
+- **River Global consideration** — £7.6m satisfied by ~2.97m new shares at 255.87p, plus up to £2.1m of contingent "adjustment shares" (up to a further 820,722 shares at the same price) conditional on the European Opportunities Trust mandate outcome. Holders of 22.3% of River Global (Martin Gilbert and Christopher Mills) agreed to retain their Liontrust shares for at least two years.
+
+> **The single most important contractual fact about this business:** it has no contracted revenue whatsoever. Every pound of the £123m gross profit can, in theory, leave on 30 days' notice. That is why the market applies a low multiple, and why flows — not earnings — are the security's true fundamental.
+
+[PAGEBREAK]
+
+## 3 · Historical share price catalysts: what has moved LIO more than 5%
+
+Liontrust is a high-beta, low-liquidity mid/small-cap. Moves of >5% are common around the four scheduled disclosures (Q1 and Q3 trading statements, interim results in November, finals in June) and around any change in the perceived terminal value of the franchise. The table below sets out the events we can evidence over the five years to August 2026.
+
+| Date | Event | Direction | Why it mattered |
+|---|---|---|---|
+| **8 Sep 2021** | All-time high 2,560p | Peak | Culmination of the Majedie-era growth narrative, record AuMA (~£33–37bn) and 109.8p of adjusted EPS power. Everything since is measured from here |
+| **Jan–Jun 2022** | Global growth de-rating; UK retail equity outflows begin | Sharply down | The macro regime change. Rising rates de-rated the growth-quality style at the core of both Economic Advantage and Sustainable Investment |
+| **16 Feb 2022** | Remuneration GM — LTIP and policy passed 55.6% / 54% | Down / overhang | ISS and Glass Lewis recommended against a proposed 58% CEO pay rise. A governance discount was established that has never fully cleared |
+| **Sep–Oct 2022** | UK gilt crisis / mini-budget | Sharply down | UK-domiciled, UK-equity-heavy manager; domestic risk premium spiked |
+| **Mar 2023** | Two NEDs (Emma Howard Boyd, Quintin Price) resign with immediate effect | Down | Abrupt, unexplained board departures immediately preceding a contested transaction |
+| **4 May 2023** | **GAM Holding all-share offer announced** (~CHF107m / ~£96m) | Down | The market read it as a distraction, a governance risk and a use of undervalued paper. £1.6bn of assets left during the bid quarter |
+| **Jul–Aug 2023** | NewGAMe opposition escalates; complaint to Swiss Takeover Board | Down | Reputational damage to the CEO personally; "aggressive tactics bordering illegality" allegation |
+| **Aug 2023** | **GAM bid declared unsuccessful** (~1/3 acceptance vs 66%+ condition) | Relief rally, then resumed decline | Removed a bad deal but confirmed the strategic vacuum. Several GAM global-equity managers subsequently joined Liontrust anyway |
+| **FY24–FY25 quarterly updates** | Successive £1.0–1.6bn quarterly net outflows | Repeatedly down | Q4-CY24 alone: £1.6bn out, AuMA -5.3% to £24.6bn, further job cuts announced |
+| **13 Jan / 11 Mar / 31 Mar 2025** | Successive new 52-week and one-year lows | Down | Capitulation phase; the market began pricing structural decline rather than cyclical weakness |
+| **25 Jun 2025** | **FY25 results** — adjusted PBT -28% to £48.3m, gross profit £157.7m | Sharply down (reported -5% to -13% across sources) | The dividend was maintained at 72p against 56.8p of adjusted EPS — an unfunded payout that the market correctly read as unsustainable |
+| **20 Nov 2025** | **H1 FY26 results** — adjusted PBT £15.7m (H1 FY25: £25.8m); **dividend rebased to 7p interim**; £10m buyback announced | **Up** | *"Liontrust Asset Management jumps as outflows fall despite dividend cut."* The market rewarded the capital discipline over the headline cut — an important signal about what this shareholder register actually wants |
+| **12 Feb 2026** | **Nuveen/TIAA agrees £9.9bn cash offer for Schroders** at ~30% premium | Sector up | Re-rated the entire UK listed asset management complex and established a live, board-recommended, cash take-private precedent at the top of the market |
+| **16 Mar 2026** | **River Global acquisition announced** (£7.6m + £2.1m contingent, all-share) | Up | Accretive, cheap, all-paper, brings Martin Gilbert. Read as the first genuinely value-creating deal since 2020 |
+| **23 Mar 2026** | **Activist open letter** — GAM Alternatives PMs (3.6%) demand an immediate strategic review and sale | Up | Put an explicit takeover option into the price for the first time |
+| **24 Jun 2026** | **FY26 results** — adjusted operating margin 24% vs 23.3% consensus; revenue beat, adjusted PBT £30.5m broadly in line; new capital allocation policy | **Up ~12–15%** | The margin beat, not the revenue, was the surprise. Confirmed that the cost programme is real |
+| **22 Jul 2026** | **Q1 FY27 trading statement** — AuMA £24.3bn (+£4.7bn q/q); net outflows just £357m vs £1.1bn; institutional +£447m net | **Up (shares "surge")** | The first quarter in four years in which the flow trajectory looked genuinely broken to the upside |
+
+> **Pattern recognition.** Over five years the shares have fallen on *flows and pay*, and risen on *capital discipline and consolidation*. They have never once been rewarded for an acquisition of operating assets at full price (GAM, Majedie), but were rewarded immediately for a cheap all-paper deal (River Global) and for cutting an unaffordable dividend. That is a shareholder base telling management exactly what it wants.
+
+[PAGEBREAK]
+
+## 4 · Macro and micro drivers; tailwinds and headwinds
+
+### 4.1 Macro factors
+
+| Factor | Mechanism | Current read |
+|---|---|---|
+| **Global equity market levels** | Directly sets ~85%+ of AuMA and therefore revenue | Supportive — a ~10.7% market/performance uplift to AuMA in the June-2026 quarter alone |
+| **Sterling and FX** | Non-GBP assets translate; international distribution economics | Mildly relevant; group remains GBP-dominated |
+| **UK interest rates / gilt yields** | Discount rate on long-duration growth equities (the house style), plus the attractiveness of cash and money-market funds as a substitute for retail fund flows | The single biggest driver of the 2022–25 UK retail redemption cycle. Falling rates would be the most powerful tailwind available |
+| **UK retail savings flows** | The addressable pool for the core channel | Structurally challenged: cash ISAs, money market funds and passive have taken share from active UK equity funds for four consecutive years |
+| **Domestic UK equity risk premium** | Determines both fund performance and end-client appetite for UK funds | Improving at the margin (bid activity, UK re-rating) but not yet reflected in retail behaviour |
+| **Regulatory regime (FCA)** | Consumer Duty, Assessment of Value, SDR labelling, MiFID/PRIIPs cost disclosure | Two-edged: raises the fixed compliance cost bar (bad for sub-scale) but SDR labels are a genuine credential (good for Liontrust's sustainable range) |
+| **Sector consolidation and cost of capital** | Sets the takeout option value in the equity | Very supportive post-Nuveen/Schroders |
+
+### 4.2 Micro / company-specific factors
+
+- **Fund performance in the top three or four strategies.** Liontrust's revenue is concentrated in a handful of funds. Sustainable Future Managed and the Global Innovation/Technology range are performing; Special Situations is not. Performance drives flows with a 12–24 month lag.
+- **Key-person risk.** Anthony Cross and Julian Fosh (Economic Advantage), Peter Michaelis (Sustainable), John Husselbee (Multi-Asset), Storm Uru (Global Innovation) and now Alexander Darwall are individually material. Departure of any of the first three would be a step-change event.
+- **Platform buy-list inclusion.** Presence on the Hargreaves Lansdown, AJ Bell and Fidelity lists is worth more to UK retail flows than any marketing spend.
+- **Cost discipline execution.** A 16% reduction in administrative expenses and ~25 role reductions were delivered in FY26 with a further ~£1.5m annualised targeted by June 2026, plus £7.5m of River Global synergies.
+- **Integration risk on River Global.** Nine investment teams under one roof is a lot of culture to manage.
+
+### 4.3 Tailwinds
+
+- **Operating leverage from a rebased cost base.** Every incremental pound of gross profit from here falls through at a much higher rate than it did in FY23.
+- **Flow inflection.** Net outflows of £357m in the June-2026 quarter (annualising at ~1.5% of AuMA) versus ~19% annualised in FY26. Institutional turned net positive.
+- **Institutional and international mix shift.** £800m+ of mandate wins; >£500m of gross institutional inflows in a single quarter. Lower margin, but far stickier and far more scalable than UK retail.
+- **River Global accretion.** £10.5m of run-rate revenue and eight top-quartile funds bought for £7.6m of paper, targeting ~50% operating margin post-synergies; management guides to EPS enhancement in FY27 and material accretion thereafter.
+- **SDR label advantage.** All ten UK-domiciled sustainable funds carry the "Sustainability Focus" label — one of the largest such ranges — a real barrier for smaller competitors.
+- **Sector M&A.** Nuveen/Schroders and Jupiter/CCLA establish that scale buyers will pay for UK distribution and that boards will recommend cash exits.
+- **Balance sheet.** No debt, £50.6m net cash, and a payout policy that now flexes with earnings.
+
+### 4.4 Headwinds
+
+- **Structural decline of UK retail active equity.** UK retail funds still drove £822m of net outflows in the June-2026 quarter, offsetting institutional gains.
+- **Franchise impairment in the founding process.** Special Situations at <£1bn from £6.5bn is not a cyclical dip; it is the loss of the fund that defined the company.
+- **Fee compression and adverse mix.** 0.60%  to  0.55% revenue margin, with River Global arriving at ~0.35%. The mix shift to institutional and MPS is strategically right but margin-dilutive.
+- **Sub-scale in a scale industry.** £24bn against a fixed regulatory, technology and distribution cost bar that rises every year.
+- **Governance and pay overhang.** A 2022 pay revolt that passed by ~1 percentage point; LTIP grants in August 2026 at 284% of salary for the CEO — described as "capped" at a 25% increase versus the prior year — against a period of severe shareholder value destruction.
+- **Key-person and cultural risk** in a nine-team federated structure now being enlarged again.
+- **Activist pressure**, which cuts both ways: it supports the price but constrains management's freedom to invest for the long term.
+
+[PAGEBREAK]
+
+## 5 · Product strength, brand and the moat assessment
+
+### 5.1 How the products compare
+
+**Where Liontrust is genuinely strong.** The Sustainable Investment franchise is one of the most credible in the UK: a 25-year track record under Peter Michaelis, a process that predates the ESG marketing boom, and the regulatory validation of ten SDR-labelled funds. The Multi-Asset/MPS proposition is well-embedded in adviser workflows, where the switching friction is real. Global Innovation and Global Technology have delivered genuinely competitive recent numbers. Post-River Global, management points to 29 funds in the first or second quartile over three years and eight top-quartile funds acquired.
+
+**Where Liontrust is weak.** The Economic Advantage process — the intellectual foundation of the company and the source of its brand — has underperformed for a prolonged period. Liontrust Special Situations lost 3.8% in calendar 2025 against an IA UK All Companies sector up 15.4%, placing it among the five worst performers in its sector for the year. That is not a stylistic wobble; it is a reputational event in the adviser community that takes years to repair.
+
+**Branding and marketing.** Liontrust has historically been one of the heaviest brand advertisers among UK boutiques (sports sponsorship, national press). The brand is *known* — but recognition without performance is a cost, not a moat. The marketing spend is a fixed cost that scales poorly at £24bn of AuMA.
+
+**Perceived value.** Liontrust's pricing sits in the middle of the active UK range: cheaper than boutique alternatives, materially more expensive than passive. In a Consumer Duty world, where advisers must evidence value, mid-priced mediocre performance is the worst place to be.
+
+### 5.2 Economic moat assessment
+
+| Moat category | Present? | Strength | Assessment |
+|---|---|---|---|
+| **Brand** | Partially | **Weak–Moderate** | High name recognition in UK adviser channels from sustained marketing spend. But asset management brands are collateral on performance: the Liontrust name carries the Special Situations underperformance with it. Sustainable Investment is the one genuinely brand-additive franchise |
+| **Hard assets** | No | **None** | Zero. No property, no plant, negligible capex. The assets leave in the lift every evening. Total assets of £269.8m are dominated by intangibles from prior acquisitions and cash |
+| **Long-term contracts** | No | **None** | No contracted revenue and no backlog. Fund IMAs are terminable at short notice; institutional mandates typically 30–90 days. The most important structural weakness in the business |
+| **Network effects** | No | **None** | Fund management exhibits no true network effect. A larger fund is not more useful to each investor; beyond a point in small/mid-cap UK equities it is actively *less* useful (capacity constraints) |
+| **Regulatory barriers** | Yes | **Moderate** | FCA/CBI/CSSF authorisations, Consumer Duty, SDR labelling and the rising fixed compliance bar create real entry barriers against *new* entrants — and equally real cost disadvantages against *larger* incumbents. This moat protects Liontrust from start-ups but not from BlackRock |
+| **Switching costs** | Yes, modestly | **Weak–Moderate** | Meaningful in MPS/model portfolios (adviser re-papering, CGT events for clients, due-diligence burden) and in institutional mandates (trustee process, transition cost). Effectively nil in platform-held retail funds, which can be switched in a single online instruction |
+| **Oligopoly / monopoly structure** | No | **None** | UK active management is one of the most fragmented, oversupplied industries in financial services — thousands of funds chasing a shrinking retail pool, with passive as a near-perfect low-cost substitute |
+| **Cash flow predictability** | Yes | **Moderate** | Fees accrue daily on NAV, are collected monthly, and convert to cash almost immediately. Performance fees are only ~3% of gross profit (£3.7m of £123.0m) — deliberately low-volatility. But predictability of *level* is poor: gross profit has fallen 22%, 15% and 19% in successive years |
+| **Scalability** | Yes | **Strong (the real moat)** | This is the genuine asset. Marginal AuMA carries near-zero marginal cost. The River Global deal is the proof: £10.5m of revenue onto an existing platform at a targeted ~50% operating margin. Consolidation economics here are exceptional — which is exactly why the company is both a buyer and a target |
+| **Government interference risk** | Low-moderate | **Manageable** | No history of direct interference. Risks are regulatory (Consumer Duty value assessments, fee disclosure, potential UK ISA reform) rather than political. UK policy is if anything supportive of domestic equity ownership |
+| **Bargaining power over stakeholders** | No | **Weak** | Weak versus platforms (which control shelf space and extract rebates), weak versus star fund managers (who are the product and can leave), weak versus institutional clients (who negotiate fees hard), and weak versus data vendors (Bloomberg, MSCI, LSEG all price-take). Only versus small third-party suppliers does Liontrust hold the whip hand |
+
+> **Moat verdict: narrow-to-none, with one exception.** Liontrust has no durable competitive moat in the Buffett sense. What it has is a **scalable operating platform with a regulatory perimeter and a modestly sticky advice-embedded channel**. That is worth something — it is precisely why an acquirer can pay a premium and still create value — but it is not worth a premium multiple in independent hands. This is the analytical crux of the whole investment case: *the platform is worth more inside a larger firm than it is standalone*, and the market's ~0.6% of AuMA valuation is a rational reflection of that.
+
+[PAGEBREAK]
+
+## 6 · The value chain: from upstream inputs to the end investor
+
+Asset management has no physical supply chain, but it has a very real value chain in which Liontrust occupies the **manufacturing** node — the least defensible position, squeezed between input suppliers with pricing power and distributors who control access to the customer.
+
+### 6.1 Upstream — inputs into the investment process
+
+| Layer | What is supplied | Named counterparties |
+|---|---|---|
+| **Market data & terminals** | Prices, fundamentals, news, analytics | Bloomberg, LSEG (Refinitiv), FactSet, S&P Global Market Intelligence |
+| **Index & benchmark providers** | Comparators, licences, index data | FTSE Russell, MSCI, ICE, iBoxx |
+| **ESG / sustainability data** | Ratings, controversy screens, SDR evidence | MSCI ESG, Sustainalytics (Morningstar), ISS ESG, Bloomberg |
+| **Fund ratings & research** | Distribution-critical third-party endorsement | Morningstar, FE fundinfo, Square Mile, Rayner Spencer Mills, Defaqto |
+| **Sell-side research & execution** | Idea generation, corporate access, trading | Peel Hunt, Deutsche Numis, Berenberg, Investec, Panmure Liberum, Jefferies, plus global bulge-bracket brokers |
+| **Human capital** | Fund managers, analysts, distribution | Acquired via M&A (ATI, Neptune, Architas, Majedie, River Global/Devon) and lift-outs (GAM global equity team, 2023) |
+| **Technology & operations** | Portfolio management, order management, risk | Third-party PMS/OMS and risk vendors; **Broadgate** for outsourced factsheets and regulatory reporting |
+| **Capital & advisory** | Corporate broking, audit, legal, M&A advice | Peel Hunt (corporate broking); Big Four audit; City law firms |
+
+### 6.2 The Liontrust node — manufacturing
+
+Liontrust converts research and data into **investment products** through nine investment processes, wraps them in UK OEICs/unit trusts, Irish ICAVs, a Luxembourg SICAV, MPS models and segregated mandates, and applies the brand, risk framework and regulatory permissions. Legal entities in the chain include Liontrust Investment Partners LLP, Liontrust Fund Partners LLP, Liontrust Investment Funds Limited, Liontrust Portfolio Management, and Liontrust International (Luxembourg) S.A.
+
+### 6.3 Midstream — fund infrastructure
+
+| Layer | Function | Provider type |
+|---|---|---|
+| **ACD / management company** | Regulatory responsibility for the fund | In-house (Liontrust Fund Partners LLP) — a rare piece of retained value |
+| **Depositary & trustee** | Oversight, safekeeping | Global custodian banks (BNY, Northern Trust, State Street, HSBC Securities Services class of provider) |
+| **Custody & fund accounting** | Asset safekeeping, NAV striking | As above |
+| **Transfer agency & registrar** | Investor register, dealing, AML | Specialist TA providers; Link/MUFG-class registrar for the plc share register |
+| **Audit & regulatory reporting** | Fund audit, KIID/PRIIPs, SDR disclosure | Big Four fund audit; Broadgate (outsourced) |
+
+### 6.4 Downstream — distribution (where the power sits)
+
+| Channel | Gatekeeper | Named participants |
+|---|---|---|
+| **UK D2C platforms** | Buy-lists, best-buy tables | Hargreaves Lansdown, AJ Bell, interactive investor (abrdn), Fidelity Personal Investing |
+| **UK adviser platforms** | Panel inclusion, MPS availability | Transact (IntegraFin), Quilter, abrdn Wrap/Elevate, Aviva, Aegon, Nucleus, Fidelity Adviser Solutions, 7IM |
+| **Financial advisers & networks** | Client recommendation | ~5,000 UK advice firms; networks such as Openwork, True Potential, Quilter Financial Planning |
+| **Discretionary wealth managers** | Model portfolio inclusion | Rathbones, RBC Brewin Dolphin, Evelyn Partners, Investec W&I, Brooks Macdonald, Charles Stanley |
+| **Institutional gatekeepers** | Manager selection | Investment consultants (Mercer, Aon, WTW, LCP, Isio, Redington), fiduciary managers, and sub-advisory buyers |
+| **International** | Fund selection | Continental European private banks, global banks and multi-managers accessed via Liontrust Luxembourg |
+| **Closed-end vehicles** | Board appointment | Edinburgh Investment Trust board; European Opportunities Trust (rollover into the new Liontrust LEO open-ended fund) |
+
+### 6.5 The end customer
+
+UK retail savers and pension members (via advisers and platforms), UK and international institutional asset owners, charities and endowments, and Continental European private-banking clients. **Liontrust does not own the client relationship in the retail channel** — the adviser and the platform do. This is the defining structural weakness in its position within the chain, and the single clearest explanation for why an acquirer with captive distribution can extract more value from these assets than Liontrust can.
+
+> **Chain verdict.** Liontrust sits in the thinnest part of the value chain: it pays economic rent upstream to data vendors with monopoly pricing power, pays rebates downstream to platforms that control access, and competes head-on with passive manufacturers whose marginal cost is a fraction of its own. The only durable escape routes are (i) scale, (ii) a genuinely differentiated product that gatekeepers must stock, or (iii) ownership by someone who controls distribution. Management is pursuing (i) and (ii); the activists argue for (iii).
+
+[PAGEBREAK]
+
+## 7 · Financial analysis: segments, geography and operational KPIs
+
+### 7.1 The five-year P&L record
+
+| £m unless stated (YE 31 March) | FY2022 | FY2023 | FY2024 | FY2025 | FY2026 |
+|---|---|---|---|---|---|
+| **AuMA (year-end)** | 33,548 | 31,400 | 27,800 | 22,600 | 19,554 |
+| **Net flows** | n/d | ~(6,000) | (6,100) | (4,904) | (4,184) |
+| Revenue | n/d | n/d | n/d | 169.8 | 134.4 |
+| **Gross profit** | n/d | 229.8 | 186.1 | 157.7 | **123.0** |
+| Gross profit growth | n/d | n/d | -19% | -15% | **-22%** |
+| of which performance fees | n/d | n/d | n/d | 3.6 | 3.7 |
+| Revenue margin (bps of AuMA) | n/d | n/d | n/d | 60 | **55** |
+| **Adjusted PBT** | n/d | 87.1 | 67.4 | 48.3 | **30.5** |
+| Adjusted PBT growth | n/d | n/d | -23% | -28% | **-37%** |
+| Adjusted operating margin (co. reported) | n/d | n/d | n/d | 29.2% | **24.0%** |
+| **Statutory PBT** | 79.3 | 49.3 | **(0.6)** | 22.3 | **14.4** |
+| Statutory PAT | n/d | n/d | n/d | ~16.7 | **9.6** |
+| **Adjusted diluted EPS (p)** | n/d | 109.8 | 79.2 | 56.8 | **36.7** |
+| **DPS (p)** | 72.0 | 72.0 | 72.0 | 72.0 | **19.0** |
+| Payout vs adjusted EPS | n/d | 66% | 91% | **127%** | **52%** |
+| Net cash | n/d | n/d | n/d | n/d | **50.6** |
+| Gross debt | nil | nil | nil | nil | **nil** |
+
+~ Sources: company results announcements FY2022–FY2026 as reported through RNS and secondary financial media. "n/d" = not disclosed in sources available for this note. FY2024 statutory PBT reflects a loss of £0.6m driven by acquisition-related intangible amortisation and restructuring charges.
+
+> **Read the payout row.** In FY2025 Liontrust paid a 72p dividend out of 56.8p of adjusted EPS — a 127% payout — while assets fell 19%. That was capital destruction dressed as shareholder return. The FY2026 rebase to 19p on a formal minimum-50%-of-adjusted-EPS policy, funded alongside a £10m buyback, is the single most important governance improvement of the last five years and explains why the shares *rose* on a 74% dividend cut.
+
+### 7.2 Segment reporting — and its limitations
+
+**Liontrust reports as a single operating segment.** There is no divisional revenue, EBITDA, EBIT or net income disclosure by investment process, by channel or by geography. Management discloses AuMA by investment process and by channel in trading statements and presentations, and revenue is stated on a group basis. This is compliant with IFRS 8 (the CODM manages the business as one unit) but it is genuinely poor disclosure for a company running nine distinct investment franchises acquired at nine distinct prices.
+
+**Consequence for the analyst:** it is impossible to verify from public disclosure whether Majedie, Architas or Neptune earn their cost of capital. Any segmental profitability presented below is therefore *estimated* by allocating group economics across disclosed AuMA and known fee rates. We flag it as such.
+
+#### Estimated revenue and contribution by franchise — FY2026 basis
+
+| Franchise | Est. avg. AuMA (£bn) | Est. fee rate (bps) | Est. gross profit (£m) | Est. share of gross profit | Direction |
+|---|---|---|---|---|---|
+| Sustainable Investment | ~7.5 | ~68 | ~51 | ~41% | Declining with UK retail, resilient internationally |
+| Multi-Asset / MPS | ~3.8 | ~35 | ~13 | ~11% | Stable to growing; the structural bright spot |
+| Economic Advantage (UK equity) | ~3.2 | ~72 | ~23 | ~19% | Severe decline — the core impairment |
+| Global Equity / Innovation / Technology | ~2.6 | ~65 | ~17 | ~14% | Growing; best performance |
+| Global Fixed Income | ~2.4 | ~40 | ~10 | ~8% | Stable |
+| Global Fundamental / Cashflow Solution / other | ~2.9 | ~30 | ~9 | ~7% | Sub-scale |
+| **Group (FY26 actual)** | **~22.4** | **55** | **123.0** | **100%** | **-22% y/y** |
+
+~ Estimated by the analyst from disclosed AuMA mix, published fund OCFs net of estimated rebates and the group's reported 55bp blended revenue margin. Not company disclosure. Rounded; components may not sum.
+
+#### Geographic split
+
+| Geography | Est. share of AuMA | Est. share of gross profit | Comment |
+|---|---|---|---|
+| United Kingdom | ~85–90% | ~85–90% | UK OEICs/unit trusts, MPS, UK institutional. The dominant exposure |
+| Continental Europe | ~7–10% | ~7–10% | Dublin GF range and Luxembourg SICAV sold via Liontrust International (Luxembourg) S.A. into France, Germany, Italy, Spain, Switzerland, Benelux, Nordics |
+| Rest of world | ~2–5% | ~2–5% | Selective institutional and sub-advisory |
+
+~ Liontrust does not publish a geographic revenue split. Estimated by the analyst from fund-domicile disclosure and management commentary on international distribution.
+
+### 7.3 Operational KPIs — the numbers that actually matter
+
+| KPI | FY2024 | FY2025 | FY2026 | Q1 FY2027 (Jun-26) | Trend |
+|---|---|---|---|---|---|
+| **AuMA (period end, £m)** | 27,800 | 22,600 | 19,554 | **24,255** | Inflecting up (River Global + markets) |
+| **Net flows (£m)** | (6,100) | (4,904) | (4,184) | **(357)** | **Decisively improving** |
+| Net flows as % of opening AuMA | -22% | -18% | -19% | **-1.8% annualised** | The single most important datapoint in this note |
+| UK retail net flows (£m) | n/d | n/d | n/d | **(822)** | Still negative — the structural problem |
+| Institutional net flows (£m) | n/d | n/d | n/d | **+447** | **Turned positive** |
+| Gross institutional inflows (£m, quarter) | n/d | n/d | n/d | **>500** | New engine |
+| **Revenue margin (bps)** | ~62 | 60 | **55** | ~52 (est. blended post-River) | Compressing |
+| **Adjusted operating margin** | ~36% | 29.2% | **24.0%** | — | Compressing, but beat 23.3% consensus |
+| Performance fees (£m) | n/d | 3.6 | 3.7 | — | Immaterial by design (~3% of gross profit) |
+| Funds 1st/2nd quartile over 3yr | n/d | n/d | n/d | **29** (post-River Global) | Improving with acquisition |
+| **Shares in issue (m)** | ~65 | ~64 | **60.0** | **~63.0** | Buyback then acquisition paper |
+| Headcount reduction | — | — | **~25 roles (~12%)** | further ~£1.5m p.a. targeted | Executing |
+| Capex intensity | negligible | negligible | negligible | negligible | Asset-light by nature |
+| **Net cash (£m)** | n/d | n/d | **50.6** | — | Debt-free throughout |
+
+> **The KPI to watch every quarter.** Net flow as a percentage of opening AuMA. It went -22%, -18%, -19%, and then -1.8% annualised. If the June-2026 quarter repeats twice more, the entire earnings model in §10 is too conservative. If it reverts to -10%+, the bear case in §20.2 is live.
+
+[PAGEBREAK]
+
+## 8 · The FY2026 result in detail (year ended 31 March 2026, reported 24 June 2026)
+
+### 8.1 Versus expectations
+
+| Line | FY2026A | FY2025A | Change | vs consensus |
+|---|---|---|---|---|
+| Revenue | £134.4m | £169.8m | -21% | **Beat** |
+| Gross profit | £123.0m | £157.7m | -22% | In line |
+| Adjusted PBT | £30.5m | £48.3m | -37% | **Broadly in line / marginally light** |
+| **Adjusted operating margin** | **24.0%** | 29.2% | -520bps | **Beat (consensus 23.3%)** |
+| Adjusted diluted EPS | 36.7p | 56.8p | -35% | In line |
+| Statutory PBT | £14.4m | £22.3m | -35% | n/a |
+| Statutory PAT | £9.6m | ~£16.7m | -43% | n/a |
+| Total DPS | 19.0p | 72.0p | -74% | **Below old policy, in line with new** |
+| Net flows | £(4,184)m | £(4,904)m | +15% improvement | **Better** |
+
+**Verdict: a low-quality beat of a low-quality year.** Revenue beat, adjusted profit was broadly in line, and the operating margin — the number the market cared about — beat by ~70bp. The shares rose ~12–15%. Nothing in the absolute numbers was good; everything in the *second derivative* was.
+
+### 8.2 What drove the result
+
+- **Negative:** the full-year effect of FY25's £4.9bn of outflows plus a further £4.2bn in FY26 crushed average AuMA. The revenue margin fell 5bp to 0.55% on adverse channel mix (institutional and MPS growing, high-fee UK retail equity shrinking).
+- **Positive:** cost execution. Total administrative expenses were cut 16%, with ~25 roles (~12% of the group) removed, outsourcing of factsheet production and regulatory reporting to Broadgate, and a further ~£1.5m of annualised savings targeted by June 2026. This is what protected the margin.
+- **Neutral:** performance fees of £3.7m (FY25: £3.6m) — the company deliberately runs almost no performance-fee exposure, which suppresses upside but also removes a source of earnings volatility that plagues peers.
+
+### 8.3 Margins
+
+Adjusted operating margin fell 520bp to 24.0%. The decomposition is straightforward: gross profit -£34.7m; adjusted operating costs down roughly £15–17m. Approximately 53% of the lost revenue fell through to lost profit — better than the ~65%+ drop-through that a fully fixed cost base would have produced, which is the evidence that the cost programme is real. **This is the single most important operational fact in the FY26 result.**
+
+### 8.4 Guidance, outlook and tone
+
+Management gave no formal numeric guidance (normal for the sector) but was materially more constructive than in FY25:
+- **River Global**: £2.96bn AuMA, £10.5m run-rate revenue, targeted **£7.5m annualised cost synergies**, estimated **~50% operating margin** on the acquired revenue post-synergies, **earnings enhancing in FY2027 and materially accretive thereafter**.
+- **Capital allocation policy** (new): minimum **50% of adjusted diluted EPS** paid as dividend, with **excess capital returned via buybacks**.
+- **Flows**: John Ions framed the improvement as structural — *"The improvement in Liontrust's flows is testament to the expansion of our distribution internationally and broadening our client types"* — and pointed to *"a better shape of the business and a more diversified client base, and a positive business pipeline."*
+- **Pipeline**: >£800m of institutional mandate wins in recent months.
+
+### 8.5 Balance sheet and cash flow flags
+
+- **Net cash £50.6m**, total equity £111.9m, total assets £269.8m, total liabilities £157.9m. **Zero gross debt, and none for five years.**
+- **Intangibles dominate the asset side.** With equity of £111.9m against total assets of £269.8m and £50.6m of net cash, a substantial proportion of the balance sheet is acquired goodwill and intangibles from ATI, Neptune, Architas and Majedie. This is the key audit-sensitive judgement area (see §23.10).
+- **Liabilities of £157.9m** on a business with no debt are dominated by deferred consideration, lease liabilities, deferred tax on intangibles and accrued variable compensation.
+- **No receivables or inventory risk** of substance — fee debtors are collected monthly from fund assets.
+- **Cash conversion** remains high; the constraint on distributions is regulatory capital and the deferred-consideration tail, not cash generation.
+
+### 8.6 Market reaction and what was priced in
+
+The shares rose ~12–15% on the day. Given that the *absolute* results showed a 37% fall in adjusted profit and a 74% dividend cut, the reaction tells us that going into the print the market was positioned for: (a) a worse margin, (b) no credible flow inflection, and (c) possibly a distressed capital position. All three were refuted. The subsequent surge on the 22 July trading statement (net outflows of £357m versus £1.1bn) confirmed the re-rating was flow-driven, not cost-driven.
+
+**What looks unusual versus history:** for the first time in five years the market rewarded Liontrust for shrinking its distributions and its cost base rather than punishing it for shrinking its assets. The security has changed from a "flows and dividend" story to a "cash return and consolidation" story. That is a different shareholder base.
+
+[PAGEBREAK]
+
+## 9 · Earnings call review and management sentiment over time
+
+### 9.1 What management is focused on
+
+Across the FY25 (June 2025), H1 FY26 (November 2025) and FY26 (June 2026) calls, four themes dominate and their relative weight has shifted decisively:
+
+1. **Diversification of client type and geography** — from a UK-retail-dominated book toward institutional, international and MPS. This has moved from aspiration (FY25) to evidence (£447m net institutional inflows, >£500m gross, £800m+ of mandate wins).
+2. **Cost discipline** — from reactive (25 roles cut, FY25) to programmatic (16% administrative expense reduction, outsourcing to Broadgate, £1.5m further savings, £7.5m River Global synergies).
+3. **Capital allocation** — the most changed area. From defending a 72p dividend at a 127% payout (FY25) to a formal policy, a rebased dividend and a completed £10m buyback (FY26).
+4. **Consolidation** — from the wreckage of GAM to a disciplined, cheap, all-paper deal with a two-year lock-up and Martin Gilbert on the board.
+
+### 9.2 Sentiment analysis over time
+
+| Period | Management tone | Market's read | Evidence |
+|---|---|---|---|
+| **FY2022 (Jun-22)** | Confident, expansionary | Sceptical | Record AuMA, Majedie completed; but the de-rating had already begun |
+| **FY2023 (Jun-23)** | **Defensive, distracted** | Hostile | Mid-GAM bid; PBT -38%; two NEDs had resigned abruptly in March |
+| **H2 2023** | **Damaged** | Very negative | GAM bid failed; £1.6bn of assets lost during the bid quarter; CEO personally criticised |
+| **FY2024 (Jun-24)** | Contrite, cost-focused | Negative | Statutory loss of £0.6m; £6.1bn of outflows; the dividend was still being defended |
+| **FY2025 (Jun-25)** | **Denial-adjacent** | **Very negative** | Adjusted PBT -28%; 72p dividend maintained against 56.8p of EPS. Shares fell sharply. Management insisted the group was *"well placed"* |
+| **H1 FY2026 (Nov-25)** | **Pivot** | **Positive despite bad news** | Dividend cut to 7p interim; £10m buyback announced; further cost cuts. *Shares rose on a dividend cut* — the turning point |
+| **FY2026 (Jun-26)** | **Constructive, evidence-based** | **Positive** | Margin beat; new capital policy; River Global. *"A better shape of the business and a more diversified client base"* |
+| **Q1 FY2027 (Jul-26)** | **Confident** | **Positive** | Outflows down to £357m; AuMA £24.3bn; shares surged |
+
+> **Sentiment verdict.** The inflection was **November 2025**, not June 2026. That is when management stopped defending the old story and started running the business for cash returns. Everything since has been consistent. The credibility deficit is real — this is a management team that maintained an unfunded dividend for two years and pursued a value-destructive foreign acquisition — but the *direction* of travel over the last three disclosures has been unambiguously right. The correct scepticism is about durability, not intent.
+
+### 9.3 Language shifts worth flagging
+
+- "Well placed" (FY25)  to  "better shape of the business" (FY26). The former is a claim; the latter is a description with supporting metrics.
+- Dividend language moved from an implicit progressive commitment to an explicit formula linked to earnings. Formulaic policies are harder to break and easier to model.
+- The word "scale" now appears in acquisition rationale. Management is publicly framing itself as a consolidator — which, at a £193m market capitalisation and 0.6% of AuMA, is a claim that invites the obvious rebuttal that it is more likely to be consolidated.
+
+[PAGEBREAK]
+
+## 10 · Earnings forecasts, FY2027E–FY2029E
+
+We model financial years ending 31 March. **FY2027E covers the twelve months to March 2027 (reported June 2027); FY2028E to March 2028; FY2029E to March 2029.** These correspond to the calendar 2026, 2027 and 2028 operating years requested.
+
+### 10.1 Build-up assumptions
+
+| Assumption | FY2027E | FY2028E | FY2029E | Rationale |
+|---|---|---|---|---|
+| Opening AuMA (£bn) | 19.6 | 24.6 | 25.9 | Actual / rolled |
+| Acquired AuMA (£bn) | +3.0 | — | — | River Global, completed 30 Jun 2026 |
+| Net flows (£bn) | (1.4) | (0.6) | (0.2) | Q1 annualised at -1.4bn; institutional offsetting UK retail attrition; improving but not positive |
+| Market / performance (£bn) | +3.4 | +1.9 | +2.1 | ~+8% in FY27 (Q1 alone delivered ~+10.7%), ~+8% thereafter |
+| **Closing AuMA (£bn)** | **24.6** | **25.9** | **27.8** | |
+| **Average AuMA (£bn)** | **23.4** | **25.2** | **26.8** | Weighted for River Global from 1 Jul 2026 |
+| Blended revenue margin (bps) | 53 | 52 | 51 | Dilution from River Global (~35bp) and institutional/MPS mix |
+| Performance fees (£m) | 3.5 | 3.5 | 4.0 | Held at historic run-rate |
+| **Gross profit (£m)** | **127.5** | **134.5** | **140.7** | |
+| Adjusted operating costs (£m) | 97.7 | 99.8 | 102.0 | FY26 base ~£93.5m; +River Global net of £7.5m synergies; -£1.5m further savings; +variable comp and inflation |
+| **Adjusted operating profit (£m)** | **29.8** | **34.7** | **38.7** | |
+| Adjusted operating margin | **23.4%** | **25.8%** | **27.5%** | Operating leverage returns |
+| Net finance income (£m) | 1.4 | 1.5 | 1.7 | On ~£50–65m of net cash |
+| **Adjusted PBT (£m)** | **31.2** | **36.2** | **40.4** | |
+| Effective tax rate | 25.5% | 25.5% | 25.5% | UK statutory |
+| **Adjusted PAT (£m)** | **23.2** | **27.0** | **30.1** | |
+| Diluted share count (m) | 65.0 | 64.5 | 63.5 | River Global paper + LTIP dilution, partly offset by buybacks |
+
+### 10.2 EPS estimates
+
+| Financial year (to 31 March) | FY2026A | **FY2027E** | **FY2028E** | **FY2029E** |
+|---|---|---|---|---|
+| Gross profit (£m) | 123.0 | 127.5 | 134.5 | 140.7 |
+| Growth | -22% | **+3.7%** | **+5.5%** | **+4.6%** |
+| Adjusted operating margin | 24.0% | **23.4%** | **25.8%** | **27.5%** |
+| Adjusted PBT (£m) | 30.5 | **31.2** | **36.2** | **40.4** |
+| **Adjusted diluted EPS (p)** | **36.7** | **35.7** | **41.9** | **47.4** |
+| Growth | -35% | **-2.7%** | **+17.4%** | **+13.1%** |
+| Statutory diluted EPS (p, est.) | 15.4 | **~22** | **~30** | **~37** |
+| **DPS (p) at 50% payout** | 19.0 | **18.0** | **21.0** | **24.0** |
+| Implied P/E at 306.5p | 8.4x | **8.6x** | **7.3x** | **6.5x** |
+| Implied yield | 6.2% | **5.9%** | **6.9%** | **7.8%** |
+
+> **The shape of the forecast is the story.** FY2027 is a transition year: River Global costs land before the synergies are fully banked, the revenue margin dilutes, and the LTIP/acquisition share count rises — so adjusted EPS is roughly flat despite AuMA rising 26%. The earnings recovery is a **FY2028–29 event**, and it is driven almost entirely by operating leverage on a rebased cost base, not by heroic flow assumptions. Note that our base case still assumes **cumulative net outflows of £2.2bn over three years**.
+
+### 10.3 What we have deliberately not assumed
+
+- **No further M&A.** Any additional bolt-on at River Global-style multiples would be materially accretive and is not in these numbers.
+- **No return to net inflows.** We model outflows shrinking to £0.2bn by FY2029, never turning positive.
+- **No fee increase.** We model continued margin compression of ~1bp per year.
+- **No re-rating.** The P/E multiples above are held at the current 8.4x.
+- **No takeover.** See §13.5 and §21.
+
+### 10.4 Sensitivities
+
+| Variable | Move | FY2028E EPS impact |
+|---|---|---|
+| Average AuMA | ±£1bn | ±~6.3p (±15%) |
+| Revenue margin | ±1bp | ±~3.0p (±7%) |
+| Adjusted operating costs | ±£2m | ±~2.3p (±6%) |
+| Diluted share count | ±2m | -/+~1.3p (-/+3%) |
+| Equity markets | ±10% | ±~10p (±24%) |
+
+[PAGEBREAK]
+
+## 11 · Capital structure, liquidity and financial risk
+
+### 11.1 The structure
+
+| Item | Position at / for FY2026 | Comment |
+|---|---|---|
+| **Gross debt** | **£nil** | No borrowings for at least five consecutive years |
+| **Net cash** | **£50.6m** | ~26% of current market capitalisation |
+| Debt maturities | **None** | No maturity wall, no refinancing risk, no rate exposure on liabilities |
+| Debt covenants | **None applicable** | No lending facilities disclosed |
+| Interest cost | **Negligible** | The group is a net *recipient* of interest income (~£1.4m p.a. estimated on net cash) |
+| Total equity | £111.9m | |
+| Total assets | £269.8m | Dominated by acquired goodwill/intangibles and cash |
+| Total liabilities | £157.9m | Deferred consideration, lease liabilities, deferred tax on intangibles, accrued variable compensation, fund-related payables |
+| Debt / equity | **0%** | |
+| Regulatory capital | MIFIDPRU (IFPR) requirement | Binding constraint on distributable surplus, not leverage |
+| Share count | 60,000,083 post-buyback; ~63.0m post River Global | Up to a further 820,722 contingent adjustment shares |
+
+### 11.2 Liquidity assessment
+
+Liontrust's liquidity position is a genuine strength and is, in our view, under-appreciated:
+- **No refinancing risk of any kind.** In a sector where several peers have used debt to fund consolidation, Liontrust's zero-debt balance sheet means no covenant, no maturity and no lender veto over strategy. In a downside scenario this is the difference between a distressed seller and a patient one.
+- **Cash is ~26% of market capitalisation.** At £142m of enterprise value, the operating business is being valued at roughly 4–5x adjusted EBITDA and 0.59% of AuMA.
+- **Cash conversion is near-immediate.** Management fees are deducted from fund assets monthly; there is effectively no working capital cycle and no bad debt exposure.
+- **The real constraints are regulatory capital and the deferred-consideration tail**, not cash generation. Under the FCA's IFPR regime a specified own-funds requirement plus liquid asset threshold must be maintained; this, not solvency, is what caps the pace of buybacks.
+- **Currency and market risk** sit on the revenue line, not the balance sheet: an equity market fall reduces fees but does not create a financing event.
+
+> **Capital structure verdict.** This is one of the most defensively financed companies in the UK small-cap universe. That is exactly why it survives a five-year 88% de-rating without an equity raise — and exactly why it is an attractive acquisition target: a buyer inherits £50m of cash and no liabilities to refinance.
+
+### 11.3 Financial risk map
+
+| Risk | Exposure | Mitigant |
+|---|---|---|
+| Market risk (equity beta on revenue) | **Very high** — ~85%+ of AuMA is equity | None available; structural |
+| Credit risk | Low | Fees collected from fund assets |
+| Liquidity risk | **Very low** | Net cash, no debt |
+| Interest rate risk | **Positive** exposure via cash | Falling rates reduce finance income but help fund flows |
+| FX risk | Low-moderate | Mostly GBP revenue and cost |
+| Regulatory capital risk | Moderate | Well capitalised; IFPR headroom |
+| Key-person risk | **High** | Deferred comp, LTIPs, federated team structure |
+| Contingent consideration | Moderate | £2.1m River Global adjustment shares; legacy earn-outs largely worked through |
+
+[PAGEBREAK]
+
+## 12 · Valuation: absolute, relative and versus its own history
+
+### 12.1 Where LIO trades today
+
+| Metric | FY2026A | FY2027E | FY2028E | FY2029E |
+|---|---|---|---|---|
+| Share price | 306.5p | — | — | — |
+| Market capitalisation | ~£193m | — | — | — |
+| Net cash | £50.6m | ~£55m | ~£60m | ~£66m |
+| **Enterprise value** | **~£142m** | ~£138m | ~£133m | ~£127m |
+| **EV / Sales (revenue)** | **1.06x** | 0.99x | 0.91x | 0.83x |
+| **EV / Gross profit** | **1.16x** | 1.08x | 0.99x | 0.90x |
+| **EV / adj. EBITDA** (est.) | **~4.2x** | **~4.0x** | **~3.4x** | **~3.0x** |
+| **EV / adj. EBIT** | **~4.8x** | ~4.6x | ~3.8x | ~3.3x |
+| **P/E (adjusted)** | **8.4x** | 8.6x | 7.3x | 6.5x |
+| **Dividend yield** | **6.2%** | 5.9% | 6.9% | 7.8% |
+| **Net debt / EBITDA** | **-1.5x (net cash)** | -1.6x | -1.7x | -1.7x |
+| **Market cap / AuMA** | **0.80%** | — | — | — |
+| **EV / AuMA** | **0.59%** | — | — | — |
+| Free cash flow yield (est.) | ~11% | ~11% | ~13% | ~15% |
+
+~ Adjusted EBITDA estimated as adjusted operating profit plus ~£4.5m of depreciation and software/right-of-use amortisation; the company does not report EBITDA. AuMA multiples use the 30 June 2026 figure of £24.255bn.
+
+### 12.2 Versus its own history
+
+| Period | Approx. P/E | Approx. market cap / AuMA | Dividend yield | Context |
+|---|---|---|---|---|
+| 2019–2021 (peak) | **~18–28x** | **~3.5–4.6%** | ~1.5–2.5% | Growth-manager rating; AuMA compounding; Majedie ahead |
+| 2022 | ~10–14x | ~2.0–2.8% | ~4–5% | De-rating begins |
+| 2023 (GAM saga) | ~7–9x | ~1.3–1.8% | ~7–9% | Governance discount applied |
+| 2024–2025 (capitulation) | **~4–6x** | **~0.7–1.0%** | **~10–14%** (unfunded) | Market pricing terminal decline |
+| **Today (Aug-26)** | **8.4x** | **0.80%** | **6.2% (funded)** | Recovering from trough, still ~70% below the 2019–21 rating |
+
+**Interpretation.** The stock has already been through a full de-rating cycle. It is *no longer* at the trough — it has re-rated roughly 35–40% off the March 2026 lows — but it remains at roughly a quarter of its peak asset-based valuation and less than half its peak earnings multiple. The critical distinction versus 2024–25 is that today's 6.2% yield is **covered** at a 52% payout, whereas the 10–14% yield of 2024–25 was being paid out of capital.
+
+### 12.3 Listed and private competitor set
+
+| Company | Ticker | Listed? | Type | AUM/AuMA | Positioning vs Liontrust |
+|---|---|---|---|---|---|
+| **Jupiter Fund Management** | JUP LN | Yes (LSE) | UK active multi-asset/equity | ~£68bn (post-CCLA) | Closest listed comparator; further through consolidation |
+| **Polar Capital Holdings** | POLR LN | Yes (LSE/AIM) | Specialist active, tech-led | ~£45bn | Best-performing UK boutique; the "what good looks like" comp |
+| **Ashmore Group** | ASHM LN | Yes (LSE) | EM debt/equity specialist | ~US$54bn (~£40bn) | Different asset class; huge balance sheet |
+| **Premier Miton Group** | PMI LN | Yes (LSE/AIM) | UK multi-asset/equity boutique | ~£9bn | Sub-scale peer; similar structural pressures |
+| **Impax Asset Management** | IPX LN | Yes (LSE/AIM) | Sustainable/environmental specialist | ~£24bn | The purest read-across: similar size, similar de-rating |
+| **abrdn / Aberdeen Group** | ABDN LN | Yes (LSE) | Diversified asset & wealth | ~£500bn+ | Scale competitor and potential acquirer |
+| **Man Group** | EMG LN | Yes (LSE) | Alternatives/quant | ~US$190bn | Different model; higher fee, higher volatility |
+| **Schroders** | SDR LN | Yes — **under offer from Nuveen/TIAA** | Diversified global | ~£770bn | The sector's defining M&A precedent |
+| **Amundi** | AMUN FP | Yes (Euronext) | European scale/passive | ~€2.2trn | Structural cost competitor |
+| **DWS Group** | DWS GY | Yes (Xetra) | European diversified | ~€1trn | Scale competitor |
+| **BlackRock (iShares)** | BLK US | Yes (NYSE) | Global passive/active | ~US$12trn+ | The existential competitor in the core allocation |
+| **Vanguard** | — | **No** (mutual) | Passive/low cost | ~US$10trn+ | Price-setter for the industry |
+| **Baillie Gifford** | — | **No** (partnership) | Growth equity | ~£220bn | Direct UK retail competitor |
+| **Artemis Investment Management** | — | **No** (partnership/AMG-backed) | UK/global active | ~£25bn | Closest private UK competitor by size and channel |
+| **Royal London Asset Management** | — | **No** (mutual-owned) | UK multi-asset/fixed income | ~£170bn | Owns distribution; competitive on MPS |
+| **Rathbones (incl. Investec W&I)** | RAT LN | Yes (LSE) | Wealth/DFM | ~£110bn+ | Distribution owner; buys funds, does not sell them |
+| **Evelyn Partners / Brooks Macdonald / Quilter** | QLT LN (Quilter) | Mixed | Wealth & platforms | various | Both customer and competitor (vertical integration) |
+| **Liontrust Asset Management** | **LIO LN** | **Yes (LSE)** | **UK specialist active** | **£24.3bn** | **Subject company** |
+
+~ AUM figures are the most recent available for each entity and are approximate. Private firms are estimated from public disclosure and press reporting.
+
+### 12.4 Peer valuation comparison
+
+| Company | Price | Mkt cap | AUM | P / AUM | EV / AUM | P/E | EV/EBITDA (est.) | Div. yield | Net debt/EBITDA | Op. margin |
+|---|---|---|---|---|---|---|---|---|---|---|
+| **Liontrust (LIO)** | **306.5p** | **~£193m** | **£24.3bn** | **0.80%** | **~0.59%** | **8.4x** | **~4.2x** | **6.2%** | **net cash** | **24.0%** |
+| Impax (IPX) | ~114p | ~£150m | ~£24.2bn | ~0.62% | ~0.4–0.5% | ~7.7x | ~4x | ~8–12% | net cash | ~20% |
+| Premier Miton (PMI) | ~45p | ~£58m | ~£9.0bn | ~0.64% | ~0.3–0.4% | ~10x | ~3–4x | ~7–9% | net cash | ~10–15% |
+| Jupiter (JUP) | ~149p | ~£0.8bn | ~£68.4bn | ~1.19% | ~1.0% | ~13.4x | ~7–8x | ~5–6% | net cash | ~20–25% |
+| Polar Capital (POLR) | ~570p | ~£0.58bn | ~£45.0bn | ~1.28% | ~1.0–1.1% | ~15.9x | ~8–9x | ~4–5% | net cash | ~30%+ |
+| Ashmore (ASHM) | ~227p | ~£1.47bn | ~£40bn | ~3.7% | ~1.7–2.0% | ~15–18x | ~8–10x | ~7–8% | net cash | ~35–45% |
+| **Schroders — takeout** | **£5.90 cash** | **~£9.9bn** | **~£770bn** | **~1.29%** | n/a | ~15–16x | ~10–12x | n/a | n/a | ~25% |
+
+~ Peer market data is indicative, drawn from publicly reported prices and AUM disclosures around August 2026; multiples are approximate and should be refreshed against a live data terminal before use in a transaction context. Ashmore's P/AUM is inflated by a very large seed-capital and net cash balance, hence the far lower EV/AUM.
+
+### 12.5 Does it screen cheap, fair or expensive?
+
+> **Cheap on every measure that matters, but for identifiable reasons.**
+
+- **Versus peers on EV/AUM (0.59%):** Liontrust trades at roughly half of Jupiter and Polar Capital, and broadly in line with Impax and Premier Miton — i.e. it is priced with the *structurally challenged sub-scale* cohort, not the *specialist franchise* cohort. Given that Liontrust has more AuMA than Impax and nearly three times Premier Miton, with a better balance sheet than either, that placement is harsh.
+- **Versus peers on P/E (8.4x):** a 37% discount to Jupiter and a 47% discount to Polar Capital.
+- **Versus peers on EV/EBITDA (~4.2x):** roughly half the sector average of ~8x.
+- **Versus the Schroders takeout (1.29% of AUM):** Liontrust at 0.80% of AuMA on an equity basis is at a ~38% discount to the price a strategic buyer just agreed to pay for the sector's premier UK franchise.
+- **Versus its own history:** ~8.4x P/E against a 2019–21 range of ~18–28x, and 0.80% of AuMA against 3.5–4.6%.
+- **The offsetting truth:** the discount is not irrational. Liontrust has delivered four consecutive years of double-digit AuMA decline, has destroyed its founding fund franchise, has a governance record that includes a near-lost pay vote and an abandoned foreign takeover, and has no contracted revenue. Cheapness in asset management is very often a value trap because the denominator keeps falling.
+
+**Our conclusion:** LIO screens **cheap on a 2–3 year view and fair on a spot view**. The re-rating case does not require a return to growth — it requires only that AuMA stops falling. On our base case, simply *stabilising* assets takes the FY2029 P/E to 6.5x and the free cash flow yield to ~15%, at which point either the buyback compounds value mechanically or a buyer arrives.
+
+[PAGEBREAK]
+
+## 13 · M&A: industry activity, Liontrust's own record, and the takeover question
+
+### 13.1 The consolidation backdrop
+
+European and UK asset management is mid-cycle in a consolidation wave driven by fee compression, passive share gains, rising fixed regulatory costs and a widening scale gap. The defining event was **Nuveen/TIAA's £9.9bn recommended cash offer for Schroders in February 2026** at a ~30% premium — ending over 200 years of family control and establishing that (i) UK asset managers are for sale, (ii) US scale capital is the buyer, and (iii) boards will recommend cash. Beneath it, Jupiter/CCLA, Liontrust/River Global and a steady flow of sub-£500m private deals point to a market clearing at low percentage-of-AUM multiples.
+
+### 13.2 Comparable transactions, last five years
+
+| Target | Acquirer | Announced | Consideration | Target AUM | % of AUM | Notes |
+|---|---|---|---|---|---|---|
+| **Schroders plc** | **Nuveen (TIAA)** | **Feb 2026** | **~£9.9bn cash (£5.90/sh)** | ~£770bn | **~1.29%** | ~30% premium; recommended; creates ~$2.5trn group; expected close Q4 2026 |
+| **River Global Holdings** | **Liontrust** | **Mar 2026** | **£7.6m + £2.1m contingent (all shares)** | £2.96bn | **~0.26–0.33%** | £10.5m run-rate revenue; ~50% target margin post-synergies |
+| **CCLA Investment Management** | **Jupiter Fund Management** | **Jul 2025** | **~£100m** | ~£15bn | **~0.67%** | Completed Feb 2026; at least £16m run-rate synergies targeted by end-2027 |
+| **Tellworth Investments** | **Premier Miton** | **2023 (completed Jan 2024)** | undisclosed (small) | ~£0.49bn | n/m | AUM grew to ~£0.63bn by Nov-24 |
+| **GAM Holding AG** | **Liontrust (lapsed)** | **May 2023** | ~CHF107m / ~£96m (all-share) | ~£20bn | **~0.48%** | **Failed** — only ~one-third acceptance vs >66% condition |
+| **Investec W&I (UK & CI)** | **Rathbones** | **Apr 2023** | **£839m** | ~£43bn (combined group ~£115bn) | ~1.9% (wealth multiple) | Wealth management commands higher multiples than fund management |
+| **River & Mercantile Group** | **AssetCo (later River Global)** | **Jan 2022** | **~£99m** | ~£3–4bn (post solutions disposal) | n/m | The business Liontrust ultimately bought in 2026 for £7.6m |
+| **Majedie Asset Management** | **Liontrust** | **Dec 2021** | **£80m upfront, up to £120m** | ~£5.2bn | **~1.54% (up to 2.31%)** | The sector's high-water mark for a UK equity boutique |
+
+~ Percentage-of-AUM multiples are calculated as headline consideration divided by target AUM at announcement and are indicative only; they ignore differences in fee rate, profitability, net cash and deal structure.
+
+> **The clearing price has collapsed.** UK active equity boutiques changed hands at 1.5%+ of AUM in 2021–22. By 2025–26 the market clears at 0.26–0.67%. Liontrust's own deal history is the cleanest illustration of the cycle — and, awkwardly, of the fact that it bought at the top and is now valued at the bottom.
+
+### 13.3 Liontrust's own acquisitions, last ten years
+
+| Target | Completed | Consideration | AUM acquired | % of AUM | Outcome / current status |
+|---|---|---|---|---|---|
+| **Alliance Trust Investments** | Apr 2017 | ~£30–31m | ~£2.5bn | ~1.24% | **The clear success.** Became the Sustainable Investment team under Peter Michaelis — now the group's largest franchise and its principal international proposition. Value created many times over |
+| **Neptune Investment Management** | Oct 2019 | ~£38–40m | ~£2.7bn | ~1.44% | **Mixed to poor.** Most of the acquired fund range was rationalised; the enduring value is the Global Equity/Innovation platform (Storm Uru), which is now performing well but on a much smaller asset base |
+| **Architas UK (from AXA)** | Oct 2020 | ~£72–75m | ~£5.7bn | ~1.28% | **Mixed.** Delivered the multi-asset/MPS capability that is arguably the group's best structural growth asset, but the acquired AUM largely ran off |
+| **Majedie Asset Management** | Apr 2022 | £80m upfront, up to £120m | ~£5.2bn | ~1.54–2.31% | **The clear failure.** Bought at the cycle peak, immediately into a UK equity redemption cycle. Substantial asset attrition; the Global Fundamental franchise remains sub-scale |
+| **GAM Holding AG** | *Lapsed Aug 2023* | ~£96m proposed | ~£20bn | ~0.48% | **Failed bid.** Cost management time, reputation and ~£1.6bn of Liontrust's own assets during the bid quarter. In hindsight, failing to complete may have been fortunate |
+| **River Global Holdings** | 30 Jun 2026 | £7.6m + up to £2.1m (all shares) | £2.96bn | ~0.26–0.33% | **Too early to judge, but structurally the best deal in the group's history.** Cheap, all-paper, revenue-accretive, brings eight top-quartile funds, Alexander Darwall, and Martin Gilbert to the board |
+
+> **The capital allocation verdict is stark.** Between 2017 and 2022 Liontrust deployed roughly **£220–307m** of consideration to acquire ~£16.1bn of AUM. Today the entire company — including that acquired AUM, the founding franchise and £50.6m of net cash — is worth **£193m**. On any reasonable accounting, the M&A programme of 2019–2022 destroyed shareholder value. The 2026 deal is a different animal in size, structure and price, and should be judged separately.
+
+### 13.4 Is Liontrust a takeover target?
+
+**Yes — and increasingly obviously so.**
+
+#### The case for
+
+- **Valuation.** 0.59% EV/AuMA against a Schroders takeout at ~1.29% and a Jupiter/CCLA clearing price of 0.67%.
+- **Clean structure.** No debt, £50.6m of net cash, no pension deficit of consequence, a single-segment business, UK-domiciled and FCA-regulated — an unusually simple diligence.
+- **Extractable synergies.** A trade buyer with existing UK infrastructure could plausibly remove £30–45m of the ~£93.5m cost base (central functions, premises, technology, listing costs, marketing). At even £30m of synergies the acquired earnings stream roughly doubles.
+- **Distribution value.** For a US or European manager without UK retail distribution, Liontrust's adviser relationships, platform presence, MPS capability and SDR-labelled fund range are hard to build organically.
+- **A willing register.** An activist holding 3.6% has publicly demanded a sale; the top 20 hold ~50% with no controlling block; institutions own ~78%.
+- **A board that now contains Martin Gilbert**, who has both built and sold asset managers, and whose arrival with a two-year lock-up on 22.3% of River Global's stock reads as a consolidation signal.
+- **Precedent.** The sector has just demonstrated that boards will accept cash.
+
+#### The case against
+
+- **Management control and intent.** John Ions (CEO since 2010) and Vinay Abrol together own ~3.3% and have built their careers here. A sale ends both. Management has publicly rebuffed the activists.
+- **Key-person leakage.** The value is in nine investment teams. An acquirer must retain Michaelis, Cross, Fosh, Husselbee, Uru and Darwall — expensive retention packages erode the synergy case.
+- **Asset attrition on announcement.** Fund flows typically worsen during a change of control (Liontrust lost £1.6bn during its own GAM bid quarter).
+- **The core franchise is impaired.** A buyer is purchasing a declining UK retail book plus a good sustainable franchise plus a good MPS business. Only two of those three are worth paying for.
+- **Regulatory friction.** FCA change-of-control approval and, for funds, ACD/depositary and potentially unitholder consents.
+- **Price expectations gap.** The board will anchor on 1.0–1.5% of AuMA; buyers are clearing at 0.3–0.7%.
+
+### 13.5 What would a takeout be worth?
+
+| Basis | Multiple | Implied EV | Plus net cash | Implied equity | **Per share** | vs 306.5p |
+|---|---|---|---|---|---|---|
+| % of AuMA — distressed | 0.60% | £146m | £50m | £196m | **~311p** | +2% |
+| % of AuMA — Jupiter/CCLA comp | 0.75% | £182m | £50m | £232m | **~368p** | +20% |
+| **% of AuMA — central case** | **1.00%** | **£243m** | **£50m** | **£293m** | **~465p** | **+52%** |
+| % of AuMA — Schroders comp | 1.29% | £313m | £50m | £363m | **~576p** | +88% |
+| EV/EBITDA — 6x FY27E | 6.0x | £204m | £50m | £254m | **~403p** | +32% |
+| **EV/EBITDA — 8x FY27E** | **8.0x** | **£272m** | **£50m** | **£322m** | **~511p** | **+67%** |
+| EV/EBITDA — 8x FY27E *with £30m synergies* | 8.0x | £512m | £50m | £562m | **~892p** | +191% |
+| P/E — 12x FY28E adjusted EPS | 12.0x | — | — | £324m | **~503p** | +64% |
+
+> **Our takeout estimate: ~465–520p, with a negotiated range of 430–520p.** The synergy-adjusted line is the one an acquirer's own model would show, and it is why a bidder can pay 500p and still make a 15%+ return. The gap between what a strategic buyer can pay (~500p+) and where the shares trade (306.5p) is the single largest identifiable source of upside in this security. It is also the reason the activist campaign exists.
+
+[PAGEBREAK]
+
+## 14 · Management assessment
+
+### 14.1 John Ions — Chief Executive Officer
+
+| | |
+|---|---|
+| **In role since** | April 2010 — **~16 years**, one of the longest-tenured CEOs in UK listed asset management |
+| **Archetype** | **Professional manager with founder-like control.** Not a founder (Liontrust was established in 1995), but he rebuilt the company from near-irrelevance and is identified with it personally |
+| **Skin in the game** | ~1.6–1.65% of shares (~£2.7m at the current price); participates in the DRIP (bought 1,157 shares at £3.05 in August 2026) |
+| **Recent LTIP** | 6 Aug 2026 — nil-price options over **566,203 shares**, equating to **284% of salary**, "capped at a 25% increase in share numbers versus last year" |
+| **Total compensation** | ~£1.03m (~57% salary, ~43% bonus/equity) |
+
+**Track record — what he actually built.** Ions inherited a sub-£1bn business in 2010 and took AuMA to a peak above £33bn — a genuine, quantifiable achievement executed through a combination of organic distribution build-out, the transformative Alliance Trust Investments acquisition and an unusually disciplined multi-boutique operating model. Between FY2013 and FY2022 Liontrust was one of the best-performing shares in the UK financial sector. That record is real and should not be erased by what followed.
+
+**Track record — what he then destroyed.** From the September 2021 peak: AuMA -42%, gross profit -46% (FY23 to FY26), adjusted EPS -67%, dividend -74%, share price **-88%**. Three specific decisions compound the cyclical damage:
+1. **Majedie (2022)** — up to £120m for £5.2bn of UK equity AUM at the top of the UK equity cycle, immediately into a multi-year redemption wave.
+2. **GAM (2023)** — an all-share bid for a distressed Swiss manager, using paper that had already halved, which failed, consumed a year of management attention, drew a Swiss Takeover Board complaint alleging tactics "bordering illegality", and coincided with £1.6bn of Liontrust's own outflows in the bid quarter.
+3. **The dividend (FY24–FY25)** — maintaining 72p through a 127% payout ratio while assets fell ~19% a year. This was capital destruction with a shareholder-friendly label.
+
+**Capital allocation.** ROE and ROIC have deteriorated sharply. Roughly £220–307m of acquisition consideration was deployed 2017–2022 to buy ~£16.1bn of AUM; the whole company is now capitalised at £193m. The single unambiguous win is Alliance Trust Investments. Set against that, the FY2026 actions — a formulaic payout policy, a completed £10m buyback at 266p, and River Global at ~0.26% of AUM — are the best capital allocation decisions of his tenure and were taken under visible external pressure.
+
+**Red flags.** (i) The 2022 remuneration vote passed by ~1.5 percentage points against ISS and Glass Lewis opposition, on a proposed 58% CEO pay rise. (ii) LTIP grants at 284% of salary in August 2026 following a period of severe value destruction — even "capped", the optics are poor and the grant is being made at a depressed share price, which mechanically maximises payout on any recovery. (iii) A pattern of promotional language ("well placed") that lagged the deteriorating numbers by roughly two years. (iv) An acquisition record that repeatedly bought high.
+
+**Verdict.** A genuinely capable distribution-led operator whose strategic and capital allocation judgement failed badly between 2021 and 2025, and who has been executing correctly since November 2025. The market's central question is not competence — it is whether a CEO of 16 years is the right person to conduct a strategic review of his own life's work.
+
+### 14.2 Vinay Abrol — Chief Financial Officer & Chief Operating Officer
+
+| | |
+|---|---|
+| **At Liontrust since** | **1995** — over 30 years, effectively since the company's founding era |
+| **Remit** | Finance, IT, operations, risk and compliance — an unusually broad combined CFO/COO mandate |
+| **Skin in the game** | ~1.7–1.71% of shares (~£2.7m) — marginally more than the CEO |
+| **Recent LTIP** | 6 Aug 2026 — nil-price options over **308,797 shares**, ~**203% of salary** |
+| **Total compensation** | ~£727,000 |
+
+**Assessment.** Abrol's record on the things a CFO controls is good: the balance sheet has carried zero debt throughout a 42% asset decline; cash generation and conversion have held; the cost programme delivered a 16% reduction in administrative expenses and protected the operating margin to a consensus beat; the IFPR capital position has never been in question. The FY2026 capital allocation policy is a credible, well-constructed framework.
+
+**Concerns.** (i) **Governance concentration** — combining CFO and COO in one 30-year insider, alongside a 16-year CEO, produces an executive team with very long shared tenure and limited internal challenge. (ii) **Segment disclosure is weak** for a group of nine investment franchises acquired at nine different prices; the single-segment presentation makes it impossible for shareholders to hold management accountable for individual acquisitions. (iii) The adjusted-versus-statutory gap has been persistently wide (FY24: adjusted PBT £67.4m versus a statutory **loss** of £0.6m), which flatters the incentive-relevant metric.
+
+### 14.3 Other key executives and investment leadership
+
+| Individual | Role | Significance |
+|---|---|---|
+| **Peter Michaelis** | Head of Sustainable Investment (joined 2017 with ATI) | The group's most valuable single individual. ~25-year record; the SF Managed Fund has returned ~312% since 2001 versus ~251% for the IA Mixed Investment 40-85% sector to March 2026 |
+| **Anthony Cross / Julian Fosh** | Economic Advantage | Architects of the founding process and the brand. Their franchise has suffered the most severe attrition |
+| **John Husselbee / James Klempster** | Multi-Asset | Own the structurally growing MPS channel |
+| **Storm Uru** (with Clare Pleydell-Bouverie, James O'Connor) | Global Innovation / Global Technology | The best recent performance story; lead manager of the Global Technology Fund since Feb 2023 |
+| **Phil Milburn / Donald Phillips** | Global Fixed Income | Diversification away from equity beta |
+| **Alexander Darwall** | European Opportunities (joined 2026 via River Global/Devon) | Arrives with the EOT rollover and a long-standing personal client following |
+| **Simon Hildrey** | Chief Marketing Officer | Presents alongside the CEO/CFO at results |
+
+**Senior management changes.** The most consequential recent change is not an executive appointment but a board one: **Martin Gilbert's arrival as an independent NED on 1 July 2026**. There has been no change to the CEO or CFO in over a decade and a half.
+
+### 14.4 Founder versus professional manager — and what it implies
+
+Liontrust is run by **long-tenured professional managers with founder-level psychological ownership but only ~3.3% combined economic ownership**. That combination is the least favourable for this stage of the business cycle: it delivers the emotional attachment of a founder (resistance to sale, identification with the strategy) without the economic alignment that would make a founder indifferent between running and selling. At a £193m market capitalisation, the executives' combined stake is worth ~£6.4m; their combined annual compensation plus outstanding LTIPs is worth a substantial multiple of the *annual* return on that stake. **The incentive to continue as an independent company is structurally stronger than the incentive to maximise the share price via a sale.** Investors should weight this heavily when assessing the probability of the takeover scenario in §13.5.
+
+[PAGEBREAK]
+
+## 15 · Board of Directors
+
+### 15.1 Current board
+
+| Director | Role | Appointed | Tenure | Professional background | Other affiliations |
+|---|---|---|---|---|---|
+| **Luke Savage** | Non-Executive Chair; Chair of Nomination Committee | 20 Sep 2024 | ~2 yrs | Chartered accountant. Senior finance roles at **Standard Life plc** (CFO), **Lloyd's of London** (Director of Finance), **Deutsche Bank AG** and **Morgan Stanley** | Non-executive roles across insurance and financial services |
+| **John Ions** | Chief Executive Officer | Apr 2010 | **~16 yrs** | Career asset management distribution and general management; previously SG Asset Management (UK) and Tactica Fund Management | — |
+| **Vinay Abrol** | Chief Financial Officer & Chief Operating Officer | Board director; **at Liontrust since 1995** | **30+ yrs at company** | Finance, IT, operations, risk and compliance | — |
+| **Mandy Donald** | Non-Executive Director; **Chair of Audit & Risk Committee** (since 20 Sep 2019) | 1 Aug 2019 | ~7 yrs | Chartered accountant; **18 years with EY** | Multiple UK listed and financial services non-executive appointments |
+| **Rebecca Shelley** | **Senior Independent Director**; NED for Responsible Capitalism / ESG | 2019 | ~7 yrs | Corporate affairs and communications leadership at **Prudential**, **Tesco**, **TalkTalk**, Transport for London | **Chair of B.P. Marsh & Partners Plc** from 26 May 2026. **Not standing for re-election at the September 2026 AGM** |
+| **Martin Gilbert** | Independent Non-Executive Director | **1 Jul 2026** | <1 yr | **Co-founder and CEO of Aberdeen Asset Management** (built from start-up to >£300bn); co-CEO of **Standard Life Aberdeen**; Chairman of **AssetCo / River Global** | Chairman of **Revolut**; **Toscafund**; extensive asset management M&A record |
+
+~ Board composition per the most recent public disclosure. Liontrust may have additional non-executive directors not identified in the sources available for this note; readers should verify against the 2026 Annual Report and the September 2026 AGM notice.
+
+### 15.2 Board changes over the last five years
+
+| Date | Change | Read-across |
+|---|---|---|
+| Apr 2021 | **Quintin Price** appointed NED | Ex-BlackRock/Abu Dhabi Investment Authority; a credible investment appointment |
+| **Sep 2021** | **Sophia Tickell** departs | In the wake of the shareholder revolt over executive remuneration |
+| **Feb 2022** | Remuneration policy and LTIP passed at a general meeting by ~55.6% / 54% against ISS and Glass Lewis opposition | The governance discount is established |
+| Jan 2022 | **Emma Howard Boyd** appointed NED | Former Environment Agency chair; an ESG credential appointment |
+| **Mar 2023** | **Emma Howard Boyd and Quintin Price both step down with immediate effect** | **The most significant governance red flag of the period.** Two NEDs — appointed 14 and 23 months earlier — leaving simultaneously and immediately, weeks before the GAM bid was launched |
+| **Sep 2024** | **Alastair Barbour** retires as Chair at the AGM; **Luke Savage** appointed NED and Chair from 20 Sep 2024 | Orderly succession; a finance-heavy chair for a period requiring capital discipline |
+| **May 2026** | **Rebecca Shelley** becomes Chair of B.P. Marsh & Partners; announces she will not seek re-election at the September 2026 AGM | The SID role will need to be refilled — a live succession item at a sensitive moment |
+| **1 Jul 2026** | **Martin Gilbert** appointed independent NED following the River Global completion | **The most consequential board change in a decade.** Brings unmatched sector M&A experience, and a direct economic interest via River Global consideration shares locked up for two years |
+
+> **Governance verdict.** The board has strengthened materially — a chartered-accountant Chair, an experienced Audit Chair, and now the UK's most experienced asset management dealmaker. But the March 2023 double NED resignation has never been satisfactorily explained publicly, the executive team has not changed in 16 years, and the SID is departing just as an activist crosses 5%. **Board independence and refreshment is the area where shareholder engagement is most likely to produce change.**
+
+[PAGEBREAK]
+
+## 16 · Shareholder register and the activist campaign
+
+### 16.1 Ownership structure
+
+| # | Holder | Type | Approx. stake | Comment |
+|---|---|---|---|---|
+| 1 | **UBS Asset Management (UK) Ltd** | Institutional | **~5.4%** | Largest disclosed institutional holder |
+| 2 | **GAM Holding AG** (GAM Global Opportunities Fund / GAM Global Special Situations Fund) | **Institutional — activist** | **5.01%** (3,155,000 shares, notified 6 Aug 2026) | **Crossed 5% on 5 Aug 2026, up from 3.6% in March 2026.** Managed by Albert Saporta and Randel Freeman |
+| 3 | Undisclosed institution | Institutional | ~4.2% | Second-largest per public ownership analysis |
+| 4 | Undisclosed institution | Institutional | ~4.1% | Third-largest per public ownership analysis |
+| 5 | **Vinay Abrol** | **Insider — CFO/COO** | **~1.71%** | Longest-serving insider |
+| 6 | **John Ions** | **Insider — CEO** | **~1.65%** | |
+| 7 | **Tetragon Partners UK LLP** (formerly TFG Asset Management UK LLP) | Institutional | Disclosed via RNS Apr 2026 | Voting rights breakdown change notified 28 Apr 2026 |
+| 8 | **Morgan Stanley** | Institutional / trading book | Fell **below 5%** on 5 Aug 2026; 0.876% applicable after trading-book exemption | Position reduced |
+| 9 | **Martin Gilbert / Christopher Mills** (via River Global consideration shares) | **Insider-aligned** | **~1.0% combined (est.)**, locked up at least two years | Held 22.3% of River Global; on our estimate ~660k Liontrust consideration shares, retained for at least two years post-completion |
+| 10 | Other UK institutions and retail | Institutional / retail | Institutions ~78% of register; general public/retail ~16% | Top 20 hold ~50%; **no controlling shareholder** |
+
+~ Precise rankings beyond the largest holders are not publicly disclosed in a single source; the table combines TR-1 notifications, ownership analytics and directors' interests. Verify against the 2026 Annual Report register and the latest RNS holdings notifications before relying on this for a transaction.
+
+**The structurally important facts:** institutions own ~78%; the top 20 hold only ~50%; there is no blocking stake; insiders hold ~3.3%; and an avowed activist now holds over 5%. **This is a register that can be moved.** A bidder needs no consent from a founder or family and faces no defensive block.
+
+### 16.2 The activist campaign — GAM Alternatives (Saporta / Freeman)
+
+| Element | Detail |
+|---|---|
+| **Activists** | **Albert Saporta and Randel Freeman**, co-portfolio managers of the **GAM Global Opportunities Fund** and **GAM Global Special Situations Fund** |
+| **Opening move** | **23 March 2026** — public open letter to John Ions, released via GAM Holding AG and GlobeNewswire |
+| **Stake at launch** | **3.6%** of share capital |
+| **Stake now** | **5.01%** (3,155,000 shares) as at 5 August 2026 — crossed the 5% threshold on 10 July 2026 and formally notified 6 August 2026 |
+| **Escalation** | Simultaneously disclosed a new position in **Impax Asset Management**, citing "continued engagement and deep undervaluation" — indicating a **sector-wide activist thesis**, not a single-name trade |
+| **Company response** | The board publicly criticised the managers for **"not seeking any dialogue"** with the board (24 March 2026) |
+
+#### The activists' central tenets
+
+1. **The share price decline is management's responsibility, not the market's.** Down ~85% from the September 2021 peak; AuMA down from a stated ~£42.3bn to ~£22bn.
+2. **The valuation is absurd on an asset basis.** At the time of the letter the company was valued at **~0.68% of AUM** — below any credible private market clearing price.
+3. **There is no credible strategy to reverse the decline.** The demand is that the board *"commence an immediate strategic review with the objective of selling the business to the highest bidder."*
+4. **The sector is consolidating rapidly and the window is open.** Post-Nuveen/Schroders, scale buyers are demonstrably active and paying cash.
+5. **Shareholders, not management, should capture the control premium.**
+
+#### How successful have they been?
+
+| Demand | Status | Assessment |
+|---|---|---|
+| Formal strategic review with a view to sale | **Not conceded** | The board rejected the approach and questioned the process rather than the substance |
+| Improved capital returns | **Substantially achieved** — though begun (Nov 2025) *before* the campaign | New capital allocation policy, dividend rebased to a sustainable formula, £10m buyback completed and cancelled |
+| Board strengthening / independent M&A expertise | **Achieved in substance** | Martin Gilbert's appointment on 1 July 2026 places the sector's most experienced dealmaker in the boardroom, whatever the stated rationale |
+| Re-rating of the equity | **Substantially achieved** | Shares up materially from the March 2026 lows; the takeover option is now visibly in the price |
+| Sale of the company | **Not achieved** | The binary outcome remains open |
+
+> **Assessment of the campaign.** Tactically effective, strategically unresolved. In five months the activists have gone from 3.6% to over 5%, watched the shares re-rate ~35–40% off the lows, seen a consolidator join the board, and seen management adopt a capital-return policy. What they have not obtained is the strategic review. The escalation into Impax signals a patient, thesis-driven campaign rather than an opportunistic trade, and the crossing of 5% materially raises the cost to the board of continuing to ignore it. **The September 2026 AGM — with the SID departing and remuneration again on the agenda — is the obvious next pressure point.**
+
+### 16.3 Prior shareholder activism
+
+The **February 2022 remuneration general meeting** is the relevant precedent: with ISS and Glass Lewis both recommending against, the remuneration policy and LTIP rules passed with only ~54–56% support. That was, in substance, a failed vote that technically succeeded. It demonstrates that this register will vote against management when it is organised — a fact of direct relevance to the September 2026 AGM.
+
+[PAGEBREAK]
+
+## 17 · Strategic initiatives over ten years, and their outcomes
+
+| Initiative | Period | Objective | Outcome | Status |
+|---|---|---|---|---|
+| **Multi-boutique / federated investment process model** | 2010– | Grow AuMA by acquiring and hiring self-contained teams under one brand and one operating platform | **Mixed.** Delivered scale to £33.5bn, then proved fragile when the two largest processes underperformed simultaneously. The operating platform itself is genuinely good | **Ongoing — now nine processes** |
+| **Alliance Trust Investments acquisition** | 2017 | Acquire sustainable investment capability | **Success.** Became the largest franchise and the group's best international proposition | Core |
+| **Global Fixed Income team hire** | 2018 | Diversify from equity beta | **Partial success.** Credible team, sub-scale assets (~£2.4bn) | Ongoing |
+| **Neptune acquisition** | 2019 | Add global and EM equity | **Disappointing.** Most funds rationalised; residual value is the Global Innovation/Technology platform | Absorbed |
+| **Architas UK acquisition** | 2020 | Acquire multi-asset and MPS capability | **Strategically right, financially mediocre.** ~£72–75m for £5.7bn that largely ran off, but delivered the MPS capability that is now the best growth channel | Core |
+| **Brand and sponsorship investment** | 2018–2023 | Build consumer and adviser brand recognition | **Failed to protect flows.** Recognition rose; assets fell. A fixed cost that scaled badly | **Substantially reduced** |
+| **International distribution build (Luxembourg / Dublin GF range)** | 2015– | Diversify away from UK retail | **Slow-burn success.** Now explicitly credited by management for the flow improvement; still <10% of AuMA | **Accelerating — a strategic priority** |
+| **Majedie acquisition** | 2021–22 | Add UK/global equity scale and institutional presence | **Failure.** Up to £120m at the peak of the UK equity cycle; substantial attrition | Absorbed into Global Fundamental |
+| **GAM Holding takeover** | 2023 | Step-change in scale and international reach | **Failure — abandoned.** ~one-third acceptance versus a >66% condition; reputational and asset cost | Abandoned Aug 2023 |
+| **GAM global equity team lift-out** | 2023 | Salvage investment talent from the failed bid | **Modest success.** Acquired the people without the entity or the liabilities | Integrated |
+| **SDR labelling of the sustainable range** | 2024–25 | Regulatory credentialing of ten UK sustainable funds under "Sustainability Focus" from 1 Apr 2025 | **Success.** One of the largest SDR-labelled ranges in the UK; a genuine barrier against smaller competitors | Complete |
+| **Cost reduction programme** | 2024–26 | Restore operating margin | **Success.** ~25 roles (~12%) removed; administrative expenses -16%; outsourcing to Broadgate; further ~£1.5m targeted | **Delivering — drove the FY26 margin beat** |
+| **Institutional and sub-advisory pivot** | 2024– | Replace UK retail outflows with stickier institutional assets | **Early success.** >£800m of mandate wins; >£500m gross and +£447m net institutional inflows in the June-2026 quarter | **The central strategic priority** |
+| **New capital allocation policy** | Nov 2025 / Jun 2026 | Sustainable distributions | **Success.** Minimum 50% of adjusted diluted EPS plus buybacks; £10m completed and cancelled at ~266p | Complete and ongoing |
+| **River Global acquisition** | 2026 | Consolidation at a low multiple | **Promising.** £2.96bn AuMA, £10.5m revenue for £7.6m of paper; £7.5m synergies; brings Darwall and Gilbert | **Completed 30 Jun 2026 — integration in progress** |
+| **European Opportunities rollover (LEO fund)** | 2026 | Convert the EOT investment trust mandate into an open-ended Liontrust fund managed by Alexander Darwall | **In progress.** EOT is winding up; shareholders choose cash, the new Liontrust open-ended fund, or JPMorgan European Growth & Income | **Live — determines the £2.1m contingent consideration** |
+
+> **Ten-year verdict.** Two unambiguous successes (Alliance Trust Investments; SDR labelling), two structurally right but financially mediocre deals (Architas, Neptune), two clear failures (Majedie, GAM), and a genuinely impressive 2025–26 self-help programme. The pattern is that Liontrust executes *operationally* well and allocates *capital* badly — until 2026, when it did the opposite of everything it had done before and the shares responded immediately.
+
+## 18 · Stakes held in other companies
+
+**Liontrust holds no material strategic equity stakes in other listed or unlisted operating companies.** This is a genuinely asset-light balance sheet. The relevant principal exposures are:
+
+| Exposure | Nature | Strategic relevance | Financial relevance |
+|---|---|---|---|
+| **Seed capital in own funds** | Principal investments used to launch and support Liontrust funds until they reach viable scale | **High** — seeding is a prerequisite for launching new strategies and winning platform/institutional inclusion | Modest; a component of the £269.8m total assets. Creates market-risk exposure on the balance sheet, not just the P&L |
+| **Acquired goodwill and intangibles** | Carrying value of ATI, Neptune, Architas, Majedie and now River Global | **High** — represents the accumulated cost of the multi-boutique strategy | **Very high** — the dominant non-cash asset and the principal impairment risk (see §23.10) |
+| **River Global Holdings Ltd** | Wholly owned since 30 June 2026 | High — nine funds, £2.96bn AuMA, Darwall | £7.6m + up to £2.1m contingent |
+| **Liontrust International (Luxembourg) S.A. / Liontrust Europe S.A.** | Wholly owned distribution subsidiaries | High — the entire Continental European distribution route | Small carrying value; disproportionate strategic value |
+| **Investment trust mandates** (Edinburgh Investment Trust; the EOT rollover vehicle) | **Management contracts, not equity stakes** | Moderate — revenue and prestige | Fee income only; no balance sheet stake |
+
+> **A common analytical error to avoid.** Third-party filings that list "Liontrust Investment Partners LLP" holdings in Alphabet, Microsoft, Deutsche Bank, Thermo Fisher and Cadence Design Systems are reporting **client fund holdings managed on behalf of investors** — not principal investments by Liontrust Asset Management PLC. They confer no economic interest on the plc beyond the management fee. Do not treat these as corporate stakes.
+
+## 19 · Dividends, buybacks and treasury share cancellations, five years
+
+| Financial year (to 31 Mar) | First interim DPS | Final / second interim DPS | **Total DPS** | Payout vs adj. EPS | Buybacks | Treasury cancellations |
+|---|---|---|---|---|---|---|
+| **FY2022** | 22.0p (paid Dec-21) | 50.0p (paid Jun-22) | **72.0p** | n/d | None | None |
+| **FY2023** | 22.0p (paid Dec-22) | 50.0p (paid Jun-23) | **72.0p** | ~66% | None | None |
+| **FY2024** | 22.0p (paid Nov-23) | 50.0p (paid Jul-24) | **72.0p** | **91%** | None | None |
+| **FY2025** | 22.0p (paid Nov-24) | 50.0p (paid Jul-25) | **72.0p** | **127% — uncovered** | None | None |
+| **FY2026** | **7.0p** (declared 20 Nov 2025) | **12.0p** (paid Aug-26) | **19.0p** | **~52% — covered** | **£10m programme** announced 27 Nov 2025, completed Jun 2026: **3,764,532 shares at ~266p average** | **All repurchased shares cancelled — no shares held in treasury.** Issued capital reduced to **60,000,083** |
+| **FY2027E** | — | — | **~18.0p** (50% of est. EPS) | 50% policy minimum | Expected — excess capital policy | — |
+
+**Selected buyback tranches (illustrative of execution):** 4 Feb 2026 — 24,237 shares at 237.30p; 17 Feb 2026 — 25,000 at 248.15p; 24 Mar 2026 — 34,430 at 241.61p; 15–17 Apr 2026 — 48,289 at 254–260p; 25–29 May 2026 — 19,207 at 284.5–300p; 29–30 Jun 2026 — 45,049 shares completing the programme.
+
+**Offsetting issuance:** ~2.97m new shares issued at 255.87p on 30 June 2026 as River Global consideration, plus up to 820,722 contingent adjustment shares. Net share count is therefore ~62.97m — broadly back to the pre-buyback level.
+
+> **The candid read on capital returns.** Liontrust retired 5.8% of its equity at an average 266p and immediately issued ~4.7% of new equity at 255.87p to buy River Global. Both decisions are individually defensible — the buyback at a deep discount to intrinsic value, the acquisition at 0.26% of AUM — but the combination means shareholders got no net share count reduction. The dividend, meanwhile, was cut 74%. **Total returns declared in respect of FY2026 were approximately £22m (dividends of ~£12m plus the £10m buyback) against a £193m market capitalisation** — a ~11% total shareholder yield, which is the genuinely attractive part of the story.
+
+[PAGEBREAK]
+
+## 20 · Adversarial deep dive
+
+### 20.1 The bull case
+
+**1. The valuation embeds terminal decline that the operating data no longer supports.** At 0.59% EV/AuMA and ~4.2x EV/EBITDA, the market is pricing continued double-digit asset attrition indefinitely. The June-2026 quarter delivered net outflows of £357m — an annualised rate of ~1.5% of AuMA versus ~19% in FY2026. If flows merely stabilise, the shares are worth materially more without any growth.
+
+**2. Operating leverage is now pointed the right way.** The cost base has been cut 16%, ~25 roles removed, functions outsourced. On our numbers, gross profit growing at ~4–5% a year takes the adjusted operating margin from 24.0% to 27.5% by FY2029 and EPS from 36.7p to 47.4p. That is a 6.5x P/E on a 7.8% covered yield.
+
+**3. River Global is the template, not the exception.** £10.5m of run-rate revenue and eight top-quartile funds for £7.6m of paper, targeting ~50% operating margin post-synergies. The UK is full of sub-£5bn managers with no succession plan and no exit. Liontrust's platform can absorb them at 0.25–0.5% of AUM. **This is the highest-return capital allocation available to the company and management has just demonstrated it can execute it.**
+
+**4. The sustainable and MPS franchises are genuinely defensible.** Ten SDR-labelled funds — one of the largest such ranges in the UK — plus a multi-asset/MPS business embedded in adviser workflows where switching costs are real. These are the two parts of the business a buyer would pay a premium for.
+
+**5. Capital allocation has been fixed.** A formulaic 50% minimum payout, buybacks for excess capital, cancellation rather than treasury, and an ~11% total shareholder yield in FY2026. Combined with zero debt and £50.6m of net cash, the downside is genuinely protected.
+
+**6. The takeover option is real and free.** A trade buyer removing £30m of the £93.5m cost base can pay 500p+ and still earn a mid-teens return. An activist holds over 5%, institutions hold ~78%, there is no blocking stake, and the sector's defining precedent (Nuveen/Schroders at ~1.29% of AUM and a ~30% premium) is fresh.
+
+**7. Potential earnings surprises.** Falling UK rates reversing the money-market-fund drain on retail flows; a UK equity re-rating lifting both performance and appetite; performance fees (only £3.7m today) inflecting; and the EOT rollover converting a closed-end mandate into a permanent open-ended fund.
+
+### 20.2 The bear case
+
+**Risk 1 — The UK retail active equity business is in secular, not cyclical, decline, and it is still 60%+ of the revenue base.** UK retail funds drove £822m of net outflows in the June-2026 quarter even as the group total improved to £357m. The improvement came entirely from institutional inflows at roughly *half the fee rate*. Liontrust is therefore replacing high-margin revenue with low-margin revenue and calling it stabilisation. Extrapolate that mix shift and the blended revenue margin goes to 0.45% and gross profit falls even as AuMA rises. **This is the most under-appreciated risk in the story.**
+
+**Risk 2 — The founding franchise is permanently impaired and the brand is contaminated.** Liontrust Special Situations went from £6.5bn (Jan-22) to under £1.0bn (Jan-26) and lost 3.8% in calendar 2025 against a sector up 15.4% — one of the five worst funds in the IA UK All Companies sector. Economic Advantage *is* the Liontrust brand. Once a fund falls out of adviser recommendation lists and off platform buy-lists, it does not return without three years of top-quartile performance. There is no evidence that process is being repaired.
+
+**Risk 3 — Sub-scale in an industry where the minimum viable scale rises every year.** At £24bn, Liontrust carries a listed-company cost base, an FCA and CSSF compliance perimeter, a nine-team investment structure and a marketing budget against competitors running £100bn+ on the same infrastructure. Consumer Duty, SDR, PRIIPs and IFPR all raise the fixed cost bar. **Every year Liontrust remains independent at this size, the structural cost disadvantage widens.**
+
+**Additional risks:** key-person departure (Michaelis above all); integration failure across nine — now ten — investment teams; the September 2026 AGM producing a governance rupture; and a 20%+ equity market drawdown, against which the business has no defence at all.
+
+### 20.3 Pre-mortem: it is August 2029 and the shares are at 120p. What happened?
+
+1. **Markets fell 20% in late 2026** and never fully recovered. AuMA went to £19bn.
+2. **The mix shift accelerated.** Institutional and MPS wins continued at 0.30–0.35%, UK retail outflows continued at 0.70%+, and the blended revenue margin broke below 0.47%. Gross profit fell to ~£95m *despite* AuMA being roughly flat — the outcome management never guided for and the market never modelled.
+3. **Operating leverage reversed.** With costs already cut to the bone, the next £25m of lost gross profit fell through at 80%+. The adjusted operating margin went to low teens.
+4. **Peter Michaelis retired** and took two colleagues with him. £2bn left the Sustainable range within twelve months.
+5. **River Global disappointed.** The £7.5m of synergies proved to be £4m; the EOT rollover attracted only a third of the trust's shareholders; Darwall's assets did not travel.
+6. **The board rejected an approach in 2027 at 430p** as "materially undervaluing the company". No second bid came. The activist sold.
+7. **The dividend, on a 50% payout of a collapsing EPS, fell to 8p.** The equity story became a melting ice cube with a governance problem.
+
+**What would have warned us:** the blended revenue margin, printed every six months, is the single leading indicator. If it goes through 0.50% while AuMA is flat or rising, the bear case is happening regardless of what the flow headline says.
+
+### 20.4 Are the multiples too high?
+
+**No — and this is the crux of the disagreement with the bears.** At 8.4x adjusted earnings, ~4.2x EV/EBITDA and 0.59% EV/AuMA, the multiple is not the risk; the *denominator* is. An investor is not paying a premium for growth here. The bear case is not "the multiple compresses" — it is "earnings halve and the 8.4x becomes 17x on the new number". That is a genuine risk, but it is an earnings risk, not a valuation risk, and it is best managed by watching the revenue margin and the UK retail flow line, not the P/E.
+
+### 20.5 The contrarian view: what the market is refusing to see
+
+> **The market is still analysing Liontrust as an asset gatherer. It has quietly become a consolidation vehicle with a call option on its own sale — and the board composition changed in July 2026 to reflect that.**
+
+Three specific things the consensus is not pricing:
+
+1. **The River Global multiple is the real news, not the size.** Buying £10.5m of revenue for £7.6m of paper at ~0.26% of AUM, with a targeted ~50% incremental operating margin, is a materially higher return on capital than anything Liontrust can generate organically. The market treated this as a small bolt-on. It is a demonstration that the platform's marginal economics are exceptional and that the acquisition market has repriced by 80% since Majedie. If Liontrust does two more of these, FY2029 EPS is closer to 60p than 47p — and nobody's model has that.
+
+2. **Martin Gilbert did not join this board to preside over an independent £24bn UK boutique.** He built Aberdeen from a start-up to over £300bn through roughly 20 acquisitions and then merged it into Standard Life. He is the chairman of the vehicle Liontrust just bought, he is locked up for two years, and he now sits in the boardroom of a company trading at 0.6% of AuMA with an activist above 5%. The market is pricing this as a routine NED appointment. **It is the single strongest signal in the story that a structural outcome — as buyer, as seller, or as merger partner — is being contemplated.**
+
+3. **The dividend cut was the bull signal, not the bear signal — and the market has still not fully re-priced what it means.** In November 2025 the shares *rose* on a 74% dividend cut. That told management, unambiguously, that this register values capital discipline over yield. Everything since — the buyback, the cancellation, the cheap all-paper deal, the formulaic payout — follows from that lesson. **A management team that has learned what its shareholders actually want is worth more than one that has not**, and that behavioural change is not in any model.
+
+**The contrarian conclusion:** the consensus debate is "will flows stabilise?" That is the wrong question, because the answer only moves the shares 30–40%. The right question is "who ends up owning this platform, and at what multiple of AUM?" — and that answer is worth 60–90%.
+
+[PAGEBREAK]
+
+## 21 · Scenario analysis
+
+| Scenario | **Bear** | **Base** | **Bull** |
+|---|---|---|---|
+| **Probability** | **25%** | **50%** | **25%** |
+| Net flows FY27–29 (cumulative) | -£5.0bn | -£2.2bn | +£1.0bn |
+| Market return p.a. | -3% | +8% | +12% |
+| **AuMA at Mar-2029** | **£17.5bn** | **£27.8bn** | **£34.0bn** |
+| Blended revenue margin | 0.47% | 0.51% | 0.53% |
+| **FY2029 gross profit** | **£86m** | **£141m** | **£182m** |
+| Adjusted operating margin | 13% | 27.5% | 33% |
+| **FY2029 adjusted PBT** | **£12.6m** | **£40.4m** | **£61.7m** |
+| **FY2029 adjusted diluted EPS** | **~14.7p** | **~47.4p** | **~72.0p** |
+| Exit P/E | 7.0x | 10.0x | 13.0x |
+| **Implied value per share** | **~103p** | **~474p** | **~936p** |
+| Plus cumulative surplus capital returned / buyback accretion | ~+25p | ~+35p | ~+45p |
+| **Target value (rounded)** | **~130p** | **~510p** | **~980p** |
+| **Return from 306.5p** | **-58%** | **+66%** | **+220%** |
+
+**Probability-weighted value: ~£5.32 (532p), i.e. ~+74% from 306.5p.**
+
+### Key assumption sensitivities
+
+| Assumption | Bear | Base | Bull | Why it matters |
+|---|---|---|---|---|
+| **UK retail flow trajectory** | Worsens | Slowly improves | Turns positive | 60%+ of revenue |
+| **Blended revenue margin** | 0.47% | 0.51% | 0.53% | Each 1bp ~ £2.6m of FY29 gross profit |
+| **Cost base** | Cannot cut further | £102m | £120m (variable comp up on profits) | Operating leverage |
+| **Further M&A** | None | None | 2 × River Global-style deals | Not in base case at all |
+| **Exit multiple** | 7x | 10x | 13x | Peers at 13–16x |
+| **Key-person retention** | Michaelis departs | Stable | Stable + hires | Single largest binary |
+
+### Overlay: the change-of-control scenario
+
+Separately from the operating scenarios, we assess a **~35% probability of a change of control within 24 months**, at an estimated **430–520p** (see §13.5). Blending this overlay into the base case narrows the dispersion and raises the near-term expected value. **This is a security where the distribution of outcomes is bimodal, and position sizing should reflect that rather than the point estimate.**
+
+[PAGEBREAK]
+
+## 22 · Fifteen questions for the CEO and Chairman
+
+*Ordered by information value — the first five are the ones that would move our estimates most.*
+
+1. **The blended revenue margin fell from 60bp to 55bp and River Global arrives at roughly 35bp. At what AuMA mix does the margin stabilise, and can you commit to disclosing net management fee margin separately for retail, MPS and institutional every six months?**
+2. **UK retail funds lost £822m in the June quarter while institutional gained £447m. On current pricing, how much institutional AuMA must you win to replace one pound of lost UK retail gross profit — and is the group therefore growing assets while shrinking revenue?**
+3. **Liontrust Special Situations has fallen from £6.5bn to under £1bn and underperformed the IA UK All Companies sector by roughly 19 percentage points in 2025. What specifically is being changed in the Economic Advantage process, who is accountable, and by when should shareholders expect evidence?**
+4. **You acquired River Global at roughly 0.26% of AUM. Your own shares trade at 0.59% of AuMA on an EV basis. Why is issuing equity at 256p to buy assets at 0.26% of AUM better for shareholders than buying your own assets back at 0.59%?**
+5. **Between 2017 and 2022 you deployed £220–307m of consideration for £16.1bn of AUM. The entire company is now worth £193m. What is the board's honest post-mortem, and what has structurally changed in the acquisition approval process as a result?**
+6. **Martin Gilbert joined the board on 1 July 2026 with a two-year lock-up on River Global consideration shares. What specific mandate did the board give him, and does the Nomination Committee regard him as independent for the purposes of evaluating any offer for the company?**
+7. **An activist has moved from 3.6% to over 5% and asked for a strategic review. The board's public response addressed process, not substance. What price, expressed as a percentage of AuMA or a multiple of earnings, would the board regard as fully reflecting standalone value?**
+8. **What is the realistic minimum efficient scale for a UK active manager under Consumer Duty, SDR and IFPR — and at £24bn, are you above or below it?**
+9. **The £7.5m of River Global synergies imply a ~50% operating margin on the acquired revenue. What is the phasing by half-year, what are the one-off costs to achieve, and what happens to the £2.1m contingent consideration if the EOT rollover under-delivers?**
+10. **Peter Michaelis, Anthony Cross, Julian Fosh, John Husselbee, Storm Uru and Alexander Darwall are individually material to revenue. What proportion of gross profit is attributable to the five largest key-person dependencies, and what are the notice periods and retention structures?**
+11. **You report as a single operating segment across nine investment processes acquired at nine different prices. What is the board's rationale for not disclosing gross profit and contribution by franchise, given that shareholders cannot otherwise assess the return on the M&A programme?**
+12. **The August 2026 LTIP grants were 284% of salary for the CEO and 203% for the CFO, made at a depressed share price following an 88% decline from the peak. How does the Remuneration Committee justify the grant quantum, and what absolute TSR or AuMA hurdles apply?**
+13. **Emma Howard Boyd and Quintin Price resigned with immediate effect in March 2023, weeks before the GAM offer. Shareholders have never had an explanation. Will the board now provide one?**
+14. **The capital allocation policy sets a minimum 50% payout with buybacks for excess capital. What is the board's definition of "excess" relative to the IFPR requirement, and at what share price does buying back stock cease to be the highest-return use of capital versus acquisitions?**
+15. **Assume markets fall 20% and AuMA returns to £19bn. What is the cost reduction plan, what is the floor operating margin, and at what point does the board conclude that independence is no longer the value-maximising option?**
+
+[PAGEBREAK]
+
+## 23 · The short seller's case and forensic review
+
+*This section deliberately argues one side. It is not our central view; it is the discipline of stating what would have to be true for the bears to be right.*
+
+### 23.1 What could structurally break the way this company makes money
+
+**The revenue margin, not the asset number.** Liontrust's entire narrative rests on "flows are improving". But the improvement is composed of high-fee UK retail money leaving (-£822m in one quarter) and low-fee institutional money arriving (+£447m). At roughly 70bp out and 35bp in, **the group can grow AuMA and shrink gross profit at the same time.** The margin has already gone 60  to  55bp, and River Global comes in at ~35bp. Management has never guided to a floor. If the blend reaches 0.47%, FY2029 gross profit is ~£95–100m on flat assets, the operating margin is in the low teens, and adjusted EPS is under 20p. **At that point the shares are expensive at 306.5p.**
+
+### 23.2 Where is the revenue concentrated, and what if that shifts?
+
+By our estimates roughly **41% of gross profit comes from the Sustainable Investment franchise and ~19% from Economic Advantage — about 60% from two teams**, one of which is already in severe decline. Within Sustainable, a handful of funds dominate, and the whole franchise is associated with one man, Peter Michaelis, who has run money since 2001. **The single-person concentration risk here is extreme and is not disclosed.** A Michaelis retirement is not a tail event over a five-year horizon; it is a base-case planning assumption for any acquirer.
+
+Geographically, ~85–90% of revenue is UK. Channel-wise, the majority is intermediated by a small number of platforms — Hargreaves Lansdown, AJ Bell, Fidelity, Transact, Quilter, abrdn — any one of which removing Liontrust from a buy-list or a model portfolio can move hundreds of millions of pounds in a quarter. **Liontrust discloses none of this concentration.**
+
+### 23.3 Why the moat is weaker than bulls think
+
+There is no moat. There are no long-term contracts, no network effects, no hard assets and no pricing power. The "SDR label" advantage is a compliance exercise that ten competitors can and will replicate. The "sticky MPS" argument is true only until a platform launches its own in-house models at 15bp — which is exactly what platforms are doing. The scalability argument is real but cuts both ways: **a platform that scales up cheaply also de-scales expensively, and Liontrust has just demonstrated a 53% drop-through of lost revenue to lost profit.**
+
+### 23.4 The most dangerous competitor bulls are underestimating
+
+**Not BlackRock. The platforms and vertically-integrated wealth managers.** Quilter, St James's Place, abrdn/interactive investor, Rathbones and Evelyn Partners are simultaneously Liontrust's largest distributors and its emerging competitors. They own the client, see every flow, and are building in-house MPS and multi-asset propositions at a fraction of Liontrust's fee. **Liontrust's Multi-Asset business — the one franchise bulls call structurally growing — is in direct competition with the very firms whose shelf space it depends on.** That is a strategically untenable position and the market treats it as a growth story.
+
+### 23.5 The worst capital allocation decisions
+
+1. **Majedie (2022)** — up to £120m, ~1.54–2.31% of AUM, at the exact top of the UK equity cycle. The acquired franchise is now sub-scale.
+2. **GAM (2023)** — a foreign, contested, all-share bid for a distressed manager that consumed a year, failed at one-third acceptance, drew a Swiss Takeover Board complaint against the CEO, and coincided with £1.6bn of Liontrust's own outflows.
+3. **The FY2024–FY2025 dividend** — 72p paid against 79.2p and then 56.8p of adjusted EPS, a 127% payout in the final year, while assets fell ~19% annually. Roughly £90m+ of cash distributed over two years that, deployed into buybacks at 200–400p, would have retired a quarter of the equity.
+4. **Sustained brand and sponsorship spending** through a period of accelerating outflows.
+
+### 23.6 Related parties, incentives and governance
+
+- **No evidence of improper related-party transactions.** This is a clean company on that axis, and we say so plainly.
+- **However:** the River Global acquisition results in the vendor's chairman joining the buyer's board as an "independent" non-executive director while holding locked-up consideration shares. That is a **conventional but genuine independence question**, and the Nomination Committee should be asked to justify the classification.
+- **Incentive misalignment is the real issue.** The CEO and CFO have ~3.3% combined ownership (~£6.4m) against combined annual compensation of ~£1.76m plus LTIP grants of 566,203 and 308,797 nil-price options awarded in August 2026 at a depressed price. **A recovery to 600p is worth roughly £5.2m to the two of them through the LTIP alone — but a takeover at 500p ends the salary stream permanently.** Management's economics favour independence and a slow recovery over a fast sale. Shareholders' economics may not.
+- **The 2022 pay vote passed with ~54–56% support** against both major proxy advisers. That is a governance event, not a footnote.
+
+### 23.7 What must hold for the current price to be justified
+
+At 306.5p the market requires, roughly: AuMA stabilising near £24–26bn; the blended revenue margin holding at or above ~0.50%; the cost base holding at ~£98–102m; River Global delivering most of £7.5m of synergies; no key-person departure among the top five; and no market drawdown greater than ~10%. **Six conditions, all of which must hold simultaneously.**
+
+### 23.8 What if growth disappoints by 20–30%?
+
+| Scenario | FY2029 gross profit | Adj. operating margin | Adj. EPS | Value at 8x (see note) | Return |
+|---|---|---|---|---|---|
+| Base | £141m | 27.5% | 47.4p | ~379p | +24% |
+| **-20% vs base** | **£113m** | **20%** | **~26p** | **~208p** | **-32%** |
+| **-30% vs base** | **£99m** | **15%** | **~17p** | **~136p** | **-56%** |
+
+~ Note: this table deliberately applies a constant, conservative 8x exit multiple across all three cases for comparability — lower than the 10x used in the §21 base case — so that the sensitivity isolates the earnings effect rather than the multiple.
+
+**This is the asymmetry the bears are pointing at:** because the cost base is now near its floor, a 20% revenue shortfall produces a ~45% EPS shortfall. Operating leverage is not a one-way benefit.
+
+### 23.9 The single scenario that permanently impairs the business
+
+> **Peter Michaelis retires or leaves within 24 months, and £2–3bn follows him, while the Economic Advantage franchise continues to shrink.** Liontrust would then be a ~£19bn manager whose two largest franchises are both in terminal decline, with a low-fee institutional and MPS book that cannot cover a listed-company cost base. Gross profit would fall toward £90m, the operating margin into the low teens, the dividend to single digits, and the company would be forced into a sale from a position of weakness — precisely the outcome the activists are trying to pre-empt.
+
+**Plausibility: moderate.** Michaelis has managed money since 2001 and joined Liontrust in 2017. Succession within the Sustainable team is real (Simon Clements, Chris Foster) but untested at scale. We assess this as the highest-impact identifiable risk in the security, and note that **Liontrust does not disclose the revenue concentration that would allow shareholders to size it.**
+
+### 23.10 Forensic review: accounting and disclosure red flags
+
+| Area | Assessment | Flag |
+|---|---|---|
+| **Revenue recognition** | Simple and low-risk. Management fees accrue daily on published NAV, collected monthly from fund assets. Performance fees only £3.7m (~3% of gross profit) and recognised on crystallisation | **Green** |
+| **Adjusted vs statutory earnings** | **The most significant flag.** FY2024: adjusted PBT £67.4m versus a statutory **loss** of £0.6m — a £68m gap. FY2026: adjusted £30.5m versus statutory £14.4m — a 2.1x gap. Incentives and dividend policy are set on the adjusted number | **Amber** — persistent, wide, and always in the same direction |
+| **Segment reporting** | **Single operating segment** across nine investment processes and five acquisitions. No revenue, profit or geographic split disclosed | **Amber** — compliant with IFRS 8 but materially unhelpful; prevents any assessment of acquisition returns |
+| **Goodwill and intangibles** | Total assets £269.8m against equity of £111.9m and net cash of £50.6m implies a large acquired-intangible balance from ATI, Neptune, Architas and Majedie. AuMA has fallen 42% since those assets were acquired | **Amber–Red** — the single most audit-sensitive judgement. Impairment testing assumptions (discount rate, AuMA growth, revenue margin) should be scrutinised in the 2026 Annual Report |
+| **Contingent / deferred consideration** | £2.1m of River Global adjustment shares contingent on the EOT mandate outcome; legacy earn-outs from prior deals | **Green–Amber** — small and disclosed |
+| **Leases (IFRS 16)** | Office leases capitalised; a component of the £157.9m liability balance. Cost reduction has included property rationalisation | **Green** |
+| **Related parties** | No evidence of improper transactions. The Gilbert independence question is governance, not accounting | **Green** |
+| **Share-based payment** | Material and rising: 566,203 + 308,797 nil-price options granted to two executives in Aug 2026 alone, at 284% and 203% of salary. Dilution partially offsets the buyback | **Amber** — economically real, and grants at trough prices maximise payout |
+| **Contingencies and litigation** | No material disclosed contingencies. The GAM episode drew a Swiss Takeover Board complaint but produced no known financial liability | **Green** |
+| **Cash flow quality** | High. Fee income converts to cash almost immediately; minimal working capital; negligible capex. Cash flow tracks adjusted earnings closely | **Green** |
+| **Receivables / inventory** | Immaterial by nature of the business model | **Green** |
+| **Debt** | None, for five consecutive years | **Green** |
+
+> **Forensic conclusion.** Liontrust is **not an accounting story**. The financial statements are simple, the cash is real, the balance sheet is clean and there is no evidence of aggressive revenue recognition or related-party abuse. The genuine concerns are **disclosure quality** (single-segment reporting that conceals the returns on £300m of acquisitions and the concentration of revenue in two teams) and **the width and persistence of the adjusted-to-statutory gap**, which flatters the metric on which pay and dividends are set. Those are governance failings, not fraud — but they are exactly the failings that let a value-destroying M&A programme run for five years without shareholder accountability.
+
+[PAGEBREAK]
+
+## 24 · Timeline of key events and forward catalyst calendar
+
+### 24.1 Timeline — the last five years
+
+| Date | Event |
+|---|---|
+| **Sep 2021** | **Share price all-time high of 2,560p** (8 September). AuMA near peak |
+| Sep 2021 | NED Sophia Tickell departs following the shareholder revolt over executive remuneration |
+| Dec 2021 | **Majedie Asset Management acquisition announced** — £80m upfront, up to £120m |
+| **Feb 2022** | **Remuneration policy and LTIP approved at a general meeting by only ~55.6% / 54%**, against ISS and Glass Lewis opposition |
+| Mar 2022 | FY2022 year-end AuMA £33,548m — the peak |
+| Apr 2022 | Majedie acquisition completes |
+| 2022 | Global growth de-rating; UK gilt crisis; UK retail equity outflows begin in earnest |
+| **Mar 2023** | **NEDs Emma Howard Boyd and Quintin Price resign with immediate effect** |
+| **4 May 2023** | **All-share offer for GAM Holding AG announced** (~CHF107m / ~£96m) |
+| Jul 2023 | NewGAMe escalates opposition; complaint to the Swiss Takeover Board |
+| **Aug 2023** | **GAM offer declared unsuccessful** — ~one-third acceptance versus a >66% condition. £1.6bn of Liontrust assets lost during the bid quarter |
+| Late 2023 | GAM global equity managers join Liontrust |
+| Jun 2024 | FY2024 results: adjusted PBT £67.4m; **statutory loss before tax of £0.6m**; net outflows £6.1bn; **72p dividend maintained** |
+| **Sep 2024** | Alastair Barbour retires as Chair; **Luke Savage appointed Chair** (20 September) |
+| Jan–Mar 2025 | Successive 52-week and one-year lows |
+| Apr 2025 | All ten UK-domiciled sustainable funds adopt the FCA **"Sustainability Focus" SDR label** |
+| **25 Jun 2025** | **FY2025 results** — adjusted PBT £48.3m (-28%), net outflows £4.9bn, **72p dividend maintained at a 127% payout**. Shares fall sharply |
+| **20 Nov 2025** | **H1 FY2026 results** — **dividend rebased to a 7p interim**; **£10m buyback announced**; further cost savings. **Shares rise** |
+| 27 Nov 2025 | Buyback programme commences |
+| **12 Feb 2026** | **Nuveen/TIAA agrees a recommended £9.9bn cash acquisition of Schroders** at ~30% premium |
+| **16 Mar 2026** | **River Global Holdings acquisition announced** — £7.6m + £2.1m contingent, all-share |
+| **23 Mar 2026** | **Activist open letter** from GAM Alternatives PMs Albert Saporta and Randel Freeman (3.6%) demanding an immediate strategic review and sale |
+| 24 Mar 2026 | Liontrust board publicly responds, criticising the managers for "not seeking any dialogue" |
+| 31 Mar 2026 | FY2026 year-end AuMA £19,554m — the trough |
+| **24 Jun 2026** | **FY2026 results** — adjusted operating margin 24% versus 23.3% consensus; **new capital allocation policy**; total DPS cut to 19p. **Shares +12–15%** |
+| Jun 2026 | £10m buyback completed — 3,764,532 shares at ~266p, all cancelled; issued capital 60,000,083 |
+| **30 Jun 2026** | **River Global acquisition completes.** ~2.97m consideration shares issued at 255.87p. AuMA £24,255m |
+| **1 Jul 2026** | **Martin Gilbert appointed independent Non-Executive Director** |
+| **10 Jul 2026** | **GAM special situations funds cross 5%** and disclose a new position in Impax |
+| **22 Jul 2026** | **Q1 FY2027 trading statement** — AuMA £24.3bn; net outflows only £357m (PY: £1.1bn); institutional +£447m. **Shares surge** |
+| 5–6 Aug 2026 | GAM Holding AG formally notifies **5.010297%** (3,155,000 shares). Morgan Stanley falls below 5% |
+| 6 Aug 2026 | LTIP grants: 566,203 nil-price options to J. Ions (284% of salary); 308,797 to V. Abrol (203%) |
+| Aug 2026 | Second interim dividend of 12p paid; CEO and CFO reinvest via DRIP at £3.05 |
+
+### 24.2 Forward catalyst calendar
+
+| Timing | Event | Why it matters | Our watch-items |
+|---|---|---|---|
+| **17 Sep 2026** | **Annual General Meeting**, 9:30am, central London | **The highest-value near-term catalyst.** Remuneration report vote; SID succession (Rebecca Shelley not standing); director re-elections with an activist above 5% | Remuneration vote %; any requisitioned resolution; board's AGM statement on strategic review |
+| **Oct 2026** | Q2 FY2027 trading statement (three months to 30 Sep 2026) | First clean quarter with River Global fully consolidated | **Blended revenue margin**; whether UK retail outflows narrow; institutional pipeline conversion |
+| **Q4 2026** | **Nuveen/Schroders expected completion** | Confirms the sector M&A precedent and may catalyse further bids | Any read-across commentary on UK mid-cap managers |
+| **2H 2026** | **European Opportunities Trust rollover completion** | Determines the £2.1m contingent consideration and how much of Darwall's asset base transfers to the new Liontrust LEO fund | Take-up rate: cash exit vs Liontrust LEO vs JPMorgan European Growth & Income |
+| **Nov 2026** | **H1 FY2027 interim results** | First full read on River Global synergy phasing and the post-deal margin | Adjusted operating margin; first interim DPS under the 50% policy; synergy delivery vs £7.5m |
+| **Ongoing** | Buyback resumption under the excess-capital policy | Tests whether management genuinely treats buybacks as the marginal use of capital | Any new programme announcement and price discipline |
+| **Ongoing** | Further bolt-on M&A | The highest-return capital allocation available | Deals at 0.25–0.50% of AUM would be materially accretive |
+| **Ongoing** | **Activist escalation** | GAM at 5%+ and building; Impax position signals a sector campaign | Further TR-1 notifications; open letters; board nominations ahead of the 2027 AGM |
+| **Jan 2027** | Q3 FY2027 trading statement | | Whether the flow inflection is durable across three consecutive quarters |
+| **Jun 2027** | FY2027 preliminary results | First full year including River Global | FY2027 adjusted EPS vs our 35.7p; FY2028 margin trajectory |
+| **Any time** | Key-person announcement | The single largest binary risk | Sustainable Investment team stability above all |
+| **Any time** | Approach or offer for the company | The bimodal outcome | Rule 2.4 announcement; any strategic review confirmation |
+
+[PAGEBREAK]
+
+## 25 · Conclusion
+
+Liontrust is a business that did most things right for a decade, then made three consequential mistakes in quick succession — buying UK equity assets at the top, chasing a distressed foreign target, and paying an unfunded dividend for two years — and was punished with an 88% de-rating. The punishment was deserved. The question now is whether it is finished.
+
+The FY2026 evidence says the operating decline is decelerating sharply: net outflows fell from an annualised ~19% of AuMA to ~1.5% in a single quarter, institutional flows turned positive, the cost base was cut hard enough to beat the consensus margin, and AuMA has recovered from £19.6bn to £24.3bn. The capital allocation framework has been rebuilt around a covered payout and buybacks, the balance sheet carries no debt and £50.6m of net cash, and the group has just demonstrated it can buy revenue at a quarter of what it used to pay.
+
+Against that, the founding franchise is genuinely impaired, the revenue margin is compressing as the mix shifts to lower-fee institutional and MPS assets, roughly 60% of gross profit sits with two investment teams, and the executive team that presided over the decline is unchanged after 16 years.
+
+> **Our view.** At 0.59% of AuMA and ~4.2x EV/EBITDA, the market is paying nothing for a scalable platform that a strategic buyer could plausibly value at 430–520p. We see a **12-month standalone fair value of 370–420p (+21% to +37%)**, a **three-year base case of ~510p (+66%)**, a **probability-weighted value of ~532p (+74%)**, and downside to **~180–200p on a 12-month view — ~130p in the full three-year bear case** — if the revenue margin breaks below 0.50% while assets stagnate. The distribution is bimodal, the balance sheet protects the downside, and the governance catalyst — an activist above 5%, a departing Senior Independent Director, and Martin Gilbert in the boardroom — arrives at the AGM on 17 September 2026.
+
+**The single number to watch is not AuMA. It is the blended revenue margin.**
+
+[PAGEBREAK]
+
+## 26 · Sources
+
+Primary company disclosure: Liontrust Asset Management PLC RNS announcements and results statements for FY2022–FY2026, the H1 FY2026 half-year report (20 Nov 2025), the FY2026 annual results (24 Jun 2026), the Q1 FY2027 trading statement (22 Jul 2026), TR-1 holdings notifications (Jul–Aug 2026), Director/PDMR shareholding notifications (Aug 2026), the River Global Holdings acquisition announcement (16 Mar 2026) and completion (30 Jun 2026), and the 2026 AGM notice.
+
+Third-party sources consulted: Money Marketing, Investment Week, Portfolio Adviser, Citywire, Funds Europe, Trustnet, The TRADE, Private Banker International, Investing.com, Reuters via TradingView, Morningstar/Alliance News, AJ Bell, Hargreaves Lansdown, Investegate, Stockopedia, StockAnalysis, MarketScreener, Simply Wall St, MarketBeat, Kalkine Media, QuotedData, the AIC, GlobeNewswire (GAM Holding AG releases of 23 Mar 2026 and 14 Jul 2026), CNBC, Spear's, Artemis.bm, Nuveen and Jupiter Asset Management corporate communications, Hedgeweek, City A.M., WealthBriefing, RankiaPro and the Investment Association.
+
+~ **Data caveats.** Figures were compiled from company announcements and secondary financial media accessible at the time of writing (30 August 2026); direct access to liontrust.com and primary PDF filings was not available from this environment. Peer market data, share prices and market capitalisations are indicative and should be refreshed against a live data terminal before use in a transaction context. Items marked "estimated by the analyst" — including the franchise and geographic revenue splits in §7.2, the adjusted EBITDA derivation in §12.1, and all forecast figures in §10, §21 and §23.8 — are the author's modelling, not company disclosure. Where sources conflicted (notably the reported one-day share price reaction to the FY2025 results, variously reported between -5% and -13%), both figures are shown. Board composition should be verified against the 2026 Annual Report and the September 2026 AGM notice.
+
+## 27 · Disclaimer
+
+This document has been prepared for information and discussion purposes only. It does not constitute investment research under the FCA Conduct of Business Sourcebook, nor an offer, solicitation, personal recommendation or investment advice, and it should not be relied upon as the basis for any investment decision. It has been prepared without regard to the individual financial circumstances, objectives or risk tolerance of any recipient.
+
+The information contained herein is derived from publicly available sources believed to be reliable, but no representation or warranty, express or implied, is made as to its accuracy, completeness or timeliness. Forward-looking statements, forecasts, scenario analyses and valuation estimates reflect the author's judgement as at the date of writing and are subject to change without notice; actual results may differ materially. Past performance is not a guide to future performance. The value of investments and the income from them can fall as well as rise, and investors may not get back the amount originally invested.
+
+Recipients should note that a shareholder group referenced in this document has publicly campaigned for a strategic review and sale of the subject company; that campaign is described as a matter of public record and its inclusion should not be read as an endorsement of, or agreement with, its objectives. Recipients should form their own view and take independent professional advice before acting.
