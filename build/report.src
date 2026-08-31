@@ -284,7 +284,7 @@ UK retail savers and pension members (via advisers and platforms), UK and intern
 |---|---|---|---|---|---|
 | **AuMA (year-end)** | 33,548 | 31,400 | 27,800 | 22,600 | 19,554 |
 | **Net flows** | n/d | ~(6,000) | (6,100) | (4,904) | (4,184) |
-| Revenue | n/d | n/d | n/d | 169.8 | 134.4 |
+| Revenue | n/d | n/d | **197.9** | **169.8** | 134.4 |
 | **Gross profit** | n/d | 229.8 | 186.1 | 157.7 | **123.0** |
 | Gross profit growth | n/d | n/d | -19% | -15% | **-22%** |
 | of which performance fees | n/d | n/d | n/d | 3.6 | 3.7 |
@@ -293,15 +293,22 @@ UK retail savers and pension members (via advisers and platforms), UK and intern
 | Adjusted PBT growth | n/d | n/d | -23% | -28% | **-37%** |
 | Adjusted operating margin (co. reported) | n/d | n/d | n/d | 29.2% | **24.0%** |
 | **Statutory PBT** | 79.3 | 49.3 | **(0.6)** | 22.3 | **14.4** |
-| Statutory PAT | n/d | n/d | n/d | ~16.7 | **9.6** |
+| Statutory PAT | n/d | n/d | **(3.5)** | **16.7** | **9.6** |
+| Statutory basic/diluted EPS (p) | n/d | n/d | **(5.46)** | **26.20** | ~15.4 |
+| Administration expenses | n/d | n/d | **(188.9)** | **(137.6)** | n/d |
+| Operating profit / (loss) | n/d | n/d | **(1.8)** | **20.2** | n/d |
 | **Adjusted diluted EPS (p)** | n/d | 109.8 | 79.2 | 56.8 | **36.7** |
 | **DPS (p)** | 72.0 | 72.0 | 72.0 | 72.0 | **19.0** |
 | Share price at 31 March (p) | n/d | n/d | n/d | **371** | **241** |
 | Payout vs adjusted EPS | n/d | 66% | 91% | **127%** | **52%** |
+| Cash and cash equivalents | n/d | n/d | **104.3** | **75.9** | n/d |
 | Net cash | n/d | n/d | n/d | n/d | **50.6** |
+| **Net assets** | n/d | n/d | **171.2** | **138.2** | **111.9** |
+| Goodwill | n/d | n/d | **32.1** | **32.1** | n/d |
+| Other intangible assets | n/d | n/d | **48.5** | **39.4** | n/d |
 | Gross debt | nil | nil | nil | nil | **nil** |
 
-~ Sources: company results announcements FY2022–FY2026 as reported through RNS and secondary financial media. "n/d" = not disclosed in sources available for this note. FY2024 statutory PBT reflects a loss of £0.6m driven by acquisition-related intangible amortisation and restructuring charges.
+~ FY2024 and FY2025 income statement and balance sheet lines are taken from the **audited consolidated financial statements in the FY2025 Annual Report** (company number 2954692). Other figures are from results announcements and secondary financial media; "n/d" = not obtainable from sources available. In FY2024 administration expenses of £188.9m **exceeded gross profit of £186.1m**, producing an operating loss of £1.8m and a statutory loss before tax of £0.6m.
 
 > **Read the payout row.** In FY2025 Liontrust paid a 72p dividend out of 56.8p of adjusted EPS — a 127% payout — while assets fell 19%. That was capital destruction dressed as shareholder return. The FY2026 rebase to 19p on a formal minimum-50%-of-adjusted-EPS policy, funded alongside a £10m buyback, is the single most important governance improvement of the last five years and explains why the shares *rose* on a 74% dividend cut.
 
@@ -397,8 +404,8 @@ Management gave no formal numeric guidance (normal for the sector) but was mater
 ### 8.5 Balance sheet and cash flow flags
 
 - **Net cash £50.6m**, total equity £111.9m, total assets £269.8m, total liabilities £157.9m. **Zero gross debt, and none for five years.**
-- **Intangibles dominate the asset side.** With equity of £111.9m against total assets of £269.8m and £50.6m of net cash, a substantial proportion of the balance sheet is acquired goodwill and intangibles from ATI, Neptune, Architas and Majedie. This is the key audit-sensitive judgement area (see §23.10).
-- **Liabilities of £157.9m** on a business with no debt are dominated by deferred consideration, lease liabilities, deferred tax on intangibles and accrued variable compensation.
+- **Intangibles are large and, so far, unimpaired.** The audited FY2025 balance sheet shows **goodwill of £32.1m** (unchanged from FY2024) and **other intangibles of £39.4m** (FY2024: £48.5m), together **52% of net assets**. Goodwill has not been written down despite a 42% fall in AuMA from the peak. This is the key audit-sensitive judgement area (see §23.10).
+- **The balance sheet gross-up is fund settlement, not working capital.** At 31 Mar 2025 trade and other receivables were £201.0m against trade and other payables of £205.9m — these are unsettled fund subscription and redemption balances that offset almost exactly, not operating debtors. Genuine liabilities are the deferred tax on intangibles (£8.9m) and lease liabilities (£1.5m). **Reading the £157.9m of FY2026 liabilities as leverage would be a serious error.**
 - **No receivables or inventory risk** of substance — fee debtors are collected monthly from fund assets.
 - **Cash conversion** remains high; the constraint on distributions is regulatory capital and the deferred-consideration tail, not cash generation.
 
@@ -1112,7 +1119,7 @@ At 306.5p the market requires, roughly: AuMA stabilising near £24–26bn; the b
 | **Revenue recognition** | Simple and low-risk. Management fees accrue daily on published NAV, collected monthly from fund assets. Performance fees only £3.7m (~3% of gross profit) and recognised on crystallisation | **Green** |
 | **Adjusted vs statutory earnings** | **The most significant flag.** FY2024: adjusted PBT £67.4m versus a statutory **loss** of £0.6m — a £68m gap. FY2026: adjusted £30.5m versus statutory £14.4m — a 2.1x gap. Incentives and dividend policy are set on the adjusted number | **Amber** — persistent, wide, and always in the same direction |
 | **Segment reporting** | **Single operating segment** across nine investment processes and five acquisitions. No revenue, profit or geographic split disclosed | **Amber** — compliant with IFRS 8 but materially unhelpful; prevents any assessment of acquisition returns |
-| **Goodwill and intangibles** | Total assets £269.8m against equity of £111.9m and net cash of £50.6m implies a large acquired-intangible balance from ATI, Neptune, Architas and Majedie. AuMA has fallen 42% since those assets were acquired | **Amber–Red** — the single most audit-sensitive judgement. Impairment testing assumptions (discount rate, AuMA growth, revenue margin) should be scrutinised in the 2026 Annual Report |
+| **Goodwill and intangibles** | Now measured, not inferred. At 31 Mar 2025: **goodwill £32.1m** and **other intangibles £39.4m** — £71.5m combined, or **52% of £138.2m net assets**. **Goodwill was unchanged at £32,110k across FY2024 and FY2025 — no impairment taken** — while AuMA fell 19% in FY2025 alone and 42% from the peak. Intangibles amortised £9.1m in FY2025 | **Amber–Red — and now specific.** Carrying goodwill flat through a 42% decline in the asset base is defensible only if the impairment model's AuMA growth and revenue-margin assumptions remain supportable. **This is the single most audit-sensitive judgement in the accounts** and the disclosed sensitivities should be read closely |
 | **Contingent / deferred consideration** | £2.1m of River Global adjustment shares contingent on the EOT mandate outcome; legacy earn-outs from prior deals | **Green–Amber** — small and disclosed |
 | **Leases (IFRS 16)** | Office leases capitalised; a component of the £157.9m liability balance. Cost reduction has included property rationalisation | **Green** |
 | **Related parties** | No evidence of improper transactions. The Gilbert independence question is governance, not accounting | **Green** |
