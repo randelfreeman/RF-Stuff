@@ -139,6 +139,9 @@ def add_runs(p, text, size=9.5, colour=BLACK, base_bold=False, font='Georgia'):
         r._element.rPr.rFonts.set(qn('w:eastAsia'), font)
 
 
+FOOTER = 'Liontrust Asset Management PLC (LIO LN) — Initiation of Coverage  ·  30 August 2026'
+
+
 def build(src_path, out_path):
     doc = Document()
     st = doc.styles['Normal']
@@ -154,8 +157,7 @@ def build(src_path, out_path):
     # running footer
     ftr = sec.footer.paragraphs[0]
     ftr.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    fr = ftr.add_run('Liontrust Asset Management PLC (LIO LN) — Initiation of Coverage  ·  30 August 2026  ·  '
-                     'For discussion purposes only — not investment advice')
+    fr = ftr.add_run(FOOTER + '  ·  For discussion purposes only — not investment advice')
     fr.font.size = Pt(6.5); fr.font.color.rgb = GREY; fr.font.name = 'Georgia'
 
     lines = open(src_path, encoding='utf-8').read().split('\n')
@@ -274,4 +276,6 @@ def build(src_path, out_path):
 
 
 if __name__ == '__main__':
+    if len(sys.argv) > 3:
+        FOOTER = sys.argv[3]
     build(sys.argv[1], sys.argv[2])

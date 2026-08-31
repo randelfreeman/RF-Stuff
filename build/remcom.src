@@ -1,0 +1,390 @@
+# Liontrust Asset Management PLC
+@@ Executive Remuneration Review, FY2021–FY2026 · LIO LN · Year-by-year analysis and UK asset management benchmarking · 30 August 2026
+
+## Headline findings
+
+| Metric | Position |
+|---|---|
+| **CEO single figure, FY2021** | ~£6.2–6.6m on a £348k salary — variable pay of roughly **17–18x** base |
+| **CEO single figure, FY2026** | **~£1.03m** on a ~£584k salary — variable pay of **~0.8x** base |
+| **Six-year change in CEO pay** | **-84%** |
+| **Six-year change in share price** | **-88%** (2,560p peak, Sep-21, to ~306.5p) |
+| **Six-year change in base salary** | **+68%** (£348k to ~£584k) — the only component that rose |
+| **Policy maximum variable (CEO)** | **800% of salary** (450% bonus + 350% LTIP) |
+| **Largest shareholder revolt** | **45.9% against** the remuneration policy, GM of 16 Feb 2022 |
+| **Most recent remuneration vote** | **72.57% in favour** (27.43% against), AGM of 18 Sep 2025 |
+| **CEO ownership** | **~1.65%** — against Ashmore's founder-CEO at 32.19% |
+| **Outstanding exec LTIP options (2025+2026 grants)** | **~1,575,000 shares = 2.5% of issued capital** |
+
+> **The one-paragraph verdict.** Liontrust's remuneration has been substantially fixed. The pathology of 2021–22 — a bonus pool funded as a direct share of Adjusted Profit Before Tax, producing a £6.6m package on a £348k salary, followed by a 58% salary increase proposed into a collapsing share price — was addressed by the 2022 policy reset, which hard-capped the bonus and severed the profit link. Since then the Remuneration Committee has behaved creditably: bonuses modest and fully deferred into shares, LTIP grants scaled back below policy maxima in two consecutive years, and CEO pay down 84%. **But three problems remain.** The policy maxima are extraordinary for a £193m company; base salary is the one line that has only ever risen, and it rose 68% while shareholders lost 88%; and nil-price LTIP options granted at trough prices are quietly rebuilding a very large leveraged claim on any recovery — two years of grants alone equal 2.5% of the share capital and offset 42% of the £10m buyback the company has just completed.
+
+[PAGEBREAK]
+
+## 1 · Methodology and disclosure limitations
+
+**What this report does.** It reconstructs the remuneration of Liontrust's two executive directors — John Ions (CEO) and Vinay Abrol (CFO/COO) — for the six financial years ended 31 March 2021 to 31 March 2026, decomposes it into salary, annual bonus, deferred share awards, LTIP and other elements, tests it against company performance, and benchmarks both the *structure* and the *quantum* against UK-listed asset management practice.
+
+**Sources.** Company RNS announcements (including the 6 August 2026 LTIP grant notification and Deferred Bonus and Variable Allocation Plan awards), general meeting and AGM voting results, the 2022 Directors' Remuneration Policy as reported, and contemporaneous coverage in Citywire, Portfolio Adviser, City A.M., LexisNexis and Investment Week, together with ownership and compensation analytics.
+
+> **Disclosure caveat — read this before relying on any figure.** Direct access to liontrust.com, Investegate and the primary Annual Report PDFs was blocked by this environment's network egress proxy. Single-figure totals are therefore taken from secondary sources and analytics providers rather than read from the audited Directors' Remuneration Report. They are reliable as to **order of magnitude, direction and structure**, but should be verified line-by-line against the 2026 Annual Report before use in a voting decision, an engagement letter or a public campaign. Figures explicitly marked **(derived)** are the analyst's own calculation from disclosed data, with the arithmetic shown so it can be checked. Where sources conflict — notably the FY2021 CEO total, reported as both £6.2m and £6.6m — both are given.
+
+**A note on the FY2021 discrepancy.** Citywire reported £6.2m; compensation analytics report £6.6m. The gap is most likely definitional (treatment of pension, benefits, all-employee share plans or the valuation date of share awards). We use "~£6.2–6.6m" throughout and do not build conclusions on the difference.
+
+## 2 · The remuneration architecture, and how it changed
+
+### 2.1 The old regime (to FY2022): a profit-share partnership inside a listed company
+
+Until the 2022 reset, the defining feature of Liontrust's executive pay was that **the annual bonus was funded by, and directly linked to, Adjusted Profit Before Tax**. In substance this was a partnership profit-share bolted onto a listed-company structure. Its properties were:
+
+- **Uncapped in practice.** Bonus scaled with profit, and profit scaled with AuMA, and AuMA scaled with markets. In a rising market the executives were long a levered call on the beta of global equities.
+- **Base salary was almost irrelevant.** At £348k against a £6.6m total, salary was 5% of the package. The Committee later used precisely this fact — that "salary levels have only had one increase of 5% since 2015" — to justify the 2022 increases.
+- **Weak line of sight to shareholder outcomes.** Adjusted PBT excludes the amortisation and impairment of exactly the acquired intangibles (Neptune, Architas, Majedie) that the executives were deploying shareholder capital to buy. In FY2024 the group reported adjusted PBT of £67.4m against a **statutory loss before tax of £0.6m** — a £68m gap. The incentive metric and the shareholder's return had come apart entirely.
+
+### 2.2 The 2022 reset
+
+Following the February 2022 revolt and a summer of consultation, the policy was amended. The two changes that matter:
+
+1. **A hard cap on the annual bonus.**
+2. **Removal of the direct link to, and funding from, Adjusted Profit Before Tax.**
+
+The resulting architecture is conventional in shape but unusually generous in scale:
+
+| Component | CEO (John Ions) | CFO (Vinay Abrol) | Comment |
+|---|---|---|---|
+| **Base salary** | ~£584k (FY2024–FY2026) | ~£446k **(derived)** | Raised 58% and 28% respectively under the contested 2022 policy |
+| **Annual bonus — policy maximum** | **450% of salary** | **350% of salary** | Hard-capped from 2022; in practice paid far below cap |
+| **Bonus deferral** | **100% deferred into shares**, vesting over three years, via the Deferred Bonus and Variable Allocation Plan (DBVAP) | Same | A genuinely strong feature — see §4.3 |
+| **LTIP — policy maximum** | **350% of salary** | **250% of salary** | Nil-price options |
+| **LTIP performance conditions** | Total shareholder return, adjusted diluted EPS, and investment performance; three-year period; vesting from **10% at threshold to 100% at maximum** | Same | Three metrics, one of which (investment performance) is genuinely industry-appropriate |
+| **Total variable at policy maximum** | **800% of salary (~£4.7m)** | **600% of salary (~£2.7m)** | The central governance question in this report |
+| **Total package at policy maximum** | **~£5.3m** | **~£3.1m** | Against a £193m market capitalisation |
+
+~ CFO salary and the implied LTIP grant price are derived in §4.4. Policy maxima are as reported at the time of the 2022 policy.
+
+> **Frame the maxima properly.** A theoretical maximum CEO package of ~£5.3m equates to **2.7% of Liontrust's entire market capitalisation** and roughly **17% of FY2026 adjusted profit before tax**, in a single year, for one individual. Schroders — 40 times the AUM — paid its CEO ~£1.81m. The maxima have never been paid and, on current performance, cannot be. But a policy ceiling is a statement of intent, and this one was set at the top of the cycle and has never been revisited.
+
+[PAGEBREAK]
+
+## 3 · Year by year: the single figure, FY2021–FY2026
+
+### 3.1 Chief Executive Officer — John Ions
+
+| Financial year (to 31 Mar) | Base salary | **Total single figure** | Implied variable pay | Variable as multiple of salary | Year-on-year change in total |
+|---|---|---|---|---|---|
+| **FY2021** | £348k | **~£6.2–6.6m** | ~£5.9–6.3m | **~17–18x** | — |
+| **FY2022** | £348k | **~£6.0m** | ~£5.7m | **~16x** | **-9%** |
+| **FY2023** | **£550k** (+58%) | **~£2.0m** | ~£1.5m | **~2.7x** | **-67%** |
+| **FY2024** | **£584k** (+6%) | **~£1.0m** | ~£0.4m | **~0.7x** | **-50%** |
+| **FY2025** | £584k (flat) | **~£1.0m** | ~£0.4m | **~0.7x** | **~flat** |
+| **FY2026** | ~£584k (flat) | **~£1.03m** | ~£0.45m | **~0.8x** | **+3%** |
+| **FY2021 to FY2026** | **+68%** | **-84%** | **-93%** | — | — |
+
+### 3.2 Chief Financial Officer & Chief Operating Officer — Vinay Abrol
+
+| Financial year (to 31 Mar) | Base salary | **Total single figure** | Comment |
+|---|---|---|---|
+| FY2021 | ~£290k (est.) | Not separately disclosed in available sources | Structurally the same profit-share arrangement as the CEO, at a lower participation rate |
+| FY2022 | ~£290k (est.) | Not separately disclosed in available sources | Salary proposed to rise **28%** under the 2022 policy |
+| FY2023–FY2025 | rising to ~£446k **(derived)** | Not separately disclosed in available sources | Tracks the CEO's trajectory at roughly 76% of the level |
+| **FY2026** | ~£446k **(derived)** | **~£727k** | ~71% of the CEO's total — a normal CFO/CEO ratio |
+
+~ The CFO's salary is derived in §4.4 from the disclosed August 2026 LTIP grant. Historic CFO single figures were not obtainable from the sources available; they should be read from the Annual Report remuneration tables.
+
+### 3.3 What the shape of that table tells you
+
+- **The collapse is real and it is large.** An 84% reduction in CEO pay over six years is at the severe end of anything seen in UK asset management. Pay has not been sticky here.
+- **But the collapse is mechanical, not discretionary.** It follows almost entirely from the removal of the profit-linked bonus pool in 2022 and from profits falling. It is the *policy change* and the *earnings decline* doing the work, not a Committee choosing restraint. That distinction matters when assessing what happens if profits recover.
+- **Salary went the other way.** Base salary is the only component that has risen — by 68% — across a period in which shareholders lost 88%, AuMA fell 42% and the dividend was cut 74%. The 2023 step from £348k to £550k is the single most contested decision in the company's governance history.
+- **Variable pay has become almost vestigial.** At ~0.8x salary against a policy maximum of 8.0x, the executives are currently earning roughly **10% of what the policy permits**. That is either admirable restraint or a coiled spring, depending on your view of the recovery.
+
+[PAGEBREAK]
+
+## 4 · Component analysis
+
+### 4.1 Base salary
+
+| Effective from | CEO salary | Change | CFO salary | Change | Context |
+|---|---|---|---|---|---|
+| 2015–2022 | £348k | one 5% rise in seven years | ~£290k (est.) | broadly flat | Deliberately low; the package was bonus-led |
+| **1 Apr 2022** | **£550k** | **+58%** | ~£371k (est.) | **+28%** | Proposed Feb 2022; **ISS and Glass Lewis both recommended shareholders vote against** |
+| FY2024 | **£584k** | +6% | ~£400k (est.) | — | |
+| FY2025–FY2026 | £584k | **flat** | ~£446k **(derived)** | — | Frozen through the worst of the decline |
+
+**Assessment.** The Committee's stated rationale — that salaries had been held artificially low for seven years because the package was bonus-led — is factually correct and, in isolation, defensible. The problem was **timing and calibration**. A 58% increase was proposed in February 2022, five months after the all-time high and as the de-rating was already under way, and it was paired with variable maxima that were themselves being raised to FTSE 250 levels. Shareholders were being asked to accept a permanent uplift in fixed pay *and* a generous new variable framework in the same resolution. They came within 4.1 percentage points of rejecting it.
+
+To the Committee's credit, salary has been **frozen for three consecutive years** since FY2024. That is the correct response and should be acknowledged.
+
+### 4.2 Annual bonus
+
+| Year | Structure | Outcome |
+|---|---|---|
+| FY2021–FY2022 | Funded as a direct share of **Adjusted Profit Before Tax**; effectively uncapped | ~£5.7–6.3m implied for the CEO |
+| FY2023 | Transitional; hard cap introduced, PBT link removed | ~£1.5m implied variable, down ~75% |
+| FY2024–FY2026 | Hard cap at **450% of salary** (CEO); discretionary assessment against financial, strategic and personal measures | **Modest** — the Committee's own characterisation. Implied variable of ~£0.4–0.45m, i.e. roughly **10% of the cap** |
+
+**Assessment.** The removal of the PBT funding link is the single most important governance improvement of the period. The current bonus is being paid at approximately a tenth of the permitted maximum, which is consistent with the Committee's stated reasoning of "ongoing net outflows, a material share price decline, and a challenging shareholder experience."
+
+**The residual concern is the cap itself.** A 450%-of-salary bonus maximum is at the top of the UK asset management range for a company of this size. It is not being used, but it remains available the moment profits recover — and profits are highly geared to markets, which is precisely the exposure the 2022 reset was supposed to break.
+
+### 4.3 Deferred bonus — the Deferred Bonus and Variable Allocation Plan (DBVAP)
+
+**Both executives have deferred their entire annual bonuses into nil-price share options vesting over three years.** This is the strongest single feature of the current arrangement and deserves explicit credit:
+
+- It converts cash compensation into a three-year equity exposure at the *current* depressed price, aligning the executives with the recovery rather than the reported profit.
+- It removes the "bank the bonus and leave" optionality.
+- It is materially better practice than the typical UK asset management structure of 50–60% deferral.
+
+**The caveat.** Deferring 100% of a bonus that is only ~0.8x salary is a much smaller act of alignment than deferring 100% of a bonus that is 4x salary. The policy should be tested when the bonus recovers, not when it is small.
+
+### 4.4 The Long Term Incentive Plan
+
+| Grant | Date | CEO shares | CEO % of salary | CFO shares | CFO % of salary | Implied grant price | Implied CEO grant value |
+|---|---|---|---|---|---|---|---|
+| **2025 grant** | Aug 2025 | **452,962 (derived)** | **297.5%** (85% of the 350% maximum) | **247,038 (derived)** | ~213% | ~383p **(derived)** | **~£1.74m** |
+| **2026 grant** | **6 Aug 2026** | **566,203** | **284%** | **308,797** | **203%** | ~293p **(derived)** | **~£1.66m** |
+| Change | | **+25% (capped)** | **-13.5pts** | **+25% (capped)** | **-10pts** | **-24%** | **-4.6%** |
+
+**How the derivation works.** The 2026 grant is disclosed as 566,203 shares at 284% of salary. If salary is ~£584k, the grant value is £1.659m, implying a grant price of ~293p — consistent with the Liontrust share price in early August 2026. Applying the same price to the CFO's 308,797 shares gives £905k, which at 203% of salary implies a CFO salary of ~£446k. The 2026 award was disclosed as capped at a **25% increase in share numbers versus last year**, so the 2025 grants were 566,203 ÷ 1.25 = 452,962 and 308,797 ÷ 1.25 = 247,038 shares. At the disclosed 297.5% of salary, the 2025 CEO grant price implies ~383p.
+
+**Performance conditions (2026 grant):** total shareholder return, adjusted diluted earnings per share, and investment performance, measured over three years from 1 April 2026 to 31 March 2029, vesting from 10% at threshold to 100% at maximum.
+
+#### The mechanic shareholders should understand
+
+> **Nil-price options granted at a depressed share price convert a falling share price into a rising share count.** Holding the award constant as a percentage of salary requires *more* shares as the price falls. The Committee recognised this and capped the increase at 25% — a genuinely responsible act that reduced the CEO's award from a policy-permitted 350% of salary to 284%. **But the cap limited the rate of increase, not the direction.** The share count still rose 25% in a year in which the shares fell ~24%.
+
+**The cumulative effect is material.** The 2025 and 2026 grants alone total approximately **1,575,000 shares** — about **2.5% of the 62.97m shares in issue**. For context, the £10m buyback completed in June 2026 retired 3,764,532 shares. **Two years of executive LTIP grants therefore offset roughly 42% of the entire buyback programme.** Earlier grants and the DBVAP awards sit on top of that.
+
+| Share price scenario | Value of the 2025+2026 LTIP grants if fully vested | Note |
+|---|---|---|
+| 306.5p (current) | **~£4.83m** | |
+| 450p | **~£7.09m** | |
+| 600p | **~£9.45m** | ~4.9% of today's market capitalisation |
+
+~ Illustrative gross values assuming 100% vesting, which requires maximum performance against all three conditions; threshold vesting is 10%. Actual outcomes will be materially lower unless TSR, adjusted EPS and investment performance all reach stretch targets. The Committee has stated that recent LTIP vesting outcomes have been **low**.
+
+### 4.5 Pension, benefits and all-employee arrangements
+
+Detail is thin in the sources available, but the observable facts are:
+- **Pension and benefits are a small proportion of the package** — the FY2026 CEO split of roughly 57% salary / 43% variable leaves limited room for material pension provision, consistent with UK best practice of aligning executive pension to the workforce rate.
+- **Share Incentive Plan (SIP)** — both executives participate in the all-employee SIP, acquiring shares alongside staff.
+- **Dividend Reinvestment Plan (DRIP)** — both reinvested their August 2026 dividend, each acquiring 1,157 shares at £3.05. Small in absolute terms, but the correct signal.
+
+[PAGEBREAK]
+
+## 5 · Pay for performance: the alignment test
+
+### 5.1 Pay against the things shareholders actually own
+
+| Financial year | CEO total pay | AuMA (year-end) | Gross profit | Adjusted PBT | Statutory PBT | Adj. diluted EPS | DPS | Share price context |
+|---|---|---|---|---|---|---|---|---|
+| **FY2021** | **~£6.2–6.6m** | £30.9bn | n/d | n/d | n/d | n/d | 47p (est.) | Peak 2,560p reached Sep-21 |
+| **FY2022** | **~£6.0m** | **£33.5bn** | n/d | n/d | £79.3m | n/d | 72p | De-rating begins |
+| **FY2023** | **~£2.0m** | £31.4bn | £229.8m | £87.1m | £49.3m | 109.8p | 72p | GAM bid launched May-23 |
+| **FY2024** | **~£1.0m** | £27.8bn | £186.1m | £67.4m | **-£0.6m** | 79.2p | 72p | Outflows £6.1bn |
+| **FY2025** | **~£1.0m** | £22.6bn | £157.7m | £48.3m | £22.3m | 56.8p | 72p (**127% payout**) | Successive 52-week lows |
+| **FY2026** | **~£1.03m** | £19.6bn | £123.0m | £30.5m | £14.4m | 36.7p | **19p** | Trough, then recovery |
+| **Six-year change** | **-84%** | **-37%** | **-46%** (FY23 base) | **-65%** (FY23 base) | — | **-67%** (FY23 base) | **-74%** | **-88%** |
+
+### 5.2 The alignment verdict
+
+**Directionally aligned; historically not.**
+
+- **FY2021–FY2022 — badly misaligned.** The CEO earned ~£12.2–12.6m across two years in which the share price peaked and then began an 88% decline, and in which the company committed up to £120m to the Majedie acquisition at the top of the UK equity cycle. Pay was calibrated to Adjusted PBT, which was itself calibrated to markets. Shareholders paid for beta and called it performance.
+- **FY2023 — the crossover.** Pay fell 67% as the policy reset took effect. This is the year the alignment problem was structurally fixed.
+- **FY2024–FY2026 — aligned, and arguably over-corrected.** CEO pay has been broadly flat at ~£1.0m for three years while adjusted PBT fell 55% and adjusted EPS fell 54%. Pay is now *less* variable than the underlying business — the opposite of the 2021 problem, and a legitimate retention concern if the recovery materialises.
+
+> **The uncomfortable arithmetic.** Cumulative CEO remuneration across the six years is approximately **£17.2–17.6m**. Over the same period the equity lost roughly **£1.4bn** of market value from its September 2021 peak. Total pay therefore represents about **1.2% of the value destroyed**. That is not, in itself, an argument that the pay was wrong — value destruction was driven overwhelmingly by market de-rating and outflows, not by remuneration — but it is the number an activist will use, and the Committee should be ready for it.
+
+### 5.3 Pay versus the workforce
+
+Group staff costs fell **20%** in FY2026 and headcount was reduced from **210** (November 2024, when the efficiency programme was announced) to **170** before the River Global acquisition — a **19% reduction**, in addition to the earlier removal of ~25 roles. Over the same period CEO pay rose **~3%** and base salary was held flat.
+
+**Assessment:** the CEO's *total* pay was broadly flat while ~40 colleagues lost their jobs. That is a defensible outcome on the numbers — pay did not rise materially — but it is not a strong one. A Committee wanting to demonstrate genuine solidarity had the option of reducing salary, and did not take it.
+
+[PAGEBREAK]
+
+## 6 · The 2021–22 pay revolt: a case study
+
+| Date | Event | Outcome |
+|---|---|---|
+| **Sep 2021** | Non-executive director **Sophia Tickell departs** in the wake of shareholder disquiet over executive remuneration | An early warning that was not heeded |
+| **Jan–Feb 2022** | Company proposes a new Directors' Remuneration Policy and LTIP: **58% salary increase for the CEO**, 28% for the CFO, bonus maximum of 450%/350% of salary, LTIP maximum of 350%/250% | Described in the market as a move to "FTSE 250-level pay" |
+| **Feb 2022** | **ISS and Glass Lewis both recommend voting against** | |
+| **16 Feb 2022** | **General Meeting.** Remuneration policy passes with **54.1%** in favour; LTIP with **55.6%** | **45.9% against — the largest vote against a remuneration policy at any UK company in 2022 at that point.** The company said it was "disappointed", noting "two rounds of engagement and consultation" with its top 20 shareholders |
+| **Summer 2022** | Consultation with investors and proxy advisers | Leads to amendments: **a hard cap on the annual bonus** and **removal of the direct link to and funding from Adjusted Profit Before Tax** |
+| **22 Sep 2022** | **2022 AGM.** Remuneration *report* receives **46.5% against** | A second consecutive revolt — the amendments came too late to repair the 2022 report |
+| FY2023 onward | Policy operates as amended; CEO pay falls 67%, then 50% | The reset works |
+| **18 Sep 2025** | **2025 AGM.** Remuneration report passes with **72.57% in favour (27.43% against)** | Dissent halved from 2022, but still **above the 20% threshold** that places a company on the Investment Association Public Register |
+
+**What the episode demonstrates.**
+
+1. **Engagement is not consent.** The company consulted its top 20 shareholders twice and still lost 45.9% of the vote. Consultation that does not change the proposal is not consultation.
+2. **Shareholder pressure worked.** The two structural fixes that matter — the bonus cap and the removal of the PBT link — exist because shareholders voted against, not because the board proposed them.
+3. **The discount persists.** Four years on, more than a quarter of votes are still cast against the remuneration report. Governance risk premia established in a revolt take a very long time to clear.
+4. **Disclosure remains a live grievance.** In 2025 the Board consulted 19 of its largest institutional shareholders and did not consult proxy advisers, "as they were supportive". Shareholders nonetheless raised concerns about **disclosure of LTIP targets**, and the Board undertook to enhance LTI disclosures and bonus methodology. That undertaking will be tested at the September 2026 AGM.
+
+## 7 · AGM and general meeting voting record
+
+| Meeting | Resolution | In favour | **Against** | Assessment |
+|---|---|---|---|---|
+| **GM, 16 Feb 2022** | Directors' Remuneration Policy | 54.1% | **45.9%** | Effectively a failed vote that technically passed |
+| **GM, 16 Feb 2022** | Long Term Incentive Plan | 55.6% | **44.4%** | As above |
+| **AGM, 22 Sep 2022** | Directors' Remuneration Report | 53.5% | **46.5%** | Second consecutive revolt |
+| AGM, 21 Sep 2023 | Directors' Remuneration Report | Passed | **n/d** | Percentages not obtainable from available sources — verify against the RNS |
+| AGM, 19 Sep 2024 | Directors' Remuneration Report | Passed | **n/d** | As above |
+| **AGM, 18 Sep 2025** | Directors' Remuneration Report | **72.57%** | **27.43%** | Improved, but still above the 20% Public Register threshold |
+| **AGM, 17 Sep 2026** | Directors' Remuneration Report | **Pending** | | See §12 |
+
+~ The 2023 and 2024 percentages should be read from the "Result of AGM" RNS announcements; they were not obtainable from the sources accessible for this note.
+
+[PAGEBREAK]
+
+## 8 · Group-wide compensation
+
+| Metric | FY2025 | FY2026 | Change |
+|---|---|---|---|
+| Gross profit | £157.7m | £123.0m | **-22%** |
+| Total administrative expenses | — | — | **-16%** |
+| **Staff costs** | — | — | **-20%** |
+| Other administrative costs | — | — | **-9%** |
+| Headcount | ~210 (Nov-24) | **170** (pre-River Global); ~212 post-completion | **-19%** before the acquisition |
+| Adjusted operating margin | 29.2% | **24.0%** | -520bps |
+| **Estimated compensation ratio** (staff costs ÷ gross profit) | **~45–50%** | **~42–48%** | Broadly stable |
+
+~ Liontrust's absolute staff cost figure was not obtainable from the sources available for this note; the compensation ratio above is **estimated** by the analyst from adjusted operating costs of ~£93.5m and a typical 55–65% staff share, and should be replaced with the audited employee costs note from the 2026 Annual Report.
+
+**Assessment.** Staff costs fell faster than revenue (-20% versus -22% gross profit, roughly in line), which is why the operating margin fell only 520bp rather than the ~800bp a fully fixed cost base would have produced. A compensation ratio in the low-to-mid 40s is **at the disciplined end** of the UK active management range, which typically runs 45–55% and can exceed 60% at performance-fee-driven boutiques. **On the group compensation line, Liontrust is managed well.** The governance issue is confined to the executive directors.
+
+## 9 · Peer benchmarking: structure
+
+| Practice | Liontrust | UK asset management norm | Verdict |
+|---|---|---|---|
+| **Bonus funded from a profit pool** | Until FY2022 — **direct link to Adjusted PBT** | Common at partnerships (Polar Capital, Artemis, Baillie Gifford); **rare and poorly regarded at listed companies** post-2018 | **Was an outlier; now fixed** |
+| **Annual bonus maximum** | **450% of salary (CEO)** | 150–250% typical for a listed mid-cap; up to ~300% at large asset managers with low salaries | **Outlier — top of range** |
+| **LTIP maximum** | **350% of salary (CEO)** | 150–250% typical | **Outlier — top of range** |
+| **Total variable maximum** | **800% of salary** | 300–500% typical | **Significant outlier** |
+| **Bonus deferral** | **100% into shares over three years** | 40–60% typical | **Better than peers** |
+| **LTIP performance metrics** | TSR, adjusted diluted EPS, **investment performance** | TSR and EPS standard; **investment performance is used by better-governed managers** (Jupiter, Schroders) and omitted by weaker ones | **Better than peers** |
+| **Vesting range** | 10% threshold to 100% maximum | 20–25% threshold is the UK norm | **A 10% threshold is soft** — it pays something for near-miss performance |
+| **Salary restraint** | Frozen three years (FY2024–FY2026) | Inflationary increases common | **Better than peers** |
+| **Grant sizing discipline** | Scaled back to 85% of maximum (2025) and capped at +25% share count (2026) | Many committees hold grants flat as a % of salary regardless of price | **Genuinely good practice** |
+| **Grants at depressed prices** | Share count +25% while the price fell ~24% | The industry-wide problem; few UK committees address it properly | **Mitigated but not solved** |
+| **Combined CEO/CFO tenure** | 16 years and 30+ years | Unusually long | **A structural governance issue in its own right** |
+
+> **The structural paradox.** On *process* — deferral, metric choice, restraint in grant sizing, salary freezes — Liontrust's Remuneration Committee is now operating at or above the UK asset management standard. On *quantum ceilings* — an 800%-of-salary variable maximum at a £193m company — it remains a clear outlier. The Committee is behaving better than its own policy permits, which is reassuring about the current Committee and unreassuring about the policy.
+
+## 10 · Peer benchmarking: quantum
+
+| Company | Ticker | CEO | Latest total CEO pay | AUM | Market cap | **Pay per £bn AUM** | **Pay as % of market cap** |
+|---|---|---|---|---|---|---|---|
+| **Liontrust** | **LIO LN** | **John Ions** | **~£1.03m** | **£24.3bn** | **~£193m** | **~£42k** | **~0.53%** |
+| Jupiter Fund Management | JUP LN | Matthew Beesley | ~£2.16m | ~£68.4bn | ~£0.8bn | ~£32k | ~0.27% |
+| Premier Miton | PMI LN | Mike O'Shea | ~£923k | ~£9.0bn | ~£58m | **~£103k** | **~1.59%** |
+| Ashmore Group | ASHM LN | **Mark Coombs (founder)** | **~£229k** | ~£40bn | ~£1.47bn | **~£6k** | **~0.016%** |
+| Schroders | SDR LN | Richard Oldfield | ~£1.81m | ~£770bn | ~£9.9bn (takeout) | ~£2.4k | ~0.018% |
+| Aberdeen Group | ABDN LN | Jason Windsor | ~£3.19m | ~£500bn+ | ~£3.5bn | ~£6.4k | ~0.09% |
+
+~ Peer figures are the most recent available from public compensation disclosures and analytics as at August 2026 and are approximate; AUM and market capitalisations are indicative. Salary/variable splits reported for peers: Jupiter ~21.6% salary / 78.4% variable; Schroders ~20.7% / 79.3%; Aberdeen ~24.2% / 75.8%; Premier Miton ~37.9% / 62.1%; **Liontrust ~56.6% / 43.4%**.
+
+### 10.1 Reading the table
+
+- **On absolute quantum, Liontrust is not an outlier.** £1.03m for the CEO of a £24bn manager is unremarkable — below Jupiter, well below Schroders and Aberdeen, and above only Premier Miton, which is a third of Liontrust's size.
+- **On pay per £bn of AUM, Liontrust is expensive** — ~£42k versus ~£32k at Jupiter and ~£6k at Ashmore — but this metric penalises sub-scale managers structurally and should not be over-weighted.
+- **On pay as a percentage of market capitalisation, Liontrust screens poorly.** At 0.53%, the CEO's annual pay consumes roughly twice the proportion of shareholder value that Jupiter's does, and roughly 30 times Ashmore's or Schroders'. This is the metric that reflects the de-rating: pay has fallen 84%, but the market capitalisation has fallen further.
+- **Liontrust's pay mix is now the most conservative in the peer group.** At ~57% fixed / ~43% variable, against 20–25% fixed at Jupiter, Schroders and Aberdeen, Liontrust's CEO is currently the *least* incentivised in the sector on a mix basis. Bulls will call that misalignment; the Committee will call it the natural consequence of paying modest bonuses in a bad year. **Both are right, and the tension resolves only when profits recover.**
+
+### 10.2 The Ashmore comparison
+
+The most instructive contrast in UK asset management is Ashmore. Mark Coombs founded the business, owns **32.19%** of it (worth ~£331m), and takes total annual remuneration of approximately **£229k**. His incentive is his shareholding. John Ions owns **~1.65%** (worth ~£2.7m) and takes ~£1.03m a year.
+
+> **The alignment ratio.** Coombs' annual pay is worth about **0.07%** of his shareholding — he is, in economic terms, a pure owner. Ions' annual pay is worth about **38%** of his entire shareholding. Put differently: **a 38% rise in the Liontrust share price would deliver John Ions roughly the same economic benefit as one year's salary and bonus.** For Coombs, replicating one year's pay requires a 0.07% move. This is the structural reason to be sceptical that incumbent management will pursue a sale of the company: the recurring compensation stream is worth far more to them than the control premium on their equity.
+
+[PAGEBREAK]
+
+## 11 · Assessment: red flags and green flags
+
+### 11.1 Green flags — what the Committee has done right
+
+1. **Removed the Adjusted PBT bonus link (2022).** The most important governance fix of the period, and the reason pay fell 84%.
+2. **Hard-capped the annual bonus.**
+3. **100% bonus deferral into three-year shares.** Better than the UK norm.
+4. **Investment performance as an LTIP metric.** Appropriate to the industry and not universal among peers.
+5. **Salary frozen for three consecutive years.**
+6. **LTIP grants scaled back in two consecutive years** — to 85% of maximum in 2025, and capped at a 25% share-count increase in 2026 — with explicit reference to outflows, share price decline and shareholder experience. Many committees would simply have held the percentage of salary constant.
+7. **Group staff costs cut 20%**, faster than most peers, holding the compensation ratio in the low-to-mid 40s.
+8. **Executives buy shares.** SIP participation and DRIP reinvestment at £3.05.
+
+### 11.2 Red flags — what remains unresolved
+
+1. **The policy maxima are indefensible at this size.** 800% of salary in total variable, implying a ~£5.3m theoretical CEO package — 2.7% of market capitalisation — at a company with £24bn of AUM and £30.5m of adjusted profit. The policy has not been revised since 2022 and is due for renewal.
+2. **Base salary rose 68% while shareholders lost 88%.** The 2022 increase is permanent, compounds into bonus and LTIP maxima (both expressed as a percentage of salary), and has never been revisited.
+3. **A 10% vesting threshold is soft.** UK practice is 20–25%. A 10% floor pays out for performance that materially misses target.
+4. **Nil-price options at trough prices.** Two years of grants equal 2.5% of issued capital and offset 42% of the completed buyback. The 25% cap slowed this; it did not stop it. **There is no disclosed mechanism preventing windfall gains on a recovery driven by market beta rather than management action.**
+5. **Adjusted diluted EPS remains an LTIP metric.** The same adjusted measure that produced £67.4m of "profit" against a statutory loss of £0.6m in FY2024. Any LTIP metric that excludes the amortisation and impairment of acquired intangibles rewards management for acquisitions regardless of whether they earn their cost of capital.
+6. **Persistent shareholder dissent.** 45.9%, then 46.5%, and still 27.43% against in 2025 — four years of above-threshold opposition.
+7. **LTIP target disclosure remains a stated shareholder grievance**, with an undertaking given in 2025 that has yet to be visibly delivered.
+8. **Extreme tenure with modest ownership.** A 16-year CEO and a 30-year CFO holding ~3.3% between them, paid ~£1.76m a year combined. The pay stream, not the equity stake, is the dominant economic interest — which shapes the board's incentives on any approach for the company.
+
+### 11.3 Overall
+
+> **Grade: B- and improving, from a D+ in 2022.** The structural pathology has been fixed and the current Committee is exercising real restraint. But the restraint is discretionary, the policy that permits far more remains in force, and the executives are accumulating a large, leveraged, low-strike claim on a recovery that they have not yet delivered. **The correct shareholder posture is engagement on the policy ceiling and LTIP disclosure — not opposition to current outcomes, which are reasonable.**
+
+## 12 · The 17 September 2026 AGM: what to watch
+
+| Item | Why it matters | What would be a good outcome |
+|---|---|---|
+| **Remuneration report vote** | The trend line: 45.9%  to  46.5%  to  n/d  to  n/d  to  27.43% against | Below 20% would clear the Public Register for the first time since 2021 |
+| **LTIP target disclosure** | The Board undertook in 2025 to enhance LTI disclosure and bonus methodology | Specific, quantified TSR, adjusted EPS and investment performance targets, disclosed prospectively |
+| **Policy renewal timing** | The 2022 policy is approaching the end of its normal three-year cycle | A binding vote on a **reduced** variable maximum — 300%/250% would still be generous |
+| **Vesting threshold** | 10% is soft against a 20–25% UK norm | Raise the threshold |
+| **Windfall-gain provisions** | Grants made at ~293p and ~383p into a recovering market | An explicit Committee discretion to scale back vesting for beta-driven gains |
+| **Senior Independent Director succession** | Rebecca Shelley is not standing for re-election | A successor with credible remuneration and asset management experience |
+| **Activist engagement** | GAM's special situations funds hold **5.01%** and have called for a strategic review | Whether remuneration becomes a vector for that campaign |
+
+## 13 · Fifteen questions for the Remuneration Committee Chair
+
+*Ordered by information value.*
+
+1. The 2022 policy permits total variable pay of 800% of salary for the CEO — a theoretical package of ~£5.3m, or 2.7% of market capitalisation. At what AuMA and profit level would the Committee regard that maximum as payable, and will it be reduced at the next policy renewal?
+2. Base salary rose 68% between 2022 and 2024 while total shareholder return was approximately -85%. Bonus and LTIP maxima are both expressed as a percentage of salary. Has the Committee considered rebasing salary, and if not, why not?
+3. The 2026 LTIP grant increased the CEO's share count by 25% while the share price fell ~24%. What explicit mechanism prevents a windfall gain if the shares recover on market beta rather than management delivery?
+4. LTIP vesting runs from 10% at threshold. UK practice is 20–25%. What is the rationale for a threshold that pays for materially missing target?
+5. Adjusted diluted EPS is an LTIP metric. In FY2024 adjusted PBT was £67.4m against a **statutory loss** of £0.6m. Why should an incentive metric exclude the amortisation and impairment of the acquired intangibles that management chose to buy?
+6. In 2025 the Board undertook to enhance LTI target disclosure following shareholder concern. What specifically has changed in the 2026 report, and will prospective targets now be quantified?
+7. The 2025 and 2026 LTIP grants total ~1,575,000 shares — 2.5% of issued capital, offsetting ~42% of the £10m buyback. How does the Committee reconcile returning capital via buyback while simultaneously issuing equity to executives?
+8. Group headcount fell from 210 to 170 and staff costs fell 20% in FY2026, while CEO total pay rose ~3%. Did the Committee consider a salary reduction, and what was the reasoning against?
+9. What proportion of the FY2026 annual bonus was awarded for financial performance, strategic delivery and personal objectives respectively, and what were the specific measures?
+10. Both executives have deferred 100% of their bonuses into shares. Will that 100% deferral be maintained if the bonus recovers toward the 450% cap?
+11. The CEO has served 16 years and the CFO over 30. What is the Committee's view on the interaction between extreme tenure, LTIP quantum, and the retention rationale that normally justifies large awards?
+12. Executive shareholdings are ~1.65% and ~1.71%. Ashmore's founder-CEO holds 32% and is paid ~£229k. What in-post and post-cessation shareholding requirements apply, and are they sufficient?
+13. Following the River Global acquisition, will the acquired investment teams sit inside the group remuneration framework, and what is the resulting effect on the compensation ratio?
+14. Three consecutive years of shareholder opposition exceeded 20%. What specific change would the Committee make if the September 2026 vote again exceeds that threshold?
+15. If an offer were made for the company, how would in-flight LTIP and DBVAP awards be treated, and has the Committee modelled the value to executives of a change of control against the value of continued independence?
+
+[PAGEBREAK]
+
+## 14 · Conclusion
+
+Liontrust's executive remuneration divides cleanly into two eras. Until FY2022 the executives were paid as partners in a private profit-share, taking ~£6m a year on a £348k salary from a bonus pool funded directly out of Adjusted Profit Before Tax. That structure was an outlier among listed UK asset managers, it rewarded market beta rather than management skill, and shareholders came within four percentage points of voting it down in February 2022. The reset that followed — a hard bonus cap and the removal of the profit-funding link — is the single most consequential governance improvement in the company's recent history and drove an 84% reduction in CEO pay.
+
+The current Committee is behaving well. Salary has been frozen for three years, bonuses are being paid at roughly a tenth of the permitted cap and deferred entirely into three-year shares, LTIP grants have been scaled back below policy maxima in two consecutive years with explicit reference to shareholder experience, and group staff costs have been cut 20% — faster than revenue. On process and restraint, Liontrust now compares favourably with its listed peers.
+
+Three things still need fixing. The **policy ceiling** of 800% of salary is indefensible for a £193m company and is due for renewal. The **68% salary increase** granted into a collapsing share price is permanent, compounds through every variable maximum, and has never been revisited. And **nil-price options granted at trough prices** are building a large leveraged claim on a recovery — two years of grants alone equal 2.5% of the share capital and offset 42% of the buyback the company has just completed — with no disclosed protection against windfall gains driven by market beta.
+
+> **The conclusion an owner should draw.** The remuneration outcomes of the last three years are reasonable and do not warrant opposition. The remuneration *policy* that permits several times those outcomes does warrant engagement, and the September 2026 AGM — with the Senior Independent Director departing, an activist above 5%, and the Board's own 2025 undertaking on LTIP disclosure falling due — is the moment to press it. **The relevant risk is not that management is overpaid today. It is that the framework allows them to be substantially overpaid the moment markets do the work.**
+
+## 15 · Sources
+
+Company disclosure: Liontrust Asset Management PLC RNS announcements including the Director/PDMR Shareholding notifications of 6 August 2026 (LTIP grants) and the Deferred Bonus and Variable Allocation Plan awards; Result of AGM announcements for 22 September 2022, 21 September 2023, 19 September 2024 and 18 September 2025; the 2025 AGM Voting Results Update Statement; the General Meeting result of 16 February 2022; the 2022 Directors' Remuneration Policy as reported; FY2021–FY2026 annual results announcements; and the Notice of the 2026 AGM.
+
+Third-party sources: Citywire (Wealth Manager and Funds Insider), Portfolio Adviser, City A.M., LexisNexis Research & Legal Analysis, Investment Week, Money Marketing, Funds Europe, Kalkine Media, TipRanks, MarketScreener, Simply Wall St, Investing.com and Reuters via TradingView; and published compensation and ownership analytics for Jupiter Fund Management, Ashmore Group, Premier Miton, Polar Capital, Schroders and Aberdeen Group.
+
+~ **Data caveats.** Direct access to liontrust.com, Investegate and the primary Annual Report PDFs was blocked by this environment's network egress proxy; single-figure remuneration totals are therefore drawn from secondary sources and analytics rather than read from the audited Directors' Remuneration Report, and should be verified line-by-line before use in a voting decision or public campaign. Figures marked **(derived)** — the CFO's salary, the implied LTIP grant prices, and the 2025 LTIP share counts — are the analyst's calculations from disclosed data, with the arithmetic set out in §4.4 so it can be checked. The FY2021 CEO total is reported as both £6.2m (Citywire) and £6.6m (compensation analytics); both are shown. The 2023 and 2024 AGM remuneration vote percentages, the CFO's historic single figures, and Liontrust's absolute employee cost line were not obtainable from accessible sources and are marked "n/d" or estimated accordingly. Peer remuneration, AUM and market capitalisation figures are indicative as at August 2026.
+
+## 16 · Disclaimer
+
+This document has been prepared for information and discussion purposes only. It does not constitute investment research under the FCA Conduct of Business Sourcebook, nor an offer, solicitation, personal recommendation or investment advice, and should not be relied upon as the basis for any investment or voting decision.
+
+The information is derived from publicly available sources believed to be reliable, but no representation or warranty, express or implied, is made as to its accuracy, completeness or timeliness. Several figures are estimates or analyst derivations, as marked. Statements about individuals relate solely to their professional conduct in their corporate roles and are based on published disclosure and contemporaneous reporting. Forward-looking statements reflect the author's judgement as at the date of writing and are subject to change without notice.
+
+Recipients should note that a shareholder group referenced in this document has publicly campaigned for a strategic review and sale of the subject company; that campaign is described as a matter of public record and its inclusion should not be read as an endorsement of, or agreement with, its objectives. Recipients should form their own view and take independent professional advice before acting.

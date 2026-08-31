@@ -163,8 +163,7 @@ def make_callout(text):
 def on_page(canv, doc):
     canv.saveState()
     canv.setFont('Body', 6.4); canv.setFillColor(GREY)
-    canv.drawString(LM, 9 * mm,
-                    'Liontrust Asset Management PLC (LIO LN) — Initiation of Coverage · 30 August 2026')
+    canv.drawString(LM, 9 * mm, FOOTER)
     canv.drawRightString(PW - RM, 9 * mm,
                          'For discussion purposes only — not investment advice · p.%d' % doc.page)
     canv.setStrokeColor(RULE); canv.setLineWidth(0.4)
@@ -172,11 +171,14 @@ def on_page(canv, doc):
     canv.restoreState()
 
 
+FOOTER = 'Liontrust Asset Management PLC (LIO LN) — Initiation of Coverage · 30 August 2026'
+DOCTITLE = 'Liontrust Asset Management PLC (LIO LN) — Equity Research'
+
+
 def build(src, out):
     doc = BaseDocTemplate(out, pagesize=A4, leftMargin=LM, rightMargin=RM,
                           topMargin=TM, bottomMargin=BM,
-                          title='Liontrust Asset Management PLC (LIO LN) — Equity Research',
-                          author='Institutional Equity Research', subject='LIO LN Initiation of Coverage')
+                          title=DOCTITLE, author='Institutional Equity Research', subject=DOCTITLE)
     frame = Frame(LM, BM, CW, PH - TM - BM, id='f', leftPadding=0, rightPadding=0,
                   topPadding=0, bottomPadding=0)
     doc.addPageTemplates([PageTemplate(id='p', frames=[frame], onPage=on_page)])
@@ -241,4 +243,8 @@ def build(src, out):
 
 
 if __name__ == '__main__':
+    if len(sys.argv) > 3:
+        FOOTER = sys.argv[3]
+    if len(sys.argv) > 4:
+        DOCTITLE = sys.argv[4]
     build(sys.argv[1], sys.argv[2])
