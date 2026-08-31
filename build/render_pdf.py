@@ -67,6 +67,7 @@ def esc(t):
 
 def inline(t):
     t = esc(t)
+    t = re.sub(r'\*\*\*(.+?)\*\*\*', r'<b><i>\1</i></b>', t)
     t = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', t)
     t = re.sub(r'(?<!\*)\*([^*]+?)\*(?!\*)', r'<i>\1</i>', t)
     return t
@@ -145,9 +146,15 @@ def make_table(rows):
     return t
 
 
-def make_callout(text):
-    p = Paragraph(inline(text), S['call'])
-    t = Table([[p]], colWidths=[CW], hAlign='LEFT')
+def make_callout(parts):
+    if isinstance(parts, str):
+        parts = [parts]
+    flow = []
+    for n, part in enumerate(parts):
+        if n:
+            flow.append(Spacer(1, 5))
+        flow.append(Paragraph(inline(part), S['call']))
+    t = Table([[flow]], colWidths=[CW], hAlign='LEFT')
     t.setStyle(TableStyle([
         ('BACKGROUND', (0, 0), (-1, -1), CALLBG),
         ('LINEBEFORE', (0, 0), (0, -1), 2.4, ACCENT),
@@ -218,9 +225,17 @@ def build(src, out):
             story.append(Paragraph(inline(s[2:]), S['h1'])); i += 1; continue
         if s.startswith('@@ '):
             story.append(Paragraph(inline(s[3:]), S['sub'])); i += 1; continue
-        if s.startswith('> '):
-            story.append(Spacer(1, 4)); story.append(make_callout(s[2:]))
-            story.append(Spacer(1, 7)); i += 1; continue
+        if s.startswith('>'):
+            parts = []
+            while i < len(lines) and lines[i].strip().startswith('>'):
+                body = lines[i].strip()[1:].strip()
+                if body:
+                    parts.append(body)
+                i += 1
+            if parts:
+                story.append(Spacer(1, 4)); story.append(make_callout(parts))
+                story.append(Spacer(1, 7))
+            continue
         if s.startswith('~ '):
             story.append(Paragraph(inline(s[2:]), S['small'])); i += 1; continue
 

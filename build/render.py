@@ -223,13 +223,22 @@ def build(src_path, out_path):
             p = doc.add_paragraph(); p.paragraph_format.space_after = Pt(10)
             add_runs(p, s[3:], size=9, colour=GREY); i += 1; continue
 
-        # ---- callout ----
-        if s.startswith('> '):
-            p = doc.add_paragraph()
-            p.paragraph_format.left_indent = Cm(0.35)
-            p.paragraph_format.space_before = Pt(6); p.paragraph_format.space_after = Pt(8)
-            left_bar(p); shade_para(p, "FAF7F1")
-            add_runs(p, s[2:], size=9.2, colour=BLACK); i += 1; continue
+        # ---- callout (contiguous '>' lines form one block) ----
+        if s.startswith('>'):
+            parts = []
+            while i < len(lines) and lines[i].strip().startswith('>'):
+                body = lines[i].strip()[1:].strip()
+                if body:
+                    parts.append(body)
+                i += 1
+            for n, body in enumerate(parts):
+                p = doc.add_paragraph()
+                p.paragraph_format.left_indent = Cm(0.35)
+                p.paragraph_format.space_before = Pt(6 if n == 0 else 2)
+                p.paragraph_format.space_after = Pt(8 if n == len(parts) - 1 else 2)
+                left_bar(p); shade_para(p, "FAF7F1")
+                add_runs(p, body, size=9.2, colour=BLACK)
+            continue
 
         # ---- bullets ----
         m = re.match(r'^(\s*)-\s+(.*)$', ln.rstrip())

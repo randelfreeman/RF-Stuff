@@ -237,14 +237,14 @@ Asset management has no physical supply chain, but it has a very real value chai
 | **Index & benchmark providers** | Comparators, licences, index data | FTSE Russell, MSCI, ICE, iBoxx |
 | **ESG / sustainability data** | Ratings, controversy screens, SDR evidence | MSCI ESG, Sustainalytics (Morningstar), ISS ESG, Bloomberg |
 | **Fund ratings & research** | Distribution-critical third-party endorsement | Morningstar, FE fundinfo, Square Mile, Rayner Spencer Mills, Defaqto |
-| **Sell-side research & execution** | Idea generation, corporate access, trading | Peel Hunt, Deutsche Numis, Berenberg, Investec, Panmure Liberum, Jefferies, plus global bulge-bracket brokers |
+| **Sell-side research & execution** | Idea generation, corporate access, trading | **Nine houses covered LIO at 31 Mar 2026** (per the FY2026 Annual Report): **Singer Capital Markets, Panmure Liberum, Deutsche Numis, Peel Hunt, Barclays, Investec, RBC Capital Markets, Berenberg** and **Cavendish** (initiated during FY2026) |
 | **Human capital** | Fund managers, analysts, distribution | Acquired via M&A (ATI, Neptune, Architas, Majedie, River Global/Devon) and lift-outs (GAM global equity team, 2023) |
-| **Technology & operations** | Portfolio management, order management, risk | Third-party PMS/OMS and risk vendors; **Broadgate** for outsourced factsheets and regulatory reporting |
+| **Technology & operations** | Portfolio management, order management, risk, execution, payroll | Third-party PMS/OMS and risk vendors; **Broadgate** for outsourced factsheets and regulatory reporting; **trade execution outsourced to BNY Buy-side Trading Solutions** during FY2026; **ADP** payroll; Microsoft Copilot and ChatGPT Enterprise deployed firm-wide |
 | **Capital & advisory** | Corporate broking, audit, legal, M&A advice | Peel Hunt (corporate broking); Big Four audit; City law firms |
 
 ### 6.2 The Liontrust node — manufacturing
 
-Liontrust converts research and data into **investment products** through nine investment processes, wraps them in UK OEICs/unit trusts, Irish ICAVs, a Luxembourg SICAV, MPS models and segregated mandates, and applies the brand, risk framework and regulatory permissions. Legal entities in the chain include Liontrust Investment Partners LLP, Liontrust Fund Partners LLP, Liontrust Investment Funds Limited, Liontrust Portfolio Management, and Liontrust International (Luxembourg) S.A.
+Liontrust converts research and data into **investment products** through its investment teams — River Global added **seven** in June 2026 — wraps them in UK OEICs/unit trusts, Irish ICAVs, a Luxembourg SICAV, MPS models and segregated mandates, and applies the brand, risk framework and regulatory permissions. Legal entities in the chain include Liontrust Investment Partners LLP, Liontrust Fund Partners LLP, Liontrust Investment Funds Limited, Liontrust Portfolio Management, and Liontrust International (Luxembourg) S.A.
 
 ### 6.3 Midstream — fund infrastructure
 
@@ -296,6 +296,7 @@ UK retail savers and pension members (via advisers and platforms), UK and intern
 | Statutory PAT | n/d | n/d | n/d | ~16.7 | **9.6** |
 | **Adjusted diluted EPS (p)** | n/d | 109.8 | 79.2 | 56.8 | **36.7** |
 | **DPS (p)** | 72.0 | 72.0 | 72.0 | 72.0 | **19.0** |
+| Share price at 31 March (p) | n/d | n/d | n/d | **371** | **241** |
 | Payout vs adjusted EPS | n/d | 66% | 91% | **127%** | **52%** |
 | Net cash | n/d | n/d | n/d | n/d | **50.6** |
 | Gross debt | nil | nil | nil | nil | **nil** |
@@ -645,6 +646,8 @@ Liontrust's liquidity position is a genuine strength and is, in our view, under-
 
 European and UK asset management is mid-cycle in a consolidation wave driven by fee compression, passive share gains, rising fixed regulatory costs and a widening scale gap. The defining event was **Nuveen/TIAA's £9.9bn recommended cash offer for Schroders in February 2026** at a ~30% premium — ending over 200 years of family control and establishing that (i) UK asset managers are for sale, (ii) US scale capital is the buyer, and (iii) boards will recommend cash. Beneath it, Jupiter/CCLA, Liontrust/River Global and a steady flow of sub-£500m private deals point to a market clearing at low percentage-of-AUM multiples.
 
+> **What the FY2026 Annual Report reveals about Liontrust's own deal pipeline.** The remuneration scorecard disclosure is unusually candid about M&A activity during the year: Liontrust **signed NDAs with a global fund-of-funds REITs business and a global emerging-market equities business**, **made an offer for one business that did not meet the seller's expectations**, **passed on a minority investment opportunity**, **made an unsuccessful offer for a GEM equities business**, announced River Global on 16 March 2026, and **reviewed five other fund management businesses**. Liontrust is running an active, disciplined acquisition programme and walking away on price. That is materially more deal activity than the market assumes, and it supports the consolidator thesis in §20.5.
+
 ### 13.2 Comparable transactions, last five years
 
 | Target | Acquirer | Announced | Consideration | Target AUM | % of AUM | Notes |
@@ -723,9 +726,9 @@ European and UK asset management is mid-cycle in a consolidation wave driven by 
 |---|---|
 | **In role since** | April 2010 — **~16 years**, one of the longest-tenured CEOs in UK listed asset management |
 | **Archetype** | **Professional manager with founder-like control.** Not a founder (Liontrust was established in 1995), but he rebuilt the company from near-irrelevance and is identified with it personally |
-| **Skin in the game** | ~1.6–1.65% of shares (~£2.7m at the current price); participates in the DRIP (bought 1,157 shares at £3.05 in August 2026) |
-| **Recent LTIP** | 6 Aug 2026 — nil-price options over **566,203 shares**, equating to **284% of salary**, "capped at a 25% increase in share numbers versus last year" |
-| **Total compensation** | ~£1.03m (~57% salary, ~43% bonus/equity) |
+| **Skin in the game** | **1,041,256 shares (~1.65%)**, valued at **£2,623k** at 31 Mar 2026 — **450% of salary, below the 500% requirement**. Participates in the SIP and DRIP |
+| **Recent LTIP** | 6 Aug 2026 — **566,203** nil-price options, **284% of salary**, capped at a 25% increase in share numbers. The prior (FY2026) grant was **452,963 shares at 297.5% of salary**, against a 350% policy maximum |
+| **Total compensation** | **FY2026: £667k — of which £nil variable** (FY2025: £1,031k). Ten-year cumulative FY2017–FY2026: **£30.58m** |
 
 **Track record — what he actually built.** Ions inherited a sub-£1bn business in 2010 and took AuMA to a peak above £33bn — a genuine, quantifiable achievement executed through a combination of organic distribution build-out, the transformative Alliance Trust Investments acquisition and an unusually disciplined multi-boutique operating model. Between FY2013 and FY2022 Liontrust was one of the best-performing shares in the UK financial sector. That record is real and should not be erased by what followed.
 
@@ -736,7 +739,7 @@ European and UK asset management is mid-cycle in a consolidation wave driven by 
 
 **Capital allocation.** ROE and ROIC have deteriorated sharply. Roughly £220–307m of acquisition consideration was deployed 2017–2022 to buy ~£16.1bn of AUM; the whole company is now capitalised at £193m. The single unambiguous win is Alliance Trust Investments. Set against that, the FY2026 actions — a formulaic payout policy, a completed £10m buyback at 266p, and River Global at ~0.26% of AUM — are the best capital allocation decisions of his tenure and were taken under visible external pressure.
 
-**Red flags.** (i) The 2022 remuneration vote passed by ~1.5 percentage points against ISS and Glass Lewis opposition, on a proposed 58% CEO pay rise. (ii) LTIP grants at 284% of salary in August 2026 following a period of severe value destruction — even "capped", the optics are poor and the grant is being made at a depressed share price, which mechanically maximises payout on any recovery. (iii) A pattern of promotional language ("well placed") that lagged the deteriorating numbers by roughly two years. (iv) An acquisition record that repeatedly bought high.
+**Red flags.** (i) The 2022 remuneration vote passed by ~1.5 percentage points against ISS and Glass Lewis opposition, on a proposed 58% CEO pay rise. (ii) A pattern of promotional language ("well placed") that lagged the deteriorating numbers by roughly two years. (iii) An acquisition record that repeatedly bought high. (iv) He is **below the 500%-of-salary shareholding requirement** at 450%. **What is no longer a red flag:** pay outcomes. The audited FY2026 report shows **nil bonus and nil LTIP vesting**, a third consecutive salary freeze, the FY2023 LTIP lapsing in full, and a new share price underpin that overrode a 13.9% scorecard. The live remuneration concern is the **LTIP's absolute TSR hurdle — 15% total return over three years for maximum vesting** — not quantum. See the companion Remuneration Review.
 
 **Verdict.** A genuinely capable distribution-led operator whose strategic and capital allocation judgement failed badly between 2021 and 2025, and who has been executing correctly since November 2025. The market's central question is not competence — it is whether a CEO of 16 years is the right person to conduct a strategic review of his own life's work.
 
@@ -746,9 +749,9 @@ European and UK asset management is mid-cycle in a consolidation wave driven by 
 |---|---|
 | **At Liontrust since** | **1995** — over 30 years, effectively since the company's founding era |
 | **Remit** | Finance, IT, operations, risk and compliance — an unusually broad combined CFO/COO mandate |
-| **Skin in the game** | ~1.7–1.71% of shares (~£2.7m) — marginally more than the CEO |
+| **Skin in the game** | **1,074,380 shares (~1.71%)**, valued at **£2,659k** — **598% of salary, comfortably above the 500% requirement**, and more than the CEO both absolutely and relative to salary |
 | **Recent LTIP** | 6 Aug 2026 — nil-price options over **308,797 shares**, ~**203% of salary** |
-| **Total compensation** | ~£727,000 |
+| **Total compensation** | **FY2026: £511k — of which £nil variable** (FY2025: £727k) |
 
 **Assessment.** Abrol's record on the things a CFO controls is good: the balance sheet has carried zero debt throughout a 42% asset decline; cash generation and conversion have held; the cost programme delivered a 16% reduction in administrative expenses and protected the operating margin to a consensus beat; the IFPR capital position has never been in question. The FY2026 capital allocation policy is a credible, well-constructed framework.
 
@@ -770,7 +773,7 @@ European and UK asset management is mid-cycle in a consolidation wave driven by 
 
 ### 14.4 Founder versus professional manager — and what it implies
 
-Liontrust is run by **long-tenured professional managers with founder-level psychological ownership but only ~3.3% combined economic ownership**. That combination is the least favourable for this stage of the business cycle: it delivers the emotional attachment of a founder (resistance to sale, identification with the strategy) without the economic alignment that would make a founder indifferent between running and selling. At a £193m market capitalisation, the executives' combined stake is worth ~£6.4m; their combined annual compensation plus outstanding LTIPs is worth a substantial multiple of the *annual* return on that stake. **The incentive to continue as an independent company is structurally stronger than the incentive to maximise the share price via a sale.** Investors should weight this heavily when assessing the probability of the takeover scenario in §13.5.
+Liontrust is run by **long-tenured professional managers with founder-level psychological ownership but only ~3.3% combined economic ownership**. That combination is the least favourable for this stage of the business cycle: it delivers the emotional attachment of a founder (resistance to sale, identification with the strategy) without the economic alignment that would make a founder indifferent between running and selling. On audited data their combined shareholdings were worth **£5.28m** at 31 March 2026 against combined FY2026 remuneration of **£1.18m** — so one year's pay is worth roughly 22% of the entire stake, against 0.07% for Ashmore's founder-CEO. Outstanding options add a further ~2.26m shares, ~3.6% of issued capital. **The incentive to continue as an independent company is structurally stronger than the incentive to maximise the share price via a sale.** Investors should weight this heavily when assessing the probability of the takeover scenario in §13.5.
 
 [PAGEBREAK]
 
@@ -783,11 +786,12 @@ Liontrust is run by **long-tenured professional managers with founder-level psyc
 | **Luke Savage** | Non-Executive Chair; Chair of Nomination Committee | 20 Sep 2024 | ~2 yrs | Chartered accountant. Senior finance roles at **Standard Life plc** (CFO), **Lloyd's of London** (Director of Finance), **Deutsche Bank AG** and **Morgan Stanley** | Non-executive roles across insurance and financial services |
 | **John Ions** | Chief Executive Officer | Apr 2010 | **~16 yrs** | Career asset management distribution and general management; previously SG Asset Management (UK) and Tactica Fund Management | — |
 | **Vinay Abrol** | Chief Financial Officer & Chief Operating Officer | Board director; **at Liontrust since 1995** | **30+ yrs at company** | Finance, IT, operations, risk and compliance | — |
-| **Mandy Donald** | Non-Executive Director; **Chair of Audit & Risk Committee** (since 20 Sep 2019) | 1 Aug 2019 | ~7 yrs | Chartered accountant; **18 years with EY** | Multiple UK listed and financial services non-executive appointments |
-| **Rebecca Shelley** | **Senior Independent Director**; NED for Responsible Capitalism / ESG | 2019 | ~7 yrs | Corporate affairs and communications leadership at **Prudential**, **Tesco**, **TalkTalk**, Transport for London | **Chair of B.P. Marsh & Partners Plc** from 26 May 2026. **Not standing for re-election at the September 2026 AGM** |
+| **Mandy Donald** | NED; **Chair of Audit & Risk Committee**; designated NED for employee engagement | Letter of appointment **18 Jul 2019** | ~7 yrs | Chartered accountant; **18 years with EY** | Multiple UK listed and financial services non-executive appointments |
+| **Rebecca Shelley** | **Senior Independent Director**; Remuneration and Sustainability Committees | Letter of appointment **12 Oct 2021** | ~5 yrs | Corporate affairs and communications leadership at **Prudential**, **Tesco**, **TalkTalk**, Transport for London | **Chair of B.P. Marsh & Partners Plc** from 26 May 2026. **Not standing for re-election at the September 2026 AGM** |
+| **Miriam Greenwood OBE DL** | NED; **Chair of the Remuneration Committee**; member of Audit & Risk, Nomination and Sustainability Committees | Letter of appointment **15 Nov 2023** | ~3 yrs | Long career in corporate finance and public-company governance; extensive UK non-executive experience | Signed the FY2026 Remuneration Report, 23 Jun 2026 |
 | **Martin Gilbert** | Independent Non-Executive Director | **1 Jul 2026** | <1 yr | **Co-founder and CEO of Aberdeen Asset Management** (built from start-up to >£300bn); co-CEO of **Standard Life Aberdeen**; Chairman of **AssetCo / River Global** | Chairman of **Revolut**; **Toscafund**; extensive asset management M&A record |
 
-~ Board composition per the most recent public disclosure. Liontrust may have additional non-executive directors not identified in the sources available for this note; readers should verify against the 2026 Annual Report and the September 2026 AGM notice.
+~ Board composition per the FY2026 Annual Report. Non-executive fees for FY2026 (audited): Savage £210k, Donald £126k, Shelley £112k, Greenwood £104k. All NED fees are frozen for FY2027. Notice periods: executives 6 months under their director letters and 12 months under their LLP deeds of adherence; non-executives 3 months.
 
 ### 15.2 Board changes over the last five years
 
@@ -798,6 +802,7 @@ Liontrust is run by **long-tenured professional managers with founder-level psyc
 | **Feb 2022** | Remuneration policy and LTIP passed at a general meeting by ~55.6% / 54% against ISS and Glass Lewis opposition | The governance discount is established |
 | Jan 2022 | **Emma Howard Boyd** appointed NED | Former Environment Agency chair; an ESG credential appointment |
 | **Mar 2023** | **Emma Howard Boyd and Quintin Price both step down with immediate effect** | **The most significant governance red flag of the period.** Two NEDs — appointed 14 and 23 months earlier — leaving simultaneously and immediately, weeks before the GAM bid was launched |
+| **Nov 2023** | **Miriam Greenwood OBE DL** appointed NED; subsequently Chair of the Remuneration Committee | Brought in to rebuild the remuneration framework after two revolts. The 2024 Remuneration Policy she oversaw passed with **86.46%** support — the first clean governance vote since 2021 |
 | **Sep 2024** | **Alastair Barbour** retires as Chair at the AGM; **Luke Savage** appointed NED and Chair from 20 Sep 2024 | Orderly succession; a finance-heavy chair for a period requiring capital discipline |
 | **May 2026** | **Rebecca Shelley** becomes Chair of B.P. Marsh & Partners; announces she will not seek re-election at the September 2026 AGM | The SID role will need to be refilled — a live succession item at a sensitive moment |
 | **1 Jul 2026** | **Martin Gilbert** appointed independent NED following the River Global completion | **The most consequential board change in a decade.** Brings unmatched sector M&A experience, and a direct economic interest via River Global consideration shares locked up for two years |
@@ -816,8 +821,8 @@ Liontrust is run by **long-tenured professional managers with founder-level psyc
 | 2 | **GAM Holding AG** (GAM Global Opportunities Fund / GAM Global Special Situations Fund) | **Institutional — activist** | **5.01%** (3,155,000 shares, notified 6 Aug 2026) | **Crossed 5% on 5 Aug 2026, up from 3.6% in March 2026.** Managed by Albert Saporta and Randel Freeman |
 | 3 | Undisclosed institution | Institutional | ~4.2% | Second-largest per public ownership analysis |
 | 4 | Undisclosed institution | Institutional | ~4.1% | Third-largest per public ownership analysis |
-| 5 | **Vinay Abrol** | **Insider — CFO/COO** | **~1.71%** | Longest-serving insider |
-| 6 | **John Ions** | **Insider — CEO** | **~1.65%** | |
+| 5 | **Vinay Abrol** | **Insider — CFO/COO** | **1.71%** (1,074,380 shares) | Longest-serving insider; holds more stock than the CEO |
+| 6 | **John Ions** | **Insider — CEO** | **1.65%** (1,041,256 shares) | Below the 500%-of-salary shareholding requirement, at 450% |
 | 7 | **Tetragon Partners UK LLP** (formerly TFG Asset Management UK LLP) | Institutional | Disclosed via RNS Apr 2026 | Voting rights breakdown change notified 28 Apr 2026 |
 | 8 | **Morgan Stanley** | Institutional / trading book | Fell **below 5%** on 5 Aug 2026; 0.876% applicable after trading-book exemption | Position reduced |
 | 9 | **Martin Gilbert / Christopher Mills** (via River Global consideration shares) | **Insider-aligned** | **~1.0% combined (est.)**, locked up at least two years | Held 22.3% of River Global; on our estimate ~660k Liontrust consideration shares, retained for at least two years post-completion |
@@ -855,6 +860,8 @@ Liontrust is run by **long-tenured professional managers with founder-level psyc
 | Board strengthening / independent M&A expertise | **Achieved in substance** | Martin Gilbert's appointment on 1 July 2026 places the sector's most experienced dealmaker in the boardroom, whatever the stated rationale |
 | Re-rating of the equity | **Substantially achieved** | Shares up materially from the March 2026 lows; the takeover option is now visibly in the price |
 | Sale of the company | **Not achieved** | The binary outcome remains open |
+
+> **The turnout arithmetic the market has missed.** Total votes cast on the remuneration report at the 2025 AGM were **20,145,264** against roughly 63.8m shares in issue — a turnout of about **32%**. GAM's **3,155,000 shares** would therefore represent approximately **15.7% of all votes cast**, before any coordination with other institutions. On a register where the top 20 hold only ~50% and a third of the stock votes, **a 5% holder is not a minority voice at the September 2026 AGM — it is a bloc capable of pushing a resolution below 50%.**
 
 > **Assessment of the campaign.** Tactically effective, strategically unresolved. In five months the activists have gone from 3.6% to over 5%, watched the shares re-rate ~35–40% off the lows, seen a consolidator join the board, and seen management adopt a capital-return policy. What they have not obtained is the strategic review. The escalation into Impax signals a patient, thesis-driven campaign rather than an opportunistic trade, and the crossing of 5% materially raises the cost to the board of continuing to ignore it. **The September 2026 AGM — with the SID departing and remuneration again on the agenda — is the obvious next pressure point.**
 
@@ -1073,7 +1080,7 @@ There is no moat. There are no long-term contracts, no network effects, no hard 
 
 - **No evidence of improper related-party transactions.** This is a clean company on that axis, and we say so plainly.
 - **However:** the River Global acquisition results in the vendor's chairman joining the buyer's board as an "independent" non-executive director while holding locked-up consideration shares. That is a **conventional but genuine independence question**, and the Nomination Committee should be asked to justify the classification.
-- **Incentive misalignment is the real issue.** The CEO and CFO have ~3.3% combined ownership (~£6.4m) against combined annual compensation of ~£1.76m plus LTIP grants of 566,203 and 308,797 nil-price options awarded in August 2026 at a depressed price. **A recovery to 600p is worth roughly £5.2m to the two of them through the LTIP alone — but a takeover at 500p ends the salary stream permanently.** Management's economics favour independence and a slow recovery over a fast sale. Shareholders' economics may not.
+- **Incentive misalignment is the real issue — though the audited record is better than we assumed.** FY2026 remuneration was **£667k and £511k, with nil bonus and nil LTIP vesting for both**, against combined shareholdings of **£5.28m**. Pay is not the abuse. **The leverage is.** After the August 2026 grant the two hold roughly **2.26m options, ~3.6% of issued capital**, and the LTIP's absolute TSR condition pays **100% of a 40% weighting for a 15% total return over three years** — about 4.8% a year — measured from grant prices of 383.3p and ~292.8p. **A beta-driven recovery to 600p is worth several million pounds to them; a cash takeover at 500p ends the salary stream permanently.** Management's economics still favour independence and a slow recovery over a fast sale.
 - **The 2022 pay vote passed with ~54–56% support** against both major proxy advisers. That is a governance event, not a footnote.
 
 ### 23.7 What must hold for the current price to be justified
@@ -1109,7 +1116,7 @@ At 306.5p the market requires, roughly: AuMA stabilising near £24–26bn; the b
 | **Contingent / deferred consideration** | £2.1m of River Global adjustment shares contingent on the EOT mandate outcome; legacy earn-outs from prior deals | **Green–Amber** — small and disclosed |
 | **Leases (IFRS 16)** | Office leases capitalised; a component of the £157.9m liability balance. Cost reduction has included property rationalisation | **Green** |
 | **Related parties** | No evidence of improper transactions. The Gilbert independence question is governance, not accounting | **Green** |
-| **Share-based payment** | Material and rising: 566,203 + 308,797 nil-price options granted to two executives in Aug 2026 alone, at 284% and 203% of salary. Dilution partially offsets the buyback | **Amber** — economically real, and grants at trough prices maximise payout |
+| **Share-based payment** | Audited FY2026 disclosure: executives hold ~2.26m options post the Aug-2026 grant, **~3.6% of issued capital**. Grants at trough prices raise the share count and, because absolute TSR is measured from grant, lower the cash return needed to vest. Mitigants: a formal **10% rolling ten-year dilution cap**, an EBT, and SIP/CSOP satisfied by **market-purchased** shares | **Amber** — dilution is capped and disclosed; the **hurdle calibration** is the real issue |
 | **Contingencies and litigation** | No material disclosed contingencies. The GAM episode drew a Swiss Takeover Board complaint but produced no known financial liability | **Green** |
 | **Cash flow quality** | High. Fee income converts to cash almost immediately; minimal working capital; negligible capex. Cash flow tracks adjusted earnings closely | **Green** |
 | **Receivables / inventory** | Immaterial by nature of the business model | **Green** |
@@ -1194,11 +1201,11 @@ Against that, the founding franchise is genuinely impaired, the revenue margin i
 
 ## 26 · Sources
 
-Primary company disclosure: Liontrust Asset Management PLC RNS announcements and results statements for FY2022–FY2026, the H1 FY2026 half-year report (20 Nov 2025), the FY2026 annual results (24 Jun 2026), the Q1 FY2027 trading statement (22 Jul 2026), TR-1 holdings notifications (Jul–Aug 2026), Director/PDMR shareholding notifications (Aug 2026), the River Global Holdings acquisition announcement (16 Mar 2026) and completion (30 Jun 2026), and the 2026 AGM notice.
+Primary company disclosure: Liontrust Asset Management PLC **Annual Report and Financial Statements 2026** (Remuneration Report, pages 107–134, audited sections as marked), filed at Companies House under company number 02954692; RNS announcements and results statements for FY2022–FY2026, the H1 FY2026 half-year report (20 Nov 2025), the FY2026 annual results (24 Jun 2026), the Q1 FY2027 trading statement (22 Jul 2026), TR-1 holdings notifications (Jul–Aug 2026), Director/PDMR shareholding notifications (Aug 2026), the River Global Holdings acquisition announcement (16 Mar 2026) and completion (30 Jun 2026), and the 2026 AGM notice.
 
 Third-party sources consulted: Money Marketing, Investment Week, Portfolio Adviser, Citywire, Funds Europe, Trustnet, The TRADE, Private Banker International, Investing.com, Reuters via TradingView, Morningstar/Alliance News, AJ Bell, Hargreaves Lansdown, Investegate, Stockopedia, StockAnalysis, MarketScreener, Simply Wall St, MarketBeat, Kalkine Media, QuotedData, the AIC, GlobeNewswire (GAM Holding AG releases of 23 Mar 2026 and 14 Jul 2026), CNBC, Spear's, Artemis.bm, Nuveen and Jupiter Asset Management corporate communications, Hedgeweek, City A.M., WealthBriefing, RankiaPro and the Investment Association.
 
-~ **Data caveats.** Figures were compiled from company announcements and secondary financial media accessible at the time of writing (30 August 2026); direct access to liontrust.com and primary PDF filings was not available from this environment. Peer market data, share prices and market capitalisations are indicative and should be refreshed against a live data terminal before use in a transaction context. Items marked "estimated by the analyst" — including the franchise and geographic revenue splits in §7.2, the adjusted EBITDA derivation in §12.1, and all forecast figures in §10, §21 and §23.8 — are the author's modelling, not company disclosure. Where sources conflicted (notably the reported one-day share price reaction to the FY2025 results, variously reported between -5% and -13%), both figures are shown. Board composition should be verified against the 2026 Annual Report and the September 2026 AGM notice.
+~ **Data caveats.** Sections 14 (management), 15 (board), 16 (register), and the remuneration and share-based payment items in 23.10 have been **restated on the audited FY2026 Annual Report and Financial Statements** (Remuneration Report, pages 107–134, signed 23 June 2026), as have the value-chain counterparties in section 6 and the M&A pipeline disclosure in section 13. The remaining financial and market data were compiled from company announcements and secondary financial media accessible at the time of writing; direct access to liontrust.com and the full primary PDF filings was not available from this environment. Peer market data, share prices and market capitalisations are indicative and should be refreshed against a live data terminal before use in a transaction context. Items marked "estimated by the analyst" — including the franchise and geographic revenue splits in §7.2, the adjusted EBITDA derivation in §12.1, and all forecast figures in §10, §21 and §23.8 — are the author's modelling, not company disclosure. Where sources conflicted (notably the reported one-day share price reaction to the FY2025 results, variously reported between -5% and -13%), both figures are shown. Board composition should be verified against the 2026 Annual Report and the September 2026 AGM notice.
 
 ## 27 · Disclaimer
 
