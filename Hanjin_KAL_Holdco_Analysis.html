@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Hanjin KAL (180640 KS) – Holding Company Analysis</title>
+<style>
+  @page { size: A4; margin: 16mm 14mm 16mm 14mm; }
+  html { font-size: 10.2pt; }
+  body { font-family: "Helvetica Neue", Helvetica, Arial, "Noto Sans", "Noto Sans CJK KR", sans-serif; color: #1a1a1a; line-height: 1.38; margin: 0; }
+  h1 { font-size: 21pt; margin: 0 0 4px 0; color: #0b2545; }
+  h2 { font-size: 14pt; color: #0b2545; border-bottom: 2px solid #0b2545; padding-bottom: 3px; margin: 22px 0 8px 0; page-break-after: avoid; }
+  h3 { font-size: 11.5pt; color: #13315c; margin: 14px 0 5px 0; page-break-after: avoid; }
+  h4 { font-size: 10.5pt; color: #13315c; margin: 10px 0 4px 0; page-break-after: avoid; }
+  p { margin: 5px 0 7px 0; }
+  ul, ol { margin: 4px 0 8px 0; padding-left: 20px; }
+  li { margin: 2px 0; }
+  table { border-collapse: collapse; width: 100%; margin: 6px 0 10px 0; font-size: 9pt; page-break-inside: auto; }
+  tr { page-break-inside: avoid; }
+  th, td { border: 1px solid #c8cfd8; padding: 3.5px 5px; vertical-align: top; }
+  th { background: #e6ecf4; color: #0b2545; text-align: left; font-weight: 600; }
+  td.num, th.num { text-align: right; white-space: nowrap; }
+  tr.total td { font-weight: 700; background: #f3f6fa; }
+  .cover { border: 1px solid #0b2545; padding: 14px 16px; margin-bottom: 14px; background: #f7f9fc; }
+  .meta { color: #444; font-size: 9.5pt; }
+  .kpi { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
+  .kpi div { flex: 1 1 100px; border: 1px solid #c8cfd8; padding: 6px 8px; background: #fff; }
+  .kpi .lab { font-size: 8pt; color: #555; text-transform: uppercase; letter-spacing: .3px; }
+  .kpi .val { font-size: 12.5pt; font-weight: 700; color: #0b2545; }
+  .box { border-left: 4px solid #0b2545; background: #f3f6fa; padding: 8px 12px; margin: 8px 0 10px 0; }
+  .warn { border-left: 4px solid #b23a48; background: #fbf1f2; padding: 8px 12px; margin: 8px 0 10px 0; }
+  .small { font-size: 8.5pt; color: #444; }
+  .pb { page-break-before: always; }
+  .src { font-size: 8pt; color: #555; }
+  .tag { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 8pt; font-weight: 700; color: #fff; }
+  .neg { background: #b23a48; } .pos { background: #2a7f62; } .neu { background: #6c757d; }
+  .two { display: flex; gap: 14px; }
+  .two > div { flex: 1; }
+  hr { border: 0; border-top: 1px solid #c8cfd8; margin: 10px 0; }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <h1>Hanjin KAL Corp. (180640 KS)</h1>
+  <div class="meta">Holding company of Hanjin Group (Korean Air, Hanjin Transportation) &nbsp;|&nbsp; KOSPI &nbsp;|&nbsp; Equity research – event-driven &amp; special situations &nbsp;|&nbsp; Report date: 10 September 2026</div>
+  <div class="kpi">
+    <div><div class="lab">Reference price (9 Sep 26 close)</div><div class="val">KRW 143,500</div></div>
+    <div><div class="lab">Market cap (common)</div><div class="val">KRW 9.58 tn</div></div>
+    <div><div class="lab">Base-case NAV / share</div><div class="val">KRW 51,000</div></div>
+    <div><div class="lab">Price / NAV</div><div class="val">2.8x (+181% premium)</div></div>
+    <div><div class="lab">Look-through P/E (2025A)</div><div class="val">~37x</div></div>
+    <div><div class="lab">Dividend yield (FY25 DPS 360)</div><div class="val">0.25%</div></div>
+  </div>
+  <p><b>Stance: Underweight / Avoid on fundamentals; trade the event, do not own the NAV.</b> Hanjin KAL is not a discounted holding company. It trades at roughly 2.8x the value of what it owns because two blocs (Chairman Cho Won-tae's camp and Hoban Group) are 0.42 percentage points apart on the register and the market is pricing an open-ended control auction. Our probability-weighted 12-month value is about KRW 105,000 (roughly 27% below the reference price), with a bull case of KRW 170,000 on a tender offer and a bear case of KRW 65,000 if the contest is settled without a bid. The cheaper expression of every fundamental thesis inside this group is Korean Air itself (003490 KS), which trades near 1.0x the value the market implicitly assigns to it through Hanjin KAL.</p>
+  <p class="small">All figures in KRW unless stated. bn = billion, tn = trillion. Data are compiled from company disclosures (KIND/DART summaries), Korea Investors Service (KIS) credit opinions, broker commentary and Korean/English press through 10 September 2026. Where a figure is our estimate it is marked (E) or (est.). Share prices: Hanjin KAL 143,500 (9 Sep close), Korean Air 29,800 (9 Sep close), Hanjin 14,740 (latest available). See Appendix for data caveats. This document is for discussion purposes and is not investment advice.</p>
+</div>
+
+<h2>1. Executive summary</h2>
+<ul>
+  <li><b>What it owns.</b> Two listed stakes, Korean Air 26.13% (about 96.2m shares, worth about KRW 2.87tn) and Hanjin Transportation 30.78% (about 4.6m shares, worth about KRW 68bn), plus a small unlisted portfolio (Jungseok Enterprise real estate 60.49%, KAL Hotel Network 100%, Topas Travel Information 94.35%, Hanjin Tourism 100%) that we value at roughly KRW 0.4 to 0.8tn. Holdco net debt is small after the January 2026 hotel disposal (we estimate KRW 50 to 100bn at end-March 2026, versus KRW 878bn at end-2021).</li>
+  <li><b>What it is worth.</b> Base-case NAV of about KRW 3.4tn, or KRW 51,000 per share. IM Securities' published NAV is KRW 2.65tn. The stock capitalises the company at KRW 9.58tn. Every KRW 1 of look-through Korean Air is being bought for about KRW 2.8.</li>
+  <li><b>Why it trades there.</b> Hoban Group has spent KRW 878bn since 2022 to accumulate 20.15% (average cost about KRW 65,300) and sits 0.42pp behind the Cho family bloc at 20.57%. Korea Development Bank's (KDB) 10.58% block, bought in 2020 to fund the Asiana rescue, is slated for sale after the integrated Korean Air launches on 17 December 2026. Japan Airlines bought an undisclosed stake below 5% on 4 September 2026 as a declared partner of Korean Air. The stock rose about 21% in the month to early September.</li>
+  <li><b>Why the premium is fragile.</b> Voting arithmetic favours the incumbent: Cho bloc 20.57% plus Delta 14.90%, KDB 10.58%, the employee welfare fund 0.66%, JAL (under 5%) and the Jungseok Inha Academy's in-progress purchase (+1.16pp) sum to roughly 48 to 50%. Hoban cannot win a proxy contest without KDB's block, and KDB has signalled a transparent competitive block sale, which Cho's allies can contest. A police raid on 7 September 2026 over the 2025 treasury-share contribution to the employee fund adds legal, not economic, risk.</li>
+  <li><b>What changed on 10 September 2026.</b> The second Commercial Act amendment took effect: cumulative voting is now mandatory for listed companies with assets of KRW 2tn or more and two audit committee members must be elected separately under the 3% voting cap. Hoban can now win board representation with 20% without buying another share. This is the strongest argument that the "buy-more" phase of the contest is ending, which removes the marginal bid that supports the premium.</li>
+  <li><b>Management's record on the discount</b> is mixed: real progress on de-leveraging (Jin Air sale, Waikiki hotel, Seosomun building, Grand Hyatt West Tower) and a formal 50% payout on adjusted separate earnings, but no buybacks, a rights issue to KDB in 2020, and a series of control-motivated uses of capital (treasury shares gifted to the employee fund, repurchase of Jungseok Enterprise shares, purchases of Hanjin shares, foundation buying of Hanjin KAL stock).</li>
+  <li><b>Activist angle.</b> There is no conventional "close the discount" campaign to run at 2.8x NAV. The live activist plays are governance and M&amp;A: board seats via cumulative voting and the separate audit-committee election (Hoban's four entities carry about 6.3% effective votes under the 3% cap versus 3% for the Cho bloc), scrutiny of related-party transactions, and pressure for a full pass-through of subsidiary dividends once the current dividend policy expires with FY2026. For a fund, the value-realisation trade is long Korean Air, not long Hanjin KAL.</li>
+</ul>
+
+<h2>2. Bull case: why the premium could hold or widen</h2>
+<ol>
+  <li><b>A live two-bidder situation with deep pockets on one side.</b> Hoban sits on about KRW 1.05tn of unrealised gains and has stated ambitions in aviation (it bid for Kumho Industrial, Asiana's parent, in 2015). Buying up to 24.9% would keep it below the tender-offer trigger while making it the largest single holder. The July 2026 purchase of 1.13m shares (at least KRW 120bn, over KRW 106,000 per share) shows willingness to pay well above NAV.</li>
+  <li><b>KDB's block is the fulcrum, and it will be sold.</b> KDB's 10.58% (about 7.06m shares, about KRW 1.0tn at market) is expected to be sold via a competitive block process from 2027. A competitive auction for a control-deciding block is the single most powerful catalyst for a premium to widen, and market participants have already flagged Hoban as the natural highest bidder.</li>
+  <li><b>The incumbent must respond with cash it does not have.</b> Chairman Cho holds 5.78% personally, much of it pledged (KDB holds a pledge over the full 5.78%; bank and broker loans funded inheritance tax instalments). The defence is being outsourced to a school foundation (Jungseok Inha Academy is buying 773,676 shares for KRW 102bn) and to airline partners (Delta, JAL). Each of these buyers is price-insensitive, which supports the tape.</li>
+  <li><b>Tender offer optionality.</b> Under Korean rules, a public tender offer is the only fast route to a decisive stake. Hoban at 20.15% plus a 15 to 20% tender at a 20 to 30% premium is financeable for a group with its cash position. The Korea Zinc precedent (2024-25) showed that Korean control contests can escalate to serial tender offers at multiples of intrinsic value.</li>
+  <li><b>Underlying NAV can grow.</b> Korean Air's integrated airline launches 17 December 2026; brokers (Mirae, Shinhan, KB) raised targets to KRW 36,000 to 37,000 in September 2026 on lower jet fuel and firm cargo yields. Every KRW 1,000 on Korean Air adds about KRW 96bn (KRW 1,440 per share) to Hanjin KAL's NAV.</li>
+  <li><b>Balance sheet is clean and dividend capacity is rising.</b> Holdco net debt has fallen from KRW 878bn (2021) to a low double-digit billion range after recovering KRW 230bn of loans from KAL Hotel Network in Q1 2026. Dividend income was KRW 88bn in 2025 and brand royalties about KRW 40bn. The 50% payout policy expires with FY2026 and must be re-set, giving management an easy lever to announce a higher payout during a control contest.</li>
+  <li><b>Governance reform is a tailwind for a minority-friendly settlement.</b> The 2025-26 Commercial Act amendments (directors' duty to shareholders, mandatory treasury share cancellation, mandatory cumulative voting) raise the cost of the historical defensive playbook and increase the chance that any resolution involves value being paid to all shareholders rather than to insiders.</li>
+</ol>
+
+<h2>3. Bear case: why the premium collapses or stays static without a bid</h2>
+<ol>
+  <li><b>The vote is not close; the register only looks close.</b> Cho bloc 20.57% plus Delta 14.90% plus KDB 10.58% plus welfare fund 0.66% plus JAL (under 5%) plus Jungseok Inha's incremental 1.16% gives the incumbent roughly 48 to 50% of the common. Hoban (20.15%) plus NPS (5.11%) plus the entire remaining float (about 25%) could not out-vote that even with perfect turnout. Both airline shareholders have publicly stated support for management.</li>
+  <li><b>KDB is unlikely to hand the block to a hostile bidder.</b> KDB's 2020 investment agreement gives it three board nominees and consent rights; its stated rationale for the exit is orderly completion of the airline consolidation. A transparent block sale is likely to be structured (size, timing, syndication to Delta/JAL/foundations) to avoid handing control to a construction group with no aviation licence experience. The market is pricing a coin-flip; the base rate for a state lender enabling a hostile change of control in a flag carrier is far lower.</li>
+  <li><b>Cumulative voting removes the reason to keep buying.</b> From today, Hoban can secure one board seat at the March 2027 AGM with its existing 20% (three outside directors' terms expire, including one separately elected audit committee seat under the 3% cap). Once board access is available at zero marginal cost, the marginal buyer disappears and the "premium for the next tranche" evaporates.</li>
+  <li><b>The premium is the largest of any Korean holdco and is supported by nothing else.</b> P/NAV 2.8x, P/B of roughly 3x, a 0.25% dividend yield and look-through P/E of about 37x versus a Korean holdco peer set that trades at 40 to 65% discounts to NAV. IM Securities called the July valuation "+240% versus NAV" and said the contest was already priced.</li>
+  <li><b>Fundamental NAV is under pressure in 2026.</b> Korean Air's Q2 2026 net loss of KRW 97bn (jet fuel above USD 210/bbl in March to April during the US-Iran conflict, FX losses of KRW 145bn) flowed through as an KRW 86bn consolidated net loss at Hanjin KAL in Q2. Consolidated net debt at Korean Air reached KRW 17.7tn at March 2026 with Asiana consolidated, and the merger will issue 20.34m new Korean Air shares, cutting Hanjin KAL's stake to 24.76%.</li>
+  <li><b>Legal overhang is now real.</b> The Seoul Metropolitan Police financial crimes unit raided Hanjin KAL on 7 September 2026 over the May 2025 contribution of 440,044 treasury shares (about KRW 66bn) to the employee welfare fund, alleging breach of trust (the fund became a special related party and its voting rights lifted Cho's reported stake). An indictment would not change control but would harden NPS and foreign votes against management and could invalidate the fund's alignment.</li>
+  <li><b>Capital allocation is control-first, shareholder-second.</b> Recent uses of cash: KRW 52bn to buy back Jungseok Enterprise shares from Korea Zinc, KRW 18bn for Hanjin shares, KRW 200bn lent to the loss-making hotel arm (since recovered), executive pay cap raised by KRW 12bn while the dividend stayed at KRW 360. None of this narrows the gap between price and value; it widens the governance discount that would apply once the control premium fades.</li>
+  <li><b>Exit liquidity is thin.</b> Free float is about 25 to 27% and shrinking (foundation and JAL purchases). Any de-escalation (Hoban reclassifying its holding, a settlement with a board seat, an agreed KDB placement) would see a crowded event-driven register exit into a market with no fundamental bid until roughly KRW 60,000 to 70,000.</li>
+</ol>
+
+<h2 class="pb">4. Listed holdings and recent changes</h2>
+<table>
+  <tr><th>Holding</th><th>Ticker</th><th class="num">Stake</th><th class="num">Shares held (m, approx.)</th><th class="num">Price (KRW)</th><th class="num">Market value (KRW bn)</th><th class="num">% of GAV (base)</th><th>Notes</th></tr>
+  <tr><td>Korean Air Lines</td><td>003490 KS</td><td class="num">26.13%</td><td class="num">96.2</td><td class="num">29,800</td><td class="num">2,867</td><td class="num">82%</td><td>Falls to 24.76% after the Asiana merger (20.34m new shares listed 4 Jan 2027). Share count held is unchanged, so KRW value of the stake is unaffected by the dilution itself.</td></tr>
+  <tr><td>Hanjin Transportation</td><td>002320 KS</td><td class="num">30.78%</td><td class="num">4.6</td><td class="num">14,740</td><td class="num">68</td><td class="num">2%</td><td>Raised from 24.16% on 14 Aug 2024 by buying GS Retail's 6.62% (989,317 shares at KRW 18,647, about KRW 18.4bn) via block trade.</td></tr>
+  <tr class="total"><td colspan="5">Listed portfolio</td><td class="num">2,935</td><td class="num">84%</td><td></td></tr>
+</table>
+<p class="small">Korean Air share count assumed at about 368.2m common before the merger; Hanjin at about 14.94m. Korean Air market cap about KRW 10.97tn at KRW 29,800.</p>
+
+<h3>4.1 Changes in the listed portfolio since 2022</h3>
+<table>
+  <tr><th>Date</th><th>Action</th><th>Detail</th><th>Assessment</th></tr>
+  <tr><td>Jun 2022</td><td>Sold 100% of its Jin Air stake (54.91%) to Korean Air</td><td>KRW 604.8bn; proceeds used to repay holdco borrowings and to vertically integrate the LCC under Korean Air.</td><td>Positive for holdco leverage; no NAV realisation for minorities (intra-group), and Hanjin KAL's exposure to Jin Air became indirect.</td></tr>
+  <tr><td>Aug 2024</td><td>Bought 6.62% of Hanjin from GS Retail</td><td>KRW 18.4bn at KRW 18,647 per share; stake to 30.78%.</td><td>Group-control motive (GS Retail had been a 2020 white knight). Small, but cash out for control rather than returns.</td></tr>
+  <tr><td>Aug 2026 (approved), Dec 2026 (effective)</td><td>Korean Air absorbs Asiana</td><td>Merger ratio 1 Korean Air : 0.2736432 Asiana; 20.34m new shares; Hanjin KAL diluted from 26.13% to 24.76%.</td><td>Stake remains above the 20% holding-company floor that Hanjin KAL is grandfathered at. Hanjin KAL has no disclosed plan to top up.</td></tr>
+  <tr><td>Aug-Dec 2026</td><td>Jungseok Inha Academy (foundation) sells its 0.70% Korean Air stake and buys Hanjin KAL</td><td>Sells 2.59m Korean Air shares (KRW 73.6bn); buys 773,676 Hanjin KAL shares for KRW 102.3bn (about KRW 132,000 per share); stake 1.90% to 3.06% by year-end.</td><td>Not a Hanjin KAL transaction, but it is the Cho bloc's most visible defensive purchase and is being made at about 2.6x NAV with a school foundation's money. Public-interest foundation regulators have been asked to review it.</td></tr>
+</table>
+
+<h3>4.2 Important news flow (2025 to September 2026)</h3>
+<table>
+  <tr><th>Date</th><th>Event</th><th>Why it matters</th></tr>
+  <tr><td>Mar 2025</td><td>Hoban raises stake to 18.46% (from 17.44%)</td><td>Gap to Cho bloc narrows to about 1.5pp; triggers the defensive treasury-share move.</td></tr>
+  <tr><td>15 May 2025</td><td>Hanjin KAL contributes 440,044 treasury shares (0.66%, about KRW 66.3bn; KRW 52.7bn expensed) to the employee welfare fund</td><td>Converts non-voting treasury stock into friendly votes; basis of the 2026 breach-of-trust complaint and police raid.</td></tr>
+  <tr><td>16 May 2025</td><td>Hanjin KAL exercises call option to repurchase 12.22% of Jungseok Enterprise from Korea Zinc for KRW 52.1bn; stake to 60.49%</td><td>Implies KRW 426bn for 100% of Jungseok; consolidates the family's real-estate vehicle inside the listed holdco.</td></tr>
+  <tr><td>23 Sep 2025 / 6 Jan 2026</td><td>KAL Hotel Network agrees, then completes, sale of Grand Hyatt Incheon West Tower to Paradise Segasammy for KRW 210bn</td><td>Hotel arm repays KRW 230bn of loans to Hanjin KAL in Q1 2026; holdco net debt collapses.</td></tr>
+  <tr><td>Feb 2026</td><td>FY2025 results: consolidated sales KRW 298.9bn, operating loss KRW 7.3bn, net profit KRW 150.2bn (2024: KRW 512.2bn incl. Waikiki gain); DPS held at KRW 360</td><td>Non-airline businesses are structurally weak; dividend is a policy number, not a cash-constrained one.</td></tr>
+  <tr><td>25 Feb 2026</td><td>2026 Corporate Value-up plan: PBR target raised to at least 1.3x (actual 2.5x at end-2025), payout about 50% of adjusted separate net income through FY2026, governance index compliance 80%+</td><td>Signals no buyback and no change to the dividend formula while the contest is live.</td></tr>
+  <tr><td>25 Feb / 6 Mar 2026</td><td>Third Commercial Act amendment passed and effective: treasury shares must be cancelled within one year (existing holdings: 6-month grace then one year)</td><td>Ends treasury stock as a defence tool for all Korean issuers.</td></tr>
+  <tr><td>18 Mar 2026</td><td>Hoban discloses 18.78%</td><td>Gap 1.78pp.</td></tr>
+  <tr><td>26 Mar 2026</td><td>AGM: Chairman Cho re-elected with 93.77% of votes cast; NPS (5.11%) votes against citing the Asiana due-diligence record and weak shareholder returns; Hoban votes in favour</td><td>Hoban chose not to escalate at the 2026 AGM, consistent with "simple investment" filings.</td></tr>
+  <tr><td>Q1 2026 (May)</td><td>Separate Q1: revenue KRW 100.2bn, operating profit KRW 89.9bn (dividends and royalties); consolidated Q1 net profit KRW 84.0bn</td><td>Holdco cash engine is intact; dividend income is front-loaded into Q1/Q2.</td></tr>
+  <tr><td>10 Jul 2026</td><td>Hoban crosses 20% (20.15%, 13,454,674 shares); gap 0.42pp; stock +6.9% to KRW 134,700 and to KRW 150,800 on NXT after hours</td><td>IM Securities: market cap about KRW 9tn versus NAV KRW 2.65tn; KDB block is "the key variable".</td></tr>
+  <tr><td>Q2 2026 (Aug)</td><td>Consolidated Q2: operating profit KRW 16.8bn, net loss KRW 85.7bn on equity-method losses (Korean Air Q2 net loss KRW 97bn on fuel and FX)</td><td>NAV growth argument weakened for 2026.</td></tr>
+  <tr><td>10-12 Aug 2026</td><td>Jungseok Inha Academy announces KRW 102bn Hanjin KAL purchase programme; Asiana shareholders and Korean Air board approve merger for 17 Dec 2026</td><td>Defensive buying moves off the holdco balance sheet and onto foundations.</td></tr>
+  <tr><td>13-25 Aug 2026</td><td>Board cancels residual treasury stock: 4 common and 6,469 preferred shares (book value KRW 54m)</td><td>Compliance with the new law; confirms treasury holdings are effectively nil.</td></tr>
+  <tr><td>2-3 Sep 2026</td><td>Cho Seung-yeon (formerly Cho Hyun-ah) puts her 4.59% of Jungseok Enterprise up for sale; press reports Cho Won-tae's side as a possible buyer</td><td>Another family-asset consolidation that could consume holdco cash; also removes a potential dissident from the family register.</td></tr>
+  <tr><td>3-5 Sep 2026</td><td>JAL and Korean Air sign a broad partnership (codeshare, MRO, SAF); JAL confirms it bought Hanjin KAL shares (size undisclosed, below the 5% reporting threshold)</td><td>Second airline white knight after Delta. Stock +21% over the month.</td></tr>
+  <tr><td>7 Sep 2026</td><td>Seoul police raid Hanjin KAL over the 2025 treasury-share contribution (breach of trust under the Aggravated Economic Crimes Act)</td><td>Legal risk to the CEO and chairman; potential challenge to the fund's votes.</td></tr>
+  <tr><td>8 Sep 2026</td><td>Mirae Asset raises Korean Air target price to KRW 37,000 (from 33,000)</td><td>NAV support from the opco.</td></tr>
+  <tr><td>10 Sep 2026</td><td>Second Commercial Act amendment effective: mandatory cumulative voting for listed companies with assets of KRW 2tn or more; two separately elected audit committee members under the 3% rule; applies to meetings convened from today</td><td>Hoban can win a seat at the March 2027 AGM without buying more stock. Companies are responding by shrinking boards and staggering terms.</td></tr>
+</table>
+
+<h2 class="pb">5. Shareholder register and control arithmetic</h2>
+<table>
+  <tr><th>Holder</th><th class="num">Stake (common)</th><th class="num">Shares (m, approx.)</th><th class="num">Value at 143,500 (KRW bn)</th><th>Cost basis / entry</th><th>Alignment</th></tr>
+  <tr><td>Cho Won-tae and special related parties</td><td class="num">20.57%</td><td class="num">13.73</td><td class="num">1,971</td><td>Cho Won-tae 5.78% (pledged to KDB; bank/broker loans for inheritance tax), Cho Hyun-min 5.73%, Lee Myung-hee 2.09%, Jungseok Inha Academy 1.90% (rising to 3.06%), Jungseok Logistics Foundation 0.95%, Ilwoo Foundation 0.14%, others. Reported as 31.14% when KDB is included as a party to the 2020 agreement.</td><td>Incumbent</td></tr>
+  <tr><td>Hoban Group (Hoban Construction 11.50%, Hoban Hotel &amp; Resort 8.34%, Hoban Industry 0.17%, Hoban 0.15%)</td><td class="num">20.15%</td><td class="num">13.45</td><td class="num">1,931</td><td>KRW 878bn total; KCGI block Mar 2022 at KRW 60,000 (KRW 564bn); average about KRW 65,300; July 2026 tranche at over KRW 106,000. Filed purpose: "simple investment".</td><td>Challenger (undeclared)</td></tr>
+  <tr><td>Delta Air Lines</td><td class="num">14.90%</td><td class="num">9.95</td><td class="num">1,427</td><td>Built from 2019; Aug 2022 bought 1.68% from Bando at KRW 62,500. Publicly backs management.</td><td>Incumbent ally</td></tr>
+  <tr><td>Korea Development Bank</td><td class="num">10.58%</td><td class="num">7.06</td><td class="num">1,014</td><td>Dec 2020 third-party allotment, KRW 500bn (about KRW 70,800 per share); KRW 300bn exchangeable bond already redeemed. Three board nominees, consent rights, pledge over Cho's 5.78%. Exit after integrated airline launch (2027 likely, competitive block sale).</td><td>Incumbent ally until sale</td></tr>
+  <tr><td>National Pension Service</td><td class="num">5.11%</td><td class="num">3.41</td><td class="num">490</td><td>Voted against Cho's re-election in March 2026.</td><td>Swing / governance-driven</td></tr>
+  <tr><td>Employee welfare fund</td><td class="num">0.66%</td><td class="num">0.44</td><td class="num">63</td><td>Treasury shares contributed May 2025; subject of police investigation.</td><td>Incumbent ally (contested)</td></tr>
+  <tr><td>Japan Airlines</td><td class="num">under 5% (est. 1 to 3%)</td><td class="num">n/d</td><td class="num">n/d</td><td>Bought early Sep 2026 alongside a strategic partnership; no 5% filing.</td><td>Incumbent ally</td></tr>
+  <tr><td>Free float (foreign, domestic institutions, retail)</td><td class="num">about 25 to 27%</td><td class="num">about 17</td><td class="num">about 2,400</td><td>Shrinking as foundations and JAL buy.</td><td>Price-setting</td></tr>
+  <tr class="total"><td>Total common shares</td><td class="num">100%</td><td class="num">66.76</td><td class="num">9,580</td><td colspan="2">66,762,279 common shares (July 2026). A small non-voting preferred line (18064K) trades at roughly a 75 to 80% discount to the common and is immaterial to NAV per share.</td></tr>
+</table>
+<div class="box">
+<b>Voting blocs (our tally).</b> Incumbent-aligned: 20.57 + 14.90 + 10.58 + 0.66 + JAL (1 to 3) + Jungseok Inha increment (1.16) = about 49 to 51%. Challenger: 20.15%. Uncommitted: NPS 5.11% and float about 25%. Hoban's only route to a majority is to acquire KDB's block and most of the float, or to launch a tender offer large enough to move Delta or the foundations. Neither is in Hoban's filings, and Hoban voted with management in March 2026.
+</div>
+
+<h2>6. Treasury shares</h2>
+<ul>
+  <li>Hanjin KAL held 440,044 common treasury shares (0.66%) until 15 May 2025, when the board contributed them to the in-house employee welfare fund. The transfer converted non-voting shares into votes exercisable by a fund whose trustees are appointed by management; it was booked as a KRW 52.7bn expense.</li>
+  <li>Residual holdings of 4 common shares and 6,469 preferred shares were cancelled on 25 August 2026 (board decision 13 August; book value KRW 54m).</li>
+  <li><b>Current treasury position: effectively zero.</b> Under the third Commercial Act amendment (effective 6 March 2026), any future repurchase must be cancelled within one year, so buybacks can no longer be used to build a defensive block. This is relevant to the activist case: a buyback would now be pure capital return, which management has never done.</li>
+  <li>Legal note: a citizens' group filed a criminal complaint in 2025 alleging that the contribution had "no recognisable necessity other than defending control"; the Seoul Metropolitan Police executed search warrants on 7 September 2026. Hanjin KAL says the contribution was for employee welfare.</li>
+</ul>
+
+<h2 class="pb">7. Unlisted holdings: description, valuation and operating metrics</h2>
+<p>The non-listed portfolio is small relative to Korean Air and has been a net consumer of holdco cash for most of the last decade. Disclosure for these private subsidiaries is limited to summary financials in the annual report and credit-agency notes; where full-year figures are unavailable we show the latest available data and mark gaps as n/a rather than interpolate.</p>
+
+<h3>7.1 Valuation summary (KRW bn, attributable to Hanjin KAL)</h3>
+<table>
+  <tr><th>Company</th><th class="num">Stake</th><th>Business</th><th>Valuation approach</th><th class="num">Low</th><th class="num">Base</th><th class="num">High</th></tr>
+  <tr><td>Jungseok Enterprise</td><td class="num">60.49%</td><td>Real estate holding and building management: Hanjin Building (Seoul, main and annex), Jungseok Building (Incheon), Dosan 150 office building (Gangnam, bought Mar 2025 for KRW 153bn). Rental income about KRW 24.5bn (2023); 9M24 operating profit KRW 10.7bn.</td><td>Low = May 2025 call-option price (KRW 52.1bn for 12.22%, i.e. KRW 426bn for 100%). Base/high = appraisal-based NAV of the property book (Seoul CBD and Gangnam prime offices at market cap rates), which we put at KRW 550 to 700bn for 100%.</td><td class="num">258</td><td class="num">330</td><td class="num">420</td></tr>
+  <tr><td>KAL Hotel Network</td><td class="num">100%</td><td>Grand Hyatt Incheon (East Tower retained after the KRW 210bn West Tower sale), Seogwipo KAL Hotel, closed Jeju KAL Hotel site (sale at KRW 95bn to Jeju Dream PFV collapsed; litigation over the deposit). Paid-in capital KRW 128.2bn; operating losses 2015-2022; marginal profit 2023-24; net loss 2022 KRW 17.1bn, 2023 KRW 17.7bn, 2024 net profit KRW 0.4bn.</td><td>Residual real-estate value net of remaining bank debt after the West Tower sale and repayment of KRW 230bn to Hanjin KAL. Assumes the Jeju site is worth KRW 60 to 90bn and the East Tower plus Seogwipo KRW 200 to 280bn against residual debt of KRW 150 to 200bn.</td><td class="num">80</td><td class="num">150</td><td class="num">250</td></tr>
+  <tr><td>Topas Travel Information</td><td class="num">94.35%</td><td>Korea's Amadeus-based global distribution system (GDS) JV, originally set up by Korean Air and Amadeus in 1999. Sales KRW 27.9bn (2023), KRW 33.2bn (2024); operating profit KRW 8.1bn (2023) then an operating loss of KRW 0.9bn (2024). Paid KRW 3bn dividend to Hanjin KAL in 2025.</td><td>8 to 12x normalised EBIT of KRW 4 to 6bn, cross-checked against dividend capacity.</td><td class="num">30</td><td class="num">45</td><td class="num">70</td></tr>
+  <tr><td>Hanjin Tourism (KALPAK)</td><td class="num">100%</td><td>Premium package tour operator; sales collapsed to KRW 7bn in 2020-22 and recovered to KRW 41.9bn in 2023 with operating profit KRW 1.3bn.</td><td>0.3 to 0.5x sales; thin margins, brand tied to Korean Air.</td><td class="num">5</td><td class="num">12</td><td class="num">20</td></tr>
+  <tr><td>Other (Jedong Leisure, minor investments, holdco financial assets)</td><td class="num">various</td><td>Small leisure and financial assets.</td><td>Book value.</td><td class="num">10</td><td class="num">10</td><td class="num">10</td></tr>
+  <tr class="total"><td colspan="4">Unlisted portfolio, attributable</td><td class="num">383</td><td class="num">547</td><td class="num">770</td></tr>
+  <tr><td colspan="4" class="small">Memo: brand royalty stream (about KRW 40bn per year from Korean Air and other affiliates, 2024 actual KRW 40.3bn). Not an asset that can be sold separately; we exclude it from base NAV and show it as an upside adjustment of KRW 200 to 250bn (after-tax royalties capitalised at about 8x) in the high case.</td><td class="num">0</td><td class="num">0</td><td class="num">230</td></tr>
+</table>
+<p class="small">Waikiki Resort Hotel (Honolulu) was sold in April 2024 to Sono International for USD 101m (about KRW 139.6bn); its gain is the main reason 2024 consolidated net profit was KRW 512bn. Jin Air was sold to Korean Air in 2022 and is no longer a direct holding.</p>
+
+<h3>7.2 Operating metrics of the unlisted companies (KRW bn)</h3>
+<p class="small">Sources: Hanjin KAL annual report summaries, KIS credit opinions (Oct 2025, May 2026), company registry data (Saramin, Catch, JobKorea), The Bell, Newsway, EKN. EBITDA is our estimate (E) where depreciation is not disclosed; KAL Hotel Network carries about KRW 15 to 20bn of annual depreciation and KRW 18bn of financial costs (2023). Growth is year-on-year sales growth. n/a = not disclosed in accessible sources.</p>
+
+<h4>KAL Hotel Network (100%)</h4>
+<table>
+  <tr><th></th><th class="num">2021</th><th class="num">2022</th><th class="num">2023</th><th class="num">2024</th><th class="num">2025</th></tr>
+  <tr><td>Sales</td><td class="num">n/a</td><td class="num">n/a</td><td class="num">about 105 (E)</td><td class="num">113.5</td><td class="num">119.8</td></tr>
+  <tr><td>Operating profit (EBIT)</td><td class="num">loss</td><td class="num">loss</td><td class="num">0.7</td><td class="num">about 5 (9M: 4.8)</td><td class="num">n/a (weaker: ADR down 10 to 15%)</td></tr>
+  <tr><td>EBITDA (E)</td><td class="num">n/a</td><td class="num">n/a</td><td class="num">about 18</td><td class="num">about 22</td><td class="num">n/a</td></tr>
+  <tr><td>EBIT margin</td><td class="num">negative</td><td class="num">negative</td><td class="num">0.7%</td><td class="num">about 4%</td><td class="num">n/a</td></tr>
+  <tr><td>Net profit</td><td class="num">loss</td><td class="num">-17.1</td><td class="num">-17.7</td><td class="num">+0.4</td><td class="num">n/a</td></tr>
+  <tr><td>Sales growth</td><td class="num">n/a</td><td class="num">n/a</td><td class="num">n/a</td><td class="num">about +8%</td><td class="num">+5.5%</td></tr>
+  <tr><td>Comment</td><td colspan="5">Eight consecutive years of operating losses to 2022. Jeju KAL Hotel closed in 2022. Grand Hyatt Incheon ADR fell from KRW 203,205 to 172,123 and Seogwipo from KRW 162,201 to 143,209 in 2025. The West Tower sale (KRW 210bn, closed 6 Jan 2026) was used to repay bank debt and the KRW 230bn owed to Hanjin KAL. Debt-to-equity exceeded 150% at end-2023.</td></tr>
+</table>
+
+<h4>Jungseok Enterprise (60.49%; 48.27% before May 2025)</h4>
+<table>
+  <tr><th></th><th class="num">2021</th><th class="num">2022</th><th class="num">2023</th><th class="num">2024</th><th class="num">2025</th></tr>
+  <tr><td>Sales (rental and building management)</td><td class="num">n/a</td><td class="num">about 40 (E)</td><td class="num">41.3 (investment property revenue)</td><td class="num">42.6</td><td class="num">n/a (Dosan 150 adds rent from Q2)</td></tr>
+  <tr><td>of which rental income</td><td class="num">about 20+</td><td class="num">about 20+</td><td class="num">24.5</td><td class="num">n/a</td><td class="num">n/a</td></tr>
+  <tr><td>Operating profit (EBIT)</td><td class="num">n/a</td><td class="num">n/a</td><td class="num">n/a</td><td class="num">about 14 (9M: 10.7)</td><td class="num">n/a</td></tr>
+  <tr><td>EBITDA (E)</td><td class="num">n/a</td><td class="num">n/a</td><td class="num">n/a</td><td class="num">about 22</td><td class="num">n/a</td></tr>
+  <tr><td>EBIT margin</td><td class="num">n/a</td><td class="num">n/a</td><td class="num">n/a</td><td class="num">about 33%</td><td class="num">n/a</td></tr>
+  <tr><td>Net profit</td><td class="num">n/a</td><td class="num">n/a</td><td class="num">n/a</td><td class="num">9M: 35.8 (includes dividend and disposal income)</td><td class="num">n/a</td></tr>
+  <tr><td>Dividend paid to all holders</td><td class="num">n/a</td><td class="num">about 8 (KRW 7,500/share)</td><td class="num">about 8 (KRW 7,500/share)</td><td class="num">n/a</td><td class="num">Hanjin KAL received 10.0</td></tr>
+  <tr><td>Comment</td><td colspan="5">Steady cash generator described in the Korean press as the group's "hidden weapon". Owns the Seoul HQ real estate. Other holders: Cho Won-tae 3.83%, Cho Seung-yeon 4.59% (now for sale), Lee Tae-hee 8.06%, Jungseok Logistics Foundation 10%. Bought the Dosan 150 building for KRW 153bn (closing 31 Mar 2025), a sign that the family vehicle is expanding rather than being monetised.</td></tr>
+</table>
+
+<h4>Topas Travel Information (94.35%)</h4>
+<table>
+  <tr><th></th><th class="num">2021</th><th class="num">2022</th><th class="num">2023</th><th class="num">2024</th><th class="num">2025</th></tr>
+  <tr><td>Sales</td><td class="num">n/a</td><td class="num">17.5</td><td class="num">27.9</td><td class="num">33.2</td><td class="num">n/a</td></tr>
+  <tr><td>Operating profit (EBIT)</td><td class="num">n/a</td><td class="num">n/a</td><td class="num">8.1</td><td class="num">-0.9</td><td class="num">n/a</td></tr>
+  <tr><td>EBITDA (E)</td><td class="num">n/a</td><td class="num">n/a</td><td class="num">about 10</td><td class="num">about 1.5</td><td class="num">n/a</td></tr>
+  <tr><td>EBIT margin</td><td class="num">n/a</td><td class="num">n/a</td><td class="num">29%</td><td class="num">-2.6%</td><td class="num">n/a</td></tr>
+  <tr><td>Net profit</td><td class="num">n/a</td><td class="num">n/a</td><td class="num">n/a</td><td class="num">-0.6</td><td class="num">n/a</td></tr>
+  <tr><td>Sales growth</td><td class="num">n/a</td><td class="num">n/a</td><td class="num">+59.1%</td><td class="num">+19%</td><td class="num">n/a</td></tr>
+  <tr><td>Comment</td><td colspan="5">Post-pandemic volume recovery drove 2023; 2024 swung to a small loss despite higher revenue (system and content costs). Paid KRW 3bn to Hanjin KAL in 2025. Strategic value is as Korean Air's distribution plumbing rather than as a standalone asset.</td></tr>
+</table>
+
+<h4>Hanjin Tourism (100%)</h4>
+<table>
+  <tr><th></th><th class="num">2019</th><th class="num">2020</th><th class="num">2021</th><th class="num">2022</th><th class="num">2023</th><th class="num">2024-25</th></tr>
+  <tr><td>Sales</td><td class="num">49.4</td><td class="num">7.3</td><td class="num">n/a (near-zero outbound)</td><td class="num">6.6</td><td class="num">41.9</td><td class="num">n/a</td></tr>
+  <tr><td>Operating profit (EBIT)</td><td class="num">n/a</td><td class="num">loss</td><td class="num">loss</td><td class="num">loss</td><td class="num">1.3</td><td class="num">n/a</td></tr>
+  <tr><td>EBIT margin</td><td class="num">n/a</td><td class="num">negative</td><td class="num">negative</td><td class="num">negative</td><td class="num">3.0%</td><td class="num">n/a</td></tr>
+  <tr><td>Sales growth</td><td class="num">-9%</td><td class="num">-85%</td><td class="num">n/a</td><td class="num">n/a</td><td class="num">+539%</td><td class="num">n/a</td></tr>
+  <tr><td>Comment</td><td colspan="6">Sub-scale package operator; immaterial to NAV.</td></tr>
+</table>
+
+<h2 class="pb">8. Holding-company balance sheet: non-consolidated net debt</h2>
+<p>Hanjin KAL's consolidated accounts equity-account Korean Air and Hanjin (neither is consolidated), and fully consolidate the hotel, real estate, GDS and travel subsidiaries. The figures below strip out the consolidated subsidiaries and show the parent's own (separate) position, which is what matters for dividend capacity and for NAV.</p>
+<table>
+  <tr><th>Separate (parent-only) net debt, KRW bn</th><th class="num">Dec 2021</th><th class="num">Dec 2024</th><th class="num">Jun 2025</th><th class="num">Mar 2026 (E)</th></tr>
+  <tr><td>Net debt (borrowings and bonds less cash and equivalents)</td><td class="num">877.8</td><td class="num">83.4</td><td class="num">307.2</td><td class="num">about 50 to 100</td></tr>
+  <tr><td>Debt dependence (borrowings / total assets)</td><td class="num">high</td><td class="num">low single digits</td><td class="num">17.2%</td><td class="num">about 10% (E)</td></tr>
+  <tr><td>Drivers</td><td>Post-2020 rights issue and Asiana-related funding</td><td>Jin Air sale (2022, KRW 605bn), Seosomun building sale (2023), Waikiki hotel sale (2024, KRW 140bn), dividends received</td><td>KRW 250bn of loans to KAL Hotel Network (KRW 200bn in H1 2025 plus KRW 50bn earlier), KRW 52bn Jungseok call option</td><td>Recovery of KRW 230bn from KAL Hotel Network after the West Tower sale; Korean Air dividend of KRW 72bn received; FY25 dividend paid KRW 24bn</td></tr>
+</table>
+<p class="small">The end-March 2026 figure is our estimate built from the June 2025 disclosed figure and subsequent disclosed cash movements; KIS's May 2026 opinion confirms that the loan recovery produced a cash surplus in Q1 2026 and that the debt burden "eased". Consolidated net debt including the hotel arm was higher through 2025 and has also fallen after the disposal. Korean Air's consolidated net debt (KRW 17.7tn at March 2026) is not Hanjin KAL debt and is excluded.</p>
+
+<h3>8.1 Holdco cash engine (separate basis, KRW bn)</h3>
+<table>
+  <tr><th>Item</th><th class="num">2024</th><th class="num">2025</th><th class="num">2026 run-rate (E)</th><th>Comment</th></tr>
+  <tr><td>Dividend income</td><td class="num">about 85</td><td class="num">88.0</td><td class="num">about 90</td><td>2025: Korean Air 72.2 (DPS 750 x 96.2m shares), Hanjin 2.8, Jungseok 10.0, Topas 3.0.</td></tr>
+  <tr><td>Brand royalties</td><td class="num">40.3</td><td class="num">about 40</td><td class="num">about 42</td><td>Mainly Korean Air; grows with integrated airline revenue.</td></tr>
+  <tr><td>Operating and interest costs</td><td class="num">about -35 to -40</td><td class="num">about -40 (incl. one-offs)</td><td class="num">about -30</td><td>Interest falls with lower debt; 2025 included the KRW 52.7bn treasury contribution expense (non-cash).</td></tr>
+  <tr><td>Recurring pre-tax cash earnings</td><td class="num">about 90</td><td class="num">about 90</td><td class="num">about 100</td><td>Q1 2026 separate operating profit was KRW 89.9bn (dividends booked in Q1).</td></tr>
+  <tr><td>Dividend paid (common)</td><td class="num">24.1 (DPS 360)</td><td class="num">24.2 (DPS 360)</td><td class="num">24 to 30</td><td>Policy: about 50% of adjusted separate net income; 2022 DPS 170, 2023 about 300, 2024 360, 2025 360.</td></tr>
+</table>
+<div class="box"><b>Read-across:</b> Hanjin KAL retains roughly 70% of the cash it receives from its subsidiaries. Since 2022 that retention has funded control-related purchases (Hanjin shares, Jungseok Enterprise, loans to the hotel arm) rather than returns. A full pass-through of dividend income and royalties would support a DPS of about KRW 1,200 to 1,300 (0.9% yield at the current price, 2.5% at NAV).</div>
+
+<h2 class="pb">9. NAV and valuation</h2>
+<h3>9.1 Sum of the parts (base case)</h3>
+<table>
+  <tr><th>Component</th><th class="num">KRW bn</th><th class="num">Per share (KRW)</th><th class="num">% of GAV</th><th>Basis</th></tr>
+  <tr><td>Korean Air 26.13%</td><td class="num">2,867</td><td class="num">42,900</td><td class="num">82%</td><td>96.2m shares at KRW 29,800</td></tr>
+  <tr><td>Hanjin 30.78%</td><td class="num">68</td><td class="num">1,000</td><td class="num">2%</td><td>4.6m shares at KRW 14,740</td></tr>
+  <tr><td>Jungseok Enterprise 60.49%</td><td class="num">330</td><td class="num">4,900</td><td class="num">9%</td><td>Property NAV, see 7.1</td></tr>
+  <tr><td>KAL Hotel Network 100%</td><td class="num">150</td><td class="num">2,200</td><td class="num">4%</td><td>Residual property less debt</td></tr>
+  <tr><td>Topas 94.35%</td><td class="num">45</td><td class="num">700</td><td class="num">1%</td><td>Earnings multiple</td></tr>
+  <tr><td>Hanjin Tourism, other</td><td class="num">22</td><td class="num">300</td><td class="num">1%</td><td>Book / sales multiple</td></tr>
+  <tr class="total"><td>Gross asset value</td><td class="num">3,482</td><td class="num">52,200</td><td class="num">100%</td><td></td></tr>
+  <tr><td>Less: holdco net debt (E)</td><td class="num">-75</td><td class="num">-1,100</td><td></td><td>Mid-point of KRW 50 to 100bn</td></tr>
+  <tr class="total"><td>Net asset value</td><td class="num">3,407</td><td class="num">51,000</td><td></td><td>66.76m shares</td></tr>
+  <tr><td>Market capitalisation at KRW 143,500</td><td class="num">9,580</td><td class="num">143,500</td><td></td><td></td></tr>
+  <tr class="total"><td>Premium to NAV / Price-to-NAV</td><td class="num">+181%</td><td class="num">2.81x</td><td></td><td>IM Securities (10 Jul 2026): NAV KRW 2,645bn, premium about 240%</td></tr>
+</table>
+<table>
+  <tr><th>NAV scenarios (KRW per share)</th><th class="num">Low</th><th class="num">Base</th><th class="num">High</th></tr>
+  <tr><td>Unlisted portfolio (KRW bn)</td><td class="num">383</td><td class="num">547</td><td class="num">770 + 230 royalty capitalisation</td></tr>
+  <tr><td>Net debt (KRW bn)</td><td class="num">-100</td><td class="num">-75</td><td class="num">-50</td></tr>
+  <tr><td>NAV per share at Korean Air KRW 29,800</td><td class="num">48,200</td><td class="num">51,000</td><td class="num">58,200</td></tr>
+  <tr><td>NAV per share at Korean Air KRW 37,000 (top broker target)</td><td class="num">58,600</td><td class="num">61,400</td><td class="num">68,600</td></tr>
+  <tr><td>Implied P/NAV at KRW 143,500</td><td class="num">3.0x</td><td class="num">2.8x</td><td class="num">2.1x to 2.5x</td></tr>
+</table>
+
+<h3>9.2 Other valuation lenses</h3>
+<table>
+  <tr><th>Metric</th><th class="num">Hanjin KAL</th><th class="num">Korean Air</th><th>Comment</th></tr>
+  <tr><td>Price / book (2025 year-end book, disclosed PBR 2.5x at end-2025)</td><td class="num">about 3.2x</td><td class="num">about 1.0x</td><td>Hanjin KAL's book is mostly the equity-accounted Korean Air stake.</td></tr>
+  <tr><td>Look-through P/E on 2025 earnings</td><td class="num">about 37x</td><td class="num">11.4x</td><td>Hanjin KAL share of Korean Air 2025 net profit (KRW 965bn x 26.13% = KRW 252bn) plus Hanjin and unlisted, less holdco costs: about KRW 257bn.</td></tr>
+  <tr><td>Dividend yield</td><td class="num">0.25%</td><td class="num">2.5%</td><td>DPS 360 versus 750.</td></tr>
+  <tr><td>Implied value of 100% of Korean Air if Hanjin KAL's market cap were all attributable to the stake</td><td class="num">KRW 36tn</td><td class="num">KRW 11tn actual</td><td>The market pays 3.3x through the holdco what it pays directly.</td></tr>
+  <tr><td>Korean listed holdco peers (LG, SK, Hanwha, Doosan, CJ, GS)</td><td class="num">40 to 65% discount to NAV</td><td></td><td>Hanjin KAL is the only large Korean holdco at a premium.</td></tr>
+</table>
+<div class="warn"><b>Is the valuation too high?</b> On every fundamental measure, yes. The stock is a call option on a control transaction, with about KRW 6.2tn of the KRW 9.6tn market cap (roughly 65%) representing option value over base NAV. For that option to pay out, someone must be willing to pay more than KRW 143,500 for the marginal share, which means paying about 2.8x for a 26% (soon 24.8%) minority stake in an airline that is itself fairly valued. Only a bidder who values control of Korean Air's KRW 11tn equity at a price close to KRW 36tn would do so rationally. Hoban's incremental purchases at KRW 106,000 or more show that "rational" is not the constraint in the short run; the constraint is whether the contest can actually be won, and the register says it cannot without KDB.</div>
+
+<h3>9.3 Scenario framework (12 months)</h3>
+<table>
+  <tr><th>Scenario</th><th class="num">Probability</th><th class="num">Value (KRW)</th><th>Path</th></tr>
+  <tr><td><b>Bull: escalation</b></td><td class="num">25%</td><td class="num">170,000</td><td>Hoban changes its filed purpose to "management participation", launches a tender offer for 10 to 20% at a 20 to 30% premium, or wins the KDB block in a competitive sale in 2027. Cho side responds with airline/foundation buying. Premium stays at 3x or more.</td></tr>
+  <tr><td><b>Base: stalemate resolved by governance, not by cash</b></td><td class="num">45%</td><td class="num">95,000</td><td>Hoban uses cumulative voting to take a board seat in March 2027; KDB places its block with a syndicate of friendly holders (Delta, JAL, foundations, financial investors) at a modest premium; Hoban stays as a large minority. Premium compresses toward 80 to 100% over NAV as the marginal bid fades. Police case drags on.</td></tr>
+  <tr><td><b>Bear: de-escalation</b></td><td class="num">30%</td><td class="num">65,000</td><td>Hoban and the Cho family reach an accommodation (board seat plus asset co-operation, or a partial sale of Hoban's block to Delta/JAL at a private premium), or a court finding on the treasury contribution forces an orderly settlement. Event-driven holders exit into a float with no fundamental support above about 1.3x NAV.</td></tr>
+  <tr class="total"><td>Probability-weighted value</td><td class="num">100%</td><td class="num">about 105,000</td><td>About 27% below the reference price. Risk-reward is negative for longs; for shorts the tail (tender offer) is fat and the borrow is likely to be expensive and callable.</td></tr>
+</table>
+
+<h2 class="pb">10. Management's historical actions on the discount (and on control)</h2>
+<table>
+  <tr><th>Year</th><th>Action</th><th>Effect on value / discount</th><th>Assessment</th></tr>
+  <tr><td>2013</td><td>Spun out of Korean Air as the group holdco</td><td>Created the structure; from inception the stock traded on control rather than on NAV.</td><td><span class="tag neu">Neutral</span></td></tr>
+  <tr><td>2018-2021</td><td>KCGI (activist fund) builds 9% to 17%, demands asset sales, higher dividends and board seats; allies with Cho Hyun-ah and Bando (45% bloc in 2020)</td><td>Forced the first formal dividend policy (2019: about 50% of adjusted separate net income), asset-sale programme and outside-director refresh. Cho side survived via KDB's dilutive placement.</td><td><span class="tag pos">Positive (externally imposed)</span></td></tr>
+  <tr><td>Dec 2020</td><td>Third-party allotment of KRW 500bn to KDB (plus KRW 300bn exchangeable bond) at about KRW 70,800 to fund the Asiana acquisition</td><td>Diluted all holders by about 10.6%; entrenched management with a state ally; sole large primary issuance in the company's history.</td><td><span class="tag neg">Negative for minorities</span></td></tr>
+  <tr><td>2021</td><td>Family sells Jungseok Enterprise shares to a Korea Zinc vehicle with a call option</td><td>Raised family cash for inheritance tax; no holdco impact until 2025.</td><td><span class="tag neu">Neutral</span></td></tr>
+  <tr><td>Jun 2022</td><td>Sold Jin Air stake to Korean Air for KRW 605bn</td><td>Cut holdco net debt sharply; simplified structure.</td><td><span class="tag pos">Positive (leverage)</span></td></tr>
+  <tr><td>2022-2025</td><td>DPS raised from 170 to 300 to 360; payout about 50% of adjusted separate net income; 2026 value-up plan raises PBR target to 1.3x</td><td>Dividend growth is real but starts from a very low base; yield remains 0.25%.</td><td><span class="tag pos">Modestly positive</span></td></tr>
+  <tr><td>2023-2026</td><td>Non-core disposals: Seosomun building (2023), Waikiki Resort Hotel (2024, KRW 140bn), Grand Hyatt Incheon West Tower (2026, KRW 210bn); Jeju KAL Hotel closed (2022), sale attempt failed</td><td>Net debt from KRW 878bn to well under KRW 100bn. No proceeds returned to shareholders.</td><td><span class="tag pos">Positive (leverage), neutral (returns)</span></td></tr>
+  <tr><td>Aug 2024</td><td>Bought 6.62% of Hanjin from GS Retail (KRW 18bn)</td><td>Increases holdco exposure to a low-return logistics business; control motive.</td><td><span class="tag neg">Negative</span></td></tr>
+  <tr><td>May 2025</td><td>Treasury shares (0.66%, about KRW 66bn) contributed to the employee welfare fund</td><td>Removed the option to cancel or sell the shares; expensed KRW 52.7bn; now under criminal investigation.</td><td><span class="tag neg">Negative</span></td></tr>
+  <tr><td>May 2025</td><td>Exercised call option on 12.22% of Jungseok Enterprise (KRW 52bn)</td><td>Adds real estate to the holdco at a fair-looking price, but it is cash spent to consolidate a family vehicle rather than to return capital.</td><td><span class="tag neu">Neutral to negative</span></td></tr>
+  <tr><td>2025-2026</td><td>Executive remuneration cap raised by KRW 12bn; dividend held at KRW 360 despite the value-up plan</td><td>Optics during a control contest; NPS cited weak returns when opposing the chairman's re-election.</td><td><span class="tag neg">Negative</span></td></tr>
+  <tr><td>Aug 2026</td><td>Cancelled 6,473 residual treasury shares</td><td>Immaterial; legally required.</td><td><span class="tag neu">Neutral</span></td></tr>
+  <tr><td>Never</td><td>Open-market buyback; special dividend; holdco-opco merger; sale of a listed stake to third parties</td><td>None of the standard discount-narrowing tools has been used. The company has never needed them because the stock has traded above NAV since Hoban arrived.</td><td><span class="tag neg">Gap</span></td></tr>
+</table>
+
+<h2>11. Pre-mortem: it is September 2028 and the stock is at KRW 60,000. What happened?</h2>
+<ol>
+  <li><b>KDB sold to the incumbent's syndicate.</b> The 2027 block sale ran as a competitive process, but the block was split and placed with Delta, JAL, a domestic financial investor and the group foundations at a price only slightly above market. Hoban bid but was not awarded the whole block; the "coin-flip" became a certainty and the premium had nothing left to price.</li>
+  <li><b>Cumulative voting satisfied Hoban.</b> Hoban took one outside-director seat at the March 2027 AGM using its 20% and then reclassified its holding as "management participation" only to protect that seat. Board access reduced its need to own more stock; it began to sell down after the integrated airline's first results.</li>
+  <li><b>The treasury-share case ended in an indictment, then a settlement.</b> The court did not unwind the contribution, but the fund's votes were frozen pending appeal. The reputational damage cost management the NPS vote and prompted a governance settlement (an independent chair, an audit committee majority not aligned with either bloc) that made a hostile bid pointless.</li>
+  <li><b>NAV fell while the premium collapsed.</b> The integrated Korean Air carried KRW 18tn of net debt into a softer cargo cycle; jet fuel stayed volatile; 2027 earnings disappointed against the "merger synergy" narrative, and Korean Air de-rated to KRW 24,000. Hanjin KAL's NAV per share fell to about KRW 45,000; at 1.3x NAV the stock was KRW 60,000.</li>
+  <li><b>The family's liquidity needs surfaced.</b> Cho Seung-yeon's Jungseok stake was bought by the holdco; the foundation purchases were challenged by the education ministry; margin calls on the chairman's pledged shares forced a small sale. None of it changed control; all of it reminded investors who the capital was being allocated for.</li>
+  <li><b>Index and flow effects.</b> As the float shrank below 25% and turnover fell, index weights were cut. Event-driven funds that had crowded into the name on the JAL headline sold into an air pocket.</li>
+</ol>
+<p><b>Early-warning indicators for this path:</b> Hoban's 5% filing stays "simple investment" past the January 2027 AGM notice deadline; KDB announces a syndicated rather than single-buyer process; Delta/JAL increase stakes; Hanjin KAL board shrinks or staggers terms ahead of the AGM; a court or prosecution decision on the welfare-fund shares.</p>
+
+<h2 class="pb">12. Contrarian view: what the market is refusing to see</h2>
+<ol>
+  <li><b>The contest has already been decided by the register, not by the tape.</b> Consensus treats 20.57% versus 20.15% as a dead heat. It is not; the relevant comparison is about 49% versus 20% once allies are counted, and Hoban knows it (it voted for Cho in March 2026). The price is discounting a fight that the challenger has shown no sign of starting.</li>
+  <li><b>Governance reform is bearish for the premium, not bullish.</b> The consensus narrative is that the Commercial Act amendments help challengers. They do, but at the level of board seats, not control. When a 20% holder can obtain representation for free (mandatory cumulative voting from 10 September 2026, separate audit-committee election under the 3% cap where Hoban's four entities carry more effective votes than the entire Cho bloc), the economic rationale for paying 2.8x NAV for additional shares disappears. Reform converts a stock-accumulation contest into a boardroom contest.</li>
+  <li><b>The person with the strongest incentive to transact is the chairman, not Hoban.</b> Cho Won-tae's personal position is illiquid (5.78%, pledged, inheritance-tax loans, interest costs consuming pay and dividends) and the defence depends on other people's balance sheets. A negotiated outcome that monetises part of the family's position at a premium to friendly parties (airline partners or a financial investor) is more plausible than a hostile takeover, and such an outcome would be executed off-market, leaving minorities with a stock that returns to NAV.</li>
+  <li><b>The cheap way to own every "bull" argument is Korean Air.</b> Merger synergies, fuel relief, cargo strength, the value-up 30% payout and JAL/Delta partnerships all accrue to Korean Air at about 11x earnings and 1.0x book. Hanjin KAL offers the same exposure at 2.8x. A long Korean Air / short Hanjin KAL pair captures the premium compression with limited fundamental risk; the residual risk is a tender offer, which can be sized against (Hoban would need roughly KRW 1.5 to 2.5tn of cash at current prices for a decisive tender).</li>
+  <li><b>The preferred shares are the sleeper.</b> The non-voting preferred (18064K) trades at a 75 to 80% discount to the common and fell about 34% in the year to May 2026 while the common rallied, because it has no control value. Anyone who believes the NAV thesis but not the control thesis has a cheaper instrument; anyone who believes the control thesis has a clean hedge (long common / short preferred is the crowded trade; the unwind runs the other way).</li>
+  <li><b>What could make the contrarian wrong.</b> A decision by KDB to sell the entire 10.58% to a single highest bidder (which would be Hoban), or a Hoban tender offer before the March 2027 AGM. Both would be visible in filings weeks ahead; neither is consistent with Hoban's behaviour to date.</li>
+</ol>
+
+<h2>13. Shareholder activist case</h2>
+<h3>13.1 Is there a classic activist case?</h3>
+<p>Not on valuation. Activism in holding companies usually attacks a discount: demand buybacks, special dividends, asset sales or a holdco-opco merger to force price toward NAV. At 2.8x NAV every one of those levers destroys value for Hanjin KAL holders (a merger with Korean Air, for example, would exchange KRW 143,500 of stock for about KRW 51,000 of Korean Air). The only classic lever that helps is a higher pass-through of subsidiary cash, and that adds at most KRW 1,000 of DPS.</p>
+
+<h3>13.2 The live activist plays</h3>
+<table>
+  <tr><th>Play</th><th>Mechanics</th><th>Who</th><th>Likelihood / value</th></tr>
+  <tr><td>Board representation via cumulative voting</td><td>Three outside-director terms (KDB nominees Bae Seong-rye, Song Baek-hun, Hong Dong-pyo) expire at the March 2027 AGM. With cumulative voting a 20% holder concentrating votes should secure at least one seat when three or more are elected together; companies are already shrinking boards and staggering terms to blunt this.</td><td>Hoban; potentially a domestic activist fund coat-tailing Hoban</td><td>High likelihood. Board access is the realistic prize; it changes information flow, not control. Value to shareholders: better disclosure on related-party transactions.</td></tr>
+  <tr><td>Separately elected audit committee seat (3% rule)</td><td>Two audit committee members are now elected separately with the largest shareholder and its related parties capped at 3% combined, and every other holder capped at 3% each. Hoban's four entities can cast about 6.3% (3 + 3 + 0.17 + 0.15) against the Cho bloc's 3%; Delta, KDB and JAL are also capped at 3% each. With NPS and part of the float, Hoban can win this seat.</td><td>Hoban, NPS, foreign institutions</td><td>High likelihood in 2027 if Hoban nominates. This is the KCGI 2020 playbook with better rules.</td></tr>
+  <tr><td>Related-party and control-cost scrutiny</td><td>Welfare-fund contribution (police investigation), foundation purchases with school money, Jungseok Enterprise call option and the pending purchase of Cho Seung-yeon's 4.59%, loans to the hotel arm, executive pay. Directors now owe a statutory duty to shareholders (first amendment, effective 22 July 2025), creating derivative-suit exposure.</td><td>NPS, minority coalitions, Korean governance funds (Align, KCGI, Flashlight)</td><td>Medium likelihood; low direct value but raises the cost of further defensive spending by the holdco.</td></tr>
+  <tr><td>Dividend policy reset for FY2027 onwards</td><td>The 50% adjusted-payout policy expires with FY2026 and must be re-set and disclosed. Demand: pass through 100% of dividend income and royalties net of costs (about KRW 80bn, DPS about KRW 1,200).</td><td>Any 1%+ holder via shareholder proposal</td><td>High likelihood of some increase during a contest; immaterial to valuation (yield to 0.9%).</td></tr>
+  <tr><td>Force a sale of non-core assets and return proceeds</td><td>Jungseok Enterprise's Seoul property (KRW 550 to 700bn at 100%), remaining hotels (KRW 300bn+), Topas. Total realisable at holdco level about KRW 0.5 to 0.7tn, or KRW 8,000 to 10,000 per share.</td><td>Activist fund</td><td>Medium; management prefers to hold family-linked real estate. Adds 6 to 7% to the share price at best.</td></tr>
+  <tr><td>M&amp;A arbitrage: tender offer</td><td>Hoban (or a consortium) tenders for 10 to 20%; incumbents respond with competing purchases or a white-knight tender.</td><td>Hoban</td><td>Low to medium (25% in our framework). This is the only play that pays at the current price, and the only one not visible in any filing.</td></tr>
+</table>
+
+<h3>13.3 Verdict on activism</h3>
+<ul>
+  <li>The setting is unusually favourable for a governance-style campaign (a 20% challenger, a state holder that has already voted against the chairman via NPS, new cumulative-voting and 3%-rule mechanics, a live criminal investigation and a chairman with limited personal liquidity). Board seats for the challenger at the March 2027 AGM are the base case.</li>
+  <li>The setting is unfavourable for a value-realisation campaign because the stock already trades far above realisable value. An activist fund entering at KRW 143,500 would be paying KRW 6tn for the right to argue about KRW 0.6tn of asset sales.</li>
+  <li>The activist trade with positive expected value inside this group is in Korean Air: pressure for a higher payout (the 30% cap is on separate net income, which the merger and fuel costs depress), balance-sheet discipline after the Asiana consolidation, and clarity on the brand-royalty and related-party flows to the holdco.</li>
+</ul>
+
+<h2 class="pb">14. Catalyst calendar and what to watch</h2>
+<table>
+  <tr><th>When</th><th>Event</th><th>Read</th></tr>
+  <tr><td>Sep to Dec 2026</td><td>Jungseok Inha Academy purchase programme (773,676 shares); any JAL 5% filing; any Hoban purchase over 20.15%</td><td>Price-insensitive buying supports the tape; a Hoban purchase would be the first since July.</td></tr>
+  <tr><td>Oct to Nov 2026</td><td>Police investigation outcome; possible referral to prosecutors; Q3 results (Korean Air fuel relief)</td><td>Indictment of the CEO/chairman is the key negative governance event; Q3 recovery supports NAV.</td></tr>
+  <tr><td>17 Dec 2026 / 4 Jan 2027</td><td>Integrated Korean Air launches; 20.34m new shares listed; Hanjin KAL stake to 24.76%</td><td>Starts the clock on KDB's exit.</td></tr>
+  <tr><td>Jan to Feb 2027</td><td>AGM notice and shareholder-proposal window; Hoban purpose-of-holding filing; FY2026 dividend and new dividend policy; board size and term structure</td><td>Board shrinkage or staggering would confirm a defensive posture; a change of Hoban's filed purpose would be the first hard escalation signal.</td></tr>
+  <tr><td>Mar 2027</td><td>AGM with mandatory cumulative voting; three outside-director seats; two separately elected audit committee members</td><td>Expect Hoban to win at least one seat; watch whether it then sells or buys.</td></tr>
+  <tr><td>2027</td><td>KDB block sale process (10.58%)</td><td>Structure (single buyer versus syndicate) decides the premium.</td></tr>
+</table>
+
+<h2>15. Bottom line</h2>
+<p>Hanjin KAL is a control-contest instrument whose price has detached from the KRW 3.4tn of assets behind it. The contest is real, the register is not as close as the headlines suggest, and the newest governance rules make it cheaper for the challenger to win influence without buying shares. The premium can persist while foundations, airline partners and Hoban keep buying, and it can spike on a tender offer, but its expected path is down. We would not own the common for NAV, would express any positive view on the group through Korean Air, and would treat Hanjin KAL as a short candidate sized for a fat right tail, or as a paired trade against Korean Air, with a hard stop on a change in Hoban's filed purpose or on any single-buyer structure for the KDB block.</p>
+
+<h2>Appendix: data notes and sources</h2>
+<ul class="small">
+  <li>Share prices: Hanjin KAL KRW 143,500 (9 Sep 2026 close, after KRW 148,400 on 8 Sep and KRW 139,100 on 2 Sep); Korean Air KRW 29,800 (9 Sep close); Hanjin KRW 14,740 (latest available quote; traded at KRW 16,270 on 6 Jul 2026). Hanjin KAL common shares 66,762,279 (Jul 2026). Korean Air shares about 368.2m (pre-merger), Hanjin about 14.94m.</li>
+  <li>Stake data: Korean Air 26.13% (Jun 2026), 24.76% post-merger (company merger disclosure); Hanjin 30.78% (Aug 2024 block trade from GS Retail); Jungseok Enterprise 60.49% (May 2025); KAL Hotel Network 100%, Hanjin Tourism 100%, Topas 94.35% (company website and reports).</li>
+  <li>Register: Cho and related parties 20.57% (Mar to Aug 2026 filings); Hoban 20.15% (10 Jul 2026 filing, 13,454,674 shares, KRW 878.2bn cost); Delta 14.90%; KDB 10.58%; NPS 5.11%; welfare fund 0.66%; Jungseok Inha Academy 1.90% rising to 3.06% (Aug 2026 disclosure).</li>
+  <li>Financials: FY2025 consolidated (sales KRW 298.9bn, operating loss KRW 7.3bn, net profit KRW 150.2bn) and FY2024 from results releases; Q1 2026 separate (revenue KRW 100.2bn, operating profit KRW 89.9bn) and Q2 2026 consolidated (operating profit KRW 16.8bn, net loss KRW 85.7bn) from quarterly disclosures; 2025 dividend income breakdown (KRW 88.0bn) and 2024 brand royalties (KRW 40.3bn) from the annual report; separate net debt history from KIS credit opinions (17 Oct 2025 and 27 May 2026). Korean Air FY2025 (sales KRW 16.5tn, operating profit KRW 1.54tn, net profit KRW 965bn) and H1 2026 (sales KRW 9.54tn, operating profit KRW 779bn, net profit KRW 145bn; Q2 net loss KRW 97bn) from company releases.</li>
+  <li>Unlisted subsidiary figures: company registry summaries (Saramin, Catch, JobKorea), The Bell (KAL Hotel Network, Jungseok Enterprise), Newsway, EKN, DealSite and Asia Today (asset sales). Several years are not disclosed in accessible sources and are marked n/a; EBITDA figures are our estimates.</li>
+  <li>Legal and governance: Korea Commercial Act amendments (first, effective 22 Jul 2025; second, effective 10 Sep 2026; third, effective 6 Mar 2026) per Kim &amp; Chang, Shin &amp; Kim, Bae Kim &amp; Lee, PwC Korea and Herald Economy summaries; police raid per Seoul Economic Daily, Financial News and EBN (7 Sep 2026).</li>
+  <li>Broker references: IM Securities note of 13 Jul 2026 (NAV KRW 2,645bn, premium about 240%, KDB block as key variable); Mirae Asset (Korean Air target KRW 37,000, 8 Sep 2026); KB Securities (KRW 36,000); Shinhan (2027-based valuation).</li>
+  <li>Estimates marked (E): end-March 2026 holdco net debt; unlisted-company valuations; EBITDA for private subsidiaries; JAL stake size; free-float percentage; scenario probabilities and values.</li>
+</ul>
+<p class="small">Prepared 10 September 2026. This report synthesises publicly available information and the author's estimates; figures should be verified against primary filings on DART/KIND before use in investment decisions.</p>
+
+</body>
+</html>
