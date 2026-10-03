@@ -1,0 +1,68 @@
+# Research: M&A comps, Obayashi acquisitions, takeover inputs, SKT/Anthropic (as of 2026-10-03)
+
+Method note: WebSearch only. WebFetch was blocked by the egress proxy for obayashi.co.jp, heraldcorp.com, the-shashi.com, manda.bz, constructionwave.co.uk, so primary pages were NOT read directly; figures come from search-result summaries of the cited sources. Anything marked "calc" is my own arithmetic from disclosed inputs. "n/a" = not found/undisclosed.
+
+## A. Comparable M&A (announced Oct 2021 - Oct 2026)
+
+| # | Target | Acquirer | Announced | Size | EV/EBITDA | EV/Sales | Other / notes | Source |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Equans | Bouygues | Nov 2021 | EV EUR 7.1bn (incl. IFRS16 debt; EUR 6.7bn ex) | n/a (EBITDA not found) | ~0.59x (calc: 7.1/ ">12bn" sales) | EV/2026E current op profit 11.4x (company); synergies EUR 120-200m | engie newsroom; financierworldwide; arab.news |
+| 2 | Cupertino Electric | Quanta Services | Jul 2024 (closed 17 Jul) | ~USD 1.5bn (+ up to 200m earn-out) | 8.6-9.7x (calc, 2024E adj EBITDA 155-175m); mid 9.1x | ~0.70x (rev 2.1-2.2bn) | cash + stock | sec.gov Quanta 8-K ex99.1 |
+| 3 | Dynamic Systems | Quanta | Jul 2025 | USD 1.35bn (+ up to 216m earn-out) | ~8.4x (calc, 2025E 150-170m) | ~1.3x | mechanical/process | pulse2; Quanta 10-Q |
+| 4 | Miller Electric | EMCOR | Jan 2025 | USD 865m cash | 10.8x (calc; CY24 adj EBITDA ~80m) | 1.07x (rev ~805m) | | businesswire 20250114 |
+| 5 | CEC Facilities Group | Sterling Infrastructure | Jul/Aug 2025 | USD 505m (+ up to 80m earn-out) | 9.6x (company, 2025 midpoint) | ~1.25x (calc, rev 390-415m) | | mdm.com; nasdaq/zacks |
+| 6 | Feyen Zylstra + Meisner Electric | Comfort Systems USA | Oct 2025 | ~USD 170m | 8.5-11.3x (calc; EBITDA 15-20m) mid ~9.7x | ~0.85x (calc; rev >200m) | | sec.gov FIX 8-K 23 Oct 2025 |
+| 7 | PayneCrest Electric | Primoris | 31 Mar 2026 | USD 422m cash | 10.1-11.1x (calc; 2026E EBITDA 38-42m) mid 10.55x | ~1.17x (rev 350-370m) | data center electrical | businesswire 20260331 |
+| 8 | Electrical Specialists (The Superior Group) | MasTec | Jul 2026 | USD 1.65bn (475m stock + 1.175bn cash + earn-out) | 6.6-7.3x (calc; 2026E EBITDA 225-250m) mid ~7.0x | ~1.0x (rev 1.6-1.7bn) | | pulse2; MasTec 10-Q Jun 2026 |
+| 9 | Multiplex Global (BCI UK Holdings) | Obayashi (seller Brookfield) | 18 Jun 2026 | Obayashi: USD 540m (~JPY 86bn) for 100% of holdco shares; Bloomberg/Marketscreener headline USD 650m (AUD 924m) incl. earn-out/other? ; GBP 490m | 8.7x (540/62) to 10.5x (650/62) (calc; FY2025 EBITDA ~USD 62m) | 0.14-0.17x (calc; FY25 rev USD 3.81bn) | FY25 net income USD 71m (P/E ~7.6x on 540m, calc); "years of losses" at Brookfield; close ~30 Sep 2026; USD 530m cash at closing + earn-out per Marketscreener. DISCREPANCY: 540 vs 650 - treat as equity vs headline incl. earn-out; net debt not found | obayashi.co.jp news20260618_2 (not fetched); newsweekjapan; investing.com; marketscreener; Bloomberg |
+| 10 | Mitsui Sumitomo Construction (SMCC) | Infroneer HD | May 2025 (TOB Aug-Sep 2025) | JPY 600/sh; TOB payout ~JPY 75.9bn for tendered shares (search snippet garbled "758.7億"; verify) | n/a | n/a | Premium 10.3% (vs 544); raised from 480 offer in April; combined sales JPY 1.31tn | nihon-ma.co.jp; the-shashi |
+| 11 | Toyo Construction | Taisei | 8 Aug 2025 | JPY 1,750/sh; total ~JPY 130-160bn (sources differ: Japan Times/JCR ~130bn; Nikkei/kensetsunews ~160bn incl. all shares) | n/a | n/a | Premium only 2.9% to prior close (1,700), 6.4% to 8 Aug close; Toyo net assets JPY 76.6bn (Sep-25) -> P/B ~1.7-2.1x (calc, approx); activist (Nintendo family fund) catalyst; Taisei reached 61.81% in TOB, later 100% | japantimes; JCR; nikkei xtech |
+| 12 | Nippon Road (remaining ~50%) | Shimizu | 14 May 2025 | JPY 2,520/sh, JPY 55.2bn for 21.9m shares | n/a | n/a | Premium 16.18%; parent-sub unwinding | nikkei; nihon-ma |
+| 13 | Mitsui Sumitomo Kensetsu Road (Mitsui-Sumitomo Doro) | SMCC | Mar 2026 | JPY 2,000/sh, to 95.4%, full by 2 Jun 2026 | n/a | n/a | parent-sub unwinding; premium n/a | the-shashi / manda.bz |
+| 14 | MDC Holdings | Sekisui House | 18 Jan 2024 | USD 4.9bn equity, USD 63/sh | EV/EBITDA n/a (not found) | n/a | P/B 1.33x '24E BV, P/E 12.8x (Wolfe Research); premium 19% (41% to 90d VWAP) | housingwire; worldconstructionnetwork |
+| 15 | Tri Pointe Homes | Sumitomo Forestry | Feb 2026 | USD 4.5bn, USD 47/sh | unverified: 8.19x or 10.46x (conflicting, aggregator) | ~1.17x (aggregator, unverified) | Premium 28.5% (42% vs 90d VWAP); P/B ~1.19 (unverified) | pulse2; insidearbitrage; yahoo |
+| 16 | Stanley Martin's United Homes Group; Holiday Builders; Trumark's JK Monarch | Daiwa House subs | spring 2026 | n/a | n/a | n/a | undisclosed | resiclubanalytics |
+| 17 | TRC Companies | WSP | 15 Dec 2025 | USD 3.3bn | 14.5x 2026E adj EBITDA (12.5x with synergies) (company) | ~2.8x (calc; net rev 1.19bn) | engineering/consulting (utilities) | WSP / lacaisse press release |
+| 18 | PA Consulting (remaining stake) | Jacobs | early 2026 | USD 1.6bn for rest; implied EV GBP 3.05bn | ~13x (12.3x w/ synergies) (Baird) | n/a | consulting, not contractor | consultancy.uk; Baird via search |
+| 19 | IBI Group | Arcadis | Oct/Nov 2022 | CAD 873m | 11.5x 2022E (9.6x post synergies) | n/a | engineering design | arcadis.com transcript |
+| 20 | Arcosa | CRH | 22 Jun 2026 | EV USD 8.5bn (USD 150/sh) | 11.5x 2026E incl. USD175m synergies (company) | n/a | aggregates/infrastructure products - NOT a contractor; premium 25% to 60d VWAP | crh.com press release |
+| 21 | MWH Constructors (90%) | Obayashi | 11 Jan 2024 | ~USD 126m for 90% (some sources USD 134m / JPY 19bn) | n/a | n/a | US water contractor | bizwest; waterworld; privsource |
+| 22 | GCON Inc. (+2 affiliates, Arizona) | Obayashi via Webcor | 17 Oct 2025 (closed 1 Dec 2025) | undisclosed | n/a | n/a | 10 states, data centers/semis/healthcare | obayashi news20251017_1; nasdaq/rttnews |
+| 23 | Cross Management Corp (51%) | Shimizu America | Jun 2025 | undisclosed | n/a | n/a | NY interiors GC | businesswire 20250626 |
+
+Out of window (excluded): Vinci-Cobra IS (EUR 4.9bn incl. cash / EV EUR 4.2bn, announced 1 Apr 2021, closed 31 Dec 2021); Webuild-Astaldi (2020; ~2x EV/EBIT adj 2020, Equita); Worley-Jacobs ECR (2018; 11.5x LTM). Searches found no 2024-26 priced deals for Kajima, Obayashi (other than below), Hochtief, Ferrovial, Sacyr, Skanska, Balfour Beatty; not found = not confirmed absent. Note: ACS/Hochtief/Vinci-Gatwick etc not researched in depth.
+
+### Statistics (calc)
+US specialty contractors only (#2-#8, midpoints): EV/EBITDA 6.95-10.8x; median 9.6x, mean 9.3x (n=7). EV/Sales 0.70-1.29x; median 1.07x, mean 1.05x (n=7).
+Broader set (#2-#9, #17, #18, #19, #20; Multiplex at 9.6x midpoint of 8.7-10.5x; n=12): EV/EBITDA median 10.1x, mean 10.4x, range 6.95-14.5x. Engineering/consulting subset (TRC, PA, IBI): 11.5-14.5x. Large-building GC with thin margins (Multiplex, closest analogue to Obayashi): ~8.7-10.5x EBITDA and only ~0.15x sales.
+Japanese construction deals: no EV/EBITDA found for any (all n/a). Japanese contractor takeover premiums observed: 2.9% (Toyo), 10.3% (SMCC), 16.2% (Nippon Road) - far below the 30-45% generic Japan TOB range, because these were friendly/parent-linked deals with already-elevated prices. Homebuilders (foreign takeovers): 19% (MDC), 28.5% (Tri Pointe), 25% (Arcosa).
+Reference only (trading, not a deal): Obayashi trades ~9.0x EV/EBITDA and ~0.8x EV/Revenue per multiples.vc (aggregator, unverified date).
+Caveat: US specialty electrical/mechanical deals are data-center-driven and carry higher margins than Japanese general contracting; do not apply directly to Obayashi.
+
+## B. Obayashi acquisitions (Oct 2016 - Oct 2026)
+
+| Target | Date | % | Price | Multiples | Notes |
+|---|---|---|---|---|---|
+| MWH Constructors (US water) | announced 11 Jan 2024 | 90% | ~USD 126m (other sources USD 134m / ~JPY 19bn); not officially disclosed | n/a | merged into Obayashi US civil |
+| GCON Inc. + 2 affiliates (Arizona) via Webcor | agreed 17 Oct 2025; closed 1 Dec 2025 | 100% | undisclosed | n/a | consolidated in overseas building from FY2026 (matches Q1 FY26 note) |
+| Multiplex Global Ltd (via BCI UK Holdings, seller Brookfield) | 18 Jun 2026; closing targeted 30 Sep 2026 (Q4 CY26 per Marketscreener - check closing) | 100% | USD 540m (~JPY 86bn) per Obayashi/Nikkei/Reuters; USD 650m headline (Bloomberg) incl. earn-out | 8.7-10.5x EBITDA, 0.14-0.17x sales (calc) | Australia, UK, Canada; FY25 rev USD 3.81bn, EBITDA ~USD 62m, NI USD 71m; largest Obayashi deal in period |
+Earlier (outside 10-yr window, for context): Webcor 2007; E.W. Howell 1989; Kenaidan 52% Mar 2011; Kraemer North America 11% Mar 2015 then Nov 2014 joined group (sources inconsistent on dates); James E. Roberts JV 1978. No major acquisitions found for 2017-2022. Divestments, renewable/real estate asset purchases: not researched/not found. The user's guesses (Hunter Douglas, Hansen Yuncken, Gonzales Construction) not found.
+
+## C. Takeover assessment inputs
+- Obayashi mkt cap ~JPY 2.1tn (marketscreener, 28-29 Sep 2026; price JPY 3,056 / 2,990.5). Foreign ownership 40.05%; financial institutions 31.48%; top holder Japan Master Trust (trust a/c) 15.51% (edinetdb/the-shashi, FY2026). Obayashi family control: not found as a blocking stake. Cross-shareholding detail: n/a - not found.
+- Climate: 135 tender offers in 2025 (record, volume and value records); 7 unsolicited attempts in 2025 (e.g., Yageo-Shibaura Electronics); METI 2023 Takeover Guidelines; METI updated code May 2026 stressing boards may reject unsolicited bids; Tokyo District Court upheld Makino poison pill (2025); 1H26 inbound M&A 232 deals (+27.5%). Sources: BCG, Lexology, Chambers, Financier Worldwide, hl.co.uk.
+- Sector consolidation actually occurring: Taisei-Toyo (largest construction M&A in Japan), Infroneer-SMCC, Shimizu-Nippon Road, SMCC-road sub. No reports found of PE/strategic interest or takeover rumours for Obayashi, nor Big-5 merger talk (searches returned nothing). A JPY 2tn target is by far the largest Japanese construction deal ever (Toyo ~JPY 130-160bn). Impediments (structural reasoning, not sourced reports): size, public-works/ licensing (Construction Business Act) and customer relationships, antitrust (JFTC) in Big-5 concentration, retail/trust holders. Foreign ownership restrictions specific to construction: n/a - not found.
+- Typical Japan TOB premiums 30-45%: general market statistics NOT found by search; treat as unverified. Observed construction deals lower (see A).
+- Construction takeout multiples observed: ~7-11x EBITDA (US specialty), Multiplex 8.7-10.5x; no Japanese data.
+
+## D. SK Telecom (017670) and Anthropic
+Note: nothing to do with Obayashi; SKT holds no Obayashi-related interest (no evidence found of any).
+- Holding: 3,860,330 Anthropic shares as of 30 Jun 2026 (H1 2026 semi-annual report filed ~Aug 2026; reported by Asia Today 14 Aug 2026; also Newspim 24 Aug, Edaily, Herald Business). Carrying (fair) value KRW 3.505tn (3조5050억), vs KRW 1.3762tn at end-2025 (+KRW 2.1288tn in 6 months). Per share ~KRW 908k (calc).
+- H1 2026 purchase: 157,189 additional shares for KRW 139.9bn (1,399億) (Newspim/ETNews 10 Jun 2026 "additional investment instead of exit"); implies ~KRW 890k/share (calc).
+- History: USD 100m invested in 2023 (SKT initially said ~USD 100m; Aug 2023 per user; instrument type - convertible/preferred - NOT verified).
+- Valuation basis: Anthropic Series H, USD 65bn raised at USD 965bn valuation (28 May 2026, CNBC/TechCrunch), price up to USD 589.01/share (valueaddvc/other) -> ~1.64bn shares implied (calc: 965bn/589). Stake ~0.24% (calc), consistent with Hana Securities 0.3%. Value at USD 589 ~USD 2.27bn (calc) vs carrying KRW 3.505tn (~USD 2.5bn at ~1,380 KRW/USD assumed - FX not verified); Hana: USD 2.9bn (~KRW 4.35tn) at its assumptions; Herald ~KRW 4tn (USD 2.59bn). At USD 2tn valuation: ~KRW 7.26tn (Newspim).
+- Discrepancies: (i) stake % ranges 0.2-0.3% (keenable/Herald/Hana) vs 0.5-0.7% (a Korean source in search summary) - latter inconsistent with share count; (ii) Morningstar USD 17.6bn at USD 900bn valuation implies ~2%, inconsistent with 3.86m shares/KRW 3.5tn - likely stale/erroneous; (iii) Anthropic fully diluted share count not published (S-1 confidential since 1 Jun 2026; IPO targeted ~Oct 2026 Nasdaq, not confirmed); (iv) accounting classification (FVTPL vs FVOCI) NOT found - Korean press says only "장부가액" (fair value); DART filing not directly read.
+- Cross-sources: Asia Today, Newspim, EKN, ETNews, Edaily, ZDNet Korea, Herald Business (mbiz.heraldcorp.com/article/10789395), Seoul Economic Daily (Jan 2026), UPI, Investing.com, CNBC.
+
+## Key URLs
+https://www.marketscreener.com/news/obayashi-corporation-agreed-to-acquire-multiplex-global-limited-from-brookfield-business-corporation-ce7f5cd2dc81f724 ; https://www.nikkei.com/article/DGXZQOUC184X90Y6A610C2000000/ ; https://www.obayashi.co.jp/en/news/detail/news20251017_1_en.html ; https://www.obayashi.co.jp/en/news/detail/news20260618_2_en.html ; https://www.sec.gov/Archives/edgar/data/1050915/000119312524182240/d841267dex991.htm ; https://www.businesswire.com/news/home/20250114453472/en/ ; https://www.businesswire.com/news/home/20260331928221/en ; https://www.crh.com/media/press-releases/2026/crh-to-acquire-arcosa-leading-u-s-provider-of-aggregates-and-critical-infrastructure-products-for-8-5b/ ; https://www.asiatoday.co.kr/kn/view.php?key=20260814010004985 ; https://www.newspim.com/news/view/20260824001138 ; https://www.etnews.com/20260610000408 ; https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html
