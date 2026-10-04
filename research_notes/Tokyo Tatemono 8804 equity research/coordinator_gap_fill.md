@@ -38,3 +38,17 @@ Provenance: all items below come from web-search result summaries (page fetches 
 
 ## Calendar
 - Q3 FY2025 results were released 13 Nov 2025; 1H FY2026 results 6 Aug 2026. Q3 FY2026 release date not yet published in sources found — expected around mid-November 2026 (estimate, by analogy with 13 Nov 2025). FY2026 results expected around mid-February 2027 (12 Feb 2026 precedent); AGM late March 2027 (26 Mar 2026 precedent).
+
+## Segment history (search extracts — CAUTION: several search summaries mislabel fiscal years)
+- **FY2025 (verified across multiple extracts):** Commercial Properties (ビル事業) revenue ¥220,177m (prior year ¥176,573m, +24.7%), operating income ¥67,059m (prior ¥41,399m, +62.0%). Residential operating income ¥25.6bn (−33%; prior ≈¥38.2bn — derived). Asset Service ¥11.5bn (prior-year ¥12.9bn appears in one extract → −10.9%, but another researcher reported "flat"; treat FY2024 Asset Service as ≈¥12bn ±1bn). Residential FY2025 booked HARUMI FLAG and Brillia Seiseki-Sakuragaoka BLOOMING TERRACE, but revenue/profit fell vs a FY2024 boosted by large condo deliveries (HARUMI FLAG). Sources: EDINET S100XSKF (FY2025 Yuho) and the-shashi segment page (search extracts); one extract labelled these as "FY2023/FY2022" — the arithmetic (¥67.1bn = +62% on ¥41.4bn) and the FY2025 results release confirm they are FY2025/FY2024.
+- **FY2024 (derived from FY2025 YoY):** Commercial Properties revenue ¥176.6bn, OI ¥41.4bn; Residential OI ≈¥38.2bn; Asset Service OI ≈¥12.9bn. A separate English extract gives FY2024 segment *business profit* (rounded, probably read off a chart): Commercial Properties ≈¥42bn, Residential ≈¥36bn, Asset Service ≈¥10bn, Other ≈¥2bn; total business profit ≈¥80.4bn (old definition; ¥79.3bn under the FY2025 restated definition per the financials notes).
+- **FY2023 (English company overview / integrated report extract):** segment *business profit* — Commercial Properties ¥40.1bn (47%), Residential ¥27.1bn (32%), Asset Service ¥12.9bn (15%), Other ¥4.4bn (5%) [sum ¥84.5bn before corporate costs]; total business profit ≈¥74.4bn. Segment operating revenue — Commercial Properties ¥155.2bn (41%), Residential ¥134.1bn (36%), Asset Service ¥63.8bn (17%), Other ¥22.7bn (6%) [sum ¥375.8bn = consolidated FY2023 revenue ¥375.9bn ✓]. Source: https://recruit.tatemono.com/english/company/pdf/company_overview.pdf (search extract).
+- **FY2022:** total business profit ≈¥66.3bn (search extract, integrated report 2023). Segment split not retrieved.
+- **FY2021:** segments were Building, Residential, Asset Service, Quality Life, Overseas (overseas was a separate segment only in FY2021); segment split not retrieved. Consolidated revenue ¥340,477m (+1.6%), OI ¥58,784m (+18.4%).
+
+## D&A and operating cash flow (stockanalysis.com / finboard extracts; OCF ties exactly to the financials researcher's figures)
+| ¥m | FY2021 | FY2022 | FY2023 | FY2024 | FY2025 |
+|---|---|---|---|---|---|
+| Depreciation & amortisation | 18,572 | 18,796 | 20,457 | 22,390 | 24,316 |
+| Operating cash flow | 65,889 | −3,332 | 20,588 | 18,894 | 32,106 |
+| EBITDA (OI + D&A, derived) | 77,356 | 83,274 | 90,965 | 102,060 | 120,079 |
