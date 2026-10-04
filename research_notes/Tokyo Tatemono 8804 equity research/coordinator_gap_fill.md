@@ -83,3 +83,22 @@ Payout ratios (derived with EPS from financials notes): FY2022 65/206.2 = 31.5%;
 | D/E (reported/derived) | ≈2.5x | ≈2.3x | ≈2.2x | 2.23x | ≈2.3x | n/a |
 | Equity ratio | n/a | n/a | n/a | 26.0% | 26.0% | n/a |
 Notes: FY2024 IBD ¥1,191,582m appears in one extract labelled "net debt" — arithmetic against D/E 2.23x and equity ≈¥534–541bn indicates it is gross IBD; Simply Wall St quotes "¥1.21tn" total debt for end-2024 (likely incl. other debt-like items). stockanalysis "total debt" for 2025 is ¥1,467,619m (includes lease and other liabilities) vs company IBD ¥1,343,874m — use company IBD. Net debt/EBITDA (derived with EBITDA from D&A table): FY2021 11.5x; FY2022 10.9x; FY2023 10.6x; FY2024 10.6x; FY2025 9.9x.
+
+## M&A precedents — Japanese real estate (coordinator searches, 4 Oct 2026; search extracts)
+| Announced | Target | Acquirer | Structure | Price / premium | Deal value | Notes / source |
+|---|---|---|---|---|---|---|
+| 16 Oct 2018 | NTT Urban Development (8933) | NTT | Minority buy-in TOB | ¥1,680/sh; +29.8% vs prior close | ¥154.3bn (to 95.2%) | Delisted 7 Jan 2019. maonline.jp/db/tob/2018/42 |
+| Dec 2019 (completed Apr 2020) | Unizo Holdings | Chitosea (employee vehicle) backed by Lone Star | Contested EBO TOB (rivals: HIS, Fortress, Blackstone; Elliott a holder) | ¥6,000/sh after two raises | ¥177.7bn for 86.55%; total >¥200bn | maonline.jp/news/20200403jp |
+| 27 Nov 2020 | Tokyo Dome | Mitsui Fudosan (20% later to Yomiuri) | Take-private TOB after Oasis activist campaign | ¥1,300/sh; +¥403 (+44.9%) vs ¥897 | ≈¥120bn | TOB 30 Nov 2020–18 Jan 2021. sbbit.jp/article/refers/48043 |
+| 20 Nov 2020 | Kenedix (4321) | SMFL Mirai Partners (SMFL 70%) + ARA/ESR (30%) | Take-private TOB | ¥750/sh; +26.5% vs ¥593 | ≈¥165bn (est. ¥750 × ~219m sh) | TOB 24 Nov 2020–8 Jan 2021. maonline.jp/news/20201120d |
+| 30 Nov 2021 | Daibiru (8806) | Mitsui O.S.K. Lines (owned 51.91%) | Minority buy-in TOB | ¥2,200/sh | ¥121.3bn | Completed Jan 2022 (82.6% → squeeze-out). sbbit.jp/article/refers/75763 |
+| 10 Feb 2022 | 31 Prince hotels & leisure assets | GIC (from Seibu HD) | Asset sale (sale-and-manage) | — | ≈¥150bn; gain ≈¥80bn | sbbit.jp/article/refers/80837 |
+| 17 Mar 2022 | Mitsubishi Corp.-UBS Realty (J-REIT AM, ~¥1.7tn AUM) | KKR | Company acquisition | — | ¥230bn (~US$2.0bn) | mitsubishicorp.com release 0000048879 |
+| Jan 2024 | MDC Holdings (US homebuilder) | Sekisui House | Cross-border acquisition | — | US$4.9bn | coordinator background knowledge (verify) |
+| Oct 2024 (completed 26 Nov 2024) | Samty Holdings (187A) | Hillhouse (Song Bidco) | Take-private TOB | ¥3,300/sh | n/a | nihon-ma.co.jp/news/20241127_187A-1 |
+| 2025 | Tokyo Garden Terrace Kioicho | Blackstone (from Seibu HD) | Asset deal | — | ≈¥400bn (Seibu book ≈¥139.6bn; gain ≈¥260.4bn) | Largest foreign RE deal in Japan. blackstone.com; trafficnews.jp/post/494129 |
+| 6 Jan 2026 | Sankei Real Estate REIT | Tiger/Lion LPS (Tosei Asset Advisors; GIC-funded) | First friendly J-REIT TOB | ¥125,000/unit; +20.9% vs ¥103,400 | n/a | Failed 19 May 2026 (minimum not met); a rival bid followed in Sep 2026 (valuation notes). ares.or.jp monthly 2026-02 |
+| Feb 2026 (ended 9 Apr 2026) | Sun Frontier Fudosan (8934) | Itochu (via SI GK) | Partial TOB (cap 6,656,900 sh) + third-party allotment 5.5m sh @ ¥2,438 (¥13.4bn) | ¥2,800/sh | 20.05% equity-method stake; stays listed | nihon-ma.co.jp/news/20260410_8001-227 |
+| 14 Sep 2026 (TOB 15 Sep–30 Oct 2026) | Leopalace21 (8848) | Hikari Tsushin (holds ~18%) with MBK Partners / NEC Capital fund | Take-private TOB | ¥1,000/sh; ≈+45% vs ¥691 | ≈¥270bn | Shares traded ¥1,060 on 17 Sep (above offer → market expects a higher price). kumanichi.com/articles/2035799; s.kabutan.jp/news/n202609150922 |
+
+Reads: (1) Japanese real-estate take-private premiums cluster at ~20–45% to the undisturbed price; (2) deals are mid-cap (≤¥0.3tn equity) — nothing approaching Tokyo Tatemono's ≈¥0.68tn market cap / ≈¥2.1tn EV; (3) the 2025 Tokyo Garden Terrace sale (≈¥400bn) shows deep private-capital appetite for prime central-Tokyo assets — supportive of NAV marks; (4) activism precedes several deals (Tokyo Dome/Oasis; Unizo/Elliott).
