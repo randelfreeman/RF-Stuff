@@ -52,3 +52,22 @@ Provenance: all items below come from web-search result summaries (page fetches 
 | Depreciation & amortisation | 18,572 | 18,796 | 20,457 | 22,390 | 24,316 |
 | Operating cash flow | 65,889 | −3,332 | 20,588 | 18,894 | 32,106 |
 | EBITDA (OI + D&A, derived) | 77,356 | 83,274 | 90,965 | 102,060 | 120,079 |
+
+## Dividends FY2020–FY2023 (search extract: kabuhai-db.jp / strainer.jp / finboard dividend pages; FY2022–23 tie to financials researcher's DPS)
+| FY | Interim | Year-end | Annual DPS |
+|---|---|---|---|
+| FY2020 | ¥22 | ¥24 | ¥46 |
+| FY2021 | ¥24 | ¥27 | ¥51 |
+| FY2022 | ¥29 | ¥36 | ¥65 |
+| FY2023 | ¥36 | ¥37 | ¥73 |
+(FY2024 ¥95 = 37 + 58; FY2025 ¥105 = 48 + 57; FY2026E ¥126 = 61 + 65 per stock researcher.)
+Payout ratios (derived with EPS from financials notes): FY2022 65/206.2 = 31.5%; FY2023 73/215.8 = 33.8%; FY2024 95/315.5 = 30.1%; FY2025 105/283.08 = 37.1%.
+
+## Short interest / positioning (search extracts)
+- **JPX/EDINET short-position reports:** Goldman Sachs International held a reportable net short position in 8804 during 2025, peaking at ~1.1% of shares outstanding; its reporting obligation ceased (fell below 0.5%) in April 2025. No other ≥0.5% short holder found. Source: EDINET/irbank short page https://irbank.net/8804/short?f=3 (search extract).
+- **Large-shareholding reports by banks/brokers:** MUFG filed a large-shareholding report (reporting date 26 Aug 2024) showing 1.95% (as part of a joint holding group); SMBC Nikko Securities filed change report No.10 on 5 Jul 2024 (obligation date 28 Jun 2024) — broker trading-book holdings.
+- **Margin balances (kabutan, week of 24 Jul 2026):** margin sell 45,800 shares; margin buy 129,000 shares; margin ratio 2.82x. (Units as reported; tiny relative to 208m shares — retail margin positioning is negligible.)
+
+## TOPIX levels for relative performance
+- TOPIX year-end closes: 2020 1,804.68; 2021 1,992.33; 2022 1,891.71; 2023 2,366.39; 2024 2,784.92 (coordinator's background knowledge — verify); 2025 ≈3,409 (+22.4% in 2025; search extract sbbit/gaitame, consistent with 2,784.92 × 1.2241).
+- Implied TOPIX price return end-2020→end-2025 ≈ +89%; Tokyo Tatemono price return over the same window +150.6% (¥1,415 → ≈¥3,546).
