@@ -1,0 +1,64 @@
+{
+ "kicker": "EQUITY RESEARCH  |  INSTITUTIONAL DEEP DIVE  |  JAPAN REAL ESTATE",
+ "title": "Tokyo Tatemono Co., Ltd.",
+ "subtitle": "TSE Prime: 8804  |  Bloomberg: 8804 JP  |  Real estate development & leasing",
+ "tagline": "Leverage, not value, explains the discount",
+ "rating": "HOLD",
+ "target": "¥3,400 (+5.9%)",
+ "price": "¥3,211 (2 Oct 2026)",
+ "keyData": [
+  [
+   "Market cap / EV",
+   "¥668bn / ¥2,123bn"
+  ],
+  [
+   "Net debt (30 Jun 2026)",
+   "¥1,442bn (12.0x EBITDA)"
+  ],
+  [
+   "P/E FY2026E",
+   "10.3x (guidance EPS)"
+  ],
+  [
+   "P/B  |  P/NAV",
+   "1.10x  |  0.65x (NAV ¥4,937)"
+  ],
+  [
+   "Dividend yield",
+   "3.9% (DPS ¥126E)"
+  ],
+  [
+   "EPS FY26E / 27E / 28E",
+   "¥315 / ¥323 / ¥330"
+  ],
+  [
+   "52-week range",
+   "≈¥2,994 – ¥4,374"
+  ],
+  [
+   "Consensus target",
+   "¥3,985 (3 SB / 1 B / 6 N)"
+  ],
+  [
+   "Scenario value (PW)",
+   "¥3,400 (¥2,300 – ¥4,400)"
+  ],
+  [
+   "Regression value",
+   "¥3,271 (R² 0.86, n = 8)"
+  ]
+ ],
+ "thesis": [
+  "**Cheap only on equity multiples.** 10.3x P/E, 1.10x P/B and 0.65x NAV, but EV/Sales sits exactly on the peer regression line and EV/EBITDA (17.7x) is above its own five-year range.",
+  "**Execution is strong.** Record FY2025 operating profit (¥95.8bn); FY2026 guidance raised to OP ¥105.5bn / NI ¥65.0bn; 2025–27 plan targets reached a year early.",
+  "**Debt is the swing factor.** Net debt ¥1.44tn after a ¥191bn 1H build; BOJ at 1.25%; ~54% of FY2024–26E operating-profit growth is absorbed below the operating line.",
+  "**Event angle.** No activist yet, but a passive register (≈44% custodians), thin Fuyo support and 0.65x NAV fit the activist template; takeout zone ¥4,170–4,820.",
+  "**Triggers.** Buy below ~¥3,000 or on proof of 2H sales and year-end debt back near ¥1.40tn; Sell if 10-yr JGB > 3.25% or D/E > 2.6x."
+ ],
+ "headerLeft": "Tokyo Tatemono (8804 JP)",
+ "headerRight": "Equity Research  |  4 October 2026",
+ "footerLeft": "For professional investors only. Not investment advice. Figures largely from search extracts of primary filings — see Methodology.",
+ "coverNote": "Report date: 4 October 2026. Prices: TSE close 2 October 2026 unless stated. J-GAAP; fiscal year = calendar year. Most company figures were obtained from search-engine extracts of primary filings because the research environment blocked direct access to IR/EDINET/TDnet; see the Methodology and data-quality note.",
+ "breakLevel": 2,
+ "tocDepth": 1
+}
