@@ -394,7 +394,7 @@ The FY2024 → FY2026E jump in net non-operating cost (−¥7.9bn → −¥22.0b
 The **permanent** loss is the dilution or forced sale at the bottom, not the cyclical earnings dip.
 
 - **Plausibility: low to moderate (judgement, roughly 10–15% over 3 years).**
-  - **For:** early signs exist (sector and REIT index at year-to-date lows in 2026; net interest cost tripling between FY2024 and FY2026E).
+  - **For:** early signs exist (sector and REIT index at year-to-date lows in 2026; net non-operating cost nearly tripling from −¥7.9bn in FY2024 to −¥22.0bn in FY2026E).
   - **Against:** the market already discounts much of this (0.65x NAV); rents are being raised with inflation; occupancy is high; and Tokyo Tatemono can, within leverage limits, hold rather than sell.
 
 ### Gaps
