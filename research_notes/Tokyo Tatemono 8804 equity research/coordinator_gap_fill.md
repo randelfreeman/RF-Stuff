@@ -71,3 +71,15 @@ Payout ratios (derived with EPS from financials notes): FY2022 65/206.2 = 31.5%;
 ## TOPIX levels for relative performance
 - TOPIX year-end closes: 2020 1,804.68; 2021 1,992.33; 2022 1,891.71; 2023 2,366.39; 2024 2,784.92 (coordinator's background knowledge — verify); 2025 ≈3,409 (+22.4% in 2025; search extract sbbit/gaitame, consistent with 2,784.92 × 1.2241).
 - Implied TOPIX price return end-2020→end-2025 ≈ +89%; Tokyo Tatemono price return over the same window +150.6% (¥1,415 → ≈¥3,546).
+
+## Balance sheet history (search extracts: stockanalysis.com balance sheet; Simply Wall St; gurafu/edinetdb for FY2024 D/E) — ¥m
+| ¥m (31 Dec) | FY2021 | FY2022 | FY2023 | FY2024 | FY2025 | 30 Jun 2026 |
+|---|---|---|---|---|---|---|
+| Total assets | 1,650,770 | 1,720,134 | 1,905,309 | 2,081,226 | 2,272,720 | n/a |
+| Total equity (incl. NCI) | 427,659 | 456,836 | 508,034 | 547,522 | 603,136 | n/a |
+| Interest-bearing debt (company basis) | 976,896 | 989,798 | 1,089,006 | ≈1,191,582 | 1,343,874 | 1,536,600 (valuation notes) |
+| Cash & equivalents | 87,010 | 82,440 | 127,305 | 111,141 | 152,294 | 94,200 (valuation notes) |
+| Net debt (derived) | 889,886 | 907,358 | 961,701 | ≈1,080,441 | 1,191,580 | ≈1,442,400 |
+| D/E (reported/derived) | ≈2.5x | ≈2.3x | ≈2.2x | 2.23x | ≈2.3x | n/a |
+| Equity ratio | n/a | n/a | n/a | 26.0% | 26.0% | n/a |
+Notes: FY2024 IBD ¥1,191,582m appears in one extract labelled "net debt" — arithmetic against D/E 2.23x and equity ≈¥534–541bn indicates it is gross IBD; Simply Wall St quotes "¥1.21tn" total debt for end-2024 (likely incl. other debt-like items). stockanalysis "total debt" for 2025 is ¥1,467,619m (includes lease and other liabilities) vs company IBD ¥1,343,874m — use company IBD. Net debt/EBITDA (derived with EBITDA from D&A table): FY2021 11.5x; FY2022 10.9x; FY2023 10.6x; FY2024 10.6x; FY2025 9.9x.
