@@ -1,0 +1,688 @@
+{
+  "meta": {
+    "agent": "G_business_model",
+    "company": "Elis SA (ELIS FP; S&P C_27989; ProntoNLP 27989)",
+    "as_of": "2026-10-12",
+    "sources": "ProntoNLP and S&P Capital IQ only; citations copied verbatim from tool responses (see provenance/raw/G_business_model and logs/G_business_model.md)",
+    "tier_convention": "-3 raw materials, -2 manufacturers, -1 direct inputs, 0 Elis operations, 1 customer segments, 2 end users; 'stakeholder'/'context' for non-flow actors",
+    "caveats": "Supplier names are largely undisclosed in permitted sources; '[calc]' = derived by agent; transcript brackets kept as transcribed."
+  },
+  "nodes": [
+    {
+      "id": "U_FIBRES",
+      "name": "Fibres & raw materials (cotton, polyester incl. recycled polyester)",
+      "type": "upstream_input",
+      "tier": -3,
+      "relationship": "Indirect input to textile suppliers; price risk passes through 1-year fixed textile prices",
+      "named_companies": [],
+      "notes": "Cotton/raw-material price spikes can make fixed one-year textile prices unacceptable to suppliers [#1975](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1975); some workwear ranges use 65-100% recycled polyester [#519](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-519). No fibre suppliers named in permitted sources."
+    },
+    {
+      "id": "U_TEXTILE_MAKERS",
+      "name": "External textile & garment manufacturers (flat linen, workwear, mats)",
+      "type": "supplier_category",
+      "tier": -2,
+      "relationship": "Direct purchases (central/PCO and local/PLO master agreements); tenders once or twice a year; prices fixed 1 year vs binding estimates; suppliers hold buffer stock for Elis",
+      "named_companies": [],
+      "notes": "Purchases of textile & HWB products: Europe 37%, Asia 36%, Africa ~14%, Latin/South America 7.5% [#4026](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-4026); 15 largest textile suppliers >25% of direct-supplier spend [#2946](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-2946); Top-100 suppliers >78% of direct purchases [#4080](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-4080); tenders 1-2x/yr [#1985](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1985); buffer inventory [#1996](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1996); Asia-sourced linen [#75](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-75). Supplier names not disclosed."
+    },
+    {
+      "id": "U_OWN_MFG",
+      "name": "Elis own manufacturing & design (captive)",
+      "type": "internal_supplier",
+      "tier": -1,
+      "relationship": "Owned subsidiaries supplying garments, table linen and hygiene appliances to the Group",
+      "named_companies": [
+        {
+          "name": "Le Jacquard Français (France, table/household linen)",
+          "source": "[#4027](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-4027) [#5348](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-5348)"
+        },
+        {
+          "name": "Kennedy Hygiene (UK, hygiene appliance production plant)",
+          "source": "[#4027](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-4027) [#5348](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-5348)"
+        },
+        {
+          "name": "Workwear manufacturing plant in Estonia (650,000 items per year)",
+          "source": "[#4027](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-4027)"
+        },
+        {
+          "name": "Clothing manufacturing plants in Brazil, Mexico, Colombia and Malaysia",
+          "source": "[#4027](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-4027)"
+        },
+        {
+          "name": "Design centres in France and Sweden; garment customisation/repair workshops",
+          "source": "[#1995](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1995)"
+        }
+      ],
+      "notes": "'Other' reporting segment includes manufacturing entities, holdings and Asia [#5348](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-5348)."
+    },
+    {
+      "id": "U_HWB_PRODUCTS",
+      "name": "Hygiene & well-being appliances and consumables (dispensers, paper, soap, water fountains, coffee)",
+      "type": "supplier_category",
+      "tier": -1,
+      "relationship": "Direct purchases (HWB); some captive suppliers",
+      "named_companies": [
+        {
+          "name": "Malongo (coffee; partnership described as captive supplier)",
+          "source": "[#1976](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1976)"
+        },
+        {
+          "name": "Kennedy Hygiene (own appliance plant)",
+          "source": "[#5348](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-5348)"
+        }
+      ],
+      "notes": "Ecolabel-certified paper for hand-towel/toilet dispensers (supplier unnamed) [#4562](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-4562). ProntoNLP peer model also lists Bunzl plc and Paul Hartmann AG under 'supplier' but with competitor-style reasons; not corroborated (see raw 001)."
+    },
+    {
+      "id": "U_LAUNDRY_EQUIP",
+      "name": "Industrial laundry equipment (tunnel washers, dryers, ironers/calenders, boilers)",
+      "type": "supplier_category",
+      "tier": -1,
+      "relationship": "Framework agreements for industrial equipment; captive/oligopoly supply",
+      "named_companies": [],
+      "notes": "'suppliers of industrial laundry or traceability equipment' cited as captive (monopoly/oligopoly) [#1976](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1976); framework agreements [#1998](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1998); some equipment refurbished and reinstalled [#2766](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-2766). Manufacturer names not available."
+    },
+    {
+      "id": "U_TRACE_IT",
+      "name": "Traceability / RFID / IT systems",
+      "type": "supplier_category",
+      "tier": -1,
+      "relationship": "Captive suppliers for traceability equipment; in-house software (GLAD routing, eForce CRM)",
+      "named_companies": [],
+      "notes": "RFID traceability roll-out [#680](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-680); captive traceability-equipment suppliers [#1976](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1976); GLAD in-house routing tool [#3186](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-3186); eForce CRM roll-out [#553](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-553). Vendor names not available."
+    },
+    {
+      "id": "U_CHEMICALS",
+      "name": "Chemicals & cleaning products (detergents, bleaching agents, CO2 for neutralisation)",
+      "type": "supplier_category",
+      "tier": -1,
+      "relationship": "Framework agreements for production inputs such as cleaning products",
+      "named_companies": [],
+      "notes": "Framework agreements [#1998](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1998); fuel, paper and chemicals inflation = EUR 7m cost impact in H1 2026 [#75](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-75); CO2 recovered from fumes replaces purchased CO2 for wastewater neutralisation [#484](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-484). Supplier names not available."
+    },
+    {
+      "id": "U_ENERGY",
+      "name": "Energy (natural gas, electricity)",
+      "type": "supplier_category",
+      "tier": -1,
+      "relationship": "Purchasing agreements in all countries; centrally hedged (layered, up to N+3)",
+      "named_companies": [],
+      "notes": "Energy = 6-7% of revenue [#614](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-614); ~EUR 190m energy bill expected 2026 [#446](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-446); hedges 2026 93% gas/94% electricity, 2027 81%/87%, 2028 61%/53% (Jul-2026) [#76](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-76); agreements in all countries [#284](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-284). Utility names not available."
+    },
+    {
+      "id": "U_WATER",
+      "name": "Water (municipal networks, groundwater, surface water) & wastewater treatment",
+      "type": "utility_input",
+      "tier": -1,
+      "relationship": "Withdrawal and discharge under permits; most laundries connected to municipal wastewater networks",
+      "named_companies": [],
+      "notes": "'Availability of water resources is a major criterion' [#2017](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-2017); municipal network connection [#4702](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-4702); French prefectural orders set withdrawal/discharge limits [#4791](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-4791)."
+    },
+    {
+      "id": "U_VEHICLES",
+      "name": "Vehicles & fuel (delivery fleet)",
+      "type": "supplier_category",
+      "tier": -1,
+      "relationship": "Fleet purchased/leased from vehicle manufacturers; fuel purchased locally",
+      "named_companies": [],
+      "notes": "Over 11,800 vehicles (~65% deliveries) [#3097](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-3097); works with vehicle designers/manufacturers (unnamed) to reduce weight [#3181](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-3181); transition to biogas/biodiesel/electric [#86](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-86)."
+    },
+    {
+      "id": "U_LABOUR",
+      "name": "Labour (plant operators, drivers/service agents, sales)",
+      "type": "input_labour",
+      "tier": -1,
+      "relationship": "Employees (58,445 per S&P Capital IQ); temporary/annualised-hours contracts used for flexibility",
+      "named_companies": [],
+      "notes": "60% of costs related to labour [#3309](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3309); 2026 wage inflation ~4% group [#703](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-703); minimum wage +23% Colombia, +13% Mexico (2026) [#147](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-147). Headcount: S&P Capital IQ (C_27989), source link unavailable."
+    },
+    {
+      "id": "E_PURCHASING",
+      "name": "Central purchasing & supply chain (category management, PCO/PLO suppliers, European warehouses, CLIP programme)",
+      "type": "elis_operation",
+      "tier": 0,
+      "relationship": "Selects/approves suppliers, master agreements, multi-sourcing, inventory of best-sellers",
+      "named_companies": [
+        {
+          "name": "Elis SA (Group Purchasing Department)",
+          "source": "[#1975](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1975)"
+        }
+      ],
+      "notes": "Centralised purchasing with local buyers [#1975](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1975); warehouses in Europe, CLIP programme [#1995](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1995); three group workwear warehouses with personalisation [#425](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-425)."
+    },
+    {
+      "id": "E_PLANTS",
+      "name": "Laundries / processing centres (>373) incl. cleanroom plants",
+      "type": "elis_operation",
+      "tier": 0,
+      "relationship": "Washing, finishing, repair, quality control; plants generally 30-100 km from customers",
+      "named_companies": [],
+      "notes": "'over 373 laundries' [#2031](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-2031); France: 69 plants and 46 distribution centres [#1074](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-1074); 30-100 km radius [#3179](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-3179); full plant build 12-14 months, lead time driven by real-estate/licensing [#381](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-381)."
+    },
+    {
+      "id": "E_LOGISTICS",
+      "name": "Route-based logistics (deliver clean / collect soiled)",
+      "type": "elis_operation",
+      "tier": 0,
+      "relationship": "Fixed delivery routes; trucks full in both directions",
+      "named_companies": [],
+      "notes": ">6,000 routes per day, 5m km per week [#286](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-286); 'full vehicles in both directions' [#3180](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-3180); GLAD routing [#3186](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-3186); logistics insourcing [#3098](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-3098)."
+    },
+    {
+      "id": "E_SALES_SERVICE",
+      "name": "Sales, key accounts & customer care (incl. SME salesforce, eForce CRM)",
+      "type": "elis_operation",
+      "tier": 0,
+      "relationship": "Contracting (typically 4-year initial term), renewals (HiFi programme), cross-selling",
+      "named_companies": [],
+      "notes": "4-year initial term, termination fee ~ residual value [#1946](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1946); >25% of sales via salesforce dedicated to small customers (up to 60% in France/Southern Europe) [#614](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-614)."
+    },
+    {
+      "id": "E_SPECIALTY",
+      "name": "Specialty services: pest control (13 countries), cleanroom (21 countries), medical waste, beverages",
+      "type": "elis_operation",
+      "tier": 0,
+      "relationship": "Cross-sold service lines",
+      "named_companies": [],
+      "notes": "Cleanroom FY2025 EUR 275m (+8.5%) [#129](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-129); Pest control ~EUR 80m (~+9%) [#133](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-133); country coverage [#139](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-139)."
+    },
+    {
+      "id": "E_CIRCULAR",
+      "name": "Repair, refurbishment, reuse & recycling of end-of-life items",
+      "type": "elis_operation",
+      "tier": 0,
+      "relationship": "Extends product life; end-of-life textiles recycled (wipes, insulation, textile-to-textile pilots) or donated",
+      "named_companies": [],
+      "notes": ">87% of used flat linen recycled, 77% as wipes [#4617](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-4617); partnerships with textile recycling players (unnamed) [#4607](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-4607); repair/refurbishing units [#4757](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-4757)."
+    },
+    {
+      "id": "C_HOSPITALITY",
+      "name": "Hospitality (hotels, restaurants) — 27% of 2025 revenue",
+      "type": "customer_segment",
+      "tier": 1,
+      "relationship": "Flat linen (bed, bath, table), workwear, HWB under rental & maintenance contracts",
+      "named_companies": [
+        {
+          "name": "[ BNB] (as transcribed; identity unverified)",
+          "source": "[#1091](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-1091)"
+        },
+        {
+          "name": "[ Barrier ] perimeter in [ Deville ] (as transcribed; +EUR 1.8m per year; identity unverified)",
+          "source": "[#1091](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-1091)"
+        }
+      ],
+      "notes": "27% of revenue [#1863](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1863); France hospitality share 'over 50%' [#1084](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-1084); Mexico hospitality TAM ~EUR 1bn with Elis 1% share [#2848](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-2848)."
+    },
+    {
+      "id": "C_HEALTHCARE",
+      "name": "Healthcare (hospitals & clinics, care homes, disability institutions) — ~30% of revenue; large public share",
+      "type": "customer_segment",
+      "tier": 1,
+      "relationship": "Flat linen, scrubs/workwear, residents' linen; many public tenders",
+      "named_companies": [
+        {
+          "name": "Leading German private healthcare group (unnamed; ~EUR 20m revenue in 2027)",
+          "source": "[#108](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-108)"
+        },
+        {
+          "name": "Mexican federal healthcare system (public tender, multi-lot)",
+          "source": "[#136](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-136)"
+        },
+        {
+          "name": "Public hospitals in France, Brazil and the UK (2023 contract wins)",
+          "source": "[#160](https://gam.prontonlp.com/#/ref/$SENTID_T000003007279-160)"
+        },
+        {
+          "name": "São Paulo state public hospitals (contracts under investigation)",
+          "source": "[#405](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000237931084-405)"
+        }
+      ],
+      "notes": "Healthcare ~30% of revenue [#4887](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-4887); 'a lot of public contracts' [#741](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-741); German budget constraints [#5331](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-5331)."
+    },
+    {
+      "id": "C_INDUSTRY",
+      "name": "Industry (food, chemicals & pharma, industrial services, heavy industry, semiconductors) — ~26% of revenue [calc]",
+      "type": "customer_segment",
+      "tier": 1,
+      "relationship": "Workwear/PPE, cleanroom garments, mats, wipers, washroom",
+      "named_companies": [
+        {
+          "name": "Big multinational semiconductor customers (unnamed; cleanroom)",
+          "source": "[#2952](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-2952)"
+        }
+      ],
+      "notes": "Industry sub-sectors [#654](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-654); share ~25.6% derived from regional splits [calc] (sources [#131](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-131) [#147](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-147))."
+    },
+    {
+      "id": "C_TRADE_SERVICES",
+      "name": "Trade & Services (retail, services, facility-management companies, SMEs) — ~18% of revenue [calc]",
+      "type": "customer_segment",
+      "tier": 1,
+      "relationship": "Workwear, washroom hygiene, beverages, mats",
+      "named_companies": [
+        {
+          "name": "Sodexo (large catering account, Germany; Elis share 'close to 20%' of that segment)",
+          "source": "[#1342](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-1342)"
+        },
+        {
+          "name": "Medium-sized facility management companies (unnamed)",
+          "source": "[#1181](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-1181)"
+        }
+      ],
+      "notes": "Segment description [#55](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-55); share ~17.8% derived from regional splits [calc]."
+    },
+    {
+      "id": "C_PUBLIC_VS_PRIVATE",
+      "name": "Public vs private buyers",
+      "type": "customer_attribute",
+      "tier": 1,
+      "relationship": "Public buyers procure via tenders (price-weighted); private via negotiated contracts",
+      "named_companies": [],
+      "notes": "Some German hospital tenders price-only [#847](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-847); public markets in France a growth area [#640](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-640). Public share of revenue not disclosed."
+    },
+    {
+      "id": "EU_END_USERS",
+      "name": "End users: hotel guests, patients & care-home residents, workers/wearers, visitors",
+      "type": "end_user",
+      "tier": 2,
+      "relationship": "Use Elis-owned textiles/appliances on customer premises",
+      "named_companies": [],
+      "notes": "Purpose statement: essential hygiene for customers, residents, patients, users and visitors; protecting workers [#4880](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-4880)."
+    },
+    {
+      "id": "S_EMPLOYEES",
+      "name": "Employees & employee representatives (European Works Council)",
+      "type": "stakeholder",
+      "tier": "stakeholder",
+      "relationship": "Social dialogue; strike/turnover risk flagged as material",
+      "named_companies": [
+        {
+          "name": "Elis European Works Council (28 members, 22 countries)",
+          "source": "[#3484](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-3484)"
+        }
+      ],
+      "notes": "Strike risk IRO8 [#3399](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-3399)."
+    },
+    {
+      "id": "S_REGULATORS",
+      "name": "Regulators & authorities (environmental permits, competition, public procurement)",
+      "type": "stakeholder",
+      "tier": "stakeholder",
+      "relationship": "Permits/prefectural orders; antitrust & merger control; anti-corruption probes",
+      "named_companies": [
+        {
+          "name": "French Competition Authority (Decision No. 07-D-21, 26-Jun-2007)",
+          "source": "[#2154](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-2154)"
+        },
+        {
+          "name": "French prefectural authorities (site operating orders)",
+          "source": "[#4791](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-4791)"
+        },
+        {
+          "name": "Brazilian Federal Police (Lavatec/Lavebras anti-corruption investigation)",
+          "source": "[#5931](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-5931)"
+        },
+        {
+          "name": "Five authorities of the state of São Paulo (public hospital contracts)",
+          "source": "[#405](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000237931084-405)"
+        },
+        {
+          "name": "Australian antitrust authority (blocked flat-linen mergers twice — context for Elis not entering)",
+          "source": "[#3072](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3072)"
+        }
+      ],
+      "notes": "Merger-control risk [#2150](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-2150); no anticompetitive fines in 2025 [#5471](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-5471)."
+    },
+    {
+      "id": "S_LENDERS",
+      "name": "Lenders & bondholders (EMTN bonds, USPP, RCF, NEU CP, receivables securitisation)",
+      "type": "stakeholder",
+      "tier": "stakeholder",
+      "relationship": "Financing; investment-grade issuer",
+      "named_companies": [
+        {
+          "name": "Oddo BHF (liquidity agreement provider)",
+          "source": "[#6663](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6663)"
+        }
+      ],
+      "notes": "RCF EUR 870m to Nov-2028 undrawn; bond refinancing [#2090](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-2090); securitisation up to EUR 200.0m (France) [#6108](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6108); USPP cross-currency swaps [#6456](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6456)."
+    },
+    {
+      "id": "S_SHAREHOLDERS",
+      "name": "Shareholders with agreements",
+      "type": "stakeholder",
+      "tier": "stakeholder",
+      "relationship": "Investment agreements (anti-dilution, lock-up, standstill)",
+      "named_companies": [
+        {
+          "name": "CPP Investments (anti-dilution right while holding at least 8%)",
+          "source": "[#6717](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6717)"
+        },
+        {
+          "name": "BWGI (12-month lock-up; 25% standstill for 10 years; no transfer to competitors without approval)",
+          "source": "[#6728](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6728) [#6729](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6729)"
+        }
+      ],
+      "notes": "Detailed ownership is covered by the governance agent (B)."
+    },
+    {
+      "id": "S_LOCAL_AUTH",
+      "name": "Local authorities & municipal utilities (water networks, planning/real estate)",
+      "type": "stakeholder",
+      "tier": "stakeholder",
+      "relationship": "Municipal wastewater networks; licensing/real-estate constraints on plant siting",
+      "named_companies": [],
+      "notes": "Municipal network connection [#4702](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-4702); plant lead time driven by real-estate/licensing [#381](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-381)."
+    },
+    {
+      "id": "S_INDUSTRY_BODIES",
+      "name": "Trade associations",
+      "type": "stakeholder",
+      "tier": "stakeholder",
+      "relationship": "Advocacy/positions",
+      "named_companies": [
+        {
+          "name": "AFEP (Association française des entreprises privées)",
+          "source": "[#2788](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-2788)"
+        },
+        {
+          "name": "GEIST (Groupement des entreprises industrielles de services textiles)",
+          "source": "[#2788](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-2788)"
+        },
+        {
+          "name": "ETSA (European Textile Services Association)",
+          "source": "[#2788](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-2788)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "S_COMPETITORS",
+      "name": "Competitors & substitutes (context)",
+      "type": "competitive_environment",
+      "tier": "context",
+      "relationship": "Compete for contracts; substitutes = in-house laundries, purchase/home-washing, disposables",
+      "named_companies": [
+        {
+          "name": "Cintas Corporation",
+          "source": "[#3092](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3092)"
+        },
+        {
+          "name": "Vestis Corporation",
+          "source": "[#3092](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3092)"
+        },
+        {
+          "name": "UniFirst Corporation",
+          "source": "[#3092](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3092)"
+        },
+        {
+          "name": "[ Johnson ] (UK; Johnson Service Group per ProntoNLP peer model)",
+          "source": "[#749](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-749)"
+        },
+        {
+          "name": "Rentokil Initial plc (ProntoNLP peer model, strong competitor)",
+          "source": "[Rentokil Initial plc](https://gam.prontonlp.com/#/ref/$COMPANY_411004)"
+        }
+      ],
+      "notes": "Fragmented local players, inter-hospital laundries, HWB paper suppliers, workwear manufacturers, carpet sellers [#1902](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1902)."
+    }
+  ],
+  "edges": [
+    {
+      "from": "U_FIBRES",
+      "to": "U_TEXTILE_MAKERS",
+      "label": "cotton/polyester yarn & fabric"
+    },
+    {
+      "from": "U_FIBRES",
+      "to": "U_OWN_MFG",
+      "label": "fabric for own garment & table-linen plants"
+    },
+    {
+      "from": "U_TEXTILE_MAKERS",
+      "to": "E_PURCHASING",
+      "label": "flat linen, workwear, mats (prices fixed 1 yr; tenders 1-2x/yr)"
+    },
+    {
+      "from": "U_OWN_MFG",
+      "to": "E_PURCHASING",
+      "label": "captive garments, table linen, hygiene appliances"
+    },
+    {
+      "from": "U_HWB_PRODUCTS",
+      "to": "E_PURCHASING",
+      "label": "dispensers, paper, soap, fountains, coffee (Malongo)"
+    },
+    {
+      "from": "U_LAUNDRY_EQUIP",
+      "to": "E_PLANTS",
+      "label": "washers, dryers, ironers, boilers (framework agreements)"
+    },
+    {
+      "from": "U_TRACE_IT",
+      "to": "E_PLANTS",
+      "label": "RFID/traceability equipment"
+    },
+    {
+      "from": "U_TRACE_IT",
+      "to": "E_LOGISTICS",
+      "label": "routing/PDA tools (GLAD)"
+    },
+    {
+      "from": "U_TRACE_IT",
+      "to": "E_SALES_SERVICE",
+      "label": "CRM (eForce)"
+    },
+    {
+      "from": "U_CHEMICALS",
+      "to": "E_PLANTS",
+      "label": "detergents, bleaching agents"
+    },
+    {
+      "from": "U_ENERGY",
+      "to": "E_PLANTS",
+      "label": "gas & electricity (hedged, 6-7% of revenue)"
+    },
+    {
+      "from": "U_WATER",
+      "to": "E_PLANTS",
+      "label": "process water; wastewater discharge"
+    },
+    {
+      "from": "U_VEHICLES",
+      "to": "E_LOGISTICS",
+      "label": "~11,800 vehicles + fuel"
+    },
+    {
+      "from": "U_LABOUR",
+      "to": "E_PLANTS",
+      "label": "operators (labour ~60% of costs)"
+    },
+    {
+      "from": "U_LABOUR",
+      "to": "E_LOGISTICS",
+      "label": "drivers/service agents"
+    },
+    {
+      "from": "U_LABOUR",
+      "to": "E_SALES_SERVICE",
+      "label": "sales & customer care"
+    },
+    {
+      "from": "E_PURCHASING",
+      "to": "E_PLANTS",
+      "label": "new linen/garments/appliances from warehouses"
+    },
+    {
+      "from": "E_PLANTS",
+      "to": "E_LOGISTICS",
+      "label": "clean, repaired items"
+    },
+    {
+      "from": "E_LOGISTICS",
+      "to": "C_HOSPITALITY",
+      "label": "deliver clean / collect soiled (fixed routes)"
+    },
+    {
+      "from": "E_LOGISTICS",
+      "to": "C_HEALTHCARE",
+      "label": "deliver clean / collect soiled"
+    },
+    {
+      "from": "E_LOGISTICS",
+      "to": "C_INDUSTRY",
+      "label": "deliver clean / collect soiled"
+    },
+    {
+      "from": "E_LOGISTICS",
+      "to": "C_TRADE_SERVICES",
+      "label": "deliver clean / collect soiled"
+    },
+    {
+      "from": "C_HOSPITALITY",
+      "to": "E_LOGISTICS",
+      "label": "soiled items returned on same truck"
+    },
+    {
+      "from": "C_HEALTHCARE",
+      "to": "E_LOGISTICS",
+      "label": "soiled items returned"
+    },
+    {
+      "from": "C_INDUSTRY",
+      "to": "E_LOGISTICS",
+      "label": "soiled items returned"
+    },
+    {
+      "from": "C_TRADE_SERVICES",
+      "to": "E_LOGISTICS",
+      "label": "soiled items returned"
+    },
+    {
+      "from": "E_LOGISTICS",
+      "to": "E_PLANTS",
+      "label": "soiled items back to processing centre"
+    },
+    {
+      "from": "E_SALES_SERVICE",
+      "to": "C_HOSPITALITY",
+      "label": "contracts (~4-yr terms)"
+    },
+    {
+      "from": "E_SALES_SERVICE",
+      "to": "C_HEALTHCARE",
+      "label": "contracts / public tenders"
+    },
+    {
+      "from": "E_SALES_SERVICE",
+      "to": "C_INDUSTRY",
+      "label": "contracts"
+    },
+    {
+      "from": "E_SALES_SERVICE",
+      "to": "C_TRADE_SERVICES",
+      "label": "contracts (incl. SMEs)"
+    },
+    {
+      "from": "E_SPECIALTY",
+      "to": "C_INDUSTRY",
+      "label": "cleanroom garments, pest control"
+    },
+    {
+      "from": "E_SPECIALTY",
+      "to": "C_HOSPITALITY",
+      "label": "pest control, beverages"
+    },
+    {
+      "from": "E_SPECIALTY",
+      "to": "C_HEALTHCARE",
+      "label": "medical waste, pest control"
+    },
+    {
+      "from": "E_PLANTS",
+      "to": "E_CIRCULAR",
+      "label": "end-of-life items to repair/recycling"
+    },
+    {
+      "from": "C_PUBLIC_VS_PRIVATE",
+      "to": "C_HEALTHCARE",
+      "label": "public tenders dominate parts of healthcare"
+    },
+    {
+      "from": "C_HOSPITALITY",
+      "to": "EU_END_USERS",
+      "label": "hotel guests, diners"
+    },
+    {
+      "from": "C_HEALTHCARE",
+      "to": "EU_END_USERS",
+      "label": "patients, residents, staff"
+    },
+    {
+      "from": "C_INDUSTRY",
+      "to": "EU_END_USERS",
+      "label": "workers/wearers"
+    },
+    {
+      "from": "C_TRADE_SERVICES",
+      "to": "EU_END_USERS",
+      "label": "workers, visitors"
+    },
+    {
+      "from": "S_EMPLOYEES",
+      "to": "E_PLANTS",
+      "label": "labour relations / social dialogue"
+    },
+    {
+      "from": "S_REGULATORS",
+      "to": "E_PLANTS",
+      "label": "operating permits, environmental limits"
+    },
+    {
+      "from": "S_REGULATORS",
+      "to": "E_SALES_SERVICE",
+      "label": "competition law, public-procurement rules"
+    },
+    {
+      "from": "S_LENDERS",
+      "to": "E_PURCHASING",
+      "label": "financing of capex/linen (bonds, RCF, securitisation)"
+    },
+    {
+      "from": "S_SHAREHOLDERS",
+      "to": "E_SALES_SERVICE",
+      "label": "equity capital (governance)"
+    },
+    {
+      "from": "S_LOCAL_AUTH",
+      "to": "E_PLANTS",
+      "label": "water networks; siting/licensing"
+    },
+    {
+      "from": "S_INDUSTRY_BODIES",
+      "to": "S_REGULATORS",
+      "label": "industry advocacy"
+    },
+    {
+      "from": "S_COMPETITORS",
+      "to": "C_HOSPITALITY",
+      "label": "compete for contracts"
+    },
+    {
+      "from": "S_COMPETITORS",
+      "to": "C_HEALTHCARE",
+      "label": "compete in tenders (incl. in-house laundries)"
+    },
+    {
+      "from": "S_COMPETITORS",
+      "to": "C_INDUSTRY",
+      "label": "compete (incl. workwear manufacturers = direct purchase)"
+    },
+    {
+      "from": "S_COMPETITORS",
+      "to": "C_TRADE_SERVICES",
+      "label": "compete (incl. HWB paper suppliers)"
+    }
+  ]
+}

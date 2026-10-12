@@ -1,0 +1,27 @@
+{
+  "_call": "F_segments_kpis-087",
+  "_params": {"sentenceIds": ["T000003468571-2462", "T000003468571-2840", "T000003468571-1457"], "beforeSentence": 4, "afterSentence": 3},
+  "_note": "Verbatim response below.",
+  "response": {
+  "results": [
+    {
+      "sentenceId": "T000003468571-2462",
+      "text": "What is the figures of Brazil today? So today, Brazil is EUR 265 million as a revenue. We have more than 10,000 employees. We have 105 sites. Among these sites, a big number, we have 49 big laundries and we have 56 in situ laundries. What this in situ laundries means? We are a big country, and there are several big customers that are in remote locations. So it does not pay out to build a big laundry to serve just one guy. [#2462](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-2462)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    },
+    {
+      "sentenceId": "T000003468571-2840",
+      "text": "We have been doing this for a couple of years now, and we plan that there is big opportunities as there are a lot of workers using uniforms and they have to be they have to change they wash their uniforms at home mainly, and we have to work a lot to build this market, that is virgin. Talking about the opportunities and the size of the markets in Mexico. The addressable market today is EUR 1.5 billion. 64% of it is yet in on-premise laundries, so laundries that are in the sight of the potential customer. We work a lot to give consultation to these opportunities and try to close the laundries. So they enter and we can sign contracts. We have done these many times. [#2840](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-2840)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    },
+    {
+      "sentenceId": "T000003468571-1457",
+      "text": "We are almost not there. Hospitality in Italy and workwear everywhere. So today, our position is a strong position in Southern Europe. We have 90 laundries and depots across the 3 countries. We cover fully Spain and Portugal. We cover mainly Rome and also from in Italy. The altogether is around 5,000 people working within the 3 countries. [#1457](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-1457)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    }
+  ]
+}
+}

@@ -31,3 +31,15 @@ Raw responses: `provenance/raw/main/`. S&P Capital IQ responses carried empty `s
 ## Non-MCP inputs
 - Client-supplied template: `Sanken_Electric_6707_IC_Memo_EN.pdf` (17 pages) — read for format only (layout/sections of the IC memo). No data from it is used.
 - Web browsing: none. Financial_Datasets connector: not used (non-S&P source). SQL: none.
+
+## Line items with Capital IQ doc-viewer source links (~22:55 UTC)
+S&P statement-level calls (M-006..M-012) return empty `sources`; the line-item endpoint returns a Capital IQ doc-viewer URL per value (FY2017 onward). These are now used to hyperlink headline S&P figures.
+
+| ID | Tool | Parameters | Response summary | Raw file |
+|---|---|---|---|---|
+| M-013 | S&P `get_financial_line_item_from_identifiers` | `{"identifiers":["C_27989"],"line_item":"total_revenue","period_type":"annual","calendar_type":"fiscal","start_year":2016,"end_year":2025}` | Total revenues FY2016–FY2025 with doc-viewer links FY2017+ | `013_018_spcapiq_line_items_with_sources.csv` |
+| M-014 | same tool | `line_item: "ebita"` (same period params) | EBITA FY2016–FY2025 (S&P standardised) | same |
+| M-015 | same tool | `line_item: "ebit"` | EBIT FY2016–FY2025 | same |
+| M-016 | same tool | `line_item: "cash_from_operations"` | CFO FY2016–FY2025 | same |
+| M-017 | same tool | `line_item: "capital_expenditure"` | Capex FY2016–FY2025 | same |
+| M-018 | same tool | `line_item: "gross_profit"` | Gross profit FY2016–FY2025 | same |

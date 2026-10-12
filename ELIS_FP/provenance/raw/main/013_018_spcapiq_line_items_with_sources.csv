@@ -1,0 +1,65 @@
+# S&P Capital IQ line-item responses (calls M-013..M-018), mcp__S_P_-_Deterministic_Retrieval__get_financial_line_item_from_identifiers
+# params (each): {"identifiers":["C_27989"],"line_item":<item>,"period_type":"annual","calendar_type":"fiscal","start_year":2016,"end_year":2025}
+# response metadata: data_source "Capital IQ", currency EUR; notes: (1) "When displaying `line_item` values that include a doc-viewer `url` in their `sources` attribute, turn the values into clickable links. Format as markdown links: [$123.4B](source_url). Do not add separate 'Source' labels." (2) fiscal-period warning (3) FY wording note.
+# Lossless re-encoding: one row per period; value_raw exactly as returned; source_url exactly as returned (FY2016 rows had empty sources). period_end_date = 31-Dec of the FY, num_months 12.
+call_id,line_item_param,line_item_name,period,value_raw,source_type,source_url
+M-013,total_revenue,Total Revenues,FY2016,1512800000.000000,,
+M-013,total_revenue,Total Revenues,FY2017,2193600000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=105000747&uctSearch=2193.600000
+M-013,total_revenue,Total Revenues,FY2018,3133300000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=132938811&uctSearch=3133.300000
+M-013,total_revenue,Total Revenues,FY2019,3281800000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=154128743&uctSearch=3281.800000
+M-013,total_revenue,Total Revenues,FY2020,2806300000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=178585396&uctSearch=2806.300000
+M-013,total_revenue,Total Revenues,FY2021,3048300000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=200992035&uctSearch=3048.300000
+M-013,total_revenue,Total Revenues,FY2022,3820900000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=219356666&uctSearch=3820.900000
+M-013,total_revenue,Total Revenues,FY2023,4309400000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=237899676&uctSearch=4309.400000
+M-013,total_revenue,Total Revenues,FY2024,4573700000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=4573.700000
+M-013,total_revenue,Total Revenues,FY2025,4796800000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=4796.800000
+M-014,ebita,EBITA,FY2016,213900000.000000,,
+M-014,ebita,EBITA,FY2017,283600000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=105000747&uctSearch=283.600000
+M-014,ebita,EBITA,FY2018,406100000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=132938811&uctSearch=406.100000
+M-014,ebita,EBITA,FY2019,439800000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=154128743&uctSearch=439.800000
+M-014,ebita,EBITA,FY2020,280700000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=178585396&uctSearch=280.700000
+M-014,ebita,EBITA,FY2021,369400000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=200992035&uctSearch=369.400000
+M-014,ebita,EBITA,FY2022,541000000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=219356666&uctSearch=541.000000
+M-014,ebita,EBITA,FY2023,664500000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=237899676&uctSearch=664.500000
+M-014,ebita,EBITA,FY2024,713300000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=713.300000
+M-014,ebita,EBITA,FY2025,723300000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=723.300000
+M-015,ebit,EBIT,FY2016,161400000.000000,,
+M-015,ebit,EBIT,FY2017,204500000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=105000747&uctSearch=204.500000
+M-015,ebit,EBIT,FY2018,293600000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=132938811&uctSearch=293.600000
+M-015,ebit,EBIT,FY2019,351300000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=154128743&uctSearch=351.300000
+M-015,ebit,EBIT,FY2020,182100000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=178585396&uctSearch=182.100000
+M-015,ebit,EBIT,FY2021,270700000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=200992035&uctSearch=270.700000
+M-015,ebit,EBIT,FY2022,439100000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=219356666&uctSearch=439.100000
+M-015,ebit,EBIT,FY2023,557100000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=237899676&uctSearch=557.100000
+M-015,ebit,EBIT,FY2024,605600000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=605.600000
+M-015,ebit,EBIT,FY2025,613900000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=613.900000
+M-016,cash_from_operations,Cash from Operations,FY2016,424800000.000000,,
+M-016,cash_from_operations,Cash from Operations,FY2017,421600000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=105000747&uctSearch=421.600000
+M-016,cash_from_operations,Cash from Operations,FY2018,853300000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=132938811&uctSearch=853.300000
+M-016,cash_from_operations,Cash from Operations,FY2019,1018500000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=154128743&uctSearch=1018.500000
+M-016,cash_from_operations,Cash from Operations,FY2020,847600000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=178585396&uctSearch=847.600000
+M-016,cash_from_operations,Cash from Operations,FY2021,961600000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=200992035&uctSearch=961.600000
+M-016,cash_from_operations,Cash from Operations,FY2022,1091200000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=219356666&uctSearch=1091.200000
+M-016,cash_from_operations,Cash from Operations,FY2023,1325600000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=237899676&uctSearch=1325.600000
+M-016,cash_from_operations,Cash from Operations,FY2024,1452100000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=1452.100000
+M-016,cash_from_operations,Cash from Operations,FY2025,1510600000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=1510.600000
+M-017,capital_expenditure,Capital Expenditure,FY2016,-252500000.000000,,
+M-017,capital_expenditure,Capital Expenditure,FY2017,-465100000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=105000747&uctSearch=-465.100000
+M-017,capital_expenditure,Capital Expenditure,FY2018,-634400000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=132938811&uctSearch=-634.400000
+M-017,capital_expenditure,Capital Expenditure,FY2019,-659100000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=154128743&uctSearch=-659.100000
+M-017,capital_expenditure,Capital Expenditure,FY2020,-483200000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=178585396&uctSearch=-483.200000
+M-017,capital_expenditure,Capital Expenditure,FY2021,-552800000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=200992035&uctSearch=-552.800000
+M-017,capital_expenditure,Capital Expenditure,FY2022,-673300000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=219356666&uctSearch=-673.300000
+M-017,capital_expenditure,Capital Expenditure,FY2023,-797100000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=237899676&uctSearch=-797.100000
+M-017,capital_expenditure,Capital Expenditure,FY2024,-860800000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=-860.800000
+M-017,capital_expenditure,Capital Expenditure,FY2025,-864000000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=-864.000000
+M-018,gross_profit,Gross Profit,FY2016,457200000.000000,,
+M-018,gross_profit,Gross Profit,FY2017,640600000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=105000747&uctSearch=640.600000
+M-018,gross_profit,Gross Profit,FY2018,933100000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=132938811&uctSearch=933.100000
+M-018,gross_profit,Gross Profit,FY2019,981100000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=154128743&uctSearch=981.100000
+M-018,gross_profit,Gross Profit,FY2020,835000000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=178585396&uctSearch=835.000000
+M-018,gross_profit,Gross Profit,FY2021,932100000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=200992035&uctSearch=932.100000
+M-018,gross_profit,Gross Profit,FY2022,1169100000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=219356666&uctSearch=1169.100000
+M-018,gross_profit,Gross Profit,FY2023,1416100000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=237899676&uctSearch=1416.100000
+M-018,gross_profit,Gross Profit,FY2024,1504200000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=1504.200000
+M-018,gross_profit,Gross Profit,FY2025,1610200000.000000,doc-viewer line item,https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=1610.200000

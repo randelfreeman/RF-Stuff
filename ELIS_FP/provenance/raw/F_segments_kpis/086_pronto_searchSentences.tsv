@@ -1,0 +1,13 @@
+# Lossless TSV re-encoding of ProntoNLP searchSentences response (call F_segments_kpis-086). Rows in returned (relevance) order; every field kept.
+# params: {"topicSearchQuery":"Group plants laundries number worldwide","transcriptsIds":["T000003468571","T000003676656","T000003394029"],"size":8,"autoContext":false}
+# Fields constant for every row: companyId=27989 | companyName=[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989) | transcriptId=T000003468571 (all 8 rows from the Investor Day) | documentType=Analyst/Investor Day | sector=Industrials-Commercial Services and Supplies | date=2025-05-27 | title=[Elis SA - Analyst/Investor Day](https://gam.prontonlp.com/#/ref/$DOCID_T000003468571)
+# Response had no "total" field; 8 results.
+sentenceId	section	speakerType	text
+T000003468571-2184	AnalystInvestorDay_PresenterSpeech	Executives_COO	This is a laundry business. [#2184](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-2184)
+T000003468571-265	AnalystInvestorDay_PresenterSpeech	Executives	Okay, so on this video, you saw some midsize and big laundries that are able to produce and deliver customers with 400 tonnes of flat linen and up to 150,000 pieces of garments. [#265](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-265)
+T000003468571-2462	AnalystInvestorDay_PresenterSpeech	Executives	Among these sites, a big number, we have 49 big laundries and we have 56 in situ laundries. [#2462](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-2462)
+T000003468571-2873	AnalystInvestorDay_PresenterSpeech	Executives	This is an example of what we find in the market place of on-premise laundries. [#2873](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-2873)
+T000003468571-1457	AnalystInvestorDay_PresenterSpeech	Executives_COO	We have 90 laundries and depots across the 3 countries. [#1457](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-1457)
+T000003468571-2851	AnalystInvestorDay_PresenterSpeech	Executives	82% of this potential market still have laundries in place. [#2851](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-2851)
+T000003468571-2840	AnalystInvestorDay_PresenterSpeech	Executives	64% of it is yet in on-premise laundries, so laundries that are in the sight of the potential customer. [#2840](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-2840)
+T000003468571-1716	AnalystInvestorDay_PresenterSpeech	Executives	If you look where we are, I think we have talked about the numbers, we have over 33 cleanroom laundries. [#1716](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-1716)

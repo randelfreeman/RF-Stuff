@@ -494,6 +494,12 @@
           {
             "periodEndDate": "2027-01-01",
             "effectiveDate": "2025-01-09T09:21:10Z",
+            "expectedValue": 30018930,
+            "id": "309966-netIncomeGaap-5"
+          },
+          {
+            "periodEndDate": "2027-04-01",
+            "effectiveDate": "2025-01-09T09:21:10Z",
             "expectedValue": 45626780,
             "id": "309966-netIncomeGaap-6"
           },
