@@ -6,3 +6,4 @@
   - Each following line = one result in the ORIGINAL order, holding `sentenceId`, `text` (verbatim, including its `[#N](url)` citation link), and `section` / `speakerType` only when present in the original result. The original `transcriptId` of a result = its `sentenceId` up to the last `-`; its `title`, `documentType`, `date` = `docs[transcriptId]`; plus all `constant_fields`.
   - If the original response carried `total` it is recorded in the header as `total`.
   - Reconstruction is exact: no values were altered, abbreviated or dropped.
+  - Multi-company (or multi-sector) responses: any of `companyId` / `companyName` / `sector` that is NOT identical across all results is omitted from `constant_fields` and stored per document in `docs[transcriptId]` (these fields depend only on the document). The header `_reencoding` note says so.
