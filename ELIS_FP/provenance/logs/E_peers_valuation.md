@@ -55,3 +55,71 @@ Where a raw file is a lossless re-encoding (CSV/JSONL keeping every field and ev
 | E_peers_valuation-047 | 2026-10-12T22:58:00Z | mcp__Pronto__getStockPrices | {"companiesIds":[13 ids as in 043],"dateRange":{"gte":"2020-01-01","lte":"now"},"interval":"month"} | Monthly OHLC 2020-01..2026-10 for 13 companies; auto-saved verbatim and copied | raw/E_peers_valuation/047_pronto_getStockPrices_month_2020_13ids.json |
 | E_peers_valuation-048 | 2026-10-12T22:58:00Z | mcp__Pronto__getCompanyConsensus | {"companiesIds":[13 ids],"dateRange":{"gte":"now-1y/d","lte":"now+3y/d"},"timeframeInterval":"year","metrics":["revenue","ebitda","epsGaap","netIncomeGaap","freeCashFlow"]} | Returns QUARTERLY actual-vs-expected points; Elis: revenue only (3 quarters), no EBITDA/EPS; BNZL, CPG, JSG empty; forward points for CTAS/UNF/ARMK/ABM/ECL carry stale effectiveDates (2024-12..2025-03). Harness persisted output (wrapper [{type,text}]) copied verbatim | raw/E_peers_valuation/048_pronto_getCompanyConsensus_year_13ids_wrapper.json |
 | E_peers_valuation-049 | 2026-10-12T23:05:00Z | mcp__Pronto__getCompanyConsensus | {"companiesIds":["27989","260725","309966"],"dateRange":{"gte":"now-1y/d","lte":"now+3y/d"},"timeframeInterval":"last-doc","metrics":[same 5]} | Identical content to 048 for these 3 companies (verified programmatically) - no forward fiscal-year estimates exposed | raw/E_peers_valuation/049_pronto_getCompanyConsensus_lastdoc_ELIS_CTAS_UNF.json |
+| E_peers_valuation-050 | 2026-10-12T22:59:30Z | mcp__Pronto__searchSentences | {"topicSearchQuery": "main competitors textile rental", "transcriptsIds": ["NONSEC000259591248"], "size": 25} | Elis 2025 URD (AR, NONSEC000259591248): 25 of 207 hits; markets 'mostly remain quite fragmented' [#5406], competition risk factor incl. local players / in-house laundries [#1902]; no named private competitors | raw/E_peers_valuation/050_pronto_searchSentences_URD2025_main_competitors.json |
+| E_peers_valuation-051 | 2026-10-12T22:59:30Z | mcp__Pronto__searchSentences | {"topicSearchQuery": "presentation currency US dollars", "companiesIds": ["411004", "692472"], "size": 12} | 12 hits: Rentokil statements presented in US dollars (H1 2026 6-K [#328]; 20-F [#369] - change from sterling effective 1-Jan-2025); Compass presents in USD [#2320]. Explains S&P GBP->USD currency flip | raw/E_peers_valuation/051_pronto_searchSentences_RTO_CPG_presentation_currency.json |
+| E_peers_valuation-052 | 2026-10-12T23:02:09Z | mcp__Pronto__searchSentences | {"topicSearchQuery": "Lindstrom CWS Mewa competitors", "companiesIds": ["27989"], "size": 120, "similarityThreshold": "Low"} | 120 Elis sentences; no mention of Lindstrom/CWS/Mewa/Alsco/Salesianer; FY2025 call names '[ Johnson ]' and 'the Scottish one' and '[ Clean ]' as competitors (UK) [#749]. Output persisted by harness, copied verbatim | raw/E_peers_valuation/052_pronto_searchSentences_elis_Lindstrom_CWS_Mewa_competitors.json |
+| E_peers_valuation-053 | 2026-10-12T23:02:09Z | mcp__Pronto__searchSentences | {"topicSearchQuery": "competitive landscape local players", "companiesIds": ["27989"], "size": 120, "similarityThreshold": "Low"} | 120 Elis sentences on competition (fragmented markets, local players, smaller competitors' 2026 price stance [#609], network density [#411]). Persisted by harness, copied verbatim | raw/E_peers_valuation/053_pronto_searchSentences_elis_competitive_landscape_local_players.json |
+| E_peers_valuation-054 | 2026-10-12T23:02:10Z | mcp__Pronto__searchSentences | {"topicSearchQuery": "merger agreement acquisition offer", "companiesIds": ["309966", "694763"], "dateRange": {"gte": "2025-06-01", "lte": "now"}, "size": 120} | 120 UNF/VSTS sentences: UNF-Cintas Agreement and Plan of Merger dated 10-Mar-2026 [#44]/[#7]; consideration $155.00 cash + 0.7720 CTAS share per UNF share [#32]; shareholder-approval condition [#318]; Vestis call reference to 'this merger' [#206] (no Vestis deal terms found). Persisted, copied verbatim | raw/E_peers_valuation/054_pronto_searchSentences_UNF_VSTS_merger_agreement.json |
+| E_peers_valuation-055 | 2026-10-12T23:02:11Z | mcp__Pronto__searchSentences | {"topicSearchQuery": "share buyback net debt", "transcriptsIds": ["T000003774119", "NONSEC000264346860"], "size": 120} | 120 sentences from Elis H1 2026 call + H1 2026 financial report: 17,787,422 shares bought for EUR466.8m [#424]; EUR500m buyback completed 9 July, leverage 2.09x [#17]; net financial debt excl. IFRS 16 EUR3,670.3m [#104]; OCEANE 2029 soft call [#36]. Persisted, copied verbatim | raw/E_peers_valuation/055_pronto_searchSentences_elis_H1_2026_buyback_net_debt.json |
+
+## Timestamp correction note (appended 2026-10-12T23:08:38Z)
+
+Several timestamps above (notably for ids 005-012, 015-016, 028-042 and 049) were written at logging time as estimates and do not match the actual call times. The authoritative call times below were taken from the harness-recorded tool_use timestamps in this agent's session transcript (UTC, truncated to the second). Where a timestamp in the table above differs from this list, THIS LIST PREVAILS. Tool, parameters and raw files are unchanged. Entry 012 (operating_income, annual) and entry 041 (operating_income, LTM): see their response-summary column for the treatment of the returned payload. Total MCP calls by this agent up to this note: 55 (all ProntoNLP or S&P; no other sources used).
+
+| id | actual call time (UTC) |
+|---|---|
+| E_peers_valuation-001 | 2026-10-12T22:20:41Z |
+| E_peers_valuation-002 | 2026-10-12T22:20:42Z |
+| E_peers_valuation-003 | 2026-10-12T22:20:43Z |
+| E_peers_valuation-004 | 2026-10-12T22:20:45Z |
+| E_peers_valuation-005 | 2026-10-12T22:22:44Z |
+| E_peers_valuation-006 | 2026-10-12T22:22:44Z |
+| E_peers_valuation-007 | 2026-10-12T22:22:45Z |
+| E_peers_valuation-008 | 2026-10-12T22:22:46Z |
+| E_peers_valuation-009 | 2026-10-12T22:25:28Z |
+| E_peers_valuation-010 | 2026-10-12T22:25:30Z |
+| E_peers_valuation-011 | 2026-10-12T22:28:03Z |
+| E_peers_valuation-012 | 2026-10-12T22:28:05Z |
+| E_peers_valuation-013 | 2026-10-12T22:30:04Z |
+| E_peers_valuation-014 | 2026-10-12T22:30:06Z |
+| E_peers_valuation-015 | 2026-10-12T22:33:01Z |
+| E_peers_valuation-016 | 2026-10-12T22:33:02Z |
+| E_peers_valuation-017 | 2026-10-12T22:35:48Z |
+| E_peers_valuation-018 | 2026-10-12T22:35:50Z |
+| E_peers_valuation-019 | 2026-10-12T22:38:46Z |
+| E_peers_valuation-020 | 2026-10-12T22:38:48Z |
+| E_peers_valuation-021 | 2026-10-12T22:41:54Z |
+| E_peers_valuation-022 | 2026-10-12T22:41:55Z |
+| E_peers_valuation-023 | 2026-10-12T22:44:43Z |
+| E_peers_valuation-024 | 2026-10-12T22:44:44Z |
+| E_peers_valuation-025 | 2026-10-12T22:47:26Z |
+| E_peers_valuation-026 | 2026-10-12T22:47:28Z |
+| E_peers_valuation-027 | 2026-10-12T22:47:29Z |
+| E_peers_valuation-028 | 2026-10-12T22:48:54Z |
+| E_peers_valuation-029 | 2026-10-12T22:48:55Z |
+| E_peers_valuation-030 | 2026-10-12T22:48:57Z |
+| E_peers_valuation-031 | 2026-10-12T22:48:58Z |
+| E_peers_valuation-032 | 2026-10-12T22:50:15Z |
+| E_peers_valuation-033 | 2026-10-12T22:50:17Z |
+| E_peers_valuation-034 | 2026-10-12T22:50:18Z |
+| E_peers_valuation-035 | 2026-10-12T22:50:20Z |
+| E_peers_valuation-036 | 2026-10-12T22:51:55Z |
+| E_peers_valuation-037 | 2026-10-12T22:51:56Z |
+| E_peers_valuation-038 | 2026-10-12T22:51:58Z |
+| E_peers_valuation-039 | 2026-10-12T22:51:59Z |
+| E_peers_valuation-040 | 2026-10-12T22:53:18Z |
+| E_peers_valuation-041 | 2026-10-12T22:53:19Z |
+| E_peers_valuation-042 | 2026-10-12T22:53:20Z |
+| E_peers_valuation-043 | 2026-10-12T22:54:33Z |
+| E_peers_valuation-044 | 2026-10-12T22:54:34Z |
+| E_peers_valuation-045 | 2026-10-12T22:56:14Z |
+| E_peers_valuation-046 | 2026-10-12T22:56:32Z |
+| E_peers_valuation-047 | 2026-10-12T22:57:39Z |
+| E_peers_valuation-048 | 2026-10-12T22:57:39Z |
+| E_peers_valuation-049 | 2026-10-12T22:58:01Z |
+| E_peers_valuation-050 | 2026-10-12T22:59:30Z |
+| E_peers_valuation-051 | 2026-10-12T22:59:30Z |
+| E_peers_valuation-052 | 2026-10-12T23:02:09Z |
+| E_peers_valuation-053 | 2026-10-12T23:02:09Z |
+| E_peers_valuation-054 | 2026-10-12T23:02:10Z |
+| E_peers_valuation-055 | 2026-10-12T23:02:11Z |
