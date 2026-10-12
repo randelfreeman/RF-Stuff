@@ -1,0 +1,24 @@
+{
+  "total": 1,
+  "results": [
+    {
+      "companyId": "250079",
+      "companyName": "[ABM Industries Incorporated](https://gam.prontonlp.com/#/ref/$COMPANY_250079)",
+      "GVKEY": "001410",
+      "marketCap": 2909042200,
+      "country": "US",
+      "ticker": "ABM",
+      "CIK": "0000771497",
+      "displayName": "[ABM Industries Incorporated (ABM)](https://gam.prontonlp.com/#/ref/$COMPANY_250079)",
+      "subSector": "Commercial Services and Supplies",
+      "hqCountry": "United States",
+      "ISIN": "US0009571003",
+      "updateFromCorpus": "transcripts",
+      "originalCap": 2909042200,
+      "collapseKey": "250079",
+      "exchange": "NYSE",
+      "webpage": "www.abm.com",
+      "sector": "Industrials"
+    }
+  ]
+}

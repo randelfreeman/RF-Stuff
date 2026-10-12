@@ -1,0 +1,53 @@
+# S&P Capital IQ via mcp__S_P_-_Deterministic_Retrieval__get_financial_statement_from_identifiers (call M-007)
+# params: {"identifiers":["C_27989"],"statement":"balance_sheet","period_type":"annual","calendar_type":"fiscal","start_year":2016,"end_year":2025}
+# company: Elis SA (ENXTPA:ELIS), currency EUR, balance-sheet dates 31-Dec. Every line item's "sources" array was EMPTY -> source link unavailable.
+# Lossless re-encoding: values divided by 1,000,000 (EUR m), no rounding. Blank = line item not returned for that year.
+line_item,FY2016,FY2017,FY2018,FY2019,FY2020,FY2021,FY2022,FY2023,FY2024,FY2025
+Cash And Equivalents,169.0,416.4,197.0,172.3,137.6,160.1,286.1,665.3,622.0,398.1
+"Accounts Receivable, Total",341.3,590.9,604.2,615.9,493.9,580.0,728.0,802.6,824.1,892.1
+Other Receivables,59.6,103.2,87.4,64.5,64.3,75.1,82.2,97.3,90.2,132.0
+Total Receivables,400.9,694.1,691.6,680.4,558.2,655.1,810.2,899.9,914.3,1024.1
+Inventory,61.6,122.1,120.2,124.8,137.3,138.6,195.2,185.6,200.0,205.9
+Prepaid Expenses,13.4,27.1,23.0,19.3,15.8,13.6,14.4,15.7,19.4,22.2
+Other Current Assets (Summary Subtotal),4.5,2.8,44.8,2.4,3.4,5.6,3.2,3.5,8.2,3.7
+"Other Current Assets, Total",4.5,2.8,44.8,2.4,3.4,5.6,3.2,3.5,8.2,3.7
+Total Current Assets,649.4,1262.5,1076.6,999.2,852.3,973.0,1309.1,1770.0,1763.9,1654.0
+Gross Property Plant And Equipment,1924.0,4112.6,4254.8,4932.1,4920.7,5239.1,5781.9,6412.0,6932.9,6751.9
+Accumulated Depreciation,-1025.6,-2299.8,-2347.8,-2522.8,-2596.0,-2888.7,-3275.2,-3687.6,-4005.1,-3570.4
+Net Property Plant And Equipment,898.4,1812.8,1907.0,2409.3,2324.7,2350.4,2506.7,2724.4,2927.8,3181.5
+Long-term Investments,,0.1,0.2,0.2,0.2,0.1,0.1,0.1,0.1,0.2
+Goodwill,1732.9,3767.4,3745.7,3795.6,3743.6,3818.3,3914.1,3979.2,3932.0,4039.6
+"Other Intangibles, Total",389.7,1044.5,925.2,869.5,806.4,752.7,763.4,707.7,648.4,573.6
+"Other Assets, Total",30.8,77.8,141.7,124.2,135.2,148.6,140.9,125.51,120.3,124.0
+Loans Receivable Long-Term,6.8,2.1,1.7,3.8,5.1,4.1,3.2,2.9,3.7,3.0
+Deferred Tax Assets Long-Term,23.9,21.2,56.5,23.2,36.6,32.0,43.0,46.9,43.3,41.6
+Deferred Charges Long-Term,,,31.9,33.2,31.2,31.9,33.7,37.8,41.1,42.8
+"Other Long-Term Assets, Total",0.1,54.5,51.6,64.0,62.3,80.6,61.0,37.91,32.2,36.6
+Total Assets,3701.2,7965.1,7796.4,8198.0,7862.4,8043.1,8634.3,9306.91,9392.5,9572.9
+"Accounts Payable, Total",150.1,246.3,252.2,263.2,193.9,233.2,326.4,355.7,364.8,392.1
+"Accrued Expenses, Total",239.1,336.2,343.7,339.8,324.3,359.8,399.6,429.5,448.4,509.6
+Short-term Borrowings,495.4,213.4,12.1,1.5,,178.6,184.0,252.4,259.0,480.0
+Current Portion of Long-Term Debt / Leases,,1428.8,441.0,490.3,431.0,127.2,340.5,828.3,873.9,460.5
+Current Portion of Long-Term Debt,,1428.8,441.0,426.6,352.0,40.9,245.3,720.8,748.0,320.5
+Current Portion of Leases,,,,63.7,79.0,86.3,95.2,107.5,125.9,140.0
+"Other Current Liabilities, Total",83.5,188.3,198.9,156.6,153.9,166.9,206.8,276.9,200.7,210.1
+Current Income Taxes Payable,4.6,21.8,23.9,23.7,25.5,28.2,24.0,24.3,24.7,26.8
+"Unearned Revenue Current, Total",48.6,66.2,70.9,73.7,64.6,77.8,83.1,85.3,91.3,92.9
+Other Current Liabilities,30.3,100.3,104.1,59.2,63.8,60.9,99.7,167.3,84.7,90.4
+Total Current Liabilities,968.1,2413.0,1247.9,1251.4,1103.1,1065.7,1457.3,2142.8,2146.8,2052.3
+Long-Term Debt,1297.1,2067.5,3092.6,3116.4,3068.1,3084.5,3034.9,2717.5,2653.1,2617.8
+Long-Term Leases,,,22.9,343.7,368.3,367.2,390.3,430.8,480.3,563.2
+"Other Liabilities, Total",285.2,561.5,564.8,530.0,514.6,512.0,539.5,539.91,514.2,527.1
+Pension & Other Post Retirement Benefits,64.8,100.0,99.0,119.1,108.9,105.9,69.4,90.7,108.6,93.2
+Deferred Tax Liability Non Current,188.0,357.1,370.9,316.7,302.3,283.0,308.9,296.9,298.0,287.0
+Other Non Current Liabilities,32.4,104.4,94.9,94.2,103.4,123.1,161.2,152.31,107.6,146.9
+Total Liabilities - (Standard / Utility Template),2550.4,5042.0,4928.2,5241.5,5054.1,5029.4,5422.0,5831.01,5794.4,5760.4
+Common Stock & APIC,1421.0,3245.1,3163.8,2867.7,2797.4,2755.7,2671.0,2711.7,2721.9,2627.9
+"Common Stock, Total",1140.1,219.4,219.9,221.3,221.8,224.1,230.1,234.0,236.7,232.8
+Additional Paid In Capital,280.9,3025.7,2943.9,2646.4,2575.6,2531.6,2440.9,2477.7,2485.2,2395.1
+Retained Earnings,-274.8,-213.7,-77.7,297.1,394.5,597.6,889.2,1076.7,1327.2,1610.7
+Treasury Stock & Other,0.1,-111.2,-219.3,-209.1,-384.2,-340.3,-348.7,-313.2,-451.0,-426.1
+Treasury Stock,-1.6,-0.7,-11.4,-10.1,-11.2,-1.6,-1.7,-0.7,-2.7,-12.7
+Comprehensive Income and Other,1.7,-110.5,-207.9,-199.0,-373.0,-338.7,-347.0,-312.5,-448.3,-413.4
+Minority Interest,4.5,2.9,1.4,0.8,0.6,0.7,0.8,0.7,,
+Total Liabilities And Equity,3701.2,7965.1,7796.4,8198.0,7862.4,8043.1,8634.3,9306.91,9392.5,9572.9

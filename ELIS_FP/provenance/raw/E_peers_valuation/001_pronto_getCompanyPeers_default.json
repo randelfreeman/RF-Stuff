@@ -1,0 +1,184 @@
+{
+  "27989": [
+    {
+      "companyName": "[Aramark](https://gam.prontonlp.com/#/ref/$COMPANY_1004106)",
+      "companyDescription": "Operates primarily in the fields of food services, facilities management, and uniform services. Offers a range of products and services including catering, dining solutions, facility maintenance, and uniform rental and cleaning. Actively developing sustainable and innovative solutions to enhance customer experience and operational efficiency. Targets markets such as education, healthcare, business, sports, and leisure.",
+      "companyId": "1004106",
+      "relation": "competitor",
+      "segment": "Workwear rental, linen services, and facility management",
+      "reason": "Direct competitor in uniform rental, laundry, and facility services across commercial markets.",
+      "strength": "strong"
+    },
+    {
+      "companyName": "[Brambles Limited](https://gam.prontonlp.com/#/ref/$COMPANY_34536531)",
+      "companyDescription": "Operates primarily in the fields of supply chain logistics and asset management, focusing on the pooling of reusable pallets, crates, and containers. Their services include the rental, management, and maintenance of these assets, which are used to transport goods efficiently and sustainably. Actively developing digital solutions to enhance supply chain visibility and efficiency, targeting markets in the consumer goods, retail, and manufacturing sectors.",
+      "companyId": "34536531",
+      "relation": "adjacent",
+      "segment": "Asset management and reusable goods pooling",
+      "reason": "Operates reusable asset pooling model similar to Elis's linen rental and workwear services.",
+      "strength": "strong"
+    },
+    {
+      "companyName": "[Rentokil Initial plc](https://gam.prontonlp.com/#/ref/$COMPANY_411004)",
+      "companyDescription": "Operates primarily in the fields of pest control, hygiene, and workwear services. Offers a range of solutions including pest management, washroom hygiene, and textile rental services. Actively developing innovative technologies for pest detection and control, as well as enhancing hygiene solutions. Targeting markets across various sectors including commercial, industrial, and residential spaces globally.",
+      "companyId": "411004",
+      "relation": "customer",
+      "segment": "Workwear, hygiene, and pest control services",
+      "reason": "Direct competitor in textile rental, washroom hygiene, and pest control across commercial markets.",
+      "strength": "strong"
+    },
+    {
+      "companyName": "[UniFirst Corporation](https://gam.prontonlp.com/#/ref/$COMPANY_309966)",
+      "companyDescription": "Operates primarily in the fields of uniform rental and facility services. Offers a range of products including workwear, protective clothing, and related accessories, as well as services such as laundering, maintenance, and delivery. Actively developing its service offerings to include more comprehensive facility management solutions. Targets markets across various industries including manufacturing, healthcare, and food service.",
+      "companyId": "309966",
+      "relation": "customer",
+      "segment": "Uniform rental and facility services",
+      "reason": "Core competitor in workwear rental, laundering, and facility management services.",
+      "strength": "strong"
+    },
+    {
+      "companyName": "[ISS A/S](https://gam.prontonlp.com/#/ref/$COMPANY_26972979)",
+      "companyDescription": "Operates primarily in the fields of facility management and workplace experience services. Their offerings include cleaning, catering, security, property, and support services, aimed at enhancing the efficiency and well-being of workplaces. Actively developing integrated solutions to improve sustainability and operational efficiency, targeting markets across various sectors including corporate, healthcare, education, and public institutions.",
+      "companyId": "26972979",
+      "relation": "customer",
+      "segment": "Facility management and workplace services",
+      "reason": "Overlaps in cleaning, facility management, and integrated workplace solutions for commercial clients.",
+      "strength": "strong"
+    },
+    {
+      "companyName": "[Cintas Corporation](https://gam.prontonlp.com/#/ref/$COMPANY_260725)",
+      "companyDescription": "Operates primarily in the fields of corporate uniform rental, facility services, and safety products. Offers a range of products and services including uniforms, mats, mops, restroom supplies, first aid and safety products, and fire protection services. Actively developing solutions to enhance workplace safety and hygiene, targeting markets such as healthcare, hospitality, food service, and manufacturing.",
+      "companyId": "260725",
+      "relation": "customer",
+      "segment": "Corporate uniform rental and facility services",
+      "reason": "Major competitor in uniform rental, facility services, restroom supplies, and workplace safety.",
+      "strength": "strong"
+    },
+    {
+      "companyName": "[Johnson Service Group PLC](https://gam.prontonlp.com/#/ref/$COMPANY_876284)",
+      "companyDescription": "Operates primarily in the textile rental and related services industry, focusing on providing high-quality workwear, linen, and laundry services. Their offerings include rental and maintenance of garments, linens, and other textile products for various sectors such as hospitality, healthcare, and industrial markets. Actively developing sustainable and innovative solutions to enhance service efficiency and customer satisfaction, targeting markets that require reliable and hygienic textile management solutions.",
+      "companyId": "876284",
+      "relation": "customer",
+      "segment": "Textile rental and laundry services",
+      "reason": "Direct competitor in workwear and linen rental, maintenance, and laundry services.",
+      "strength": "strong"
+    },
+    {
+      "companyName": "[Clean Harbors, Inc.](https://gam.prontonlp.com/#/ref/$COMPANY_26565)",
+      "companyDescription": "Operates primarily in the fields of environmental, energy, and industrial services. Their offerings include hazardous waste management, emergency spill response, industrial cleaning, and recycling services. Actively developing solutions for sustainable waste disposal and environmental remediation, targeting markets in North America and beyond.",
+      "companyId": "26565",
+      "relation": "adjacent",
+      "segment": "Industrial cleaning and environmental services",
+      "reason": "Provides industrial cleaning and facility services overlapping with Elis's floor protection and pest control.",
+      "strength": "moderate"
+    },
+    {
+      "companyName": "[Essity AB (publ)](https://gam.prontonlp.com/#/ref/$COMPANY_403212338)",
+      "companyDescription": "Operates primarily in the fields of hygiene and health, providing essential products and services for personal care, consumer tissue, and professional hygiene. Their offerings include a wide range of hygiene products such as tissues, wipes, and incontinence products, as well as solutions for professional hygiene in public and private spaces. Actively developing sustainable and innovative solutions to improve well-being and hygiene standards. Targeting global markets with a strong presence in Europe, North America, and emerging markets.",
+      "companyId": "403212338",
+      "relation": "supplier",
+      "segment": "Professional hygiene products and solutions",
+      "reason": "Major supplier of hygiene products and professional solutions that Elis integrates into service offerings.",
+      "strength": "moderate"
+    },
+    {
+      "companyName": "[Bunzl plc](https://gam.prontonlp.com/#/ref/$COMPANY_410348)",
+      "companyDescription": "Operates primarily in the distribution and outsourcing sectors, focusing on providing a wide range of non-food consumable products. Their offerings include packaging, cleaning and hygiene supplies, safety products, and healthcare consumables. Actively expanding its footprint through acquisitions and targeting markets in North America, Europe, and other international regions.",
+      "companyId": "410348",
+      "relation": "supplier",
+      "segment": "Cleaning and hygiene supplies distribution",
+      "reason": "Distributor of cleaning and hygiene consumables that supply Elis's washroom and facility services.",
+      "strength": "moderate"
+    },
+    {
+      "companyName": "[Sodexo S.A.](https://gam.prontonlp.com/#/ref/$COMPANY_808038)",
+      "companyDescription": "Operates primarily in the fields of food services and facilities management. Offers a range of services including catering, cleaning, and maintenance for various sectors such as corporate, healthcare, education, and remote sites. Actively developing integrated solutions to enhance quality of life and sustainability. Targeting markets across North America, Europe, and Asia-Pacific.",
+      "companyId": "808038",
+      "relation": "customer",
+      "segment": "Facility management and cleaning services",
+      "reason": "Overlaps in cleaning, maintenance, and integrated facility management for corporate and institutional clients.",
+      "strength": "moderate"
+    },
+    {
+      "companyName": "[Ecolab Inc.](https://gam.prontonlp.com/#/ref/$COMPANY_268799)",
+      "companyDescription": "Operates primarily in the fields of water, hygiene, and energy technologies and services. Offers a range of solutions including water treatment, cleaning and sanitizing products, and energy management services. Actively developing sustainable and innovative technologies to improve water and energy efficiency. Targets markets such as food and beverage, healthcare, hospitality, and industrial sectors.",
+      "companyId": "268799",
+      "relation": "customer",
+      "segment": "Hygiene, cleaning, and sanitizing solutions",
+      "reason": "Competes in water, hygiene, and cleaning products and services for commercial facilities.",
+      "strength": "moderate"
+    },
+    {
+      "companyName": "[Rollins, Inc.](https://gam.prontonlp.com/#/ref/$COMPANY_300753)",
+      "companyDescription": "Operates primarily in the pest control industry, providing services for the management and eradication of various pests. Their offerings include residential and commercial pest control solutions, termite protection, and wildlife control services. Actively developing advanced pest management technologies and expanding their market presence globally, targeting both urban and rural areas.",
+      "companyId": "300753",
+      "relation": "customer",
+      "segment": "Pest control services",
+      "reason": "Competitor in commercial pest control and management services.",
+      "strength": "moderate"
+    },
+    {
+      "companyName": "[The Clorox Company](https://gam.prontonlp.com/#/ref/$COMPANY_89450)",
+      "companyDescription": "Operates primarily in the consumer and professional products sectors, focusing on cleaning, household, and lifestyle products. Their offerings include a wide range of cleaning supplies, disinfectants, and personal care items. Actively developing sustainable and eco-friendly products, targeting both domestic and international markets.",
+      "companyId": "89450",
+      "relation": "customer",
+      "segment": "Cleaning and disinfection products",
+      "reason": "Supplies cleaning and disinfectant products for professional and commercial hygiene applications.",
+      "strength": "moderate"
+    },
+    {
+      "companyName": "[Kimberly-Clark Corporation](https://gam.prontonlp.com/#/ref/$COMPANY_283857)",
+      "companyDescription": "Operates primarily in the personal care, consumer tissue, and professional products sectors. Offers a range of hygiene and health products including diapers, wipes, tissues, and paper towels. Actively developing sustainable and innovative solutions to meet consumer needs. Targets markets globally, with a focus on both developed and emerging economies.",
+      "companyId": "283857",
+      "relation": "customer",
+      "segment": "Professional hygiene and washroom products",
+      "reason": "Competes in professional hygiene products including tissues, wipes, and washroom solutions.",
+      "strength": "moderate"
+    },
+    {
+      "companyName": "[Paul Hartmann AG](https://gam.prontonlp.com/#/ref/$COMPANY_876847)",
+      "companyDescription": "Operates primarily in the healthcare sector, focusing on wound management, incontinence care, infection prevention, and personal healthcare. Their offerings include medical and hygiene products, such as dressings, bandages, and disinfectants, as well as services aimed at improving patient care and hygiene standards. Actively developing innovative solutions to enhance patient outcomes and targeting markets in both professional healthcare settings and home care environments.",
+      "companyId": "876847",
+      "relation": "supplier",
+      "segment": "Medical and hygiene products for professional use",
+      "reason": "Supplies wound care and hygiene products used in professional facility and healthcare settings.",
+      "strength": "weak"
+    },
+    {
+      "companyName": "[EVI Industries, Inc.](https://gam.prontonlp.com/#/ref/$COMPANY_397867)",
+      "companyDescription": "Operates primarily in the commercial laundry and dry cleaning equipment industry, providing a range of products and services including equipment distribution, installation, maintenance, and repair. Actively developing its market presence through acquisitions and expanding its service offerings to better serve the commercial, industrial, and institutional sectors. Targeting markets such as hospitality, healthcare, and multi-family housing to meet the growing demand for efficient and reliable laundry solutions.",
+      "companyId": "397867",
+      "relation": "supplier",
+      "segment": "Commercial laundry equipment and services",
+      "reason": "Supplies and services commercial laundry equipment essential to Elis's textile and linen operations.",
+      "strength": "weak"
+    },
+    {
+      "companyName": "[Fomento de Construcciones y Contratas, S.A.](https://gam.prontonlp.com/#/ref/$COMPANY_693671)",
+      "companyDescription": "Operates primarily in the fields of environmental services, water management, infrastructure development, and renewable energy. Offers a range of services including waste management, water treatment, construction of public and private infrastructure, and energy solutions. Actively developing projects in urban infrastructure, sustainable energy, and smart city solutions, targeting markets in Europe, Latin America, and the Middle East.",
+      "companyId": "693671",
+      "relation": "customer",
+      "segment": "Environmental services and facility management",
+      "reason": "Overlaps in waste management, water treatment, and facility-related environmental services.",
+      "strength": "weak"
+    },
+    {
+      "companyName": "[Cleanaway Waste Management Limited](https://gam.prontonlp.com/#/ref/$COMPANY_22277298)",
+      "companyDescription": "Operates primarily in waste management and environmental services, focusing on the collection, treatment, recycling, and disposal of various waste types. Offers a range of services including general waste collection, hazardous waste management, industrial cleaning, and resource recovery solutions. Actively developing sustainable waste management practices and targeting markets that prioritize environmental sustainability and regulatory compliance.",
+      "companyId": "22277298",
+      "relation": "customer",
+      "segment": "Waste management and industrial cleaning",
+      "reason": "Competes in waste collection, industrial cleaning, and environmental services.",
+      "strength": "weak"
+    },
+    {
+      "companyName": "[GFL Environmental Inc.](https://gam.prontonlp.com/#/ref/$COMPANY_58576575)",
+      "companyDescription": "Operates primarily in the fields of waste management, environmental services, and infrastructure. Offers a range of services including solid waste collection, recycling, liquid waste management, and soil remediation. Actively developing sustainable waste solutions and expanding its service offerings to target both residential and commercial markets across North America.",
+      "companyId": "58576575",
+      "relation": "customer",
+      "segment": "Waste management and environmental services",
+      "reason": "Overlaps in waste collection, recycling, and environmental services for commercial clients.",
+      "strength": "weak"
+    }
+  ]
+}

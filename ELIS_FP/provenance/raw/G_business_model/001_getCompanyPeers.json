@@ -1,0 +1,94 @@
+{
+  "27989": [
+    {
+      "companyName": "[Rentokil Initial plc](https://gam.prontonlp.com/#/ref/$COMPANY_411004)",
+      "companyDescription": "Operates primarily in the fields of pest control, hygiene, and workwear services. Offers a range of solutions including pest management, washroom hygiene, and textile rental services. Actively developing innovative technologies for pest detection and control, as well as enhancing hygiene solutions. Targeting markets across various sectors including commercial, industrial, and residential spaces globally.",
+      "companyId": "411004",
+      "relation": "supplier",
+      "segment": "Workwear and hygiene services",
+      "reason": "Direct overlap in pest control, washroom hygiene, and textile rental services.",
+      "strength": "strong"
+    },
+    {
+      "companyName": "[UniFirst Corporation](https://gam.prontonlp.com/#/ref/$COMPANY_309966)",
+      "companyDescription": "Operates primarily in the fields of uniform rental and facility services. Offers a range of products including workwear, protective clothing, and related accessories, as well as services such as laundering, maintenance, and delivery. Actively developing its service offerings to include more comprehensive facility management solutions. Targets markets across various industries including manufacturing, healthcare, and food service.",
+      "companyId": "309966",
+      "relation": "supplier",
+      "segment": "Workwear rental and facility services",
+      "reason": "Uniform rental, workwear, and laundry services directly parallel Elis offerings.",
+      "strength": "strong"
+    },
+    {
+      "companyName": "[Johnson Service Group PLC](https://gam.prontonlp.com/#/ref/$COMPANY_876284)",
+      "companyDescription": "Operates primarily in the textile rental and related services industry, focusing on providing high-quality workwear, linen, and laundry services. Their offerings include rental and maintenance of garments, linens, and other textile products for various sectors such as hospitality, healthcare, and industrial markets. Actively developing sustainable and innovative solutions to enhance service efficiency and customer satisfaction, targeting markets that require reliable and hygienic textile management solutions.",
+      "companyId": "876284",
+      "relation": "supplier",
+      "segment": "Textile rental and laundry services",
+      "reason": "Textile rental, workwear, and laundry services core to Elis business model.",
+      "strength": "strong"
+    },
+    {
+      "companyName": "[ISS A/S](https://gam.prontonlp.com/#/ref/$COMPANY_26972979)",
+      "companyDescription": "Operates primarily in the fields of facility management and workplace experience services. Their offerings include cleaning, catering, security, property, and support services, aimed at enhancing the efficiency and well-being of workplaces. Actively developing integrated solutions to improve sustainability and operational efficiency, targeting markets across various sectors including corporate, healthcare, education, and public institutions.",
+      "companyId": "26972979",
+      "relation": "supplier",
+      "segment": "Facility management and workplace services",
+      "reason": "Cleaning, hygiene, and facility services overlap with Elis integrated offerings.",
+      "strength": "moderate"
+    },
+    {
+      "companyName": "[Bunzl plc](https://gam.prontonlp.com/#/ref/$COMPANY_410348)",
+      "companyDescription": "Operates primarily in the distribution and outsourcing sectors, focusing on providing a wide range of non-food consumable products. Their offerings include packaging, cleaning and hygiene supplies, safety products, and healthcare consumables. Actively expanding its footprint through acquisitions and targeting markets in North America, Europe, and other international regions.",
+      "companyId": "410348",
+      "relation": "supplier",
+      "segment": "Cleaning and hygiene supplies distribution",
+      "reason": "Distributes cleaning and hygiene supplies that support facility and washroom services.",
+      "strength": "moderate"
+    },
+    {
+      "companyName": "[Rollins, Inc.](https://gam.prontonlp.com/#/ref/$COMPANY_300753)",
+      "companyDescription": "Operates primarily in the pest control industry, providing services for the management and eradication of various pests. Their offerings include residential and commercial pest control solutions, termite protection, and wildlife control services. Actively developing advanced pest management technologies and expanding their market presence globally, targeting both urban and rural areas.",
+      "companyId": "300753",
+      "relation": "supplier",
+      "segment": "Pest control services",
+      "reason": "Pest control services directly overlap with Elis pest management offerings.",
+      "strength": "moderate"
+    },
+    {
+      "companyName": "[Securitas AB (publ)](https://gam.prontonlp.com/#/ref/$COMPANY_621976)",
+      "companyDescription": "Operates primarily in the security services industry, focusing on providing a wide range of protective services. Their offerings include on-site guarding, electronic security solutions, fire and safety services, and risk management. Actively developing integrated security solutions that combine human expertise with advanced technology. Targeting markets across various sectors, including commercial, industrial, and governmental clients, with a strong emphasis on enhancing safety and security through innovative approaches.",
+      "companyId": "621976",
+      "relation": "supplier",
+      "segment": "Facility and workplace services",
+      "reason": "Security and facility services complement Elis integrated workplace solutions.",
+      "strength": "weak"
+    },
+    {
+      "companyName": "[MSA Safety Incorporated](https://gam.prontonlp.com/#/ref/$COMPANY_288318)",
+      "companyDescription": "Operates primarily in the fields of safety equipment and technology, focusing on protecting workers in hazardous environments. Their product lines include personal protective equipment, gas detection devices, and fire and rescue gear. Actively developing advanced safety solutions and targeting markets such as industrial, construction, mining, and emergency services.",
+      "companyId": "288318",
+      "relation": "supplier",
+      "segment": "Workplace safety and protective equipment",
+      "reason": "Safety equipment and protective gear support Elis workwear and facility services.",
+      "strength": "weak"
+    },
+    {
+      "companyName": "[Fomento de Construcciones y Contratas, S.A.](https://gam.prontonlp.com/#/ref/$COMPANY_693671)",
+      "companyDescription": "Operates primarily in the fields of environmental services, water management, infrastructure development, and renewable energy. Offers a range of services including waste management, water treatment, construction of public and private infrastructure, and energy solutions. Actively developing projects in urban infrastructure, sustainable energy, and smart city solutions, targeting markets in Europe, Latin America, and the Middle East.",
+      "companyId": "693671",
+      "relation": "supplier",
+      "segment": "Environmental and facility services",
+      "reason": "Waste management and environmental services complement Elis facility management.",
+      "strength": "weak"
+    },
+    {
+      "companyName": "[Paul Hartmann AG](https://gam.prontonlp.com/#/ref/$COMPANY_876847)",
+      "companyDescription": "Operates primarily in the healthcare sector, focusing on wound management, incontinence care, infection prevention, and personal healthcare. Their offerings include medical and hygiene products, such as dressings, bandages, and disinfectants, as well as services aimed at improving patient care and hygiene standards. Actively developing innovative solutions to enhance patient outcomes and targeting markets in both professional healthcare settings and home care environments.",
+      "companyId": "876847",
+      "relation": "supplier",
+      "segment": "Hygiene and infection prevention products",
+      "reason": "Medical and hygiene products support Elis washroom and hygiene service offerings.",
+      "strength": "weak"
+    }
+  ]
+}

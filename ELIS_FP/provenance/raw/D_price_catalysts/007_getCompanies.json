@@ -1,0 +1,24 @@
+{
+  "total": 1,
+  "results": [
+    {
+      "companyId": "309966",
+      "companyName": "[UniFirst Corporation](https://gam.prontonlp.com/#/ref/$COMPANY_309966)",
+      "GVKEY": "010840",
+      "marketCap": 4685428382,
+      "country": "US",
+      "ticker": "UNF",
+      "CIK": "0000717954",
+      "displayName": "[UniFirst Corporation (UNF)](https://gam.prontonlp.com/#/ref/$COMPANY_309966)",
+      "subSector": "Commercial Services and Supplies",
+      "hqCountry": "United States",
+      "ISIN": "US9047081040",
+      "updateFromCorpus": "transcripts",
+      "originalCap": 4685428382,
+      "collapseKey": "309966",
+      "exchange": "NYSE",
+      "webpage": "www.unifirst.com",
+      "sector": "Industrials"
+    }
+  ]
+}

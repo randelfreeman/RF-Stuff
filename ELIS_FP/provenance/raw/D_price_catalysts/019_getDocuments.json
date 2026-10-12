@@ -1,0 +1,57 @@
+{
+  "total": 4,
+  "results": [
+    {
+      "transcriptId": "upcoming-doc-27989",
+      "title": "[Q3 2026 Earnings Call](https://gam.prontonlp.com/#/ref/$DOCID_upcoming-doc-27989)",
+      "date": "2026-10-28T16:40:00Z",
+      "corpus": "S&P Transcripts",
+      "documentType": "Earnings Calls",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989",
+      "ticker": "ELIS"
+    },
+    {
+      "transcriptId": "NONSEC000264346860",
+      "title": "[Elis SA - SR - 2026-06-30](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000264346860)",
+      "date": "2026-07-30T00:00:00Z",
+      "corpus": "Non-SEC Filings",
+      "documentType": "SR",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989",
+      "ticker": "ELIS",
+      "sentimentScore": 0.06,
+      "eventCount": 1036,
+      "positiveEvents": 222,
+      "negativeEvents": 147
+    },
+    {
+      "transcriptId": "NONSEC000264324010",
+      "title": "[Elis SA - SR - 2026-06-30](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000264324010)",
+      "date": "2026-07-30T00:00:00Z",
+      "corpus": "Non-SEC Filings",
+      "documentType": "SR",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989",
+      "ticker": "ELIS",
+      "sentimentScore": 0.11,
+      "eventCount": 1055,
+      "positiveEvents": 235,
+      "negativeEvents": 147
+    },
+    {
+      "transcriptId": "T000003774119",
+      "title": "[Elis SA, H1 2026 Earnings Call, Jul 29, 2026](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119)",
+      "date": "2026-07-29T16:00:00Z",
+      "corpus": "S&P Transcripts",
+      "documentType": "Earnings Calls",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989",
+      "ticker": "ELIS",
+      "sentimentScore": 0.52,
+      "eventCount": 710,
+      "positiveEvents": 331,
+      "negativeEvents": 95
+    }
+  ]
+}

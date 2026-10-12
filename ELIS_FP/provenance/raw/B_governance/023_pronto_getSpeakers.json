@@ -1,0 +1,92 @@
+[
+  {
+    "speakerNameId": "284623286",
+    "speakerName": "[Xavier Martiré](https://gam.prontonlp.com/#/ref/$SPEAKERNAME_284623286)",
+    "speakerCompany": "[Elis SA](https://gam.prontonlp.com/#/ref/$SPEAKERCOMPANY_27989)",
+    "speakerCompanyId": 27989,
+    "role": "Chairman of the Management Board & CEO",
+    "type": "Executives",
+    "sentimentScore": 0.54,
+    "numOfSentences": 299
+  },
+  {
+    "speakerNameId": "285304623",
+    "speakerName": "[Louis Guyot](https://gam.prontonlp.com/#/ref/$SPEAKERNAME_285304623)",
+    "speakerCompany": "[Elis SA](https://gam.prontonlp.com/#/ref/$SPEAKERCOMPANY_27989)",
+    "speakerCompanyId": 27989,
+    "role": "CFO & Member of the Management Board",
+    "type": "Executives",
+    "sentimentScore": 0.55,
+    "numOfSentences": 109
+  },
+  {
+    "speakerNameId": "1971587649",
+    "speakerName": "[Timothy Ramskill](https://gam.prontonlp.com/#/ref/$SPEAKERNAME_1971587649)",
+    "speakerCompany": "[BofA Securities, Research Division](https://gam.prontonlp.com/#/ref/$SPEAKERCOMPANY_20921390)",
+    "speakerCompanyId": 20921390,
+    "role": "Research Analyst",
+    "type": "Analysts",
+    "sentimentScore": 0,
+    "numOfSentences": 16
+  },
+  {
+    "speakerNameId": "702679192",
+    "speakerName": "[Ben Wild](https://gam.prontonlp.com/#/ref/$SPEAKERNAME_702679192)",
+    "speakerCompany": "[Deutsche Bank AG, Research Division](https://gam.prontonlp.com/#/ref/$SPEAKERCOMPANY_25232408)",
+    "speakerCompanyId": 25232408,
+    "role": "Research Analyst",
+    "type": "Analysts",
+    "sentimentScore": -0.29,
+    "numOfSentences": 14
+  },
+  {
+    "speakerNameId": "51378355",
+    "speakerName": "[Christophe Chaput](https://gam.prontonlp.com/#/ref/$SPEAKERNAME_51378355)",
+    "speakerCompany": "[ODDO BHF Corporate & Markets, Research Division](https://gam.prontonlp.com/#/ref/$SPEAKERCOMPANY_26257841)",
+    "speakerCompanyId": 26257841,
+    "role": "Analyst",
+    "type": "Analysts",
+    "sentimentScore": 0.8,
+    "numOfSentences": 13
+  },
+  {
+    "speakerNameId": "270688948",
+    "speakerName": "[Annelies Vermeulen](https://gam.prontonlp.com/#/ref/$SPEAKERNAME_270688948)",
+    "speakerCompany": "[Morgan Stanley, Research Division](https://gam.prontonlp.com/#/ref/$SPEAKERCOMPANY_25232855)",
+    "speakerCompanyId": 25232855,
+    "role": "Equity Analyst",
+    "type": "Analysts",
+    "sentimentScore": -0.89,
+    "numOfSentences": 11
+  },
+  {
+    "speakerNameId": "1824039944",
+    "speakerName": "[Oliver Davies](https://gam.prontonlp.com/#/ref/$SPEAKERNAME_1824039944)",
+    "speakerCompany": "[Rothschild & Co Redburn, Research Division](https://gam.prontonlp.com/#/ref/$SPEAKERCOMPANY_38837143)",
+    "speakerCompanyId": 38837143,
+    "role": "Research Analyst",
+    "type": "Analysts",
+    "sentimentScore": 0.67,
+    "numOfSentences": 6
+  },
+  {
+    "speakerNameId": "549609734",
+    "speakerName": "[Christoph Greulich](https://gam.prontonlp.com/#/ref/$SPEAKERNAME_549609734)",
+    "speakerCompany": "[Joh. Berenberg, Gossler & Co. KG, Research Division](https://gam.prontonlp.com/#/ref/$SPEAKERCOMPANY_26538772)",
+    "speakerCompanyId": 26538772,
+    "role": "Analyst",
+    "type": "Analysts",
+    "sentimentScore": 0.8,
+    "numOfSentences": 6
+  },
+  {
+    "speakerNameId": "1901609580",
+    "speakerName": "[Simon LeChipre](https://gam.prontonlp.com/#/ref/$SPEAKERNAME_1901609580)",
+    "speakerCompany": "[Jefferies LLC, Research Division](https://gam.prontonlp.com/#/ref/$SPEAKERCOMPANY_22401937)",
+    "speakerCompanyId": 22401937,
+    "role": "Equity Analyst",
+    "type": "Analysts",
+    "sentimentScore": 0,
+    "numOfSentences": 5
+  }
+]

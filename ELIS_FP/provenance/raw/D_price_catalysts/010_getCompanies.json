@@ -1,0 +1,24 @@
+{
+  "total": 1,
+  "results": [
+    {
+      "companyId": "808038",
+      "companyName": "[Sodexo S.A.](https://gam.prontonlp.com/#/ref/$COMPANY_808038)",
+      "GVKEY": "102089",
+      "marketCap": 9526195233,
+      "country": "FR",
+      "ticker": "SW",
+      "CIK": "0001169715",
+      "displayName": "[Sodexo S.A. (SW)](https://gam.prontonlp.com/#/ref/$COMPANY_808038)",
+      "subSector": "Hotels Restaurants and Leisure",
+      "hqCountry": "France",
+      "ISIN": "FR0000121220",
+      "updateFromCorpus": "transcripts",
+      "originalCap": 8363999415,
+      "collapseKey": "808038",
+      "exchange": "ENXTPA",
+      "webpage": "www.sodexo.com",
+      "sector": "Consumer Discretionary"
+    }
+  ]
+}

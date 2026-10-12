@@ -1,0 +1,143 @@
+{
+  "total": 13,
+  "results": [
+    {
+      "transcriptId": "upcoming-doc-694763",
+      "title": "[Fiscal Year 2026 Earnings Call](https://gam.prontonlp.com/#/ref/$DOCID_upcoming-doc-694763)",
+      "date": "2026-11-27T21:00:00Z",
+      "corpus": "S&P Transcripts",
+      "documentType": "Earnings Calls",
+      "companyName": "[Vestis Corporation](https://gam.prontonlp.com/#/ref/$COMPANY_694763)",
+      "companyId": "694763",
+      "ticker": "VSTS"
+    },
+    {
+      "transcriptId": "upcoming-doc-411004",
+      "title": "[Q3 2026 Earnings Call](https://gam.prontonlp.com/#/ref/$DOCID_upcoming-doc-411004)",
+      "date": "2026-11-06T00:00:00Z",
+      "corpus": "S&P Transcripts",
+      "documentType": "Earnings Calls",
+      "companyName": "[Rentokil Initial plc](https://gam.prontonlp.com/#/ref/$COMPANY_411004)",
+      "companyId": "411004",
+      "ticker": "RTO"
+    },
+    {
+      "transcriptId": "upcoming-doc-309966",
+      "title": "[Fiscal Year 2026 Earnings Call](https://gam.prontonlp.com/#/ref/$DOCID_upcoming-doc-309966)",
+      "date": "2026-10-21T16:30:00Z",
+      "corpus": "S&P Transcripts",
+      "documentType": "Earnings Calls",
+      "companyName": "[UniFirst Corporation](https://gam.prontonlp.com/#/ref/$COMPANY_309966)",
+      "companyId": "309966",
+      "ticker": "UNF"
+    },
+    {
+      "transcriptId": "SEC000267162990",
+      "title": "[Cintas Corporation - 10-Q - 2026-08-31](https://gam.prontonlp.com/#/ref/$DOCID_SEC000267162990)",
+      "date": "2026-10-07T16:17:00Z",
+      "corpus": "SEC Filings",
+      "documentType": "10-Q",
+      "companyName": "[Cintas Corporation](https://gam.prontonlp.com/#/ref/$COMPANY_260725)",
+      "companyId": "260725",
+      "ticker": "CTAS",
+      "sentimentScore": 0.47,
+      "eventCount": 446,
+      "positiveEvents": 129,
+      "negativeEvents": 42
+    },
+    {
+      "transcriptId": "SEC000267119498",
+      "title": "[Cintas Corporation - 8-K - 2026-10-06](https://gam.prontonlp.com/#/ref/$DOCID_SEC000267119498)",
+      "date": "2026-10-06T17:22:00Z",
+      "corpus": "SEC Filings",
+      "documentType": "8-K",
+      "companyName": "[Cintas Corporation](https://gam.prontonlp.com/#/ref/$COMPANY_260725)",
+      "companyId": "260725",
+      "ticker": "CTAS"
+    },
+    {
+      "transcriptId": "SEC000267101971",
+      "title": "[Rentokil Initial plc - 6-K - 2026-10-06](https://gam.prontonlp.com/#/ref/$DOCID_SEC000267101971)",
+      "date": "2026-10-06T07:28:00Z",
+      "corpus": "SEC Filings",
+      "documentType": "6-K",
+      "companyName": "[Rentokil Initial plc](https://gam.prontonlp.com/#/ref/$COMPANY_411004)",
+      "companyId": "411004",
+      "ticker": "RTO"
+    },
+    {
+      "transcriptId": "SEC000266924877",
+      "title": "[Rentokil Initial plc - 6-K - 2026-09-30](https://gam.prontonlp.com/#/ref/$DOCID_SEC000266924877)",
+      "date": "2026-09-30T07:50:00Z",
+      "corpus": "SEC Filings",
+      "documentType": "6-K",
+      "companyName": "[Rentokil Initial plc](https://gam.prontonlp.com/#/ref/$COMPANY_411004)",
+      "companyId": "411004",
+      "ticker": "RTO"
+    },
+    {
+      "transcriptId": "SEC000266826628",
+      "title": "[Vestis Corporation - 8-K - 2026-09-28](https://gam.prontonlp.com/#/ref/$DOCID_SEC000266826628)",
+      "date": "2026-09-28T07:01:00Z",
+      "corpus": "SEC Filings",
+      "documentType": "8-K",
+      "companyName": "[Vestis Corporation](https://gam.prontonlp.com/#/ref/$COMPANY_694763)",
+      "companyId": "694763",
+      "ticker": "VSTS"
+    },
+    {
+      "transcriptId": "upcoming-doc-260725",
+      "title": "[Q3 2026 Earnings Call](https://gam.prontonlp.com/#/ref/$DOCID_upcoming-doc-260725)",
+      "date": "2026-09-23T14:00:00Z",
+      "corpus": "S&P Transcripts",
+      "documentType": "Earnings Calls",
+      "companyName": "[Cintas Corporation](https://gam.prontonlp.com/#/ref/$COMPANY_260725)",
+      "companyId": "260725",
+      "ticker": "CTAS"
+    },
+    {
+      "transcriptId": "T000003820471",
+      "title": "[Cintas Corporation, Q1 2027 Earnings Call, Sep 23, 2026](https://gam.prontonlp.com/#/ref/$DOCID_T000003820471)",
+      "date": "2026-09-23T14:00:00Z",
+      "corpus": "S&P Transcripts",
+      "documentType": "Earnings Calls",
+      "companyName": "[Cintas Corporation](https://gam.prontonlp.com/#/ref/$COMPANY_260725)",
+      "companyId": "260725",
+      "ticker": "CTAS",
+      "sentimentScore": 0.78,
+      "eventCount": 689,
+      "positiveEvents": 380,
+      "negativeEvents": 42
+    },
+    {
+      "transcriptId": "SEC000266691447",
+      "title": "[Cintas Corporation - 8-K - 2026-09-23](https://gam.prontonlp.com/#/ref/$DOCID_SEC000266691447)",
+      "date": "2026-09-23T08:31:00Z",
+      "corpus": "SEC Filings",
+      "documentType": "8-K",
+      "companyName": "[Cintas Corporation](https://gam.prontonlp.com/#/ref/$COMPANY_260725)",
+      "companyId": "260725",
+      "ticker": "CTAS"
+    },
+    {
+      "transcriptId": "SEC000266634397",
+      "title": "[Rentokil Initial plc - 6-K - 2026-09-22](https://gam.prontonlp.com/#/ref/$DOCID_SEC000266634397)",
+      "date": "2026-09-22T06:20:00Z",
+      "corpus": "SEC Filings",
+      "documentType": "6-K",
+      "companyName": "[Rentokil Initial plc](https://gam.prontonlp.com/#/ref/$COMPANY_411004)",
+      "companyId": "411004",
+      "ticker": "RTO"
+    },
+    {
+      "transcriptId": "SEC000266281682",
+      "title": "[UniFirst Corporation - 8-K - 2026-09-11](https://gam.prontonlp.com/#/ref/$DOCID_SEC000266281682)",
+      "date": "2026-09-11T16:18:00Z",
+      "corpus": "SEC Filings",
+      "documentType": "8-K",
+      "companyName": "[UniFirst Corporation](https://gam.prontonlp.com/#/ref/$COMPANY_309966)",
+      "companyId": "309966",
+      "ticker": "UNF"
+    }
+  ]
+}

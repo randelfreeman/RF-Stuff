@@ -1,0 +1,15 @@
+{
+  "_call": "F_segments_kpis-008",
+  "_params": {"sentenceIds": ["T000003676656-164"], "beforeSentence": 2, "afterSentence": 2},
+  "_note": "Verbatim response below.",
+  "response": {
+  "results": [
+    {
+      "sentenceId": "T000003676656-164",
+      "text": "Commercial momentum in flat linen and workwear remains solid. Pricing adjustments were implemented to offset cost base inflation. Hospitality performance was mixed, with softer activity during the second and third quarter. The EBITDA margin reached 32.4%, up 70 bps year-on-year, driven by productivity gains in workshops and improved logistic efficiency. [#164](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-164)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    }
+  ]
+}
+}
