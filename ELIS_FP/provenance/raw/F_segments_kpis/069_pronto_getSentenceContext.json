@@ -1,0 +1,27 @@
+{
+  "_call": "F_segments_kpis-069",
+  "_params": {"sentenceIds": ["T000003054377-90", "T000003468571-1074", "NONSEC000259591248-313"], "beforeSentence": 3, "afterSentence": 3},
+  "_note": "Verbatim response below.",
+  "response": {
+  "results": [
+    {
+      "sentenceId": "T000003054377-90",
+      "text": "Nevertheless, we saw a moderate increase of our churn rate in '23 due to our strict pricing discipline. Moving on to the next slide, price effect for 2023 was at plus 9%, in line with the increase of our cost base. And as a reminder, salaries accounts for more -- for around 60% of our cost base and are by far the main trigger for Elis' pricing adjustments. Energy costs account for around 10%. And the remainder is made up of several smaller costs such as chemical products or paper. Looking at '24, inflation is still present in all geographies, and while it continue to increase everywhere, this will mechanically impact our cost base, and we have already adjusted or we adjust our prices accordingly in the course of '24 on the back of the pricing indexation formula that is in our contract. Moving on to the next slide, I would like to focus again on the Mexican acquisition we closed in July '22, which therefore had a 6-month impact on scope effect for '23. [#90](https://gam.prontonlp.com/#/ref/$SENTID_T000003054377-90)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    },
+    {
+      "sentenceId": "T000003468571-1074",
+      "text": "So start with France. Okay. So France is a benchmark for operation for other countries and also a market where we still have potential to grow. We have an unrevolved network density, thanks to our 69 plants and 46 distribution center, plusing up in average [ lots ] from our 150,000 customers. We are a leader in each segment market we deliver in hospitality, health care, industry, train and services. We deliver all of Elis' services and as Xavier said, we fared all size of customers from smallest with only EUR 30 per month to EUR 3 million per month as [indiscernible] Paris today. [#1074](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-1074)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    },
+    {
+      "sentenceId": "NONSEC000259591248-313",
+      "text": "Company listed on Euronext (SBF 120) Strong business model ensuring profitable growth * plants, logistics centers and depots More than 11,000vehicles * ISO 14001-certified sites * ISO 45001-certified sites An industrial model based on the circular economy To make its customers' lives easier and contribute to their success through a sustainable, responsible process. [#313](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-313)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    }
+  ]
+}
+}

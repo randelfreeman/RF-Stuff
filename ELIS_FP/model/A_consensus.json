@@ -1,0 +1,229 @@
+{
+ "source": "ProntoNLP getCompanyConsensus companiesIds 27989 (A_earnings-035..038; raw/A_earnings/035-038); no citation links returned by tool",
+ "availability": {
+  "revenue": "quarterly actual vs expected only (Q1 2021-Q2 2026; Q1-Q3 2025 rows empty)",
+  "ebitda": "empty",
+  "epsGaap": "empty",
+  "netIncomeGaap": "empty",
+  "freeCashFlow": "single Q2 2022 point (actual 61.95m vs expected 205m)",
+  "capitalExpenditure": "empty",
+  "forward_FY2026E_FY2028E": "not returned for any interval (year, quarter, last-doc, month)",
+  "revision_history": "not available (one expectedValue per period)"
+ },
+ "revenue_quarterly": [
+  {
+   "quarter": "Q1 2021",
+   "periodEndDate_field": "2021-01-01",
+   "effectiveDate": "2021-05-05T15:40:00Z",
+   "actual_EUR_m": 658.2,
+   "expected_EUR_m": 638.0,
+   "surprise_EUR_m": 20.2,
+   "surprise_pct": 3.17
+  },
+  {
+   "quarter": "Q2 2021",
+   "periodEndDate_field": "2021-04-01",
+   "effectiveDate": "2021-07-28T15:40:00Z",
+   "actual_EUR_m": 717.3,
+   "expected_EUR_m": 698.3,
+   "surprise_EUR_m": 19.0,
+   "surprise_pct": 2.72
+  },
+  {
+   "quarter": "Q3 2021",
+   "periodEndDate_field": "2021-07-01",
+   "effectiveDate": "2021-10-26T15:40:00Z",
+   "actual_EUR_m": 839.4,
+   "expected_EUR_m": 834.0,
+   "surprise_EUR_m": 5.4,
+   "surprise_pct": 0.65
+  },
+  {
+   "quarter": "Q4 2021",
+   "periodEndDate_field": "2021-10-01",
+   "effectiveDate": "2022-01-31T16:40:00Z",
+   "actual_EUR_m": 833.3,
+   "expected_EUR_m": null
+  },
+  {
+   "quarter": "Q1 2022",
+   "periodEndDate_field": "2022-01-01",
+   "effectiveDate": "2022-05-10T15:40:00Z",
+   "actual_EUR_m": 832.8,
+   "expected_EUR_m": 809.2,
+   "surprise_EUR_m": 23.6,
+   "surprise_pct": 2.92
+  },
+  {
+   "quarter": "Q2 2022",
+   "periodEndDate_field": "2022-04-01",
+   "effectiveDate": "2022-07-27T15:40:00Z",
+   "actual_EUR_m": 951.0,
+   "expected_EUR_m": 1317.6,
+   "surprise_EUR_m": -366.6,
+   "surprise_pct": -27.82
+  },
+  {
+   "quarter": "Q3 2022",
+   "periodEndDate_field": "2022-07-01",
+   "effectiveDate": "2022-10-26T15:40:00Z",
+   "actual_EUR_m": 1031.0,
+   "expected_EUR_m": 998.0,
+   "surprise_EUR_m": 33.0,
+   "surprise_pct": 3.31
+  },
+  {
+   "quarter": "Q4 2022",
+   "periodEndDate_field": "2022-10-01",
+   "effectiveDate": "2023-01-30T16:40:00Z",
+   "actual_EUR_m": 1006.1,
+   "expected_EUR_m": 990.0,
+   "surprise_EUR_m": 16.1,
+   "surprise_pct": 1.63
+  },
+  {
+   "quarter": "Q1 2023",
+   "periodEndDate_field": "2023-01-01",
+   "effectiveDate": "2023-05-10T12:51:44Z",
+   "actual_EUR_m": 1013.4,
+   "expected_EUR_m": 991.8,
+   "surprise_EUR_m": 21.6,
+   "surprise_pct": 2.18
+  },
+  {
+   "quarter": "Q2 2023",
+   "periodEndDate_field": "2023-04-01",
+   "effectiveDate": "2023-07-26T15:40:00Z",
+   "actual_EUR_m": 1087.9,
+   "expected_EUR_m": 1087.0,
+   "surprise_EUR_m": 0.9,
+   "surprise_pct": 0.08
+  },
+  {
+   "quarter": "Q3 2023",
+   "periodEndDate_field": "2023-07-01",
+   "effectiveDate": "2023-10-26T15:40:00Z",
+   "actual_EUR_m": 1123.3,
+   "expected_EUR_m": 1134.4,
+   "surprise_EUR_m": -11.1,
+   "surprise_pct": -0.98
+  },
+  {
+   "quarter": "Q4 2023",
+   "periodEndDate_field": "2023-10-01",
+   "effectiveDate": "2024-01-30T16:40:00Z",
+   "actual_EUR_m": 1084.7,
+   "expected_EUR_m": 1091.0,
+   "surprise_EUR_m": -6.3,
+   "surprise_pct": -0.58
+  },
+  {
+   "quarter": "Q1 2024",
+   "periodEndDate_field": "2024-01-01",
+   "effectiveDate": "2024-05-06T15:40:00Z",
+   "actual_EUR_m": 1092.4,
+   "expected_EUR_m": 1076.4,
+   "surprise_EUR_m": 16.0,
+   "surprise_pct": 1.49
+  },
+  {
+   "quarter": "Q2 2024",
+   "periodEndDate_field": "2024-04-01",
+   "effectiveDate": "2024-07-24T15:40:00Z",
+   "actual_EUR_m": 1154.2,
+   "expected_EUR_m": 1156.1,
+   "surprise_EUR_m": -1.9,
+   "surprise_pct": -0.16
+  },
+  {
+   "quarter": "Q3 2024",
+   "periodEndDate_field": "2024-07-01",
+   "effectiveDate": "2024-10-30T16:40:00Z",
+   "actual_EUR_m": 1184.9,
+   "expected_EUR_m": 1194.0,
+   "surprise_EUR_m": -9.1,
+   "surprise_pct": -0.76
+  },
+  {
+   "quarter": "Q4 2024",
+   "periodEndDate_field": "2024-10-01",
+   "effectiveDate": "2025-03-06T06:00:00Z",
+   "actual_EUR_m": 1142.1,
+   "expected_EUR_m": 1155.0,
+   "surprise_EUR_m": -12.9,
+   "surprise_pct": -1.12
+  },
+  {
+   "quarter": "Q1 2025",
+   "periodEndDate_field": "2025-01-01",
+   "effectiveDate": null,
+   "actual_EUR_m": null,
+   "expected_EUR_m": null
+  },
+  {
+   "quarter": "Q2 2025",
+   "periodEndDate_field": "2025-04-01",
+   "effectiveDate": null,
+   "actual_EUR_m": null,
+   "expected_EUR_m": null
+  },
+  {
+   "quarter": "Q3 2025",
+   "periodEndDate_field": "2025-07-01",
+   "effectiveDate": null,
+   "actual_EUR_m": null,
+   "expected_EUR_m": null
+  },
+  {
+   "quarter": "Q4 2025",
+   "periodEndDate_field": "2025-10-01",
+   "effectiveDate": "2026-01-29T16:40:00Z",
+   "actual_EUR_m": 1205.7,
+   "expected_EUR_m": 1195.0,
+   "surprise_EUR_m": 10.7,
+   "surprise_pct": 0.9
+  },
+  {
+   "quarter": "Q1 2026",
+   "periodEndDate_field": "2026-01-01",
+   "effectiveDate": "2026-05-04T15:40:00Z",
+   "actual_EUR_m": 1180.5,
+   "expected_EUR_m": 1183.1,
+   "surprise_EUR_m": -2.6,
+   "surprise_pct": -0.22
+  },
+  {
+   "quarter": "Q2 2026",
+   "periodEndDate_field": "2026-04-01",
+   "effectiveDate": "2026-07-29T15:40:00Z",
+   "actual_EUR_m": 1276.6,
+   "expected_EUR_m": 1274.8,
+   "surprise_EUR_m": 1.8,
+   "surprise_pct": 0.14
+  }
+ ],
+ "H1_2026_revenue_vs_consensus": {
+  "actual_EUR_m": 2457.1,
+  "expected_EUR_m_sum_Q1_Q2": 2457.9,
+  "surprise_pct_calc": -0.03,
+  "Q1": "-0.22% (1,180.5 vs 1,183.1)",
+  "Q2": "+0.14% (1,276.6 vs 1,274.8)"
+ },
+ "FY2025_revenue_vs_consensus": {
+  "Q4_2025": "+0.90% (1,205.7 vs 1,195.0)",
+  "note": "Q1-Q3 2025 expected/actual not available -> full-year beat/miss vs consensus cannot be determined from the tool"
+ },
+ "historical_revenue_surprise_stats_calc": {
+  "n_quarters": 17,
+  "mean_surprise_pct": 0.9,
+  "beats": 11,
+  "misses": 6,
+  "excluded": "Q2 2022 expected value (1,317.6m) looks erroneous (actual 951.0m; -27.8%)"
+ },
+ "epsGaap_interpretation": {
+  "label": "epsGaap (by name GAAP/IFRS reported EPS, not Elis headline EPS)",
+  "observed": "no epsGaap data returned for Elis -> cannot be verified empirically",
+  "context": "S&P IFRS diluted EPS FY2025 EUR 1.4637 (A_earnings-039, [1.46](https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099)) vs company headline diluted EPS EUR 1.85 [#28](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-28) (headline ~26% higher [calc]); S&P Normalized Diluted EPS FY2025 EUR 1.1502 (A_earnings-040) is a third, different definition",
+  "risk": "Any EPS consensus labelled GAAP would not be comparable with Elis guidance (diluted headline EPS); treat beat/miss on EPS as not determinable from these sources"
+ }
+}

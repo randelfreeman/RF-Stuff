@@ -1,0 +1,19 @@
+# Lossless re-encoding of ProntoNLP searchSentences response (call B_governance-034). Every field kept; fields identical across rows are factored into this header.
+# params: {"topicSearchQuery":"Eurazeo","companiesIds":["27989"],"size":10,"autoContext":false}
+# total: (field absent in response) ; results returned: 10 (none mention Eurazeo)
+# constant fields for every row: companyId=27989 | companyName=[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989) | sector=Industrials-Commercial Services and Supplies
+# per-document constant fields: NONSEC000259591248 -> documentType=AR | date=2026-05-04 | title=[Elis SA - AR - 2025-12-31](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000259591248)
+#                               NONSEC000264324010 -> documentType=SR | date=2026-07-30 | title=[Elis SA - SR - 2026-06-30](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000264324010)
+#                               NONSEC000264346860 -> documentType=SR | date=2026-07-30 | title=[Elis SA - SR - 2026-06-30](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000264346860)
+#                               NONSEC000256665099 -> documentType=FIN SUPP | date=2026-03-10 | title=[Elis SA - FIN SUPP - 2025-12-31](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000256665099)
+# columns: sentenceId<TAB>transcriptId<TAB>section(blank = field absent)<TAB>text
+NONSEC000259591248-4715	NONSEC000259591248	AR_Data	Some of these products used in Europe are also eco-labeled. [#4715](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-4715)
+NONSEC000259591248-6814	NONSEC000259591248		z o.o. [#6814](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6814)
+NONSEC000259591248-5084	NONSEC000259591248	AR_Data	This tool is available in France, Spain, and Portugal. [#5084](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-5084)
+NONSEC000259591248-5434	NONSEC000259591248		Outlook [#5434](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-5434)
+NONSEC000259591248-4777	NONSEC000259591248	AR_Data	This European label enables consumers to identify the most responsible products in terms of the environment and health throughout their life cycle. [#4777](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-4777)
+NONSEC000259591248-4553	NONSEC000259591248	AR_Data	Products: European Eco-label and Oeko-Tex Made-in- Green Flat linen offering Elis makes EU Ecolabel-certified textile products available to some of its domestic customers. [#4553](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-4553)
+NONSEC000264324010-31	NONSEC000264324010		H1 2026 organic revenue growth (In millions of euros) organic growth organic growth organic growth France Central Europe Scandinavia & East. [#31](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-31)
+NONSEC000264346860-31	NONSEC000264346860		H1 2026 organic revenue growth (In millions of euros) organic growth organic growth organic growth France Central Europe Scandinavia & East. [#31](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-31)
+NONSEC000259591248-646	NONSEC000259591248		Proshine is part of a consistent range strategy, designed to offer customers a complete solution. [#646](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-646)
+NONSEC000259591248-6809	NONSEC000259591248		Czech Republic [#6809](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6809)

@@ -1,0 +1,39 @@
+{
+  "total": 3,
+  "results": [
+    {
+      "transcriptId": "SEC000264490076",
+      "title": "[Rentokil Initial plc - 6-K - 2026-08-03](https://gam.prontonlp.com/#/ref/$DOCID_SEC000264490076)",
+      "date": "2026-08-03T08:40:00Z",
+      "corpus": "SEC Filings",
+      "documentType": "6-K",
+      "companyName": "[Rentokil Initial plc](https://gam.prontonlp.com/#/ref/$COMPANY_411004)",
+      "companyId": "411004",
+      "ticker": "RTO"
+    },
+    {
+      "transcriptId": "SEC000264340142",
+      "title": "[Rentokil Initial plc - 6-K - 2026-07-30](https://gam.prontonlp.com/#/ref/$DOCID_SEC000264340142)",
+      "date": "2026-07-30T12:02:00Z",
+      "corpus": "SEC Filings",
+      "documentType": "6-K",
+      "companyName": "[Rentokil Initial plc](https://gam.prontonlp.com/#/ref/$COMPANY_411004)",
+      "companyId": "411004",
+      "ticker": "RTO"
+    },
+    {
+      "transcriptId": "T000003774329",
+      "title": "[Rentokil Initial plc, H1 2026 Earnings Call, Jul 30, 2026](https://gam.prontonlp.com/#/ref/$DOCID_T000003774329)",
+      "date": "2026-07-30T08:30:00Z",
+      "corpus": "S&P Transcripts",
+      "documentType": "Earnings Calls",
+      "companyName": "[Rentokil Initial plc](https://gam.prontonlp.com/#/ref/$COMPANY_411004)",
+      "companyId": "411004",
+      "ticker": "RTO",
+      "sentimentScore": 0.67,
+      "eventCount": 771,
+      "positiveEvents": 404,
+      "negativeEvents": 66
+    }
+  ]
+}

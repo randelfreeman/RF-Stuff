@@ -1,0 +1,15 @@
+{
+  "_call": "F_segments_kpis-042",
+  "_params": {"sentenceIds": ["NONSEC000180181407-3281"], "beforeSentence": 3, "afterSentence": 0},
+  "_note": "Verbatim response below.",
+  "response": {
+  "results": [
+    {
+      "sentenceId": "NONSEC000180181407-3281",
+      "text": "EBITDA margin up 70 bps to 34.5% of revenue. EBIT margin up 240 bps to 12.7% of revenue. Net income from ordinary operations up 60.4% to €222.7 million. Net current earnings per share up 56.4% to €0.97 (number of shares on diluted basis) Free cash flow (after lease payments) of €228.1 million. [#3281](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000180181407-3281)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    }
+  ]
+}
+}

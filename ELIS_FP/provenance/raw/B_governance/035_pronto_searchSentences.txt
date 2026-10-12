@@ -1,0 +1,22 @@
+# Lossless re-encoding of ProntoNLP searchSentences response (call B_governance-035). Every field kept; fields identical across rows are factored into this header.
+# params: {"topicSearchQuery":"shareholders stake sale","transcriptsIds":["T000003774119","T000003676656"],"size":15,"autoContext":false}
+# total: (field absent in response) ; results returned: 15
+# constant fields for every row: companyId=27989 | companyName=[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989) | sector=Industrials-Commercial Services and Supplies | documentType=Earnings Calls
+# per-document constant fields: T000003676656 -> date=2026-03-11 | title=[Elis SA, 2025 Earnings Call, Mar 11, 2026](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656)
+#                               T000003774119 -> date=2026-07-29 | title=[Elis SA, H1 2026 Earnings Call, Jul 29, 2026](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119)
+# columns: sentenceId<TAB>transcriptId<TAB>section<TAB>speakerType<TAB>text
+T000003676656-510	T000003676656	EarningsCalls_PresenterSpeech	Executives_CFO	Turning now to share buybacks. [#510](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-510)
+T000003774119-286	T000003774119	EarningsCalls_PresenterSpeech	Executives_CFO	And finally, allocating the remaining cash to shareholder returns through a regular dividend complemented by share buyback or, where appropriate, a special dividend. [#286](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-286)
+T000003676656-496	T000003676656	EarningsCalls_PresenterSpeech	Executives_CEO	Finally, while these two priorities are addressed, we allocate the remaining cash to shareholders' returns. [#496](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-496)
+T000003676656-530	T000003676656	EarningsCalls_PresenterSpeech	Executives_CFO	Second, the dividend payment. [#530](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-530)
+T000003676656-801	T000003676656	EarningsCalls_Answer	Executives_CFO	We will use them to reimburse the bond as it is a new share now. [#801](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-801)
+T000003676656-797	T000003676656	EarningsCalls_Question	Analysts	Sorry, just to confirm, you will cancel those shares? [#797](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-797)
+T000003676656-531	T000003676656	EarningsCalls_PresenterSpeech	Executives_CFO	In May '26, subject to shareholder approval, we will pay a dividend of EUR 0.48 per share, representing a total cash outflow of approximately EUR 110 million. [#531](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-531)
+T000003676656-760	T000003676656	EarningsCalls_Answer	Executives_CFO	You know that for this calculation, we take the average number of shares. [#760](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-760)
+T000003676656-507	T000003676656	EarningsCalls_PresenterSpeech	Executives_CFO	At the general -- Annual General Meeting of Shareholders in '26, the Supervisory Board will propose the payment of a dividend of EUR 0.48 per share, which represents an increase of 7% compared to last year. [#507](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-507)
+T000003676656-646	T000003676656	EarningsCalls_Question	Analysts	And second question is regarding -- you have mentioned potentially some share buyback or special dividend in terms of capital allocation. [#646](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-646)
+T000003676656-506	T000003676656	EarningsCalls_PresenterSpeech	Executives_CFO	Starting with the dividend. [#506](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-506)
+T000003676656-761	T000003676656	EarningsCalls_Answer	Executives_CFO	It means that the day you buy the share is very important in the calculation. [#761](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-761)
+T000003676656-670	T000003676656	EarningsCalls_Question	Analysts	The second question, just slightly more technical around the share-based payments. [#670](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-670)
+T000003676656-502	T000003676656	EarningsCalls_PresenterSpeech	Executives_CEO	He will detail the shareholders' return for '26. [#502](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-502)
+T000003774119-350	T000003774119	EarningsCalls_PresenterSpeech	Executives_CEO	And finally, we offer one of the most shareholder-friendly capital allocation policies out there, combining regular growing dividends with meaningful share buybacks. [#350](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-350)

@@ -1,0 +1,28 @@
+# Lossless re-encoding of ProntoNLP searchSentences response (call B_governance-081). Every field kept; fields identical across rows are factored into this header.
+# params: {"topicSearchQuery":"new shares issued payment of dividend in shares settlement delivery","companiesIds":["27989"],"dateRange":{"gte":"2022-01-01","lte":"now"},"size":12,"autoContext":false}
+# total: (field absent in response) ; results returned: 12
+# constant fields for every row: companyId=27989 | companyName=[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989) | sector=Industrials-Commercial Services and Supplies
+# per-document constant fields:
+#   NONSEC000202465426 -> AR | 2023-04-07 | [Elis SA - AR - 2022-12-31](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000202465426)
+#   NONSEC000239166805 -> AR | 2025-04-03 | [Elis SA - AR - 2024-12-31](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000239166805)
+#   NONSEC000259591248 -> AR | 2026-05-04 | [Elis SA - AR - 2025-12-31](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000259591248)
+#   NONSEC000227468208 -> SR | 2024-07-25 | [Elis SA - SR - 2024-06-30](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000227468208)
+#   NONSEC000227468226 -> SR | 2024-07-25 | [Elis SA - SR - 2024-06-30](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000227468226)
+#   T000003676656 -> Earnings Calls | 2026-03-11 | [Elis SA, 2025 Earnings Call, Mar 11, 2026](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656)
+#   NONSEC000187028716 -> SR | 2022-07-28 | [Elis SA - SR - 2022-06-30](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000187028716)
+#   NONSEC000208826367 -> SR | 2023-07-28 | [Elis SA - SR - 2023-06-30](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000208826367)
+#   NONSEC000208668809 -> SR | 2023-07-26 | [Elis SA - SR - 2023-06-30](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000208668809)
+#   NONSEC000200992035 -> FIN SUPP | 2023-03-10 | [Elis SA - FIN SUPP - 2022-12-31](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000200992035)
+# columns: sentenceId<TAB>transcriptId<TAB>section[|speakerType](blank = absent)<TAB>text
+NONSEC000202465426-961	NONSEC000202465426		Payout of the dividend in shares. [#961](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000202465426-961)
+NONSEC000239166805-507	NONSEC000239166805		Payout of the dividend. [#507](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000239166805-507)
+NONSEC000259591248-1161	NONSEC000259591248		Payout of the dividend. [#1161](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1161)
+NONSEC000227468208-401	NONSEC000227468208		Paiements Fonds Sur Des Actions. [#401](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000227468208-401)
+NONSEC000227468226-313	NONSEC000227468226		Paiements Fonds Sur Des Actions. [#313](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000227468226-313)
+T000003676656-530	T000003676656	EarningsCalls_PresenterSpeech|Executives_CFO	Second, the dividend payment. [#530](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-530)
+NONSEC000187028716-97	NONSEC000187028716		The issue price of the new shares issued in payment of the dividend was set at €12.96. [#97](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000187028716-97)
+NONSEC000208826367-108	NONSEC000208826367		The issue price of the new shares issued in payment of the dividend was set at €16.39. [#108](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000208826367-108)
+NONSEC000208668809-125	NONSEC000208668809		Le prix d'émission des actions nouvelles émises en paiement du dividende a été fixé à 16,39€. [#125](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000208668809-125)
+T000003676656-506	T000003676656	EarningsCalls_PresenterSpeech|Executives_CFO	Starting with the dividend. [#506](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-506)
+NONSEC000202465426-4187	NONSEC000202465426		The next annual general shareholders' meeting will be asked to approve the payout of a dividend of 0.41 per share, i.e. 94.3 million, based on the number of existing shares as at December 31, 2022 (excluding treasury shares), with the option of payment in Elis shares. [#4187](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000202465426-4187)
+NONSEC000200992035-928	NONSEC000200992035	Finsupp_Data	It was decided at the annual general shareholders' meeting of The next annual general shareholders' meeting will be asked to May 19, 2022, to distribute a dividend for the 2021 financial year of approve the payout of €0.41 per share, or €94.3 million, based on the number of existing shares as at December 31, 2022 (excluding of existing shares as at the date the dividend is paid, i.e., treasury shares), as well as the option of payment of the dividend in shares or in cash. [#928](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000200992035-928)

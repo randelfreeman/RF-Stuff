@@ -1,0 +1,10 @@
+# Lossless TSV re-encoding of ProntoNLP searchSentences response (call F_segments_kpis-076). Rows in returned (relevance) order; every field kept (no row had a section field). Document is in French.
+# params: {"topicSearchQuery":"Résultat net courant par action dilué premier semestre","transcriptsIds":["NONSEC000245135173"],"size":5,"autoContext":false}
+# Fields constant for every row: companyId=27989 | companyName=[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989) | transcriptId=NONSEC000245135173 | documentType=SR | sector=Industrials-Commercial Services and Supplies | date=2025-07-30 | title=[Elis SA - SR - 2025-06-30](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000245135173)
+# Response "total": 26
+sentenceId	text
+NONSEC000245135173-201	Rsultat Net. [#201](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000245135173-201)
+NONSEC000245135173-88	Le résultat net courant ressort à 213,2 millions d'euros au 1er semestre 2025, en hausse de +2,6% par rapport au 1er semestre 2024. [#88](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000245135173-88)
+NONSEC000245135173-86	Tableau De Passage Du Rsultat Net Au Rsultat Net Courant. [#86](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000245135173-86)
+NONSEC000245135173-193	3.2 280,5 246,9 Résultat financier net 8.1 (64,9) (66,5) [#193](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000245135173-193)
+NONSEC000245135173-80	Résultat financier net Au 1er semestre 2025, la charge financière nette s'élève à 64,9 millions d'euros, un niveau relativement stable par rapport au 1er semestre 2024. [#80](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000245135173-80)

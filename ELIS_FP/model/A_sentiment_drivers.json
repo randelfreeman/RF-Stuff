@@ -1,0 +1,115 @@
+{
+ "document": "[Elis SA, H1 2026 Earnings Call, Jul 29, 2026](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119)",
+ "comparison_document": "[Elis SA, 2025 Earnings Call, Mar 11, 2026](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656)",
+ "measures": [
+  {
+   "measure": "sentimentScore",
+   "FY2025_call": "[0.81](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656_$GROUPBY_Scores_$KEY_Sentiment)",
+   "H1_2026_call": "[0.52](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119_$GROUPBY_Scores_$KEY_Sentiment)"
+  },
+  {
+   "measure": "investmentScore",
+   "FY2025_call": "[0.83](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656_$GROUPBY_Scores_$KEY_Investment)",
+   "H1_2026_call": "[0.2](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119_$GROUPBY_Scores_$KEY_Investment)"
+  },
+  {
+   "measure": "pattern +/=/-",
+   "FY2025_call": "527/267/54 [Pattern Sentiment](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656_$GROUPBY_PatternSentiment)",
+   "H1_2026_call": "331/284/95 [Pattern Sentiment](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119_$GROUPBY_PatternSentiment)"
+  },
+  {
+   "measure": "aspect CurrentState",
+   "FY2025_call": "[CurrentState](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656_$GROUPBY_Aspects_$KEY_CurrentState) (0.75; 38 neg)",
+   "H1_2026_call": "[CurrentState](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119_$GROUPBY_Aspects_$KEY_CurrentState) (0.40; 73 neg)"
+  },
+  {
+   "measure": "aspect Forecast",
+   "FY2025_call": "[Forecast](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656_$GROUPBY_Aspects_$KEY_Forecast) (0.83)",
+   "H1_2026_call": "[Forecast](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119_$GROUPBY_Aspects_$KEY_Forecast) (0.41)"
+  },
+  {
+   "measure": "aspect StrategicPosition",
+   "FY2025_call": "[StrategicPosition](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656_$GROUPBY_Aspects_$KEY_StrategicPosition) (0.97)",
+   "H1_2026_call": "[StrategicPosition](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119_$GROUPBY_Aspects_$KEY_StrategicPosition) (0.93)"
+  },
+  {
+   "measure": "Executives sentimentScore",
+   "FY2025_call": "[0.82](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656_$GROUPBY_Scores_$KEY_Sentiment) (524+/53-)",
+   "H1_2026_call": "[0.54](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119_$GROUPBY_Scores_$KEY_Sentiment) (324+/90-)"
+  },
+  {
+   "measure": "Analysts sentimentScore",
+   "FY2025_call": "[0.31](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656_$GROUPBY_Scores_$KEY_Sentiment) (3+/1-)",
+   "H1_2026_call": "[0](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119_$GROUPBY_Scores_$KEY_Sentiment) (7+/5-)"
+  },
+  {
+   "measure": "eventType FinancialPerformance",
+   "FY2025_call": "[FinancialPerformance](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656_$GROUPBY_EventTypes_$KEY_FinancialPerformance) (0.74)",
+   "H1_2026_call": "[FinancialPerformance](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119_$GROUPBY_EventTypes_$KEY_FinancialPerformance) (0.43)"
+  },
+  {
+   "measure": "eventType Forecast",
+   "FY2025_call": "[Forecast](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656_$GROUPBY_EventTypes_$KEY_Forecast) (0.84)",
+   "H1_2026_call": "[Forecast](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119_$GROUPBY_EventTypes_$KEY_Forecast) (0.47)"
+  },
+  {
+   "measure": "eventType Debt",
+   "FY2025_call": "[Debt](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656_$GROUPBY_EventTypes_$KEY_Debt) (0.96)",
+   "H1_2026_call": "[Debt](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119_$GROUPBY_EventTypes_$KEY_Debt) (0.13)"
+  },
+  {
+   "measure": "eventType RiskManagement",
+   "FY2025_call": "[RiskManagement](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656_$GROUPBY_EventTypes_$KEY_RiskManagement) (0.82)",
+   "H1_2026_call": "[RiskManagement](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119_$GROUPBY_EventTypes_$KEY_RiskManagement) (-0.53)"
+  },
+  {
+   "measure": "negative-only eventTypes in H1 2026",
+   "FY2025_call": "n/a",
+   "H1_2026_call": "[OperationalChallenge](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119_$GROUPBY_EventTypes_$KEY_OperationalChallenge) (-0.80) [CostChallenge](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119_$GROUPBY_EventTypes_$KEY_CostChallenge) (-0.74) [MarketChallenge](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119_$GROUPBY_EventTypes_$KEY_MarketChallenge) (-0.86) [EconomicFactors](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119_$GROUPBY_EventTypes_$KEY_EconomicFactors) (-0.89) [EconomicForecast](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119_$GROUPBY_EventTypes_$KEY_EconomicForecast) (-0.86) [Currency](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119_$GROUPBY_EventTypes_$KEY_Currency) (-0.86)"
+  },
+  {
+   "measure": "celebratory eventTypes (positive count)",
+   "FY2025_call": "SustainabilityInitiative 23 [SustainabilityInitiative](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656_$GROUPBY_EventTypes_$KEY_SustainabilityInitiative); OperationalSuccess 27 [OperationalSuccess](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656_$GROUPBY_EventTypes_$KEY_OperationalSuccess); FinancialStrategy 18 [FinancialStrategy](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656_$GROUPBY_EventTypes_$KEY_FinancialStrategy)",
+   "H1_2026_call": "4 [SustainabilityInitiative](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119_$GROUPBY_EventTypes_$KEY_SustainabilityInitiative); 5 [OperationalSuccess](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119_$GROUPBY_EventTypes_$KEY_OperationalSuccess); 6 [FinancialStrategy](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119_$GROUPBY_EventTypes_$KEY_FinancialStrategy)"
+  }
+ ],
+ "negative_sentence_groups_H1_2026 (55 sentences, A_earnings-016)": [
+  {
+   "group": "Macro/insolvencies",
+   "citations": "[#59](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-59) [#60](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-60) [#206](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-206) [#476](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-476) [#477](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-477) [#478](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-478) [#479](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-479)"
+  },
+  {
+   "group": "Middle East energy/commodity costs; 2027 hedging gaps",
+   "citations": "[#73](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-73) [#77](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-77) [#461](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-461) [#462](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-462) [#464](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-464) [#595](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-595) [#597](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-597)"
+  },
+  {
+   "group": "Wage inflation pass-through lag (Germany, UK, LatAm)",
+   "citations": "[#111](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-111) [#131](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-131) [#147](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-147) [#208](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-208) [#545](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-545) [#547](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-547) [#548](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-548) [#549](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-549) [#550](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-550)"
+  },
+  {
+   "group": "Mexico tender loss / LatAm margin",
+   "citations": "[#139](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-139) [#146](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-146) [#148](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-148) [#361](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-361) [#364](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-364) [#375](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-375) [#377](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-377) [#517](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-517) [#544](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-544) [#557](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-557) [#558](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-558)"
+  },
+  {
+   "group": "Other regions (Germany healthcare, Ireland competition, GBP, Scandinavia)",
+   "citations": "[#103](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-103) [#121](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-121) [#126](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-126) [#130](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-130)"
+  },
+  {
+   "group": "Cash flow, DSO, financial expense, net debt, leverage, share count",
+   "citations": "[#26](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-26) [#217](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-217) [#226](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-226) [#251](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-251) [#262](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-262) [#266](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-266) [#276](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-276) [#302](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-302) [#402](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-402)"
+  },
+  {
+   "group": "Commercial timing and no 2027 guidance",
+   "citations": "[#496](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-496) [#521](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-521) [#601](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-601)"
+  },
+  {
+   "group": "Wildfires (~EUR 1m revenue at risk)",
+   "citations": "[#440](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-440) [#449](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-449) [#450](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-450)"
+  },
+  {
+   "group": "Transcription-error sentence flagged negative (EBIT \"317m\")",
+   "citations": "[#214](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-214)"
+  }
+ ],
+ "conclusion": "Drop is concentrated in executives' description of current trading and outlook (CurrentState/Forecast), not strategy; topic mix shifted from celebratory (records, CSR, capital returns) to explanatory (Mexico, costs, macro, cash)."
+}

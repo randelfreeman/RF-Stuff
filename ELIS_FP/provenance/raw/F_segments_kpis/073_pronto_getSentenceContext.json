@@ -1,0 +1,21 @@
+{
+  "_call": "F_segments_kpis-073",
+  "_params": {"sentenceIds": ["T000003054377-395", "T000003512646-362"], "beforeSentence": 2, "afterSentence": 9},
+  "_note": "Verbatim response below.",
+  "response": {
+  "results": [
+    {
+      "sentenceId": "T000003054377-395",
+      "text": "so you need to look at the details a bit, for example. So starting with the CapEx, when you look at linen, so the ratio linen to sales at 13.6%, which is a bit high, as you know. In '23, namely, you had 2 effects. First, inflation of linen was higher than pricing effect at the Group level. And the second is that we had a lot of workwear developments. And as you know, when you sign a contract in workwear, before you earn the first euro of service, you have to buy all the linen, which can be like 18 months of revenue. So of course, there are the discrepancy between revenue and the CapEx in this case if you run faster on workwear development. The second item is those are CapEx-driven mainly by the industrial CapEx. It was a bit low in '22. You remember that there was a lot of disruption on the supply chain from the providers. So it was low at 4.5% to sales. [#395](https://gam.prontonlp.com/#/ref/$SENTID_T000003054377-395)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    },
+    {
+      "sentenceId": "T000003512646-362",
+      "text": "Is that going to continue, do you think, in '26 and '27 or will it start to stabilize next year? Second question is on Scandinavia. In 2018 and '19, -- and maybe you delivered EBITDA margins above the level that you delivered in France. And now there's a 750 basis point gap between the -- can you talk about what's going on in that geography and scope to recover margin over time. Over what time period would you expect to recover margin and -- do you think that you can get back to the levels of profitability that you had previously? And then a kind of third question on Southern Europe. We did 6% organic growth, but margins are broadly flat in Southern Europe. Why are you not generating operating leverage on what looks like fairly decent volume growth. Are you in a kind of investment phase to drive growth in your region? Or is there something else going on in H1. Okay. [#362](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-362)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    }
+  ]
+}
+}

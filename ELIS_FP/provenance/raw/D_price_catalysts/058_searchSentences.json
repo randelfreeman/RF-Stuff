@@ -1,0 +1,76 @@
+{
+  "results": [
+    {
+      "sentenceId": "SEC000267162990-39",
+      "companyId": "260725",
+      "companyName": "[Cintas Corporation](https://gam.prontonlp.com/#/ref/$COMPANY_260725)",
+      "transcriptId": "SEC000267162990",
+      "text": "On October 2, 2026, Cintas and UniFirst entered into a timing agreement with the FTC pursuant to which Cintas and UniFirst agreed, among other things, not to consummate the Transaction prior to December 11, 2026 unless they have received written notice from the FTC prior to such date that the FTC has closed its investigation of the Transaction. [#39](https://gam.prontonlp.com/#/ref/$SENTID_SEC000267162990-39)",
+      "documentType": "10-Q",
+      "sector": "Industrials-Commercial Services and Supplies",
+      "date": "2026-10-07",
+      "title": "[Cintas Corporation - 10-Q - 2026-08-31](https://gam.prontonlp.com/#/ref/$DOCID_SEC000267162990)",
+      "section": "10Q_P1"
+    },
+    {
+      "sentenceId": "SEC000267162990-37",
+      "companyId": "260725",
+      "companyName": "[Cintas Corporation](https://gam.prontonlp.com/#/ref/$COMPANY_260725)",
+      "transcriptId": "SEC000267162990",
+      "text": "On June 11, 2026, each of Cintas and UniFirst received a request for additional information and documentary material (the Second Request) from the U.S. Federal Trade Commission (the FTC) in connection with the FTC’s review of the transactions contemplated by the Merger Agreement. [#37](https://gam.prontonlp.com/#/ref/$SENTID_SEC000267162990-37)",
+      "documentType": "10-Q",
+      "sector": "Industrials-Commercial Services and Supplies",
+      "date": "2026-10-07",
+      "title": "[Cintas Corporation - 10-Q - 2026-08-31](https://gam.prontonlp.com/#/ref/$DOCID_SEC000267162990)",
+      "section": "10Q_P1"
+    },
+    {
+      "sentenceId": "SEC000267119498-4",
+      "companyId": "260725",
+      "companyName": "[Cintas Corporation](https://gam.prontonlp.com/#/ref/$COMPANY_260725)",
+      "transcriptId": "SEC000267119498",
+      "text": "On October 2, 2026, Cintas and UniFirst entered into a timing agreement with the FTC pursuant to which Cintas and UniFirst agreed, among other things, not to consummate the Mergers prior to December 11, 2026 unless they have received written notice from the FTC prior to such date that the FTC has closed its investigation of the Mergers. [#4](https://gam.prontonlp.com/#/ref/$SENTID_SEC000267119498-4)",
+      "documentType": "8-K",
+      "sector": "Industrials-Commercial Services and Supplies",
+      "date": "2026-10-06",
+      "title": "[Cintas Corporation - 8-K - 2026-10-06](https://gam.prontonlp.com/#/ref/$DOCID_SEC000267119498)",
+      "section": "8K_SEC8"
+    },
+    {
+      "sentenceId": "SEC000267119498-2",
+      "companyId": "260725",
+      "companyName": "[Cintas Corporation](https://gam.prontonlp.com/#/ref/$COMPANY_260725)",
+      "transcriptId": "SEC000267119498",
+      "text": "As previously disclosed, on June 11, 2026, each of Cintas and UniFirst received a request for additional information and documentary material (the Second Request) from the U.S. Federal Trade Commission (the FTC) in connection with the FTC’s review of the transactions contemplated by the Merger Agreement. [#2](https://gam.prontonlp.com/#/ref/$SENTID_SEC000267119498-2)",
+      "documentType": "8-K",
+      "sector": "Industrials-Commercial Services and Supplies",
+      "date": "2026-10-06",
+      "title": "[Cintas Corporation - 8-K - 2026-10-06](https://gam.prontonlp.com/#/ref/$DOCID_SEC000267119498)",
+      "section": "8K_SEC8"
+    },
+    {
+      "sentenceId": "SEC000261867942-2",
+      "companyId": "260725",
+      "companyName": "[Cintas Corporation](https://gam.prontonlp.com/#/ref/$COMPANY_260725)",
+      "transcriptId": "SEC000261867942",
+      "text": "On June 11, 2026, each of Cintas and UniFirst received a request for additional information (the Second Request) from the U.S. Federal Trade Commission (the FTC) in connection with the FTC’s review of the transactions contemplated by the Merger Agreement. [#2](https://gam.prontonlp.com/#/ref/$SENTID_SEC000261867942-2)",
+      "documentType": "8-K",
+      "sector": "Industrials-Commercial Services and Supplies",
+      "date": "2026-06-12",
+      "title": "[Cintas Corporation - 8-K - 2026-06-11](https://gam.prontonlp.com/#/ref/$DOCID_SEC000261867942)",
+      "section": "8K_SEC8"
+    },
+    {
+      "sentenceId": "SEC000261867942-1",
+      "companyId": "260725",
+      "companyName": "[Cintas Corporation](https://gam.prontonlp.com/#/ref/$COMPANY_260725)",
+      "transcriptId": "SEC000261867942",
+      "text": "The Merger Agreement provides, among other things, that subject to the satisfaction or waiver of the conditions set forth therein, including the expiration or termination of the applicable waiting period under the Hart-Scott-Rodino Antitrust Improvements Act of 1976, as amended (the HSR Act), (i) Merger Sub Inc. will be merged with and into UniFirst (the First Merger), whereupon the separate existence of Merger Sub Inc. will cease, and UniFirst will continue as the surviving corporation of the First Merger and a wholly owned subsidiary of Cintas and (ii) immediately after the First Merger, UniFirst will be merged with and into Merger Sub LLC (the Second Merger, and, together with the First Merger, the Mergers), whereupon the separate existence of UniFirst will cease, and Merger Sub LLC will continue as the surviving entity of the Second Merger and a wholly owned subsidiary of Cintas. [#1](https://gam.prontonlp.com/#/ref/$SENTID_SEC000261867942-1)",
+      "documentType": "8-K",
+      "sector": "Industrials-Commercial Services and Supplies",
+      "date": "2026-06-12",
+      "title": "[Cintas Corporation - 8-K - 2026-06-11](https://gam.prontonlp.com/#/ref/$DOCID_SEC000261867942)",
+      "section": "8K_SEC8"
+    }
+  ]
+}

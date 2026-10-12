@@ -1,0 +1,13 @@
+# Lossless re-encoding of ProntoNLP searchSentences response (call B_governance-092). Every field kept; fields identical across all rows are factored into this header.
+# params: {"topicSearchQuery":"Matthieu Lecharny Yann Michel succession management change","transcriptsIds":["T000003774119"],"size":8,"autoContext":false}
+# total: (field absent in response) ; results returned: 8 (no discussion of the management changes on the H1 2026 call)
+# constant fields for every row: companyId=27989 | companyName=[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989) | transcriptId=T000003774119 | documentType=Earnings Calls | sector=Industrials-Commercial Services and Supplies | date=2026-07-29 | title=[Elis SA, H1 2026 Earnings Call, Jul 29, 2026](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119)
+# columns: sentenceId<TAB>section<TAB>speakerType<TAB>text
+T000003774119-4	EarningsCalls_PresentationOprMsg	Operator	I would now like to hand the conference over to Mr. Xavier Martire, CEO. [#4](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-4)
+T000003774119-10	EarningsCalls_PresenterSpeech	Executives_CEO	I'm Xavier Martire, CEO of Elis, speaking to you from Paris, and I'm joined by our CFO, Louis Guyot. [#10](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-10)
+T000003774119-617	EarningsCalls_Question	Analysts	Or has there been a change of strategy or competitive dynamics? [#617](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-617)
+T000003774119-174	EarningsCalls_PresenterSpeech	Executives_CEO	With that, I will now hand over to Louis, who will provide more detail on our H1 '26 financial performance. [#174](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-174)
+T000003774119-630	EarningsCalls_QAOprMsg	Operator	I will now hand the call back to Xavier Martire. [#630](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-630)
+T000003774119-13	EarningsCalls_PresenterSpeech	Executives_CEO	Then I will hand over to Louis, who will walk you through the financial results in detail. [#13](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-13)
+T000003774119-304	EarningsCalls_PresenterSpeech	Executives_CFO	I will now hand back to Xavier, who will give you an update on our CSR achievements in the first half. [#304](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-304)
+T000003774119-452	EarningsCalls_QAOprMsg	Operator	Your next question today comes from the line of Simon LeChipre from Jefferies. [#452](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-452)

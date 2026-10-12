@@ -1,0 +1,14 @@
+{
+  "_call": "F_segments_kpis-036",
+  "_params": {"sentenceIds": ["NONSEC000227468208-375"], "beforeSentence": 3, "afterSentence": 6},
+  "_note": "Verbatim response below (empty text: sentence id apparently not present in index).",
+  "response": {
+  "results": [
+    {
+      "sentenceId": "NONSEC000227468208-375",
+      "text": " [#375](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000227468208-375)",
+      "companyName": ""
+    }
+  ]
+}
+}

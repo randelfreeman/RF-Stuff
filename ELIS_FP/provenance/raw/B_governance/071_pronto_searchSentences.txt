@@ -1,0 +1,17 @@
+# Lossless re-encoding of ProntoNLP searchSentences response (call B_governance-071). Every field kept; fields identical across rows are factored into this header.
+# params: {"topicSearchQuery":"votes against resolution dissent general meeting","companiesIds":["27989"],"size":10,"autoContext":false}
+# total: (field absent in response) ; results returned: 10 (no contested votes found)
+# constant fields for every row: companyId=27989 | companyName=[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989) | sector=Industrials-Commercial Services and Supplies
+# per-document constant fields: NONSEC000259591248 -> documentType=AR | date=2026-05-04 | title=[Elis SA - AR - 2025-12-31](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000259591248)
+#   NONSEC000256665099 -> documentType=FIN SUPP | date=2026-03-10 | title=[Elis SA - FIN SUPP - 2025-12-31](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000256665099)
+# columns: sentenceId<TAB>transcriptId<TAB>section(blank = field absent)<TAB>text
+NONSEC000259591248-1126	NONSEC000259591248		Decisions are made by a majority vote of the members present or represented. [#1126](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1126)
+NONSEC000259591248-2265	NONSEC000259591248		If both are absent, the meeting elects its own Chairman. [#2265](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-2265)
+NONSEC000259591248-925	NONSEC000259591248		The committee chairs could also ask the non-voting member's opinion on topics pertaining to his or her expertise. [#925](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-925)
+NONSEC000259591248-1271	NONSEC000259591248		The recommendations issued by the Audit Committee are adopted by a simple majority of the members present. [#1271](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1271)
+NONSEC000259591248-1270	NONSEC000259591248		Committee members cannot give a proxy to another member to represent them. [#1270](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1270)
+NONSEC000259591248-1127	NONSEC000259591248		In case of a tie, the Supervisory Board's Chairman has the casting vote; if the person chairing a meeting is not the Chairman of the Supervisory Board, such person does not have a casting vote. [#1127](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1127)
+NONSEC000259591248-6607	NONSEC000259591248		The number of theoretical voting rights thus differs from the number of voting rights that can actually be exercised at general shareholders' meetings. [#6607](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6607)
+NONSEC000259591248-1272	NONSEC000259591248		In case of a tie, the committee's chair has the casting vote. [#1272](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1272)
+NONSEC000256665099-444	NONSEC000256665099		When the Group considers, with its advisors, that it has a sufficiently strong case, no provision is recorded. [#444](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000256665099-444)
+NONSEC000259591248-5974	NONSEC000259591248		When the Group considers, with its advisors, that it has a sufficiently strong case, no provision is recorded. [#5974](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-5974)

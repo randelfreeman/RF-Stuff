@@ -1,0 +1,18 @@
+{
+  "27989": {
+    "result": {
+      "revenue": {
+        "timeSeries": [
+          {"periodEndDate": "2026-01-01", "effectiveDate": "2026-05-04T15:40:00Z", "actualValue": 1180500000, "expectedValue": 1183100000, "id": "27989-revenue-0"},
+          {"periodEndDate": "2026-04-01", "effectiveDate": "2026-07-29T15:40:00Z", "actualValue": 1276600000, "expectedValue": 1274800000, "id": "27989-revenue-1"}
+        ],
+        "metricLabel": "revenue"
+      },
+      "ebitda": {"timeSeries": [], "metricLabel": "ebitda"},
+      "epsGaap": {"timeSeries": [], "metricLabel": "epsGaap"},
+      "netIncomeGaap": {"timeSeries": [], "metricLabel": "netIncomeGaap"},
+      "freeCashFlow": {"timeSeries": [], "metricLabel": "freeCashFlow"},
+      "capitalExpenditure": {"timeSeries": [], "metricLabel": "capitalExpenditure"}
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "results": [
+    {
+      "sentenceId": "T000003774119-36",
+      "companyId": "27989",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "transcriptId": "T000003774119",
+      "text": "And on capital returns, our EUR 500 million share buyback program was completed in mid-July alongside the planned exercise of the soft call option on our OCEANE 2029 convertible bond. [#36](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-36)",
+      "documentType": "Earnings Calls",
+      "sector": "Industrials-Commercial Services and Supplies",
+      "date": "2026-07-29",
+      "title": "[Elis SA, H1 2026 Earnings Call, Jul 29, 2026](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119)",
+      "section": "EarningsCalls_PresenterSpeech",
+      "speakerType": "Executives_CEO"
+    },
+    {
+      "sentenceId": "T000003774119-293",
+      "companyId": "27989",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "transcriptId": "T000003774119",
+      "text": "This is part of a EUR 500 million buyback program, which was fully completed in mid-July. [#293](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-293)",
+      "documentType": "Earnings Calls",
+      "sector": "Industrials-Commercial Services and Supplies",
+      "date": "2026-07-29",
+      "title": "[Elis SA, H1 2026 Earnings Call, Jul 29, 2026](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119)",
+      "section": "EarningsCalls_PresenterSpeech",
+      "speakerType": "Executives_CFO"
+    }
+  ]
+}

@@ -262,7 +262,134 @@ moves["peer_median_pct_same_dates"] = moves[sd].apply(pd.to_numeric, errors="coe
 moves["elis_minus_peer_median_pp"] = (moves["pct_move"] - moves["peer_median_pct_same_dates"]).round(2)
 
 # ---------------------------------------------------------------- 4. causes (from ProntoNLP research)
-CAUSES = {}  # filled below after research: key = (type, start_date, end_date)
+# Citation links are copied verbatim from ProntoNLP responses saved in provenance/raw/D_price_catalysts/.
+L_US = ("[#1](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000232051849-1) (Q3 2024 release: exploratory talks with two US players in Q3, terminated early Oct); "
+        "[#3277](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3277) (CMD: 'ready to evaluate ... major targets like Vestis'); "
+        "[#458](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-458) (FY2024 call: 'U.S. negotiation'); "
+        "[#127](https://gam.prontonlp.com/#/ref/$SENTID_T000003316682-127) (Vestis: 'preliminary proposals received')")
+L_US_END = "[#1](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000232051849-1) (both discussions terminated at the beginning of October 2024)"
+L_FY24 = ("[#4](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000257201966-4) (EUR150m buyback from 6-Mar-2025 + EUR0.45 dividend); "
+          "[#377](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-377) (valuation 'does not fully reflect' strengths); "
+          "[#2](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000257201966-2) (new cash allocation policy, 2025 outlook)")
+L_H126 = ("[#330](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-330) (Mexico volume losses brought organic growth back in line with March indication); "
+          "[#342](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-342) (2026 objectives confirmed, not raised); "
+          "[#27](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-27) (negative H1 FCF called working-capital timing); "
+          "[#36](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-36) (EUR500m buyback completed mid-July; OCEANE soft call planned)")
+L_FR24 = ("[#81](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-81) (H1 2024 call: 'stock price lost around 15% since the dissolution of the French National Assembly'); "
+          "[#155](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000227525215-155) (30% of revenue in France)")
+L_ME = ("[#424](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-424); [#453](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-453) (FY2025 call 11-Mar-2026 on Middle East situation/energy); "
+        "[#10](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259598338-10) (Q1 2026: temporary March hospitality effect); "
+        "[#73](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-73) (gas/electricity spot +50% since start of conflict); "
+        "[#77](https://gam.prontonlp.com/#/ref/$SENTID_SEC000259980508-77) (Vestis 8-K: 'military conflict among the United States, Israel and Iran')")
+L_UKR = ("[#3392](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000180181407-3392) (2022 EBITDA margin ~33.5% at EUR100/MWh gas vs <=EUR30/MWh 2010-Jul-2021); "
+         "[#2927](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000180181407-2927) (conflicts: Ukraine and impact on energy prices); "
+         "[#293](https://gam.prontonlp.com/#/ref/$SENTID_T000002520475-293) (FY2021 call: +1% price per EUR30/MWh above EUR100)")
+L_OMI = "[#29](https://gam.prontonlp.com/#/ref/$SENTID_T000002606072-29) (H1 2022 call: slight impact from Omicron in first weeks of 2022)"
+L_H122 = ("[#20](https://gam.prontonlp.com/#/ref/$SENTID_T000002606072-20) (guidance raised); "
+          "[#302](https://gam.prontonlp.com/#/ref/$SENTID_T000002606072-302) (EBIT guidance to >EUR530m); "
+          "[#18](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000187028716-18) (gas purchases secured for H2)")
+L_EN22 = ("[#455](https://gam.prontonlp.com/#/ref/$SENTID_T000002606072-455) (H1 2022 call: 'crazy' power prices, French nuclear outages); "
+          "[#19](https://gam.prontonlp.com/#/ref/$SENTID_T000002666115-19) (Q3 2022 call: bulk of inflation from energy)")
+L_Q322 = ("[#25](https://gam.prontonlp.com/#/ref/$SENTID_T000002666115-25) (guidance update: FY organic growth >+20%); "
+          "[#211](https://gam.prontonlp.com/#/ref/$SENTID_T000002666115-211) (sharp energy cost decrease in Oct-2022)")
+L_JAN23 = "[#23](https://gam.prontonlp.com/#/ref/$SENTID_T000002725290-23) (30-Jan-2023: 2023 organic growth of at least +10%, no slowdown)"
+L_H123 = "[#366](https://gam.prontonlp.com/#/ref/$SENTID_T000002859132-366) (26-Jul-2023: organic guidance specified at c.12%; HNI target raised)"
+L_SP23 = ("[#244](https://gam.prontonlp.com/#/ref/$SENTID_T000002901783-244) (EBITDA margin improvement guidance ~+70bps vs +50bps); "
+          "[#428](https://gam.prontonlp.com/#/ref/$SENTID_T000002901783-428) (SBTi/climate roadmap context: the 4-Sep-2023 special call was a CSR call, not M&A)")
+L_Q323 = ("[#293](https://gam.prontonlp.com/#/ref/$SENTID_T000002988271-293) (2023 outlook confirmed, organic c.12%); "
+          "[#324](https://gam.prontonlp.com/#/ref/$SENTID_T000002988271-324) (no precise 2024 target)")
+L_JAN24 = "[#18](https://gam.prontonlp.com/#/ref/$SENTID_T000003007279-18) (FY2023 organic +11.8%, Q4 +8.1%)"
+L_FY23 = "[#307](https://gam.prontonlp.com/#/ref/$SENTID_T000003054377-307) (2024 outlook: organic c.+5%)"
+L_VS24 = "[#191](https://gam.prontonlp.com/#/ref/$SENTID_T000003106889-191) (Vestis margin guidance cut, 2-May-2024)"
+L_FRBUD = "[#407](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-407) (analyst question on impact of new French budget)"
+L_TAR = ("[#6](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000247046060-6) (Q1 2025: no direct US-tariff impact, objectives confirmed); "
+         "[#2993](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-2993) (CMD: tariff uncertainty shook the market)")
+L_BB26 = ("[#693](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000256665099-693) (2026 buyback up to EUR500.0m); "
+          "[#695](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000256665099-695) (buyback period began 6-Jan-2026)")
+L_FY25 = ("[#507](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-507) (dividend EUR0.48 proposed); "
+          "[#519](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-519) (buyback up to EUR500m in 2026)")
+L_CTUNF = "[#32](https://gam.prontonlp.com/#/ref/$SENTID_T000003676456-32) (Cintas to acquire UniFirst, $5.5bn, 11-Mar-2026)"
+NI = "cause not identified in permitted sources"
+
+CAUSES = {  # key = (type, start_date, end_date)
+    ("single_day", "2021-11-25", "2021-11-26"): dict(category="macro", cause="Broad sell-off: peer median -3.5%, Sodexo USD line -5.8% [calc]. ProntoNLP only confirms Omicron hit hospitality in early 2022; linking this day to the Omicron variant news is [u].", source=L_OMI),
+    ("single_day", "2022-02-25", "2022-02-28"): dict(category="macro", cause="Russia-Ukraine war onset -> European gas/energy price shock for an energy-intensive laundry operator (US peers flat, Sodexo -3.1%) [calc]; war-start date [u].", source=L_UKR),
+    ("single_day", "2022-02-28", "2022-03-01"): dict(category="macro", cause="Continuation of Ukraine-war energy shock (Sodexo -5.5%, US peers ~flat) [calc].", source=L_UKR),
+    ("single_day", "2022-03-08", "2022-03-09"): dict(category="earnings/guidance; macro", cause="FY2021 results (call 9-Mar-2022): 2022 EBITDA margin ~33.5% at EUR100/MWh gas plus explicit price pass-through mechanism; same-day broad rebound (peer median +4.05%) [calc].", source=L_UKR),
+    ("single_day", "2022-03-15", "2022-03-16"): dict(category="macro", cause=NI + "; broad rally (peer median +2.5%) [calc].", source=""),
+    ("single_day", "2022-04-04", "2022-04-05"): dict(category="not identified", cause=NI + "; stock-specific vs US peers (~0%), Sodexo -2.2% [calc].", source=""),
+    ("single_day", "2022-06-10", "2022-06-13"): dict(category="macro", cause=NI + "; broad sell-off (peer median -4.0%) [calc].", source=""),
+    ("single_day", "2022-06-28", "2022-06-29"): dict(category="not identified", cause=NI + "; stock-specific (US peers ~flat, Sodexo -2.0%) [calc].", source=""),
+    ("single_day", "2022-09-14", "2022-09-15"): dict(category="macro", cause="Energy-crisis backdrop (power/gas prices) per management commentary; specific trigger for the day not identified; peer median -1.5% [calc].", source=L_EN22),
+    ("single_day", "2022-10-03", "2022-10-04"): dict(category="macro", cause=NI + "; broad rally (peer median +4.4%) [calc].", source=""),
+    ("single_day", "2024-06-13", "2024-06-14"): dict(category="macro (French politics)", cause="French snap-election shock after dissolution of the National Assembly; management attributed ~15% share-price fall to it; Sodexo -2.3%, Rentokil -3.7% [calc].", source=L_FR24),
+    ("single_day", "2024-09-05", "2024-09-06"): dict(category="M&A", cause="Market learned of Elis' exploratory talks with US players (incl. Vestis per CEO at CMD); Vestis +11.7% in the 5-Sep US session, Elis -15.7% next morning (open -9%) [calc]. Exact news item not available (News corpus not licensed).", source=L_US),
+    ("single_day", "2024-10-03", "2024-10-04"): dict(category="M&A", cause="Termination of US talks at the beginning of October (financial discipline); intraday high +15% [calc].", source=L_US_END),
+    ("single_day", "2025-03-05", "2025-03-06"): dict(category="earnings/guidance; capital markets", cause="FY2024 results + new capital allocation policy: EUR150m buyback starting 6-Mar-2025, dividend EUR0.45 (+5%), 2025 outlook; peers -0.6% [calc].", source=L_FY24),
+    ("single_day", "2025-04-07", "2025-04-08"): dict(category="macro", cause="Rebound after the US-tariff sell-off (US peers +5% to +10% in the following session) [calc]; Elis later said no direct US-tariff impact; tariff timeline [u].", source=L_TAR),
+    ("single_day", "2025-08-22", "2025-08-25"): dict(category="macro", cause=NI + "; broad decline (peers -1.6% to -4.2%) [calc]; [u] coincided with French government confidence-vote announcement.", source=""),
+    ("single_day", "2026-03-02", "2026-03-03"): dict(category="macro (geopolitics/energy)", cause="Outbreak of Middle East (US/Israel/Iran) conflict -> energy price spike; Rentokil -5.2%, Vestis -3.1% [calc]; management stressed energy hedging on 11-Mar-2026.", source=L_ME),
+    ("single_day", "2026-07-29", "2026-07-30"): dict(category="earnings/guidance; sector (partial)", cause="H1 2026 results (29-Jul after close): objectives only confirmed; Mexico volume loss; negative H1 FCF; EUR500m buyback already completed mid-July; peer median -2.5% [calc]. Same morning Rentokil's H1 2026 results (ADR -17.6%) flagged slower Q2 commercial growth - possible sector read-across [inference].", source=L_H126 + "; [#73](https://gam.prontonlp.com/#/ref/$SENTID_T000003774329-73) (Rentokil H1 2026: slower commercial growth in Q2)"),
+    ("single_day", "2026-09-18", "2026-09-21"): dict(category="not identified", cause=NI + "; stock-specific (peers flat); close at session low EUR20.98 then +5.6% next day [calc] - pattern suggests technical/closing-auction effect [inference]; no Elis document after 30-Jul-2026 in ProntoNLP.", source=""),
+    ("single_day", "2026-09-21", "2026-09-22"): dict(category="not identified", cause="Reversal of the 21-Sep drop; " + NI + ".", source=""),
+    ("episode_1to20d", "2021-11-05", "2021-11-30"): dict(category="macro", cause="Late-2021 Covid/Omicron risk to hospitality (peer median -6.0%) [calc]; Omicron impact confirmed only for early 2022; specific attribution partly [u].", source=L_OMI),
+    ("episode_1to20d", "2021-12-20", "2022-01-13"): dict(category="not identified", cause=NI + "; rebound after Nov-2021 sell-off, stock-specific vs peers (-4.1%) [calc].", source=""),
+    ("episode_1to20d", "2022-02-10", "2022-03-08"): dict(category="macro (energy)", cause="Ukraine war -> gas price spike; Elis unhedged on energy at the time (management, 11-Mar-2026); peer median -10.3% [calc].", source=L_UKR + "; [#424](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-424) (not hedged in 2022)"),
+    ("episode_1to20d", "2022-03-08", "2022-03-29"): dict(category="earnings/guidance; macro", cause="FY2021 results/2022 guidance with energy pass-through + market rebound (peer median +16.4%) [calc].", source=L_UKR),
+    ("episode_1to20d", "2022-03-29", "2022-04-06"): dict(category="not identified", cause=NI + " (includes 5-Apr-2022 -6.3%).", source=""),
+    ("episode_1to20d", "2022-04-06", "2022-05-05"): dict(category="not identified", cause=NI + "; Q1 2022 revenue document not in ProntoNLP list; stock-specific vs peers (-3.2%) [calc].", source=""),
+    ("episode_1to20d", "2022-05-09", "2022-05-30"): dict(category="not identified", cause=NI + ".", source=""),
+    ("episode_1to20d", "2022-05-30", "2022-06-16"): dict(category="macro", cause=NI + "; broad sell-off (peer median -10.2%) [calc].", source=""),
+    ("episode_1to20d", "2022-06-30", "2022-07-27"): dict(category="macro; earnings/guidance", cause="Broad rebound (peer median +10.5%) [calc] into H1 2022 results (27-Jul, guidance raised).", source=L_H122),
+    ("episode_1to20d", "2022-08-10", "2022-09-06"): dict(category="macro (energy)", cause="European energy-price crisis (gas, French power prices); peer median -8.5% [calc].", source=L_EN22),
+    ("episode_1to20d", "2022-09-12", "2022-09-29"): dict(category="macro (energy/rates)", cause="Energy crisis peak and broad de-rating (peer median -9.0%) [calc]; specific trigger not identified; 29-Sep-2022 = 5-year closing low EUR9.91 [calc].", source=L_EN22),
+    ("episode_1to20d", "2022-09-29", "2022-10-27"): dict(category="macro; earnings/guidance", cause="Rebound (peer median +12.5%) [calc] + Q3 2022 update (26-Oct): FY organic growth guidance raised to >+20%, energy costs falling.", source=L_Q322),
+    ("episode_1to20d", "2022-11-02", "2022-11-11"): dict(category="macro", cause=NI + "; broad rally (peer median +7.5%) [calc].", source=""),
+    ("episode_1to20d", "2022-11-16", "2022-12-13"): dict(category="not identified", cause=NI + "; stock-specific vs peers (+3.7%) [calc].", source=""),
+    ("episode_1to20d", "2022-12-20", "2023-01-18"): dict(category="not identified", cause=NI + "; stock-specific vs peers (+1.8%) [calc]; continued into FY2022 revenue release (30-Jan-2023).", source=""),
+    ("episode_1to20d", "2023-01-19", "2023-02-15"): dict(category="earnings/guidance", cause="FY2022 revenue (30-Jan-2023): 2023 organic growth of at least +10%, no slowdown seen; peers +1.0% [calc].", source=L_JAN23),
+    ("episode_1to20d", "2023-07-06", "2023-07-24"): dict(category="not identified", cause=NI + "; pre-H1 2023 results run-up (results 26-Jul raised guidance, after window); peers +3.6% [calc].", source=L_H123),
+    ("episode_1to20d", "2023-08-29", "2023-09-25"): dict(category="not identified", cause=NI + ". NB: the 4-Sep-2023 special call was a climate/CSR roadmap call recapping raised 2023 margin guidance, not an M&A call; peers -4.3% [calc].", source=L_SP23),
+    ("episode_1to20d", "2023-10-11", "2023-10-30"): dict(category="earnings/guidance (partial)", cause="Q3 2023 revenue (25/26-Oct): 2023 outlook confirmed but no 2024 target (framed as decelerating price effect) [inference]; peers -1.9% [calc].", source=L_Q323),
+    ("episode_1to20d", "2023-10-30", "2023-11-27"): dict(category="macro", cause=NI + "; broad rally (peer median +9.6%) [calc].", source=""),
+    ("episode_1to20d", "2024-01-03", "2024-01-31"): dict(category="earnings/guidance", cause="FY2023 revenue (30-Jan-2024): organic +11.8%; peers +4.1% [calc].", source=L_JAN24),
+    ("episode_1to20d", "2024-03-20", "2024-04-03"): dict(category="not identified", cause=NI + "; follows FY2023 results (7-Mar-2024, 2024 outlook organic c.+5%); peers ~0% [calc].", source=L_FY23),
+    ("episode_1to20d", "2024-04-12", "2024-05-07"): dict(category="not identified", cause=NI + "; Q1 2024 revenue date not in ProntoNLP; Vestis guidance cut (2-May-2024, VSTS -45%) had no visible negative read-across (Elis 0.0% that day) [calc].", source=L_VS24),
+    ("episode_1to20d", "2024-06-06", "2024-06-28"): dict(category="macro (French politics)", cause="French snap election/dissolution of the National Assembly; peers +2.7% -> France-specific [calc].", source=L_FR24),
+    ("episode_1to20d", "2024-08-08", "2024-09-05"): dict(category="not identified", cause=NI + "; rebound after early-Aug-2024 sell-off; peers +5.2% [calc].", source=""),
+    ("episode_1to20d", "2024-09-05", "2024-09-10"): dict(category="M&A", cause="US acquisition talks (incl. Vestis) feared as large/leveraging deal; peers +0.2% [calc].", source=L_US),
+    ("episode_1to20d", "2024-10-02", "2024-10-18"): dict(category="M&A", cause="US talks terminated at the beginning of October 2024; peers +2.7% [calc].", source=L_US_END),
+    ("episode_1to20d", "2024-10-30", "2024-11-08"): dict(category="earnings/guidance", cause="Q3 2024 revenue (29-Oct): FY2024 objectives confirmed, US talks formally disclosed as terminated; peers +5.1% [calc].", source=L_US_END),
+    ("episode_1to20d", "2024-11-08", "2024-12-05"): dict(category="not identified", cause=NI + "; stock-specific (peers -1.7%) [calc]; Q3 release flagged disappointing hospitality (France/UK); French budget concerns raised by analysts at FY2024 results; [u] French government crisis.", source=L_FRBUD + "; " + L_US_END),
+    ("episode_1to20d", "2025-02-19", "2025-03-18"): dict(category="earnings/guidance; capital markets", cause="FY2024 results, new capital allocation policy and EUR150m buyback; peers -7.1% -> stock-specific [calc].", source=L_FY24),
+    ("episode_1to20d", "2025-03-18", "2025-04-07"): dict(category="macro (US tariffs)", cause="Global tariff sell-off (peer median -20.2%) [calc]; Elis less hit than peers.", source=L_TAR),
+    ("episode_1to20d", "2025-04-07", "2025-05-02"): dict(category="macro; earnings/guidance", cause="Rebound (peer median +11.0%) [calc] + Q1 2025 revenue: objectives confirmed, no direct tariff impact.", source=L_TAR),
+    ("episode_1to20d", "2025-08-15", "2025-09-02"): dict(category="not identified", cause=NI + "; peers -2.9% [calc]; [u] French political instability (Aug-Sep 2025).", source=""),
+    ("episode_1to20d", "2026-01-21", "2026-02-20"): dict(category="sector; capital markets", cause="Sector rally (peer median +15.1%) [calc] + execution of the up-to-EUR500m 2026 buyback (from 6-Jan-2026).", source=L_BB26),
+    ("episode_1to20d", "2026-02-20", "2026-03-20"): dict(category="macro (geopolitics/energy)", cause="Middle East conflict -> energy price spike (peer median -9.2%) [calc]; FY2025 results 11-Mar (dividend EUR0.48, buyback up to EUR500m) and Cintas-UniFirst deal did not reverse the trend.", source=L_ME + "; " + L_FY25 + "; " + L_CTUNF),
+    ("episode_1to20d", "2026-03-20", "2026-04-17"): dict(category="macro", cause=NI + "; rebound (peer median +5.5%) [calc].", source=""),
+    ("episode_1to20d", "2026-07-03", "2026-07-30"): dict(category="earnings/guidance; capital markets", cause="H1 2026 results (guidance only confirmed, Mexico volume loss) after the EUR500m buyback ended mid-July (end of buyback support = [inference]); peer median +7.3% -> stock-specific [calc], although Rentokil (ADR -19.1% in window) also disappointed on 30-Jul.", source=L_H126 + "; [#73](https://gam.prontonlp.com/#/ref/$SENTID_T000003774329-73) (Rentokil H1 2026: slower commercial growth in Q2)"),
+    ("episode_1to20d", "2026-08-26", "2026-09-21"): dict(category="not identified", cause=NI + "; partly sector (UNF -8.3%, RTO -8.9%, CTAS -4.3%) [calc]; includes unexplained 21-Sep -6.4% day; possible OCEANE soft-call/arbitrage overhang = [inference].", source=""),
+    ("calendar_month", "2021-10-29", "2021-11-30"): dict(category="macro", cause="See Nov-2021 episode (Omicron/Covid risk; partly [u]).", source=L_OMI),
+    ("calendar_month", "2022-01-31", "2022-02-28"): dict(category="macro (energy)", cause="Ukraine war energy shock (last week of Feb-2022).", source=L_UKR),
+    ("calendar_month", "2022-04-29", "2022-05-31"): dict(category="not identified", cause=NI + ".", source=""),
+    ("calendar_month", "2022-05-31", "2022-06-30"): dict(category="macro", cause="Broad June-2022 sell-off plus unexplained 29-Jun -5.7% day; " + NI + " for the stock-specific part.", source=""),
+    ("calendar_month", "2022-06-30", "2022-07-29"): dict(category="macro; earnings/guidance", cause="Market rebound + H1 2022 guidance raise (27-Jul).", source=L_H122),
+    ("calendar_month", "2022-07-29", "2022-08-31"): dict(category="macro (energy)", cause="Energy price crisis.", source=L_EN22),
+    ("calendar_month", "2022-08-31", "2022-09-30"): dict(category="macro (energy/rates)", cause="Energy crisis peak; 5-year low 29-Sep-2022 [calc].", source=L_EN22),
+    ("calendar_month", "2022-09-30", "2022-10-31"): dict(category="macro; earnings/guidance", cause="Rebound + Q3 2022 guidance raise.", source=L_Q322),
+    ("calendar_month", "2022-11-30", "2022-12-30"): dict(category="not identified", cause=NI + ".", source=""),
+    ("calendar_month", "2022-12-30", "2023-01-31"): dict(category="earnings/guidance", cause="FY2022 revenue / 2023 organic growth >=+10% (30-Jan-2023).", source=L_JAN23),
+    ("calendar_month", "2023-05-31", "2023-06-30"): dict(category="not identified", cause=NI + ".", source=""),
+    ("calendar_month", "2023-10-31", "2023-11-30"): dict(category="macro", cause=NI + "; broad rally [calc].", source=""),
+    ("calendar_month", "2024-04-30", "2024-05-31"): dict(category="not identified", cause=NI + " (Q1 2024 revenue period).", source=""),
+    ("calendar_month", "2024-05-31", "2024-06-28"): dict(category="macro (French politics)", cause="French snap election.", source=L_FR24),
+    ("calendar_month", "2024-08-30", "2024-09-30"): dict(category="M&A", cause="US acquisition talks.", source=L_US),
+    ("calendar_month", "2024-09-30", "2024-10-31"): dict(category="M&A; earnings/guidance", cause="US talks terminated + Q3 2024 revenue.", source=L_US_END),
+    ("calendar_month", "2026-01-30", "2026-02-27"): dict(category="sector; capital markets", cause="Sector rally + EUR500m buyback execution.", source=L_BB26),
+    ("calendar_month", "2026-02-27", "2026-03-31"): dict(category="macro (geopolitics/energy)", cause="Middle East conflict energy shock.", source=L_ME),
+    ("calendar_month", "2026-08-31", "2026-09-30"): dict(category="not identified", cause=NI + "; partly sector [calc].", source=""),
+}
 for col in ("category", "cause", "source"):
     moves[col] = ""
 for k, v in CAUSES.items():
@@ -270,7 +397,8 @@ for k, v in CAUSES.items():
     m = (moves.type == t) & (moves.start_date == s) & (moves.end_date == e)
     for col in ("category", "cause", "source"):
         moves.loc[m, col] = v.get(col, "")
-moves.loc[moves.category == "", "category"] = "not yet classified"
+missing = moves[moves.category == ""]
+assert missing.empty, f"unclassified moves: {missing[['type','start_date','end_date']].values.tolist()}"
 moves["price_source"] = "ProntoNLP getStockPrices (27989 + peers), [calc] in model/D_compute.py"
 moves.to_csv(f"{OUT}/D_big_moves.csv", index=False)
 
@@ -278,6 +406,53 @@ stats["counts"] = {"single_day_ge5pct": int((moves.type == "single_day").sum()),
                    "episodes_ge10pct_1to20d": int((moves.type == "episode_1to20d").sum()),
                    "months_ge10pct": int((moves.type == "calendar_month").sum())}
 stats["peer_split_check"] = {t: round(float(peers[t].pct_change().abs().max()) * 100, 1) for t in tics}
+
+# ---------------------------------------------------------------- 5. peer-relative performance [calc]
+pc = {"ELIS (EUR)": {}}
+for n in (1, 3, 5):
+    d0, p0 = close_on_or_before(c, yrs_back(last_dt, n))
+    pc["ELIS (EUR)"][f"{n}y_pct"] = round((last_px / p0 - 1) * 100, 1)
+for t in tics:
+    s_ = peers[t]
+    pc[t] = {}
+    for n in (1, 3, 5):
+        if s_.index[0] > yrs_back(last_dt, n) + timedelta(days=7):
+            pc[t][f"{n}y_pct"] = "n/a (listed " + s_.index[0].strftime("%Y-%m-%d") + ")"
+            continue
+        d0, p0 = close_on_or_before(s_, yrs_back(last_dt, n))
+        pc[t][f"{n}y_pct"] = round((float(s_.iloc[-1]) / p0 - 1) * 100, 1)
+stats["peer_price_change"] = {"note": "CTAS/UNF/VSTS in USD; RTO = NYSE ADR in USD; SW = USD line (FX included); end date = last close in each series (2026-10-09)", **pc}
+
+# ---------------------------------------------------------------- 6. dividend-adjustment test vs filing-quoted closes
+REFS = [  # (date, filing close EUR, citation)
+    ("2021-05-21", 14.93, "[#318](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000163792445-318) (2021 employee plan: closing price on subscription closing date)"),
+    ("2021-12-31", 15.22, "[#4455](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000180181407-4455); [#4014](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000180181407-4014)"),
+    ("2022-12-30", 13.82, "[#5365](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000202465426-5365) (another AR 2022 sentence [#4828](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000202465426-4828) says 15.22 - apparent copy error)"),
+    ("2023-12-29", 18.39, "[#625](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000219356666-625) (garbled extraction)"),
+    ("2024-12-31", 18.93, "[#4110](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000239166805-4110) (also 18.90 in [#4661](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000239166805-4661))"),
+    ("2025-12-31", 24.26, "[#6050](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6050); [#6682](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6682) (another AR 2025 sentence [#6325](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6325) says 21.64 - apparent typo)"),
+]
+dchk = []
+for dt, ref, cite in REFS:
+    ser = c if pd.Timestamp(dt) >= c.index[0] else wc
+    if ser is wc:  # weekly bar dated Monday; Friday close of that week
+        wk = wc[wc.index <= pd.Timestamp(dt)]
+        d_used, px = wk.index[-1], float(wk.iloc[-1])
+        basis = "weekly close (week of " + d_used.strftime("%Y-%m-%d") + ")"
+    else:
+        d_used, px = close_on_or_before(c, pd.Timestamp(dt))
+        basis = "daily close " + d_used.strftime("%Y-%m-%d")
+    dchk.append({"date": dt, "filing_close_eur": ref, "pronto_close_eur": px, "pronto_basis": basis,
+                 "ratio_pronto_to_filing": round(px / ref, 4), "filing_source": cite})
+stats["dividend_adjustment_check"] = {
+    "observations": dchk,
+    "conclusion": ("Inconsistent/partial adjustment: ProntoNLP equals filing closes at end-2024 and end-2025 (no back-adjustment for "
+                   "the EUR0.45 (May-2025) and EUR0.48 (May-2026) dividends), but is 6.7% below filings in 2021 and 4.2% below at end-2022, "
+                   "consistent with back-adjustment for dividends paid 2022-2024 (EUR0.37/0.41/0.43); the end-2023 filing value (EUR18.39, garbled text) "
+                   "does not fit. Treat pre-mid-2024 levels as approximately dividend-adjusted and later levels as raw prices. [calc]"),
+    "price_return_5y_on_filing_basis_pct": round((last_px / (close_on_or_before(c, yrs_back(last_dt, 5))[1] / 0.933) - 1) * 100, 1),
+    "price_return_5y_note": "5y anchor (2021-10-08) divided by the 2021 ratio 0.933 to approximate the raw quoted price [calc, approximate]",
+}
 stats["source"] = SRC_ELIS_D + "; " + SRC_ELIS_W + "; all figures [calc]"
 with open(f"{OUT}/D_price_stats.json", "w") as fh:
     json.dump(stats, fh, indent=2)

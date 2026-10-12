@@ -1,0 +1,27 @@
+{
+  "_call": "F_segments_kpis-080",
+  "_params": {"sentenceIds": ["NONSEC000202465426-87", "T000003512646-378", "T000002520475-144"], "beforeSentence": 3, "afterSentence": 8},
+  "_note": "Verbatim response below.",
+  "response": {
+  "results": [
+    {
+      "sentenceId": "NONSEC000202465426-87",
+      "text": "Prior to this year, we had been in a situation where gas and electricity prices were relatively stable, so at the beginning of the year, we had contracts in place which only covered 50% of our demand. But in 2022, gas prices increased enormously! This expense represented 9% of revenue in 2022, whereas ordinarily, it represents only 5%. We need gas to wash and dry the linen in our laundries, but also fuel for our eet of vehicles to deliver to our customers, though we are increasingly moving toward electric vehicles. This being the case, we need to go and discuss things with our customers. There is always a certain amount of delay, while we hammer out an agreement. Nevertheless, in 2022, we were not far off completely covering our cost in ation, which amounted to around 275 million, through raising our prices, generating a further 260 million. However, in terms of margin, the effect was negative, as this additional income was billed without any margin. Thankfully, we took advantage of the recovery in hospitality and made gains in productivity, with a plan of action in all 29 countries where we operate to make savings in logistics or optimize productivity in our laundries. We also worked to reduce their energy consumption, resulting in substantial savings of around 8% for equivalent volumes. Had we done nothing, the rise in energy prices would have cost us 3 points of EBITDA margin instead of 150 basis points. [#87](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000202465426-87)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    },
+    {
+      "sentenceId": "T000003512646-378",
+      "text": "So I think if we try to summarize what happened over the period, the last 6 years, Globally speaking, the mix of growth has been quite unfavorable. So we see that we have more growth in [indiscernible] in this area in Sweden and Denmark mainly and less growth in mats and uniform. At the end, it has an impact on the margin improvement because in those 2 countries, the margin in [indiscernible] are significantly below the margin workwear and the math. Globally speaking, we are so big in those countries that are quite small and the total market are not super in Denmark, you have 5 million to 6 million inhabitant only, and we deliver EUR 250 million of sales, something like this with a market share of 50%. So that means that the potential of organic growth is limited. So the operating leverage is also limiting all in. So that's why to the second part of your question, do we expect to see a recovery of the margin in Scandinavia I don't think that it is cautious enough to bet on this for the future. When we did the exercise of a business plan for the next 2 to 3 years, what we have in our books now for Scandinavia is more stability of the EBITDA margin. So even for the full year, you will see that globally speaking, I think that the second semester will be better, and we can expect a kind of stability or a super small decline perhaps, but not a lot. And for the year to come, we will stabilize the margin in Scandinavia at a good level, we are more or less close to the -- or at the level of the group. [#378](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-378)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    },
+    {
+      "sentenceId": "T000002520475-144",
+      "text": "It stood at a record level of EUR228 million in '21 despite the fact that the top line was not yet fully recovered from the pandemic 2021. Starting with the top of the table, EBITDA was up around EUR100 million, then which is the cash effect of the non-recurring items we previously discussed. CapEx was up EUR76 million. It stood at 18.7% of revenue, mainly due to Linen as a result of the needs to cover the recovery of hospitality during summer peak and the implementation of all the new workwear contracts Xavier previously mentioned. Change in working capital was up EUR10 million despite good activity at year-end with a very strong performance of cash collection, the DSO stands at a record level of 51 days. Net interest paid is almost normative. It embeds a small amount corresponding to the setup cost of new financing. Tax paid corresponds to a yearly rate of circa 28%, still above the normative of 25%, due to the mix of countries, you have still some loss-making countries ending up not paying taxes. Below free cash flow, we spent nearly EUR95 million on M&A. This amount includes around EUR10 million of earn-outs from previous transactions. The Group did a small capital increase reserved to its employees, which turned out to be very successful and had a EUR11 million impact on cash flow. Finally, the other aggregate encompasses some technical effects that has a ForEx effect and the accounting treatment of the debt, including the convertible bond. [#144](https://gam.prontonlp.com/#/ref/$SENTID_T000002520475-144)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    }
+  ]
+}
+}

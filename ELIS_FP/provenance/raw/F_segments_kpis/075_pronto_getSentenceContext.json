@@ -1,0 +1,27 @@
+{
+  "_call": "F_segments_kpis-075",
+  "_params": {"sentenceIds": ["T000003054377-185", "T000003676656-276", "T000003394029-225"], "beforeSentence": 6, "afterSentence": 6},
+  "_note": "Verbatim response below.",
+  "response": {
+  "results": [
+    {
+      "sentenceId": "T000003054377-185",
+      "text": "Below EBITDA, all aggregates showed stronger growth compared to '22. In '23, D&A only increased by 11%, reflecting the decrease in linen CapEx recording in 2021. And the inertia in industrial CapEx depreciation in relation to inflation is depreciation period being much stronger than linen. '23 was the last year to benefit from this lower D&A compared to normative levels, and we expect the ratio to be back at 19% in '24. This led to a record EBIT margin level at 15.9%, a level that we'll be able to maintain in the future. The main items between EBIT and operating income are as follows. First, expenses related to free-share plan corresponds to the requirement of the IFRS 2 accounting standard increased compared to '22 at EUR 31 million, as a result of the share price increase. Second, the amortization of intangible assets recognized in a business combination is mainly related to the goodwill allocation of Berendsen in '23, the aggregate was stable compared to last year. It will sharply decrease after '28. Third, non-current operating expenses strongly increased due to the reevaluation of the earnout of the Mexican acquisition for EUR 49 million. The financial outlook of the acquired group has been revised upwards twice in H1 and in H2, given the performance delivered. Those items are limited on [indiscernible] [ IT development under SaaS ] and depletion provision. Furthermore, net financial charge was up EUR 38 million compared to EUR 22 million. [#185](https://gam.prontonlp.com/#/ref/$SENTID_T000003054377-185)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    },
+    {
+      "sentenceId": "T000003676656-276",
+      "text": "In '25, pretax ROCE was 14.7%, 20 bps above '24 level. After normative tax of 25.8%, the ROCE will be circa 11% way above the [ WACC ]. You can see that if we exclude the 2 years of pandemic, Elis' ROCE has been showing steady improvement since '18 on its way to our target of 15%. Moving on to the next slide. Let's now take a look at the '25 fully diluted headline net income per share. As usual, the main restatements to get to headline net income include the amortization of intangible assets recognized in past acquisition, IFRS 2 expenses, which corresponds to the noncash cost of performance share plans, and noncurrent operating income and expense, which were lower in '25 than '24 due to insurance compensation received during the year. In '25, we also restated the extraordinary surcharge of French corporate tax, which applies only to the '25 fiscal year. All in, headline net income for '25 stands at EUR 467.3 million, up 4.7% year-on-year. This translates into EUR 2 per share on a basic basis, up 5.6% year-on-year and EUR 1.85 on a fully diluted basis, up 5.2% year-on-year. This fully diluted figure reflects the potential impact of performance share plans and the convertible bond, in which case, the corresponding interest expense is restated in line with IFRS methodology. [#276](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-276)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    },
+    {
+      "sentenceId": "T000003394029-225",
+      "text": "Below operating income, you will find the financial result that is EUR 6 million above '23. It encompassed a EUR 13 million higher interest cost due to the new financing, partially offset by a EUR 7 million decrease in the earnout action. The last line is corporate tax, which has a normative tax rate of 25.83% on the base corresponding to EBIT minus IFRS 2 expense and earnouts. The EUR 18 million increase is due to a lower '23 base as EUR 15 million of previously unrecognized tax losses were utilized. At the end of the day, '24 [indiscernible] 29% above '23 level, the shift in the earn-out treatment has, of course, a massive impact and is respected in the headline net income. That's why the headline net income is only 3% above. The [indiscernible] limits to the growth were first, the EUR 15 million base effect of the deferred tax [indiscernible]; and second, the additional EUR 13 million interest cost as all the rent is restated, notably the earnout impact. Moving on to the next slide, ROS is obviously a KPI we carefully track as it measures the value creation from our investments. We use it daily when making an investment decision, for example, an industrial investment or a big contract, where significantly must be purchased or when contemplating an acquisition. Our pretax loss is defined as adjusted EBIT divided by capital employed. [#225](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-225)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    }
+  ]
+}
+}
