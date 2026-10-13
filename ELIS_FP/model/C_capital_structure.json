@@ -1,0 +1,1101 @@
+{
+ "agent": "C_mna_capital",
+ "generated_utc": "2026-10-12T23:16:42Z",
+ "currency": "EUR millions unless stated",
+ "definitions": {
+  "elis_net_financial_debt": "Elis-defined net financial debt EXCLUDING IFRS 16 lease liabilities (H1-2026 SR). [#104](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-104)",
+  "elis_financial_leverage_ratio": "Net debt as defined in financing agreements / pro forma EBITDA after synergies (covenant 'total net leverage ratio' <3.75x tested half-yearly). [#6796](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6796) [#6077](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6077)",
+  "sp_net_debt": "S&P Capital IQ Net Debt = Total Debt (incl. lease liabilities) - Cash And Equivalents; see reconciliation_calc (post-IFRS 16)."
+ },
+ "as_of_2026_06_30": {
+  "elis_net_financial_debt_excl_IFRS16": {
+   "value": 3670.3,
+   "compare_2025_12_31": 3020.2,
+   "source": "[#104](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-104) [#101](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-101) [#266](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-266)"
+  },
+  "financial_leverage_ratio_x": {
+   "value": 2.09,
+   "compare_2025_12_31": 1.75,
+   "compare_2025_06_30": 1.92,
+   "note": "H1-2026 call also contains 'Financial leverage ratio stood at 2.9x as of June 30' - transcription inconsistency with 2.09x",
+   "source": "[#104](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-104) [#28](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-28) [#276](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-276) [#273](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-273)"
+  },
+  "leverage_guidance_ye2026_x": {
+   "value": "c.1.65 (about -0.1x vs FY2025)",
+   "drivers": "EUR500m buyback (nearly completed H1) and probable OCANE conversion in H2",
+   "source": "[#341](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-341) [#277](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-277)"
+  },
+  "liquidity": {
+   "cash_eur_m": 447,
+   "undrawn_rcf_eur_m": 900,
+   "total_approx_eur_bn": 1.3,
+   "source": "[#269](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-269)"
+  },
+  "net_financial_expense_H1": {
+   "H1_2026": 73.9,
+   "H1_2025": 64.9,
+   "driver": "higher average net debt (buyback) and higher average interest cost after refinancings",
+   "source": "[#226](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-226) [#83](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-83)"
+  },
+  "all_long_term_debt_fixed_rate": {
+   "value": true,
+   "source": "[#394](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-394)"
+  },
+  "sp_total_debt_incl_leases": {
+   "value": 4816.9,
+   "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=264324010"
+  },
+  "sp_cash": {
+   "value": 446.6,
+   "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=264324010&uctSearch=446.600000"
+  },
+  "sp_net_debt_incl_leases": {
+   "value": 4370.3,
+   "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=264324010"
+  },
+  "implied_lease_liabilities_calc": {
+   "value": 700.0,
+   "note": "[calc] S&P net debt - Elis net financial debt"
+  },
+  "ratings": {
+   "S&P": "BBB- stable",
+   "Moody's": "Baa3 stable",
+   "source": "[#269](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-269)"
+  },
+  "ocane_2029": {
+   "principal_eur_m": 380.0,
+   "soft_call": "Elis intends to exercise from mid-Oct-2026",
+   "max_shares_deliverable_m": 23.8,
+   "treasury_shares_m_at_2026_07_28": 18.3,
+   "implied_conversion_price_eur_calc": 15.97,
+   "source": "[#296](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-296) [#6079](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6079) [#174](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-174)"
+  },
+  "shareholder_returns": {
+   "buyback_2025_eur_m": 150,
+   "buyback_2026_eur_m": 500,
+   "buyback_2026_completed": "2026-07-09",
+   "source": "[#511](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-511) [#17](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-17)"
+  }
+ },
+ "elis_reported_trend": [
+  {
+   "year": 2020,
+   "net_financial_expense_eur_m": 88.4,
+   "source": "[#3338](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000180181407-3338)"
+  },
+  {
+   "year": 2021,
+   "net_financial_debt_excl_IFRS16_eur_m": 3145.6,
+   "change_in_net_debt_eur_m": -135.4,
+   "financial_leverage_ratio_x": 3.0,
+   "leverage_note": "new RCF definition (net debt / EBITDA pro forma of acquisitions)",
+   "net_financial_expense_eur_m": 90.5,
+   "source": "[#3375](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000180181407-3375) [#3282](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000180181407-3282) [#19](https://gam.prontonlp.com/#/ref/$SENTID_T000002520475-19) [#160](https://gam.prontonlp.com/#/ref/$SENTID_T000002520475-160) [#3338](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000180181407-3338)"
+  },
+  {
+   "year": 2022,
+   "net_financial_debt_excl_IFRS16_eur_m": 3177.6,
+   "change_in_net_debt_eur_m": 34,
+   "financial_leverage_ratio_x": 2.5,
+   "net_financial_expense_eur_m": 86.7,
+   "source": "[#4121](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000202465426-4121) [#284](https://gam.prontonlp.com/#/ref/$SENTID_T000002760050-284) [#27](https://gam.prontonlp.com/#/ref/$SENTID_T000002760050-27) [#4077](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000202465426-4077)"
+  },
+  {
+   "year": 2023,
+   "net_financial_debt_excl_IFRS16_eur_m": null,
+   "net_financial_debt_note": "Transcript: decreased by EUR153m to '[ EUR 3.25 billion ]' (bracketed = uncertain transcription). [calc] 3,177.6 - 153 = c.3,025; S&P-based [calc] reconciliation c.3,025.4",
+   "change_in_net_debt_eur_m": -153,
+   "financial_leverage_ratio_x": 2.0,
+   "net_financial_expense_eur_m": 124.6,
+   "interest_paid_net_eur_m": 70.5,
+   "source": "[#228](https://gam.prontonlp.com/#/ref/$SENTID_T000003054377-228) [#236](https://gam.prontonlp.com/#/ref/$SENTID_T000003054377-236) [#3449](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000239166805-3449) [#3486](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000239166805-3486)"
+  },
+  {
+   "year": 2024,
+   "net_financial_debt_excl_IFRS16_eur_m": null,
+   "net_financial_debt_note": "Transcript: increased by c.EUR13m to 'EUR 3.38 billion' (inconsistent with +13m; likely 3.038bn). S&P-based [calc] reconciliation c.3,038.1",
+   "change_in_net_debt_eur_m": 13,
+   "financial_leverage_ratio_x": 1.85,
+   "net_financial_expense_eur_m": 130.4,
+   "interest_paid_net_eur_m": 78.9,
+   "gross_debt_change_eur_m": -95.7,
+   "source": "[#281](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-281) [#297](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-297) [#3449](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000239166805-3449) [#3486](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000239166805-3486) [#3465](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000239166805-3465)"
+  },
+  {
+   "year": 2025,
+   "net_financial_debt_excl_IFRS16_eur_m": 3020.2,
+   "net_financial_debt_note": "restated figure shown as comparative in H1-2026 SR; c.EUR3,020m per H1-2026 call",
+   "financial_leverage_ratio_x": 1.75,
+   "net_financial_expense_eur_m": 137.1,
+   "gross_debt_change_eur_m": -210.6,
+   "weighted_avg_maturity_years": 3.1,
+   "long_term_debt_ratio_pct": 78,
+   "source": "[#101](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-101) [#266](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-266) [#2079](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-2079) [#5372](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-5372) [#5390](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-5390) [#6001](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6001)"
+  }
+ ],
+ "ratings_history": [
+  {
+   "date": "2018-04-18",
+   "agency": "S&P",
+   "action": "BB -> BB+ (stable)",
+   "source": "[#539](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000105714018-539)"
+  },
+  {
+   "date": "2018",
+   "agency": "Fitch",
+   "action": "Elis rated by Fitch (2018 AR); later replaced in disclosures by DBRS (status after 2018 not found)",
+   "source": "[#539](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000105714018-539) [#3978](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000180181407-3978)"
+  },
+  {
+   "date": "2021 (as at 31-Dec-2021)",
+   "agency": "S&P",
+   "action": "BB (stable) -> BB+ (stable)",
+   "source": "[#3978](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000180181407-3978)"
+  },
+  {
+   "date": "2022-03-14",
+   "agency": "Moody's",
+   "action": "Ba2 outlook to positive",
+   "source": "[#420](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000187028716-420)"
+  },
+  {
+   "date": "2022-09",
+   "agency": "Moody's",
+   "action": "Ba2 -> Ba1",
+   "source": "[#136](https://gam.prontonlp.com/#/ref/$SENTID_T000002666115-136)"
+  },
+  {
+   "date": "2023-05 (base prospectus)",
+   "agency": "All",
+   "action": "Moody's Ba1 (stable); S&P BB+ (positive); DBRS BBB (low) (positive)",
+   "source": "[#1571](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000206659581-1571)"
+  },
+  {
+   "date": "2023-10-06",
+   "agency": "Moody's",
+   "action": "Ba1 outlook stable -> positive",
+   "source": "[#581](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000219356666-581)"
+  },
+  {
+   "date": "2023-11",
+   "agency": "S&P",
+   "action": "Upgraded to BBB- (investment grade)",
+   "source": "[#232](https://gam.prontonlp.com/#/ref/$SENTID_T000003054377-232)"
+  },
+  {
+   "date": "2024-03-13",
+   "agency": "Morningstar DBRS",
+   "action": "Upgraded to BBB (stable)",
+   "source": "[#343](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000227468208-343)"
+  },
+  {
+   "date": "2024-11",
+   "agency": "Moody's",
+   "action": "Ba1 -> Baa3 (stable)",
+   "source": "[#119](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000257201966-119) [#286](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-286)"
+  },
+  {
+   "date": "2026-07-29",
+   "agency": "S&P / Moody's",
+   "action": "BBB- stable / Baa3 stable",
+   "source": "[#269](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-269)"
+  }
+ ],
+ "sp_annual_FY2016_FY2025": {
+  "cash_acquisitions": {
+   "sp_line_item": "Cash Acquisitions",
+   "raw_file": "raw/C_mna_capital/001_sp_get_financial_line_item_cash_acquisitions.json",
+   "periods": {
+    "FY2016": {
+     "value_eur_m": -217.0,
+     "period_end": "2016-12-31",
+     "source": "S&P Capital IQ (C_27989), source link unavailable"
+    },
+    "FY2017": {
+     "value_eur_m": -1362.9,
+     "period_end": "2017-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=105000747&uctSearch=-1362.900000"
+    },
+    "FY2018": {
+     "value_eur_m": -62.2,
+     "period_end": "2018-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=132938811&uctSearch=-62.200000"
+    },
+    "FY2019": {
+     "value_eur_m": -83.2,
+     "period_end": "2019-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=154128743&uctSearch=-83.200000"
+    },
+    "FY2020": {
+     "value_eur_m": -87.6,
+     "period_end": "2020-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=178585396&uctSearch=-87.600000"
+    },
+    "FY2021": {
+     "value_eur_m": -86.8,
+     "period_end": "2021-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=200992035&uctSearch=-86.800000"
+    },
+    "FY2022": {
+     "value_eur_m": -221.7,
+     "period_end": "2022-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=219356666&uctSearch=-221.700000"
+    },
+    "FY2023": {
+     "value_eur_m": -82.1,
+     "period_end": "2023-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=237899676&uctSearch=-82.100000"
+    },
+    "FY2024": {
+     "value_eur_m": -183.3,
+     "period_end": "2024-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=-183.300000"
+    },
+    "FY2025": {
+     "value_eur_m": -117.6,
+     "period_end": "2025-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=-117.600000"
+    }
+   }
+  },
+  "goodwill": {
+   "sp_line_item": "Goodwill",
+   "raw_file": "raw/C_mna_capital/002_sp_get_financial_line_item_goodwill.json",
+   "periods": {
+    "FY2016": {
+     "value_eur_m": 1732.9,
+     "period_end": "2016-12-31",
+     "source": "S&P Capital IQ (C_27989), source link unavailable"
+    },
+    "FY2017": {
+     "value_eur_m": 3767.4,
+     "period_end": "2017-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=105000747&uctSearch=3767.400000"
+    },
+    "FY2018": {
+     "value_eur_m": 3745.7,
+     "period_end": "2018-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=132938811&uctSearch=3745.700000"
+    },
+    "FY2019": {
+     "value_eur_m": 3795.6,
+     "period_end": "2019-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=154128743&uctSearch=3795.600000"
+    },
+    "FY2020": {
+     "value_eur_m": 3743.6,
+     "period_end": "2020-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=178585396&uctSearch=3743.600000"
+    },
+    "FY2021": {
+     "value_eur_m": 3818.3,
+     "period_end": "2021-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=200992035&uctSearch=3818.300000"
+    },
+    "FY2022": {
+     "value_eur_m": 3914.1,
+     "period_end": "2022-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=219356666&uctSearch=3914.100000"
+    },
+    "FY2023": {
+     "value_eur_m": 3979.2,
+     "period_end": "2023-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=237899676&uctSearch=3979.200000"
+    },
+    "FY2024": {
+     "value_eur_m": 3932.0,
+     "period_end": "2024-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=3932.000000"
+    },
+    "FY2025": {
+     "value_eur_m": 4039.6,
+     "period_end": "2025-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=4039.600000"
+    }
+   }
+  },
+  "other_intangibles": {
+   "sp_line_item": "Other Intangibles, Total",
+   "raw_file": "raw/C_mna_capital/003_sp_get_financial_line_item_other_intangibles.json",
+   "periods": {
+    "FY2016": {
+     "value_eur_m": 389.7,
+     "period_end": "2016-12-31",
+     "source": "S&P Capital IQ (C_27989), source link unavailable"
+    },
+    "FY2017": {
+     "value_eur_m": 1044.5,
+     "period_end": "2017-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=105000747&uctSearch=1044.500000"
+    },
+    "FY2018": {
+     "value_eur_m": 925.2,
+     "period_end": "2018-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=132938811&uctSearch=925.200000"
+    },
+    "FY2019": {
+     "value_eur_m": 869.5,
+     "period_end": "2019-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=154128743&uctSearch=869.500000"
+    },
+    "FY2020": {
+     "value_eur_m": 806.4,
+     "period_end": "2020-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=178585396&uctSearch=806.400000"
+    },
+    "FY2021": {
+     "value_eur_m": 752.7,
+     "period_end": "2021-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=200992035&uctSearch=752.700000"
+    },
+    "FY2022": {
+     "value_eur_m": 763.4,
+     "period_end": "2022-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=219356666&uctSearch=763.400000"
+    },
+    "FY2023": {
+     "value_eur_m": 707.7,
+     "period_end": "2023-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=237899676&uctSearch=707.700000"
+    },
+    "FY2024": {
+     "value_eur_m": 648.4,
+     "period_end": "2024-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=648.400000"
+    },
+    "FY2025": {
+     "value_eur_m": 573.6,
+     "period_end": "2025-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=573.600000"
+    }
+   }
+  },
+  "divestitures": {
+   "sp_line_item": "Divestitures",
+   "raw_file": "raw/C_mna_capital/004_sp_get_financial_line_item_divestitures.json",
+   "periods": {
+    "FY2016": {
+     "value_eur_m": 1.0,
+     "period_end": "2016-12-31",
+     "source": "S&P Capital IQ (C_27989), source link unavailable"
+    },
+    "FY2017": {
+     "value_eur_m": 1.0,
+     "period_end": "2017-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=105000747"
+    },
+    "FY2018": {
+     "value_eur_m": 1.0,
+     "period_end": "2018-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=132938811"
+    },
+    "FY2019": {
+     "value_eur_m": 30.0,
+     "period_end": "2019-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=154128743&uctSearch=30.000000"
+    },
+    "FY2020": {
+     "value_eur_m": 0.5,
+     "period_end": "2020-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=178585396"
+    },
+    "FY2021": {
+     "value_eur_m": null,
+     "source": "not returned by S&P Capital IQ for this period"
+    },
+    "FY2022": {
+     "value_eur_m": null,
+     "source": "not returned by S&P Capital IQ for this period"
+    },
+    "FY2023": {
+     "value_eur_m": null,
+     "source": "not returned by S&P Capital IQ for this period"
+    },
+    "FY2024": {
+     "value_eur_m": null,
+     "source": "not returned by S&P Capital IQ for this period"
+    },
+    "FY2025": {
+     "value_eur_m": null,
+     "source": "not returned by S&P Capital IQ for this period"
+    }
+   }
+  },
+  "total_debt": {
+   "sp_line_item": "Total Debt",
+   "raw_file": "raw/C_mna_capital/005_sp_get_financial_line_item_total_debt.json",
+   "periods": {
+    "FY2016": {
+     "value_eur_m": 1792.5,
+     "period_end": "2016-12-31",
+     "source": "S&P Capital IQ (C_27989), source link unavailable"
+    },
+    "FY2017": {
+     "value_eur_m": 3709.7,
+     "period_end": "2017-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=105000747"
+    },
+    "FY2018": {
+     "value_eur_m": 3568.6,
+     "period_end": "2018-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=132938811"
+    },
+    "FY2019": {
+     "value_eur_m": 3951.9,
+     "period_end": "2019-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=154128743"
+    },
+    "FY2020": {
+     "value_eur_m": 3867.4,
+     "period_end": "2020-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=178585396"
+    },
+    "FY2021": {
+     "value_eur_m": 3757.5,
+     "period_end": "2021-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=200992035"
+    },
+    "FY2022": {
+     "value_eur_m": 3949.7,
+     "period_end": "2022-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=219356666"
+    },
+    "FY2023": {
+     "value_eur_m": 4229.0,
+     "period_end": "2023-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=237899676"
+    },
+    "FY2024": {
+     "value_eur_m": 4266.3,
+     "period_end": "2024-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099"
+    },
+    "FY2025": {
+     "value_eur_m": 4121.5,
+     "period_end": "2025-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099"
+    }
+   }
+  },
+  "long_term_debt": {
+   "sp_line_item": "Long-Term Debt",
+   "raw_file": "raw/C_mna_capital/006_sp_get_financial_line_item_long_term_debt.json",
+   "periods": {
+    "FY2016": {
+     "value_eur_m": 1297.1,
+     "period_end": "2016-12-31",
+     "source": "S&P Capital IQ (C_27989), source link unavailable"
+    },
+    "FY2017": {
+     "value_eur_m": 2067.5,
+     "period_end": "2017-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=105000747&uctSearch=2067.500000"
+    },
+    "FY2018": {
+     "value_eur_m": 3092.6,
+     "period_end": "2018-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=132938811&uctSearch=3092.600000"
+    },
+    "FY2019": {
+     "value_eur_m": 3116.4,
+     "period_end": "2019-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=154128743&uctSearch=3116.400000"
+    },
+    "FY2020": {
+     "value_eur_m": 3068.1,
+     "period_end": "2020-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=178585396&uctSearch=3068.100000"
+    },
+    "FY2021": {
+     "value_eur_m": 3084.5,
+     "period_end": "2021-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=200992035&uctSearch=3084.500000"
+    },
+    "FY2022": {
+     "value_eur_m": 3034.9,
+     "period_end": "2022-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=219356666&uctSearch=3034.900000"
+    },
+    "FY2023": {
+     "value_eur_m": 2717.5,
+     "period_end": "2023-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=237899676&uctSearch=2717.500000"
+    },
+    "FY2024": {
+     "value_eur_m": 2653.1,
+     "period_end": "2024-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=2653.100000"
+    },
+    "FY2025": {
+     "value_eur_m": 2617.8,
+     "period_end": "2025-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=2617.800000"
+    }
+   }
+  },
+  "short_term_borrowings": {
+   "sp_line_item": "Short-term Borrowings",
+   "raw_file": "raw/C_mna_capital/007_sp_get_financial_line_item_short_term_borrowings.json",
+   "periods": {
+    "FY2016": {
+     "value_eur_m": 495.4,
+     "period_end": "2016-12-31",
+     "source": "S&P Capital IQ (C_27989), source link unavailable"
+    },
+    "FY2017": {
+     "value_eur_m": 213.4,
+     "period_end": "2017-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=105000747&uctSearch=213.400000"
+    },
+    "FY2018": {
+     "value_eur_m": 12.1,
+     "period_end": "2018-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=132938811&uctSearch=12.100000"
+    },
+    "FY2019": {
+     "value_eur_m": 1.5,
+     "period_end": "2019-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=154128743"
+    },
+    "FY2020": {
+     "value_eur_m": null,
+     "source": "not returned by S&P Capital IQ for this period"
+    },
+    "FY2021": {
+     "value_eur_m": 178.6,
+     "period_end": "2021-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=200992035&uctSearch=178.600000"
+    },
+    "FY2022": {
+     "value_eur_m": 184.0,
+     "period_end": "2022-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=219356666&uctSearch=184.000000"
+    },
+    "FY2023": {
+     "value_eur_m": 252.4,
+     "period_end": "2023-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=237899676&uctSearch=252.400000"
+    },
+    "FY2024": {
+     "value_eur_m": 259.0,
+     "period_end": "2024-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=259.000000"
+    },
+    "FY2025": {
+     "value_eur_m": 480.0,
+     "period_end": "2025-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=480.000000"
+    }
+   }
+  },
+  "current_portion_of_long_term_debt": {
+   "sp_line_item": "Current Portion of Long-Term Debt",
+   "raw_file": "raw/C_mna_capital/008_sp_get_financial_line_item_current_portion_of_long_term_debt.json",
+   "periods": {
+    "FY2016": {
+     "value_eur_m": null,
+     "source": "not returned by S&P Capital IQ for this period"
+    },
+    "FY2017": {
+     "value_eur_m": 1428.8,
+     "period_end": "2017-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=105000747&uctSearch=1428.800000"
+    },
+    "FY2018": {
+     "value_eur_m": 441.0,
+     "period_end": "2018-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=132938811&uctSearch=441.000000"
+    },
+    "FY2019": {
+     "value_eur_m": 426.6,
+     "period_end": "2019-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=154128743&uctSearch=426.600000"
+    },
+    "FY2020": {
+     "value_eur_m": 352.0,
+     "period_end": "2020-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=178585396&uctSearch=352.000000"
+    },
+    "FY2021": {
+     "value_eur_m": 40.9,
+     "period_end": "2021-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=200992035&uctSearch=40.900000"
+    },
+    "FY2022": {
+     "value_eur_m": 245.3,
+     "period_end": "2022-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=219356666&uctSearch=245.300000"
+    },
+    "FY2023": {
+     "value_eur_m": 720.8,
+     "period_end": "2023-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=237899676&uctSearch=720.800000"
+    },
+    "FY2024": {
+     "value_eur_m": 748.0,
+     "period_end": "2024-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=748.000000"
+    },
+    "FY2025": {
+     "value_eur_m": 320.5,
+     "period_end": "2025-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=320.500000"
+    }
+   }
+  },
+  "capital_leases (returned as Long-Term Leases)": {
+   "sp_line_item": "Long-Term Leases",
+   "raw_file": "raw/C_mna_capital/009_sp_get_financial_line_item_capital_leases.json",
+   "periods": {
+    "FY2016": {
+     "value_eur_m": null,
+     "source": "not returned by S&P Capital IQ for this period"
+    },
+    "FY2017": {
+     "value_eur_m": null,
+     "source": "not returned by S&P Capital IQ for this period"
+    },
+    "FY2018": {
+     "value_eur_m": 22.9,
+     "period_end": "2018-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=132938811&uctSearch=22.900000"
+    },
+    "FY2019": {
+     "value_eur_m": 343.7,
+     "period_end": "2019-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=154128743&uctSearch=343.700000"
+    },
+    "FY2020": {
+     "value_eur_m": 368.3,
+     "period_end": "2020-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=178585396&uctSearch=368.300000"
+    },
+    "FY2021": {
+     "value_eur_m": 367.2,
+     "period_end": "2021-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=200992035&uctSearch=367.200000"
+    },
+    "FY2022": {
+     "value_eur_m": 390.3,
+     "period_end": "2022-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=219356666&uctSearch=390.300000"
+    },
+    "FY2023": {
+     "value_eur_m": 430.8,
+     "period_end": "2023-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=237899676&uctSearch=430.800000"
+    },
+    "FY2024": {
+     "value_eur_m": 480.3,
+     "period_end": "2024-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=480.300000"
+    },
+    "FY2025": {
+     "value_eur_m": 563.2,
+     "period_end": "2025-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=563.200000"
+    }
+   }
+  },
+  "cash_and_equivalents": {
+   "sp_line_item": "Cash And Equivalents",
+   "raw_file": "raw/C_mna_capital/010_sp_get_financial_line_item_cash_and_equivalents.json",
+   "periods": {
+    "FY2016": {
+     "value_eur_m": 169.0,
+     "period_end": "2016-12-31",
+     "source": "S&P Capital IQ (C_27989), source link unavailable"
+    },
+    "FY2017": {
+     "value_eur_m": 416.4,
+     "period_end": "2017-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=105000747&uctSearch=416.400000"
+    },
+    "FY2018": {
+     "value_eur_m": 197.0,
+     "period_end": "2018-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=132938811&uctSearch=197.000000"
+    },
+    "FY2019": {
+     "value_eur_m": 172.3,
+     "period_end": "2019-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=154128743&uctSearch=172.300000"
+    },
+    "FY2020": {
+     "value_eur_m": 137.6,
+     "period_end": "2020-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=178585396&uctSearch=137.600000"
+    },
+    "FY2021": {
+     "value_eur_m": 160.1,
+     "period_end": "2021-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=200992035&uctSearch=160.100000"
+    },
+    "FY2022": {
+     "value_eur_m": 286.1,
+     "period_end": "2022-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=219356666&uctSearch=286.100000"
+    },
+    "FY2023": {
+     "value_eur_m": 665.3,
+     "period_end": "2023-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=237899676&uctSearch=665.300000"
+    },
+    "FY2024": {
+     "value_eur_m": 622.0,
+     "period_end": "2024-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=622.000000"
+    },
+    "FY2025": {
+     "value_eur_m": 398.1,
+     "period_end": "2025-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=398.100000"
+    }
+   }
+  },
+  "net_debt": {
+   "sp_line_item": "Net Debt",
+   "raw_file": "raw/C_mna_capital/011_sp_get_financial_line_item_net_debt.json",
+   "periods": {
+    "FY2016": {
+     "value_eur_m": 1623.5,
+     "period_end": "2016-12-31",
+     "source": "S&P Capital IQ (C_27989), source link unavailable"
+    },
+    "FY2017": {
+     "value_eur_m": 3293.3,
+     "period_end": "2017-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=105000747"
+    },
+    "FY2018": {
+     "value_eur_m": 3371.6,
+     "period_end": "2018-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=132938811"
+    },
+    "FY2019": {
+     "value_eur_m": 3779.6,
+     "period_end": "2019-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=154128743"
+    },
+    "FY2020": {
+     "value_eur_m": 3729.8,
+     "period_end": "2020-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=178585396"
+    },
+    "FY2021": {
+     "value_eur_m": 3597.4,
+     "period_end": "2021-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=200992035"
+    },
+    "FY2022": {
+     "value_eur_m": 3663.6,
+     "period_end": "2022-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=219356666"
+    },
+    "FY2023": {
+     "value_eur_m": 3563.7,
+     "period_end": "2023-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=237899676"
+    },
+    "FY2024": {
+     "value_eur_m": 3644.3,
+     "period_end": "2024-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099"
+    },
+    "FY2025": {
+     "value_eur_m": 3723.4,
+     "period_end": "2025-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099"
+    }
+   }
+  },
+  "interest_expense": {
+   "sp_line_item": "Interest Expense, Total",
+   "raw_file": "raw/C_mna_capital/012_sp_get_financial_line_item_interest_expense.json",
+   "periods": {
+    "FY2016": {
+     "value_eur_m": -55.6,
+     "period_end": "2016-12-31",
+     "source": "S&P Capital IQ (C_27989), source link unavailable"
+    },
+    "FY2017": {
+     "value_eur_m": -78.6,
+     "period_end": "2017-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=105000747&uctSearch=-78.600000"
+    },
+    "FY2018": {
+     "value_eur_m": -106.4,
+     "period_end": "2018-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=132938811&uctSearch=-106.400000"
+    },
+    "FY2019": {
+     "value_eur_m": -130.0,
+     "period_end": "2019-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=154128743&uctSearch=-130.000000"
+    },
+    "FY2020": {
+     "value_eur_m": -86.2,
+     "period_end": "2020-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=178585396&uctSearch=-86.200000"
+    },
+    "FY2021": {
+     "value_eur_m": -93.3,
+     "period_end": "2021-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=200992035&uctSearch=-93.300000"
+    },
+    "FY2022": {
+     "value_eur_m": -100.6,
+     "period_end": "2022-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=219356666&uctSearch=-100.600000"
+    },
+    "FY2023": {
+     "value_eur_m": -129.1,
+     "period_end": "2023-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=237899676&uctSearch=-129.100000"
+    },
+    "FY2024": {
+     "value_eur_m": -149.9,
+     "period_end": "2024-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=-149.900000"
+    },
+    "FY2025": {
+     "value_eur_m": -151.6,
+     "period_end": "2025-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=-151.600000"
+    }
+   }
+  },
+  "net_interest_expense": {
+   "sp_line_item": "Net Interest Expenses",
+   "raw_file": "raw/C_mna_capital/013_sp_get_financial_line_item_net_interest_expense.json",
+   "periods": {
+    "FY2016": {
+     "value_eur_m": -55.6,
+     "period_end": "2016-12-31",
+     "source": "S&P Capital IQ (C_27989), source link unavailable"
+    },
+    "FY2017": {
+     "value_eur_m": -74.7,
+     "period_end": "2017-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=105000747&uctSearch=-74.700000"
+    },
+    "FY2018": {
+     "value_eur_m": -106.0,
+     "period_end": "2018-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=132938811&uctSearch=-106.000000"
+    },
+    "FY2019": {
+     "value_eur_m": -128.8,
+     "period_end": "2019-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=154128743&uctSearch=-128.800000"
+    },
+    "FY2020": {
+     "value_eur_m": -85.2,
+     "period_end": "2020-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=178585396&uctSearch=-85.200000"
+    },
+    "FY2021": {
+     "value_eur_m": -92.4,
+     "period_end": "2021-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=200992035&uctSearch=-92.400000"
+    },
+    "FY2022": {
+     "value_eur_m": -91.1,
+     "period_end": "2022-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=219356666&uctSearch=-91.100000"
+    },
+    "FY2023": {
+     "value_eur_m": -111.1,
+     "period_end": "2023-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=237899676&uctSearch=-111.100000"
+    },
+    "FY2024": {
+     "value_eur_m": -124.4,
+     "period_end": "2024-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=-124.400000"
+    },
+    "FY2025": {
+     "value_eur_m": -134.1,
+     "period_end": "2025-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=-134.100000"
+    }
+   }
+  },
+  "ebitda": {
+   "sp_line_item": "EBITDA",
+   "raw_file": "raw/C_mna_capital/014_sp_get_financial_line_item_ebitda.json",
+   "periods": {
+    "FY2016": {
+     "value_eur_m": 461.1,
+     "period_end": "2016-12-31",
+     "source": "S&P Capital IQ (C_27989), source link unavailable"
+    },
+    "FY2017": {
+     "value_eur_m": 659.9,
+     "period_end": "2017-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=105000747&uctSearch=659.900000"
+    },
+    "FY2018": {
+     "value_eur_m": 965.6,
+     "period_end": "2018-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=132938811&uctSearch=965.600000"
+    },
+    "FY2019": {
+     "value_eur_m": 1019.1,
+     "period_end": "2019-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=154128743&uctSearch=1019.100000"
+    },
+    "FY2020": {
+     "value_eur_m": 834.9,
+     "period_end": "2020-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=178585396&uctSearch=834.900000"
+    },
+    "FY2021": {
+     "value_eur_m": 923.6,
+     "period_end": "2021-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=200992035&uctSearch=923.600000"
+    },
+    "FY2022": {
+     "value_eur_m": 1135.0,
+     "period_end": "2022-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=219356666&uctSearch=1135.000000"
+    },
+    "FY2023": {
+     "value_eur_m": 1319.2,
+     "period_end": "2023-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=237899676&uctSearch=1319.200000"
+    },
+    "FY2024": {
+     "value_eur_m": 1436.0,
+     "period_end": "2024-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=1436.000000"
+    },
+    "FY2025": {
+     "value_eur_m": 1484.6,
+     "period_end": "2025-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099&uctSearch=1484.600000"
+    }
+   }
+  }
+ },
+ "sp_quarterly": {
+  "note": "S&P returned identical FY2026Q1 and FY2026Q2 values, both sourced to the H1-2026 report (mid=264324010): Q1 is NOT an independent data point (Elis reports semi-annually).",
+  "series": {
+   "total_debt": {
+    "FY2025Q4": {
+     "value_eur_m": 4121.5,
+     "period_end": "2025-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099"
+    },
+    "FY2026Q1": {
+     "value_eur_m": 4816.9,
+     "period_end": "2026-03-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=264324010"
+    },
+    "FY2026Q2": {
+     "value_eur_m": 4816.9,
+     "period_end": "2026-06-30",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=264324010"
+    }
+   },
+   "cash_and_equivalents": {
+    "FY2025Q4": {
+     "value_eur_m": 398.1,
+     "period_end": "2025-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099"
+    },
+    "FY2026Q1": {
+     "value_eur_m": 446.6,
+     "period_end": "2026-03-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=264324010"
+    },
+    "FY2026Q2": {
+     "value_eur_m": 446.6,
+     "period_end": "2026-06-30",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=264324010&uctSearch=446.600000"
+    }
+   },
+   "net_debt": {
+    "FY2025Q4": {
+     "value_eur_m": 3723.4,
+     "period_end": "2025-12-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099"
+    },
+    "FY2026Q1": {
+     "value_eur_m": 4370.3,
+     "period_end": "2026-03-31",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=264324010"
+    },
+    "FY2026Q2": {
+     "value_eur_m": 4370.3,
+     "period_end": "2026-06-30",
+     "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=264324010"
+    }
+   }
+  }
+ },
+ "reconciliation_calc": {
+  "method": "[calc] residual = S&P total debt - (long-term debt + short-term borrowings + current portion of LTD + long-term leases), presumed current lease liabilities; implied Elis net financial debt = S&P net debt - (long-term leases + residual). Exact match for FY2025 (3,020.2).",
+  "rows": [
+   {
+    "fiscal_year": "FY2021",
+    "sp_total_debt": 3757.5,
+    "sp_listed_components_sum": 3671.2,
+    "residual_presumed_current_lease_liabilities_calc": 86.3,
+    "implied_total_lease_liabilities_calc": 453.5,
+    "sp_net_debt": 3597.4,
+    "implied_elis_net_financial_debt_excl_IFRS16_calc": 3143.9,
+    "elis_reported_net_financial_debt": 3145.6,
+    "elis_reported_source": "[#3375](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000180181407-3375)",
+    "difference_calc": -1.7
+   },
+   {
+    "fiscal_year": "FY2022",
+    "sp_total_debt": 3949.7,
+    "sp_listed_components_sum": 3854.5,
+    "residual_presumed_current_lease_liabilities_calc": 95.2,
+    "implied_total_lease_liabilities_calc": 485.5,
+    "sp_net_debt": 3663.6,
+    "implied_elis_net_financial_debt_excl_IFRS16_calc": 3178.1,
+    "elis_reported_net_financial_debt": 3177.6,
+    "elis_reported_source": "[#4121](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000202465426-4121)",
+    "difference_calc": 0.5
+   },
+   {
+    "fiscal_year": "FY2023",
+    "sp_total_debt": 4229.0,
+    "sp_listed_components_sum": 4121.5,
+    "residual_presumed_current_lease_liabilities_calc": 107.5,
+    "implied_total_lease_liabilities_calc": 538.3,
+    "sp_net_debt": 3563.7,
+    "implied_elis_net_financial_debt_excl_IFRS16_calc": 3025.4
+   },
+   {
+    "fiscal_year": "FY2024",
+    "sp_total_debt": 4266.3,
+    "sp_listed_components_sum": 4140.4,
+    "residual_presumed_current_lease_liabilities_calc": 125.9,
+    "implied_total_lease_liabilities_calc": 606.2,
+    "sp_net_debt": 3644.3,
+    "implied_elis_net_financial_debt_excl_IFRS16_calc": 3038.1
+   },
+   {
+    "fiscal_year": "FY2025",
+    "sp_total_debt": 4121.5,
+    "sp_listed_components_sum": 3981.5,
+    "residual_presumed_current_lease_liabilities_calc": 140.0,
+    "implied_total_lease_liabilities_calc": 703.2,
+    "sp_net_debt": 3723.4,
+    "implied_elis_net_financial_debt_excl_IFRS16_calc": 3020.2,
+    "elis_reported_net_financial_debt": 3020.2,
+    "elis_reported_source": "[#101](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-101) [#266](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-266)",
+    "difference_calc": 0.0
+   }
+  ]
+ },
+ "notes": [
+  "S&P items with empty sources (FY2016) cited as S&P Capital IQ (C_27989), source link unavailable.",
+  "S&P EBITDA is S&P-defined (post-IFRS 16) and is not Elis adjusted EBITDA; do not divide Elis net financial debt by S&P EBITDA to replicate the covenant ratio.",
+  "Net financial expense 2022: AR group figure 86.7m; another AR sentence cites 131m for 2022 vs 39.0m for 2021, apparently parent-company accounts. [#4077](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000202465426-4077) [#4155](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000202465426-4155)"
+ ]
+}

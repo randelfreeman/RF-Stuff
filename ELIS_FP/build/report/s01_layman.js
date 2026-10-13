@@ -1,0 +1,17 @@
+module.exports = [
+  { t: 'h1', text: '1. A layman\'s guide to Elis' },
+  { t: 'p', text: '**What it does.** Elis rents out and looks after the textiles and hygiene equipment that businesses need but do not want to own: hotel sheets and towels, hospital linen and scrubs, workers\' uniforms and protective clothing, cleanroom suits for chip and drug factories, washroom dispensers, entrance mats, water fountains and pest control. A van delivers clean items, collects dirty ones and takes them back to one of 370+ industrial laundries, where they are washed, checked, repaired and sent out again. When an item wears out, Elis replaces it — and recycles most old linen.' },
+  { t: 'p', text: '**How it makes money.** Customers sign multi-year contracts (typically four years) and pay a recurring fee per item, per wearer or per service visit. Elis buys the textiles up front (capex of ~18% of sales) and earns them back over their life. Profit comes from density: the more customers on each route and through each laundry, the lower the cost per item. That is why France, where Elis is biggest, earns a ~42% EBITDA margin versus ~31–34% elsewhere.' },
+  { t: 'table', title: 'How each division contributes (FY2025)', cols: ['Segment', 'Revenue (€m, approx.)', 'Share', 'Organic growth', 'Adj. EBITDA margin', 'Role'], widths: [2.2, 1.3, 0.8, 1.0, 1.2, 3.0], size: 15, rows: [
+    ['France', '~1,401', '~29%', '+3.3%', '41.9%', 'Cash engine; densest network'],
+    ['Central Europe (DE, CH, NL, BE, PL, CZ…)', '~1,242', '~26%', '+3.0%', '32.9%', 'Largest growth market; Germany turnaround'],
+    ['Scandinavia & Eastern Europe', '~640', '~13%', '+1.9%', '35.5%', 'Mature, high-margin "cash cow"'],
+    ['UK & Ireland', '~580', '~12%', '+2.6%', '32.4%', 'Competitive; margin up from 23% to >32% since Berendsen'],
+    ['Latin America (BR, MX, CL, CO)', '~458', '~10%', '+8.2%', '33.6%', 'Fastest growth; outsourcing conversion; FX and wage risk'],
+    ['Southern Europe (ES, PT, IT)', '~451', '~9%', '+6.7%', '33.7%', 'Hospitality-led growth and bolt-ons'],
+    ['Other (manufacturing, Asia, holdings)', '~25', '<1%', 'n/m', 'n/m', 'Le Jacquard Français, Kennedy, Malaysia'],
+    ['Group', '4,796.8', '100%', '+3.8%', '35.4%', ''],
+  ], source: 'Segment revenues are from the URD regional profiles [#145](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-145) [#147](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-147) [#143](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-143) [#131](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-131) [#133](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-133) [#135](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-135) (labels other than UK & Ireland inferred from layout) and growth/margins from the FY2025 annual report (Section 7). Segment EBIT and net income are not disclosed.' },
+  { t: 'p', text: '**By customer type:** healthcare ~30% (hospitals, care homes), hospitality 27% (hotels, restaurants), industry ~26% (food, pharma, manufacturing) and trade & services ~18% (shops, offices). **By product:** flat linen ~45%, workwear ~36%, hygiene & well-being ~17% (H1 2024 company split, see Section 7).' },
+  { t: 'callout', title: 'In one sentence', text: 'Elis is a "laundry-as-a-service" utility for European and Latin American businesses: dull, recurring and cash-generative, but capital-hungry and exposed to wage and energy costs that it can only pass on with a lag.' },
+];

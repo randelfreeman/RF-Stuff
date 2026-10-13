@@ -1,0 +1,34 @@
+const { readCSV, readJSON, f1, pct, IMG } = require('./util');
+const { DOC } = require('./refs');
+const M = readCSV('model/D_big_moves.csv');
+const ST = readJSON('model/D_price_stats.json');
+const EV = readJSON('charts/price_catalysts_events.json');
+const ep = M.filter(r => r.type === 'episode_1to20d');
+const sd = M.filter(r => r.type === 'single_day');
+const fmtDate = (s) => s ? s.slice(0, 10) : '';
+const clean = (s) => (s || '').replace(/\s+/g, ' ').trim();
+module.exports = [
+  { t: 'h1', text: '2. What moved the stock: catalysts behind ±10% moves (last five years)' },
+  { t: 'p', text: `Elis closed at **€21.26 on 9-Oct-2026**, ${pct(ST.latest_vs_52w.pct_below_52w_close_high, 1)} below its 52-week (and post-2019) closing high of €28.20 on 3-Jul-2026 and only 1.3% above the 52-week low of €20.98 (21-Sep-2026). Over five years the ProntoNLP series shows +42.0% (+7.3% a year) and over three years +33.1%, but the stock is −11.6% over one year [calc]. The five-year maximum drawdown was −37.6% (€15.89 on 13-Jan-2022 to €9.91 on 29-Sep-2022). Realised volatility is ~23.5% (1-year) and ~27.5% (5-year) [calc]. Note: the ProntoNLP price series is only partly dividend-adjusted; on closing prices quoted in Elis's filings the five-year change is about +32.5% (e.g. end-2021 €15.22 per the [FY2021 annual report](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000180181407-4455) vs €14.20 in the series) [calc].` },
+  { t: 'img', path: IMG('price_catalysts.png'), widthIn: 6.7, source: 'Numbered markers refer to the list below. Source: ProntoNLP getStockPrices (Elis, companyId 27989); event dating from Elis filings/transcripts via ProntoNLP; analyst annotation.' },
+  { t: 'table', title: 'Numbered catalysts on the chart', cols: ['#', 'When', 'What happened'], widths: [0.4, 1.4, 6.2], align: ['c', 'l', 'l'], size: 15,
+    rows: EV.map((e, i) => [String(i + 1), e[1], e[2]]) },
+  { t: 'h2', text: 'What the history tells us' },
+  { t: 'bullets', items: [
+    `**Energy is the single biggest historical shock.** The Ukraine war took the stock −29.0% in four weeks (10-Feb to 8-Mar-2022) and to the five-year low of €9.91 in Sep-2022. 2022 guidance was struck at €100/MWh gas against a historic maximum of ~€30 [#3392](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000180181407-3392), and management later conceded it "were not hedging our energy purchases" at the time [#424](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-424). A layered hedging policy now covers 93%/94% of 2026 gas/electricity and 81%/87% of 2027 [#76](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-76), which is why the March-2026 Middle East spike cost "only" −13.5% in a month.`,
+    `**Large-scale M&A is what the market fears most.** On 6-Sep-2024 the stock fell −15.66% in a day and −21.1% in four sessions as US acquisition talks leaked; Elis later confirmed it "held exploratory conversations with two US market players… both discussions were terminated at the beginning of October" [#1](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000232051849-1) and the shares rallied +17.0% on the termination. At the ${DOC.CMD} the CEO said Elis had been "ready to evaluate the potential acquisition of major targets like Vestis" [#3277](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3277).`,
+    `**Capital returns re-rate the stock; revenue surprises do not.** FY2024 results (6-Mar-2025) with a new capital-allocation policy and a €150m buyback produced a +9.05% day (+18.2% over the episode while peers fell 7.1%) [#4](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000257201966-4) [#133](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000257201966-133). Across 17 reported quarters the average revenue surprise was only +0.9% (11 beats, 6 misses) [calc].`,
+    `**France-specific political risk is priced episodically.** The June-2024 dissolution of the National Assembly cost −13.5% in three weeks while peers rose 2.7%; management: "Our stock price lost around 15% since the dissolution of the French National Assembly" [#81](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-81). France is ~30% of revenue [#155](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000227525215-155).`,
+    `**The current drawdown (−24.6% from the July high) is the second-largest of the cycle.** It combines (i) the end of the €500m buyback (completed 9-Jul) [#17](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-17), (ii) H1 2026 results on 29-Jul in which targets were only "confirmed" [#342](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-342) and Mexico lost tender volume [#330](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-330) (−5.68% next day, z-score −3.6), and (iii) a −14.4% slide from 26-Aug to 21-Sep-2026 that has no identified company-specific cause in permitted sources (partly sector: UniFirst −8.3%, Rentokil −8.9%) [calc].`,
+    `**Elis trades on European and company-specific news.** Daily-return correlation with Cintas, UniFirst, Vestis, Rentokil and Sodexo is only 0.14–0.32 [calc]; Vestis's guidance cut (May-2024, −45%) and suspension (May-2025, −37.5%) left Elis essentially unchanged.`,
+  ] },
+  { t: 'h2', text: 'All episodes of ±10% within 1–20 trading days (Oct-2021 to Oct-2026)' },
+  { t: 'p', text: `38 non-overlapping episodes were identified [calc]. "Peer median" is the median move of Cintas, UniFirst, Vestis, Rentokil and Sodexo over the same dates (ProntoNLP prices; Rentokil and Sodexo series are USD lines). 23 single-day or multi-day moves have no cause identifiable in S&P/ProntoNLP; these are labelled as such rather than guessed.`, size: 18 },
+  { t: 'table', cols: ['Start', 'End', 'Move', 'Peers', 'Category', 'Cause (abridged) and source'], widths: [1.0, 1.0, 0.7, 0.7, 1.3, 6.4], align: ['l', 'l', 'r', 'r', 'l', 'l'], size: 13,
+    rows: ep.map(r => [fmtDate(r.start_date), fmtDate(r.end_date), pct(r.pct_move, 1, true), pct(r.peer_median_pct_same_dates, 1, true), r.category, `${clean(r.cause).slice(0, 260)}${clean(r.cause).length > 260 ? '…' : ''} ${clean(r.source).match(/\[#[^\]]+\]\([^)]+\)/g)?.slice(0, 2).join(' ') || ''}`]),
+    source: 'Source: ProntoNLP getStockPrices (Elis and peers) and ProntoNLP document search; moves and peer medians are analyst calculations (model/D_compute.py).' },
+  { t: 'h3', text: 'Single-day moves of ±5% or more' },
+  { t: 'table', cols: ['Date', 'Move', 'Peers', 'Category', 'Cause (abridged) and source'], widths: [1.0, 0.7, 0.7, 1.3, 7.4], align: ['l', 'r', 'r', 'l', 'l'], size: 13,
+    rows: sd.map(r => [fmtDate(r.start_date || r.end_date), pct(r.pct_move, 2, true), pct(r.peer_median_pct_same_dates, 1, true), r.category, `${clean(r.cause).slice(0, 220)}${clean(r.cause).length > 220 ? '…' : ''} ${clean(r.source).match(/\[#[^\]]+\]\([^)]+\)/g)?.slice(0, 2).join(' ') || ''}`]),
+    source: 'Source: as above. Moves are close-to-close [calc].' },
+];

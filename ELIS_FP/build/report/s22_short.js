@@ -1,0 +1,31 @@
+const { sp } = require('./refs');
+module.exports = [
+  { t: 'h1', text: '22. The short-seller\'s view and forensic accounting review' },
+  { t: 'h2', text: 'Dismantling the bull case' },
+  { t: 'bullets', items: [
+    '**What could break the model?** Labour is 60% of costs and indexation lags 12 months; a sustained wage shock (as in LatAm 2026) compresses margins faster than price can follow. A move to customer-owned linen or cheaper disposables in a recession would hit the capital-intensive rental model.',
+    '**Concentration:** low by customer (top-10 <10%), but high by **geography and buyer type** — France ~29% of revenue and ~35% of EBITDA [calc], public healthcare ~30% of sales. A French political or fiscal shock, or a wave of public re-tenders, hits the most profitable parts.',
+    '**Moat weaker than bulls think:** the UK (12% of sales) is margin-capped by competition; Scandinavian margins have fallen ~400bp since 2021; German hospital tenders are price-only; 6% annual customer loss means ~€290m of revenue must be resold every year.',
+    '**Most dangerous competitor:** not a big listed rival but **local family laundries and in-house hospital laundries** in price-only public tenders — and, longer term, **Cintas**, which after UniFirst will have the scale, cash and ~19x EBITDA currency to buy European platforms (or Elis assets) if it chooses to expand.',
+    '**Worst capital allocation:** Berendsen at a full price (still ~€4bn of goodwill, ROIC ~7%); €467m of buybacks at €26.25 funded with debt just before a 19% fall, while the CEO sold shares; the 2024 attempt to buy a US player that would have doubled leverage.',
+    '**Incentives:** LTI conditions include revenue and EBIT versus plan — rewarding growth (and M&A) rather than return on capital; 70% approval of the 2025 pay policy.',
+    '**What must hold for today\'s price:** roughly 3–4% organic growth, a stable ~35% EBITDA margin, capex ~18% and no large M&A. That is not demanding.',
+    '**If growth disappoints by 20–30%** (organic ~2.7–3.0% rather than 3.8% in 2027, with 50bp less margin): EPS 2027E ~€1.95–2.00 and, at a de-rated 9–10x, the stock is worth €18–20 (−7% to −15%) [calc].',
+    '**Single permanent-impairment scenario:** a large, debt-funded acquisition at a full multiple combined with an end to buybacks; we put it at ~10–15% over three years given the 2024 precedent and the "significantly higher than usual" M&A pipeline [#568](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-568).',
+  ] },
+  { t: 'h2', text: 'Red flags and accounting risks' },
+  { t: 'table', cols: ['Area', 'Observation', 'Risk'], widths: [1.6, 5.6, 1.0], align: ['l', 'l', 'c'], size: 13, rows: [
+    ['Revenue recognition', 'Rental contracts treated as service agreements (substitution right), recognised over time; subscriptions invoiced in advance (contract liabilities) [#5620](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-5620). Unearned revenue increases boosted CFO by €59.9m in 2025 [calc, S&P].', 'Low'],
+    ['Adjusted metrics', 'Headline EPS (€1.85) is 26% above IFRS diluted EPS (' + sp('Net EPS - Diluted', 'FY2025', '€1.46') + '): excludes PPA amortisation (€85.7m), IFRS 2 (~€35m) and non-recurring items. SBC (' + sp('Stock-Based Compensation (CF)', 'FY2025', '€34.7m') + ') is a real cost equal to ~9% of IFRS net income.', 'Medium'],
+    ['One-offs', '~€25m insurance compensation in FY2025 non-current income [#251](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-251) and €25.3m gain on asset sales (S&P) flattered IFRS net income growth (+8.6%).', 'Medium'],
+    ['Segment reporting', 'EBITDA only by segment; no segment EBIT, capex or assets in indexed data; "Other" includes manufacturing and holdings. Hard to see where capital earns its return.', 'Medium'],
+    ['Leases', 'IFRS 16 lease liabilities ~€700m excluded from company net debt and leverage; lease payments €91.1m in H1 2026 sit below EBITDA. Company EBITDA is post-IFRS 16, so EV/EBITDA must include leases.', 'Medium'],
+    ['Goodwill / intangibles', sp('Goodwill', 'FY2025', 'Goodwill €4,039.6m') + ' exceeds equity (€3,812.5m; €3,474m at Jun-26 after buybacks): tangible equity is negative. Impairment indicators in Mexico and Chile CGUs in H1 2026, no charge [#329](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-329); €58.7m Russia impairment in 2022.', 'High'],
+    ['Working capital / financing', 'Receivables securitisation (€294m sold, on balance sheet) and a supplier-finance programme (60-day terms) can flatter operating cash flow; utilisation of the supplier-finance programme not disclosed [#253](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000256665099-253). DSO up 3 days YoY at Jun-26.', 'Medium'],
+    ['Capitalisation of linen', 'Linen purchases are capex (~two-thirds of capex maintains linen in circulation); useful-life assumptions drive D&A of ~19.6% of revenue. Shortening lives would cut EBIT; lengthening them would flatter it.', 'Medium'],
+    ['Related parties', 'HSBC bond mandate (CEO on HSBC CE board); Predica-insured pension plan historically. Disclosed and approved.', 'Low'],
+    ['Contingencies', 'Brazil: Federal Police anti-corruption investigation (Lavatec/Lavebras) and São Paulo public-hospital contract probes, potential exclusion from public contracts up to 10 years [#5931](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-5931); French competition decision (2007). Provisions not quantified in indexed text.', 'Medium'],
+    ['Restatements', 'H1 2025 and FY2024 restated for IFRS 3 purchase-price allocations (Neutral, Carsan, Wasned, Ernst) [#251](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-251); small but recurring.', 'Low'],
+    ['Cash-flow statement', 'Dividend partly reclassified as "return of reserves" (€0.26 of €0.48 in 2026) — tax-driven, not economic. FCF after leases only ~21% of EBITDA; negative in H1 2026.', 'Low'],
+  ], source: 'Sources as cited; S&P Capital IQ figures linked where available; analyst assessment.' },
+];

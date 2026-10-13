@@ -45,11 +45,11 @@ function inlineRuns(text, base = {}) {
 
 const P = (text, opts = {}) => new Paragraph({ children: inlineRuns(text, { size: opts.size || 19, color: opts.color, bold: opts.bold }), spacing: { after: opts.after ?? 100, before: opts.before ?? 0, line: opts.line ?? 264 }, alignment: opts.align || AlignmentType.LEFT, keepNext: opts.keepNext, indent: opts.indent });
 
-function heading(text, level) {
+function heading(text, level, pbb) {
   const sizes = { 1: 30, 2: 24, 3: 20 };
   const lv = { 1: HeadingLevel.HEADING_1, 2: HeadingLevel.HEADING_2, 3: HeadingLevel.HEADING_3 }[level];
   return new Paragraph({ heading: lv, children: [new TextRun({ text, font: FONT, bold: true, size: sizes[level], color: level === 3 ? C.blue : C.navy })],
-    spacing: { before: level === 1 ? 240 : 180, after: level === 1 ? 120 : 80 }, keepNext: true, keepLines: true,
+    spacing: { before: level === 1 ? 240 : 180, after: level === 1 ? 120 : 80 }, keepNext: true, keepLines: true, pageBreakBefore: !!pbb,
     border: level === 1 ? { bottom: { style: BorderStyle.SINGLE, size: 8, color: C.navy, space: 4 } } : undefined });
 }
 
@@ -132,7 +132,7 @@ function render(blocks) {
   const out = [];
   for (const b of blocks) {
     switch (b.t) {
-      case 'h1': out.push(heading(b.text, 1)); break;
+      case 'h1': out.push(heading(b.text, 1, b.pbb)); break;
       case 'h2': out.push(heading(b.text, 2)); break;
       case 'h3': out.push(heading(b.text, 3)); break;
       case 'p': out.push(P(b.text, b)); break;

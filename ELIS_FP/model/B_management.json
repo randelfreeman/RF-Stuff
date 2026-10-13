@@ -1,0 +1,235 @@
+{
+ "agent": "B_governance",
+ "company": "Elis SA (ELIS FP; S&P C_27989; ProntoNLP 27989)",
+ "as_of": "2026-10-12",
+ "conventions": "Values as reported unless tagged [calc] (own calculation) or [inferred]; dates ISO; FY2025 AR tables use US date format (MM/DD/YYYY). Sources are verbatim ProntoNLP links; \"fact in context block\" = text returned by getSentenceContext around the linked anchor sentence.",
+ "governance_structure": {
+  "model": "Dual board (Management Board + Supervisory Board) since conversion to a societe anonyme in 2014; Management Board and Executive Committee both chaired by the Chairman of the Management Board (Xavier Martire). No move to a unitary board found as of H1 2026.",
+  "supervisory_board_size": "12 members + 1 censor (10-Mar-2026); 8 independent, 5 women, 2 employee representatives (30-Jun-2026)",
+  "committees": {
+   "Audit": "Antoine Burel (Chair), BWGI/Cecile Helme-Guizon, Isabelle Wege",
+   "Appointments, Compensation & Governance (ACGC)": "Fabrice Barthelemy (Chair), Valerie Gandre, BWSA/Alexis Martineau, Thierry Morin, Michel Plantevin",
+   "CSR": "Philippe Delleur (Chair), Kelly Becker, Antoine Burel"
+  },
+  "lead_independent_director": "No lead independent director role found; independent Vice-Chairman (Barthelemy) chairs the ACGC",
+  "source": "[#764](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-764) (fact in context block returned by getSentenceContext, raw/B_governance/040_pronto_getSentenceContext.json) [#869](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-869) [#713](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-713) [#716](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-716) [#718](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-718) [#726](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-726) (fact in context block returned by getSentenceContext, raw/B_governance/047_pronto_getSentenceContext.json) [#980](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-980) (fact in context block returned by getSentenceContext, raw/B_governance/038_pronto_getSentenceContext.json) [#137](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-137) (fact in context block returned by getSentenceContext, raw/B_governance/046_pronto_getSentenceContext.json)"
+ },
+ "management_board": [
+  {
+   "name": "Xavier Martire",
+   "role": "Chairman of the Management Board (CEO) and of the Executive Committee",
+   "first_appointed": "2008-10-21 (Chairman of the Company under its former SAS structure)",
+   "current_term": "2022-09-05 to 2026-09-05",
+   "renewal": "Reappointed Chairman for four years effective 2026-09-05 (SB decision 3-Jun-2026)",
+   "tenure_at_elis": "Joined Elis 1999 (Profit Center Director), then Regional Manager and Deputy COO France; Chairman since 2008 (c. 27 years at Elis, c. 18 years as head) [calc]",
+   "prior_career": "SNCF from 1997 (TGV maintenance workshop foreman)",
+   "education": "Ecole Polytechnique; Ecole Nationale des Ponts et Chaussees",
+   "outside_mandates": "Director of HSBC Continental Europe SA; Chairman of its Compensation Committee and member of its Appointments & Governance Committee",
+   "employment_contract": "none mentioned (only Guyot and Lecharny have employment contracts)",
+   "shares_held_2025_12_31": "not indexed in ProntoNLP (table values not retrievable)",
+   "variable_pay": "target 100% of fixed, cap 170% (70% quantitative / 30% qualitative criteria)",
+   "lti": "performance-share grant value = 2.25x annual compensation; 121,741 PS granted 6-Mar-2025 (0.05% of capital); 173,201 PS vested 20-May-2025 under plan no. 17-2022 (120% of grant)",
+   "pension_provision_2025_eur": 930059,
+   "say_on_pay_ex_post_2024_pay": "93.65% (20th resolution, AGM 22-May-2025)",
+   "insider_dealings": "Market sale 4-Jun-2025 (volume not indexed); ESPP subscription + bonus shares 13-Nov-2025; sold 10,000 sh @ EUR 24.45 and 7,825 sh @ EUR 24.30 on 6-Jan-2026 and 75,000 sh @ EUR 24.53 on 30-Jan-2026 = 92825 shares, c. EUR 2.27m [calc]",
+   "source": "[#770](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-770) (fact in context block returned by getSentenceContext, raw/B_governance/025_pronto_getSentenceContext.json) [#772](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-772) [#1305](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1305) [#764](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-764) (fact in context block returned by getSentenceContext, raw/B_governance/040_pronto_getSentenceContext.json) [#415](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000180181407-415) [#139](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-139) [#1489](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1489) [#1592](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1592) [#1723](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1723) [#1437](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1437) [#1601](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1601) [#1598](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1598) [#1751](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1751) [#1622](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1622) [#1591](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1591) [#6700](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6700) (fact in context block returned by getSentenceContext, raw/B_governance/088_pronto_getSentenceContext.json)"
+  },
+  {
+   "name": "Louis Guyot",
+   "role": "Member of the Management Board, Chief Financial Officer",
+   "first_appointed": "2014-09-05 (MB); joined Elis 2013",
+   "current_term": "2022-09-05 to 2026-09-05",
+   "renewal": "Reappointed for four years effective 2026-09-05",
+   "prior_career": "French Treasury from 1998; CFO & CIO Medica France 2001-2004; Development & Strategy Director Compagnie des Alpes 2004-2007; Finance & Operations Director, Dalkia development dept 2007-2010; CFO & Chief International Officer Korian 2010-2013",
+   "education": "Ecole Polytechnique; Ecole Nationale des Ponts et Chaussees; College des Ingenieurs",
+   "outside_mandates": "None outside the Group (numerous subsidiary directorships)",
+   "employment_contract": "open-ended employment contract as CFO",
+   "shares_held_2025_12_31": "not indexed in ProntoNLP (table values not retrievable)",
+   "variable_pay": "target 100% of fixed, cap 170%; fixed pay level applicable since 1-Jan-2025 (amount not indexed)",
+   "lti": "PS grant value = 1.75x annual compensation; 47,141 PS granted 6-Mar-2025 (0.02%); 67,056 PS vested 20-May-2025 (120%)",
+   "pension_provision_2025_eur": 364150,
+   "say_on_pay_ex_post_2024_pay": "94.39% (21st resolution, AGM 22-May-2025)",
+   "insider_dealings": "Repeated market sales of shares and of FCPE units in 2025 (incl. 17-Apr, 6-Jun and 15-Aug-2025; volumes/prices not indexed); ESPP subscription + bonus shares 13-Nov-2025",
+   "source": "[#780](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-780) (fact in context block returned by getSentenceContext, raw/B_governance/025_pronto_getSentenceContext.json) [#782](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-782) [#139](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-139) [#1489](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1489) [#1630](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1630) (fact in context block returned by getSentenceContext, raw/B_governance/096_pronto_getSentenceContext.json) [#1437](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1437) [#1636](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1636) [#1634](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1634) [#1647](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1647) [#1628](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1628) [#6700](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6700) (fact in context block returned by getSentenceContext, raw/B_governance/088_pronto_getSentenceContext.json)"
+  },
+  {
+   "name": "Matthieu Lecharny",
+   "role": "Member of the Management Board, Deputy COO (Portugal, Spain, Andorra, Italy, Latin America) and in charge of acquisitions",
+   "first_appointed": "2014-09-05 (MB); date of joining Elis not indexed",
+   "current_term": "2022-09-05 to 2026-09-05",
+   "renewal": "Did not seek reappointment; term ends 2026-09-05; to step down from Group roles at end-2026",
+   "prior_career": "Procter & Gamble (sales); Unilever 1996-2009 (Oral Care Brand Director Europe 2001-2003, Personal Care Marketing Director France 2003-2005); Global Marketing Director for Cif before joining Elis",
+   "education": "ESCP Europe",
+   "outside_mandates": "None outside the Group",
+   "employment_contract": "open-ended employment contract as Deputy COO",
+   "shares_held_2025_12_31": "not indexed in ProntoNLP (table values not retrievable)",
+   "variable_pay": "target 70% of fixed, cap 119%",
+   "lti": "PS grant value = 1.66x annual compensation; 33,488 PS granted 6-Mar-2025 (0.014%); 47,897 PS vested 20-May-2025 (120%)",
+   "pension_provision_2025_eur": 362631,
+   "say_on_pay_ex_post_2024_pay": "94.40% (22nd resolution, AGM 22-May-2025)",
+   "insider_dealings": "none found in the 2025-Mar 2026 MAR table excerpt",
+   "source": "[#789](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-789) [#790](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-790) (fact in context block returned by getSentenceContext, raw/B_governance/025_pronto_getSentenceContext.json) [#794](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-794) [#139](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-139) [#142](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-142) [#1489](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1489) [#1654](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1654) (fact in context block returned by getSentenceContext, raw/B_governance/096_pronto_getSentenceContext.json) [#1437](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1437) [#1659](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1659) [#1656](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1656) [#1666](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1666) [#1653](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1653)"
+  }
+ ],
+ "management_board_from_2026_09_05": [
+  {
+   "name": "Xavier Martire",
+   "role": "Chairman",
+   "term": "four years from 2026-09-05"
+  },
+  {
+   "name": "Louis Guyot",
+   "role": "Member, CFO",
+   "term": "four years from 2026-09-05"
+  },
+  {
+   "name": "Yann Michel",
+   "role": "Member; Group Chief Operating Officer from 1-Jul-2026",
+   "term": "four years from 2026-09-05",
+   "background": "Aged 51; Deputy COO since 1-Mar-2015; >15 years at Elis incl. head of two regional departments; 2025 ExCo role: Deputy COO France, Great Britain & Ireland"
+  },
+  {
+   "rationale": "ACGC: shareholders' interest to continue the strategy; long-standing MB members proven by results; Yann Michel has the knowledge and ExCo track record to implement it",
+   "source": "[#139](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-139) [#140](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-140) [#141](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-141) [#143](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-143) [#832](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-832) [#834](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-834) [#724](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-724)"
+  }
+ ],
+ "executive_committee_2025": {
+  "size": 11,
+  "members": [
+   "Xavier Martire - Chairman of the MB",
+   "Louis Guyot - MB member, CFO",
+   "Matthieu Lecharny - MB member, Deputy COO Southern Europe & Latin America",
+   "Lise Bert-Leduc - Marketing & Innovation Director",
+   "Alain Bonin - Deputy COO France (aged 62; Deputy COO since 2012, in charge of operations since 2009)",
+   "Michel Delbecq - Transformation & IT Director",
+   "Frederic Deletombe - Engineering, Purchasing & Supply Chain Director",
+   "Charlotta Ericsson - Deputy COO Northern Europe & Asia",
+   "Didier Lachaud - Human Resources Director",
+   "Yann Michel - Deputy COO France, Great Britain & Ireland",
+   "Deputy COO Central & Eastern Europe, Baltics & Switzerland - name not captured in indexed text [inferred: Andreas Schneider, whose departure as Deputy COO is reported from 1-Jul-2026]"
+  ],
+  "source": "[#726](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-726) (fact in context block returned by getSentenceContext, raw/B_governance/047_pronto_getSentenceContext.json) [#724](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-724) [#804](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-804) [#811](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-811) [#142](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-142)"
+ },
+ "executive_committee_from_2026_07_01": {
+  "size": 12,
+  "members": [
+   "Xavier Martire - Chairman of the MB",
+   "Louis Guyot - MB member, CFO",
+   "Yann Michel - Group COO (MB member from 5-Sep-2026)",
+   "Alain Bonin - COO France",
+   "Otavio Carvalho - COO Southern Europe & Americas (aged 53; joined 2015 as CEO of Elis Brazil until June 2026)",
+   "Charlotta Ericsson - COO Northern Europe & Asia",
+   "Bruno Komly - COO UK, Ireland, Eastern Europe & Baltics (aged 40; joined June 2022 as Director of Management Control & Financial Planning)",
+   "Francois-David Tourneur - COO Germany, Austria & Switzerland (background not indexed)",
+   "Lise Bert-Leduc - Marketing & Innovation Director",
+   "Michel Delbecq - Transformation & IT Director",
+   "Frederic Deletombe - Engineering, Purchasing & Supply Chain Director",
+   "Didier Lachaud - Human Resources Director"
+  ],
+  "departures": "Andreas Schneider (Deputy COO) left 1-Jul-2026; Matthieu Lecharny leaves MB 5-Sep-2026 and Group roles end-2026",
+  "source": "[#142](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-142) [#143](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-143) [#146](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-146) [#149](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-149) [#153](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-153) [#137](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-137) (fact in context block returned by getSentenceContext, raw/B_governance/046_pronto_getSentenceContext.json)"
+ },
+ "compensation_policy": {
+  "fixed_pay": "MB fixed pay unchanged from 1-Jan-2022 through 2024; SB (17-Dec-2024) proposed a three-year increase (amounts not indexed)",
+  "annual_variable": "70% quantitative / 30% qualitative criteria (2025); targets: Martire 100% (cap 170%), Guyot 100% (cap 170%), Lecharny 70% (cap 119%) of fixed",
+  "lti": "Performance shares; annual grant value 2.25x / 1.75x / 1.66x annual compensation (Martire / Guyot / Lecharny), maintained by SB on 16-Dec-2025; 3-year vesting; conditions: revenue vs business plan, consolidated EBIT vs business plan, quantifiable CSR indicator, relative TSR vs EuroStoxx 600; max vesting 120% (plan 17 vested at 120%)",
+  "ps_grants_2025": {
+   "grant_date": "2025-03-06 (plan no. 24; vesting/availability 2028-03-06)",
+   "Martire": 121741,
+   "Guyot": 47141,
+   "Lecharny": 33488,
+   "total": 202370,
+   "pct_capital": "0.087%"
+  },
+  "ps_vested_2025": {
+   "plan": "no. 17-2022, delivered 2025-05-20 at 120% of grant",
+   "Martire": 173201,
+   "Guyot": 67056,
+   "Lecharny": 47897
+  },
+  "supplementary_pension": "Supplementary retirement plan (annuity rights) for ExCo members incl. MB, introduced by AGM 20-May-2021; insurer Predica (then an Elis shareholder); 2025 provisions EUR 930,059 / 364,150 / 362,631",
+  "severance": "Forced departure only; cap 18 months of average fixed+variable pay of last two full years; conditions on rolling 24-month revenue and EBIT vs budget (none met: 0; one met: two-thirds = 12 months; both: full); not due for fault, internal role change or imminent retirement; renewal of these benefits submitted to AGM 21-May-2026",
+  "non_compete": "12 months (Chairman) / 6 months (other members); 50% of gross fixed+variable of last full year, paid in instalments, if SB enforces",
+  "share_holding_requirement": "Chairman retains one-third of vested shares until holding = 3x annual fixed pay; other members 2x; SB members >= 500 shares",
+  "supervisory_board_chair_fee": "Thierry Morin fixed fee raised from EUR 186,000 to EUR 400,000 for 2025 (+115% [calc]) to align with panel average",
+  "total_pay_amounts": "EUR amounts of fixed, variable and total compensation per executive are in tables that are not indexed - not available in S&P/ProntoNLP",
+  "source": "[#733](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000239166805-733) [#734](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000239166805-734) [#1723](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1723) [#1592](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1592) [#1630](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1630) [#1654](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1654) [#1437](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1437) [#1737](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1737) [#1751](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1751) [#1601](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1601) [#1636](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1636) [#1659](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1659) [#1598](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1598) [#1634](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1634) [#1656](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1656) [#6382](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6382) [#405](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000178585396-405) [#1622](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1622) [#1647](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1647) [#1666](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1666) [#1494](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1494) [#1495](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1495) [#1499](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1499) [#1492](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1492) [#1500](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1500) [#1502](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1502) [#1474](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1474) [#1181](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1181) [#1543](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1543)"
+ },
+ "say_on_pay": {
+  "agm_2025_ex_post_2024": {
+   "Martire": "93.65%",
+   "Guyot": "94.39%",
+   "Lecharny": "94.40%"
+  },
+  "agm_2025_ex_ante_2025_policy": "70% approval for the 2025 compensation policy of the MB Chairman and members (16th and 17th resolutions)",
+  "board_response": "Specialist-firm benchmarks (CEO, CFO, BU CEO): cash pay below first quartile; including LTI, below average and close to median; SB kept the long-term weighting",
+  "agm_2026_results": "not available in S&P/ProntoNLP (only Burel reappointment reported in H1 2026 SR)",
+  "source": "[#1591](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1591) [#1628](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1628) [#1653](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1653) [#1378](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1378) (fact in context block returned by getSentenceContext, raw/B_governance/083_pronto_getSentenceContext.json) [#137](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-137)"
+ },
+ "covid_2020_pay_adjustment": {
+  "detail": "MB/ExCo waived part of fixed pay in April and November 2020; on 8-Mar-2021 SB changed the 2020 quantitative variable-pay criteria and computed variable pay on theoretical (pre-waiver) fixed pay, submitted to AGM 2021 vote; SB members waived variable fees for lockdown meetings",
+  "source": "[#775](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000156087943-775) [#927](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000156087943-927) [#1123](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000156087943-1123)"
+ },
+ "insider_dealings_mar": {
+  "2025": "Feb-3 BWGI (Kaon E) transaction (type not captured); Apr-17 Guyot market sales of shares and FCPE units; Jun-3 Bpifrance (Lac I) market sale; Jun-4 Martire market sale; Jun-6 Guyot sales of shares and FCPE units; Aug-6 purchase by an SB member (name not captured); Aug-15 Guyot market sale; Nov-13 Guyot and Martire ESPP subscriptions and bonus shares (Elis for All 2025). Volumes and prices not indexed.",
+  "2026": "Jan-6 Martire sold 10,000 @ EUR 24.45 and 7,825 @ EUR 24.30; Jan-30 Martire sold 75,000 @ EUR 24.53; Feb-6 BWSA/BWGI pledged 35,654,902 Kaon E shares and bought 7,027,199 shares @ EUR 25.00 via Kaon V from CPPIB",
+  "management_and_board_personal_interests": "<1% of share capital and voting rights at 31-Dec-2025",
+  "source": "[#6700](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6700) (fact in context block returned by getSentenceContext, raw/B_governance/088_pronto_getSentenceContext.json) [#6701](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6701) [#6710](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6710)"
+ },
+ "archetype": "Professional, long-tenured insider management - no founder or family executive. CEO joined Elis in 1999 and has led it since 2008; CFO since 2013; succession is internal (Yann Michel, >15 years at Elis). The main family influence is at shareholder level (Moreira Salles family via BWSA/BWGI, >18% of capital and two SB seats plus a censor).",
+ "governance_flags": [
+  {
+   "flag": "Related-party agreement: EMTN bond Subscription Agreement (29-Aug-2025) with HSBC Continental Europe as global coordinator/joint bookrunner, where CEO Martire sits on the HSBC CE board and chairs its compensation committee; authorised by SB 5-May-2025 under the related-party procedure",
+   "severity": "low-moderate (disclosed, approved)",
+   "source": "[#1303](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1303) [#1304](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1304) [#1343](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1343) [#1305](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1305)"
+  },
+  {
+   "flag": "No other related-party transactions in 2024-2025 beyond executive pay and the retirement plan; no prior-year related-party agreements in force in 2025",
+   "severity": "mitigant",
+   "source": "[#6203](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6203) [#1307](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1307)"
+  },
+  {
+   "flag": "Supplementary retirement plan insured by Predica while Predica was a shareholder with an SB seat (until 2023)",
+   "severity": "low (historical)",
+   "source": "[#405](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000178585396-405) [#6382](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6382)"
+  },
+  {
+   "flag": "Low 70% approval of 2025 MB pay policy; SB Chair fee more than doubled (EUR 186k -> 400k)",
+   "severity": "moderate (shareholder dissent)",
+   "source": "[#1378](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1378) (fact in context block returned by getSentenceContext, raw/B_governance/083_pronto_getSentenceContext.json) [#1543](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1543)"
+  },
+  {
+   "flag": "Insider selling: CEO sold 92,825 shares in Jan-2026 (c. EUR 2.3m [calc]) while the company was executing its 2026 buyback (buyback period from 6-Jan-2026); CFO made repeated sales in 2025",
+   "severity": "moderate (optics)",
+   "source": "[#6700](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6700) (fact in context block returned by getSentenceContext, raw/B_governance/088_pronto_getSentenceContext.json) [#262](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-262)"
+  },
+  {
+   "flag": "Controlling-shareholder creep: BWSA (Moreira Salles) >18% of capital, ~20% of VR (crossed above 20% VR 23-Feb, below 17-Mar, above 18-Jun-2026), two SB seats + censor, Kaon E shares pledged (35.65m)",
+   "severity": "high relevance for event-driven thesis",
+   "source": "[#6701](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6701) [#929](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-929) [#6734](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6734) [#165](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-165) (fact in context block returned by getSentenceContext, raw/B_governance/031_pronto_getSentenceContext.json)"
+  },
+  {
+   "flag": "2020 variable-pay criteria changed retrospectively (Covid) and computed on pre-waiver fixed pay",
+   "severity": "low (historical, shareholder-approved)",
+   "source": "[#775](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000156087943-775) [#927](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000156087943-927)"
+  },
+  {
+   "flag": "No auditor change: PwC since 2007 and Forvis Mazars since 29-Jun-2011, both reappointed for six years to 2031",
+   "severity": "neutral/long tenure",
+   "source": "[#6540](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6540) [#7041](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-7041) [#1227](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1227)"
+  },
+  {
+   "flag": "No loans or guarantees to corporate officers found; severance and non-compete within AFEP-MEDEF norms (18-month cap)",
+   "severity": "mitigant",
+   "source": "[#1494](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1494) [#1500](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1500)"
+  }
+ ],
+ "data_gaps": [
+  "Individual Management Board shareholdings (table values) - not indexed",
+  "EUR amounts of fixed, variable and total compensation per executive (2021-2025) - not indexed",
+  "AGM 21-May-2026 vote results (incl. say-on-pay) - not available",
+  "Ex-dividend and payment dates except FY2022 (22-Jun-2023) and FY2025 (paid 28-May-2026) - not available",
+  "Background of Francois-David Tourneur and Juan Gomez; name of the 2025 Deputy COO CEE/Baltics/Switzerland - not indexed",
+  "No FY2023 annual report/URD in ProntoNLP"
+ ]
+}
