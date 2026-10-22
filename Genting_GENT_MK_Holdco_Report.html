@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Genting Berhad Holdco Report</title>
+<style>
+:root{--ink:#14202b;--muted:#5a6773;--rule:#d5dbe1;--accent:#0b4f6c;--accent2:#9a3412;--bg:#ffffff;--band:#f2f5f8;--good:#166534;--bad:#991b1b;}
+@page{size:A4;margin:16mm 14mm 16mm 14mm;}
+*{box-sizing:border-box}
+body{font-family:"Inter","DejaVu Sans",Arial,sans-serif;color:var(--ink);background:var(--bg);font-size:9.6pt;line-height:1.42;margin:0}
+h1{font-size:21pt;margin:0 0 4px;color:var(--accent);letter-spacing:-0.3px}
+h2{font-size:13.5pt;color:var(--accent);border-bottom:2px solid var(--accent);padding-bottom:3px;margin:20px 0 8px;break-after:avoid}
+h3{font-size:10.8pt;margin:14px 0 5px;color:var(--ink);break-after:avoid}
+p{margin:4px 0 7px}
+ul{margin:3px 0 8px 0;padding-left:17px}
+li{margin:2px 0}
+table{border-collapse:collapse;width:100%;margin:6px 0 10px;font-size:8.5pt;break-inside:auto}
+tr{break-inside:avoid}
+th{background:var(--accent);color:#fff;font-weight:600;text-align:left;padding:4px 5px;vertical-align:bottom}
+td{border-bottom:1px solid var(--rule);padding:3.5px 5px;vertical-align:top}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+tr.tot td{font-weight:700;border-top:1.5px solid var(--ink);background:var(--band)}
+tr.sub td{font-style:italic;color:var(--muted)}
+.sub-title{color:var(--muted);font-size:10.5pt;margin-bottom:10px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin:10px 0 12px}
+.kpi{background:var(--band);border-left:3px solid var(--accent);padding:6px 8px}
+.kpi .l{font-size:7.6pt;color:var(--muted);text-transform:uppercase;letter-spacing:.4px}
+.kpi .v{font-size:13pt;font-weight:700}
+.kpi .s{font-size:7.6pt;color:var(--muted)}
+.box{background:var(--band);border:1px solid var(--rule);border-left:4px solid var(--accent2);padding:8px 11px;margin:8px 0 10px;break-inside:avoid}
+.box.blue{border-left-color:var(--accent)}
+.note{font-size:7.8pt;color:var(--muted)}
+.pos{color:var(--good);font-weight:600}.neg{color:var(--bad);font-weight:600}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.pb{break-before:page}
+.tag{display:inline-block;font-size:7.4pt;padding:1px 5px;border-radius:3px;background:#e6eef3;color:var(--accent);font-weight:600}
+a{color:var(--accent);text-decoration:none;word-break:break-all}
+.src li{font-size:7.6pt;margin:1px 0}
+</style>
+</head>
+<body>
+
+<h1>Genting Berhad (GENT MK / 3182)</h1>
+<div class="sub-title">Holding-company deep dive: sum-of-the-parts, holdco net debt, discount dynamics, pre-mortem and activist playbook<br>
+Event / special-situations desk · Prices as at close 12 Oct 2026 · Balance sheets as at 30 Jun 2026 · Report date 13 Oct 2026</div>
+
+<div class="kpis">
+ <div class="kpi"><div class="l">Share price</div><div class="v">RM1.45</div><div class="s">−22.9% on 12 Oct (rights issue); 52w RM1.44–3.59</div></div>
+ <div class="kpi"><div class="l">Market cap</div><div class="v">RM5.58bn</div><div class="s">3,850.6m shs ex-treasury</div></div>
+ <div class="kpi"><div class="l">Listed stakes (look-through)</div><div class="v">RM20.0bn</div><div class="s">3.6x GENT market cap</div></div>
+ <div class="kpi"><div class="l">Holdco net debt (ex-listed)</div><div class="v">RM21.8bn</div><div class="s">exceeds the listed stakes' value</div></div>
+ <div class="kpi"><div class="l">Base-case NAV / share</div><div class="v">RM3.26</div><div class="s">Range RM1.73–5.27</div></div>
+ <div class="kpi"><div class="l">Discount to base NAV</div><div class="v">55%</div><div class="s">~50% pro forma for the rights issue</div></div>
+ <div class="kpi"><div class="l">P/B (consolidated)</div><div class="v">0.19x</div><div class="s">BVPS ≈ RM7.62</div></div>
+ <div class="kpi"><div class="l">Controlling holder</div><div class="v">43.8%</div><div class="s">Kien Huat Realty (Lim family)</div></div>
+</div>
+
+<div class="box blue">
+<b>Bottom line.</b> The equity is a thin, highly geared slice sitting on top of about RM34bn of assets. The listed stakes alone are worth 3.6x the market cap. However, about RM21.8bn of net debt sits <i>outside</i> the listed subsidiaries, at the holdco, in Resorts World Las Vegas, in the energy assets and in GOHL. Once that is deducted, the listed stakes are fully absorbed by it (−RM1.8bn). The market is therefore paying about RM7.4bn of implied EV for the unlisted assets, against our base value of RM14.3bn.<br>
+The headline 55% "discount" is mostly a <b>leverage and governance discount</b>, not a mispricing that will close by itself. It narrows only if (a) cash is moved up from the subsidiaries or assets are sold (rather than raised through dilutive equity), (b) RWLV EBITDA and Kasuri LNG deliver, and (c) the RWS licence renewal in Feb 2027 is clean.<br>
+<b>Positioning view:</b> a cheap option with negative near-term momentum (rights overhang, possible fallen-angel credit). It is investable as a catalyst-driven trade from around RM1.40–1.45 with tight sizing, ideally <b>long GENT / short GENS</b> to isolate the stub. A classic activist campaign is structurally hard because of 43.8% family control. A "constructive engagement" campaign, run with the domestic institutions and focused on upstreaming cash from GENS and selling GENP, is viable.
+</div>
+
+<h2>1. Bull case: why own it, and how the discount narrows</h2>
+<ul>
+<li><b>Extreme look-through value.</b> GENT's 52.6% GENS stake (RM12.3bn) alone is worth <b>2.2x</b> GENT's market cap. GENS itself trades at about 5.7x EV/EBITDA with S$2.95bn of net cash and no debt, so even that stake is marked at a trough multiple.</li>
+<li><b>Trough earnings in every unlisted segment at the same time.</b>
+ <ul>
+ <li>RWLV EBITDA fell from about US$194m (FY23) to about US$31m (FY25). It is now recovering: 1H26 was about US$74m, and Fitch expects about US$160m for 2026.</li>
+ <li>Oil &amp; gas is temporarily loss-making after the Chengdaoxi contract expired (Apr 2026).</li>
+ <li>Kasuri's 1.2mtpa FLNG (over 70% built, first LNG targeted for early 2027) could add about US$200–300m of EBITDA at plateau. Genting owns 95% of it, so almost none of that leaks to minorities. Consensus gives it little credit.</li>
+ </ul></li>
+<li><b>Peak capex.</b> RWNYC (licensed Dec 2025; US$5.5bn build plus US$2bn of community commitments) and RWS 2.0 (S$6.8bn to 2030) are front-loaded. Free cash flow inflects as these projects ramp from 2028. Fitch already models RWNYC at US$450m EBITDA by 2028.</li>
+<li><b>Insiders are buying at 2007 prices.</b> Kien Huat entities and Lim Keong Hui have irrevocably undertaken RM564m (45.1%) of the rights issue. The controller is putting in fresh cash, not extracting it.</li>
+<li><b>Rights issue clears the funding overhang.</b> RM800m goes to debt repayment. Once the issue is underwritten and priced (1Q27), the forced-selling and "more equity" narrative can fade. CreditSights calls it credit-positive.</li>
+<li><b>Discrete catalysts in the next 6–18 months:</b>
+ <ul>
+ <li>RWS casino licence renewal (Feb 2027). A full-term renewal removes a large overhang.</li>
+ <li>Kasuri first gas and the gas sales agreement.</li>
+ <li>Completion of the Kasuri farm-out and PTLNG divestment (by Feb 2027).</li>
+ <li>Monetisation of the Miami land (via GENM).</li>
+ <li>The UK MHRA decision on TauRx's HMTM (GENT owns about 20% of TauRx). Maybank once flagged RM5.09 per share on approval.</li>
+ </ul></li>
+<li><b>The discount has been far narrower before.</b> CGS-CIMB estimates that the long-run (2007 onward) average discount to listed-subsidiary value was about 13%, and Affin put the average discount to SOP at about 9%. Every 10-point narrowing from our base 55% discount is worth about RM0.33 per share, or roughly 22% on the current price.</li>
+</ul>
+
+<h2>2. Bear case: why the discount widens or stays put</h2>
+<ul>
+<li><b>Holdco leverage swamps the listed value.</b> Net debt outside the listed subsidiaries is RM21.8bn, more than the RM20.0bn of listed stakes. Equity holders own a call option on asset values. A 10% fall in gross asset value (about RM3.4bn) removes about 27% of base NAV.</li>
+<li><b>Fallen-angel risk.</b> Fitch rates Genting BBB- (cut Sep 2026) and RWLV BB+. S&P has Genting at BBB- with a negative outlook. A cut to high yield would raise refinancing costs on the GOHL and RWLV paper and could trigger index-driven bond selling.<br>
+ Maybank reads the rights issue as a sign of "limited success" in refinancing, and warns of further equity raises or dividend cuts.</li>
+<li><b>Cash goes down the structure, not up.</b>
+ <ul>
+ <li>GENT spent about RM3.3bn buying GENM at RM2.35 (Oct–Dec 2025), mostly debt-funded. GENM now trades at RM1.23, a 48% mark-to-market loss on those shares.</li>
+ <li>GENT will be asked to fund its 73.9% share of GENM's NY equity needs.</li>
+ <li>The GENS cash (S$2.95bn) is earmarked for RWS 2.0.</li>
+ </ul></li>
+<li><b>Dividend is gone.</b> DPS fell from 22 sen (FY19, including specials) to 5 sen (FY25), with no interim in 1H25 or 1H26. A yield-driven domestic shareholder base has no reason to hold.</li>
+<li><b>Track record of related-party deals.</b>
+ <ul>
+ <li>Empire Resorts was bought from Kien Huat in stages in 2019 and 2025; the total investment was about US$724m.</li>
+ <li>Genting UK was sold from GENS to GENM in 2010, with 38% of the votes against.</li>
+ <li>The GENHK collapse in 2022.</li>
+ </ul>
+ Brokers have explicitly loaded a related-party "risk premium" into their discounts (Maybank: 55–60%, Kenanga: 40%).</li>
+<li><b>Licence and regulatory risk.</b>
+ <ul>
+ <li>RWS received only a 2-year licence extension in 2025, citing "unsatisfactory" tourism performance.</li>
+ <li>RWLV paid a US$10.5m AML fine in 2025.</li>
+ <li>RWNYC pays 56% tax on slots and electronic table games, and faces new downstate competitors.</li>
+ </ul></li>
+<li><b>Structural sellers.</b> GENT and GENM were dropped from the FBM KLCI (Dec 2024). Foreign ownership has been falling, and the stock is now a small-cap stub with EPS dilution of 17–18% (CIMB) still to come.</li>
+</ul>
+
+<h2 class="pb">3. Listed holdings</h2>
+<table>
+<tr><th>Holding</th><th>Ticker</th><th>Held via</th><th class="n">Shares held (m)</th><th class="n">% owned</th><th class="n">Shares o/s (m, ex-TS)</th><th class="n">Price (12–13 Oct)</th><th class="n">Stake value (RM m)</th><th class="n">% of GENT mkt cap</th><th>Accounting</th></tr>
+<tr><td>Genting Singapore</td><td>G13 SP</td><td>Genting Overseas Holdings (100%)</td><td class="n">6,353.7</td><td class="n">52.57%</td><td class="n">12,085.9</td><td class="n">S$0.61</td><td class="n">12,325</td><td class="n">221%</td><td>Consolidated subsidiary</td></tr>
+<tr><td>Genting Malaysia</td><td>GENM MK</td><td>Direct</td><td class="n">~4,186*</td><td class="n">~73.86%</td><td class="n">5,667.7</td><td class="n">RM1.23</td><td class="n">5,149</td><td class="n">92%</td><td>Consolidated subsidiary (de facto control plus management agreement even at 49%)</td></tr>
+<tr><td>Genting Plantations</td><td>GENP MK</td><td>Direct</td><td class="n">497.0</td><td class="n">55.40%</td><td class="n">897.1</td><td class="n">RM5.18</td><td class="n">2,574</td><td class="n">46%</td><td>Consolidated subsidiary</td></tr>
+<tr class="tot"><td colspan="7">Total listed look-through value</td><td class="n">20,048</td><td class="n">359%</td><td></td></tr>
+</table>
+<p class="note">*GENM share count is derived: 73.859% (Mar 2026 filings) × 5,667.7m voting shares. FX: S$1 = RM3.18 (spot assumption, mid-Oct 2026); US$1 = RM4.086 (BNM, 9 Oct 2026). GENP price is the 13 Oct indicative (−4.4% in sympathy). Verify all share counts against the latest Bursa/SGX filings. GENT has no other material listed equity stakes.</p>
+
+<h3>3.1 Recent changes in holdings</h3>
+<table>
+<tr><th>Holding</th><th>Change</th><th>Detail</th></tr>
+<tr><td>GENM</td><td class="pos">49.36% → 73.86%</td><td>Conditional voluntary offer at RM2.35 (13 Oct 2025, RM6.74bn for 50.64%). Funded with up to RM6.3bn of borrowings plus about US$217m of MTNs.<br>
+The independent adviser (Kenanga) judged the offer "not fair and not reasonable" (SOP RM3.48–3.77). It became unconditional on 3 Nov and closed on 1 Dec 2025 at 73.13%, short of the 75% delisting threshold, so GENM stays listed.<br>
+Market purchases at about RM1.97 lifted the stake to 73.86% by Mar 2026; none have been found since. The CEO (Jun 2026 AGM) says the aim was control and consolidation, not privatisation. CreditSights expects no more debt-funded buying for 12–18 months.</td></tr>
+<tr><td>GENS</td><td>52.63% → 52.57%</td><td>Share count unchanged at 6,353.7m. The small percentage drift comes from GENS share issuance and treasury movements.</td></tr>
+<tr><td>GENP</td><td>~55.4% (unchanged)</td><td>No change. GENP runs small buybacks (e.g. 34k shares on 2 Oct 2026). EPF holds 15.5%.</td></tr>
+<tr><td>Energy</td><td>Portfolio churn</td><td>
+ <ul style="margin:0;padding-left:14px">
+ <li>Meizhou Wan Phase I (49% JV) handed back to Fujian on BOT expiry (30 Jun 2025); Phase II retained.</li>
+ <li>Bought 49% of the Zhoushan gas plant (2024).</li>
+ <li>Chengdaoxi oil contract expired Apr 2026; replaced by Block 15/33.</li>
+ <li>Kasuri: farm-out of 5% plus sale of 5% of PTLNG to Rukun Raharja (completion by Feb 2027).</li>
+ </ul></td></tr>
+</table>
+
+<h3>3.2 Important news flow (last 12 months)</h3>
+<table>
+<tr><th style="width:15%">Date</th><th>Event</th><th style="width:28%">Read-across to the discount</th></tr>
+<tr><td>9–12 Oct 2026</td><td>RM1.25bn renounceable rights issue (indicatively 1-for-4; priced at a 25–30% discount to TERP).<br>
+Use of proceeds: RM800m debt repayment, RM429.5m working capital, RM20.5m expenses. Kien Huat and Lim Keong Hui undertake 45.1%; the balance is to be underwritten. EGM pending; completion 1Q27.<br>
+The stock fell 22.9% to RM1.45 (lowest since Apr 2007) and GENM fell 17.5%. Maybank cut to Sell (TP RM1.49). CIMB sees 17–18% EPS dilution.</td><td class="neg">Widening: dilutive equity chosen over asset sales or upstreaming cash</td></tr>
+<tr><td>7–8 Sep 2026</td><td>Fitch cut Genting/GOHL to BBB-, RWLV to BB+ and GENM to BBB-. It expects net leverage above 4.0x for three years. S&P flags fallen-angel risk (BBB-, negative outlook).</td><td class="neg">Widening</td></tr>
+<tr><td>20 Aug 2026</td><td>2Q26: revenue RM7.75bn (+14%), adjusted EBITDA RM2.12bn (+2%), <b>net loss RM27.1m</b>, no interim dividend.<br>
+US &amp; Bahamas revenue +67% (RWNYC casino launch). RWLV 2Q26 EBITDA US$24m, against US$50m in 1Q.</td><td class="neg">Widening</td></tr>
+<tr><td>Apr 2026</td><td>GOHL issued US$1.25bn of perpetuals (7.625% and 8.30%, 50% equity credit) and tendered US$882.5m of the US$1.5bn 4.25% 2027 notes (about US$618m remains).</td><td>Neutral: refinancing at a much higher cost</td></tr>
+<tr><td>28 Apr 2026</td><td>RWNYC launched live table games (240+ tables) under its new commercial licence.</td><td class="pos">Positive (at GENM level)</td></tr>
+<tr><td>Dec 2025</td><td>RWNYC awarded one of the downstate NY commercial licences (US$500m fee). Moody's cut GENT/GOHL to Baa3 and GENS to Baa1.</td><td>Mixed</td></tr>
+<tr><td>1 Mar 2025</td><td>Lim Kok Thay stepped down as CEO and remains Executive Chairman. Tan Kong Han became CEO. The stock fell 11.8% that day, with weak 4Q24 results.</td><td>Succession clarity, but the family stays in control</td></tr>
+<tr><td>27 Mar 2025</td><td>RWLV paid a US$10.5m Nevada AML fine (the second largest in the state's history).</td><td class="neg">Governance overhang</td></tr>
+<tr><td>Pending</td><td>RWS licence renewal (current 2-year term expires Feb 2027). TauRx MHRA decision. Kasuri GSA and first LNG.</td><td>Binary catalysts</td></tr>
+</table>
+
+<h3>3.3 Treasury shares</h3>
+<table>
+<tr><th>Entity</th><th class="n">Treasury shares</th><th class="n">% of issued</th><th>Comment</th></tr>
+<tr><td>Genting Berhad</td><td class="n">~26.3m</td><td class="n">0.68%</td><td>Carried at about RM221m cost (S&amp;P). Issued 3,876.9m; outstanding 3,850.6m. Last buybacks were tiny: RM7.1m in FY15 and RM1.6m in FY16. A 4% buyback mandate is renewed every AGM but has not been used for a decade.</td></tr>
+<tr><td>Genting Malaysia</td><td class="n">~270m</td><td class="n">~4.6%</td><td>Issued about 5,938m against 5,667.7m outstanding. Still buying (550k shares on 12 Oct 2026).</td></tr>
+<tr><td>Genting Singapore</td><td class="n">8.1m</td><td class="n">0.07%</td><td>Issued 12,094.0m (31 Dec 2025).</td></tr>
+<tr><td>Genting Plantations</td><td class="n">0.3m</td><td class="n">0.03%</td><td>Issued 897.4m (Jul 2026).</td></tr>
+</table>
+
+<h2 class="pb">4. Unlisted holdings: description and valuation</h2>
+<table>
+<tr><th>Asset</th><th>Stake</th><th>Description / status</th><th class="n">Low (RM m)</th><th class="n">Base (RM m)</th><th class="n">High (RM m)</th><th>Base methodology</th></tr>
+<tr><td>Resorts World Las Vegas</td><td>100%</td><td>Opened Jun 2021, 3,500+ keys on the Strip, gross cost of about US$4.3bn+. 2Q26 occupancy 88%, ADR US$274. Debt is ring-fenced: about US$1.75bn of notes (2029/2030/2031) plus a US$800m secured facility. Rated BB+ by Fitch.</td><td class="n">4,249</td><td class="n">6,538</td><td class="n">9,888</td><td>EV: 10x Fitch 2026E EBITDA of US$160m (low 8x US$130m; high 11x US$220m normalised). Debt is captured in holdco net debt.</td></tr>
+<tr><td>Power: Banten (Indonesia, 660MW coal) and Jangi wind (India, 91.8MW)</td><td>~55% eff. / 100%</td><td>Banten: COD 2017, 25-yr PLN PPA at 5.999 US¢/kWh; SDIC holds 40%. Jangi: about 181 GWh in 2025.</td><td class="n">1,500</td><td class="n">2,350</td><td class="n">3,000</td><td>About 7x attributable EBITDA of roughly RM300m, plus Jangi about RM0.25bn</td></tr>
+<tr><td>Oil &amp; gas: Kasuri block (West Papua) + Block 15/33 (China)</td><td>95% (post farm-out)</td><td>About 1.7 Tcf. 1.2mtpa FLNG (Wison, US$963m EPCIC) over 70% complete; first LNG slipped to early 2027; GSA pending. Chengdaoxi (49%) expired Apr 2026.</td><td class="n">1,000</td><td class="n">3,000</td><td class="n">6,000</td><td>Risked: about US$0.73bn (about 50% of a de-risked ~5x US$300m plateau EBITDA). High case is de-risked.</td></tr>
+<tr><td>Associates, JVs &amp; investments</td><td>Various</td><td>Meizhou Wan Phase II (49%, 2×1,000MW), Zhoushan gas plant (49%, 2×745MW), TauRx Pharmaceuticals (~20%; HMTM for Alzheimer's under MHRA review), other investments.</td><td class="n">1,718</td><td class="n">2,455</td><td class="n">3,192</td><td>Ex-listed book value: group LT investments RM3,482m less those of GENM, GENP and GENS. 0.7x / 1.0x / 1.3x book. TauRx approval is pure upside.</td></tr>
+<tr class="tot"><td colspan="3">Total unlisted (gross)</td><td class="n">8,468</td><td class="n">14,343</td><td class="n">22,080</td><td></td></tr>
+</table>
+<p class="note">Not separately valued: brand-licence and management fees received from GENM/GENS (the arrangement that underpins consolidation of GENM). These offset central costs, and we treat them as net zero against unallocated holdco overhead. Banten is consolidated with about 45% minorities; the base figure is attributable.</p>
+
+<h3>4.1 Operating metrics of the unlisted businesses</h3>
+<p><b>Resorts World Las Vegas (US$ m)</b>. Genting does not publish RWLV on its own. The figures below are compiled from Genting commentary and broker estimates as reported in the trade press. EBIT is our estimate, assuming about US$165m a year of D&amp;A.</p>
+<table>
+<tr><th>Metric</th><th class="n">FY21*</th><th class="n">FY22</th><th class="n">FY23</th><th class="n">FY24</th><th class="n">FY25</th><th class="n">1H26</th></tr>
+<tr><td>Sales</td><td class="n">~346</td><td class="n">794</td><td class="n">~895</td><td class="n">~799</td><td class="n">~708</td><td class="n">~390</td></tr>
+<tr><td>Sales growth</td><td class="n">n.m.</td><td class="n">n.m.</td><td class="n">+12.7%</td><td class="n neg">−10.7%</td><td class="n neg">−11.4%</td><td class="n pos">+13% YoY</td></tr>
+<tr><td>EBITDA</td><td class="n">~50</td><td class="n">116</td><td class="n">~194</td><td class="n">~107</td><td class="n">~31†</td><td class="n">~74</td></tr>
+<tr><td>EBITDA margin</td><td class="n">14.5%</td><td class="n">14.6%</td><td class="n">21.7%</td><td class="n">13.4%</td><td class="n">4.4%</td><td class="n">19.0%</td></tr>
+<tr><td>EBIT (est.)</td><td class="n">~(33)</td><td class="n">~(49)</td><td class="n">~29</td><td class="n">~(58)</td><td class="n">~(134)</td><td class="n">~(9)</td></tr>
+<tr><td>EBIT margin (est.)</td><td class="n">n.m.</td><td class="n">−6.2%</td><td class="n">3.2%</td><td class="n">−7.3%</td><td class="n">−18.9%</td><td class="n">−2.3%</td></tr>
+</table>
+<p class="note">*FY21 covers about 6 months from the 24 Jun 2021 opening. †3Q25 EBITDA is reported as a US$12m loss by ASGAM but as a US$12m profit by Maybank; FY25 would be about US$55m on the latter. Fitch 2026E EBITDA is about US$160m.</p>
+
+<p><b>Power and oil &amp; gas segments (RM m)</b>. Segment adjusted EBITDA is as reported by Genting. FY24 and FY25 figures marked "E" are extrapolated from 9-month data. Genting does not disclose segment D&amp;A, so EBIT is not available.</p>
+<table>
+<tr><th>Metric</th><th class="n">FY21</th><th class="n">FY22</th><th class="n">FY23</th><th class="n">FY24</th><th class="n">FY25</th><th class="n">1H26</th></tr>
+<tr><td>Power: sales</td><td class="n">n.a.</td><td class="n">n.a.</td><td class="n">1,192</td><td class="n">1,093</td><td class="n">~1,280E</td><td class="n">lower (FX)</td></tr>
+<tr><td>Power: sales growth</td><td class="n">–</td><td class="n">–</td><td class="n">–</td><td class="n neg">−8.3%</td><td class="n pos">~+17%E</td><td class="n">–</td></tr>
+<tr><td>Power: EBITDA</td><td class="n">n.a.</td><td class="n">371</td><td class="n">442</td><td class="n">~330E</td><td class="n">~400E</td><td class="n">87 (1Q)</td></tr>
+<tr><td>Power: EBITDA margin</td><td class="n">–</td><td class="n">–</td><td class="n">37.1%</td><td class="n">~30%E</td><td class="n">~31%E</td><td class="n">–</td></tr>
+<tr><td>Oil &amp; gas: EBITDA</td><td class="n">n.a.</td><td class="n">425</td><td class="n">362</td><td class="n">~355E</td><td class="n">~255E</td><td class="n">55 (1Q); 2Q loss</td></tr>
+<tr><td>Oil &amp; gas: EBITDA growth</td><td class="n">–</td><td class="n">–</td><td class="n neg">−14.8%</td><td class="n">~−2%E</td><td class="n neg">~−28%E</td><td class="n neg">Chengdaoxi expiry</td></tr>
+</table>
+
+<p><b>Context: consolidated group (RM m, S&amp;P Capital IQ)</b></p>
+<table>
+<tr><th>Metric</th><th class="n">FY21</th><th class="n">FY22</th><th class="n">FY23</th><th class="n">FY24</th><th class="n">FY25</th></tr>
+<tr><td>Sales</td><td class="n">13,530</td><td class="n">22,384</td><td class="n">27,119</td><td class="n">27,717</td><td class="n">27,712</td></tr>
+<tr><td>Sales growth</td><td class="n">+17.0%</td><td class="n">+65.4%</td><td class="n">+21.2%</td><td class="n">+2.2%</td><td class="n">0.0%</td></tr>
+<tr><td>EBITDA</td><td class="n">3,086</td><td class="n">7,294</td><td class="n">8,796</td><td class="n">8,237</td><td class="n">7,316</td></tr>
+<tr><td>EBITDA margin</td><td class="n">22.8%</td><td class="n">32.6%</td><td class="n">32.4%</td><td class="n">29.7%</td><td class="n">26.4%</td></tr>
+<tr><td>EBIT</td><td class="n">593</td><td class="n">3,841</td><td class="n">5,148</td><td class="n">4,613</td><td class="n">3,774</td></tr>
+<tr><td>EBIT margin</td><td class="n">4.4%</td><td class="n">17.2%</td><td class="n">19.0%</td><td class="n">16.6%</td><td class="n">13.6%</td></tr>
+<tr><td>Net income to GENT shareholders</td><td class="n">(1,370)</td><td class="n">(300)</td><td class="n">929</td><td class="n">883</td><td class="n">(12)</td></tr>
+</table>
+
+<h2 class="pb">5. Holdco net debt: stripping out the consolidated listed subsidiaries</h2>
+<p>We start from the 30 Jun 2026 consolidated balance sheet and deduct the cash and borrowings of GENM, GENS and GENP. What remains is the net debt of Genting Berhad (company level), GOHL, RWLV, Genting Energy and the other wholly owned or unlisted subsidiaries. That is the debt that ranks ahead of GENT's equity in a sum-of-the-parts.</p>
+<table>
+<tr><th>RM m, 30 Jun 2026</th><th class="n">Cash &amp; liquid inv.*</th><th class="n">Borrowings</th><th class="n">Net debt / (cash)</th><th class="n">Lease liabilities</th></tr>
+<tr><td>Genting Berhad, consolidated</td><td class="n">18,942</td><td class="n">45,306</td><td class="n">26,364</td><td class="n">2,296</td></tr>
+<tr><td>Less: Genting Malaysia (100% of its balances)</td><td class="n">(3,822)</td><td class="n">(15,757)</td><td class="n">(11,935)</td><td class="n">(2,231)</td></tr>
+<tr><td>Less: Genting Singapore (S$ at RM3.12 at 30 Jun)</td><td class="n">(9,201)</td><td class="n">0</td><td class="n">9,201</td><td class="n">(5)</td></tr>
+<tr><td>Less: Genting Plantations</td><td class="n">(910)</td><td class="n">(2,691)</td><td class="n">(1,781)</td><td class="n">(16)</td></tr>
+<tr class="tot"><td>Holdco and unlisted subsidiaries (de-consolidated)</td><td class="n">5,008</td><td class="n">26,857</td><td class="n">21,849</td><td class="n">45</td></tr>
+<tr class="sub"><td>Pro forma for the rights issue (RM1,229.5m net proceeds)</td><td class="n"></td><td class="n"></td><td class="n">~20,620</td><td class="n"></td></tr>
+</table>
+<p class="note">*Cash and equivalents plus short-term investments and trading securities; restricted cash is excluded. Source: S&amp;P Capital IQ (30 Jun 2026). Group borrowings rose from RM42.4bn (Dec 2025) to RM47.6bn (Jun 2026, including leases).<br>
+The US$1.25bn GOHL perpetuals (Apr 2026) appear to be captured in reported borrowings: equity was flat quarter on quarter and minority interests reconcile to the listed subsidiaries without them. If they are in fact equity-classified, add about RM5.1bn of debt-like claims, which takes base NAV to about RM1.93 per share.</p>
+
+<div class="box">
+<b>What the RM21.8bn consists of (indicative):</b>
+<ul style="margin-bottom:2px">
+<li>RWLV: about US$2.5bn (about RM10–11bn, ring-fenced). CGS-CIMB carried RWLV at RM11bn of net debt in 2023.</li>
+<li>GOHL and Genting Capital: the residual US$618m of 2027 notes, the US$1.25bn of perpetuals, MTNs and other notes.</li>
+<li>About RM3.3bn of offer debt used to buy 24.5% of GENM.</li>
+<li>Kasuri/FLNG project funding.</li>
+<li>Banten project debt (part attributable to SDIC).</li>
+</ul>
+Holdco liquidity is GENT's binding constraint, and it explains why a rights issue was needed despite RM18.9bn of consolidated cash. Most of that cash is trapped in GENS (minority-shared and earmarked for RWS 2.0) and GENM.
+</div>
+
+<h2>6. Sum-of-the-parts and the discount</h2>
+<table>
+<tr><th>RM m (except per share)</th><th class="n">Low</th><th class="n">Base</th><th class="n">High</th><th>Notes</th></tr>
+<tr><td>GENS 52.57% (S$0.61)</td><td class="n">12,325</td><td class="n">12,325</td><td class="n">12,325</td><td>Market value</td></tr>
+<tr><td>GENM 73.86% (RM1.23)</td><td class="n">5,149</td><td class="n">5,149</td><td class="n">5,149</td><td>Market value</td></tr>
+<tr><td>GENP 55.40% (RM5.18)</td><td class="n">2,574</td><td class="n">2,574</td><td class="n">2,574</td><td>Market value</td></tr>
+<tr><td>Unlisted assets (Section 4)</td><td class="n">8,468</td><td class="n">14,343</td><td class="n">22,080</td><td>EV basis</td></tr>
+<tr class="tot"><td>Gross asset value</td><td class="n">28,516</td><td class="n">34,391</td><td class="n">42,128</td><td></td></tr>
+<tr><td>Less: holdco net debt (ex-listed)</td><td class="n">(21,849)</td><td class="n">(21,849)</td><td class="n">(21,849)</td><td>Section 5</td></tr>
+<tr class="tot"><td>Net asset value</td><td class="n">6,667</td><td class="n">12,541</td><td class="n">20,278</td><td></td></tr>
+<tr><td>NAV per share (3,850.6m)</td><td class="n">RM1.73</td><td class="n">RM3.26</td><td class="n">RM5.27</td><td></td></tr>
+<tr><td>Discount at RM1.45</td><td class="n">16%</td><td class="n">55%</td><td class="n">72%</td><td></td></tr>
+<tr><td>Pro forma rights (1-for-4 at RM1.30): NAV/sh vs TERP RM1.42</td><td class="n">RM1.64 / 13%</td><td class="n">RM2.86 / 50%</td><td class="n">RM4.47 / 68%</td><td>Illustrative terms (CIMB)</td></tr>
+</table>
+<ul>
+<li><b>Implied value of the unlisted assets:</b> market cap RM5.58bn + holdco net debt RM21.85bn − listed stakes RM20.05bn = <b>RM7.4bn</b> of EV, against our base of RM14.3bn. At 10x EBITDA, RWLV alone accounts for about 90% of that.</li>
+<li><b>Gearing amplifies the discount:</b> GAV/NAV is 2.7x in the base case. Each 10% move in the listed share prices changes NAV per share by about RM0.52 (±16%).</li>
+<li><b>Consolidated multiples:</b> EV including minorities at market is about RM47.0bn, or about 5.9x FY25 adjusted EBITDA of about RM7.99bn. P/B is 0.19x. P/E is not meaningful (FY25 and LTM net loss).</li>
+</ul>
+
+<h3>6.1 Historical discount</h3>
+<table>
+<tr><th>Date</th><th>Source</th><th>Discount</th></tr>
+<tr><td>2007–2023 average</td><td>CGS-CIMB</td><td>About 13% to the value of the listed subsidiaries</td></tr>
+<tr><td>Dec 2016 – May 2017</td><td>Affin Hwang</td><td>28% → 24% to SOP (historical average about 9%)</td></tr>
+<tr><td>Oct 2020</td><td>Maybank</td><td>Applied discount raised to 55% (related-party history, casino duty and levy)</td></tr>
+<tr><td>Apr 2023</td><td>Nomura</td><td>66% to listed subsidiaries; 47% to listed plus unlisted</td></tr>
+<tr><td>Aug 2023</td><td>CGS-CIMB</td><td>58% to RNAV; 46% to listed subsidiaries</td></tr>
+<tr><td>Mar 2025</td><td>Maybank / The Edge</td><td>Record 66% discount; the GENS stake alone was worth more than GENT's market cap</td></tr>
+<tr><td>Oct 2026</td><td>This report</td><td>72% to listed subsidiaries (gross); 55% to base NAV after holdco debt</td></tr>
+</table>
+
+<h2 class="pb">7. Has management acted to narrow the discount?</h2>
+<p><b>Verdict: no. Since 2020, capital-allocation decisions have structurally widened it.</b></p>
+<table>
+<tr><th>Lever</th><th>Track record</th><th>Assessment</th></tr>
+<tr><td>Dividends</td><td>DPS in sen, ordinary + special:
+ <ul style="margin:2px 0;padding-left:14px">
+ <li>FY15: 3.5</li>
+ <li>FY16: 6.0 + 6.5</li>
+ <li>FY17: 14.5 + 7.0</li>
+ <li>FY18: 14.5 + 7.0</li>
+ <li>FY19: 12.5 + 9.5</li>
+ <li>FY20: 6.5 + 8.5</li>
+ <li>FY21: 11.0</li>
+ <li>FY22: 16.0</li>
+ <li>FY23: 15.0</li>
+ <li>FY24: 11.0</li>
+ <li>FY25: 5.0</li>
+ <li>1H26: nil</li>
+ </ul>
+ Specials were paid in FY16–FY20 (even through the FY20 loss); none since.</td><td class="neg">Helped in 2016–20; now reversed</td></tr>
+<tr><td>Share buybacks</td><td>4% mandate renewed annually. Only about RM9m was bought (FY15–16); about 26.3m treasury shares are held. Nothing was bought even at a 60%+ discount (2023–26). The subsidiaries (GENM, GENS, GENP) do buy back.</td><td class="neg">Not used</td></tr>
+<tr><td>Asset sales</td><td>Malaysian power business sold to 1MDB for RM2.3bn (2012). GENS sold Landing Jeju (2017). Meizhou Wan Phase I returned on BOT expiry (2025). Kasuri 5% farm-out (pending). Miami land (GENM) sale collapsed.</td><td>Sporadic; proceeds reinvested, not distributed</td></tr>
+<tr><td>Listed holdings</td><td>Increased, not reduced: GENM went from 49% to 74% at a RM2.35 offer price (now RM1.23), mostly debt-funded.</td><td class="neg">Widening</td></tr>
+<tr><td>Related-party transactions</td><td>Empire Resorts bought from Kien Huat (2019 and 2025, about US$724m in total). Genting UK sold from GENS to GENM (2010). GENHK stake sold to a Lim family trust at a loss (2016).</td><td class="neg">Core source of the discount</td></tr>
+<tr><td>Equity issuance</td><td>RM1.25bn rights at a 25–30% discount to TERP (Oct 2026), close to the multi-decade low and at about 40–45% of base NAV.</td><td class="neg">Value-destructive for non-participants</td></tr>
+<tr><td>Governance / succession</td><td>Lim Kok Thay became Executive Chairman and Tan Kong Han CEO (Mar 2025); Lim Keong Hui is Deputy CEO. Index exclusion (Dec 2024).</td><td>Neutral</td></tr>
+</table>
+
+<h2>8. Pre-mortem: it is October 2028 and the position lost 50%. Why?</h2>
+<ol>
+<li><b>Credit spiral.</b> S&amp;P cuts to BB+ and GENT becomes a fallen angel. GOHL paper reprices 150–200bp wider, and the perpetual coupons and step-ups bite. Refinancing of the 2027–2029 maturities forces a second rights issue (Maybank's warning comes true) at an even lower price.</li>
+<li><b>RWS licence shock (Feb 2027).</b> Singapore renews for another short term with conditions, or imposes caps. GENS de-rates from 5.7x to 4x EV/EBITDA. GENS is about 36% of GAV, so GENT NAV falls by about RM0.55 per share (−17%) before any sentiment contagion.</li>
+<li><b>Kasuri fails to deliver.</b> The GSA slips, the FLNG overruns, or the reservoir disappoints. The asset becomes a write-down rather than an EBITDA source. Our RM3bn base value goes to about zero.</li>
+<li><b>RWLV keeps bleeding.</b> Strip competition and weak premium play keep EBITDA below US$100m. Ring-fenced lenders force a restructuring, or GENT injects equity to defend the brand.</li>
+<li><b>NY cash sink.</b> RWNYC ramps slowly (56% slot tax, competition from the other downstate licensees). GENM calls on shareholders, and GENT funds 74% of the call.</li>
+<li><b>Another related-party transaction.</b> The family uses GENT or GENM to absorb another family asset, or squeezes GENM minorities at a low price. Investors re-impose a 60–70% discount.</li>
+<li><b>Ringgit and macro.</b> A stronger ringgit (already a 2Q26 headwind) compresses translated USD and SGD earnings, while Malaysian rates rise.</li>
+</ol>
+<p><b>Early-warning indicators:</b> the rights issue's underwriting terms and take-up; any S&amp;P action; RWS renewal headlines; Kasuri GSA signing; RWLV quarterly EBITDA below US$30m; GENM equity calls; any new RPT circular.</p>
+
+<h2>9. Is the current valuation too high?</h2>
+<ul>
+<li><b>On earnings: arguably yes.</b> FY25 and LTM EPS are negative, the dividend is suspended, and CIMB expects 17–18% EPS dilution. A P/E or yield investor cannot justify RM1.45 on 2026–27 numbers. That is why Maybank's RM1.49 Sell target sits close to the current price.</li>
+<li><b>On assets: no.</b> P/B is 0.19x. The GENS stake is 2.2x the market cap. The implied EV for the unlisted assets (RM7.4bn) is roughly half our base value and close to the low case.</li>
+<li><b>On leverage-adjusted SOTP: modestly cheap.</b> A "fair" discount for this structure is 30–40%, given leverage, related-party history, holdco costs and illiquidity, against a long-run 9–13%. That gives fair value of <b>RM1.95–2.30</b> (RM1.70–2.00 pro forma for the rights issue). This is about 20–40% upside, not a multi-bagger, unless management changes capital allocation.</li>
+<li><b>The low case (RM1.73) is barely above the price.</b> The margin of safety depends on Kasuri and RWLV recovering, plus GENS holding its value. Downside is about 40% in a credit or licence shock scenario (about RM0.85–1.00).</li>
+</ul>
+
+<h2>10. Contrarian view: what the market is refusing to see</h2>
+<div class="box">
+<p><b>The market is pricing GENT as a distressed casino holdco. It is better understood as a capex-peak infrastructure conglomerate whose free cash flow turns sharply positive from 2028, controlled by a family that just wrote a RM564m cheque at 2007 prices.</b></p>
+<ul>
+<li><b>Three EBITDA streams are bottoming at once,</b> and the market extrapolates the trough:
+ <ul>
+ <li>RWLV: about US$31m in FY25, recovering to about US$160m.</li>
+ <li>Kasuri: zero today, US$200–300m at plateau, about 95% owned.</li>
+ <li>RWNYC: Fitch sees US$450m by 2028.</li>
+ </ul>
+ Together that is about RM2.5–3.0bn of incremental EBITDA (GENT share), against current holdco net debt of RM21.8bn.</li>
+<li><b>The rights issue is a floor, not a ceiling.</b> At RM1.25bn it is small (about 6% of holdco net debt). The family chose dilution over a fire sale of GENS or GENP shares at trough prices. That is rational if they believe those assets are cheap. The family is effectively buying more GENS at 5.7x EBITDA through the holdco.</li>
+<li><b>GENS is a hidden balance-sheet lever.</b> It has zero debt, S$2.95bn of cash and about S$780m of EBITDA. Even modest leverage at GENS (1.5–2.0x) could fund a special distribution. GENT's share of a S$1.5bn payout is about RM2.5bn, double the rights issue, with no dilution at GENT.</li>
+<li><b>Consolidation drove the GENM offer, so the creeping-control buying should now stop.</b> That removes a source of capital leakage.</li>
+<li><b>Free optionality is ignored:</b> TauRx/HMTM approval, a possible Thailand or UAE licence, and the Miami land.</li>
+</ul>
+</div>
+
+<h2 class="pb">11. Shareholder activist assessment</h2>
+<h3>11.1 Feasibility</h3>
+<table>
+<tr><th>Factor</th><th>Assessment</th></tr>
+<tr><td>Control</td><td class="neg">Kien Huat Realty holds 43.8%. With typical Malaysian turnout, the family carries any ordinary resolution. A board spill or proxy fight is not winnable.</td></tr>
+<tr><td>Where minorities have votes</td><td class="pos">Related-party transactions: interested parties must abstain, so minorities decide. Rights-issue EGM: the family can vote, but a large public "no" carries signalling and underwriting risk. GENM, GENS and GENP minorities are independent pressure points.</td></tr>
+<tr><td>Domestic institutions</td><td>EPF, KWAP, PNB/ASNB and other government-linked funds are likely meaningful holders (to be confirmed from the AR shareholding analysis). MSWG is an existing critic of the RPTs. Malaysia's Code on Corporate Governance and the Institutional Investor Code give engagement a framework.</td></tr>
+<tr><td>Entry point</td><td class="pos">Liquidity is elevated after the rights crash. The underwriting shortfall and rights nil-paid trading allow a cheap stake build. Stake value is small (5% is about RM280m).</td></tr>
+<tr><td>Precedent</td><td>No activist has ever run a public campaign at GENT, GENM or GENS. The family is sensitive to credit ratings and licence regulators, both of which reward deleveraging. That is a point of leverage.</td></tr>
+<tr><td>Overall</td><td><b>Moderate feasibility for a private, constructive "unlock" campaign. Low feasibility for a hostile campaign.</b></td></tr>
+</table>
+
+<h3>11.2 Activist playbook</h3>
+<ol>
+<li><b>Build the position through the rights issue.</b> Accumulate via nil-paid rights and the sub-underwriting shortfall to 3–5%. Pair with a GENS short (beta-hedge the ~36% GAV exposure) or a GOHL CDS/bond hedge.</li>
+<li><b>Coalition first.</b> Present privately to EPF, KWAP, PNB, MSWG and the foreign long-onlies. Frame the campaign as credit-positive, which aligns with the family's goal of staying investment grade.</li>
+<li><b>Ask 1: upstream cash, don't dilute.</b>
+ <ul>
+ <li>A GENS capital return through modest leverage (1.5–2.0x EBITDA) or an equal-access buyback (DBS has suggested S$0.90).</li>
+ <li>GENT's share of a S$1.5bn GENS payout is about RM2.5bn.</li>
+ <li>Push for the rights issue to be resized or cancelled if the GENS route is taken.</li>
+ </ul></li>
+<li><b>Ask 2: sell the GENP stake.</b> RM2.6bn at market, likely more with a control premium (about 30%), to a strategic buyer such as KLK, SD Guthrie, FGV or the Sime family. Plantations are non-core and cash-generative. This cuts holdco net debt by 12–15%.</li>
+<li><b>Ask 3: crystallise energy.</b> Further Kasuri sell-down to an LNG major or NOC once the FLNG is commissioned. Sell Banten, Meizhou Wan II, Zhoushan and Jangi to SDIC or Asian infrastructure funds (about RM3–4bn).</li>
+<li><b>Ask 4: RWLV strategic review.</b> Options include a JV partner, a propco/opco separation, or a sale. RWLV is ring-fenced, so a sale at more than about US$2.5bn EV is NAV-accretive. The bar is its debt, not its cost.</li>
+<li><b>Ask 5: capital-return policy.</b> Commit to a dividend floor (for example, pass through 50% of dividends received from subsidiaries). Use the 4% buyback mandate whenever the discount exceeds 40%. Cancel the treasury shares.</li>
+<li><b>Ask 6: governance guardrails.</b>
+ <ul>
+ <li>An RPT protocol: an independent committee with veto, and an outside fairness opinion for all Kien Huat-linked deals.</li>
+ <li>Management pay KPIs tied to NAV per share and holdco net debt.</li>
+ <li>One minority-nominated independent director (by negotiation).</li>
+ </ul></li>
+<li><b>Ask 7: simplification.</b> Either complete the GENM merger on fair terms (a share swap, not more debt) or stop buying. Long term, consider a GENS in-specie distribution to collapse the double holdco discount.</li>
+<li><b>Escalation.</b> Public letter. Vote against the rights-issue EGM resolution and against any RPT. Petition through MSWG. Engage the credit-rating agencies and the Singapore and NY regulators' focus on financial strength.</li>
+</ol>
+<p><b>Value at stake:</b> Asks 1–3 cut holdco net debt by about RM6–8bn. Asset sales at market are roughly NAV-neutral; the value comes from three sources:<br>(i) a control premium on GENP (about +RM0.8bn);<br>(ii) avoiding the rights issue's dilution, so NAV per share rises to about RM3.45;<br>(iii) a compression of the justified discount from about 55% to 25–30%, as GAV/NAV gearing falls from 2.7x to about 1.8x.<br>Together these imply about <b>RM2.4–2.6 per share</b>, 65–80% upside from RM1.45.</p>
+
+<h2>12. Data notes and principal sources</h2>
+<p class="note">Financial statements: S&amp;P Capital IQ (Genting Bhd, GENM, GENS, GENP; 30 Jun 2026 quarter). Prices and news come from press reports, because primary filings could not be retrieved directly in this environment. Verify share counts, the rights issue ratio and price, and the GOHL perpetual classification against the Bursa and SGX filings and the FY2025 annual report before acting.<br>
+RWLV and segment figures are compiled from secondary reporting and contain estimates (marked E or ~). FX: S$/RM 3.18 spot and 3.12 at 30 Jun; US$/RM 4.086. Kien Huat's 43.82% stake is per the Oct 2026 rights announcement coverage.</p>
+<ul class="src">
+<li>Rights issue: thestar.com.my/business/business-news/2026/10/09/genting-proposes-rm125bil-rights-issue-to-pare-down-debt-boost-working-capital ; theedgemalaysia.com/node/821263 ; theedgemalaysia.com/node/821415 ; businesstoday.com.my/2026/10/12/gentings-rm1-25-billion-rights-issue-could-dilute-earnings-by-18-says-cimb/ ; ggrasia.com/gen-bhd-downgraded-by-maybank-as-casino-group-flags-us306mln-rights-issuance</li>
+<li>GENM offer: malaymail.com/news/money/2025/12/02/genting-malaysia-escapes-delisting-as-takeover-attempt-stops-at-73pc/200420 ; sigma.world/news/genting-berhad-consolidates-hold-on-genting-malaysia/ ; asgam.com/2026/06/15/genting-bhd-ceo-says-balance-sheet-requirements-not-privatization-at-heart-of-genting-malaysia-takeover-bid/</li>
+<li>GENS stake: GENS circular (Mar 2026) and Annual Report 2025 (links.sgx.com)</li>
+<li>Ratings: businesstoday.com.my/2026/09/07/fitch-downgrades-genting-berhad-to-bbb-resorts-world-las-vegas-to-bb/ ; asgam.com/2026/09/08/sp-global-expansion-costs-subdued-operational-performance-place-genting-bhd-at-risk-of-becoming-a-fallen-angel/ ; theedgemalaysia.com/node/785277</li>
+<li>Results: agbrief.com/news/malaysia/21/08/2026/genting-berhad-posts-2q26-net-loss-despite-67-rise-in-us-revenue/ ; theedgemalaysia.com/node/815315 ; theedgesingapore.com (GENS 1H26)</li>
+<li>RWLV: asgam.com (quarterly RWLV coverage 2022–2026) ; cdcgaming.com ; nevadacurrent.com/2025/03/27/ (AML fine)</li>
+<li>Energy: genting.com/energy/ ; genting.com/wp-content/uploads/2026/05/Genting-Berhad-Press-Release_Kasuri-Farmout-PTLNG-Divestment.pdf ; petromindo.com (Kasuri FLNG status)</li>
+<li>Discount history: theedgemalaysia.com/node/677281 ; asgam.com/2023/04/02/nomura-upgrades-genting-berhad... ; agbrief.com/news/malaysia/12/10/2020/little-upside-seen-for-genting-group-stock/ ; DBS GENS note (19 Feb 2026)</li>
+<li>Related-party transactions: mswg.org.my/node/36765 ; edgeprop.my/content/1912502/bursa-grills-genting-malaysia-over-us41m-empire-resorts-buyout</li>
+</ul>
+<p class="note">This report is for internal research purposes only and does not constitute investment advice. Estimates are subject to material uncertainty.</p>
+</body>
+</html>
