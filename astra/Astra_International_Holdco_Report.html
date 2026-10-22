@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Astra International Holdco Report</title>
+<style>
+  @page { size: A4; margin: 14mm 13mm 16mm 13mm; }
+  :root { --ink:#1b2430; --muted:#5b6675; --rule:#d5dbe3; --band:#0f3a5f; --soft:#eef3f8; --pos:#1d7a46; --neg:#b3261e; --warn:#8a5a00; }
+  * { box-sizing: border-box; }
+  body { font-family: "Helvetica Neue", Arial, sans-serif; color: var(--ink); font-size: 9.2pt; line-height: 1.38; margin: 0; background:#fff; }
+  h1 { font-size: 20pt; margin: 0 0 2px; color: var(--band); letter-spacing:-0.2px; }
+  h2 { font-size: 13pt; color: #fff; background: var(--band); padding: 5px 9px; margin: 18px 0 8px; break-after: avoid; }
+  h3 { font-size: 10.5pt; color: var(--band); margin: 12px 0 4px; border-bottom: 1px solid var(--rule); padding-bottom: 2px; break-after: avoid; }
+  p { margin: 4px 0 6px; }
+  ul { margin: 3px 0 6px 16px; padding: 0; }
+  li { margin: 1.5px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 5px 0 8px; font-size: 8.3pt; break-inside: auto; }
+  tr { break-inside: avoid; }
+  th { background: var(--soft); color: var(--band); text-align: left; font-weight: 700; padding: 4px 5px; border-bottom: 1.5px solid var(--band); vertical-align: bottom; }
+  td { padding: 3px 5px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  td.n, th.n { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  tr.tot td { font-weight: 700; border-top: 1.5px solid var(--ink); background: #fafbfc; }
+  tr.sub td { font-weight: 700; background: #f6f8fa; }
+  .pos { color: var(--pos); } .neg { color: var(--neg); }
+  .cover { border-top: 5px solid var(--band); padding-top: 10px; }
+  .meta { color: var(--muted); font-size: 8.6pt; }
+  .kpis { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; margin: 10px 0; }
+  .kpi { border: 1px solid var(--rule); border-left: 3px solid var(--band); padding: 5px 7px; }
+  .kpi b { display:block; font-size: 12.5pt; color: var(--band); }
+  .kpi span { font-size: 7.6pt; color: var(--muted); text-transform: uppercase; letter-spacing: .3px; }
+  .box { border: 1px solid var(--rule); background: var(--soft); padding: 7px 10px; margin: 8px 0; break-inside: avoid; }
+  .box.warn { background: #fff8e8; border-color: #ecd49a; }
+  .box.red { background: #fdf0ef; border-color: #efc2be; }
+  .box.green { background: #eef8f1; border-color: #bfe0cb; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .tag { display:inline-block; font-size:7.4pt; padding:0 5px; border-radius:3px; font-weight:700; }
+  .t-c { background:#e1eefb; color:#0f3a5f; } .t-a { background:#f3e8d4; color:#7a4b00; } .t-f { background:#eee; color:#444; }
+  .small { font-size: 7.8pt; color: var(--muted); }
+  .pb { break-before: page; }
+  .verdict { font-size: 10pt; font-weight:700; color: var(--band); }
+  footer.note { margin-top: 14px; font-size: 7.4pt; color: var(--muted); border-top:1px solid var(--rule); padding-top:6px; }
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <div class="meta">EQUITY RESEARCH · INDONESIA · CONGLOMERATE / HOLDING COMPANY · SPECIAL SITUATIONS</div>
+  <h1>Astra International (ASII IJ)</h1>
+  <div style="font-size:11.5pt;color:#34495e;margin-bottom:4px;">Holding-company deep dive: look-through NAV, discount dynamics, the bull and bear cases, a pre-mortem and whether an activist could force change</div>
+  <div class="meta">Prices as of 24–25 Sep 2026 unless stated · Report date 28 Sep 2026 · Currency IDR (Rp); T = trillion, m = million</div>
+
+  <div class="kpis">
+    <div class="kpi"><span>Share price</span><b>Rp4,690</b></div>
+    <div class="kpi"><span>Market cap</span><b>Rp187T</b></div>
+    <div class="kpi"><span>Est. SOTP NAV/sh</span><b>Rp6,415</b></div>
+    <div class="kpi"><span>Discount to NAV</span><b>~27%</b></div>
+    <div class="kpi"><span>P/E (TTM) · P/B</span><b>6.3x · 0.81x</b></div>
+    <div class="kpi"><span>Dividend yield</span><b>~8%</b></div>
+  </div>
+
+  <div class="box">
+    <p class="verdict">Our view: undervalued, but the discount needs a catalyst. The buyback is the catalyst, and the discount should narrow over the next 12–24 months.</p>
+    <ul>
+      <li><b>At today's price the market pays about 5.4x earnings for Astra's unlisted "crown jewels"</b> (Astra Honda Motor, the Toyota JVs, Astra Financial and the toll roads). After stripping out the listed stakes (Rp86T) and parent net debt, those businesses earn about Rp20T a year for Astra.</li>
+      <li><b>Capital allocation has changed.</b> The May 2026 strategic review set a low-teens (10–13%) TSR target, a 45–50% dividend payout ratio and an Rp8T buyback over the next 12 months. The buyback equals about 4.3% of the market cap, on top of the ~1.4% already repurchased since November 2025.</li>
+      <li><b>The bear case is about earnings, not accounting.</b> Mining (United Tractors) profit is down 46% in H1 2026. Martabe gold is effectively offline until 2028. Toyota/Daihatsu market share is slipping (51% vs 53.5%). There is also a record of diversifying into low-return assets: GoTo, Hermina, Halodoc, MMLP, nickel.</li>
+      <li><b>Activism is a low-probability, high-impact path.</b> Jardine Cycle &amp; Carriage (JC&amp;C) controls about 50.5%, so change has to come through Jardine. JC&amp;C's own TSR mandate points the same way as an activist would.</li>
+    </ul>
+  </div>
+  <p class="small">Data sources: company releases (FY2025 results 26 Feb 2026; Q1 2026 on 29 Apr 2026; H1 2026 on 30 Jul 2026), UT/AALI/Hermina disclosures, IDX filings reported in the press, and market-data vendors. Figures marked <b>(est.)</b> are analyst estimates, because Astra does not publish stand-alone financials for most unlisted JVs. Treat these as modelling inputs, not reported data. Share counts are from the latest available filings and may differ from the register by a few basis points. Verify all market data against Bloomberg or FactSet before trading.</p>
+</section>
+
+<h2>1. Listed holdings: shares, stakes, value and accounting treatment</h2>
+<table>
+  <tr><th>Holding (ticker)</th><th>Business</th><th class="n">Shares held (m)</th><th class="n">Stake</th><th class="n">Price (Rp)</th><th class="n">Value to ASII (Rp T)</th><th class="n">% of GAV</th><th>Accounting</th></tr>
+  <tr><td><b>United Tractors (UNTR IJ)</b></td><td>Komatsu distribution, Pama mining contracting, coal, gold (Martabe, ASA), nickel, energy</td><td class="n">2,219.7</td><td class="n">59.5%<br><span class="small">~63.6% ex-treasury</span></td><td class="n">23,300</td><td class="n">51.7</td><td class="n">20%</td><td><span class="tag t-c">Consolidated</span></td></tr>
+  <tr><td><b>Astra Otoparts (AUTO IJ)</b></td><td>Auto components and aftermarket</td><td class="n">3,855.8</td><td class="n">80.0%</td><td class="n">3,320</td><td class="n">12.8</td><td class="n">5%</td><td><span class="tag t-c">Consolidated</span></td></tr>
+  <tr><td><b>Astra Agro Lestari (AALI IJ)</b></td><td>Palm oil plantations</td><td class="n">1,533.6</td><td class="n">79.7%</td><td class="n">7,950</td><td class="n">12.2</td><td class="n">5%</td><td><span class="tag t-c">Consolidated</span></td></tr>
+  <tr><td><b>Mega Manunggal Property (MMLP IJ)</b></td><td>Industrial warehousing and logistics parks</td><td class="n">5,764.4</td><td class="n">83.7%+</td><td class="n">600*</td><td class="n">3.5</td><td class="n">1%</td><td><span class="tag t-c">Consolidated</span> via PT Saka Industrial Arjaya</td></tr>
+  <tr><td><b>Astra Graphia (ASGR IJ)</b></td><td>IT solutions and document services</td><td class="n">1,036.8</td><td class="n">76.9%</td><td class="n">2,120</td><td class="n">2.2</td><td class="n">1%</td><td><span class="tag t-c">Consolidated</span></td></tr>
+  <tr><td><b>Medikaloka Hermina (HEAL IJ)</b></td><td>Private hospitals</td><td class="n">~3,030 (est.)</td><td class="n">~20.2%</td><td class="n">680</td><td class="n">2.1</td><td class="n">1%</td><td><span class="tag t-f">Fair value (FVTPL)</span> → possible associate</td></tr>
+  <tr><td><b>GoTo Gojek Tokopedia (GOTO IJ)</b></td><td>Ride-hailing, e-commerce and fintech</td><td class="n">n.d.</td><td class="n">~1–2% (est.)</td><td class="n">n.d.</td><td class="n">~1.5 (est.)</td><td class="n">1%</td><td><span class="tag t-f">Fair value (FVTPL)</span></td></tr>
+  <tr class="tot"><td colspan="5">Direct listed holdings at market</td><td class="n">~86.0</td><td class="n">33%</td><td></td></tr>
+  <tr class="sub"><td colspan="8">Held through United Tractors (already inside the UNTR market value; shown for look-through only, not added again)</td></tr>
+  <tr><td>Nickel Industries (NIC AU)</td><td>Indonesian nickel RKEF and HPAL</td><td class="n">857 (UT)</td><td class="n">~20% (UT)</td><td class="n">A$0.85**</td><td class="n">7.5 (100%)<br><span class="small">4.5 look-through</span></td><td class="n">–</td><td><span class="tag t-a">Associate of UT</span></td></tr>
+  <tr><td>Arkora Hydro (ARKO IJ)</td><td>Run-of-river hydro IPP</td><td class="n">n.d.</td><td class="n">31.5% (UT/EPN)</td><td class="n">8,200***</td><td class="n">see note</td><td class="n">–</td><td><span class="tag t-a">Associate of UT</span></td></tr>
+  <tr><td>Acset Indonusa (ACST IJ)</td><td>Construction contractor</td><td class="n">~16,130 (UT)</td><td class="n">91.2% (UT)</td><td class="n">76</td><td class="n">1.1 (100%)</td><td class="n">–</td><td><span class="tag t-c">Consolidated by UT</span></td></tr>
+</table>
+<p class="small">* MMLP is thinly traded after the mandatory tender offer, so it is valued at the Rp600 MTO price (acquisition price Rp580). ** NIC price as of mid-July 2026; UT invested A$943m at A$1.10, so it carries an unrealised loss of about A$215m. *** ARKO's reported price (May 2026) implies a market cap far above its fundamentals after a speculative rally (52-week range Rp740–13,000). We treat it as illiquid and carry it near cost; the market value is upside optionality. Hermina: Astra direct 7.23% plus Astra Healthcare Indonesia 12.77%, with a further ~Rp392bn purchase taking the group to about 20.2%. Cost is roughly Rp3.5T+ against about Rp2.1T market value today.</p>
+
+<h3>Treasury shares</h3>
+<table>
+  <tr><th>Entity</th><th>Programme</th><th class="n">Shares repurchased (m)</th><th class="n">% of issued</th><th class="n">Amount (Rp T)</th><th>Status / use</th></tr>
+  <tr><td>Astra International</td><td>Tranche 1 (31 Oct 2025 – 13 Jan 2026)</td><td class="n">305.2</td><td class="n">0.75%</td><td class="n">1.99</td><td>Held in treasury</td></tr>
+  <tr><td>Astra International</td><td>Tranche 2 (Q1 2026)</td><td class="n">104.9</td><td class="n">0.26%</td><td class="n">~0.7 (est.)</td><td>Held in treasury</td></tr>
+  <tr><td>Astra International</td><td>Tranche 3 (16 Mar – 15 Jun 2026)</td><td class="n">153.4</td><td class="n">0.38%</td><td class="n">~0.8 (est.)</td><td>Up to 100m shares earmarked for the MSOP (no lock-up)</td></tr>
+  <tr class="sub"><td>Astra International</td><td>Total treasury to 30 Jun 2026</td><td class="n">563.5</td><td class="n">1.39%</td><td class="n">~3.5</td><td>Issued 40,483.6m; outstanding ~39,920m</td></tr>
+  <tr><td>Astra International</td><td>New authority (EGM 17 Jul 2026, 12 months)</td><td class="n">≈1,700 at current price</td><td class="n">≈4.2%</td><td class="n">up to 8.0</td><td>In progress; watch the monthly IDX reports</td></tr>
+  <tr><td>United Tractors</td><td>Cumulative Jul 2022 – 30 Jun 2026</td><td class="n">239</td><td class="n">6.4%</td><td class="n">~7.1</td><td>Further Rp2T tranche 1 Jul – 30 Sep 2026</td></tr>
+</table>
+<p class="small">Astra plus UT buybacks Nov 2025 – Jun 2026 totalled Rp7.4T. UT buybacks raise Astra's economic interest in UT above the 59.5% headline. Astra buybacks lift JC&amp;C from 50.1% to about 50.5%, which matters for any activist or free-float debate.</p>
+
+<h3>Recent changes in holdings and news flow (last ~15 months)</h3>
+<table>
+  <tr><th style="width:15%">Date</th><th style="width:22%">Holding</th><th>Event and implication</th></tr>
+  <tr><td>Jul–Sep 2025</td><td>Mega Manunggal (MMLP)</td><td>Saka Industrial Arjaya bought 83.67% for Rp3.34T (Rp580/sh), closing 30 Sep 2025; MTO at Rp600 in Nov 2025. <b>This is a new non-core, listed, consolidated subsidiary</b>, and it runs against a "focus" narrative.</td></tr>
+  <tr><td>Sep 2025</td><td>Hermina (HEAL)</td><td>Group stake raised to about 20% (Rp2.7T for 1.47bn shares at Rp1,683–1,850, plus later buying). The stock now trades at ~Rp680, a <span class="neg">~60% mark-to-market loss</span> that shows up as fair-value charges.</td></tr>
+  <tr><td>Oct 2025 – Jun 2026</td><td>ASII / UNTR treasury</td><td>Astra's <b>first-ever buyback</b> (Rp2T), followed by two further tranches. UT has been buying back continuously since 2022.</td></tr>
+  <tr><td>Dec 2025 – May 2026</td><td>Martabe (Agincourt, ~95% UT)</td><td>Suspended after the Sumatra floods and landslides; licence review with the final decision placed with the President; civil suit settled Mar 2026; restart around mid-May 2026. The 2026 target is only ~60koz (vs ~250koz run-rate). Full recovery depends on a new tailings facility (4Q27).</td></tr>
+  <tr><td>Feb 2026</td><td>Arafura Surya Alam (UT)</td><td>US$540m acquisition of a North Sulawesi gold miner completed. This is the main reason group net cash (ex-FS) of Rp7.2T turned into net debt of Rp6.0T by June 2026.</td></tr>
+  <tr><td>May 2026</td><td>Acset (ACST)</td><td>UT took up a 5bn-share private placement at Rp100; stake rose from 87.69% to 91.17%. Earlier it provided a Rp1T five-year loan (the company has negative equity). This is capital going into a chronically loss-making contractor.</td></tr>
+  <tr><td>Late May 2026</td><td>Group</td><td><b>Strategic review.</b> Three core businesses (Automotive, Financial Services, Mining Solutions &amp; Heavy Equipment; ~90% of profit); non-core to be "actively evaluated"; 45–50% payout; Rp8T buyback; MSOP; low-teens TSR target. JPMorgan upgraded the stock.</td></tr>
+  <tr><td>17 Jul 2026</td><td>Group</td><td>EGM approved the Rp8T buyback and the transfer of treasury shares to the MSOP. Directors and commissioners bought shares beforehand.</td></tr>
+  <tr><td>30 Jul 2026</td><td>Group</td><td>H1 2026: NI Rp12.5T (−19%); ex-non-recurring Rp14.9T (−7%); Rp2.35T investment impairment. Auto +9% to Rp5.9T; FS +6% to Rp4.6T; mining and heavy equipment −46% to Rp2.7T. NAV/sh Rp5,763 (+1%).</td></tr>
+  <tr><td>H1 2026</td><td>Auto operations</td><td>Astra car sales +10.3% to 222k, but share fell to ~51% (from 53.5%) as Chinese brands expand. Honda motorcycles +1%, share ~77%.</td></tr>
+  <tr><td>H1 2026</td><td>UNTR operations</td><td>Revenue −15% to Rp58.3T; NI ex-NR −48% to Rp4.3T; Komatsu units −27% (mining machines −55%) after coal RKAB quota cuts; gold sales 23koz vs 125koz.</td></tr>
+  <tr><td>H1 2026</td><td>AALI</td><td>NI +56.5% to Rp1.10T; CPO and derivative sales 898kt. This is the one non-core asset at a cyclical high, which makes it a natural sale candidate.</td></tr>
+</table>
+
+<h2 class="pb">2. Private (unlisted) holdings and estimated values</h2>
+<p>About two-thirds of our gross asset value sits in unlisted businesses. Astra does not publish stand-alone accounts for most of them, so the values below are built from segment disclosures, partner filings (TAFS, FIF) and peer multiples. All values are <b>(est.)</b>.</p>
+<table>
+  <tr><th>Unlisted business</th><th>Astra stake</th><th>Partner</th><th class="n">Attrib. NI 2025 (Rp T, est.)</th><th>Method</th><th class="n">Multiple</th><th class="n">Value (Rp T)</th><th>Accounting</th></tr>
+  <tr class="sub"><td colspan="8">Automotive &amp; Mobility (segment NI 2025: Rp11.4T, of which AUTO attributable ~Rp1.6T)</td></tr>
+  <tr><td>Astra Honda Motor (AHM)</td><td>50%</td><td>Honda</td><td class="n">~5.0</td><td>P/E</td><td class="n">10x</td><td class="n">50.0</td><td><span class="tag t-a">JV – equity</span></td></tr>
+  <tr><td>Toyota-Astra Motor, Astra Daihatsu Motor (31.9%), Isuzu Astra, Auto2000 and dealer network, UD Trucks, Astra Otoservice</td><td>Various</td><td>Toyota, Daihatsu, Isuzu</td><td class="n">~4.5</td><td>P/E</td><td class="n">8x</td><td class="n">36.0</td><td>Mix of JV/associate and consolidated</td></tr>
+  <tr class="sub"><td colspan="8">Financial Services (segment NI 2025: Rp9.0T, +9%)</td></tr>
+  <tr><td>FIFGROUP (motorcycle finance), Astra Credit Companies, Toyota Astra Financial (50%), SANF, Komatsu Astra Finance, Asuransi Astra Buana (Garda Oto), Astra Life, Bank Saqu</td><td>Mostly 100%; TAF 50%</td><td>Toyota, Sumitomo, WeLab (bank)</td><td class="n">9.0</td><td>P/E (cross-checked to ~1.3–1.5x P/B)</td><td class="n">8x</td><td class="n">72.0</td><td>Consolidated; TAF, KAF and bank JV equity-accounted</td></tr>
+  <tr class="sub"><td colspan="8">Infrastructure, Logistics, Property, Healthcare, Digital</td></tr>
+  <tr><td>Astra Infra toll roads (8 concessions incl. Tangerang–Merak, Cipali 45%, Jombang–Mojokerto, JORR segments), Serasi Autoraya (TRAC, logistics)</td><td>40–100%</td><td>Various</td><td class="n">~1.0</td><td>~1.0x invested equity</td><td class="n">1.0x</td><td class="n">14.0</td><td>Mix</td></tr>
+  <tr><td>Astra Land Indonesia (Anandamaya, Asya) and Menara Astra</td><td>~50% / 100%</td><td>Hongkong Land</td><td class="n">~0.2</td><td>Discount to book</td><td class="n">0.7x</td><td class="n">2.0</td><td>JV / consolidated</td></tr>
+  <tr><td>Halodoc, Heartology Cardiovascular Hospital</td><td>Minority / majority</td><td>–</td><td class="n">&lt;0</td><td>Written-down cost</td><td class="n">–</td><td class="n">1.5</td><td>FVTPL / consolidated</td></tr>
+  <tr><td>Other (Astra Digital, venture stakes, holdco property)</td><td>–</td><td>–</td><td class="n">~0.1</td><td>Book</td><td class="n">–</td><td class="n">1.0</td><td>–</td></tr>
+  <tr class="tot"><td colspan="3">Total unlisted</td><td class="n">~19.8</td><td></td><td class="n">8.9x</td><td class="n">176.5</td><td></td></tr>
+</table>
+
+<h3>Operating metrics of the key unlisted businesses</h3>
+<p class="small">EBIT and EBITDA are not disclosed for JVs. Figures marked (est.) are derived from volumes × estimated ASP and peer margins and are directional only. For the lenders we show revenue and net profit, because EBIT and EBITDA are not meaningful for finance companies.</p>
+<table>
+  <tr><th>Astra Honda Motor (100%, est.)</th><th class="n">2021</th><th class="n">2022</th><th class="n">2023</th><th class="n">2024</th><th class="n">2025</th></tr>
+  <tr><td>Wholesale units (m)</td><td class="n">3.9</td><td class="n">4.1</td><td class="n">4.9</td><td class="n">4.9</td><td class="n">~5.0</td></tr>
+  <tr><td>Sales (Rp T)</td><td class="n">74</td><td class="n">84</td><td class="n">100</td><td class="n">104</td><td class="n">108</td></tr>
+  <tr><td>Sales growth</td><td class="n">+32%</td><td class="n">+14%</td><td class="n">+19%</td><td class="n">+4%</td><td class="n">+4%</td></tr>
+  <tr><td>EBITDA (Rp T) / margin</td><td class="n">8.9 / 12.0%</td><td class="n">10.5 / 12.5%</td><td class="n">13.0 / 13.0%</td><td class="n">13.5 / 13.0%</td><td class="n">14.0 / 13.0%</td></tr>
+  <tr><td>EBIT (Rp T) / margin</td><td class="n">7.4 / 10.0%</td><td class="n">8.8 / 10.5%</td><td class="n">11.0 / 11.0%</td><td class="n">11.4 / 11.0%</td><td class="n">11.9 / 11.0%</td></tr>
+</table>
+<div class="two">
+<table>
+  <tr><th>FIFGROUP (100%)</th><th class="n">2023</th><th class="n">2024</th><th class="n">2025</th></tr>
+  <tr><td>New financing (Rp T)</td><td class="n">~43 (est.)</td><td class="n">45.9</td><td class="n">49.5</td></tr>
+  <tr><td>Growth</td><td class="n">–</td><td class="n">~+7%</td><td class="n">+7.6%</td></tr>
+  <tr><td>Net profit (Rp T)</td><td class="n">~4.1 (est.)</td><td class="n">4.41</td><td class="n">4.63</td></tr>
+  <tr><td>NPF</td><td class="n">–</td><td class="n">–</td><td class="n">0.20%</td></tr>
+</table>
+<table>
+  <tr><th>Toyota Astra Financial (100%)</th><th class="n">2024</th><th class="n">2025</th><th class="n">H1 2026</th></tr>
+  <tr><td>Revenue (Rp T)</td><td class="n">4.34</td><td class="n">4.49</td><td class="n">–</td></tr>
+  <tr><td>Revenue growth</td><td class="n">–</td><td class="n">+3.5%</td><td class="n">–</td></tr>
+  <tr><td>Net profit (Rp bn)</td><td class="n">781</td><td class="n">820</td><td class="n">482 (+24.8%)</td></tr>
+  <tr><td>Net margin</td><td class="n">18.0%</td><td class="n">18.3%</td><td class="n">–</td></tr>
+</table>
+</div>
+<table>
+  <tr><th>Astra segment net income (Rp T, approx.)</th><th class="n">2023</th><th class="n">2024</th><th class="n">2025</th><th class="n">H1 2025</th><th class="n">H1 2026</th><th class="n">H1 YoY</th></tr>
+  <tr><td>Automotive &amp; Mobility</td><td class="n">11.4</td><td class="n">11.2</td><td class="n">11.4</td><td class="n">5.4</td><td class="n">5.9</td><td class="n pos">+9%</td></tr>
+  <tr><td>Financial Services</td><td class="n">~7.3</td><td class="n">8.3</td><td class="n">9.0</td><td class="n">4.3</td><td class="n">4.6</td><td class="n pos">+6%</td></tr>
+  <tr><td>Mining Solutions &amp; Heavy Equipment (UT share)</td><td class="n">~13</td><td class="n">~12.4</td><td class="n">~9.9</td><td class="n">5.0</td><td class="n">2.7</td><td class="n neg">−46%</td></tr>
+  <tr><td>Agri, Infra, IT, Property and other (net)</td><td class="n">~2.1</td><td class="n">~2.2</td><td class="n">~2.5</td><td class="n">~0.8</td><td class="n">~(0.7)</td><td class="n">impairments</td></tr>
+  <tr class="tot"><td>Group net income</td><td class="n">33.8</td><td class="n">34.1</td><td class="n">32.8</td><td class="n">15.5</td><td class="n">12.5</td><td class="n neg">−19%</td></tr>
+</table>
+
+<h2>3. Holding-company net debt (stripping out consolidated listed subsidiaries)</h2>
+<p>Astra reports net debt "excluding Financial Services" on a consolidated basis. That figure includes the balance sheets of UNTR, AUTO, AALI, ASGR and MMLP, whose cash and debt belong partly to minority shareholders. We back them out to get a <b>parent-plus-unlisted, non-financial-services</b> view.</p>
+<table>
+  <tr><th>30 Jun 2026 (Rp T)</th><th class="n">Net cash / (net debt)</th><th>Source</th></tr>
+  <tr><td>Group net cash / (debt), excluding Financial Services subsidiaries</td><td class="n neg">(6.0)</td><td>Reported (31 Dec 2025: net cash 7.2)</td></tr>
+  <tr><td>Less: United Tractors (100%)</td><td class="n">(9.4)</td><td>Reported (31 Dec 2025: net cash 7.7)</td></tr>
+  <tr><td>Less: Astra Otoparts (100%)</td><td class="n">~4.0</td><td>Est.</td></tr>
+  <tr><td>Less: Astra Agro Lestari (100%)</td><td class="n">~2.5</td><td>Est.</td></tr>
+  <tr><td>Less: Astra Graphia (100%)</td><td class="n">~1.3</td><td>Est.</td></tr>
+  <tr><td>Less: Mega Manunggal (100%)</td><td class="n">~(1.0)</td><td>Est.</td></tr>
+  <tr class="tot"><td>= Parent and unlisted non-FS businesses: net cash / (net debt)</td><td class="n neg">≈ (3.4)</td><td>Derived</td></tr>
+  <tr><td>Memo: net debt per share</td><td class="n">≈ (Rp85)</td><td>~2% of share price</td></tr>
+</table>
+<ul>
+  <li><b>The parent has moved from net cash to modest net debt</b> after about Rp3.5T of buybacks, about Rp3T of Hermina purchases, Rp3.3T+ for MMLP (SIA level) and dividends. The balance sheet is not stretched, but the Rp8T buyback plus a 45–50% payout will need cash upstreamed from UT and Astra Financial rather than from parent cash.</li>
+  <li>Toll-road and JV debt sits off balance sheet in equity-accounted vehicles. It is included implicitly through our equity-value approach.</li>
+  <li>Financial Services borrowings are operating (funding) liabilities and are excluded throughout, in line with practice for captive-finance conglomerates.</li>
+</ul>
+
+<h2 class="pb">4. Sum-of-the-parts NAV and discount</h2>
+<table>
+  <tr><th>Component (Rp T)</th><th class="n">Bear</th><th class="n">Base</th><th class="n">Bull</th><th>Base-case basis</th></tr>
+  <tr><td>Listed holdings at market (UNTR, AUTO, AALI, MMLP, ASGR, HEAL, GOTO)</td><td class="n">86.0</td><td class="n">86.0</td><td class="n">86.0</td><td>Market / MTO price</td></tr>
+  <tr><td>Astra Honda Motor (50%)</td><td class="n">40.0</td><td class="n">50.0</td><td class="n">60.0</td><td>8x / 10x / 12x</td></tr>
+  <tr><td>Car JVs and distribution</td><td class="n">27.0</td><td class="n">36.0</td><td class="n">40.5</td><td>6x / 8x / 9x</td></tr>
+  <tr><td>Financial Services</td><td class="n">54.0</td><td class="n">72.0</td><td class="n">90.0</td><td>6x / 8x / 10x</td></tr>
+  <tr><td>Infrastructure and logistics</td><td class="n">11.0</td><td class="n">14.0</td><td class="n">17.0</td><td>0.8x / 1.0x / 1.2x equity</td></tr>
+  <tr><td>Property, healthcare, other</td><td class="n">3.0</td><td class="n">4.5</td><td class="n">5.5</td><td>Book / written-down cost</td></tr>
+  <tr class="sub"><td>Gross asset value</td><td class="n">221.0</td><td class="n">262.5</td><td class="n">299.0</td><td></td></tr>
+  <tr><td>Parent net debt (Section 3)</td><td class="n">(3.4)</td><td class="n">(3.4)</td><td class="n">(3.4)</td><td></td></tr>
+  <tr><td>Capitalised holdco costs</td><td class="n">(3.0)</td><td class="n">(3.0)</td><td class="n">(3.0)</td><td>~Rp0.4T p.a. × 7.5x</td></tr>
+  <tr class="tot"><td>NAV</td><td class="n">214.6</td><td class="n">256.1</td><td class="n">292.6</td><td></td></tr>
+  <tr class="tot"><td>NAV per share (39.92bn shares)</td><td class="n">Rp5,375</td><td class="n">Rp6,415</td><td class="n">Rp7,330</td><td></td></tr>
+  <tr class="tot"><td>Discount at Rp4,690</td><td class="n">13%</td><td class="n">27%</td><td class="n">36%</td><td></td></tr>
+</table>
+<div class="box">
+  <b>What is the market paying for the unlisted businesses?</b> Rp187.2T market cap − Rp86.0T listed stakes + Rp6.4T net debt and costs = <b>~Rp107.6T</b> for businesses generating <b>~Rp19.8T</b> of attributable 2025 profit. That is <b>~5.4x earnings</b>, including a ~Rp9T-profit captive-finance franchise with ~0.2% NPF at FIF and the dominant Honda motorcycle JV (~77% market share).
+</div>
+<p class="small">Sensitivity: each ±1x on the unlisted auto and FS multiples moves NAV by about ±Rp18.5T (±Rp465/sh). A ±10% move in UNTR moves NAV by ±Rp5.2T (±Rp130/sh). Book NAV/sh is Rp5,763 (30 Jun 2026), so the stock trades at 0.81x book.</p>
+
+<h2>5. Bull case: why own it, and why the discount narrows</h2>
+<h3>Franchise and moat</h3>
+<ul>
+  <li><b>An integrated automotive ecosystem that nobody can replicate:</b> Toyota/Daihatsu (~51% of cars), Honda (~77% of motorcycles), plus the captive finance, insurance, dealer, parts and after-sales businesses around them. The ecosystem earns returns at every step of the vehicle's life.</li>
+  <li><b>Financial Services is the hidden compounder.</b> NI grew from ~Rp7.3T to Rp9.0T in two years, and has grown every half-year including H1 2026 (+6%). FIF's 0.20% NPF shows underwriting built on 50 years of data from the Honda dealer network.</li>
+  <li>Motorcycles are Indonesia's mass mobility and the platform for ride-hailing. Demand is non-discretionary for much of the 280m population.</li>
+</ul>
+<h3>Catalysts for the discount to narrow</h3>
+<table>
+  <tr><th>Catalyst</th><th>Mechanism</th><th class="n">Probability (12–24m)</th><th class="n">NAV/discount impact</th></tr>
+  <tr><td>Rp8T buyback executed below NAV</td><td>~4.2% of shares retired at a ~27% discount lifts NAV/sh by ~1.2% and supports the price</td><td class="n">High</td><td class="n">+3–5 pts discount</td></tr>
+  <tr><td>Firm 45–50% payout plus buybacks gives ~10–12% total yield</td><td>Reprices ASII as a cash-return vehicle</td><td class="n">High</td><td class="n">+3–5 pts</td></tr>
+  <tr><td>Sale of non-core assets (AALI, MMLP, ASGR, property, healthcare, toll roads)</td><td>The review says non-core is "actively evaluated". AALI is at a cyclical earnings high. Proceeds go to buybacks.</td><td class="n">Medium</td><td class="n">+5–8 pts</td></tr>
+  <tr><td>UNTR earnings trough (RKAB cuts annualised; Martabe back 2028; ASA ramp-up)</td><td>The listed piece re-rates first</td><td class="n">Medium</td><td class="n">+Rp5–10T GAV</td></tr>
+  <tr><td>BI easing / credit cycle upturn and car market recovery (H1 industry already +~15%)</td><td>Auto and FS earnings upgrades</td><td class="n">Medium</td><td class="n">+10–15% EPS</td></tr>
+  <tr><td>MSOP aligns management with TSR</td><td>A behavioural change in capital allocation</td><td class="n">Ongoing</td><td class="n">Qualitative</td></tr>
+</table>
+
+<h2>6. Bear case: why the discount widens or stays where it is</h2>
+<ul>
+  <li><b>A structural threat to the Japanese franchise.</b> Chinese brands (BYD, Wuling, Chery, VinFast and others) have EV incentives and import-duty holidays. Astra's share already slipped from 53.5% to ~51% in a year. Every 5pt of share lost costs roughly Rp0.6–0.8T of NI, and pricing power erodes as well.</li>
+  <li><b>Mining is now the swing factor and it is going the wrong way.</b> Coal RKAB quotas are policy-driven. Martabe carries licence risk (the final decision sat with the President) and low output until 2028. The ASA (US$540m) and nickel (A$943m, now worth ~A$730m) moves recycle coal cash into new commodity risk.</li>
+  <li><b>A poor record on diversification.</b> GoTo, Hermina (−60%), Halodoc, MMLP (a new listed non-core subsidiary <i>after</i> the discount debate began), Acset (repeated rescues) and the Rp2.35T H1 2026 impairment. The market charges a "capital allocation discount" until it sees disposals, not just statements.</li>
+  <li><b>The controlling shareholder's incentives.</b> JC&amp;C and Jardine value dividends upstream. The payout is capped at 45–50%, and big special returns or radical simplification (e.g. collapsing UT) may not suit Jardine's own funding needs.</li>
+  <li><b>Macro and FX.</b> Rupiah weakness, Indonesian risk premia, foreign outflows from the index and policy unpredictability (export-proceeds retention, royalty changes, Danantara-era state activism) keep the whole market at trough multiples. The discount can stay static even if NAV rises.</li>
+  <li><b>A consumer credit cycle.</b> Rising motorcycle-loan NPLs at FIF would hit the least-appreciated profit pool.</li>
+</ul>
+
+<h2 class="pb">7. Management's historical actions to address the discount</h2>
+<table>
+  <tr><th style="width:18%">Action</th><th style="width:15%">Timing</th><th>Detail</th><th style="width:14%">Assessment</th></tr>
+  <tr><td>Share buybacks (ASII)</td><td>Nov 2025 → present</td><td>Astra's first-ever buyback: 563.5m shares (~Rp3.5T) to Jun 2026, plus a new Rp8T 12-month authority from Jul 2026.</td><td class="pos">Strong, but late</td></tr>
+  <tr><td>Share buybacks (UNTR)</td><td>2022 → present</td><td>239m shares (6.4%), ~Rp7.1T, with quarterly Rp2T tranches.</td><td class="pos">Positive</td></tr>
+  <tr><td>Dividend policy</td><td>Formalised May 2026</td><td>45–50% payout. DPS Rp519 (2023) → Rp406 (2024) → Rp390 (2025); 2023 was boosted by peak coal. Yield ~8%.</td><td>Neutral–positive</td></tr>
+  <tr><td>Asset sales</td><td>2020</td><td>44.6% of Bank Permata sold to Bangkok Bank (~Rp17T est. to Astra). The proceeds were reinvested (GoTo, toll roads, Martabe expansion, healthcare) rather than returned.</td><td class="neg">Missed opportunity</td></tr>
+  <tr><td>Partial GoTo monetisation</td><td>2022–23</td><td>Some gains realised; the balance is still held and "evaluated from time to time".</td><td>Partial</td></tr>
+  <tr><td>Reduction of listed holdings</td><td>–</td><td>None. The number of listed subsidiaries <i>increased</i> (MMLP 2025); UT raised ACST to 91%.</td><td class="neg">Negative</td></tr>
+  <tr><td>Strategic review and focus</td><td>May 2026</td><td>Three core businesses, a TSR target, capital discipline, MSOP.</td><td class="pos">Credible reset if followed through</td></tr>
+  <tr><td>Insider buying</td><td>Jul 2026</td><td>Directors and commissioners bought ahead of the buyback.</td><td class="pos">Signal</td></tr>
+</table>
+
+<h2>8. Pre-mortem: it is September 2028 and ASII is down 35%. What went wrong?</h2>
+<table>
+  <tr><th style="width:26%">Failure path</th><th>How it unfolded</th><th class="n" style="width:10%">Likelihood</th><th style="width:22%">Early warning signal</th></tr>
+  <tr><td>1. The Japanese auto franchise crumbles</td><td>Tariff-free Chinese EVs and hybrids take share. Toyota/Daihatsu fall below 45%, margins compress, the dealer network de-leverages, and TAF/ACC volumes fall.</td><td class="n">Medium</td><td>Monthly Gaikindo share; discounting; Chinese brand CKD plant announcements</td></tr>
+  <tr><td>2. Mining capital destroyed</td><td>Martabe licence curtailed or revoked, ASA underdelivers, the NIC stake is marked down further, and coal RKAB is cut again. UT de-rates and Astra books impairments.</td><td class="n">Medium</td><td>Ministry rulings on Agincourt; RKAB 2027 allocations; NIC price</td></tr>
+  <tr><td>3. Buyback quietly abandoned for M&amp;A</td><td>Rp8T authority under-executed; cash goes to another "ecosystem" acquisition (healthcare, digital, energy transition). The market concludes nothing has changed.</td><td class="n">Low–Med</td><td>Monthly buyback utilisation reports; new MoUs or CSPAs</td></tr>
+  <tr><td>4. Consumer credit shock</td><td>Rate or FX shock lifts FIF and ACC NPLs; FS profit falls 20–30%.</td><td class="n">Low–Med</td><td>FIF NPF &gt; 1%; OJK multifinance data</td></tr>
+  <tr><td>5. Indonesia de-rating</td><td>Fiscal slippage, BI independence concerns, rupiah &gt; 18,000/US$, foreign selling. Every Indonesian stock falls and the discount is irrelevant.</td><td class="n">Medium</td><td>Foreign net flows, CDS, fiscal deficit vs 3% cap</td></tr>
+</table>
+
+<h2>9. Is the current valuation too high?</h2>
+<p><b>No.</b> On every conventional metric ASII is cheap: 6.3x trailing P/E, 0.81x book, ~8% dividend yield, a ~27% discount to SOTP, and ~5.4x implied for the unlisted core. The real question is whether earnings are about to fall further (a value trap).</p>
+<ul>
+  <li><b>2026 earnings are near a trough:</b> H1 core NI −7%, with mining at −46% absorbing a Martabe outage and quota cuts. Consensus (~Rp6,700 target) may still be too high on 2027 mining assumptions.</li>
+  <li><b>Where the multiple could be too high:</b> the Rp36T for car JVs assumes the franchise is intact. If you believe pre-mortem path 1, 5–6x is fairer, taking about Rp200–300/sh off NAV. Even in our bear case the stock sits at a 13% discount to a Rp5,375 NAV.</li>
+  <li><b>Downside anchor:</b> book value Rp5,763/sh, plus about 9–12% annual cash return (dividend plus buyback) at the current price.</li>
+</ul>
+
+<h2 class="pb">10. Contrarian view: what the market is refusing to see</h2>
+<div class="box green">
+  <p><b>The market prices Astra as a coal-and-cars cyclical. In reality it is increasingly a consumer-finance and motorcycle-annuity business with a mining option attached.</b></p>
+  <ul>
+    <li>In H1 2026, Automotive plus Financial Services generated about Rp10.5T of NI against only Rp2.7T from mining. That is about 70% of Rp14.9T core profit, and it grew 8%. The stock nonetheless trades on mining-trough sentiment.</li>
+    <li>Financial Services alone (Rp9T NI, growing, with strong asset quality) is worth Rp70–90T at peer multiples, or <b>~40–48% of ASII's market cap</b>. Paired with AHM (Rp50T), those two businesses exceed the equity value implied for all the unlisted assets.</li>
+    <li><b>The mining downturn is doing the simplification for them.</b> A weak UT makes a UT minority buy-in or collapse accretive at the bottom of the cycle, and low coal prices force the conversation about selling non-core assets. The first real disposal (AALI at peak CPO earnings is the obvious one) would change the narrative.</li>
+    <li><b>Buyback arithmetic is underappreciated.</b> Rp8T a year on a Rp187T market cap, at a 27% discount, combined with ~8% dividends, reaches the low-teens TSR target <i>without any earnings growth</i>. Management has now tied its own compensation (MSOP) to that number.</li>
+    <li><b>The Chinese EV threat is real but overdone for Astra.</b> Its value is concentrated in motorcycles, financing, insurance and after-sales. Those parts of the vehicle life cycle are brand-agnostic, and Astra could finance and distribute Chinese brands too.</li>
+  </ul>
+</div>
+
+<h2>11. Shareholder-activist case</h2>
+<table>
+  <tr><th style="width:28%">Factor</th><th>Assessment</th><th class="n" style="width:12%">Score (1–5)</th></tr>
+  <tr><td>Size of the prize (discount × market cap)</td><td>~27% of ~US$11.8bn implies ~US$3bn of value gap</td><td class="n">5</td></tr>
+  <tr><td>Clear, actionable asks</td><td>Sell AALI, MMLP, ASGR, property and healthcare; lift buyback to Rp10–15T; collapse UT at trough; publish a SOTP and stand-alone FS accounts; consider an Astra Financial IPO to crystallise value</td><td class="n">4</td></tr>
+  <tr><td>Governance leverage</td><td>JC&amp;C ~50.5% (rising with buybacks) blocks shareholder votes; Indonesian minority protections are limited; there are no board seats for minorities</td><td class="n">1</td></tr>
+  <tr><td>Pressure through the parent</td><td>JC&amp;C (SGX) and Jardine Matheson both trade at discounts and have TSR mandates. Activists already focus on Jardine's layered structure, so a campaign at JC&amp;C or JMH level is more credible than one at ASII.</td><td class="n">3</td></tr>
+  <tr><td>Management receptiveness</td><td>The May 2026 review, the first buybacks and the MSOP show the door is already open</td><td class="n">4</td></tr>
+  <tr class="tot"><td>Overall activist potential</td><td>A "constructive engagement" rather than a proxy fight. The most effective route is a public white paper aimed at JC&amp;C and JMH shareholders, arguing that ASII's buyback and disposals are the highest-return use of Jardine capital.</td><td class="n">3.0 / 5</td></tr>
+</table>
+
+<h3>Suggested activist playbook</h3>
+<ul>
+  <li><b>Ask 1:</b> Dispose of the non-core stakes (AALI ~Rp12T, MMLP ~Rp3.5T, ASGR ~Rp2.2T, Hermina ~Rp2T, property and healthcare). Together that is about Rp20T, or ~11% of the market cap, which could all go to buybacks below NAV.</li>
+  <li><b>Ask 2:</b> Raise the buyback to at least Rp12T a year and commit to it for the full five-year TSR horizon.</li>
+  <li><b>Ask 3:</b> Publish stand-alone Astra Financial accounts and study a partial IPO (10–20%) to set a market mark for the largest unlisted asset.</li>
+  <li><b>Ask 4:</b> Make no new diversification M&amp;A outside the three core businesses without a hurdle rate above the implied buyback return (~15%+).</li>
+  <li><b>Ask 5:</b> At trough valuation, evaluate buying in UT's minority (~36% of shares outstanding ≈ US$1.9bn) or, alternatively, a UT special dividend.</li>
+</ul>
+
+<h2>12. Conclusion and positioning</h2>
+<div class="box">
+  <p><b>Positive, catalyst-driven discount trade.</b> Base-case NAV is about Rp6,400/sh (a ~27% discount). If the discount narrows to ~15%, that implies about Rp5,450 (+16%), plus ~8% dividends, for a ~20–25% 12–18 month total return. The downside is cushioned by book value (Rp5,763/sh) and the buyback. Hedge options: long ASII against short UNTR isolates the unlisted auto/FS value from mining beta, and long ASII against short JC&amp;C plays discount layering.</p>
+  <p><b>What would change our mind:</b> buyback utilisation below 50% at the six-month mark; any new non-core acquisition over Rp2T; Toyota/Daihatsu share below 47%; FIF NPF above 1%.</p>
+</div>
+
+<footer class="note">
+  <b>Sources:</b> PT Astra International press releases (FY2025 26 Feb 2026; Q1 2026 29 Apr 2026; H1 2026 30 Jul 2026; EGM 17 Jul 2026); United Tractors H1 2026 release and buyback disclosures; Astra Agro Lestari H1 2026 release; IDNFinancials, Jakarta Globe, Bisnis.com, Kontan, Investor Trust, DealStreetAsia, Mining-Technology and Jakarta Post reporting on Hermina, MMLP, ACST, Martabe and ASA; FIFGROUP and TAFS 2025 results; market data from Investing.com, Yahoo Finance, Pluang and Market Index (Sep 2026). JPMorgan and DBS commentary as reported in the press. Estimates are the author's and are marked (est.). This document is for professional investors' internal discussion only and is not investment advice.
+</footer>
+</body>
+</html>

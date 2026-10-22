@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Jardine Layers Note</title>
+<style>
+  @page { size: A4; margin: 14mm 13mm 16mm 13mm; }
+  :root { --ink:#1b2430; --muted:#5b6675; --rule:#d5dbe3; --band:#0f3a5f; --soft:#eef3f8; --pos:#1d7a46; --neg:#b3261e; --warn:#8a5a00; }
+  * { box-sizing: border-box; }
+  body { font-family: "Helvetica Neue", Arial, sans-serif; color: var(--ink); font-size: 9.2pt; line-height: 1.38; margin: 0; background:#fff; }
+  h1 { font-size: 20pt; margin: 0 0 2px; color: var(--band); letter-spacing:-0.2px; }
+  h2 { font-size: 13pt; color: #fff; background: var(--band); padding: 5px 9px; margin: 18px 0 8px; break-after: avoid; }
+  h3 { font-size: 10.5pt; color: var(--band); margin: 12px 0 4px; border-bottom: 1px solid var(--rule); padding-bottom: 2px; break-after: avoid; }
+  p { margin: 4px 0 6px; }
+  ul { margin: 3px 0 6px 16px; padding: 0; }
+  li { margin: 1.5px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 5px 0 8px; font-size: 8.3pt; break-inside: auto; }
+  tr { break-inside: avoid; }
+  th { background: var(--soft); color: var(--band); text-align: left; font-weight: 700; padding: 4px 5px; border-bottom: 1.5px solid var(--band); vertical-align: bottom; }
+  td { padding: 3px 5px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  td.n, th.n { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  tr.tot td { font-weight: 700; border-top: 1.5px solid var(--ink); background: #fafbfc; }
+  tr.sub td { font-weight: 700; background: #f6f8fa; }
+  .pos { color: var(--pos); } .neg { color: var(--neg); }
+  .cover { border-top: 5px solid var(--band); padding-top: 10px; }
+  .meta { color: var(--muted); font-size: 8.6pt; }
+  .kpis { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; margin: 10px 0; }
+  .kpi { border: 1px solid var(--rule); border-left: 3px solid var(--band); padding: 5px 7px; }
+  .kpi b { display:block; font-size: 12.5pt; color: var(--band); }
+  .kpi span { font-size: 7.6pt; color: var(--muted); text-transform: uppercase; letter-spacing: .3px; }
+  .box { border: 1px solid var(--rule); background: var(--soft); padding: 7px 10px; margin: 8px 0; break-inside: avoid; }
+  .box.warn { background: #fff8e8; border-color: #ecd49a; }
+  .box.red { background: #fdf0ef; border-color: #efc2be; }
+  .box.green { background: #eef8f1; border-color: #bfe0cb; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .tag { display:inline-block; font-size:7.4pt; padding:0 5px; border-radius:3px; font-weight:700; }
+  .t-c { background:#e1eefb; color:#0f3a5f; } .t-a { background:#f3e8d4; color:#7a4b00; } .t-f { background:#eee; color:#444; }
+  .small { font-size: 7.8pt; color: var(--muted); }
+  .pb { break-before: page; }
+  .verdict { font-size: 10pt; font-weight:700; color: var(--band); }
+  footer.note { margin-top: 14px; font-size: 7.4pt; color: var(--muted); border-top:1px solid var(--rule); padding-top:6px; }
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <div class="meta">COMPANION NOTE · SPECIAL SITUATIONS · HOLDING-COMPANY LAYERS · SINGAPORE / HONG KONG / INDONESIA</div>
+  <h1>Above Astra: the JC&amp;C and Jardine Matheson layers</h1>
+  <div style="font-size:11.5pt;color:#34495e;margin-bottom:4px;">Where the discount really sits, who controls what, and where an activist can push</div>
+  <div class="meta">Companion to "Astra International (ASII IJ) holding-company deep dive" · 28 Sep 2026 · US$ unless stated · FX assumptions: US$1 = Rp15,900 = S$1.28; €1 = US$1.14</div>
+
+  <div class="kpis">
+    <div class="kpi"><span>JMH stake in JC&amp;C</span><b>~85–87%</b></div>
+    <div class="kpi"><span>JC&amp;C stake in ASII</span><b>~50.5%</b></div>
+    <div class="kpi"><span>JMH look-through ASII</span><b>~43%</b></div>
+    <div class="kpi"><span>JMH discount to NAV</span><b>~36%</b></div>
+    <div class="kpi"><span>JC&amp;C vs market NAV</span><b>~+19% prem.</b></div>
+    <div class="kpi"><span>JC&amp;C free float</span><b>~13–15%</b></div>
+  </div>
+
+  <div class="box">
+    <p class="verdict">Our view: the discount is at the bottom (ASII) and the top (JMH), not in the middle (JC&amp;C). The best activist lever is the small JC&amp;C minority, because a JMH buyout of JC&amp;C now looks close to inevitable.</p>
+    <ul>
+      <li><b>JC&amp;C does not trade at a discount to the market value of its holdings.</b> It trades at about a 19% <i>premium</i>, because Singapore investors price it on P/E and yield, not on Astra's depressed share price. Against our Astra SOTP it is only about 9% below NAV. JC&amp;C is not the place to find a double discount.</li>
+      <li><b>JMH is at about a 36% discount to NAV</b>, even after privatising Mandarin Oriental, completing a US$250m buyback, starting another US$500m, and returning its parent balance sheet to net cash (US$379m). The Keswick family's ~42–43% voting position rules out a control contest.</li>
+      <li><b>JMH has crept from ~78% to ~85–87% of JC&amp;C</b>, including market purchases at S$26.46. It is now within a few points of the level where SGX free-float rules would suspend trading. The endgame is a privatisation, and the minority's leverage is the SGX delisting veto: an exit offer must be "fair and reasonable", the offeror abstains from voting, and holders of 10% of the votes cast can block it.</li>
+      <li><b>JC&amp;C is already doing what an activist would ask</b>: exiting Vinamilk, Siam City Cement and Toyota; selling the Singapore and Malaysia dealerships (US$207m base price); paying a US¢73 special dividend; halving corporate net debt; renaming itself "Jardine Matheson Southeast Asia". The remaining ask is about <i>price</i>, not strategy.</li>
+    </ul>
+  </div>
+</section>
+
+<h2>1. The ownership chain</h2>
+<table>
+  <tr><th>Layer</th><th>Listing</th><th>Controlled by</th><th class="n">Stake</th><th>Other key holdings</th><th>What minorities actually own</th></tr>
+  <tr><td><b>Jardine Matheson Holdings (JMH)</b></td><td>Bermuda-incorporated; London and Singapore (J36)</td><td>Keswick family and associates, ~42–43% of votes</td><td class="n">–</td><td>Hongkong Land 54.7%, DFI Retail ~78%, Mandarin Oriental 100%, Jardine Pacific and Jardine Motors 100%</td><td>A diversified Asian holdco at ~36% below NAV</td></tr>
+  <tr><td><b>Jardine Cycle &amp; Carriage (JC&amp;C) → "Jardine Matheson Southeast Asia"</b></td><td>Singapore (C07)</td><td>JMH</td><td class="n">~85–87%</td><td>THACO 26.7%, REE 41.7%, Tunas Ridean 49.9%, residual Toyota shares (being distributed in specie)</td><td>A ~13–15% free float that is effectively a privatisation option</td></tr>
+  <tr><td><b>Astra International (ASII)</b></td><td>Indonesia (ASII IJ)</td><td>JC&amp;C</td><td class="n">~50.5%</td><td>See main report (UNTR 59.5%, AUTO 80%, AALI 79.7%, AHM 50%, Astra Financial …)</td><td>An Indonesian conglomerate ~27% below SOTP</td></tr>
+  <tr class="tot"><td colspan="3">JMH look-through economic interest in Astra (86% × 50.5%)</td><td class="n">~43.4%</td><td colspan="2">At market, about US$5.1bn, or ~30% of JMH's market cap</td></tr>
+</table>
+<p class="small">JMH's stake in JC&amp;C is reported at 85% (JC&amp;C 2026 AGM) and 87% (JC&amp;C website); we use 86%. Astra's buybacks raise JC&amp;C's stake automatically (50.1% → ~50.5% so far). The Rp8T programme could take it to ~52–53% without JC&amp;C spending cash.</p>
+
+<h2>2. JC&amp;C: NAV on two bases</h2>
+<table>
+  <tr><th>Holding (US$bn)</th><th class="n">Stake</th><th class="n">At ASII market</th><th class="n">At ASII SOTP</th><th>Basis / comment</th></tr>
+  <tr><td>Astra International</td><td class="n">50.5%</td><td class="n">5.94</td><td class="n">8.14</td><td>ASII market cap Rp187.2T; SOTP NAV Rp256.1T (main report)</td></tr>
+  <tr><td>THACO (Vietnam; autos, agriculture, industrial, real estate)</td><td class="n">26.7%</td><td class="n">1.00</td><td class="n">1.00</td><td>2025 profit US$251m (+65%); ~15x attributable. Book carrying value US$0.72bn (end-2025).</td></tr>
+  <tr><td>REE Corp (Vietnam; power, water, M&amp;E, property)</td><td class="n">41.7%</td><td class="n">0.45</td><td class="n">0.45</td><td>Market cap ~€0.94bn</td></tr>
+  <tr><td>Tunas Ridean (Indonesia; dealerships, auto finance)</td><td class="n">49.9%</td><td class="n">0.17</td><td class="n">0.17</td><td>Est.; H1 2026 contribution US$10m (+7%)</td></tr>
+  <tr><td>Residual Toyota Motor Corp shares</td><td class="n">–</td><td class="n">0.14</td><td class="n">0.14</td><td>~US¢36/sh, to be distributed in specie</td></tr>
+  <tr><td>Singapore and Malaysia motor business</td><td class="n">–</td><td class="n">sold</td><td class="n">sold</td><td>To Chandra Asri for US$207m base price, plus S$333m inter-company balance novated to the buyer; disposal gain ~US$221m</td></tr>
+  <tr><td>Corporate net debt (post-disposals, est.)</td><td class="n">–</td><td class="n">(0.35)</td><td class="n">(0.35)</td><td>"Halved" in H1 2026 on Vinamilk, SCC and Toyota proceeds; further cut by the dealership sale</td></tr>
+  <tr><td>Capitalised central costs</td><td class="n">–</td><td class="n">(0.20)</td><td class="n">(0.20)</td><td>Est.</td></tr>
+  <tr class="tot"><td>NAV</td><td></td><td class="n">7.15</td><td class="n">9.35</td><td></td></tr>
+  <tr class="tot"><td>NAV per share (395.2m shares), S$</td><td></td><td class="n">S$23.2</td><td class="n">S$30.3</td><td></td></tr>
+  <tr class="tot"><td>JC&amp;C at ~S$27.6 (US$8.5bn): premium / (discount)</td><td></td><td class="n neg">+19%</td><td class="n pos">(9%)</td><td></td></tr>
+</table>
+<div class="box warn">
+  <b>Why this matters.</b> The market already gives JC&amp;C credit for Astra's unlisted value, or for a future privatisation premium, or both. For a fund that wants the Astra discount, owning ASII directly is about 15–20% cheaper per rupiah of Astra NAV than owning it through JC&amp;C. That supports the <b>long ASII / short JC&amp;C</b> pair suggested in the main report. The one risk to the short leg is a JMH buyout offer for JC&amp;C (Section 4), so size it accordingly or hedge with an options overlay.
+</div>
+<p class="small">Price caveat: vendor data for JC&amp;C in August 2026 is inconsistent (S$27.58 on 14 Aug vs S$33.13 on another feed). An S$11.2bn market cap on 3 Aug implies about S$28, so we use S$27.6. A higher price would widen the premium. The interim dividend went ex on 1 Sep 2026; the special dividend needs EGM approval.</p>
+
+<h2>3. JMH: NAV and discount</h2>
+<table>
+  <tr><th>Holding (US$bn)</th><th class="n">Stake</th><th class="n">Value</th><th class="n">% of GAV</th><th>Basis</th></tr>
+  <tr><td>Hongkong Land (HKL)</td><td class="n">54.7%</td><td class="n">9.27</td><td class="n">34%</td><td>Market cap S$21.7bn (Sep 2026)</td></tr>
+  <tr><td>JC&amp;C</td><td class="n">~86%</td><td class="n">7.33</td><td class="n">27%</td><td>Market value</td></tr>
+  <tr><td>Mandarin Oriental</td><td class="n">100%</td><td class="n">~4.0</td><td class="n">15%</td><td>Est.; implied by the 2025–26 privatisation price</td></tr>
+  <tr><td>DFI Retail Group</td><td class="n">~78%</td><td class="n">3.49</td><td class="n">13%</td><td>US$3.30 × ~1.35bn shares</td></tr>
+  <tr><td>Jardine Pacific and Jardine Motors</td><td class="n">100%</td><td class="n">~2.1</td><td class="n">8%</td><td>Est.; ~10x underlying profit</td></tr>
+  <tr><td>Other investments</td><td class="n">–</td><td class="n">~1.0</td><td class="n">4%</td><td>Est.</td></tr>
+  <tr><td>Parent net cash (30 Jun 2026)</td><td class="n">–</td><td class="n">0.38</td><td class="n">1%</td><td>Reported (end-2025: US$0.04bn)</td></tr>
+  <tr><td>Capitalised central costs</td><td class="n">–</td><td class="n">(0.8)</td><td class="n">–</td><td>Est.</td></tr>
+  <tr class="tot"><td>NAV</td><td></td><td class="n">26.8</td><td></td><td>≈ US$91/sh on ~293.6m shares</td></tr>
+  <tr class="tot"><td>Market cap at US$58.42</td><td></td><td class="n">17.15</td><td></td><td><b>Discount ≈ 36%</b></td></tr>
+</table>
+<ul>
+  <li><b>Compounded discount:</b> a JMH shareholder buys Astra NAV at about 0.73 (ASII discount) × 0.64 (JMH discount) ≈ <b>47 cents on the dollar</b>, before the JC&amp;C premium partly offsets it.</li>
+  <li><b>What JMH has already done:</b> the 2021 buy-in of Jardine Strategic (US$5.5bn) ended the 1980s cross-holding; Mandarin Oriental was fully privatised (last 11.96% acquired, completed Jan 2026); HKL, DFI and JC&amp;C are recycling assets; buybacks of US$250m (done) plus US$500m (new); interim DPS +8% to US$0.65 and FY26 guidance of at least US$2.47 (+5%); the CEO bought more than US$0.5m of shares.</li>
+  <li><b>What it hasn't done:</b> it has not touched control. Keswick voting influence is about 42–43% on under 10% direct economic ownership. The buyback is about 2.9% of market cap, which is small against a 36% discount.</li>
+</ul>
+
+<h2 class="pb">4. The JC&amp;C minority: privatisation arithmetic and the blocking stake</h2>
+<table>
+  <tr><th style="width:26%">Mechanism</th><th>What it means for minorities</th></tr>
+  <tr><td>Free float</td><td>SGX requires at least 10% in public hands. At ~87%, JMH is about 3pp away from a free-float suspension, so further creeping purchases are almost exhausted.</td></tr>
+  <tr><td>Creeping purchases</td><td>Above 50%, JMH can buy in the market without triggering a mandatory offer. That is how it moved from 78% to 85%+, with disclosures at each percentage point.</td></tr>
+  <tr><td>Voluntary delisting (SGX Rule 1307)</td><td>The exit offer must be opined "fair and reasonable" by an independent financial adviser. The offeror and its concert parties abstain, and the resolution fails if 10% or more of the votes cast by shareholders present oppose it. <b>That makes a 13–15% float a genuine veto group.</b></td></tr>
+  <tr><td>Compulsory acquisition (general offer)</td><td>Squeeze-out needs 90% acceptance of the shares not already held. Holders of just over 10% of the float, i.e. ~1.5% of JC&amp;C's capital (~US$130m), can deny it.</td></tr>
+  <tr><td>Scheme of arrangement</td><td>Needs 75% by value and a majority by headcount of the votes cast by disinterested holders. A concentrated minority can block it.</td></tr>
+  <tr><td>Precedent: Jardine's own record</td><td>JC&amp;C's first attempt to privatise Cycle &amp; Carriage Bintang (Malaysia) <b>failed when 13.18% of disinterested holders voted against</b>. It succeeded on a second attempt at RM2.20, which the adviser called "not fair but reasonable". The US$33 Jardine Strategic buy-in in 2021 was also contested by minority holders.</td></tr>
+</table>
+<h3>What would a fair offer look like?</h3>
+<table>
+  <tr><th>Reference point</th><th class="n">S$/share</th><th class="n">vs S$27.6</th></tr>
+  <tr><td>JMH market purchase price (2026)</td><td class="n">26.46</td><td class="n">(4%)</td></tr>
+  <tr><td>NAV with Astra at market</td><td class="n">23.2</td><td class="n">(16%)</td></tr>
+  <tr><td>Typical Singapore privatisation premium (20–30% to last close)</td><td class="n">33–36</td><td class="n">+20–30%</td></tr>
+  <tr><td>NAV with Astra at our SOTP</td><td class="n">30.3</td><td class="n">+10%</td></tr>
+  <tr><td>DBS target price</td><td class="n">39.0</td><td class="n">+41%</td></tr>
+</table>
+<p>The adviser will anchor on the market NAV (S$23), which argues <i>against</i> a big premium. Minorities will anchor on the look-through SOTP, P/E and yield, and precedent premiums. <b>We expect any offer in the S$31–35 range</b>, and a well-organised 10% bloc should hold out for the upper end.</p>
+
+<h2>5. Where an activist should push: ranked</h2>
+<table>
+  <tr><th style="width:4%">#</th><th style="width:20%">Target and ask</th><th>Rationale</th><th class="n" style="width:10%">Feasibility</th><th class="n" style="width:10%">Payoff</th></tr>
+  <tr><td>1</td><td><b>JC&amp;C minority bloc:</b> "Privatise us, and pay for Astra's intrinsic value"</td><td>This has the smallest cheque (the float is ~US$1.1–1.3bn), a legal veto (Rule 1307 / 90% squeeze-out) and a controller that clearly wants 100%. The name change to "Jardine Matheson Southeast Asia" signals full integration.</td><td class="n">High</td><td class="n">+15–30%</td></tr>
+  <tr><td>2</td><td><b>JMH / JC&amp;C:</b> "Buy ASII stock, not your own minorities"</td><td>At ~5.4x implied P/E on Astra's unlisted core, buying ASII in the market is JMH's most accretive use of capital. It adds control and dividends, and it is cheaper than paying a premium for JC&amp;C paper that already trades above market NAV. Dealership proceeds, Toyota proceeds and JMH's net cash could fund a steady ASII accumulation programme.</td><td class="n">Medium</td><td class="n">Supports ASII re-rating</td></tr>
+  <tr><td>3</td><td><b>Astra:</b> "Sell the non-core, raise the buyback"</td><td>Asks as in the main report: dispose of AALI, MMLP, ASGR and the healthcare stakes; Rp12T+ a year of buybacks; a partial IPO of Astra Financial. JMH/JC&amp;C would benefit on ~43% of the value, and the capital-recycling vocabulary is already in place ("Astra playbook").</td><td class="n">Medium</td><td class="n">Largest NAV impact</td></tr>
+  <tr><td>4</td><td><b>JMH:</b> "Close the 36% discount: bigger buybacks, fewer layers"</td><td>The US$500m buyback is only 2.9% of market cap. Ask for a multi-year programme sized to disposals, and for HKL and DFI to be taken private or sold down on the Mandarin Oriental template. But Keswick voting (~42–43%) and Bermuda incorporation (outside the UK Takeover Code) mean engagement only, with no voting leverage.</td><td class="n">Low</td><td class="n">High, but slow</td></tr>
+</table>
+
+<h2>6. Incentives: what the controller wants</h2>
+<ul>
+  <li><b>JMH needs cash upstream.</b> It has only US$0.38bn of parent net cash, and it is committing to a US$500m buyback and rising dividends (guidance of at least US$2.47). It prefers Astra and JC&amp;C <i>dividends</i> and special dividends (hence the US¢73 JC&amp;C special) over retained capital.</li>
+  <li><b>Astra buybacks are free control creep for JMH.</b> Each Rp1T of ASII buyback raises JC&amp;C's stake by about 0.27pp at no cost. That suits Jardine as long as the dividend payout holds at 45–50%.</li>
+  <li><b>Tension point:</b> privatising JC&amp;C costs JMH about US$1.3–1.5bn at a 20–30% premium. That is roughly 3–4x its parent net cash and competes with the JMH buyback, so JMH may keep creeping and delay a formal offer. The catalyst could be the free-float breach itself or proceeds from HKL and DFI recycling.</li>
+  <li><b>Management signals:</b> "active stewardship", five-year TSR targets at both Astra and JC&amp;C, a new CEO buying stock, and DBS calling JMH "a leading Asian capital allocator in the making". The rhetoric has moved; the discount has not.</li>
+</ul>
+
+<h2>7. Pre-mortem for the Jardine-layer trades</h2>
+<table>
+  <tr><th style="width:26%">Trade</th><th>What goes wrong</th><th style="width:26%">Mitigant</th></tr>
+  <tr><td>Long JC&amp;C for a privatisation</td><td>JMH stops at ~87–89% and never bids. The stock drifts with Astra and the SGD. Alternatively, the offer anchors on market NAV (S$23) and the adviser calls it "not fair but reasonable".</td><td>Hold only with a bloc; pair with short ASII to neutralise Astra beta.</td></tr>
+  <tr><td>Long ASII / short JC&amp;C</td><td>A JMH bid for JC&amp;C squeezes the short leg by 20–30%.</td><td>Size the short at ≤50% of the long; buy JC&amp;C upside calls if available, or use a stop.</td></tr>
+  <tr><td>Long JMH for discount closure</td><td>Hong Kong property (HKL) and China retail (DFI) weaken. The buyback is too small, and the Keswick voting structure keeps the discount at 35–45%.</td><td>Treat as a slow compounder (~4% yield plus buyback), not an event.</td></tr>
+</table>
+
+<h2>8. Bottom line</h2>
+<div class="box green">
+  <p><b>For an event-driven book:</b></p>
+  <ul>
+    <li><b>Core position: long ASII.</b> The discount is widest there (~27% to SOTP), with an Rp8T buyback, a disposal pipeline, and a controller whose incentives point towards higher returns.</li>
+    <li><b>Event option: JC&amp;C minority.</b> JMH at ~87% of JC&amp;C is at the end of its creeping road, and the SGX delisting rules give a 10% minority bloc real negotiating power. That makes it a good fit for an activist's "fair price" campaign, ideally hedged against Astra.</li>
+    <li><b>JMH: an owner-operator compounder, not an activist target.</b> The 36% discount is real, but Keswick voting control means an activist can engage but not compel change.</li>
+  </ul>
+</div>
+
+<footer class="note">
+  <b>Sources:</b> JC&amp;C 2026 half-year results (30 Jul 2026) and 2026 AGM minutes; Jardine Matheson 2026 half-year results and investor day (Jun 2026); The Edge Singapore, DealStreetAsia, Newswav/DSF and BriefAsia on the Chandra Asri dealership sale and the special dividend/name change; Minichart and DBS research summaries; Yahoo Finance (JMH purchase of JC&amp;C shares at S$26.46); SCMP, Holland Advisors ("Dear Mr Keswick", Mar 2021), Asian Century Stocks and Wikipedia on the Keswick structure and the 2021 Jardine Strategic buy-in; The Investor (THACO 2025 profit); JC Project Freedom (JC&amp;C and Cycle &amp; Carriage Bintang privatisation history); market data from Stockanalysis, Growbeansprout, Investing.com and companiesmarketcap (Aug–Sep 2026). Stakes, net debt and unlisted values marked "est." or "~" are the author's estimates. The SGX rule descriptions are summaries; confirm with counsel before acting. For professional investors' internal discussion only; not investment advice.
+</footer>
+</body>
+</html>
