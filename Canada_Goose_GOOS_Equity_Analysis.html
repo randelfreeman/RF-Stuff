@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Canada Goose Holdings (NYSE/TSX: GOOS) — Adversarial Deep Dive</title>
+<style>
+  @page { size: Letter; margin: 16mm 15mm 16mm 15mm; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body {
+    font-family: "Source Serif Pro", Georgia, "Times New Roman", serif;
+    font-size: 9.6pt; line-height: 1.44; color: #16181d; margin: 0;
+  }
+  h1,h2,h3,h4, th, .ui { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+  /* ---------- Masthead ---------- */
+  .masthead { border-bottom: 2.5pt solid #0d2b45; padding-bottom: 6pt; margin-bottom: 12pt; }
+  .mh-rule { height: 3pt; background: #b3121d; width: 54pt; margin-bottom: 7pt; }
+  .mh-kicker { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 7.4pt;
+    letter-spacing: 1.5pt; text-transform: uppercase; color: #b3121d; font-weight: 700; }
+  h1 { font-size: 19pt; margin: 4pt 0 2pt; line-height: 1.15; color: #0d2b45; letter-spacing: -0.3pt; }
+  .mh-sub { font-size: 10.2pt; color: #4a5260; font-style: italic; margin-bottom: 6pt; }
+  .mh-meta { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 7.6pt;
+    color: #6b7280; letter-spacing: .3pt; }
+
+  /* ---------- Headings ---------- */
+  h2 { font-size: 12.2pt; color: #0d2b45; margin: 17pt 0 6pt; padding-bottom: 3pt;
+       border-bottom: 1pt solid #c8cfd8; letter-spacing: -0.2pt; page-break-after: avoid; }
+  h2 .num { color: #b3121d; font-weight: 700; margin-right: 5pt; }
+  h3 { font-size: 10.1pt; color: #1c3d5c; margin: 12pt 0 4pt; page-break-after: avoid; }
+  h4 { font-size: 9.2pt; color: #33404f; margin: 9pt 0 3pt; page-break-after: avoid;
+       text-transform: uppercase; letter-spacing: .6pt; }
+  p { margin: 0 0 6pt; text-align: justify; hyphens: auto; }
+
+  /* ---------- Lists ---------- */
+  ul, ol { margin: 0 0 7pt; padding-left: 15pt; }
+  li { margin-bottom: 3.2pt; text-align: justify; }
+  li::marker { color: #b3121d; }
+
+  /* ---------- Tables ---------- */
+  table { width: 100%; border-collapse: collapse; margin: 7pt 0 9pt; font-size: 8.3pt;
+          page-break-inside: avoid; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  caption { caption-side: top; text-align: left; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 7.5pt; text-transform: uppercase; letter-spacing: .9pt; color: #0d2b45;
+            font-weight: 700; padding-bottom: 3pt; }
+  th { background: #0d2b45; color: #fff; text-align: right; padding: 4pt 5pt; font-weight: 600;
+       font-size: 7.7pt; letter-spacing: .2pt; }
+  th:first-child { text-align: left; }
+  td { padding: 3.4pt 5pt; border-bottom: .5pt solid #dde2e8; text-align: right; vertical-align: top; }
+  td:first-child { text-align: left; }
+  tbody tr:nth-child(even) { background: #f4f6f9; }
+  tr.sect td { background: #e3e8ef; font-weight: 700; color: #0d2b45; font-size: 7.8pt;
+               text-transform: uppercase; letter-spacing: .5pt; }
+  tr.tot td { border-top: 1pt solid #0d2b45; border-bottom: 1pt solid #0d2b45; font-weight: 700; }
+  .pos { color: #0a6b3d; } .neg { color: #b3121d; }
+  table.lt th { background: #33404f; }
+  table.wide td:first-child { width: 26%; }
+  table.wide td:last-child, table.wide th:last-child { text-align: left; }
+  table.d3 td:nth-child(3), table.d3 th:nth-child(3) { text-align: left; }
+  table.val td:nth-child(1) { width: 32%; }
+  table.val td:nth-child(2) { width: 22%; }
+  table.val th:nth-child(2) { text-align: right; }
+  table.scn td:nth-child(1) { width: 15%; } table.scn td:nth-child(2) { width: 8%; }
+  table.scn td:nth-child(3) { width: 47%; }
+
+  /* ---------- Callouts ---------- */
+  .box { border: .75pt solid #c8cfd8; border-left: 3pt solid #0d2b45; background: #f7f9fb;
+         padding: 7pt 9pt; margin: 8pt 0 10pt; page-break-inside: avoid; }
+  .box.red { border-left-color: #b3121d; background: #fdf6f6; }
+  .box.gold { border-left-color: #9a7112; background: #fdfaf1; }
+  .box.grn { border-left-color: #0a6b3d; background: #f4faf6; }
+  .box p:last-child, .box ul:last-child { margin-bottom: 0; }
+  .box-t { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 7.6pt;
+           font-weight: 700; text-transform: uppercase; letter-spacing: 1pt; color: #0d2b45;
+           margin-bottom: 4pt; }
+  .box.red .box-t { color: #b3121d; } .box.gold .box-t { color: #9a7112; } .box.grn .box-t { color: #0a6b3d; }
+
+  /* ---------- Snapshot strip ---------- */
+  .snap { display: flex; gap: 0; border: .75pt solid #c8cfd8; margin: 0 0 11pt; page-break-inside: avoid; }
+  .snap div { flex: 1; padding: 5pt 7pt; border-right: .5pt solid #dde2e8;
+             display: flex; flex-direction: column; justify-content: flex-start; }
+  .snap .k { min-height: 9pt; }
+  .snap div:last-child { border-right: none; }
+  .snap .k { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 6.6pt;
+             text-transform: uppercase; letter-spacing: .7pt; color: #6b7280; }
+  .snap .v { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 11.5pt;
+             font-weight: 700; color: #0d2b45; line-height: 1.2; }
+  .snap .n { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 6.8pt; color: #6b7280; }
+
+  .rating { background: #0d2b45; color: #fff; padding: 8pt 11pt; margin: 0 0 11pt;
+            page-break-inside: avoid; display: flex; align-items: baseline; gap: 14pt; }
+  .rating .lab { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 7pt;
+                 letter-spacing: 1.3pt; text-transform: uppercase; opacity: .72; }
+  .rating .big { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 15pt;
+                 font-weight: 700; letter-spacing: -.2pt; }
+  .rating .mid { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 8.6pt; opacity: .9; }
+
+  .fn { font-size: 7.4pt; color: #6b7280; font-style: italic; margin: -4pt 0 9pt; text-align: left; }
+  .pb { page-break-before: always; }
+  .avoid { page-break-inside: avoid; }
+  a { color: #1c3d5c; text-decoration: none; }
+  .src { font-size: 7.3pt; line-height: 1.35; color: #4a5260; }
+  .src li { margin-bottom: 2pt; text-align: left; }
+  .disc { font-size: 7.2pt; color: #6b7280; border-top: .75pt solid #c8cfd8; padding-top: 6pt;
+          margin-top: 12pt; text-align: justify; }
+  strong { color: #0d2b45; }
+  .tagline { font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; font-size:8.2pt;
+             font-style:normal; color:#4a5260; }
+</style>
+</head>
+<body>
+
+<div class="masthead">
+  <div class="mh-rule"></div>
+  <div class="mh-kicker">Adversarial Equity Research &middot; Consumer Discretionary / Luxury Apparel</div>
+  <h1>Canada Goose Holdings Inc.</h1>
+  <div class="mh-sub">NYSE: GOOS &middot; TSX: GOOS &mdash; A cheap stock, an unearned guide, and a tariff at the door</div>
+  <div class="mh-meta">Report date: 21 August 2026 &nbsp;|&nbsp; Fiscal year ends late March &nbsp;|&nbsp; Company financials in Canadian dollars (C$); share price in USD unless noted</div>
+</div>
+
+<div class="snap">
+  <div><div class="k">Price (NYSE)</div><div class="v">$8.65</div><div class="n">≈ C$11.94 @ 1.38</div></div>
+  <div><div class="k">Market Cap</div><div class="v">$845m</div><div class="n">≈ C$1.17bn</div></div>
+  <div><div class="k">52-Week Range</div><div class="v">$8.42–15.40</div><div class="n">−44% from high</div></div>
+  <div><div class="k">FY27E P/E</div><div class="v">10.8×</div><div class="n">Moncler ≈ 23×</div></div>
+  <div><div class="k">FY26 Adj. EBIT</div><div class="v">9.7%</div><div class="n">from 12.7%</div></div>
+  <div><div class="k">Voting Control</div><div class="v">&gt;90%</div><div class="n">Bain + Reiss</div></div>
+</div>
+
+<div class="rating">
+  <div><div class="lab">Conclusion</div><div class="big">HOLD / AVOID AT SPOT</div></div>
+  <div><div class="lab">Probability-Weighted Value</div><div class="big">C$10.90</div></div>
+  <div><div class="lab">Character of the Position</div><div class="mid">Event-driven option, not a compounder.<br>Fundamental base case sits <em>below</em> the current price.</div></div>
+</div>
+
+<h2><span class="num">§1</span>Executive Summary</h2>
+
+<p>Canada Goose is not an expensive stock. That is the first thing an adversarial reader must accept, because almost every bear note on this name leads with valuation and is therefore wrong. At C$11.94 the shares trade on roughly <strong>10.8× forward consensus earnings and about 5.3× trailing adjusted EBITDA</strong> — a 50–60% discount to Moncler and Amer Sports. The interesting question is not whether the multiple is too high. It is whether the <em>earnings</em> the multiple is applied to exist.</p>
+
+<p>Fiscal 2026 (ended 29 March 2026) was the company's best top-line year since FY2022: revenue rose <strong>13.3% to C$1,528.2m</strong>, DTC comparable sales grew 8.4%, and the wholesale channel returned to growth. It was also the year adjusted EBIT margin fell <strong>300 basis points to 9.7%</strong> and reported EPS collapsed <strong>76% to C$0.23</strong>. Canada Goose bought its growth. Management now guides fiscal 2027 to low-single-digit revenue growth with adjusted EBIT margin expanding to <strong>11–12%</strong> — margin expansion of 130–230bp on ~2–3% revenue growth, achieved almost entirely through cost discipline and the non-recurrence of FY2026 one-timers, with essentially no volume leverage to help.</p>
+
+<p>Three things then happened. First, in Q1 FY2027 the reported +10.3% revenue growth was carried entirely by a <strong>66.5% surge in wholesale on order-book timing</strong>, while the metric that actually measures brand demand — <strong>DTC comparable sales — turned negative at −3.2%</strong>, ending a multi-quarter positive streak. Second, inventory was built <strong>11% higher to C$489.9m</strong> into those negative comps, and seasonal net leverage rose to 2.1× from 1.8×. Third, on 20 July 2026 the United States invoked <strong>Section 338 of the Tariff Act of 1930 for the first time in history</strong>, imposing a 50% duty on Canadian apparel that expressly overrides USMCA origin rules — aimed directly at a company that makes roughly three-quarters of its units in Canada. The duty was paused three days on 18 August pending documentation of a US–Canada "deal"; as of this report the pause expires <strong>22 August 2026</strong>.</p>
+
+<div class="box red">
+  <div class="box-t">The single most important disclosure in the guidance</div>
+  <p>Management's fiscal 2027 outlook <em>assumes the tariff environment remains consistent with fiscal 2026</em>. The 11–12% adjusted EBIT margin guide therefore <strong>excludes Section 338 entirely</strong>. Company guidance is that unmitigated implementation would cost "less than 200 basis points" of FY2027 operating margin — which, at the low end of the guide, returns the company to roughly the 9.7% it just earned. The stock is being asked to pay for margin expansion that a single unresolved trade file can erase.</p>
+</div>
+
+<p>Our conclusion is uncomfortable for both camps. On fundamentals alone, base-case fair value is <strong>C$9.50 — roughly 20% below spot</strong>. The stock is not cheap on its own merits; it is being held up by roughly C$2–3 per share of embedded takeout optionality left over from Bain Capital's 2025 sale process. That optionality is real, but it is already in the price. The genuinely contrarian observation is not "GOOS is cheap." It is that <strong>the market has priced a meaningful probability of a deal and a near-zero probability that the operating business earns its own guide</strong> — and those two outcomes are not independent. A company that delivers 11–12% margins is a company Bain can finally sell.</p>
+
+<h2><span class="num">§2</span>The Bull Case</h2>
+
+<h3>2.1 Competitive Advantage: what the moat actually is</h3>
+
+<p>The conventional description of Canada Goose's moat — "iconic brand, Made in Canada" — is directionally right and analytically lazy. The defensible advantages are narrower and more specific than that:</p>
+
+<ul>
+<li><strong>Legally non-replicable provenance.</strong> "Made in Canada" is an origin claim, not a marketing position. Roughly 75% of units are produced in company-owned Canadian facilities. No competitor — not Moncler, not Bosideng, not a private-label entrant — can acquire this claim at any price. It is the only asset in the business a rival cannot buy.</li>
+<li><strong>Structural gross margin.</strong> FY2026 gross margin of <strong>69.7%</strong> sits at the top of listed apparel and rivals pure luxury houses. It is the product of vertical integration plus a full-price DTC mix, not of a pricing bubble.</li>
+<li><strong>A DTC mix most luxury brands would envy.</strong> DTC was <strong>C$1,157.4m, or 76% of FY2026 revenue</strong>, with 92 permanent stores globally. For comparison, Moncler generates ~86% through own-retail from a base roughly three times larger. Canada Goose reaches a similar mix on one-third the store count — meaning the fleet productivity is high and the runway is long.</li>
+<li><strong>Control of the supply chain in a world where control is repricing.</strong> Owning factories was a cost disadvantage for a decade. In a tariff regime it becomes an option: the company can decide <em>where</em> a garment is made. It already owns European capacity (Romanian knitwear; the Paola Confectii acquisition).</li>
+</ul>
+
+<h3>2.2 Moat sustainability &mdash; stress-tested</h3>
+
+<p>An honest bull must concede the moat is <em>brand permission</em>, and brand permission in outerwear is narrow. The relevant question is whether the permission is transferring to adjacent categories fast enough. The early evidence says yes:</p>
+
+<ul>
+<li>Apparel, rainwear and windwear — the non-heavyweight-down categories — reached <strong>~40% of Q1 FY2027 revenue</strong>. The de-seasonalisation is not a slide deck; it is already a plurality of the shoulder-season business.</li>
+<li>The appointment of <strong>Haider Ackermann as first-ever Creative Director</strong> (2024), the revival of the <strong>Snow Goose</strong> heritage label, and the FW26 "Second Nature" collection represent a credible attempt to convert a technical outerwear brand into a luxury fashion house — the exact transition Moncler executed via Genius and now trades at 23× for having completed.</li>
+<li>Fiscal 2026 comps of <strong>+8.4%</strong> and Q4 EMEA constant-currency growth of <strong>+25%</strong> indicate the brand is gaining, not losing, permission outside its home markets.</li>
+</ul>
+
+<h3>2.3 Growth levers and the case for an earnings surprise</h3>
+
+<table class="wide">
+<caption>Table 1 — Identified growth levers and evidence base</caption>
+<thead><tr><th>Lever</th><th>Evidence in the numbers</th><th>Assessment</th></tr></thead>
+<tbody>
+<tr><td>Category extension (non-parka)</td><td>~40% of Q1 FY27 revenue in apparel/rain/wind</td><td>Working; margin-dilutive at gross line</td></tr>
+<tr><td>Greater China / APAC</td><td>Q3 FY26 Greater China C$248.3m, +13.2% cc; Q4 APAC +23% cc; Q4 Mainland China DTC +30%</td><td>Strongest region; highest geopolitical beta</td></tr>
+<tr><td>Store expansion</td><td>9 net new in FY26 (to 88); 4 more in Q1 FY27 (to 92)</td><td>Long runway vs. Moncler ~290</td></tr>
+<tr><td>Wholesale re-acceleration</td><td>FY26 +11.7% to C$291.2m; Q1 FY27 +66.5%; "very strong" spring 2027 orders</td><td>Real order book; timing-distorted</td></tr>
+<tr><td>Creative-led brand elevation</td><td>Ackermann FW26; Snow Goose capsules</td><td>Unproven at P&amp;L level</td></tr>
+<tr><td>SG&amp;A leverage</td><td>Management: SG&amp;A growth below revenue growth in FY27</td><td>The entire margin guide rests here</td></tr>
+</tbody>
+</table>
+
+<div class="box grn">
+  <div class="box-t">Where the earnings surprise could come from</div>
+  <p>Fiscal 2026 carried an unusually dense cluster of identifiable, non-repeating costs: an <strong>C$8.4m store impairment</strong>, wholesale bad-debt expense, a <strong>one-time arbitration award to a former supplier</strong>, costs tied to the <strong>Paola Confectii earn-out</strong>, and elevated incentive compensation earned on the strong FY2026 top line. Management has explicitly flagged the non-recurrence of the bad-debt and impairment charges as second-half FY2027 tailwinds. If none of these repeat and SG&amp;A grows below revenue, <strong>11–12% adjusted EBIT is arithmetically reachable without any demand heroics</strong>. This is the strongest single argument for the long.</p>
+</div>
+
+<h3>2.4 Capital allocation</h3>
+
+<p>The balance sheet is the least controversial part of the story. Fiscal year-end <strong>net debt of C$383.2m</strong> was down from C$408.8m, leverage held at <strong>1.3×</strong>, and inventory was <strong>flat year-over-year at C$386.3m on 13.3% revenue growth</strong> — genuinely good working-capital discipline. A renewed NCIB authorises repurchase of <strong>4,578,677 subordinate voting shares (~10% of public float)</strong> through 9 November 2026. At roughly 0.75× EV/Sales, the balance sheet could retire a meaningful share of the float. We treat this as an option the company holds, not a virtue it has demonstrated — see §3.4.</p>
+
+<h2 class="pb"><span class="num">§3</span>The Bear Case</h2>
+
+<p>We restrict this to risks capable of <em>permanent</em> impairment — outcomes from which the business does not recover its prior earning power — and then address the cyclical margin and deceleration risks separately.</p>
+
+<h3>3.1 Risk One: Section 338 structurally breaks the vertically-integrated Canadian model</h3>
+
+<p>This is the risk that converts the moat into a liability. Section 338 permits a duty of up to 50% — the maximum was applied — against countries found to have discriminated against US commerce. It is being used for the first time in ninety-six years, and critically, <strong>a valid USMCA certificate of origin confers no exemption</strong>. The measure reaches textiles and apparel among roughly US$20bn of annual Canadian imports.</p>
+
+<p>Canada Goose faces three doors, and all three are bad:</p>
+
+<table class="wide">
+<caption>Table 2 — The tariff trilemma</caption>
+<thead><tr><th>Response</th><th>Mechanism</th><th>Cost</th></tr></thead>
+<tbody>
+<tr><td>Absorb</td><td>Eat the duty on US-bound product</td><td>Company estimate &lt;200bp of FY27 operating margin unmitigated — i.e. guidance floor returns to ~9.7%. A partial-year figure; annualised exposure is larger.</td></tr>
+<tr><td>Price</td><td>Pass through to US consumer</td><td>A ~C$1,500 parka approaches C$1,900+ in the one region already printing negative comparable sales, against documented consumer price fatigue.</td></tr>
+<tr><td>Relocate</td><td>Shift US-bound production offshore</td><td><strong>Destroys the provenance claim that justifies the price.</strong> Strands owned Canadian capacity and converts a fixed-cost asset into a liability.</td></tr>
+</tbody>
+</table>
+
+<div class="box red">
+  <div class="box-t">Why this is a permanent-impairment risk, not a cyclical one</div>
+  <p>Tariffs are transient; brand claims are not. If Canada Goose de-Canadianises its US supply to protect margin, it cannot re-Canadianise its story afterwards. The entire pricing architecture — a four-figure parka justified by Arctic provenance and domestic craft — rests on an origin claim the company would have voluntarily surrendered. This is the one scenario in which the moat does not merely narrow; it is spent.</p>
+</div>
+
+<h3>3.2 Risk Two: the brand is mid-transition with no demonstrated pricing power at the new price points</h3>
+
+<p>The strategy — more lifestyle, less parka — has a mathematical problem management itself has documented. In Q2 FY2025 gross margin fell to 61.3% from 63.9% <em>"primarily due to a higher proportion of non-Heavyweight down revenue within the product mix."</em> The growth categories carry <strong>structurally lower gross margins than the parka they are replacing</strong>. The company is therefore trading gross margin for volume and relying on SG&amp;A leverage to make up the difference — the opposite of how a luxury flywheel is supposed to work.</p>
+
+<p>Simultaneously the evidence on pricing power at the top of the range is deteriorating. US buyers report paying $800–1,000 for models now listed above $1,400. Secondary-market supply of lightly-worn parkas is heavy. And the demand signal has turned: North America comparable sales were <strong>−1% in Q4 FY2026</strong>, and total DTC comps were <strong>−3.2% in Q1 FY2027</strong>. The C$8.4m store impairment following a review of underperforming locations is the same signal recognised in the accounts.</p>
+
+<h3>3.3 Risk Three: concentration into a structurally hostile China</h3>
+
+<p>Asia contributed approximately <strong>C$628m, or ~41% of FY2026 revenue</strong>, and is where the incremental growth is now generated. That concentration is the thesis for the bulls and the risk for us, for four compounding reasons:</p>
+
+<ul>
+<li><strong>A scaled domestic champion.</strong> Bosideng has national distribution, state-aligned retail relationships and a cost base Canada Goose cannot match — and, tellingly, was itself named as an interested bidder for the company.</li>
+<li><strong>Guochao.</strong> Consumer preference for domestic brands is a secular, policy-supported trend, not a cycle.</li>
+<li><strong>Arc'teryx.</strong> Anta/Amer's Arc'teryx has become the aspirational premium technical brand for precisely Canada Goose's Chinese demographic — and is growing ~30% with the local ownership and local supply chain Canada Goose lacks.</li>
+<li><strong>Geopolitical beta.</strong> A Canadian consumer brand in China carries a nationalist-boycott tail risk that has already been demonstrated once in this market for Western apparel names.</li>
+</ul>
+
+<h3>3.4 Margin compression and revenue deceleration &mdash; the mechanics</h3>
+
+<table class="wide">
+<caption>Table 3 — Quality-of-revenue analysis: Q1 FY2027 (quarter ended 28 June 2026)</caption>
+<thead><tr><th>Metric</th><th>Q1 FY2026</th><th>Q1 FY2027</th><th>Read-through</th></tr></thead>
+<tbody>
+<tr><td>Total revenue (C$m)</td><td>107.8</td><td>118.9 <span class="pos">+10.3%</span></td><td>Headline looks healthy</td></tr>
+<tr><td>Wholesale revenue (C$m)</td><td>17.9</td><td>29.8 <span class="pos">+66.5%</span></td><td>Driven by shipment <em>timing</em> and early order-book shipping</td></tr>
+<tr><td>DTC comparable sales</td><td>positive</td><td><span class="neg">−3.2%</span></td><td><strong>The real demand signal, and it broke</strong></td></tr>
+<tr><td>Gross margin</td><td>61.4%</td><td>62.4%</td><td>+100bp on region/channel mix</td></tr>
+<tr><td>Adj. EBIT margin</td><td>(98.7)%</td><td>(87.3)%</td><td>Seasonal loss quarter; improvement real but low-signal</td></tr>
+<tr><td>Inventory (C$m)</td><td>441.4</td><td>489.9 <span class="neg">+11%</span></td><td>Built into negative store comps</td></tr>
+<tr><td>Net debt (C$m)</td><td>541.7</td><td>627.8</td><td>Working-capital build funded with debt</td></tr>
+<tr class="tot"><td>Net debt / adj. EBITDA</td><td>1.8×</td><td><span class="neg">2.1×</span></td><td>Seasonal peak leverage rising y/y</td></tr>
+</tbody>
+</table>
+<p class="fn">Q1 FY2026 revenue, wholesale and inventory derived from disclosed growth rates. Q1 is roughly 8% of annual revenue and structurally loss-making; it is a poor profit quarter but an excellent demand quarter.</p>
+
+<p>Three mechanical pressures follow from this table:</p>
+
+<ul>
+<li><strong>The wholesale surge reverses.</strong> Growth attributed to "shipment timing" is borrowed from Q2/Q3. Wholesale is also lower gross margin and reintroduces the channel and markdown risk the company spent years engineering out.</li>
+<li><strong>Inventory becomes markdown.</strong> Nearly half a billion dollars of inventory against negative store comps creates real promotional risk in H2 FY2027 — precisely the half in which the guidance requires <em>gross margin expansion</em>.</li>
+<li><strong>Deceleration is understated.</strong> Reported growth goes from +13.3% in FY2026 to low-single-digit guidance — a ~1,000bp deceleration in one year — and the underlying DTC trend is already worse than the reported number suggests.</li>
+</ul>
+
+<div class="box gold">
+  <div class="box-t">A capital allocation red flag</div>
+  <p>Since the current NCIB commenced on <strong>10 November 2025, Canada Goose has repurchased zero shares</strong> — not in Q1 FY2027, not at any point since inception — against an authorisation for ~10% of the public float, while the stock fell roughly 44% from its 52-week high. Management calls the NCIB "an appropriate use of available excess cash." It has not been used. Either the company does not believe the shares are cheap, or it does not have the excess cash the balance sheet implies, or it is preserving optionality for a transaction. All three readings are unfavourable to a minority holder. In the same window, the founder-CEO established an automatic plan to sell up to <strong>350,000 shares</strong>.</p>
+</div>
+
+<h3>3.5 What is embedded in expectations</h3>
+
+<p>The fiscal 2027 guide requires the simultaneous delivery of: (i) revenue growth despite negative DTC comps; (ii) gross margin expansion despite a mix shift into structurally lower-margin categories and an elevated inventory position; (iii) SG&amp;A growing slower than revenue while the company opens stores, invests in e-commerce and builds out an EMEA logistics network; and (iv) no material tariff. Consensus statutory EPS of approximately <strong>C$1.08–1.14 against FY2026 actual reported EPS of C$0.23</strong> asks the market to underwrite a near-fivefold recovery in reported earnings from a company whose most recent demand datapoint was negative.</p>
+
+<h2 class="pb"><span class="num">§4</span>Pre-Mortem</h2>
+
+<div class="box red">
+  <div class="box-t">Scenario: it is mid-2028 and GOOS trades below US$5.00. What happened?</div>
+  <p><strong>The trade file.</strong> The August 2026 "deal" delivered partial relief but apparel was not fully carved out, or the exemption proved narrow and time-limited. Facing the critical Q3 selling season, Canada Goose absorbed the duty rather than risk US sell-through. Gross margin missed.</p>
+  <p><strong>The winter.</strong> A mild North American season met an inventory position already 11% too heavy. The Q1 build cleared through markdowns and outlets. The gross margin expansion the guide depended on became gross margin contraction.</p>
+  <p><strong>The reversal.</strong> Q1's 66.5% wholesale growth was timing. Q2 and Q3 wholesale printed down year-over-year, so reported revenue decelerated faster than the underlying business — the mirror image of Q1, and the market had already been told Q1 was clean.</p>
+  <p><strong>The guide.</strong> FY2027 adjusted EBIT landed near 9%, not 11–12%. Having reaffirmed the outlook at Q1 with a tariff caveat rather than resetting it, management lost the benefit of the doubt. The multiple compressed on the same numbers.</p>
+  <p><strong>China.</strong> Arc'teryx and Bosideng took share. APAC — 41% of revenue — went from +23% to negative. There was no second growth engine, because North America was already negative and EMEA is too small to carry the company.</p>
+  <p><strong>The bid disappeared.</strong> Bain, thirteen-plus years into the position and past any normal fund life, could not clear an acceptable price. It distributed stock in kind or sold into the market. The takeout premium — which we estimate is roughly C$2–3 of the current price — went to zero and was replaced by an overhang. The founder's automatic sale plan was read, fairly or not, as confirmation.</p>
+  <p><strong>Nothing could be done about it.</strong> The NCIB was never used, so there was no floor bid. Ten directors had been elected with 97–99% support in a structure where two holders control more than 90% of the votes. No activist could force a change, because there was no vote to win.</p>
+</div>
+
+<h3>4.1 Falsification checklist &mdash; what to monitor, in order</h3>
+
+<table class="lt wide d3">
+<caption>Table 4 — Pre-mortem monitorables</caption>
+<thead><tr><th>Signal</th><th>Timing</th><th>Bear confirmed if</th><th>Bull confirmed if</th></tr></thead>
+<tbody>
+<tr><td>Section 338 apparel treatment</td><td>22 Aug 2026</td><td>Apparel remains covered</td><td>Explicit apparel carve-out</td></tr>
+<tr><td>DTC comparable sales</td><td>Q2 FY27 (Nov '26)</td><td>Second consecutive negative print</td><td>Return to positive</td></tr>
+<tr><td>Wholesale revenue</td><td>Q2/Q3 FY27</td><td>Down y/y — timing reverses</td><td>Order book sustains growth</td></tr>
+<tr><td>Gross margin</td><td>Q3 FY27 (Feb '27)</td><td>Contracts y/y — markdowns</td><td>Expands y/y as guided</td></tr>
+<tr><td>Inventory</td><td>Q2 FY27</td><td>Up &gt;10% y/y again</td><td>Flat to down</td></tr>
+<tr><td>NCIB execution</td><td>Ongoing</td><td>Still zero repurchased</td><td>Material repurchase disclosed</td></tr>
+<tr><td>FY2027 guidance</td><td>Q2/Q3 FY27</td><td>Cut or withdrawn</td><td>Reaffirmed <em>with</em> tariff absorbed</td></tr>
+<tr><td>Bain Capital</td><td>Anytime</td><td>Registered secondary / in-kind distribution</td><td>Announced transaction</td></tr>
+</tbody>
+</table>
+
+<h2><span class="num">§5</span>Valuation: Are the Multiples Too High?</h2>
+
+<p><strong>No — and that is the wrong question.</strong> On every conventional measure Canada Goose is cheap, both absolutely and relative to its peer set. The multiples are not too high; they are appropriately low, and the debate is entirely about the denominator.</p>
+
+<table class="wide val">
+<caption>Table 5 — Valuation summary (C$ unless noted; price as at 21 Aug 2026)</caption>
+<thead><tr><th>Metric</th><th>Value</th><th>Basis / note</th></tr></thead>
+<tbody>
+<tr class="sect"><td colspan="3">Capitalisation</td></tr>
+<tr><td>Share price</td><td>US$8.65 / ≈C$11.94</td><td>NYSE close; converted at ~1.38</td></tr>
+<tr><td>Diluted shares</td><td>≈97.7m</td><td>Derived from market cap and adj. EPS</td></tr>
+<tr><td>Market capitalisation</td><td>US$845m / ≈C$1,166m</td><td>Reported</td></tr>
+<tr><td>Net debt (FYE Mar-26)</td><td>C$383.2m</td><td>Company definition; <em>excludes lease liabilities</em></td></tr>
+<tr class="tot"><td>Enterprise value (ex-leases)</td><td>≈C$1,549m</td><td>Analyst calculation</td></tr>
+<tr class="sect"><td colspan="3">Trailing — FY2026 actual</td></tr>
+<tr><td>EV / Sales</td><td>1.01×</td><td>on C$1,528.2m</td></tr>
+<tr><td>EV / Adj. EBITDA</td><td>≈5.3×</td><td>EBITDA ≈C$295m <em>implied from 1.3× leverage on C$383.2m</em></td></tr>
+<tr><td>EV / Adj. EBIT</td><td>10.5×</td><td>on C$148.0m</td></tr>
+<tr><td>P/E — adjusted</td><td>15.3×</td><td>on C$0.78</td></tr>
+<tr><td>P/E — <strong>reported (IFRS)</strong></td><td><span class="neg">≈52×</span></td><td>on C$0.23 — <strong>this is the argument</strong></td></tr>
+<tr class="sect"><td colspan="3">Forward — FY2027 estimate</td></tr>
+<tr><td>P/E — consensus</td><td>10.8×</td><td>on ≈C$1.11 (8-analyst consensus)</td></tr>
+<tr><td>EV / Adj. EBIT — at guidance midpoint</td><td>8.6×</td><td>11.5% margin on ≈C$1,570m = C$180m</td></tr>
+<tr class="sect"><td colspan="3">Peer comparison</td></tr>
+<tr><td>Moncler — forward P/E</td><td>23.3×</td><td>~29% EBIT margin, no tariff exposure</td></tr>
+<tr><td>Moncler — EV/EBITDA</td><td>14.2×</td><td></td></tr>
+<tr><td>Amer Sports (Arc'teryx) — EV/EBITDA</td><td>14.7×</td><td>FY26E; ~30% revenue growth</td></tr>
+</tbody>
+</table>
+<p class="fn">EBITDA is implied from management's disclosed 1.3× net-debt leverage and is an estimate, not a reported figure. Note that Canada Goose's net debt definition excludes IFRS 16 lease liabilities while its adjusted EBITDA is calculated post-IFRS 16 — a combination that flatters leverage and depresses EV/EBITDA. Ninety-two leased stores represent a substantial obligation; on a lease-inclusive basis we estimate EV/EBITDA is closer to 6.5–7.5×. Treat the 5.3× as the company's presentation, not economic reality.</p>
+
+<h3>5.1 Interpreting the discount</h3>
+
+<p>The ~55% EV/EBITDA discount to Moncler is not an arbitrage waiting to be closed. It is a rational price for: a 9.7% adjusted EBIT margin against Moncler's ~29%; a geographic mix concentrated in the single most competitive luxury market in the world; a first-in-history tariff aimed at the company's core manufacturing base that Moncler does not face; a reported earnings base that fell 76% last year; and a dual-class structure that makes public shareholders passengers. Each of those is worth several turns.</p>
+
+<div class="box">
+  <div class="box-t">Verdict on valuation</div>
+  <p>Multiples are <strong>not too high</strong>. The stock is a cheap option on a guidance number that has not yet been earned, wrapped in a control structure that limits the ways it can be forced open. The correct posture is not "buy the discount" — it is to ask what has to be true for the C$1.11 to be real, and to demand payment for the risk that C$0.23 was closer to the truth.</p>
+</div>
+
+<h2 class="pb"><span class="num">§6</span>The Contrarian View: What the Market Refuses to See</h2>
+
+<p>The lazy contrarian take on this name is "it's cheap, the tariff is noise, buy it." We think the market is making a subtler and more interesting set of errors — three of them, and they do not all point the same way.</p>
+
+<h3>6.1 The market prices the deal but not the recovery &mdash; and they are the same trade</h3>
+
+<p>Back out the fundamentals. Our base case values the equity at roughly <strong>C$9.50</strong>. The stock is C$11.94. The ~C$2.40 difference is embedded event value — implying the market already assigns something like <strong>25–35% probability to a take-private near the indicated 2025 level</strong>. So the market has <em>not</em> forgotten the Bain process. What it has done is price the operating recovery at approximately zero while pricing the deal at one-in-three.</p>
+
+<p>That is internally inconsistent, and the inconsistency is the opportunity. <strong>The two outcomes are positively correlated, not independent.</strong> Bain has held this asset since 2013 — thirteen years, well past the life of a normal fund — and ran a process in 2025 that drew Boyu Capital, Advent International, Bosideng and an Anta/FountainVest consortium at approximately US$1.35–1.4bn. That process did not clear. The most likely reason is price, and the most likely fix is <em>evidence of margin recovery</em>. A Canada Goose printing 11–12% adjusted EBIT is a Canada Goose Bain can sell. A Canada Goose printing 9% is one Bain must keep. The market is treating the operational path and the exit path as separate bets when they are the same bet.</p>
+
+<h3>6.2 Vertical integration is a tariff option, not merely a tariff exposure</h3>
+
+<p>Consensus reads "75% of units made in Canada" as trapped. The more accurate reading is <strong>"75% of units made in facilities we own and control."</strong> Every competitor selling into the United States sources from third-party Asian factories under their own tariff regimes and cannot redirect production without renegotiating supplier contracts. Canada Goose can make an internal decision. It already operates European manufacturing (Romanian knitwear; Paola Confectii).</p>
+
+<p>The mitigation levers — selective origin-shifting of US-bound non-flagship product, first-sale valuation, classification work on component sourcing, and surgical pricing at the top of the range where elasticity is lowest — are real, and the market is assigning them close to zero value. Management's own "less than 200 basis points, unmitigated" framing contains the word that matters. We would note the counter-argument in §3.1 stands: the levers that work best (relocation) are the ones that cost the most strategically. But the market is currently pricing the exposure at full and the optionality at nil.</p>
+
+<h3>6.3 The bearish thing nobody will say: nobody is underwriting the reported P&amp;L</h3>
+
+<p>Eight to eleven analysts cover a US$845m float. Consensus is modelling roughly <strong>C$1.11 of FY2027 statutory EPS for a company that just reported C$0.23</strong>. That is not a forecast; it is management's adjusted bridge accepted at face value. The sell-side has anchored on "one-timers won't recur, SG&amp;A grows below revenue" — a bridge management supplied — at the exact moment the demand signal underneath it went negative.</p>
+
+<div class="box gold">
+  <div class="box-t">The structural point</div>
+  <p>This is an <strong>orphaned mid-cap</strong>. Thin coverage, a controlled structure that deters institutional accumulation, a float small enough that index and passive flows dominate, and a headline risk (tariffs) that trades faster than any model can be updated. The marginal price-setter in GOOS today is a trade-policy headline, not a discounted cash flow. That cuts both ways: it is why the stock can be 20% above fundamental base-case value and 40% below an indicated strategic bid <em>at the same time</em>, and it is why neither number will be arbitraged away quickly.</p>
+</div>
+
+<h2><span class="num">§7</span>The Shareholder Activist Case</h2>
+
+<p>The economic case for activism at Canada Goose is unusually strong. The mechanical case is close to hopeless. That asymmetry is the entire analysis, and it leads somewhere non-obvious.</p>
+
+<h3>7.1 Why it screens as a target</h3>
+
+<ul>
+<li><strong>Value gap already validated by a third party.</strong> The stock trades ~40% below an indicated strategic bid range from a live 2025 process. Activists rarely get a pre-marked exit price.</li>
+<li><strong>A visible operating gap.</strong> A ~70% gross margin converting to a 9.7% adjusted EBIT margin is a ~60-point SG&amp;A absorption. Even accepting a DTC cost structure, the conversion is poor and management has itself identified store labour productivity, marketing efficiency and controllable overhead as opportunities.</li>
+<li><strong>Retail fleet rationalisation.</strong> An C$8.4m impairment following a review of underperforming locations is the company conceding the case.</li>
+<li><strong>Capital allocation inaction.</strong> Zero repurchases under a ~10%-of-float authorisation while the stock halved.</li>
+<li><strong>Governance optics.</strong> A founder who is both Chairman and CEO, and who has established an automatic plan to sell up to 350,000 shares.</li>
+</ul>
+
+<h3>7.2 Why a conventional campaign fails</h3>
+
+<table class="lt wide">
+<caption>Table 6 — Control analysis</caption>
+<thead><tr><th>Holder</th><th>Voting power</th><th>Instrument</th></tr></thead>
+<tbody>
+<tr><td>Bain Capital (Permitted Holders)</td><td>≈55.5%</td><td>60.5% of Multiple Voting Shares (10 votes each)</td></tr>
+<tr><td>Dani Reiss (Reiss Group)</td><td>≈36.2%</td><td>Multiple + Subordinate Voting Shares</td></tr>
+<tr class="tot"><td>Combined insider control</td><td><strong>&gt;90%</strong></td><td>Effective veto on every ordinary resolution</td></tr>
+<tr><td>Institutions (Fidelity, Vanguard, RBC et al.)</td><td>low single digits of votes</td><td>≈48% of the <em>subordinate float</em></td></tr>
+</tbody>
+</table>
+
+<p>The August 2026 annual meeting settles the question empirically: all ten management nominees were elected with support ranging from <strong>97.43% to 99.98%</strong> of votes cast, the auditor was reappointed with 99.99%, and an expanded Omnibus Incentive Plan passed. Massimo Piombini, a 35-year luxury executive, joined the board — a sensible appointment, and one made entirely at the controllers' discretion. There is no proxy contest to run, no consent solicitation available, and no board seat obtainable without Bain's consent. A 13D would be a press release.</p>
+
+<h3>7.3 Where an activist can actually win: the deal-price campaign</h3>
+
+<div class="box grn">
+  <div class="box-t">The underappreciated lever — MI 61-101</div>
+  <p>If Bain and/or Reiss participate in any take-private, the transaction is a <strong>business combination under Canadian Multilateral Instrument 61-101</strong>, which requires an <strong>independent formal valuation</strong> and <strong>majority-of-the-minority approval</strong> — a vote in which the controllers' shares are excluded. This is the single context in which minority holders of GOOS hold genuine, binding power.</p>
+  <p>It is also the one lever whose value <em>rises as the share price falls</em>. The lower the stock, the greater the temptation for an insider-participating bid to be struck at a premium to a depressed market price rather than to intrinsic or strategic value — and the more decisive a minority veto becomes.</p>
+</div>
+
+<p>The realistic activist playbook is therefore not a governance campaign against the company. It is a <strong>price campaign held in reserve</strong>, executed alongside — not against — a motivated controlling seller:</p>
+
+<ol>
+<li><strong>Accumulate subordinate voting shares</strong> as a position in process resumption, sized to matter in a majority-of-the-minority vote rather than in a director election.</li>
+<li><strong>Establish a public valuation marker</strong> now, anchored to the 2025 indication and to peer multiples, so that any future bid is negotiated against a documented reference rather than a 52-week low.</li>
+<li><strong>Campaign publicly on the NCIB</strong> as the interim value bridge — a company that will not buy its own stock at 0.75× sales while claiming excess cash invites the question of what the cash is being reserved for.</li>
+<li><strong>Reserve the veto.</strong> Do not spend credibility on board composition, which cannot be won. Spend it on the one vote where the controllers are excluded.</li>
+</ol>
+
+<p><strong>Assessment:</strong> low probability of a conventional activist campaign; meaningful probability that an event-driven fund runs the deal-price play. Investors should note this changes the risk profile of the equity: the minority-protection regime provides a partial floor <em>in a transaction</em>, but none at all in the absence of one.</p>
+
+<h2 class="pb"><span class="num">§8</span>Conclusion and Scenario Framework</h2>
+
+<table class="d3 scn">
+<caption>Table 7 — Scenario analysis (C$ per share; USD at ~1.38)</caption>
+<thead><tr><th>Scenario</th><th>Prob.</th><th>Key assumptions</th><th>C$ target</th><th>US$ target</th></tr></thead>
+<tbody>
+<tr><td><strong>Bear</strong></td><td>30%</td><td>Tariff persists on apparel; comps stay negative; FY27 adj. EBIT ~9%; guidance cut; markdowns clear inventory; no deal</td><td>C$6.50</td><td>$4.70</td></tr>
+<tr><td><strong>Base</strong></td><td>35%</td><td>Partial tariff relief; FY27 adj. EBIT ~10%; EPS ≈C$0.90 at 10–11×; wholesale timing reverses; no deal</td><td>C$9.50</td><td>$6.90</td></tr>
+<tr><td><strong>Bull</strong></td><td>20%</td><td>Apparel carved out; guidance met at 11.5%; EPS ≈C$1.15 at 13×; comps recover; China holds</td><td>C$15.00</td><td>$10.90</td></tr>
+<tr><td><strong>Takeout</strong></td><td>15%</td><td>Process resumes and clears at US$1.35–1.4bn (equity vs. EV basis unclear in reporting; range C$15.90–19.30)</td><td>C$17.50</td><td>$12.70</td></tr>
+<tr class="tot"><td><strong>Probability-weighted</strong></td><td>100%</td><td></td><td><strong>C$10.90</strong></td><td><strong>$7.90</strong></td></tr>
+</tbody>
+</table>
+<p class="fn">Probabilities are the author's judgement, not derived from options markets. The takeout range is materially uncertain because published reporting of the 2025 bids does not consistently distinguish equity value from enterprise value; on an EV basis the per-share outcome is nearer C$15.90, on an equity basis nearer C$19.30.</p>
+
+<div class="box red">
+  <div class="box-t">The conclusion, stated plainly</div>
+  <p>At C$11.94 the shares sit <strong>roughly 9% above our probability-weighted value and roughly 20% above fundamental base-case value</strong>. The apparent cheapness on forward multiples is real but misleading: it rests on a consensus EPS number nearly five times last year's reported result, guided by a management team whose outlook explicitly excludes the single largest identifiable risk to it, at a moment when the company's cleanest demand metric has just turned negative.</p>
+  <p>This is not a compounder and should not be owned as one. It is a <strong>small, event-driven position</strong> whose payoff is dominated by two binary files — the Section 338 apparel determination and the resumption of a Bain exit — neither of which is analysable by fundamental work. Size accordingly, or wait. The most attractive risk/reward in this name is not at C$11.94 with the tariff unresolved; it is nearer C$8–9 <em>after</em> a guidance reset, when the operating case can be underwritten on its own merits and the takeout is a free option rather than a quarter of the price.</p>
+</div>
+
+<h2><span class="num">§9</span>Appendix &mdash; Financial Summary</h2>
+
+<table>
+<caption>Table 8 — Consolidated summary (C$m unless noted; fiscal years end late March)</caption>
+<thead><tr><th>Line item</th><th>FY2025A</th><th>FY2026A</th><th>Δ</th><th>FY2027E</th></tr></thead>
+<tbody>
+<tr class="sect"><td colspan="5">Revenue</td></tr>
+<tr><td>Total revenue</td><td>1,348.4</td><td>1,528.2</td><td class="pos">+13.3%</td><td>≈1,570</td></tr>
+<tr><td>&nbsp;&nbsp;Constant currency growth</td><td>—</td><td>+12.4%</td><td></td><td>Low single digit</td></tr>
+<tr><td>&nbsp;&nbsp;DTC</td><td>998.9</td><td>1,157.4</td><td class="pos">+15.9%</td><td>—</td></tr>
+<tr><td>&nbsp;&nbsp;Wholesale</td><td>260.8</td><td>291.2</td><td class="pos">+11.7%</td><td>—</td></tr>
+<tr><td>&nbsp;&nbsp;Other</td><td>88.7</td><td>79.6</td><td class="neg">−10.3%</td><td>—</td></tr>
+<tr><td>DTC comparable sales</td><td>—</td><td>+8.4%</td><td></td><td>—</td></tr>
+<tr class="sect"><td colspan="5">Profitability</td></tr>
+<tr><td>Gross margin</td><td>69.9%</td><td>69.7%</td><td class="neg">−20bp</td><td>Expanding (guided)</td></tr>
+<tr><td>Adjusted EBIT</td><td>171.4</td><td>148.0</td><td class="neg">−13.7%</td><td>≈173–188</td></tr>
+<tr><td>Adjusted EBIT margin</td><td>12.7%</td><td>9.7%</td><td class="neg">−300bp</td><td><strong>11.0–12.0%</strong></td></tr>
+<tr><td>Net income attrib. to shareholders</td><td>≈94.8</td><td>22.5</td><td class="neg">−76.3%</td><td>—</td></tr>
+<tr><td>Reported diluted EPS (C$)</td><td>≈0.96</td><td>0.23</td><td class="neg">−76%</td><td>—</td></tr>
+<tr class="tot"><td>Adjusted diluted EPS (C$)</td><td>1.12</td><td>0.78</td><td class="neg">−30.4%</td><td>≈1.08–1.14 cons.</td></tr>
+<tr class="sect"><td colspan="5">Balance sheet &amp; operations (fiscal year end)</td></tr>
+<tr><td>Inventory</td><td>≈386</td><td>386.3</td><td>flat</td><td>—</td></tr>
+<tr><td>Net debt (co. definition)</td><td>408.8</td><td>383.2</td><td class="pos">−6.3%</td><td>—</td></tr>
+<tr><td>Net debt / adj. EBITDA</td><td>1.3×</td><td>1.3×</td><td>flat</td><td>—</td></tr>
+<tr><td>Permanent stores</td><td>79</td><td>88</td><td>+9 net</td><td>92 at Q1 FY27</td></tr>
+<tr><td>Shares repurchased under NCIB</td><td>—</td><td><span class="neg">nil</span></td><td></td><td><span class="neg">nil to date</span></td></tr>
+</tbody>
+</table>
+<p class="fn">FY2025 net income and reported EPS are derived from the disclosed 76.27% year-over-year decline and are approximate. FY2025 inventory is approximate, derived from the "flat year-over-year" disclosure. FY2027E revenue is 8-analyst consensus; adjusted EBIT range is calculated from company guidance applied to that consensus. Q4 FY2026 SG&amp;A was C$250.5m vs C$219.3m, driven by higher D&amp;A including the C$8.4m store impairment and higher incentive compensation.</p>
+
+<table class="wide">
+<caption>Table 9 — Q4 FY2026 regional growth (constant currency)</caption>
+<thead><tr><th>Region</th><th>Q4 FY26 growth</th><th>Note</th></tr></thead>
+<tbody>
+<tr><td>Asia Pacific</td><td class="pos">+23%</td><td>Led by Mainland China; Lunar New Year capsule; travel retail</td></tr>
+<tr><td>EMEA</td><td class="pos">+25%</td><td>To C$64.9m — smallest region, fastest growth</td></tr>
+<tr><td>North America</td><td class="pos">+11%</td><td><span class="neg">Comparable sales −1%</span>; traffic pressure in high-tourism urban doors</td></tr>
+<tr class="tot"><td>Total Q4 FY2026 revenue</td><td class="pos">+18% to C$453.3m</td><td>Net income attrib. C$28.1m / C$0.28 per diluted share</td></tr>
+</tbody>
+</table>
+<p class="fn">Full-year FY2026 geographic disclosure indicates approximately C$261.4m generated in Canada and approximately C$628.3m in Asia (~41% of total).</p>
+
+<h3>Principal sources</h3>
+<ul class="src">
+<li>Canada Goose Holdings Inc., Fourth Quarter and Full Year Fiscal 2026 Results (14 May 2026) and First Quarter Fiscal 2027 Results (30 July 2026), company press releases and Form 6-K exhibits; Form 20-F for the year ended 29 March 2026.</li>
+<li>Q4 FY2026 and Q1 FY2027 earnings call commentary (Dani Reiss, Chairman &amp; CEO; Beth Clymer, President &amp; COO).</li>
+<li>Canada Goose 2026 Management Information Circular and 7 August 2026 annual and special meeting voting results; NCIB renewal disclosure (10 November 2025).</li>
+<li>CNBC, Reuters, Business of Fashion and Private Equity Insights reporting on Bain Capital's 2025 sale process and take-private indications (August–October 2025).</li>
+<li>White &amp; Case, Wiley, Thomson Reuters and C.H. Robinson client advisories on the Section 338 proclamations of 20 July 2026; NBC News, CNBC, Al Jazeera and Specialty Fabrics Review reporting on the 18 August 2026 three-day pause to 22 August 2026.</li>
+<li>Peer multiples: Moncler S.p.A. and Amer Sports, Inc. market data as reported by third-party financial data providers, August 2026.</li>
+</ul>
+
+<div class="disc">
+<strong>Important disclosures and limitations.</strong> This report was prepared for informational and analytical purposes only and does not constitute investment advice, a recommendation, or an offer or solicitation to buy or sell any security. The author holds no position in the securities discussed. Company financial figures are stated in Canadian dollars and are drawn from Canada Goose Holdings' public disclosures; share prices are quoted in US dollars for the NYSE listing unless otherwise noted, converted at an assumed rate of approximately 1.38 CAD/USD. <strong>Several figures in this report are derived or estimated rather than directly reported</strong> — including fiscal 2025 net income and reported EPS, fiscal 2025 inventory, the fiscal 2026 adjusted EBITDA figure implied from disclosed leverage, diluted share count, and all lease-inclusive enterprise value commentary; these are labelled where they appear and should be verified against the Form 20-F before use. Primary-source documents could not be retrieved directly during preparation owing to network restrictions, and figures were assembled from secondary reporting of company disclosures; readers should confirm all figures against the original filings. Scenario probabilities and price targets represent the author's judgement and are not derived from market-implied data. Forward-looking statements involve risks and uncertainties, and actual results may differ materially. The Section 338 tariff position described was unresolved as at the report date of 21 August 2026, with a pause scheduled to expire 22 August 2026; readers should establish the current position before acting on any part of this analysis.
+</div>
+
+</body>
+</html>
