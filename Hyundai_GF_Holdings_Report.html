@@ -1,0 +1,757 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Hyundai GF Holdings (005440.KS) — Holding Company Analysis</title>
+<style>
+  @page { size: A4; margin: 16mm 14mm 18mm 14mm; }
+  :root{
+    --ink:#14161a; --muted:#5a6270; --rule:#d7dbe2; --rule2:#eceef2;
+    --accent:#0f3d63; --bull:#0b6b4f; --bear:#96331f; --flag:#8a6d1f;
+    --band:#f4f6f9;
+  }
+  *{box-sizing:border-box;}
+  body{
+    font-family:"Georgia","Times New Roman",serif;
+    color:var(--ink); font-size:9.6pt; line-height:1.48; margin:0;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  h1,h2,h3,h4,.sans{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;}
+  h1{font-size:19pt; line-height:1.18; margin:0 0 2mm 0; letter-spacing:-.3px;}
+  h2{
+    font-size:11.5pt; margin:9mm 0 3mm 0; padding-bottom:1.6mm;
+    border-bottom:1.6pt solid var(--accent); color:var(--accent);
+    letter-spacing:.2px; page-break-after:avoid;
+  }
+  h3{font-size:10pt; margin:5.5mm 0 2mm 0; color:#1d2530; page-break-after:avoid;}
+  h4{font-size:9.2pt; margin:4mm 0 1.5mm 0; color:#39414d; page-break-after:avoid;}
+  p{margin:0 0 2.4mm 0;}
+  ul,ol{margin:0 0 2.8mm 0; padding-left:4.6mm;}
+  li{margin-bottom:1.3mm;}
+  table{width:100%; border-collapse:collapse; font-size:8.2pt; margin:2mm 0 3mm 0; page-break-inside:avoid;}
+  th,td{padding:1.5mm 1.8mm; text-align:right; border-bottom:.5pt solid var(--rule2); vertical-align:top;}
+  th{
+    background:var(--accent); color:#fff; font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:600; font-size:7.6pt; text-transform:uppercase; letter-spacing:.4px;
+    border-bottom:none;
+  }
+  td:first-child, th:first-child{text-align:left;}
+  tbody tr:nth-child(even){background:#fafbfc;}
+  tr.tot td{border-top:1pt solid var(--ink); border-bottom:1pt solid var(--ink); font-weight:bold; background:#eef2f6;}
+  tr.sub td{background:#f4f6f9; font-weight:bold;}
+  .tnote{font-size:7.2pt; color:var(--muted); margin:-1.5mm 0 4mm 0; line-height:1.4;}
+  .masthead{border-bottom:2.4pt solid var(--accent); padding-bottom:3mm; margin-bottom:4mm;}
+  .kicker{
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; font-size:7.6pt;
+    letter-spacing:1.6px; text-transform:uppercase; color:var(--accent); font-weight:700;
+  }
+  .sub{color:var(--muted); font-size:9pt; margin-top:1mm;}
+  .stamp{font-size:7.6pt; color:var(--muted); margin-top:2.5mm; font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;}
+  .box{border:.6pt solid var(--rule); border-left:3pt solid var(--accent); padding:3mm 3.4mm; margin:3mm 0; background:#fbfcfd; page-break-inside:avoid;}
+  .box.warn{border-left-color:var(--flag); background:#fdfbf4;}
+  .box.bull{border-left-color:var(--bull); background:#f5fbf8;}
+  .box.bear{border-left-color:var(--bear); background:#fdf7f5;}
+  .box h4{margin-top:0;}
+  .grid2{display:grid; grid-template-columns:1fr 1fr; gap:4mm;}
+  .stats{display:grid; grid-template-columns:repeat(4,1fr); gap:0; border:.6pt solid var(--rule); margin:3mm 0 4mm 0;}
+  .stat{padding:2.4mm 2.8mm; border-right:.6pt solid var(--rule);}
+  .stat:last-child{border-right:none;}
+  .stat .l{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; font-size:6.8pt; text-transform:uppercase; letter-spacing:.6px; color:var(--muted);}
+  .stat .v{font-size:12pt; font-weight:bold; margin-top:.6mm; font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;}
+  .stat .n{font-size:7pt; color:var(--muted);}
+  .tag{
+    display:inline-block; font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:6.6pt; font-weight:700; letter-spacing:.5px; text-transform:uppercase;
+    padding:.5mm 1.4mm; border-radius:1.5px; color:#fff; background:var(--muted); vertical-align:middle;
+  }
+  .tag.e{background:var(--flag);} .tag.d{background:var(--accent);} .tag.x{background:#7a4f8a;}
+  .pos{color:var(--bull); font-weight:bold;} .neg{color:var(--bear); font-weight:bold;}
+  .pb{page-break-before:always;}
+  .avoid{page-break-inside:avoid;}
+  .small{font-size:8.2pt; color:var(--muted);}
+  .rule{border:none; border-top:.6pt solid var(--rule); margin:5mm 0;}
+  ol.timeline{list-style:none; padding-left:0; margin-left:0;}
+  ol.timeline li{padding-left:24mm; text-indent:-24mm; margin-bottom:1.6mm;}
+  ol.timeline .dt{display:inline-block; width:22mm; font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; font-size:7.6pt; font-weight:700; color:var(--accent); text-indent:0;}
+  .foot{font-size:7pt; color:var(--muted); border-top:.6pt solid var(--rule); padding-top:2mm; margin-top:6mm; line-height:1.45;}
+  .srcs{font-size:7pt; color:var(--muted); line-height:1.5; column-count:2; column-gap:6mm;}
+</style>
+</head>
+<body>
+
+<div class="masthead">
+  <div class="kicker">Equity Research &middot; Holding Companies &middot; Korea</div>
+  <h1>Hyundai GF Holdings <span style="font-weight:400;color:#5a6270">(005440.KS)</span></h1>
+  <div class="sub">The last Korean conglomerate holdco to fix its own structure — and the market has not marked it.</div>
+  <div class="stamp">Institutional analysis &middot; 14 September 2026 &middot; All figures in Korean won (KRW) unless stated &middot; ₩1,000bn ≈ US$0.72bn</div>
+</div>
+
+<div class="stats">
+  <div class="stat"><div class="l">Share price</div><div class="v">~₩13,400</div><div class="n">13 Sep 2026 (implied)</div></div>
+  <div class="stat"><div class="l">Shares o/s</div><div class="v">~183.4m</div><div class="n">post 30 Jun 2026 swap</div></div>
+  <div class="stat"><div class="l">Market cap</div><div class="v">~₩2.46tn</div><div class="n">≈ US$1.8bn</div></div>
+  <div class="stat"><div class="l">Est. NAV discount</div><div class="v">~50–58%</div><div class="n">see NAV section</div></div>
+</div>
+
+<div class="box warn">
+<h4>Data provenance — read this first</h4>
+<p style="margin-bottom:1.5mm">This report was assembled under a restricted network environment in which <strong>no market-data terminal, exchange feed, DART/KIND filing server or broker PDF could be retrieved directly</strong>. Every figure below comes from secondary reporting (Korean financial press, broker report summaries, credit-rating commentary) rather than from a primary filing I read end-to-end.</p>
+<p style="margin-bottom:0">Accordingly: figures marked <span class="tag d">Disclosed</span> are traceable to a named disclosure or company statement reported in the press; <span class="tag e">Est.</span> denotes my own estimate or a derived figure; <span class="tag x">Check</span> flags an item where sources conflicted and which <strong>must be verified against the 2026 half-year report (반기보고서) and the KIND/DART filings before any capital is committed.</strong> Ownership percentages in particular were reported inconsistently across sources and several are reconstructed from corporate history. This is a research framework, not a substitute for the primary documents.</p>
+</div>
+
+<h2>1. Bull Case — Why the Discount Should Narrow</h2>
+
+<p>Hyundai GF Holdings is the holding company of Hyundai Department Store Group, Korea's third retail-led chaebol. It was created in March 2023 by the horizontal spin-off (인적분할) of Hyundai Greenfood, and formally became a holding company in November 2023. For its first two years it was a textbook Korean holdco: a messy multi-layer structure, a duplicate-listed intermediate holdco, cross-shareholdings, and a valuation that traded at roughly a third of the sum of its parts.</p>
+
+<p><strong>What changed in 2026 is that management stopped talking about the discount and started dismantling the cause of it.</strong> The bull case rests on five legs.</p>
+
+<h3>1.1 The duplicate listing — the single largest structural cause of the discount — has been eliminated</h3>
+
+<p>On 11 February 2026 GF Holdings and Hyundai Home Shopping (057050) agreed a comprehensive share exchange (포괄적 주식교환) at 1 : 6.3571040, issuing new GF Holdings shares to Home Shopping minorities. Approved at EGMs on 20 April 2026 with 97.7% (GF) and 94.5% (Home Shopping) support, completed 30 June 2026; Home Shopping delisted 20 July 2026. <span class="tag d">Disclosed</span></p>
+
+<p>This matters more than a typical bolt-on. Hyundai Home Shopping was not just an operating business — it was an <em>intermediate holding company</em> sitting between GF Holdings and three of the group's best assets (Handsome, Hyundai L&amp;C, Hyundai FutureNet). The market was applying a holdco discount at GF Holdings <em>on top of</em> a holdco discount at Home Shopping. Collapsing that layer removes a double-discount, not a single one.</p>
+
+<h3>1.2 The remaining structural clean-up is already scheduled, not merely aspirational</h3>
+
+<ol class="timeline">
+  <li><span class="dt">6 Aug 2026</span>Home Shopping announces spin-off of its investment division — ₩1,225.1bn of assets — into a new investment company. <span class="tag d">Disclosed</span></li>
+  <li><span class="dt">12 Nov 2026</span>EGM to approve the spin-off plan.</li>
+  <li><span class="dt">15 Dec 2026</span>Spin-off effective date; 17 Dec registration.</li>
+  <li><span class="dt">by 1 Mar 2027</span>Investment company merges into GF Holdings. Handsome, Hyundai L&amp;C and Hyundai FutureNet convert from <em>grandchild</em> to <em>direct</em> subsidiaries.</li>
+</ol>
+
+<p>Because Home Shopping is now 100%-owned, the merger requires no new share issuance to third parties — <strong>the remaining steps are non-dilutive to outside shareholders</strong>. That is the unusual feature here: the hard, dilutive part of the restructuring is already done and paid for; what remains is free optionality on multiple re-rating.</p>
+
+<div class="box bull">
+<h4>Why converting grandchildren to direct subsidiaries is worth real money</h4>
+<ul style="margin-bottom:0">
+  <li><strong>Dividend leakage disappears.</strong> Handsome and FutureNet dividends currently pass through Home Shopping before reaching GF Holdings. Direct ownership routes cash straight to the holdco and to the holdco's own payout.</li>
+  <li><strong>The Fair Trade Act grandchild-company constraints fall away</strong>, restoring flexibility over stake sizing, disposals and future reorganisations.</li>
+  <li><strong>Analytical legibility.</strong> A flat structure of directly-held, separately-listed stakes is the structure the market actually knows how to value on a sum-of-the-parts basis. Layered structures are where discounts hide.</li>
+</ul>
+</div>
+
+<h3>1.3 The legal regime has turned decisively in favour of Korean holdcos</h3>
+
+<p>The third amendment to the Korean Commercial Act passed the National Assembly on 25 February 2026 and was promulgated and took effect on 6 March 2026. Its core provision: <strong>treasury shares acquired must in principle be cancelled within one year</strong>; legacy treasury holdings must be disposed of or cancelled within a total of roughly 18 months (a six-month preparation window plus one year). <span class="tag d">Disclosed</span> This sits alongside the financial authorities' move to prohibit, in principle, the duplicate listing of parent and carved-out subsidiary.</p>
+
+<p>For a decade the Korean holdco discount has been, in substance, a governance-risk premium: treasury shares functioned as a latent control instrument, and duplicate listings let controlling families monetise subsidiaries twice at minorities' expense. Both mechanisms are now being legislated away. <strong>This is the most important point in the entire bull case, and it is structural rather than cyclical.</strong> Hyundai GF Holdings is unusually well positioned because it has moved <em>ahead</em> of the deadline rather than being dragged to it.</p>
+
+<h3>1.4 Capital returns are large, real and already executing</h3>
+
+<table>
+<thead><tr><th>Shareholder-return action</th><th>Scale</th><th>Status</th></tr></thead>
+<tbody>
+  <tr><td>Group-wide treasury cancellation (announced 11 Feb 2026)</td><td>₩350bn</td><td>In execution <span class="tag d">Disclosed</span></td></tr>
+  <tr><td>— of which: existing treasury at 10 listed affiliates, cancelled in full</td><td>₩210bn</td><td>In execution</td></tr>
+  <tr><td>— of which: new purchases by GF Holdings, Hyundai Dept Store, Greenfood, FutureNet</td><td>₩140bn</td><td>In execution</td></tr>
+  <tr><td>GF Holdings own buyback — tranche 1 (Feb 2026)</td><td>₩50bn</td><td>Completed</td></tr>
+  <tr><td>GF Holdings own buyback — tranche 2 (from Aug 2026, 3 months)</td><td>₩50bn</td><td>In execution</td></tr>
+  <tr><td>GF Holdings total 2026 buy-and-cancel</td><td>₩100bn (~5.3% of shares)</td><td>Cancellation within 2026 <span class="tag d">Disclosed</span></td></tr>
+  <tr><td>2026 DPS guidance (interim ₩65 paid Oct + final)</td><td>≥₩441 (+~47% YoY)</td><td>Guided</td></tr>
+  <tr><td>2025 total shareholder return ratio</td><td>82.5%</td><td>Delivered</td></tr>
+</tbody>
+</table>
+<div class="tnote">The stated endpoint of the ₩350bn programme is that <strong>no listed company in the group holds any treasury shares</strong> — an unusually absolute commitment by Korean standards, and one that pre-empts the new statutory regime rather than merely complying with it.</div>
+
+<h3>1.5 Holdco cash income is compounding fast</h3>
+
+<table>
+<thead><tr><th>Holdco dividend income received</th><th>2024A</th><th>2025A</th><th>2026E</th><th>2027E</th></tr></thead>
+<tbody>
+  <tr><td>Dividends from affiliates (₩bn)</td><td>37.3</td><td>58.6</td><td>62.4</td><td>100.0</td></tr>
+  <tr><td>Growth</td><td>—</td><td class="pos">+57%</td><td class="pos">+6%</td><td class="pos">+60%</td></tr>
+</tbody>
+</table>
+<div class="tnote">Source: Heungkuk Securities, 14 September 2026. The 2027 step-up is the mechanical consequence of Handsome, Hyundai L&amp;C and Hyundai FutureNet dividends arriving directly rather than via Home Shopping, plus rising affiliate payout ratios (Greenfood ≥₩20bn p.a. with interim dividends from 2025; Livart ≥10% of separate operating profit; Everdigm ≥10% of consolidated net profit; Bioland ≥10% of separate operating profit). <span class="tag d">Disclosed</span></div>
+
+<p>Separately, the holdco is building a <strong>trademark royalty</strong> income stream — a fee of roughly 0.2% on affiliate revenue of some ₩13tn, targeting about ₩20bn a year. <span class="tag e">Est.</span> Combined with brand fees, management fees and property rent, the holdco's own recurring income is becoming sufficient to fund the dividend without asset sales — the precondition for a sustainably higher multiple.</p>
+
+<h3>1.6 A large, essentially unmarked non-operating asset</h3>
+
+<p>GF Holdings owns roughly <strong>2,000 pyeong (~6,600 m²) of retail land in the Apgujeong District 3 redevelopment zone</strong>, carried at a book value of about ₩20bn. The district maintenance plan was formally announced in January 2026, and Hyundai E&amp;C has been selected preferred bidder for the ~₩5.6tn District 3 project. Land in the district is appraised at roughly ₩2,590bn in aggregate. Press analysis puts the post-redevelopment value of the GF Holdings parcel at <strong>around ₩500bn</strong>. <span class="tag e">Est.</span></p>
+
+<p>That is a potential ₩480bn uplift against a ~₩2.46tn market capitalisation — roughly <strong>20% of the entire equity value</strong> — carried at essentially nothing, on an asset held for 47 years. It is the clearest example of what "asset value not marked" means in this name.</p>
+
+<h3>1.7 Bull-case summary</h3>
+
+<div class="box bull">
+<p style="margin-bottom:1.5mm"><strong>The re-rating thesis in one paragraph.</strong> The discount exists because of duplicate listing, a layered structure, treasury-share governance risk and a holdco with thin own-account cash flow. All four are being removed on a dated, largely non-dilutive schedule that completes by Q1 2027, into a legal regime that has just made the old practices illegal. Holdco dividend income roughly doubles into 2027 on mechanics alone. A ₩100bn buy-and-cancel retires ~5% of the share count this year. And a ₩500bn property asset sits at ₩20bn of book. Even holding the NAV discount constant at today's level, NAV accretion alone is meaningful; a move from ~55% to the 40–45% typical of restructured Korean holdcos would be worth roughly 25–35% on top.</p>
+<p style="margin-bottom:0"><strong>Brokers agree but are not extreme:</strong> SK Securities ₩20,000 (26 Jun 2026), Heungkuk ₩20,000 (23 Jun) trimmed to ₩18,000 (10 Aug and 14 Sep 2026), against a ~₩13,400 share price — roughly 34% upside to the most recent published target.</p>
+</div>
+
+<h2 class="pb">2. Listed Holdings</h2>
+
+<div class="box warn" style="margin-top:0">
+<p style="margin-bottom:0"><strong>Ownership percentages carry materially more uncertainty than the rest of this report.</strong> Secondary sources reported the same set of percentages against different companies, and several stakes have changed multiple times in 2026 through open-market purchases, the June share exchange and affiliate treasury cancellations (which mechanically raise GF's percentage without any purchase). The table below is my best reconstruction. <strong>Verify every line against the 2026 half-year report before use.</strong></p>
+</div>
+
+<table>
+<thead>
+<tr><th>Company</th><th>Ticker</th><th>Shares held</th><th>Stake</th><th>Held via</th><th>Confidence</th></tr>
+</thead>
+<tbody>
+<tr class="sub"><td colspan="6">Core — direct</td></tr>
+<tr>
+  <td><strong>Hyundai Department Store</strong><br><span class="small">Dept stores, duty free, Hanmu Shopping</span></td>
+  <td>069960</td><td>9,443,866</td><td><strong>43.79%</strong><br><span class="small">43.95% incl. related parties</span></td>
+  <td>Direct (equity-method associate)</td><td>High <span class="tag d">Disclosed</span></td>
+</tr>
+<tr>
+  <td><strong>Hyundai Greenfood</strong><br><span class="small">Food service, catering, food distribution</span></td>
+  <td>453340</td><td>n/d</td><td>~40%</td>
+  <td>Direct subsidiary</td><td>Medium <span class="tag x">Check</span></td>
+</tr>
+<tr>
+  <td><strong>Hyundai Livart</strong><br><span class="small">Furniture, kitchen &amp; bath, interiors; parent of Zinus</span></td>
+  <td>079430</td><td>n/d</td><td>41.2%</td>
+  <td>Direct subsidiary</td><td>Medium</td>
+</tr>
+<tr>
+  <td><strong>Hyundai Everdigm</strong><br><span class="small">Construction equipment, fire apparatus</span></td>
+  <td>041440</td><td>n/d</td><td>25.0%</td>
+  <td>Direct</td><td>Medium</td>
+</tr>
+<tr class="sub"><td colspan="6">Becoming direct subsidiaries by Q1 2027 (currently via Hyundai Home Shopping)</td></tr>
+<tr>
+  <td><strong>Handsome</strong><br><span class="small">Premium/imported apparel (Time, Mine, System)</span></td>
+  <td>020000</td><td>n/d</td><td>40.5%</td>
+  <td>Via Home Shopping (100%)</td><td>Medium</td>
+</tr>
+<tr>
+  <td><strong>Hyundai FutureNet</strong><br><span class="small">Digital media, ICT services, cloud</span></td>
+  <td>126560</td><td>n/d</td><td>78.5%</td>
+  <td>Via Home Shopping (100%)</td><td>Medium</td>
+</tr>
+<tr class="sub"><td colspan="6">Indirect / associate</td></tr>
+<tr>
+  <td><strong>Hyundai Bioland</strong><br><span class="small">Natural cosmetic &amp; health ingredients (KOSDAQ)</span></td>
+  <td>052260</td><td>n/d</td><td>~45.2%</td>
+  <td>Via Hyundai Greenfood</td><td>Low–Med <span class="tag x">Check</span></td>
+</tr>
+<tr>
+  <td><strong>Hyundai Ezwel</strong><br><span class="small">Corporate welfare-benefit platform (KOSDAQ)</span></td>
+  <td>090850</td><td>n/d</td><td>28.3%</td>
+  <td>Associate</td><td>Low–Med <span class="tag x">Check</span></td>
+</tr>
+<tr>
+  <td><strong>Zinus</strong><br><span class="small">Mattresses/bedding, US-centric</span></td>
+  <td>013890</td><td>n/d</td><td>Indirect</td>
+  <td>Via Hyundai Livart</td><td>Low <span class="tag x">Check</span></td>
+</tr>
+<tr>
+  <td><strong>Daewon Kangup</strong><br><span class="small">Auto springs/seats — peripheral affiliate</span></td>
+  <td>000430</td><td>n/d</td><td>Associate</td>
+  <td>Associate</td><td>Low <span class="tag x">Check</span></td>
+</tr>
+<tr class="sub"><td colspan="6">Delisted during the period</td></tr>
+<tr>
+  <td><strong>Hyundai Home Shopping</strong><br><span class="small">TV/online home shopping; former intermediate holdco</span></td>
+  <td>057050</td><td>all</td><td><strong>100%</strong></td>
+  <td>Direct — <strong>delisted 20 Jul 2026</strong></td><td>High <span class="tag d">Disclosed</span></td>
+</tr>
+</tbody>
+</table>
+<div class="tnote">
+"n/d" = share count not disclosed in the sources available. The group comprises roughly 24–26 affiliates (approx. 9 KOSPI, 3 KOSDAQ, 12+ unlisted) depending on the counting basis and date; one source describes 39 consolidated entities including 8 listed.<br>
+<strong>Note on Hyundai Department Store:</strong> despite a 43.79% stake, sources describe it as an <em>associate</em> (관계사, equity-method) rather than a consolidated subsidiary of GF Holdings. This is corroborated by scale — GF Holdings' consolidated H1 2026 revenue of ₩4,139bn (~₩8.3tn annualised) is consistent with Greenfood + Home Shopping + Handsome + L&amp;C + Livart + Everdigm + FutureNet, and <em>excludes</em> Hyundai Department Store's own ~₩4tn+ consolidated revenue. <span class="tag e">Est.</span> This is the single most important accounting fact to verify, because it determines the entire consolidation perimeter.
+</div>
+
+<h3>2.1 Recent changes in holdings</h3>
+
+<table>
+<thead><tr><th>Date</th><th>Change</th><th>Effect</th></tr></thead>
+<tbody>
+<tr><td>Sep 2023</td><td>GF Holdings reaches 30% of Hyundai Dept Store, becomes largest shareholder</td><td>Foundation of holdco structure</td></tr>
+<tr><td>2024–2025</td><td>Continued open-market purchases of Hyundai Dept Store and Handsome</td><td>Stake creep as stated value-up policy</td></tr>
+<tr><td>Feb 2026</td><td>Chairman's in-kind contribution (현물출자) of Home Shopping shares lifts GF's Home Shopping stake to 57.36%</td><td>Enabled the share exchange</td></tr>
+<tr><td>11 Feb 2026</td><td>Share exchange with Home Shopping announced at 1 : 6.3571040; ₩350bn group treasury cancellation announced</td><td>Share count 155.9m → 183.4m (+18%)</td></tr>
+<tr><td>Apr 2026</td><td>Hyundai Dept Store cancels 1,063,901 treasury shares; issued shares 22,628,813 → 21,564,912</td><td>GF's stake rises ~2.3pp with no cash spent</td></tr>
+<tr><td>Jun 2026</td><td>GF buys 48,710 Hyundai Dept Store shares (9,395,156 → 9,443,866)</td><td>Stake to 43.79%; 43.95% with related parties</td></tr>
+<tr><td>30 Jun 2026</td><td><strong>Share exchange completes</strong> — Home Shopping becomes wholly owned</td><td>Duplicate listing eliminated</td></tr>
+<tr><td>20 Jul 2026</td><td><strong>Hyundai Home Shopping delisted</strong> after 16 years</td><td>—</td></tr>
+<tr><td>6 Aug 2026</td><td>Home Shopping announces spin-off of ₩1,225.1bn investment division</td><td>Handsome / L&amp;C / FutureNet to become direct subs</td></tr>
+<tr><td>Aug–Oct 2026</td><td>Second ₩50bn GF buyback tranche; ₩100bn total to be cancelled in 2026</td><td>~5.3% share count reduction</td></tr>
+</tbody>
+</table>
+
+<h3>2.2 Key news flow and what it signals</h3>
+
+<ul>
+  <li><strong>Outside directors drove the duplicate-listing fix.</strong> Korean reporting (thebell, 27 May 2026) attributes the resolution of the duplicate listing to the <em>outside directors</em> rather than to management. If accurate, this is a meaningful governance data point: the board is functioning as something other than a rubber stamp, which is precisely the variable the discount is pricing.</li>
+  <li><strong>VIP Asset Management built a stake in Home Shopping ahead of delisting.</strong> A respected Korean value manager accumulating into a delisting-bound stock is a considered bet that the exchange ratio under-valued Home Shopping and that GF Holdings shares received were the better asset. That capital is now on the GF Holdings register.</li>
+  <li><strong>The value-up KPI was changed — and watered down.</strong> The November 2024 plan targeted PBR 0.8x within three years and 1.0x long term, ROE 11%, and cancellation of 10.6% of treasury by 2028 at ~2% per year. The revised plan (May 2026) makes <strong>PBR 0.7x by 2028</strong> the headline KPI and <strong>drops the investment-return and shareholder-return-ratio targets</strong>. Management framed this as market-oriented; it can equally be read as replacing metrics management controls with one it does not. On end-2025 controlling net assets of ₩4,000.1bn, PBR 0.7x implies a ~₩2.8tn market cap. <span class="tag d">Disclosed</span></li>
+  <li><strong>Q2 2026 results were solid.</strong> Consolidated revenue ₩2,055.7bn (+2.8% YoY), operating profit ₩85.3bn (+15.6%). H1 2026: revenue ₩4,139.4bn (+1.7%), operating profit ₩202.9bn (+20.3%). Operating leverage is running well ahead of the top line.</li>
+  <li><strong>Hyundai Duty Free turned its first-ever annual profit in 2025</strong> — revenue ₩1,014.0bn (+4.3%), operating profit ₩0.2bn — and has now posted four consecutive profitable quarters, with Q2 2026 net revenue ₩310.4bn (+5.8%) and operating profit ₩6.2bn (vs. a ₩1.3bn loss). This sits inside Hyundai Department Store, so it accrues to the listed stake rather than as a separate holdco asset, but it removes a long-standing cash drain from the group.</li>
+</ul>
+
+<h2 class="pb">3. Share Capital and Treasury Shares</h2>
+
+<table>
+<thead><tr><th>Item</th><th>Shares / amount</th><th>Basis</th></tr></thead>
+<tbody>
+<tr><td>Issued shares, pre-exchange (end-2025)</td><td>~155,900,000</td><td><span class="tag d">Disclosed</span></td></tr>
+<tr><td>New shares issued in Home Shopping exchange (30 Jun 2026)</td><td>~27,500,000</td><td>Derived</td></tr>
+<tr class="tot"><td>Issued shares, post-exchange</td><td><strong>~183,400,000</strong></td><td><span class="tag d">Disclosed</span> (+~18%)</td></tr>
+<tr><td>Treasury acquired Feb 2026 (₩50bn)</td><td>~4–5m <span class="tag e">Est.</span></td><td>To be cancelled in 2026</td></tr>
+<tr><td>Treasury being acquired Aug–Oct 2026 (₩50bn)</td><td>~4m <span class="tag e">Est.</span></td><td>To be cancelled in 2026</td></tr>
+<tr><td>Total 2026 buy-and-cancel</td><td>₩100bn ≈ 5.3% of shares</td><td><span class="tag d">Disclosed</span> (SK Securities)</td></tr>
+<tr class="tot"><td>Pro-forma issued shares after 2026 cancellations</td><td><strong>~174–175m</strong> <span class="tag e">Est.</span></td><td>Year-end 2026</td></tr>
+</tbody>
+</table>
+
+<div class="box">
+<h4>Treasury share position — the headline is that there should soon be none</h4>
+<p style="margin-bottom:1.5mm">GF Holdings' stated policy, and the group's ₩350bn programme, is that <strong>every listed company in the group ends with zero treasury shares.</strong> Treasury is bought and cancelled rather than warehoused. Under the amended Commercial Act (effective 6 March 2026) this is no longer merely policy: treasury acquired must be cancelled within one year, and pre-existing holdings within roughly 18 months.</p>
+<p style="margin-bottom:0"><strong>Practical implication:</strong> the classic Korean holdco trick — parking treasury shares that spring back to life as voting stock in a spin-off or merger — is closed off here both by law and by stated policy. Any residual treasury balance found in the half-year report should be treated as in-flight and destined for cancellation, not as a permanent buffer.</p>
+</div>
+
+<h3>3.1 Shareholder register — and an under-discussed cross-holding</h3>
+
+<table>
+<thead><tr><th>Holder</th><th>Shares</th><th>Stake (pre-exchange)</th><th>Stake (post-exchange)</th></tr></thead>
+<tbody>
+<tr><td><strong>Chairman Jung Ji-sun</strong> (정지선)</td><td>61,847,333</td><td><strong>39.7%</strong> <span class="tag d">Disclosed</span></td><td>~33.7%+ <span class="tag e">Est.</span></td></tr>
+<tr><td>Vice Chairman Jung Kyo-sun (정교선) and family</td><td>n/d</td><td>n/d</td><td>n/d <span class="tag x">Check</span></td></tr>
+<tr><td>Handsome (affiliate cross-holding)</td><td>n/d</td><td>4.3% <span class="tag x">Check</span></td><td>~3.7% <span class="tag e">Est.</span></td></tr>
+<tr><td>Hyundai FutureNet (affiliate cross-holding)</td><td>n/d</td><td>2.2% <span class="tag x">Check</span></td><td>~1.9% <span class="tag e">Est.</span></td></tr>
+<tr><td>Free float / institutions / foreign</td><td>—</td><td>balance</td><td>balance</td></tr>
+</tbody>
+</table>
+<div class="tnote">The chairman's post-exchange percentage depends on how many GF Holdings shares he received for his own Home Shopping holding; he had contributed Home Shopping shares in kind in early 2026, so his dilution is likely well below the mechanical 18%. Family + affiliate control is comfortably above 40% either way — see §8 on activism.</div>
+
+<div class="box warn">
+<h4>The cross-holding that has to be resolved — and which cuts both ways</h4>
+<p style="margin-bottom:1.5mm">Handsome and Hyundai FutureNet appear to hold roughly <strong>4.3% and 2.2% of GF Holdings respectively</strong> (May 2026 basis), a legacy of the 2023 Greenfood spin-off. <span class="tag x">Check</span> Under the Monopoly Regulation and Fair Trade Act, a <em>subsidiary</em> of a holding company may not hold shares in that holding company. Today they are grandchildren, held via Home Shopping. <strong>When the Q1 2027 merger converts them into direct subsidiaries, roughly 6.5% of GF Holdings' share register becomes legally impermissible</strong> and must be resolved within the statutory grace period.</p>
+<p style="margin-bottom:0"><strong>Bull reading:</strong> the cleanest resolution is for GF Holdings to buy those shares in and cancel them — a further ~6% share-count reduction on top of the 5.3% already in train, and one that no sell-side NAV model I can find is crediting. <strong>Bear reading:</strong> if instead they are sold into the market, that is a ~₩160bn overhang against a ₩2.46tn cap. Either way, <em>this is a dated, forced, quantifiable event in 2027 that the market appears not to be pricing.</em> It is the most actionable single item in this report.</p>
+</div>
+
+<h2 class="pb">4. Unlisted Holdings and Estimated Values</h2>
+
+<p>An important structural point that is frequently mis-modelled: <strong>the group's two most valuable unlisted assets — Hanmu Shopping and Hyundai Duty Free — sit beneath Hyundai Department Store, which is itself listed.</strong> Their value is therefore already inside the Hyundai Department Store share price (to the extent the market marks it) and must <em>not</em> be added again at the GF Holdings level. They are shown below for completeness and because they are the main reason to argue Hyundai Department Store is itself undervalued — a second-order discount stacked beneath the first.</p>
+
+<table>
+<thead><tr><th>Entity</th><th>Business</th><th>Ownership</th><th>Additive at holdco?</th><th>Est. equity value (₩bn)</th><th>Method</th></tr></thead>
+<tbody>
+<tr><td><strong>Hyundai L&amp;C</strong></td><td>Building materials: engineered stone, films, flooring</td><td>100% via Home Shopping</td><td class="pos">Yes</td><td>200–300</td><td>~4–5x EV/EBITDA less est. net debt</td></tr>
+<tr><td><strong>Apgujeong District 3 land</strong></td><td>~2,000 pyeong retail site, book ₩20bn</td><td>Direct</td><td class="pos">Yes</td><td>300–500</td><td>Press appraisal, risk-adjusted</td></tr>
+<tr><td><strong>Hyundai Dream Tour</strong></td><td>Corporate travel / business trip services</td><td>Group</td><td class="pos">Yes</td><td>90–130</td><td>~8x EBIT (asset-light, 32% margin)</td></tr>
+<tr><td><strong>Hyundai IT&amp;E</strong></td><td>Group IT services</td><td>95.0% <span class="tag x">Check</span></td><td class="pos">Yes</td><td>40–80</td><td>~6–8x EBIT on small base</td></tr>
+<tr><td><strong>Hyundai Rental Care</strong></td><td>Water purifier / appliance rental</td><td>Group</td><td class="pos">Yes</td><td>0–40</td><td>Historically loss-making; nominal</td></tr>
+<tr><td><strong>Hyundai Shopping</strong> and other small unlisted entities</td><td>Various support/service</td><td>Group</td><td class="pos">Yes</td><td>30–80</td><td>Book-value proxy</td></tr>
+<tr class="tot"><td colspan="4">Estimated additive unlisted value at holdco level</td><td><strong>660–1,130</strong></td><td><span class="tag e">Est.</span></td></tr>
+<tr class="sub"><td colspan="6">Held beneath Hyundai Department Store — already captured in the listed stake, NOT additive</td></tr>
+<tr><td><strong>Hanmu Shopping</strong></td><td>Owns the Trade Center, Mokdong, Kintex, Chungcheong store properties</td><td>100% of Hyundai Dept Store</td><td class="neg">No</td><td>1,500–2,000</td><td>~12–15x EBIT; prime Gangnam real estate</td></tr>
+<tr><td><strong>Hyundai Duty Free</strong></td><td>Airport &amp; downtown duty free</td><td>100% of Hyundai Dept Store</td><td class="neg">No</td><td>300–500</td><td>Early-cycle recovery; ~0.3–0.5x sales</td></tr>
+</tbody>
+</table>
+<div class="tnote">All equity values are my own estimates <span class="tag e">Est.</span> derived from reported revenue/EBIT and sector multiples; none is a marked or transacted value. Ownership chains for Hyundai IT&amp;E, Dream Tour, Rental Care and Shopping could not be confirmed to a specific holding entity and are shown as "Group".</div>
+
+<h3>4.1 Operating metrics — unlisted companies</h3>
+
+<p>The data below is what could be reconstructed from Korean corporate-registry and press sources. Coverage is incomplete: five clean years were available only for Hyundai L&amp;C, and <strong>no source disclosed depreciation and amortisation for any of these entities</strong>. EBITDA and EBITDA margins are therefore built on my own D&amp;A assumptions and should be treated as indicative ranges, not reported figures.</p>
+
+<h4>Hyundai L&amp;C — separate (별도) basis, ₩bn</h4>
+<table>
+<thead><tr><th>Metric</th><th>2021</th><th>2022</th><th>2023</th><th>2024</th><th>2025</th></tr></thead>
+<tbody>
+<tr><td>Revenue</td><td>~1,000 <span class="tag e">Est.</span></td><td>832.0</td><td>840.6</td><td>939.7</td><td>848.9</td></tr>
+<tr><td>Revenue growth</td><td>n/a</td><td class="neg">-16.8%</td><td>+1.0%</td><td class="pos">+11.8%</td><td class="neg">-9.7%</td></tr>
+<tr><td>EBIT (operating profit)</td><td>n/d</td><td class="neg">-0.5</td><td>22.3</td><td>25.5</td><td>25.7</td></tr>
+<tr><td>EBIT margin</td><td>n/d</td><td class="neg">-0.1%</td><td>2.7%</td><td>2.7%</td><td>3.0%</td></tr>
+<tr><td>D&amp;A (assumed)</td><td>~38°</td><td>~38°</td><td>~38°</td><td>~38°</td><td>~38°</td></tr>
+<tr><td>EBITDA (derived)</td><td>n/d</td><td>~37.5°</td><td>~60.3°</td><td>~63.5°</td><td>~63.7°</td></tr>
+<tr><td>EBITDA margin (derived)</td><td>n/d</td><td>~4.5%°</td><td>~7.2%°</td><td>~6.8%°</td><td>~7.5%°</td></tr>
+</tbody>
+</table>
+<div class="tnote">° = derived using an assumed ₩38bn annual D&amp;A charge, consistent with a manufacturer of engineered stone, films and flooring at this revenue scale. <strong>Not a reported figure.</strong> Consolidated revenue is higher than separate (reported at ₩1,078.1bn for 2024 consolidated vs. ₩939.7bn separate). Company crossed ₩1tn revenue in 2021 and has hovered around that level since — <em>five years without growth</em>. Margin recovery from the 2022 loss is real but the top line is stagnant; India and Canada are the stated expansion vectors.</div>
+
+<h4>Other unlisted entities — partial data, ₩bn</h4>
+<table>
+<thead><tr><th>Entity</th><th>Year</th><th>Revenue</th><th>Growth</th><th>EBIT</th><th>EBIT margin</th><th>EBITDA°</th><th>EBITDA margin°</th></tr></thead>
+<tbody>
+<tr><td rowspan="2"><strong>Hyundai Duty Free</strong></td><td>2024</td><td>972.3 <span class="tag e">Est.</span></td><td>n/a</td><td>negative</td><td class="neg">neg.</td><td>~75°</td><td>~7.7%°</td></tr>
+<tr><td>2025</td><td>1,014.0</td><td class="pos">+4.3%</td><td>0.2</td><td>0.0%</td><td>~80°</td><td>~7.9%°</td></tr>
+<tr><td><strong>Hyundai Duty Free</strong></td><td>Q2 2026</td><td>310.4 <span class="small">(net)</span></td><td class="pos">+5.8%</td><td>6.2</td><td class="pos">2.0%</td><td>~26°</td><td>~8.4%°</td></tr>
+<tr><td><strong>Hanmu Shopping</strong></td><td>2023</td><td>662.9</td><td>n/d</td><td>126.9</td><td class="pos">19.1%</td><td>~177°</td><td>~26.7%°</td></tr>
+<tr><td rowspan="2"><strong>Hyundai Dream Tour</strong></td><td>2024</td><td>37.2</td><td>n/d</td><td>11.5</td><td class="pos">31.0%</td><td>~12.5°</td><td>~33.6%°</td></tr>
+<tr><td>2025</td><td>39.9</td><td class="pos">+7.3%</td><td>12.7</td><td class="pos">31.8%</td><td>~13.7°</td><td>~34.3%°</td></tr>
+<tr><td><strong>Hyundai IT</strong> <span class="tag x">Check</span></td><td>2024</td><td>54.7</td><td>n/d</td><td>1.8</td><td>3.3%</td><td>~4°</td><td>~7.3%°</td></tr>
+</tbody>
+</table>
+<div class="tnote">
+° EBITDA and EBITDA margin are derived using assumed D&amp;A and are <strong>not reported figures</strong>: Duty Free ~₩75–80bn p.a. (heavy right-of-use amortisation on airport concessions); Hanmu Shopping ~₩50bn p.a. (property-owning entity); Dream Tour ~₩1bn (asset-light); Hyundai IT ~₩2bn.<br>
+Hyundai Duty Free 2024 revenue is inferred from the disclosed 2025 figure and the +4.3% growth rate. "Hyundai IT" may or may not be the same legal entity as Hyundai IT&amp;E — the source was ambiguous; treat as indicative of scale only. <strong>Five-year histories for entities other than Hyundai L&amp;C could not be obtained from accessible sources and would need to be pulled from the audit reports filed on DART.</strong>
+</div>
+
+<div class="box">
+<h4>What the unlisted book actually tells you</h4>
+<ul style="margin-bottom:0">
+  <li><strong>Hanmu Shopping is the group's quiet crown jewel</strong> — ~₩127bn of operating profit at a 19% margin from owning four department-store properties, including the Trade Center store in Gangnam. This is a REIT-like cash annuity trapped inside a retail operating company. It is the strongest single argument that Hyundai Department Store is itself undervalued, and therefore that GF Holdings' largest asset is marked too low at the first level before any holdco discount is applied.</li>
+  <li><strong>Hyundai L&amp;C is the weakest link.</strong> Five years of no revenue growth, a 3% EBIT margin, and 2025 revenue down 9.7%. It is a cyclical building-materials business inside a consumer group. It is also, for that reason, <strong>the most obvious disposal candidate</strong> — and a sale would be the single clearest signal management is willing to shrink to create value.</li>
+  <li><strong>Hyundai Duty Free has stopped bleeding.</strong> Four consecutive profitable quarters after years of losses, achieved by shrinking (exiting downtown stores, reweighting to airport). Operating profit of ₩0.2bn on ₩1,014bn of revenue is still functionally break-even, but the direction of travel removes a drag that suppressed the whole group's multiple.</li>
+</ul>
+</div>
+
+<h2 class="pb">5. Holding-Company Net Debt (Non-Consolidated)</h2>
+
+<p>The user's question — net debt at the holdco level with consolidated listed subsidiaries stripped out — is exactly the right one, because GF Holdings' consolidated balance sheet nets the cash of Greenfood, Home Shopping, Handsome, Livart, L&amp;C and Everdigm against holdco borrowings and flatters the picture materially. <strong>I could not retrieve the separate-basis (별도) balance sheet directly.</strong> What follows is a reconstruction from credit-rating commentary and management guidance, presented as a range.</p>
+
+<table>
+<thead><tr><th>Indicator</th><th>Basis</th><th>Value</th><th>As of</th></tr></thead>
+<tbody>
+<tr><td>Debt-to-equity ratio</td><td>Consolidated</td><td>36.1%</td><td>Sep 2025 <span class="tag d">Disclosed</span></td></tr>
+<tr><td>Borrowings dependence (차입금의존도)</td><td>Consolidated</td><td>8.8%</td><td>Sep 2025 <span class="tag d">Disclosed</span></td></tr>
+<tr><td><strong>Debt-to-equity ratio</strong></td><td><strong>Separate (별도)</strong></td><td><strong>33.2%</strong></td><td>Sep 2025 <span class="tag d">Disclosed</span></td></tr>
+<tr><td><strong>Double leverage ratio</strong></td><td><strong>Separate (별도)</strong></td><td><strong>114.0%</strong></td><td>Sep 2025 <span class="tag d">Disclosed</span></td></tr>
+<tr><td>Debt-to-equity ratio</td><td>Separate</td><td>18.3%</td><td>Q1 2023 (at formation)</td></tr>
+<tr><td>Consolidated net borrowings ratio</td><td>Consolidated</td><td>-13.2% (net cash)</td><td>FY2025 <span class="tag d">Disclosed</span></td></tr>
+<tr><td>Consolidated net borrowings ratio</td><td>Consolidated</td><td>-16.7% (net cash)</td><td>FY2026E</td></tr>
+<tr><td>Year-end cash (consolidated, ₩bn)</td><td>Consolidated</td><td>201.3 (2025) → 228.0 (2026E)</td><td>Broker model <span class="tag x">Check</span></td></tr>
+<tr><td><strong>Management target — net borrowings</strong></td><td><strong>Holdco</strong></td><td><strong>~₩250bn</strong></td><td>Stated policy <span class="tag d">Disclosed</span></td></tr>
+</tbody>
+</table>
+
+<div class="box">
+<h4>Reconstructed holdco-only position</h4>
+<p style="margin-bottom:1.5mm"><strong>Estimated holdco (별도) net debt: ₩250–400bn</strong> <span class="tag e">Est.</span>, i.e. roughly 10–16% of market capitalisation and on the order of 5–9% of gross asset value. The reasoning:</p>
+<ul style="margin-bottom:1.5mm">
+  <li><strong>Double leverage of 114%</strong> is the most informative single number. It means the carrying value of investments in subsidiaries exceeds the holdco's own equity by only 14% — i.e. subsidiary stakes are financed almost entirely by holdco equity, with modest debt at the top. By Korean holdco standards (many sit at 120–140%) this is conservative.</li>
+  <li><strong>Separate debt-to-equity of 33.2%</strong>, up from 18.3% at formation, reflects debt raised to fund the Hyundai Department Store stake-building campaign in 2024–25 — leverage taken on deliberately to buy assets, not to plug an operating hole.</li>
+  <li><strong>Management explicitly targets ~₩250bn of net borrowings</strong>, which brackets the low end of the range.</li>
+  <li><strong>The holdco is not a pure shell:</strong> it retained a distribution/trading business from the Greenfood spin, generating separate-basis revenue of ₩740.9bn (2024) and ₩809.2bn (2025), plus dividends (₩58.6bn in 2025, ~₩100bn by 2027), trademark royalties (~₩20bn target) and property rent. Interest cover at the holdco level is comfortable.</li>
+</ul>
+<p style="margin-bottom:0"><strong>Forward path:</strong> the ₩1,225.1bn investment company merging in by Q1 2027 arrives for no cash consideration, adding assets without adding debt. Against that, ₩100bn of 2026 buybacks and a rising dividend are cash out. Net-net, holdco leverage should be broadly stable to lower. <strong>This is not a balance sheet that constrains the equity story.</strong> <span class="tag x">Check against the half-year report — this range is reconstructed, not read.</span></p>
+</div>
+
+<h2>6. Valuation — Is It Too High?</h2>
+
+<h3>6.1 The NAV arithmetic, honestly presented</h3>
+
+<p>I am not going to present a spuriously precise NAV bridge from data I could not verify. Here is what can be anchored, and what follows from it.</p>
+
+<table>
+<thead><tr><th>Anchor</th><th>Value</th><th>Date / source</th></tr></thead>
+<tbody>
+<tr><td>Value of 7 subsidiary stakes</td><td>₩1,492.4bn</td><td>Aug 2025, thebell <span class="tag d">Disclosed</span></td></tr>
+<tr><td>Listed stake value ("NAV" as cited)</td><td>₩1,600bn → ₩2,500bn (+56%)</td><td>To Jun 2026, SK Securities <span class="tag d">Disclosed</span></td></tr>
+<tr><td>Hyundai Dept Store as % of that value</td><td>38.7% → 58.4%</td><td>Jun 2026, SK Securities</td></tr>
+<tr><td>Hyundai Dept Store market cap</td><td>~₩3,597bn</td><td>10 Jun 2026 <span class="tag x">Check</span></td></tr>
+<tr><td>GF Holdings market cap</td><td>₩2,302.7bn</td><td>7 May 2026 close, Bloter <span class="tag d">Disclosed</span></td></tr>
+<tr><td>GF Holdings market cap</td><td>~₩2,460bn <span class="tag e">Est.</span></td><td>13 Sep 2026, derived from broker target/upside</td></tr>
+<tr><td>Consolidated controlling net assets</td><td>₩4,000.1bn</td><td>End-2025 <span class="tag d">Disclosed</span></td></tr>
+<tr><td>Appraisal (buyout) price in the exchange</td><td>₩9,383/share</td><td>Feb 2026 <span class="tag d">Disclosed</span></td></tr>
+</tbody>
+</table>
+
+<p><strong>Reconciling these requires care, and the reconciliation is itself informative.</strong> The widely-quoted "54.8% NAV discount" cannot be squared with a ₩2.5tn NAV and a ₩2.3tn market cap — that would imply an 8% discount, which no Korean holdco trades at. The resolution is that the ₩1.6tn → ₩2.5tn figure is the value of <em>listed subsidiary stakes</em>, not full NAV. Adding unlisted assets, the Apgujeong land and holdco operating businesses, and adjusting for the post-June step-up in the Hyundai Department Store stake (37.2% → 43.79%) and full ownership of Home Shopping, a gross asset value in the region of <strong>₩5.0–5.8tn</strong> is defensible, against which a 54.8% discount reconciles to roughly today's market capitalisation.</p>
+
+<table>
+<thead><tr><th>Scenario</th><th>Gross asset value</th><th>Less holdco net debt</th><th>NAV</th><th>Implied discount at ~₩2.46tn cap</th></tr></thead>
+<tbody>
+<tr><td>Conservative</td><td>₩4,800bn</td><td>(400)</td><td>₩4,400bn</td><td><strong>44%</strong></td></tr>
+<tr><td>Base</td><td>₩5,400bn</td><td>(325)</td><td>₩5,075bn</td><td><strong>52%</strong></td></tr>
+<tr><td>Including full Apgujeong uplift</td><td>₩5,900bn</td><td>(250)</td><td>₩5,650bn</td><td><strong>56%</strong></td></tr>
+</tbody>
+</table>
+<div class="tnote">All three scenarios are <span class="tag e">Est.</span> and built on the reconciliation above rather than on a line-by-line mark of each stake at a verified closing price. Treat the <em>range</em> (44–56%) as the output, not any single number.</div>
+
+<h3>6.2 So — is it too high?</h3>
+
+<div class="box bull">
+<p style="margin-bottom:1.5mm"><strong>On an absolute basis, no.</strong> The stock trades at roughly 0.55–0.6x consolidated controlling book value, at a 44–56% discount to a reasonably-struck NAV, on a ~3.3% dividend yield (₩441 DPS on ~₩13,400) with the dividend guided up ~47% this year and holdco dividend income set to rise ~60% again in 2027. Management's own 2028 PBR target of 0.7x implies ~₩2.8tn, about 14% above today. That target is <em>modest</em>, which is itself telling — the bar management has set is one it should clear comfortably if the restructuring completes on schedule.</p>
+<p style="margin-bottom:0"><strong>The honest caveat:</strong> the stock has already re-rated hard. The February 2026 statutory appraisal price was ₩9,383; the shares now trade around ₩13,400 — up roughly 43% in seven months. The easy money on the announcement has been made. What is left is the <em>execution</em> leg, which is slower, less dramatic, and where the risk/reward is more balanced than it was in February. Note also the stock is <em>down</em> roughly 9% from its May 2026 level despite the exchange completing on schedule — the market gave back some of the announcement premium once the event was in hand.</p>
+</div>
+
+<h2 class="pb">7. Bear Case — Why the Discount Could Widen or Stay Static</h2>
+
+<h3>7.1 The underlying assets are not compounding</h3>
+
+<p>This is the bear case's strongest argument and it is largely absent from the bull narrative. A holdco discount narrows durably only when the assets beneath it are worth owning. Several are not improving:</p>
+
+<table>
+<thead><tr><th>Handsome — consolidated operating profit (₩bn)</th><th>2022</th><th>2023</th><th>2024</th><th>2025</th></tr></thead>
+<tbody>
+<tr><td>Operating profit</td><td>168.3</td><td>100.5</td><td>63.5</td><td>52.2</td></tr>
+<tr><td>Change</td><td>—</td><td class="neg">-40%</td><td class="neg">-37%</td><td class="neg">-18%</td></tr>
+</tbody>
+</table>
+<div class="tnote"><strong>Four consecutive years of decline; operating profit has fallen 69% from peak.</strong> Q2 2026 showed revenue of ₩363.2bn (+7.4%) and operating profit of ₩4.6bn (+525% YoY) — but that flatters off a collapsed base, and operating profit fell 87.4% sequentially from Q1 while net profit dropped from ₩27.3bn to ₩3.3bn. Korean press has explicitly characterised the Q2 print as "a profitability warning light hidden behind base effects."</div>
+
+<ul>
+  <li><strong>Hyundai L&amp;C:</strong> five years without revenue growth, 2025 revenue down 9.7%, 3% EBIT margin.</li>
+  <li><strong>Hyundai Department Store:</strong> reporting from mid-2026 describes H1 profitability deteriorating while borrowings and bonds <em>increased</em>, with short-term debt up sharply and inventory building against falling sales. This is GF Holdings' largest asset by a wide margin — 58%+ of listed stake value. Other sources simultaneously report strong same-store growth driven by foreign spending, so the picture is genuinely mixed; <span class="tag x">this contradiction must be resolved from the actual filings.</span></li>
+  <li><strong>Hyundai Duty Free:</strong> profitable, but at a 0.02% operating margin. It has stopped losing money; it has not started making any.</li>
+</ul>
+
+<p><strong>The uncomfortable synthesis:</strong> GF Holdings' consolidated operating profit grew 20.3% in H1 2026 largely through cost control and the duty-free swing from loss to break-even, not through demand. If Korean discretionary consumption stays weak and the inbound-tourism tailwind fades, the earnings base that the re-rating is implicitly extrapolating does not exist.</p>
+
+<h3>7.2 Management diluted its own value-up target</h3>
+
+<p>The November 2024 plan promised PBR 0.8x in three years and 1.0x long-term, ROE 11%, and defined shareholder-return and investment-return targets. The May 2026 revision <strong>lowered the headline to PBR 0.7x by 2028 and removed the investment-return and shareholder-return-ratio targets entirely.</strong> As Korean commentary noted, PBR is a metric whose numerator management does not control — so the company has replaced commitments it could be held to with an outcome it can attribute to the market. A company confident in the re-rating does not lower its own bar eighteen months in.</p>
+
+<h3>7.3 The 18% dilution was real and the exchange ratio favoured the controller</h3>
+
+<p>The share exchange issued ~27.5m new shares, 18% dilution, at a ratio set by market prices under the Capital Markets Act — i.e. at a GF Holdings price that was itself deeply discounted. The statutory buyout price was ₩9,383. Minorities of GF Holdings exchanged 18% of the company for the ~43% of Home Shopping they did not own, at prices struck when GF Holdings traded near its discount lows. The company notes it obtained an additional external valuation not legally required; that is a reasonable defence, but <strong>the structural criticism — that "fair value equals depressed market value" is a mechanism that systematically advantages whoever controls the timing — stands.</strong> VIP Asset Management's decision to buy Home Shopping rather than GF Holdings into the event suggests at least one sophisticated participant reached the same conclusion.</p>
+
+<h3>7.4 The discount may simply be the controlling family's discount</h3>
+
+<p>With the chairman at ~34–40% and affiliates holding a further ~6%, control is absolute and not contestable. Korean holdco discounts persist for a structural reason that restructuring does not cure: <strong>the controlling family's economic interest is in the holdco's <em>control</em>, not in its share price</strong>, and a low share price is useful when consolidating stakes and planning succession. Succession from Chairman Jung Ji-sun's generation is the unpriced elephant — a future inheritance-tax event is generally better served by a <em>depressed</em> holdco valuation. This is the argument for the discount being semi-permanent regardless of how clean the structure looks.</p>
+
+<h3>7.5 Other bear points</h3>
+
+<ul>
+  <li><strong>Announcement premium already banked.</strong> Up ~43% from the February appraisal price. The catalyst that re-rated the stock has occurred.</li>
+  <li><strong>Sell-side targets have come <em>down</em>.</strong> Heungkuk cut from ₩20,000 (June) to ₩18,000 (August, reiterated 14 September). The upgrade cycle has already turned.</li>
+  <li><strong>Apgujeong is a decade-long story, not a catalyst.</strong> Korean redevelopment routinely runs 8–15 years with litigation risk; a 2025 dispute over land ownership within District 3 (Seoul City and Hyundai E&amp;C holdings) is already a live complication. Discount it heavily.</li>
+  <li><strong>Post-2027 there is no structural catalyst left.</strong> Once the flat structure is achieved, the story becomes "own a discounted basket of slow-growth Korean consumer companies." That is a much harder sell.</li>
+  <li><strong>Cross-holding overhang.</strong> If the ~6.5% held by Handsome and FutureNet is sold rather than cancelled, that is a ₩160bn supply event.</li>
+  <li><strong>Liquidity.</strong> With ~40% family and ~6% affiliate holdings, true float is roughly half the market cap — position-sizing constraint for institutional capital, and a reason the discount is slow to close.</li>
+</ul>
+
+<h2 class="pb">8. Management's Track Record on Narrowing the Discount</h2>
+
+<p>This is the section that most distinguishes GF Holdings from the typical Korean holdco. The record is genuinely strong on actions taken, and weaker on targets kept.</p>
+
+<table>
+<thead><tr><th>Action</th><th>Date</th><th>Assessment</th></tr></thead>
+<tbody>
+<tr><td><strong>Holding-company conversion</strong> — spin-off of Hyundai Greenfood into holdco + opco</td><td>Mar / Nov 2023</td><td class="pos">Delivered. Resolved a long-standing two-holdco ambiguity and the risk of the group splitting between the two brothers.</td></tr>
+<tr><td><strong>Stake consolidation</strong> — Hyundai Dept Store from 30% → 43.79%; Handsome purchases</td><td>2023–2026</td><td class="pos">Delivered, sustained, cash-funded. Unambiguously NAV-accretive at a discount.</td></tr>
+<tr><td><strong>Chairman's in-kind contribution</strong> of Home Shopping shares to GF Holdings</td><td>Feb 2026</td><td class="pos">Delivered. The controller put his own assets into the listco rather than extracting — the strongest single alignment signal in the record.</td></tr>
+<tr><td><strong>Elimination of duplicate listing</strong> — Home Shopping taken to 100% and delisted</td><td>Feb–Jul 2026</td><td class="pos">Delivered ahead of regulation. Rare in Korea. This is the flagship action.</td></tr>
+<tr><td><strong>Treasury share cancellation</strong> — ₩350bn group-wide, target of zero treasury at every listed affiliate</td><td>2026, ongoing</td><td class="pos">In execution, and more absolute than the statute requires.</td></tr>
+<tr><td><strong>Buy-and-cancel at the holdco</strong> — ₩100bn in 2026 (~5.3% of shares)</td><td>Feb &amp; Aug 2026</td><td class="pos">In execution. Note the discipline: shares are cancelled, not warehoused.</td></tr>
+<tr><td><strong>Dividend increases</strong> — semi-annual dividends introduced; 2026 DPS ≥₩441 (+47%); 2025 return ratio 82.5%</td><td>2025–2026</td><td class="pos">Delivered and rising.</td></tr>
+<tr><td><strong>Investor relations</strong> — integrated group IR events, standalone value-up disclosures at four listed affiliates, dedicated value-up IR days</td><td>2024–2026</td><td class="pos">Materially improved from a low base.</td></tr>
+<tr><td><strong>Asset sales / portfolio pruning</strong></td><td>—</td><td class="neg">Largely absent. No disposal of Hyundai L&amp;C, Rental Care or other sub-scale assets. Management has consolidated and simplified but has not <em>shrunk</em>.</td></tr>
+<tr><td><strong>Reduction of listed holdings</strong></td><td>—</td><td class="neg">The opposite: stakes have been increased. Defensible at a discount, but it consumes cash that could fund buybacks and raises double leverage.</td></tr>
+<tr><td><strong>Value-up targets</strong></td><td>Nov 2024 → May 2026</td><td class="neg"><strong>Lowered.</strong> PBR 0.8x/3yr → 0.7x/2028; investment-return and shareholder-return-ratio targets dropped.</td></tr>
+</tbody>
+</table>
+
+<div class="box">
+<p style="margin-bottom:0"><strong>Verdict:</strong> on structural actions, this is <em>top-quartile</em> Korean management — the group did voluntarily, and early, what most peers had to be legislated into. On <em>commitments</em>, the record is weaker: the one number management set itself, it subsequently reduced. The right way to hold the two together is that management is willing to do value-accretive things it considers strategically sound, but is not willing to be contractually bound to a share-price outcome. For an event-driven investor that is a reasonable trade, because the actions are dated and observable while the targets never were.</p>
+</div>
+
+<h2>9. Pre-Mortem</h2>
+
+<p><em>It is September 2028. The position has lost 35%. The discount is wider than when we bought. What happened?</em></p>
+
+<table>
+<thead><tr><th>#</th><th>Failure mode</th><th>Mechanism</th><th>Likelihood</th><th>Early warning signal</th></tr></thead>
+<tbody>
+<tr><td>1</td><td><strong>The assets deteriorated faster than the structure improved</strong></td><td>Handsome's five-year profit decline continued to zero; Hyundai Department Store's H1-2026 margin compression proved to be the trend, not a blip; Korean discretionary consumption stayed weak and the inbound-tourism tailwind reversed. NAV fell faster than the discount narrowed. <strong>A 50% discount on a falling NAV is still a falling stock.</strong></td><td class="neg">High</td><td>Handsome quarterly OP margin; Hyundai Dept Store same-store growth ex-foreigners; group inventory days</td></tr>
+<tr><td>2</td><td><strong>Post-restructuring, nothing happened</strong></td><td>The Q1 2027 merger completed exactly as promised — and the discount did not move, because it never was about structure. The market re-anchored on "family-controlled Korean consumer holdco" and the 2026 rally was given back.</td><td class="neg">High</td><td>Discount fails to narrow in the 60 days after the Q1 2027 merger completes</td></tr>
+<tr><td>3</td><td><strong>Capital was redeployed into acquisitions instead of returns</strong></td><td>With Home Shopping's ₩1.2tn investment portfolio absorbed and the structure clean, the holdco became an "investment command centre" — as Korean press has already framed it — and bought something. Buybacks stopped; double leverage rose above 130%.</td><td class="neg">Medium</td><td>M&amp;A language in IR materials; buyback tranches not renewed after 2026; separate-basis D/E above 45%</td></tr>
+<tr><td>4</td><td><strong>The cross-holding was sold, not cancelled</strong></td><td>Handsome's and FutureNet's ~6.5% of GF Holdings was placed into the market to satisfy the Fair Trade Act rather than repurchased, creating a ₩160bn+ overhang precisely when the event calendar had gone quiet.</td><td class="neg">Medium</td><td>Any block-sale or disposal-plan disclosure from Handsome or FutureNet regarding GF Holdings shares</td></tr>
+<tr><td>5</td><td><strong>The legal tailwind was diluted</strong></td><td>The treasury-cancellation mandate was softened in implementing decrees, or enforcement of the duplicate-listing ban proved discretionary. The entire "Korea discount is structurally closing" thesis — which is doing heavy lifting across the whole market, not just here — partially unwound.</td><td>Low–Med</td><td>Enforcement decree drafts; peer holdcos obtaining exemptions</td></tr>
+<tr><td>6</td><td><strong>Succession arrived and was resolved at minorities' expense</strong></td><td>An inheritance event triggered a restructuring — a merger ratio, a split, a new intermediate entity — engineered at a depressed GF Holdings price. The family's tax position was optimised; the minority's was not.</td><td>Low–Med</td><td>Chairman's health/age disclosures; any transfer of shares to the next generation; new holding entities in the affiliate list</td></tr>
+<tr><td>7</td><td><strong>We were wrong about the stakes</strong></td><td>The ownership percentages reconstructed in this report proved materially wrong, and the NAV was overstated from the outset.</td><td class="neg">Non-trivial</td><td><strong>Eliminate this risk before investing by reading the half-year report.</strong></td></tr>
+<tr><td>8</td><td><strong>Apgujeong stalled</strong></td><td>Land-ownership litigation in District 3 and the usual Korean redevelopment friction pushed the timeline past 2035. The ₩500bn asset stayed at ₩20bn of book indefinitely.</td><td class="neg">High<br><span class="small">but largely already discounted</span></td><td>District 3 association disputes; Hyundai E&amp;C contract milestones</td></tr>
+</tbody>
+</table>
+
+<div class="box bear">
+<p style="margin-bottom:0"><strong>The pre-mortem's central lesson:</strong> the two highest-likelihood failure modes (#1 and #2) are <em>not</em> event risks — they are the risk that the event is irrelevant. This position should be sized as a fundamental holding in Korean consumer assets with a governance kicker, <strong>not</strong> as a discrete event trade. If it is underwritten as an event trade, the event has already happened and the remaining catalysts are calendar items that a well-informed market can already see.</p>
+</div>
+
+<h2 class="pb">10. Contrarian View — What the Market Is Refusing to See</h2>
+
+<p>Consensus on this name is that it is a cheap Korean holdco with a good restructuring story, worth ₩18,000–20,000. Here is what that framing misses, in order of conviction.</p>
+
+<h3>10.1 The 6.5% cross-holding is a forced, dated, unmodelled buyback</h3>
+
+<p>Handsome (~4.3%) and Hyundai FutureNet (~2.2%) hold GF Holdings shares. When the Q1 2027 merger converts them from grandchildren to direct subsidiaries, the Fair Trade Act prohibits a subsidiary from owning its holding company. Those shares must go. <strong>Given that this management has cancelled every share it has bought and has publicly committed to zero treasury across the group, the overwhelmingly likely resolution is repurchase and cancellation.</strong> That is roughly 6.5% of the share count retired in 2027 — on top of 5.3% in 2026 — for a cumulative reduction approaching 12% over two years. I have found no sell-side model that includes it. <em>This is a legally-compelled event with a known deadline that nobody is counting.</em>
+
+<h3>10.2 The market is applying a holdco discount to a company that is about to stop being a holdco</h3>
+
+<p>GF Holdings is an <em>operating</em> holding company: separate-basis revenue of ₩809.2bn in 2025 from a real distribution business, plus trademark royalties (~₩20bn target), management fees, and property rent, plus ₩100bn of dividend income by 2027. Its own-account cash generation is becoming large enough to be valued on a multiple of earnings rather than purely as a discounted asset bag. <strong>The market is valuing the entity by the wrong method.</strong> The transition from "NAV-discount stock" to "cash-generating operating company that also owns stakes" is exactly the re-rating mechanism that worked for LG Corp and SK Inc. in prior cycles, and it happens through a change in how analysts model the company, not through anything the company does.</p>
+
+<h3>10.3 Hanmu Shopping means the largest asset is doubly under-marked</h3>
+
+<p>Hanmu Shopping generates ~₩127bn of operating profit at a 19% margin from owning four department-store properties, including the Trade Center store in Gangnam. It is 100% owned by Hyundai Department Store, which is itself a cheap listed stock. <strong>So GF Holdings' NAV marks Hyundai Department Store at a market price that itself embeds a discount on a REIT-quality real-estate annuity.</strong> The "discount to NAV" understates the discount to intrinsic value, because the NAV input is a market price, not a value. Under the new Commercial Act regime and continuing value-up pressure, Hyundai Department Store is a plausible candidate to be forced to surface Hanmu's value — via a REIT conversion, sale-and-leaseback, or revaluation. That would re-rate GF Holdings' largest asset without GF Holdings doing anything.</p>
+
+<h3>10.4 The controller has been a net contributor, not an extractor — which is genuinely rare</h3>
+
+<p>In February 2026, Chairman Jung Ji-sun contributed his personal Hyundai Home Shopping shares <em>into</em> GF Holdings in kind. In most Korean restructurings the controller extracts: value moves toward the entity where the family's economic interest is highest, at minorities' expense. Here the flow ran the other way, and the group then voluntarily eliminated a duplicate listing <em>ahead of</em> the regulation requiring it, at the cost of 18% dilution to the controller's own percentage. The market is pricing this management at the Korean average. <strong>The revealed behaviour is above average.</strong> A single further disposal — Hyundai L&amp;C would be the obvious one — would likely be enough to force a re-rating of management quality itself.</p>
+
+<h3>10.5 Being "late" is the point</h3>
+
+<p>Investors have complained for two years that Hyundai Department Store Group was slow to the value-up party versus Samsung, SK and LG. But the laggard is the one with the widest remaining discount <em>and</em> the cleanest remaining catalyst path. The leaders' re-ratings are largely complete; this one has a dated calendar running to March 2027. Consensus is treating lateness as a quality signal when, in a regime where the destination is now legislated, it is a timing signal.</p>
+
+<div class="box warn">
+<h4>The contrarian bear view — because the contrarian case must cut both ways</h4>
+<p style="margin-bottom:0">The genuinely contrarian <em>negative</em> observation is this: <strong>everyone is discussing the structure and nobody is discussing the demand.</strong> Handsome's operating profit has fallen 69% from its 2022 peak across four consecutive years. Hyundai L&amp;C has not grown revenue in five years. Hyundai Duty Free makes a 0.02% margin. Hyundai Department Store's H1 2026 saw margins compress while debt rose. The market has convinced itself this is a governance story because governance is the part that is improving — and has stopped underwriting the assets. If the consumer cycle does not turn, this is a structurally perfect holding company sitting on top of a portfolio of businesses in secular decline, and the discount will be the least of the problems.</p>
+</div>
+
+<h2>11. Shareholder Activist Case</h2>
+
+<h3>11.1 The mathematical obstacle</h3>
+
+<p>Chairman Jung Ji-sun holds roughly 34–40% post-dilution; affiliates hold a further ~6%; family and related parties push the aligned bloc comfortably above 40%. <strong>A control-oriented campaign is not viable</strong>, and a proxy fight to replace directors would need essentially every non-family vote. Traditional Korean activism — Align Partners-style public letters demanding board seats — has a poor risk/reward here.</p>
+
+<h3>11.2 Why an engagement campaign nonetheless has an unusually good setup</h3>
+
+<ul>
+  <li><strong>The low threshold for a shareholder proposal.</strong> Under Commercial Act §542-6, a 1% holder (alone or aggregated) may submit shareholder proposals. On a ~₩2.46tn cap that is ~₩25bn — a small position for a mid-sized fund to hold a formal channel to the AGM agenda.</li>
+  <li><strong>The board has already demonstrated independence.</strong> Korean reporting credits <em>outside directors</em> with driving the duplicate-listing resolution. A board that has already acted against structural inertia once is a board worth engaging rather than attacking.</li>
+  <li><strong>Management has publicly accepted the framework.</strong> Once a company has declared a PBR target, committed to zero treasury shares, and set a dividend trajectory, <strong>the argument shifts from "should you" to "are you on track"</strong> — a far stronger position for an engaged holder. The May 2026 dilution of the value-up targets is the obvious, legitimate, documented pressure point.</li>
+  <li><strong>The Korean regime has shifted to reward quiet engagement.</strong> Truston has explicitly moved to sub-5% positions with private negotiation backed by a ₩500bn fund, and the 2026 activism agenda has advanced from dividends and buybacks to independent board structures. That is precisely the terrain here.</li>
+  <li><strong>Value capital is already on the register.</strong> VIP Asset Management arrived via the Home Shopping exchange. There is a base of sophisticated domestic holders to aggregate with.</li>
+</ul>
+
+<h3>11.3 The asks that would actually create value</h3>
+
+<table>
+<thead><tr><th>#</th><th>Ask</th><th>Value case</th><th>Probability of success</th></tr></thead>
+<tbody>
+<tr><td>1</td><td><strong>Commit now to repurchasing and cancelling the Handsome/FutureNet cross-holdings</strong> rather than placing them</td><td>~6.5% share-count reduction; eliminates a ₩160bn overhang; costs nothing to promise since the disposal is legally compulsory anyway</td><td class="pos">High — the lowest-cost, highest-certainty ask on the list</td></tr>
+<tr><td>2</td><td><strong>Reinstate a quantified shareholder-return-ratio target</strong> alongside the PBR goal</td><td>Restores accountability the May 2026 revision removed; directly addresses the credibility gap</td><td class="pos">Medium–High — the 2025 ratio was already 82.5%, so formalising it costs little</td></tr>
+<tr><td>3</td><td><strong>Dispose of Hyundai L&amp;C</strong> and other sub-scale, non-core assets</td><td>Five years of no growth at a 3% margin; proceeds fund buybacks; a disposal would re-rate perceived management quality more than its ₩200–300bn value</td><td>Medium — management has never sold anything</td></tr>
+<tr><td>4</td><td><strong>Surface Hanmu Shopping's real-estate value</strong> (REIT conversion, sale-and-leaseback, or at minimum a disclosed appraisal)</td><td>The largest single unrecognised value in the group; would re-rate GF Holdings' biggest asset from one level down</td><td>Medium–Low — requires action at Hyundai Dept Store, not GF Holdings</td></tr>
+<tr><td>5</td><td><strong>Formal appraisal and disclosure of the Apgujeong parcel</strong>, carried at ₩20bn against a plausible ₩500bn</td><td>Costs nothing; converts an invisible asset into a modelled one</td><td class="pos">High — pure disclosure ask, hard to refuse</td></tr>
+<tr><td>6</td><td><strong>Add a genuinely independent director with capital-allocation expertise</strong>, nominated by minorities</td><td>The 2026 Korean activism agenda; institutionalises the outside-director dynamic that already worked once</td><td>Low–Medium — but the direction of travel in Korea favours it</td></tr>
+</tbody>
+</table>
+
+<div class="box">
+<p style="margin-bottom:0"><strong>Activist verdict:</strong> this is <em>not</em> a campaign target and <em>is</em> a high-quality engagement target. The controlling stake forecloses coercion; the published commitments, the demonstrated board independence, the low proposal threshold, and the legally-forced cross-holding resolution create unusual leverage for a constructive holder. The single highest-return action available to any shareholder is <strong>ask #1</strong> — publicly framing the Handsome/FutureNet disposal as a cancellation before management decides otherwise. It is nearly free to management, hugely accretive to minorities, and the window closes when the merger completes in Q1 2027.</p>
+</div>
+
+<h2 class="pb">12. Conclusion and How to Express It</h2>
+
+<div class="grid2">
+<div class="box bull" style="margin-top:0">
+<h4>The case for owning it</h4>
+<ul style="margin-bottom:0">
+<li>44–56% discount to a defensible NAV, ~0.55–0.6x book</li>
+<li>Duplicate listing eliminated ahead of regulation; remaining steps dated and <strong>non-dilutive</strong></li>
+<li>~12% cumulative share-count reduction plausible over 2026–27 (5.3% announced + ~6.5% legally forced)</li>
+<li>Holdco dividend income ₩58.6bn → ~₩100bn by 2027 on mechanics alone</li>
+<li>₩500bn Apgujeong asset at ₩20bn of book</li>
+<li>Commercial Act and duplicate-listing reform are structural, not cyclical</li>
+<li>Controller has contributed assets in, not extracted</li>
+</ul>
+</div>
+<div class="box bear" style="margin-top:0">
+<h4>The case against</h4>
+<ul style="margin-bottom:0">
+<li>Underlying assets are not compounding — Handsome OP -69% from peak over four years</li>
+<li>Already +43% from the February appraisal price; sell-side targets have started falling</li>
+<li>Management <em>lowered</em> its own value-up target in May 2026</li>
+<li>Control is absolute; succession is unpriced and historically resolved at minorities' expense</li>
+<li>Post-Q1-2027 the catalyst calendar is empty</li>
+<li>~46% of the register is family/affiliate — float is roughly half the market cap</li>
+<li>Apgujeong is a 10-year story with live litigation</li>
+</ul>
+</div>
+</div>
+
+<h3>12.1 Position construction</h3>
+
+<ul>
+  <li><strong>Underwrite it as a fundamental holding with a governance kicker, not as an event trade.</strong> The event that re-rated the stock has occurred. The two most likely ways to lose money are asset deterioration and post-restructuring indifference — neither is hedged by the event calendar.</li>
+  <li><strong>The cleanest expression of the governance thesis alone is the stub.</strong> Long GF Holdings against a delta-weighted short basket of Hyundai Department Store, Handsome, Hyundai Livart, Greenfood and FutureNet isolates the discount, the buyback, the cross-holding cancellation and the Apgujeong land, while neutralising the Korean-consumer beta that the pre-mortem identifies as the largest risk. <strong>Practical caveat:</strong> borrow on the Korean mid-caps in this basket is likely to be thin and expensive, and Korean short-sale rules have been unstable — cost the borrow before assuming this is executable at size.</li>
+  <li><strong>Key dates to trade around:</strong> 12 Nov 2026 (spin-off EGM), 15–17 Dec 2026 (spin-off effective), and the window to 1 Mar 2027 (merger). Position for the cross-holding resolution disclosure, which is most likely to land with or shortly after the merger.</li>
+  <li><strong>Sizing constraint:</strong> with true float near ₩1.2–1.3tn, this is a mid-cap liquidity profile. Size for a multi-month exit, not a multi-day one.</li>
+</ul>
+
+<div class="box warn">
+<h4>Required verification before committing capital</h4>
+<ol style="margin-bottom:0">
+<li><strong>2026 half-year report (반기보고서)</strong> — every ownership percentage in §2, the consolidation perimeter (is Hyundai Department Store consolidated or equity-method?), and the separate-basis balance sheet for §5.</li>
+<li><strong>Shareholding disclosures for Handsome and Hyundai FutureNet</strong> — confirm the size of their GF Holdings stakes and any stated disposal plan. This is the single highest-value unverified item in this report.</li>
+<li><strong>Live market caps</strong> for all listed affiliates, to replace the reconstructed NAV range in §6 with a marked sum-of-the-parts.</li>
+<li><strong>Chairman's post-exchange shareholding</strong> and the full related-party bloc.</li>
+<li><strong>Hyundai Department Store H1 2026 filing</strong> — to resolve the contradiction between "margins compressing, debt rising" and "strong same-store growth" in §7.1.</li>
+<li><strong>Audit reports on DART for the unlisted subsidiaries</strong> — to replace the estimated D&amp;A and partial histories in §4.1 with reported figures.</li>
+</ol>
+</div>
+
+<div class="foot">
+<strong>Basis of preparation.</strong> Prepared 14 September 2026. This report was compiled from publicly-reported secondary sources; no primary regulatory filing, market-data terminal or broker research PDF could be retrieved directly in the environment used, because outbound network access was restricted to a narrow allowlist that excluded DART, KIND, FnGuide, Bloomberg, Yahoo Finance, TradingView, Morningstar, MarketScreener and all Korean broker research servers. Figures tagged <span class="tag e">Est.</span> are the author's estimates; figures tagged <span class="tag x">Check</span> are items where sources conflicted. EBITDA figures for unlisted entities are derived from assumed depreciation and amortisation and are not reported figures. Ownership percentages are reconstructed and carry material uncertainty. Share prices and market capitalisations are as of the last verifiable data point, not live quotes.<br><br>
+<strong>This document is analysis prepared for internal investment discussion. It is not investment advice, not a recommendation to buy or sell any security, and not a substitute for reading the primary filings. No representation is made as to the accuracy or completeness of any figure herein.</strong>
+</div>
+
+<h2 class="pb">Sources</h2>
+<div class="srcs">
+<p><strong>Corporate actions &amp; restructuring</strong><br>
+dealsite.co.kr/articles/156881 — Home Shopping full subsidiary, duplicate listing<br>
+fnnews.com/news/202604201757313256 — EGM approval 20 Apr 2026<br>
+thepublic.kr/news/articleView.html?idxno=294123 — share exchange, ₩350bn cancellation<br>
+industrynews.co.kr/news/articleView.html?idxno=78010 — 100% conversion<br>
+edaily.co.kr — delisting, ₩350bn treasury cancellation<br>
+newsinside.kr/news/articleView.html?idxno=4426445 — delisting<br>
+hankyung.com/article/2026021198351 — 16-year delisting<br>
+newspim.com/news/view/20260806000558 — ₩1,225.1bn investment spin-off<br>
+digitaltoday.co.kr/news/articleView.html?idxno=690191 — spin-off &amp; merger<br>
+srtimes.kr/news/articleView.html?idxno=209242 — investment co. structure<br>
+tinnews.co.kr/31813 — spin-off timetable<br>
+asiatoday.co.kr/kn/view.php?key=20260716010005952 — "investment command centre"<br>
+thebell.co.kr/front/newsview.asp?key=202602121522492400104687 — stake value expansion<br>
+thebell.co.kr — outside directors drove duplicate-listing resolution<br>
+jabon.co.kr/news/articleView.html?idxno=934 — governance restructuring<br>
+insight.co.kr/news/561818 — Hyundai Dept Store stake to 37.35%</p>
+
+<p><strong>Ownership, share capital &amp; shareholders</strong><br>
+e-focus.co.kr/news/articleView.html?idxno=3002456 — 43.79%, treasury cancellation, share counts<br>
+digitaltoday.co.kr/news/articleView.html?idxno=681223 — 43.95% incl. related parties<br>
+datatooza.com/article/20260612163642137952ef39c6e1_80 — June purchase, 36.97%<br>
+newspim.com/news/view/20221212000097 — holdco conversion history<br>
+bloter.net/news/articleView.html?idxno=630377 — stake purchases<br>
+ehyundai.com — group affiliate listings<br>
+v.daum.net — VIP Asset Management increases Home Shopping stake</p>
+
+<p><strong>Financials, valuation &amp; research</strong><br>
+newspim.com/news/view/20260914000175 — Heungkuk, target ₩18,000, 14 Sep 2026<br>
+newspim.com/news/view/20260623000153 — Heungkuk, target ₩20,000<br>
+newspim.com/news/view/20260807000810 — Q2 2026 results, ₩100bn cancellation<br>
+ajunews.com/view/20260626085241799 — SK Securities target raise<br>
+newspim.com/news/view/20260626000129 — SK Securities, NAV composition<br>
+edaily.co.kr — SK Securities, 55.9% target raise<br>
+buffettlab.co.kr/news/view.php?idx=55138 — dividend income trajectory<br>
+bloter.net/news/articleView.html?idxno=661888 — PBR 0.7x target, ₩4,000.1bn net assets, ₩2,302.7bn cap<br>
+bloter.net/news/articleView.html?idxno=653501 — holdco undervaluation<br>
+thebell.co.kr — ₩1,492.4bn stake value; NAV discount improvement<br>
+viva100.com, etoday.co.kr, youthdaily.co.kr — Q2 2026 results<br>
+digitaltoday.co.kr/news/articleView.html?idxno=663865 — 82.5% return ratio<br>
+kisrating.com — KIS Credit Opinion, GF Holdings &amp; Hanmu Shopping<br>
+topdaily.kr/articles/101480 — trademark royalty income</p>
+
+<p><strong>Subsidiaries &amp; operating data</strong><br>
+saramin.co.kr — Hyundai L&amp;C financial history; GF Holdings, Greenfood company data<br>
+thebell.co.kr/free/content/ArticleView.asp?key=202510151552553600104222 — Hyundai L&amp;C India strategy<br>
+v.daum.net/v/20260220072215565 — Hyundai Duty Free first annual profit<br>
+kdfnews.com/news/articleView.html?idxno=187316 — four consecutive profitable quarters<br>
+thepublic.kr/news/articleView.html?idxno=313969 — duty free turnaround<br>
+catch.co.kr / nicebizinfo.com — Hyundai Dream Tour, Hyundai IT financials<br>
+newspim.com/news/view/20260803001368 — Handsome Q2 2026 profitability warning<br>
+edaily.co.kr — Handsome recovery (NH)<br>
+youthdaily.co.kr/news/article.html?no=226730 — Hyundai Dept Store financial deterioration<br>
+hankyung.com/article/201201138990g — Handsome acquisition history</p>
+
+<p><strong>Real estate</strong><br>
+dealsite.co.kr/articles/156263 — Apgujeong retail site, ₩20bn book / ₩500bn potential<br>
+v.daum.net/v/20250803090243538 — Apgujeong District 3 land ownership dispute<br>
+businesspost.co.kr — Hyundai E&amp;C preferred bidder, ₩5.6tn District 3<br>
+lawtalknews.co.kr — District 3 land valuation ₩2,590bn</p>
+
+<p><strong>Regulation &amp; market structure</strong><br>
+lawtimes.co.kr/news/articleView.html?idxno=217118 — 2026 Commercial Act treasury cancellation regime<br>
+lawtimes.co.kr/news/articleView.html?idxno=216873 — third amendment passage<br>
+kimchang.com — third Commercial Act amendment analysis<br>
+leadersfact.co.kr/news/articleView.html?idxno=23515 — Commercial Act + duplicate-listing ban vs. holdco discount<br>
+thebell.co.kr — mandatory cancellation era, holdco value-up<br>
+asiae.co.kr/article/2024110812332964913 — Nov 2024 group value-up plan<br>
+etnews.com/20241108000139 — value-up plan details</p>
+
+<p><strong>Activism</strong><br>
+thebell.co.kr/m/newsview.asp?newskey=202604011543501560105486 — Truston 2026 activism<br>
+fnnews.com/news/202607190056591122 — Align/Truston independent board agenda<br>
+v.daum.net/v/20250810174206467 — Truston quiet activism, ₩500bn fund<br>
+thetracker.co.kr — activist shareholder letters 2026</p>
+</div>
+
+</body>
+</html>
