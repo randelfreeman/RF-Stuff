@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Compañía Sud Americana de Vapores (VAPORES CI) – Holding Company Analysis</title>
+<style>
+@page { size: A4; margin: 16mm 14mm 16mm 14mm; }
+* { box-sizing: border-box; }
+body { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 9.6pt; line-height: 1.38; color: #1a1a1a; margin: 0; }
+h1 { font-size: 17pt; margin: 0 0 4px 0; color: #0b2a4a; }
+h2 { font-size: 13pt; color: #0b2a4a; border-bottom: 2px solid #0b2a4a; padding-bottom: 3px; margin: 18px 0 8px 0; page-break-after: avoid; }
+h3 { font-size: 10.8pt; color: #163d6b; margin: 12px 0 5px 0; page-break-after: avoid; }
+p { margin: 5px 0 7px 0; }
+ul { margin: 4px 0 8px 18px; padding: 0; }
+li { margin: 2px 0; }
+table { border-collapse: collapse; width: 100%; margin: 6px 0 10px 0; font-size: 8.8pt; page-break-inside: avoid; }
+th, td { border: 1px solid #c9d3de; padding: 3.5px 5px; text-align: left; vertical-align: top; }
+th { background: #e8eef5; font-weight: 600; }
+td.num, th.num { text-align: right; }
+tr.total td { font-weight: 700; background: #f4f7fa; }
+.cover { border: 1px solid #0b2a4a; padding: 12px 14px; margin-bottom: 12px; background: #f7f9fc; }
+.kpis { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 4px 0; }
+.kpi { flex: 1 1 120px; border: 1px solid #c9d3de; background: #fff; padding: 6px 8px; }
+.kpi .l { font-size: 7.6pt; color: #555; text-transform: uppercase; letter-spacing: .03em; }
+.kpi .v { font-size: 13pt; font-weight: 700; color: #0b2a4a; }
+.meta { font-size: 8.6pt; color: #444; }
+.box { border-left: 4px solid #0b2a4a; background: #f4f7fa; padding: 7px 10px; margin: 8px 0; }
+.warn { border-left: 4px solid #b3261e; background: #fbf1f0; padding: 7px 10px; margin: 8px 0; }
+.good { border-left: 4px solid #2e7d32; background: #f0f7f1; padding: 7px 10px; margin: 8px 0; }
+.small { font-size: 8.2pt; color: #444; }
+.pb { page-break-before: always; }
+.two { display: flex; gap: 14px; }
+.two > div { flex: 1; }
+.foot { font-size: 7.8pt; color: #666; border-top: 1px solid #ccc; margin-top: 16px; padding-top: 6px; }
+</style></head><body>
+
+<div class="cover">
+<h1>Compañía Sud Americana de Vapores S.A. (VAPORES CI)</h1>
+<div class="meta"><b>Holding-company equity analysis: NAV, discount, catalysts, pre-mortem and activist assessment</b><br>
+Prepared 8 September 2026 · Prices as of Santiago/Xetra close 8 Sep 2026 · Source deck: CSAV investor presentation, August 2026 (H1 2026) · Currency: US$ unless stated</div>
+<div class="kpis">
+<div class="kpi"><div class="l">Vapores price</div><div class="v">CLP 49.20</div></div>
+<div class="kpi"><div class="l">Market cap</div><div class="v">US$2.7bn</div></div>
+<div class="kpi"><div class="l">NAV / share (est.)</div><div class="v">CLP 157</div></div>
+<div class="kpi"><div class="l">Discount to NAV</div><div class="v">68.7%</div></div>
+<div class="kpi"><div class="l">Hapag-Lloyd (HLAG)</div><div class="v">EUR 134.80</div></div>
+<div class="kpi"><div class="l">Holdco net cash (est.)</div><div class="v">~US$250m</div></div>
+</div>
+<div class="small">FX: EUR/USD 1.161; USD/CLP 930. Shares: Vapores 51.32bn; HLAG 175.76m. Controlling shareholder: Quiñenco S.A. (Luksic group) 66.5%.</div>
+</div>
+
+<h2>1. Executive summary</h2>
+<p><b>What it is.</b> Vapores is a single-asset holding company. Its 30.0% stake in Hapag-Lloyd AG (HLAG, Xetra), held through the wholly-owned German vehicle CSAV Germany Container Holding GmbH, represents 92.5% of consolidated assets; the remainder is cash and tax receivables. HLAG is equity-accounted, so Vapores' reported earnings are 30% of HLAG's profit less holdco costs and Chilean taxes on dividend flows. There is no other operating business, no financial debt and no treasury stock.</p>
+<p><b>Where it trades.</b> At CLP 49.20 the market capitalisation is US$2.7bn against a look-through NAV we estimate at US$8.7bn (CLP 157 per share), a <b>68.7% discount</b>. That is wider than the ~52% long-run average and the 60–63% levels Chilean brokers used in 2021–25, and at the extreme end of any single-asset listed holdco globally (Porsche SE 40–55%, Heineken Holding 10–15%, Quiñenco itself ~26%). Put differently, the market is buying HLAG through Vapores at an implied <b>EUR 37 per HLAG share</b> versus a EUR 135 screen price.</p>
+<p><b>Our view.</b> The discount is not a simple mispricing waiting to close. Roughly a third of it is structural (Chilean corporate tax on dividends received from a tonnage-tax company, ~27% with no offsetting credit; holdco costs; a 66.5% controller with no simplification agenda). The balance is the market's refusal to capitalise HLAG's own share price, which is set by a 3.6% free float and stands at ~9.2x 2026E EV/EBITDA versus ~3.5x for Maersk. On look-through multiples Vapores is <b>not</b> expensive (~3.0x EV/EBITDA, 0.37x P/B), but the equity story now hinges on two things the stock does not yet price: (i) the outcome of HLAG's US$4.2bn ZIM acquisition, where Israeli agencies deliver positions on 9 September and a revised offer is due by end-September; and (ii) a likely sharp fall in the 2027 dividend after a loss-making H1 2026 at CSAV, which removes the mandatory-dividend floor. We see the stock as a <b>dividend-and-event vehicle rather than a discount-closure trade</b>; positioning should be sized to the ZIM binary and the dividend cliff, not to a mean-reversion of the discount.</p>
+
+<h2>2. Holdings</h2>
+<h3>2.1 Listed holdings</h3>
+<table>
+<tr><th>Holding</th><th>Listing</th><th class="num">Shares held</th><th class="num">% owned</th><th class="num">Price (8 Sep 26)</th><th class="num">Value (EUR m)</th><th class="num">Value (US$ m)</th><th class="num">% of NAV</th></tr>
+<tr><td>Hapag-Lloyd AG (HLAG GR)</td><td>Xetra / Hamburg</td><td class="num">52.728m</td><td class="num">30.0%</td><td class="num">EUR 134.80</td><td class="num">7,108</td><td class="num">8,252</td><td class="num">95.1%</td></tr>
+<tr class="total"><td colspan="6">Total listed holdings</td><td class="num">8,252</td><td class="num">95.1%</td></tr>
+</table>
+<p class="small">HLAG share capital 175,760,000 shares. Other HLAG anchor holders (30 Jun 2026): Kühne Maritime/Kühne Holding 30.0%, HGV (City of Hamburg) 13.9%, Qatar Investment Authority 12.3%, Saudi PIF 10.2%; free float 3.6%. CSAV, Kühne and HGV act under a shareholders' agreement (73.9% combined) that expires 31 Dec 2026; CSAV and Kühne have already signed a bilateral successor pact under the same control and dividend principles, effective 1 Jan 2027 for four years to end-2030.</p>
+
+<h3>2.2 Recent changes in listed holdings</h3>
+<ul>
+<li><b>No change in the HLAG share count since January 2020</b>, when CSAV bought 4.14% (US$450m) to reach 30.0%, having started at 34% at the 2014 merger, been diluted to 22.6% by the 2017 UASC merger, and rebuilt through the 2017–19 HLAG capital increases (US$240m in 2017, ~US$330m in 2019).</li>
+<li><b>Pact renewal (Dec 2024):</b> the bilateral CSAV–Kühne agreement to 2030 replaces the tripartite pact with Hamburg; it locks in joint control and a "same dividend policy" commitment but also removes any near-term optionality to sell the block.</li>
+<li><b>ZIM (Feb 2026):</b> at the HLAG level, a binding agreement to buy 100% of ZIM at US$35/share (US$4.2bn), financed with cash and up to US$2.5bn of bridge debt; approved by 97% of ZIM shareholders on 30 April; closing targeted Q4 2026. Six of eight Israeli ministries were reported to oppose ahead of the 9 September position hearing; HLAG obtained a 30-day extension to file an improved offer by end-September. ZIM trades at ~US$27.5, so the arbitrage market assigns well under 50% completion probability on current terms.</li>
+<li><b>No secondary sales, pledges or hedges</b> on the HLAG block have ever been disclosed; the stake has only ever been increased.</li>
+</ul>
+
+<h3>2.3 Treasury shares</h3>
+<p><b>None.</b> Vapores has 51,319,876,188 single-series shares issued and fully paid and holds no shares of its own issue; it has never run a buyback programme. (Chilean Law 18.046 permits buybacks of up to 5% of capital, but only with a two-thirds vote of all issued voting shares at an extraordinary meeting, with shares re-sold within 24 months or cancelled. Note that Quiñenco's 66.5% is fractionally <i>below</i> the 66.7% threshold, so a buyback cannot be authorised without some minority support.) The 2019–20 "buyback of HLAG shares" referenced in rating reports was a purchase of HLAG stock to reach 30%, not treasury stock.</p>
+
+<h3>2.4 Private (unlisted) holdings and other assets, with estimated values</h3>
+<table>
+<tr><th>Entity / asset</th><th>Ownership</th><th>What it is</th><th class="num">Est. value (US$ m)</th><th>Basis</th></tr>
+<tr><td>CSAV Germany Container Holding GmbH</td><td>100%</td><td>German intermediate holding that owns the 52.7m HLAG shares and is the party to the shareholders' agreement. No operations; its only other asset is the German withholding-tax refund receivable.</td><td class="num">pass-through</td><td>Valued via the HLAG stake above; adds no independent value.</td></tr>
+<tr><td>German dividend WHT receivable</td><td>–</td><td>26.375% withholding on the EUR 158m HLAG dividend of 26 May 2026 (EUR 41.7m) plus 10.55% retentions on EUR 235m upstreamed Germany→Chile (EUR 24.8m). 95% historically refunded within ~18 months.</td><td class="num">77</td><td>EUR 66.5m at 1.161; company slide, Jun-26. Small timing haircut warranted.</td></tr>
+<tr><td>Chilean tax assets</td><td>–</td><td>Income tax to recover US$47.3m (current) + US$28.3m (non-current), credits for taxes paid abroad US$37.5m, VAT US$2.9m.</td><td class="num">116</td><td>Company slide, Jun-26. Foreign tax credits are only worth face value if there is future Chilean tax to shelter.</td></tr>
+<tr><td>Cash and financial investments (holdco)</td><td>–</td><td>Residual cash after paying US$483.9m of dividends in May–Jun 2026 versus ~US$135m net dividend inflow from Germany and ~US$200m of tax refunds.</td><td class="num">~250</td><td><b>Estimate</b> (range 150–350), triangulated from H1 26 net finance income of US$5.7m and the dividend/refund flows. The interim statements were not retrievable; see §4.</td></tr>
+<tr><td>Tollo Shipping Co. S.A. (Panama) and other legacy shells</td><td>100%</td><td>Dormant former ship-owning/agency vehicles from the pre-2014 liner business.</td><td class="num">~0</td><td>Nil; retained for legacy claims/wind-down.</td></tr>
+<tr><td>Norgistics Holding S.A. and subsidiaries</td><td>100%</td><td>Freight-forwarding venture placed in liquidation for lack of scale.</td><td class="num">~0</td><td>Nil.</td></tr>
+<tr><td>Contingent liabilities</td><td>–</td><td>Legacy car-carrier cartel matters (China fine ~US$0.5m paid; Chile FNE case where CSAV was the leniency applicant; US/other civil actions largely settled). No material provision flagged in 2025–26 disclosures.</td><td class="num">(small)</td><td>Treat as a low-single-digit US$ m tail.</td></tr>
+<tr class="total"><td colspan="3">Total non-HLAG assets (before holdco liabilities)</td><td class="num">443</td><td></td></tr>
+</table>
+
+<h2>3. Non-consolidated net cash at the holding-company level</h2>
+<p>HLAG is an associate (equity-accounted), not a consolidated subsidiary, so Vapores' consolidated balance sheet already <i>is</i> the holdco balance sheet: there are no listed subsidiaries whose cash or debt need stripping out. The only consolidated entities are the German holding vehicle and dormant shells.</p>
+<table>
+<tr><th>Holdco item (30 Jun 2026)</th><th class="num">US$ m</th><th>Comment</th></tr>
+<tr><td>Cash and short-term investments (estimate)</td><td class="num">250</td><td>Range 150–350. Feller Rate reported US$963m at Mar-24 before the US$1.15bn 2024 payout; 2025 was roughly cash-neutral; H1 26 absorbed ~US$170m net.</td></tr>
+<tr><td>Financial debt</td><td class="num">0</td><td>Zero since the early redemption of the Series C bonds on 26 Dec 2023; Quiñenco bridge loans (US$350m, 2020) repaid from the 2020 rights issue. Ratings: Feller Rate A (stable), ICR A+ (stable).</td></tr>
+<tr><td>Leases, payables, provisions (estimate)</td><td class="num">(15)</td><td>IFRS 16 office leases and holdco payables; SG&A runs ~US$14m a year.</td></tr>
+<tr class="total"><td>Net cash (estimate)</td><td class="num">235</td><td>≈ CLP 4.3 per share</td></tr>
+<tr><td>Add: German WHT refund receivable</td><td class="num">77</td><td>EUR 66.5m; cash-like with a 12–18 month lag.</td></tr>
+<tr><td>Add: Chilean tax assets</td><td class="num">116</td><td>Partly cash refunds, partly credits.</td></tr>
+<tr class="total"><td>Net cash plus recoverable tax assets</td><td class="num">428</td><td>≈ CLP 7.8 per share, or 15.8% of the market cap</td></tr>
+</table>
+<div class="box"><b>Read-across.</b> The cash-plus-receivables cushion is worth roughly 16% of the current market capitalisation. It funded the 2026 payout (US$484m paid against a EUR 158m gross HLAG dividend) and is what allows management to smooth dividends through an HLAG down-year. It is also finite: another year of paying out more than is received would exhaust it.</div>
+
+<h2>4. NAV and discount</h2>
+<table>
+<tr><th>NAV build (US$ m)</th><th class="num">Value</th><th class="num">Per share (CLP)</th></tr>
+<tr><td>52.728m HLAG shares × EUR 134.80 × 1.161</td><td class="num">8,252</td><td class="num">149.5</td></tr>
+<tr><td>Net cash and recoverable tax assets (§3)</td><td class="num">428</td><td class="num">7.8</td></tr>
+<tr class="total"><td>Net asset value</td><td class="num">8,680</td><td class="num">157.3</td></tr>
+<tr><td>Market capitalisation (51.32bn × CLP 49.20 ÷ 930)</td><td class="num">2,715</td><td class="num">49.20</td></tr>
+<tr class="total"><td>Discount to NAV</td><td class="num">68.7%</td><td class="num"></td></tr>
+<tr><td>Implied value of HLAG block (market cap less net other assets)</td><td class="num">2,287</td><td class="num"></td></tr>
+<tr><td>Implied price per HLAG share</td><td class="num">EUR 37.4</td><td class="num">vs EUR 134.80 quoted (72% below)</td></tr>
+</table>
+
+<div class="two"><div>
+<h3>4.1 Discount sensitivity (holdco cash × HLAG price)</h3>
+<table><tr><th>Cash \ HLAG</th><th>EUR 100</th><th>EUR 120</th><th>EUR 135</th><th>EUR 150</th><th>EUR 170</th></tr><tr><th>US$150m</th><td>57.9%</td><td>64.6%</td><td>68.4%</td><td>71.5%</td><td>74.7%</td></tr><tr><th>US$250m</th><td>58.5%</td><td>65.1%</td><td>68.7%</td><td>71.8%</td><td>74.9%</td></tr><tr><th>US$350m</th><td>59.2%</td><td>65.5%</td><td>69.1%</td><td>72.0%</td><td>75.2%</td></tr></table>
+<p class="small">Vapores price held at CLP 49.20. The cash assumption moves the discount by about one point; the HLAG price is what matters.</p>
+</div><div>
+<h3>4.2 Vapores price implied by target discounts</h3>
+<table><tr><th>Discount</th><th>Implied price</th><th>vs current</th></tr><tr><td>70%</td><td>CLP 47.2</td><td>-4%</td></tr><tr><td>68.7% (current)</td><td>CLP 49.2</td><td>-0%</td></tr><tr><td>60%</td><td>CLP 62.9</td><td>+28%</td></tr><tr><td>50%</td><td>CLP 78.6</td><td>+60%</td></tr><tr><td>40%</td><td>CLP 94.4</td><td>+92%</td></tr><tr><td>30%</td><td>CLP 110.1</td><td>+124%</td></tr></table>
+<p class="small">NAV per share CLP 157 held constant.</p>
+</div></div>
+
+<h3>4.3 Where the discount has been</h3>
+<table>
+<tr><th>Period</th><th>Discount</th><th>Context</th></tr>
+<tr><td>2015–2019 average</td><td>~50–52%</td><td>Sub-scale float, HLAG post-IPO, CSAV carrying acquisition debt and doing repeated rights issues.</td></tr>
+<tr><td>2020 (Covid trough)</td><td>>70%</td><td>Container collapse fears; CSAV levered after the 4.14% purchase.</td></tr>
+<tr><td>2021</td><td>~63%</td><td>Stock +110% YTD yet the gap did not close as HLAG ran to record highs on a tiny float.</td></tr>
+<tr><td>2023–2025 (broker base cases)</td><td>~60%</td><td>Local consensus (BTG, LarrainVial et al.) values Vapores at a "target" 60% discount.</td></tr>
+<tr><td><b>8 Sep 2026</b></td><td><b>68.7%</b></td><td>HLAG +14.6% YTD (EUR 155.7 high in March; EUR 109 low Nov-25); Vapores +16.8% YTD but starting from a wider gap after the 2026 payout was funded from cash.</td></tr>
+</table>
+
+<h2>5. Bull case: why own it, and how the discount narrows</h2>
+<h3>5.1 The asset</h3>
+<ul>
+<li><b>A control block in a top-5 carrier with a fortress balance sheet.</b> HLAG closed H1 2026 with net debt of US$2.0bn (0.7x LTM EBITDA), a 61% equity ratio and a US$5.9bn liquidity reserve. It is the co-controller in a structure where CSAV holds 30%, on equal footing with Kühne. Its Gemini network with Maersk runs schedule reliability of ~90%, well above competitors, and its terminals arm (Hanseatic Global Terminals) is compounding: throughput +9% YoY in H1, EBITDA US$102m, with a target of ~30 terminals by 2030.</li>
+<li><b>Earnings trough may be behind.</b> Q2 2026 liner EBIT recovered to US$153m from –US$174m in Q1; freight rates rose 8.9% QoQ to US$1,475/TEU; H1 volumes +1.5%; the July guidance raise lifted 2026 EBITDA to US$2.7–3.7bn (EBIT US$0.1–1.1bn) from US$1.1–3.1bn. The US$600m Middle East cost hit is largely realised.</li>
+<li><b>ZIM is optionality either way.</b> If it closes, HLAG adds ~US$4bn of revenue and 300–500m of annual synergies at ~0.6x book for a modern chartered fleet, cementing a top-5 position with a stronger Transpacific and Asia–Med franchise. If it is blocked, HLAG keeps a US$5.9bn liquidity reserve and the capital allocation debate returns to dividends and buybacks. Either outcome is a catalyst; only a value-destroying renegotiation is bad.</li>
+</ul>
+<h3>5.2 The vehicle</h3>
+<ul>
+<li><b>Cash conversion is real, not theoretical.</b> Vapores has paid out US$5.7bn since 2020 (2024: US$1.15bn; 2025: ~US$0.39bn; 2026: US$0.48bn), equal to roughly CLP 104 per share, or about 2.1x today's price. The controller needs the cash (Vapores supplied ~46% of Quiñenco's dividend income in 2025), so the payout culture is durable.</li>
+<li><b>Balance sheet is clean:</b> zero debt, ~US$428m of cash and recoverable taxes, holdco costs of ~0.15% of NAV.</li>
+<li><b>Look-through valuation is undemanding:</b> ~3.0x 2026E EV/EBITDA and 0.37x book at the implied HLAG price, versus ~3.5x and ~0.7x for Maersk.</li>
+</ul>
+<h3>5.3 Routes to a narrower discount, ranked by plausibility</h3>
+<table>
+<tr><th>Catalyst</th><th>Mechanism</th><th>Likelihood / timing</th></tr>
+<tr><td>HLAG dividend recovery (FY26–27)</td><td>A return to EUR 5–9/share would give CSAV EUR 260–475m gross; yield-driven local buyers (AFPs, retail) re-rate the stock. Discount tends to compress in high-dividend years.</td><td>Moderate; depends on ZIM leverage and H2 rates. First read: FY26 proposal in March 2027.</td></tr>
+<tr><td>ZIM clarity</td><td>Removes the "HLAG will overpay and re-lever" overhang, or frees US$5.9bn of liquidity for shareholders.</td><td>High: 9 Sep hearing, end-Sep revised offer, Q4 decision.</td></tr>
+<tr><td>Quiñenco takes its stake above 66.7%</td><td>Signals intent; historically Quiñenco has bought Vapores at wide discounts (Apr-21 auction at CLP 43.7). Crossing two-thirds gives it supermajority control, which is a precondition for a buyback or a merger.</td><td>Moderate; the group is flush after the 2025 Nexans sale.</td></tr>
+<tr><td>Buyback programme (up to 5%)</td><td>Every US$1 spent buys ~US$3 of NAV. A 5% programme (~US$135m) is affordable from cash and refunds.</td><td>Low-moderate: never done; needs two-thirds vote; would cut float.</td></tr>
+<tr><td>HLAG free-float event</td><td>A placing by HGV or PIF, or an equity component in a future deal, would make HLAG's price "real" and investable; Vapores would then be judged against a credible reference.</td><td>Low near term; Hamburg has held since 2012.</td></tr>
+<tr><td>Simplification / merger into Quiñenco</td><td>Collapses two layers of discount; Quiñenco's own NAV is computed off Vapores' market price, so it has a direct interest in a narrower gap.</td><td>Low; no signal from the group.</td></tr>
+</table>
+
+<h2>6. Bear case: why the discount stays wide or widens</h2>
+<ul>
+<li><b>HLAG's quote is the anomaly, not Vapores' discount.</b> With 3.6% free float, HLAG trades at ~9.2x 2026E EV/EBITDA, 1.33x book and ~27x 2025 earnings, against ~3.5x, ~0.7x and ~14x for Maersk. Valued at Maersk's multiple, HLAG would be worth ~EUR 45/share and Vapores' discount to that NAV would be only <b>15%</b>. On that reading the stock is roughly fairly priced and the "discount" cannot be harvested.</li>
+<li><b>The dividend cliff.</b> CSAV lost US$132.6m in H1 2026 (share of HLAG –US$61m, tax –US$69m). Chile's 30% mandatory dividend applies to net income, so if 2026 finishes at or near a loss the statutory minimum is zero and the 2027 payment is discretionary, funded from a cash pile already drawn down by ~US$170m in H1. A 2027 dividend of US$100–200m (4–7% yield) versus the 14–17% trailing yields would remove the main reason Chilean institutions own the name.</li>
+<li><b>Structural tax leakage.</b> HLAG pays tonnage tax, so CSAV gets little underlying foreign-tax credit; Chilean first-category tax at 27% applies to dividends received. Reported tax charges were ~35% of dividend inflows in both H1 2025 (US$163m) and H1 2026 (US$69m). Add the 26.375% German withholding cash lag and the fair "friction" discount alone is 25–30%.</li>
+<li><b>ZIM re-levers HLAG at the wrong point in the cycle.</b> Pro forma net debt of US$5–6bn (~1.5–2x EBITDA) plus a record orderbook delivering through 2027–28 and normalising Suez/Hormuz routings argues for a lower and later dividend. Israeli security conditions (fleet-availability covenants, golden-share constraints) could also dilute the synergy case.</li>
+<li><b>No agency to fix it.</b> The controller has never bought back stock, has renewed the pact to 2030, and needs Vapores' dividends rather than a re-rating. Minority holders cannot force anything (see §11).</li>
+<li><b>Liquidity and index risk.</b> Free float of 33.5% (~US$0.9bn) with modest turnover; any further Quiñenco creep reduces float-adjusted weightings in IPSA/MSCI Chile and removes the marginal foreign buyer.</li>
+</ul>
+
+<h2>7. What management has done about the discount</h2>
+<table>
+<tr><th>Year</th><th>Action</th><th>Effect on discount / NAV per share</th></tr>
+<tr><td>2011–12</td><td>Luksic group enters; SM SAAM (ports, tugs) spun off to shareholders.</td><td>Reduced the number of listed holdings; focused the vehicle.</td></tr>
+<tr><td>2014–15</td><td>Container business merged into HLAG for a 34% stake; US$400m rights issue.</td><td>Created the single-asset holdco; discount emerged immediately at ~50%.</td></tr>
+<tr><td>2017–2020</td><td>Rights issues (2017, 2019, 2020: US$350m) and bridge loans from Quiñenco to buy HLAG shares back up to 30.0% (US$240m + US$330m + US$450m).</td><td><b>Increased</b> the listed holding; dilutive; motivated by control, not discount.</td></tr>
+<tr><td>2021–2024</td><td>Record dividends: US$3.7bn over 2021–23 and US$1.15bn in 2024, funded by HLAG's EUR 35 / EUR 63 / EUR 9.25 per-share payouts, with "eventual" dividends from retained cash.</td><td>The principal discount-mitigant used: returns cash rather than hoarding it. Discount still ~60%.</td></tr>
+<tr><td>Dec 2023</td><td>Early redemption of Series C bonds; Quiñenco loans repaid earlier.</td><td>Zero debt; ratings upgraded (Feller A, ICR A+). Removes structural subordination risk.</td></tr>
+<tr><td>2023–2026</td><td>Systematic recovery of German withholding tax (e.g. EUR 406m refunded in one tranche); EUR 66.5m still outstanding at Jun-26.</td><td>Reduces cash leakage; ~95% recovery rate.</td></tr>
+<tr><td>Dec 2024</td><td>Bilateral shareholders' agreement with Kühne to 2030.</td><td>Neutral for discount; positive for dividend visibility; negative for optionality.</td></tr>
+<tr><td>2025–26</td><td>Dividends of ~US$0.39bn and US$0.48bn, the latter above the HLAG dividend received, paid in USD and EUR.</td><td>Smooths the yield; draws down cash.</td></tr>
+<tr><td>Never</td><td>Share buybacks; secondary listing/ADR; in-specie distribution of HLAG shares; sale of part of the block; merger with Quiñenco.</td><td>None of the classic discount-closing tools has been used.</td></tr>
+</table>
+<p>The pattern is consistent: management manages the <i>dividend</i>, not the <i>discount</i>. That is rational for a controller whose own NAV and cash needs are served by the flow, and it explains why record payouts have coincided with a static 60%+ gap.</p>
+
+<h2>8. Pre-mortem: it is September 2028 and Vapores has been a poor investment. Why?</h2>
+<table>
+<tr><th>Failure path</th><th>How it played out</th><th>Early warning to watch</th></tr>
+<tr><td>1. Dividend cliff met yield-seeking holders</td><td>FY26 HLAG dividend cut to EUR 1–2; CSAV, with no statutory minimum after a 2026 loss, paid ~US$100m in 2027. AFPs and retail rotated out; discount to 75%.</td><td>Q3/Q4 2026 CSAV net income; HLAG payout language at FY26 results (March 2027).</td></tr>
+<tr><td>2. ZIM closed on worse terms and the cycle turned</td><td>Israel extracted fleet-availability and governance conditions; HLAG paid US$4.2bn plus concessions into a 2027–28 capacity glut; leverage 2.5x; dividends suspended.</td><td>Terms of the end-September revised offer; orderbook deliveries vs demand in 2027.</td></tr>
+<tr><td>3. ZIM blocked, but HLAG hoarded the cash</td><td>Liquidity stayed at US$6bn "for the next deal"; no buyback; HLAG's quote drifted down as the growth story faded.</td><td>Capital-allocation commentary if the deal dies.</td></tr>
+<tr><td>4. HLAG's price normalised toward peers</td><td>A HGV or PIF placing tripled the float; HLAG re-based to ~EUR 70–90. Vapores' NAV halved while its price barely moved: the discount "closed" the wrong way.</td><td>Any change in Hamburg's or PIF's holding; HLAG index inclusion changes.</td></tr>
+<tr><td>5. Controller squeezed the minority</td><td>Quiñenco crossed 66.7% and merged CSAV at a ratio struck off depressed market prices, or launched a low-premium tender when the yield was low. Value transferred to the family at the trough.</td><td>Quiñenco purchases in the market; any "simplification" language.</td></tr>
+<tr><td>6. Tax and FX friction rose</td><td>A Chilean tax reform lifted the rate on foreign dividends or removed foreign-tax credits; German WHT refunds were delayed by audit; CLP strengthened further against USD/EUR, cutting peso dividends.</td><td>Chilean fiscal agenda post-2026 elections; refund cadence in the quarterly tax slide.</td></tr>
+<tr><td>7. Liquidity trap</td><td>Float-adjusted weight fell; the name dropped out of foreign portfolios; realised volatility rose while the discount widened.</td><td>Turnover trends; index rebalances.</td></tr>
+</table>
+
+<h2>9. Is the current valuation too high?</h2>
+<table>
+<tr><th>Metric (2026E unless stated)</th><th class="num">HLAG at screen price</th><th class="num">Vapores look-through (implied HLAG EUR 37)</th><th class="num">Maersk (reference)</th></tr>
+<tr><td>Equity value (US$ bn)</td><td class="num">27.5</td><td class="num">7.6</td><td class="num">–</td></tr>
+<tr><td>EV / EBITDA (guidance mid-point US$3.2bn)</td><td class="num">9.2x</td><td class="num">3.0x</td><td class="num">~3.5x</td></tr>
+<tr><td>Price / book (equity US$20.7bn)</td><td class="num">1.33x</td><td class="num">0.37x</td><td class="num">~0.7x</td></tr>
+<tr><td>P/E on 2025 profit (US$1.03bn)</td><td class="num">27x</td><td class="num">7x</td><td class="num">~14x fwd</td></tr>
+<tr><td>Dividend yield (FY25 EUR 3.00; Vapores 2026 payout US$484m)</td><td class="num">2.2%</td><td class="num">17.8% trailing</td><td class="num">–</td></tr>
+</table>
+<p><b>Verdict.</b> Against HLAG's screen price Vapores is very cheap; against what HLAG is worth on peer multiples it is roughly fair. The trailing yield of 18% flatters: it was paid partly from cash. A sustainable through-cycle payout is closer to 30% of HLAG's dividend stream after tax, which at a mid-cycle HLAG dividend of EUR 5/share is ~US$190m after leakage, a 7.0% yield on today's price. That is adequate, not compelling, for an illiquid single-asset holdco whose controller has no discount agenda. We would not call the stock <i>too high</i>, but the asymmetric upside is a function of HLAG's dividend and ZIM path, not of the headline discount. Fair value under a 60% "normal" discount is CLP 63; under a Maersk-multiple NAV it is ~CLP 41 at a 30% discount. The midpoint of those two frames (~CLP 50–55) is where the stock sits.</p>
+
+<h2 class="pb">10. Contrarian view: what the market is refusing to see</h2>
+<div class="good">
+<p><b>The consensus frame is wrong on both sides.</b> Bulls say "68% discount, must close"; bears say "HLAG's price is fake, so there is no discount". The market is refusing to see that Vapores is not a discount trade at all: it is a <b>pre-paid, event-driven claim on HLAG's capital allocation</b>, and the two live events (ZIM and the 2027 pact-and-dividend reset) are both skewed in the holder's favour.</p>
+<ul>
+<li><b>The cash has already been returned.</b> Since 2020 the company has distributed ~CLP 104 per share against a CLP 49 price. Anyone who bought at the 2021 Quiñenco auction price (CLP 43.7) has had their cost back twice and still owns a 30% co-control block in a top-5 carrier. The "static discount" complaint ignores that the discount has been harvested through the income statement, not the share price, and that this mechanism is still intact: Quiñenco's own cash needs make it structurally impossible for CSAV to hoard.</li>
+<li><b>ZIM is a free option, not a threat.</b> The arbitrage market prices ZIM at US$27.5 against a US$35 bid: it expects failure. If the deal dies, HLAG is left with a US$5.9bn liquidity reserve, net debt of 0.7x and a supervisory board whose two 30% holders both want cash; a return to EUR 8+ dividends (2024 level) is the base case, and Vapores' discount has historically compressed in exactly those years. If the deal closes on acceptable terms, HLAG becomes the only top-5 carrier with a growing terminals arm and a US-friendly Israeli franchise, and the block's strategic value to Kühne, QIA and PIF rises. The only bad path is a heavily conditioned deal, and the end-September revised offer will reveal that early.</li>
+<li><b>The block is worth more than 30% of the quote, not less.</b> Every listed-holdco framework applies a discount for lack of control. CSAV has <i>joint control</i>: it co-designs the dividend policy, sits on the supervisory board, and its consent is needed for any change of control at HLAG. Kühne, 87 years old and publicly keen to own more of HLAG, is the natural buyer of that block at a premium, not a discount, at or before the 2030 pact expiry. The market is pricing a passive minority; the asset is a swing stake.</li>
+<li><b>~16% of the market cap is cash and tax refunds</b> that the screens do not show because the holdco's "net debt" line reads zero and the tax assets sit in three different notes.</li>
+</ul>
+<p><b>The mirror image bears stating too.</b> If you believe HLAG should trade like Maersk, you must also believe HLAG's anchor holders (Kühne, QIA, PIF) have all been wrong for a decade, and that no strategic value attaches to a co-control block in a 2.3m-TEU network. The more defensible contrarian position is that HLAG's price is <i>high but not fictitious</i>, and that Vapores is the cheapest available entry into an asset the anchors keep paying up for.</p>
+</div>
+
+<h2>11. Activist case</h2>
+<h3>11.1 The set-up</h3>
+<table>
+<tr><th>Factor</th><th>Assessment</th></tr>
+<tr><td>Controller</td><td>Quiñenco and affiliates 66.5% (Luksic family owns ~83% of Quiñenco). Patient, dynastic, has bought Vapores at wide discounts and has never sold. Not historically responsive to public campaigns.</td></tr>
+<tr><td>Free float</td><td>33.5%, ~US$0.9bn: Chilean AFPs, local mutual funds, retail and foreign EM funds. AFPs elected 28 directors at 21 companies in the 2026 AGM season and are increasingly vocal, but they are yield-driven, not restructuring-driven.</td></tr>
+<tr><td>Board</td><td>Chaired by Óscar Hasbún; majority Quiñenco-designated. Cumulative voting lets a ~14% minority bloc elect one of seven directors; a directors' committee (independent-led) reviews related-party dealings.</td></tr>
+<tr><td>Legal levers (Law 18.046)</td><td>10% of shares can convene an EGM. Two-thirds of <i>all issued</i> voting shares are needed for: buybacks, mergers, capital reductions, sale of >50% of assets, dissolution. <b>Quiñenco at 66.5% is ~0.2 points short of two-thirds</b>, so it cannot pass those measures alone; equally, minorities cannot pass them against it.</td></tr>
+<tr><td>Related-party protection</td><td>A merger with, or tender by, Quiñenco requires the directors' committee, independent valuations and (for a tender) the Chilean OPA rules; no squeeze-out mechanism exists below 95%.</td></tr>
+</table>
+<h3>11.2 What an activist could credibly ask for</h3>
+<ul>
+<li><b>A 5% buyback programme</b> funded from the ~US$428m of cash and refunds: NAV-per-share accretive by ~3.6% at the current discount. This is the one ask that is cheap, legal and aligned with Quiñenco's own NAV (Quiñenco marks Vapores at market). The controller's objection would be float shrinkage and the loss of the "eventual dividend" cash buffer.</li>
+<li><b>A formal dividend policy</b> (e.g. 100% pass-through of HLAG dividends after tax plus a stated cash floor), replacing ad-hoc "eventual" dividends; low cost, improves predictability, likely to be accepted.</li>
+<li><b>A secondary listing or ADR programme</b> to let German and US investors arbitrage Vapores against HLAG directly. Modest cost; the group has shown no interest.</li>
+<li><b>Board representation</b> via cumulative voting: a 14% coalition (two large AFPs plus a foreign fund) can seat one director; that is realistic and has precedent in Chile.</li>
+<li><b>Not credible:</b> forcing a sale of the HLAG block (pact to 2030; Quiñenco veto), an in-specie distribution of HLAG shares (breaks the pact, triggers Chilean and German tax, and needs two-thirds), or a Quiñenco buy-in at NAV (no legal route to compel it).</li>
+</ul>
+<h3>11.3 Probability-weighted view</h3>
+<p>The activist case is <b>weak on control and moderate on persuasion</b>. There is no path to force outcomes against a 66.5% holder. There is, however, an unusual alignment: because Quiñenco's own holding discount is computed off Vapores' market price, a narrower Vapores discount is worth more to Quiñenco than to anyone else, and the group is cash-rich after the 2025 Nexans exit. A campaign framed as "help the controller lift its own NAV" (buyback plus policy clarity) has perhaps a one-in-three chance of partial success over two years; anything structural is below one-in-ten. The more likely "activism" is the controller's: a creep above 66.7% would be the tell that Quiñenco intends to use the supermajority tools itself, and minority holders should want to be positioned <i>before</i> that rather than after.</p>
+
+<h2>12. Catalyst calendar and monitoring list</h2>
+<table>
+<tr><th>Date / window</th><th>Event</th><th>What matters for Vapores</th></tr>
+<tr><td>9 Sep 2026</td><td>Israeli agencies file positions on the ZIM sale</td><td>Count of opposing ministries; whether Defence conditions are negotiable.</td></tr>
+<tr><td>End-Sep 2026</td><td>HLAG revised ZIM offer</td><td>Price change, security covenants, fleet-availability conditions, any equity component.</td></tr>
+<tr><td>Early Nov 2026</td><td>HLAG 9M results; CSAV Q3</td><td>H2 rate momentum vs guidance; CSAV YTD net income (mandatory dividend base).</td></tr>
+<tr><td>Q4 2026</td><td>ZIM closing or termination; bridge draw-down</td><td>Pro forma leverage and dividend language.</td></tr>
+<tr><td>Dec 2026</td><td>Tripartite pact expires; bilateral CSAV–Kühne pact starts 1 Jan 2027</td><td>Any change in Hamburg's stance; HGV holding.</td></tr>
+<tr><td>Mar 2027</td><td>HLAG FY26 results and dividend proposal</td><td>The single biggest driver of Vapores' 2027 yield and discount.</td></tr>
+<tr><td>Apr 2027</td><td>CSAV AGM</td><td>Dividend mix (mandatory vs eventual); any buyback or policy proposal; Quiñenco stake.</td></tr>
+<tr><td>Ongoing</td><td>German WHT refunds; USD/CLP; Quiñenco market purchases</td><td>Cash cushion; peso dividend value; supermajority creep.</td></tr>
+</table>
+
+<h2>13. Data notes and limitations</h2>
+<ul class="small">
+<li>Company data are from CSAV's August 2026 investor presentation (H1 2026): HLAG segment figures, CSAV P&L bridge, tax-asset and withholding-retention tables, and dividend-flow dates.</li>
+<li>Prices: HLAG EUR 134.80 (Xetra close 8 Sep 2026); Vapores CLP 49.20 (Santiago, 8 Sep 2026); EUR/USD 1.161; USD/CLP 930 (observed rate 8 Sep 2026: 933.68, spot ~927).</li>
+<li>Holdco cash at 30 Jun 2026 is an <b>estimate</b>: the interim financial statements on csav.com, quinenco.cl and cmfchile.cl were not retrievable from this environment. The estimate is triangulated from the last disclosed balance (US$963m at Mar-24), subsequent dividend and refund flows, and H1 2026 net finance income of US$5.7m. The NAV impact of the range is about ±1 point of discount (table 4.1).</li>
+<li>Peer multiples for Maersk are approximate market figures from published comparisons (EV/EBITDA ~3.5x, P/B ~0.7x, forward P/E ~14x) and should be refreshed before use in a model.</li>
+<li>Discount history levels for 2015–2025 are from Chilean broker and press commentary (MundoMaritimo, BTG Pactual, LarrainVial) rather than a continuous series.</li>
+<li>Nothing herein is investment advice; it is an analytical framework for an event-driven investor.</li>
+</ul>
+<div class="foot">Compañía Sud Americana de Vapores S.A. · Bolsa de Santiago: VAPORES · ISIN CLP3064M1019 · Report date 8 September 2026</div>
+</body></html>
