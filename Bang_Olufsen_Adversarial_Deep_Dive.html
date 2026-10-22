@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bang & Olufsen (BO DC) — Adversarial Deep-Dive</title>
+<style>
+  @page { size: A4; margin: 18mm 16mm 18mm 16mm; }
+  * { box-sizing: border-box; }
+  body { font-family: Helvetica, Arial, sans-serif; font-size: 10.2pt; line-height: 1.38; color: #1a1a1a; margin: 0; }
+  h1 { font-size: 22pt; margin: 0 0 4px 0; letter-spacing: -0.3px; }
+  h2 { font-size: 14.5pt; margin: 22px 0 8px 0; padding-bottom: 4px; border-bottom: 2px solid #c8102e; color: #111; page-break-after: avoid; }
+  h3 { font-size: 11.5pt; margin: 14px 0 5px 0; color: #222; page-break-after: avoid; }
+  h4 { font-size: 10.5pt; margin: 10px 0 3px 0; color: #333; }
+  p { margin: 5px 0 7px 0; }
+  ul { margin: 4px 0 8px 18px; padding: 0; }
+  li { margin: 2px 0; }
+  table { border-collapse: collapse; width: 100%; margin: 6px 0 10px 0; font-size: 9.2pt; page-break-inside: avoid; }
+  th, td { border: 1px solid #cfcfcf; padding: 4px 6px; vertical-align: top; }
+  th { background: #f0f0f0; text-align: left; font-weight: bold; }
+  td.n, th.n { text-align: right; white-space: nowrap; }
+  .cover { border-left: 6px solid #c8102e; padding-left: 14px; margin-bottom: 14px; }
+  .meta { color: #555; font-size: 9.3pt; }
+  .box { border: 1px solid #c8c8c8; background: #fafafa; padding: 9px 12px; margin: 10px 0; page-break-inside: avoid; }
+  .box.red { border-color: #c8102e; background: #fff6f7; }
+  .box.blue { border-color: #1f5fa8; background: #f4f8fd; }
+  .box.green { border-color: #3a8f5c; background: #f4faf6; }
+  .kpi { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; }
+  .kpi div { flex: 1 1 120px; border: 1px solid #ddd; padding: 6px 8px; background: #fff; }
+  .kpi .l { font-size: 8.3pt; color: #666; text-transform: uppercase; letter-spacing: 0.3px; }
+  .kpi .v { font-size: 13pt; font-weight: bold; }
+  .small { font-size: 8.6pt; color: #555; }
+  .pb { page-break-before: always; }
+  .tag { display: inline-block; font-size: 8pt; padding: 1px 6px; border-radius: 3px; background: #eee; color: #333; margin-right: 4px; }
+  .neg { color: #b00020; }
+  .pos { color: #1b7a3a; }
+  .two { display: flex; gap: 14px; }
+  .two > div { flex: 1; }
+  .fig { text-align: center; margin: 8px 0; page-break-inside: avoid; }
+  .fig .cap { font-size: 8.8pt; color: #555; margin-top: 3px; }
+  .verdict { font-size: 11pt; font-weight: bold; }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <h1>Bang &amp; Olufsen A/S (BO DC)</h1>
+  <div style="font-size:13pt;margin-bottom:4px;">Adversarial deep-dive: bull, bear, pre-mortem, valuation regression, contrarian view, activist case</div>
+  <div class="meta">Equity research note &nbsp;|&nbsp; 14 September 2026 &nbsp;|&nbsp; Nasdaq Copenhagen &nbsp;|&nbsp; Sector: luxury audio / consumer durables &nbsp;|&nbsp; Fiscal year ends 31 May</div>
+</div>
+
+<div class="kpi">
+  <div><div class="l">Share price (approx.)</div><div class="v">DKK ~10</div><div class="small">52-week range DKK 8.25–15.80; roughly -27% YTD</div></div>
+  <div><div class="l">Market cap</div><div class="v">DKK ~1.5bn</div><div class="small">~147.3m shares</div></div>
+  <div><div class="l">TEV (est.)</div><div class="v">DKK ~1.65bn</div><div class="small">incl. ~DKK 0.2bn lease liabilities; net cash ex-leases near zero (est.)</div></div>
+  <div><div class="l">FY25/26 revenue</div><div class="v">DKK 2,468m</div><div class="small">-1.6% in local currency</div></div>
+  <div><div class="l">FY25/26 EBIT margin*</div><div class="v neg">-0.5%</div><div class="small">*before special items; FCF DKK -141m</div></div>
+  <div><div class="l">TEV / Sales</div><div class="v">0.67x</div><div class="small">vs 1.2x fitted on 13-peer regression</div></div>
+</div>
+
+<div class="box red">
+<span class="verdict">Bottom line.</span> Bang &amp; Olufsen (B&amp;O) is a century-old luxury brand trapped inside a sub-scale consumer-electronics cost structure. The bull case rests on a genuine asset: a 58% gross margin that has risen 17 points in six years and now sits in luxury-goods territory. The bear case is that the company has never converted that gross margin into operating profit at scale, has burned cash for the second time in five years, withdrew its 2027/28 targets in March 2026, and replaced its CEO twice in a year. The market is pricing the equity halfway between a loss-making hardware maker (fitted TEV/Sales near 0.4x at the guided 2% EBIT margin) and a luxury brand (fitted 1.2–1.5x). Our contrarian view is that the share is not a bet on audio demand at all; it is a bet on whether the 10.1% New Sparkle Roll block, now up for sale according to Bloomberg (10 September 2026), triggers a change-of-control process. We see an event-driven skew with limited fundamental downside from 0.67x sales but no fundamental floor if the new CEO's plan requires another equity raise. <b>Stance: event-driven long with a hard stop on any equity issuance; not a fundamental compounder.</b>
+</div>
+
+<h2>1. Situation snapshot</h2>
+
+<h3>1.1 What the company is</h3>
+<p>B&amp;O designs and assembles luxury audio products (speakers, soundbars, headphones, earbuds, televisions with LG panels) in Struer, Denmark, and sells them through 315 monobrand stores (company-owned plus franchise partners), multibrand retail, e-commerce, and a Brand Partnering segment that licenses the marque, most importantly to Harman (Samsung) for car audio in Audi, BMW, Ford, Mercedes and others. Products span the Beo Grace earbuds at USD 1,500, the Beosound Premiere soundbar at USD 5,800 (Haute Edition USD 15,700), and Beolab 90 floor-standers at roughly USD 139,000 a pair. Around 1,180 employees. Revenue split FY25/26: EMEA 48%, APAC 30%, Americas 11%, Brand Partnering and other 11%.</p>
+
+<h3>1.2 Seven-year financial record</h3>
+<table>
+<tr><th>Fiscal year (May y/e)</th><th class="n">19/20</th><th class="n">20/21</th><th class="n">21/22</th><th class="n">22/23</th><th class="n">23/24</th><th class="n">24/25</th><th class="n">25/26</th><th class="n">26/27 guide</th></tr>
+<tr><td>Revenue (DKKm)</td><td class="n">2,036</td><td class="n">2,629</td><td class="n">2,948</td><td class="n">2,752</td><td class="n">2,588</td><td class="n">2,552</td><td class="n">2,468</td><td class="n">+1% to +5% LC</td></tr>
+<tr><td>Gross margin</td><td class="n">41.1%</td><td class="n">43.3%</td><td class="n">45.3%</td><td class="n">44.2%</td><td class="n">53.3%</td><td class="n">55.0%</td><td class="n">58.2%</td><td class="n">RAM headwind ~0.5pp</td></tr>
+<tr><td>EBIT margin before special items</td><td class="n neg">-15.0%</td><td class="n">1.4%</td><td class="n">1.8%</td><td class="n neg">-3.8%</td><td class="n">2.4%</td><td class="n">1.0%</td><td class="n neg">-0.5%</td><td class="n">1% to 3%</td></tr>
+<tr><td>Free cash flow (DKKm)</td><td class="n">n/a</td><td class="n">n/a</td><td class="n">n/a</td><td class="n">n/a</td><td class="n">n/a</td><td class="n">+16</td><td class="n neg">-141</td><td class="n">+25 to +100</td></tr>
+<tr><td>Capex (DKKm)</td><td class="n"></td><td class="n"></td><td class="n"></td><td class="n"></td><td class="n"></td><td class="n"></td><td class="n">~280–300</td><td class="n">270–310</td></tr>
+</table>
+<p class="small">Sources: company annual reports and trading statements; FY24/25 revenue derived from the reported -3.3% change in FY25/26. Six-year gross-margin gain of 17 points against a cumulative revenue decline of 16% from the FY21/22 peak is the single most important fact in this note.</p>
+
+<h3>1.3 FY25/26 in one paragraph</h3>
+<p>Revenue DKK 2,468m (-1.6% LC). EMEA -11.9% LC, Americas -5.0% LC, APAC +15.5% LC. Branded channels -2.1% LC in sell-in but like-for-like sell-out +5% (Win Cities +18%). Gross margin a record 58.2%. EBIT before special items DKK -13m; profit before tax DKK -63m; free cash flow DKK -141m, of which Q4 was +DKK 5m. Q4 revenue DKK 654m (-3.1% LC) with a 5.7% EBIT margin helped by a DKK 20m US tariff refund. Beo Grace earbuds sold as planned; the Beosound Premiere soundbar sold "significantly below" plan. Capacity costs rose roughly DKK 100m year-on-year. Monobrand network shrank by 31 stores net (9 opened, 40 closed) while four flagship "Culture Stores" opened in Paris Opera, San Francisco, Hamburg and West Hollywood. Capital resources at year-end DKK 294m, of which available liquidity DKK 94m (cash plus DKK 300m revolving credit facility).</p>
+
+<h3>1.4 Timeline of the last twelve months</h3>
+<table>
+<tr><th style="width:24%">Date</th><th>Event</th></tr>
+<tr><td>Jul 2025</td><td>FY24/25 results; mid-term ambitions confirmed: 8% revenue CAGR FY25/26–27/28, 8% EBIT margin and DKK 250m FCF in FY27/28.</td></tr>
+<tr><td>Oct 2025</td><td>Q1 revenue -4% LC; record gross margin 58.7%; partner destocking blamed.</td></tr>
+<tr><td>Nov 2025</td><td>Beosound Premiere (USD 5,800 soundbar) and Beo Grace (USD 1,500 earbuds) launched into the centenary.</td></tr>
+<tr><td>7 Jan 2026</td><td>CEO Kristian Teär steps down with immediate effect; CFO Nikolaj Wendelboe interim CEO; FY guide narrowed to +1–5% LC.</td></tr>
+<tr><td>14 Jan 2026</td><td>Q2 revenue -1.2% LC; EBIT margin -5.3% incl. centenary one-offs (about 0% ex); FCF DKK -33m.</td></tr>
+<tr><td>23 Mar 2026</td><td>Profit warning: FY revenue guide cut to -3% to 0%, EBIT to -3% to -1%, FCF to DKK -200m to -150m; <b>mid-term ambitions withdrawn</b>. Shares fall to DKK 8–9.</td></tr>
+<tr><td>2 Jul 2026</td><td>FY25/26 results as above; FY26/27 guide: +1–5% LC, EBIT 1–3%, FCF DKK 25–100m, capex DKK 270–310m.</td></tr>
+<tr><td>12–13 Aug 2026</td><td>Gianfilippo Testa (ex-CEO Alexander McQueen; Gucci, Fendi) appointed CEO; Wendelboe becomes CFO and COO; Jesper Hessel CCO and deputy CEO. AGM re-elects Chair Juha Christensen; Albert Bensoussan (ex-Kering) becomes Vice Chair.</td></tr>
+<tr><td>10 Sep 2026</td><td>Bloomberg: New Sparkle Roll (10.1% holder) working with an adviser on a possible sale of its stake.</td></tr>
+</table>
+
+<h2 class="pb">2. Bull case</h2>
+
+<h3>2.1 Competitive advantages and moat</h3>
+<ul>
+<li><b>Brand and design equity that survives management.</b> B&amp;O is one of a handful of consumer-electronics names with a credible claim to luxury: 100-year heritage, Danish design canon (Jacob Jensen, David Lewis), museum presence, and the ability to price earbuds at USD 1,500 and a soundbar at USD 5,800 and still sell the former to plan. The Recreated Classics programme (Beogram 4000c, Beosystem 9000c) monetises the archive at margins no start-up can replicate.</li>
+<li><b>Gross margin now in luxury territory.</b> 58.2% versus 41% in FY19/20. This has been delivered through mix shift to branded channels, price increases (twice in 2025 alone, including tariff pass-through), lower discounting and the exit from low-margin wholesale doors. Sonos runs a mid-40s gross margin; Moncler runs mid-70s; B&amp;O now sits closer to Burberry than to Sonos. Gross margin is the hardest thing to build in consumer hardware and the company has built it.</li>
+<li><b>Aluminium craft and acoustics as an operational moat.</b> The Struer aluminium factory (anodising, machining, the Beosound A9 and Beolab 90 finishes) is a real barrier for Chinese fast-followers and gives the brand a tactile signature that Apple, Sonos and Bose do not compete on.</li>
+<li><b>Capital-light brand monetisation.</b> The Harman automotive licence (minimum DKK 12.7m per year for 20 years from 2017/18, actual royalties well above that) plus other partnering runs at about 11% of revenue and close to 100% incremental margin. It is an annuity the market gives no separate value to.</li>
+<li><b>Bit-rate independence.</b> Unlike televisions or phones, high-end passive and active speakers have 10–20 year product lives, low technology obsolescence, and an installed base that upgrades rather than churns. Software longevity (Mozart platform) reduces the risk of Sonos-style app fiascos.</li>
+</ul>
+
+<h3>2.2 Growth levers and potential earnings surprises</h3>
+<ul>
+<li><b>Operating leverage on a 58% gross margin.</b> With capacity costs around DKK 1.45bn, every DKK 100m of incremental revenue drops roughly DKK 55–58m to EBIT. A return to the FY21/22 revenue level of DKK 2.95bn on today's cost base would produce an EBIT margin near 9% and roughly DKK 260m of EBIT, against a market capitalisation of DKK 1.5bn.</li>
+<li><b>APAC is already compounding.</b> +15.5% LC in FY25/26 in a year when the global luxury sector shrank in China. Win Cities sell-out grew 18% (20% in Q4) with Tokyo, San Francisco and Los Angeles added. If the Win Cities model (concentrated flagship plus partner density plus clienteling) scales to 15–20 cities, the branded channel can grow high-single-digit for years.</li>
+<li><b>A luxury CEO with a luxury board.</b> Testa ran Alexander McQueen and held senior roles at Gucci and Fendi; Vice Chair Bensoussan ran Kering's watches and jewellery. The new team's playbook is retail productivity, clienteling, pricing architecture and controlled distribution, exactly the levers B&amp;O has half-pulled. Wholesale rationalisation (31 net store closures) is what a luxury turnaround looks like in year one.</li>
+<li><b>Product cycle is front-loaded into FY26/27 Q4.</b> Management guides to three or more launches, most in Q4. Beo Grace showed the company can still make a category hit. A headphone or portable-speaker refresh at Beo Grace-level execution is a plausible upside driver.</li>
+<li><b>Tariff and input-cost normalisation.</b> The DKK 20m US tariff refund in Q4 shows the exposure is manageable; a US-EU tariff settlement or the RAM shortage easing (guided 0.5pp gross-margin drag, DKK 35–45m cash) would add 0.5–1.0pp to margin with no operational effort.</li>
+<li><b>Consensus is low and thin.</b> Two to three brokers cover the name with targets between DKK 8 and DKK 16. Guidance of 1–3% EBIT and DKK 25–100m FCF is not demanding after a year of -0.5% and -DKK 141m. The bar for a positive surprise is on the floor.</li>
+</ul>
+
+<h3>2.3 Capital allocation</h3>
+<ul>
+<li>Capex of DKK 270–310m is heavy for a DKK 2.5bn revenue company (11–12% of sales) but is going into retail (Culture Stores, uplifts) and product development rather than capacity. If the store investments earn the sell-out uplift reported in Win Cities, the return on this capex is high.</li>
+<li>The November 2024 placement (24.6m shares at DKK 9.27, gross DKK 228m) brought in Dyvig Holdings and Azura Partners as anchor holders. Anchor money at DKK 9.27 sits close to today's price, which limits dilution risk relative to a rights issue at a discount, if another raise were needed.</li>
+<li>No dividend, no buyback; the entire capital-allocation question is whether operating cash flow turns positive. Guidance says yes in FY26/27.</li>
+</ul>
+
+<div class="box green"><b>Bull case valuation.</b> FY27/28 revenue DKK 2.8bn, EBIT margin 6%, EBIT DKK 168m. At 1.5x TEV/Sales (luxury-durables fitted line at that margin) TEV is DKK 4.2bn; less DKK 0.2bn of leases and debt gives equity of DKK 4.0bn or about <b>DKK 27 per share</b>, roughly 2.7x the current price. Even 1.0x sales gives DKK 18.</div>
+
+<h2 class="pb">3. Bear case</h2>
+
+<h3>3.1 Three risks that could permanently impair the business</h3>
+
+<h4>Risk 1: The gross margin is a mirage of mix, not a proof of pricing power, and it is now peaking</h4>
+<p>Gross margin rose 17 points while revenue fell 16%. A large part of that is arithmetic: closing low-margin wholesale doors and destocking partners raises the average without adding a single customer. The Q4 figure of 58.7% included a DKK 20m tariff refund worth about 3 points of quarterly margin. Management already guides a 0.5pp RAM headwind for FY26/27. If gross margin has plateaued near 57–58% while capacity costs keep rising (+DKK 100m in FY25/26, further retail and IT platform investment in FY26/27), the operating-leverage story flips: every 1% revenue decline costs about DKK 14m of EBIT with no offset. The Beosound Premiere miss is the tell. The flagship centenary product at USD 5,800 sold "significantly below" plan in a launch year with maximum marketing. That is direct evidence that price elasticity exists above a certain point even for this brand.</p>
+
+<h4>Risk 2: EMEA, half of revenue, is in structural decline and the company cannot see it</h4>
+<p>EMEA revenue fell 11.9% LC in FY25/26. Management attributes this to partner destocking and geopolitical uncertainty. The alternative explanation is that the European monobrand franchise network, which is the historical core of the business, is ageing out: franchisees are closing (40 closures, mostly in Europe), the customer base is old, and the company is replacing high-volume partner doors with a small number of expensive company-owned Culture Stores whose sell-out growth is flattered by cannibalisation. If EMEA continues to shrink at high single digits, APAC growth of 15% on a 30% base is not enough to hold the top line flat. The company would then be a DKK 2.2–2.3bn revenue business with a DKK 1.5bn fixed-cost base and no way to earn its cost of capital.</p>
+
+<h4>Risk 3: Liquidity and a third equity raise</h4>
+<p>B&amp;O has raised equity twice in five years (rights issue 2020, placement 2024) and has never generated sustained free cash flow. FY25/26 burned DKK 141m. Year-end available liquidity was DKK 94m against a DKK 300m facility. Guidance of DKK 25–100m FCF for FY26/27 assumes stable inventory and a Q4-loaded launch schedule; if launches slip or the soundbar inventory has to be cleared, FCF turns negative again, the facility gets drawn, and covenants (undisclosed) come into play. A new CEO from Kering-style luxury will want to invest in retail, and the fastest way to fund that is another placement to friendly holders at DKK 8–10. The permanent impairment here is not bankruptcy but a 15–20% dilution at trough valuation, which is what happened in 2020 and 2024.</p>
+
+<h3>3.2 Margin compression and revenue deceleration mechanics</h3>
+<table>
+<tr><th>Line item</th><th>FY25/26 actual</th><th>Bear FY26/27</th><th>Mechanism</th></tr>
+<tr><td>Revenue growth (LC)</td><td class="n">-1.6%</td><td class="n neg">-4%</td><td>EMEA -8%, Americas flat with tariffs, APAC +8% as China luxury demand normalises</td></tr>
+<tr><td>Gross margin</td><td class="n">58.2%</td><td class="n neg">56.5%</td><td>RAM cost, no tariff refund repeat, soundbar clearance, weaker mix as partners restock lower-priced items</td></tr>
+<tr><td>Capacity costs (DKKm)</td><td class="n">~1,450</td><td class="n neg">~1,480</td><td>IT platform, Culture Store leases, new leadership team, RAM and freight</td></tr>
+<tr><td>EBIT margin before special items</td><td class="n">-0.5%</td><td class="n neg">-4% to -6%</td><td>Every 1pp of gross margin is DKK 24m; every 1% of revenue is DKK 14m</td></tr>
+<tr><td>Free cash flow (DKKm)</td><td class="n">-141</td><td class="n neg">-150 to -250</td><td>Negative EBITDA after capex of DKK 270m+ and working capital on launches</td></tr>
+</table>
+
+<h3>3.3 High expectations, in the places that matter</h3>
+<ul>
+<li>The share price already assumes the luxury thesis: 0.67x sales is more than double what a loss-making hardware peer gets (GoPro 0.57x at -20% margin, Corsair 0.55x at 1%). If the market re-rates B&amp;O as consumer hardware, 0.4x sales gives roughly DKK 5–6 per share.</li>
+<li>The CEO appointment has become the thesis. Testa has never run a hardware, engineering or supply-chain business. Luxury retail playbooks assume gross margins of 70%+ and a product that does not need a chip supply chain. A luxury CEO plus a hardware cost base is exactly the combination that failed under previous "brand-led" management (2015–2019: revenue fell from DKK 2.9bn to DKK 2.0bn before the 2020 rights issue).</li>
+<li>Guidance credibility is low. The company has missed or cut guidance in three of the last four years and withdrew its medium-term plan nine months after reaffirming it. "1–5% growth, 1–3% EBIT" is exactly the language used in FY25/26 before the March cut.</li>
+</ul>
+
+<div class="box red"><b>Bear case valuation.</b> FY26/27 revenue DKK 2.35bn, EBIT margin -4%, another DKK 150m of cash burn and a DKK 250m placement at DKK 8. At 0.45x sales (the Sound United transaction multiple, September 2025), TEV is DKK 1.06bn, equity DKK 0.85bn on a diluted share count near 180m: about <b>DKK 4.7 per share</b>. At 0.55x sales pre-dilution: DKK 7.5.</div>
+
+<h2 class="pb">4. Pre-mortem: it is September 2028 and the shares are at DKK 4. What happened?</h2>
+<p>We assume failure and work backwards. The most probable narrative, in order of likelihood:</p>
+<ol>
+<li><b>The luxury playbook collided with the cost base (probability-weighted highest).</b> Testa invested in flagship retail and marketing in FY26/27 and FY27/28, capacity costs rose to DKK 1.6bn, and the launches were beautiful but low-volume. Revenue reached DKK 2.6bn in FY27/28 but EBIT stayed near zero, FCF stayed negative, and the company raised DKK 300m in early 2028 at DKK 6. The story became "another Vertu".</li>
+<li><b>The Sparkle Roll block found no strategic buyer, only a financial one.</b> The stake went to a family office at a small premium, the takeover premium in the share price evaporated, and the register became more fragmented rather than less. No one with a plan controls the company.</li>
+<li><b>EMEA partner attrition accelerated.</b> Franchisees, faced with a company pushing them to invest in store uplifts while it opens company-owned stores in the same cities, exited faster than new APAC doors could compensate. The monobrand network fell below 250 stores. Wholesale revenue, still the majority of sales, declined double digits.</li>
+<li><b>Technology debt surfaced.</b> The IT platform roll-out (POS and CRM unification) overran, the Mozart software platform needed a re-investment for spatial audio and AI voice, and the RAM/component cost shock persisted. Gross margin fell back to 54%.</li>
+<li><b>The Harman licence matured without a replacement.</b> Automotive OEMs shifted to in-house branded audio (Mercedes/Burmester, BMW/Bowers &amp; Wilkins pattern), Harman deprioritised the B&amp;O badge, and Brand Partnering revenue fell with no offsetting new licence.</li>
+</ol>
+<p><b>What the pre-mortem tells us to monitor:</b> the capacity-cost line in every quarterly release (the single best leading indicator of the failure mode), EMEA revenue growth, the monobrand store count, FCF against the DKK 25–100m guide by H1 FY26/27 (January 2027), and any hint of a "strategic review of capital structure".</p>
+
+<h2>5. Valuation: are the multiples too high?</h2>
+
+<h3>5.1 Peer set and inputs</h3>
+<p>We regress TEV/Sales on EBIT margin for 13 listed companies that share at least one of B&amp;O's economic characteristics: branded audio hardware, premium consumer devices, or luxury durables. Inputs are latest-fiscal-year or trailing-twelve-month figures gathered from company reports and public market-data summaries between June and September 2026. They are approximate to roughly ±0.2x on multiples and ±1pp on margins and are meant to establish the relationship, not to price any single peer.</p>
+<table>
+<tr><th>Company</th><th>Group</th><th class="n">TEV / Sales</th><th class="n">EBIT margin</th><th>Basis and notes</th></tr>
+<tr><td>Sonos</td><td>Audio hardware</td><td class="n">1.0x</td><td class="n">~1%</td><td>TEV USD 1.5bn, TTM revenue ~USD 1.5bn, GAAP op margin around breakeven; adj. EBITDA margin ~15%</td></tr>
+<tr><td>Logitech</td><td>Peripherals</td><td class="n">2.9x</td><td class="n">15.5%</td><td>TEV USD 14bn, revenue USD 5bn; non-GAAP op margin 18.8%, GAAP ~15.5%</td></tr>
+<tr><td>Garmin</td><td>Devices</td><td class="n">5.4x</td><td class="n">26.5%</td><td>TEV USD 42bn, TTM revenue ~USD 7.8bn</td></tr>
+<tr><td>GN Store Nord</td><td>Audio hardware</td><td class="n">1.4x</td><td class="n">~10%</td><td>Group basis pre hearing-division disposal: mkt cap DKK 13.9bn + NIBD DKK 9.6bn; EBITA margin ~12%, EBIT ~10%</td></tr>
+<tr><td>Focusrite</td><td>Audio hardware</td><td class="n">1.0x</td><td class="n">~9%</td><td>Mkt cap ~GBP 156m + net debt GBP 8.6m; revenue GBP 164.6m; adj. EBITDA GBP 24.7m</td></tr>
+<tr><td>Turtle Beach</td><td>Audio hardware</td><td class="n">0.85x</td><td class="n">7.5%</td><td>TEV ~USD 290–310m; 2026 revenue guide USD 335–355m</td></tr>
+<tr><td>Corsair Gaming</td><td>Peripherals</td><td class="n">0.55x</td><td class="n">~1%</td><td>TEV USD 788m; revenue ~USD 1.4bn; GAAP op margin barely positive</td></tr>
+<tr><td>GoPro</td><td>Devices</td><td class="n">0.57x</td><td class="n">-20%</td><td>TEV USD 346m; TTM revenue USD 0.61bn; op margin -20%</td></tr>
+<tr><td>Moncler</td><td>Luxury</td><td class="n">4.9x</td><td class="n">29.2%</td><td>TEV EUR 15.2bn; FY25 revenue EUR 3.13bn; H1 26 EBIT margin 19%</td></tr>
+<tr><td>Brunello Cucinelli</td><td>Luxury</td><td class="n">4.8x</td><td class="n">~16.5%</td><td>Aug 2026 multiple; H1 26 EBIT margin 17.1%</td></tr>
+<tr><td>Burberry</td><td>Luxury</td><td class="n">1.6x</td><td class="n">6.6%</td><td>TEV ~USD 5.2bn; FY26 revenue GBP 2.42bn; adj. op margin 6.6%</td></tr>
+<tr><td>Salvatore Ferragamo</td><td>Luxury</td><td class="n">1.5x</td><td class="n">~2%</td><td>Mkt cap USD 1.65bn; 2025 revenue EUR 977m; EBITDA 17% (IFRS 16), EBIT low single digit</td></tr>
+<tr><td>Swatch Group</td><td>Luxury</td><td class="n">1.7x</td><td class="n">2.1%</td><td>TEV ~USD 13bn; 2025 sales CHF 6.28bn; group op margin 2.1%</td></tr>
+<tr><td><b>Bang &amp; Olufsen</b></td><td>Luxury audio</td><td class="n"><b>0.67x</b></td><td class="n"><b>-0.5%</b></td><td>TEV ~DKK 1.65bn (est.), FY25/26 revenue DKK 2,468m; FY26/27 guided EBIT 1–3%</td></tr>
+</table>
+
+<h3>5.2 Regression results</h3>
+<div class="fig">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="100%" style="max-width:760px;font-family:Helvetica,Arial,sans-serif">
+<line x1="60" y1="390.0" x2="740" y2="390.0" stroke="#e3e3e3"/>
+<text x="52" y="394.0" font-size="11" text-anchor="end" fill="#555">0.0x</text>
+<line x1="60" y1="328.33333333333337" x2="740" y2="328.33333333333337" stroke="#e3e3e3"/>
+<text x="52" y="332.33333333333337" font-size="11" text-anchor="end" fill="#555">1.0x</text>
+<line x1="60" y1="266.66666666666663" x2="740" y2="266.66666666666663" stroke="#e3e3e3"/>
+<text x="52" y="270.66666666666663" font-size="11" text-anchor="end" fill="#555">2.0x</text>
+<line x1="60" y1="205.0" x2="740" y2="205.0" stroke="#e3e3e3"/>
+<text x="52" y="209.0" font-size="11" text-anchor="end" fill="#555">3.0x</text>
+<line x1="60" y1="143.33333333333331" x2="740" y2="143.33333333333331" stroke="#e3e3e3"/>
+<text x="52" y="147.33333333333331" font-size="11" text-anchor="end" fill="#555">4.0x</text>
+<line x1="60" y1="81.66666666666666" x2="740" y2="81.66666666666666" stroke="#e3e3e3"/>
+<text x="52" y="85.66666666666666" font-size="11" text-anchor="end" fill="#555">5.0x</text>
+<line x1="60" y1="20.0" x2="740" y2="20.0" stroke="#e3e3e3"/>
+<text x="52" y="24.0" font-size="11" text-anchor="end" fill="#555">6.0x</text>
+<line x1="85.18518518518519" y1="20" x2="85.18518518518519" y2="390" stroke="#eeeeee"/>
+<text x="85.18518518518519" y="406" font-size="11" text-anchor="middle" fill="#555">-20%</text>
+<line x1="211.11111111111111" y1="20" x2="211.11111111111111" y2="390" stroke="#eeeeee"/>
+<text x="211.11111111111111" y="406" font-size="11" text-anchor="middle" fill="#555">-10%</text>
+<line x1="337.037037037037" y1="20" x2="337.037037037037" y2="390" stroke="#eeeeee"/>
+<text x="337.037037037037" y="406" font-size="11" text-anchor="middle" fill="#555">0%</text>
+<line x1="462.96296296296293" y1="20" x2="462.96296296296293" y2="390" stroke="#eeeeee"/>
+<text x="462.96296296296293" y="406" font-size="11" text-anchor="middle" fill="#555">10%</text>
+<line x1="588.8888888888889" y1="20" x2="588.8888888888889" y2="390" stroke="#eeeeee"/>
+<text x="588.8888888888889" y="406" font-size="11" text-anchor="middle" fill="#555">20%</text>
+<line x1="714.8148148148148" y1="20" x2="714.8148148148148" y2="390" stroke="#eeeeee"/>
+<text x="714.8148148148148" y="406" font-size="11" text-anchor="middle" fill="#555">30%</text>
+<text x="400.0" y="432" font-size="12" text-anchor="middle" fill="#333">EBIT margin (latest FY / TTM)</text>
+<text transform="translate(14,205.0) rotate(-90)" font-size="12" text-anchor="middle" fill="#333">TEV / Sales</text>
+<line x1="60.0" y1="469.9030354026632" x2="740.0" y2="88.38603145084447" stroke="#333" stroke-width="1.5" stroke-dasharray="6,4"/>
+<line x1="337.037037037037" y1="389.19344967696344" x2="714.8148148148148" y2="47.83707475267519" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="2,3"/>
+<circle cx="349.6296296296296" cy="328.33333333333337" r="5" fill="#1f5fa8" fill-opacity="0.85"/>
+<text x="309.6296296296296" y="320.33333333333337" font-size="10" fill="#222">Sonos</text>
+<circle cx="532.2222222222222" cy="211.16666666666669" r="5" fill="#3a8f5c" fill-opacity="0.85"/>
+<text x="539.2222222222222" y="215.16666666666669" font-size="10" fill="#222">Logitech</text>
+<circle cx="670.7407407407408" cy="56.99999999999998" r="5" fill="#8a6d1f" fill-opacity="0.85"/>
+<text x="677.7407407407408" y="60.99999999999998" font-size="10" fill="#222">Garmin</text>
+<circle cx="462.96296296296293" cy="303.66666666666663" r="5" fill="#1f5fa8" fill-opacity="0.85"/>
+<text x="469.96296296296293" y="307.66666666666663" font-size="10" fill="#222">GN Store Nord</text>
+<circle cx="450.3703703703704" cy="328.33333333333337" r="5" fill="#1f5fa8" fill-opacity="0.85"/>
+<text x="458.3703703703704" y="323.33333333333337" font-size="10" fill="#222">Focusrite</text>
+<circle cx="431.48148148148147" cy="337.58333333333337" r="5" fill="#1f5fa8" fill-opacity="0.85"/>
+<text x="439.48148148148147" y="351.58333333333337" font-size="10" fill="#222">Turtle Beach</text>
+<circle cx="349.6296296296296" cy="356.0833333333333" r="5" fill="#3a8f5c" fill-opacity="0.85"/>
+<text x="357.6296296296296" y="370.0833333333333" font-size="10" fill="#222">Corsair Gaming</text>
+<circle cx="85.18518518518519" cy="354.84999999999997" r="5" fill="#8a6d1f" fill-opacity="0.85"/>
+<text x="92.18518518518519" y="358.84999999999997" font-size="10" fill="#222">GoPro</text>
+<circle cx="704.7407407407408" cy="87.83333333333331" r="5" fill="#a03a5a" fill-opacity="0.85"/>
+<text x="711.7407407407408" y="91.83333333333331" font-size="10" fill="#222">Moncler</text>
+<circle cx="544.8148148148148" cy="94.00000000000001" r="5" fill="#a03a5a" fill-opacity="0.85"/>
+<text x="551.8148148148148" y="86.00000000000001" font-size="10" fill="#222">Brunello Cucinelli</text>
+<circle cx="420.14814814814815" cy="291.33333333333337" r="5" fill="#a03a5a" fill-opacity="0.85"/>
+<text x="428.14814814814815" y="295.33333333333337" font-size="10" fill="#222">Burberry</text>
+<circle cx="362.22222222222223" cy="297.5" r="5" fill="#a03a5a" fill-opacity="0.85"/>
+<text x="370.22222222222223" y="310.5" font-size="10" fill="#222">Salvatore Ferragamo</text>
+<circle cx="363.48148148148147" cy="285.1666666666667" r="5" fill="#a03a5a" fill-opacity="0.85"/>
+<text x="371.48148148148147" y="281.1666666666667" font-size="10" fill="#222">Swatch Group</text>
+<rect x="324.74074074074076" y="342.68333333333334" width="12" height="12" fill="#c8102e" transform="rotate(45 330.74074074074076 348.68333333333334)"/>
+<text x="322.74074074074076" y="372.68333333333334" font-size="11" font-weight="bold" text-anchor="end" fill="#c8102e">Bang &amp; Olufsen (0.67x, -0.5%)</text>
+<circle cx="362.22222222222223" cy="348.68333333333334" r="5" fill="none" stroke="#c8102e" stroke-width="1.5" stroke-dasharray="2,2"/>
+<line x1="362.22222222222223" y1="342.68333333333334" x2="362.22222222222223" y2="245.08333333333331" stroke="#c8102e" stroke-width="0.8"/>
+<text x="366.22222222222223" y="243.08333333333331" font-size="10" fill="#c8102e">B&amp;O at FY26/27 guide midpoint (2% EBIT)</text>
+<circle cx="70" cy="30" r="5" fill="#1f5fa8"/><text x="80" y="34" font-size="11" fill="#222">Audio hardware</text>
+<circle cx="70" cy="46" r="5" fill="#3a8f5c"/><text x="80" y="50" font-size="11" fill="#222">Peripherals</text>
+<circle cx="70" cy="62" r="5" fill="#8a6d1f"/><text x="80" y="66" font-size="11" fill="#222">Devices</text>
+<circle cx="70" cy="78" r="5" fill="#a03a5a"/><text x="80" y="82" font-size="11" fill="#222">Luxury</text>
+<line x1="65" y1="94" x2="75" y2="94" stroke="#333" stroke-width="1.5" stroke-dasharray="6,4"/><text x="80" y="98" font-size="11" fill="#222">OLS, all 13 peers (R² 0.67)</text>
+<line x1="65" y1="110" x2="75" y2="110" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="2,3"/><text x="80" y="114" font-size="11" fill="#222">OLS, hardware ex-GoPro (R² 0.89)</text>
+</svg>
+<div class="cap">Figure 1. TEV/Sales against EBIT margin, 13 listed peers, September 2026. Red diamond: B&amp;O actual. Dashed red circle: B&amp;O at the midpoint of FY26/27 guidance.</div>
+</div>
+
+<table>
+<tr><th>Regression (OLS: TEV/Sales = a + b × EBIT margin)</th><th class="n">n</th><th class="n">Intercept a</th><th class="n">Slope b (x per 1pp)</th><th class="n">R²</th><th class="n">Std. error (x)</th><th class="n">Fitted at -0.5%</th><th class="n">Fitted at 2%</th><th class="n">Fitted at 5%</th><th class="n">Fitted at 8%</th></tr>
+<tr><td>All 13 peers</td><td class="n">13</td><td class="n">1.22</td><td class="n">0.115</td><td class="n">0.67</td><td class="n">1.04</td><td class="n">1.17x</td><td class="n">1.45x</td><td class="n">1.80x</td><td class="n">2.14x</td></tr>
+<tr><td>Hardware only (8)</td><td class="n">8</td><td class="n">1.10</td><td class="n">0.096</td><td class="n">0.60</td><td class="n">1.15</td><td class="n">1.05x</td><td class="n">1.29x</td><td class="n">1.58x</td><td class="n">1.87x</td></tr>
+<tr><td>Hardware ex-GoPro (7)</td><td class="n">7</td><td class="n">0.01</td><td class="n">0.185</td><td class="n">0.89</td><td class="n">0.63</td><td class="n">~0.0x</td><td class="n">0.38x</td><td class="n">0.94x</td><td class="n">1.49x</td></tr>
+<tr><td>Luxury only (5)</td><td class="n">5</td><td class="n">1.32</td><td class="n">0.140</td><td class="n">0.84</td><td class="n">0.83</td><td class="n">1.25x</td><td class="n">1.60x</td><td class="n">2.02x</td><td class="n">2.44x</td></tr>
+</table>
+
+<h3>5.3 Interpretation</h3>
+<ul>
+<li><b>Against the full peer set, B&amp;O is statistically cheap.</b> At a -0.5% margin the fitted multiple is 1.17x; B&amp;O trades at 0.67x, a residual of -0.50x, about half a standard error below the line. At the guided 2% margin the fitted value is 1.45x. The market is not paying for the luxury option.</li>
+<li><b>Against pure hardware peers with a working profit model (ex-GoPro), B&amp;O is expensive.</b> That line has an intercept of zero and an R² of 0.89: hardware companies get paid strictly for margin. At a -0.5% margin the fitted multiple is nil, at 2% it is 0.38x. B&amp;O's 0.67x is 0.3x above that line, a premium of roughly DKK 750m of TEV, or about DKK 5 per share, which is the market's current price for the brand and the takeover option.</li>
+<li><b>The luxury intercept is the prize.</b> Luxury durables carry a 1.3x multiple even at zero margin because the market believes their gross margin can be converted to profit by a competent operator. B&amp;O has the gross margin (58% vs Burberry 68%, Ferragamo 70%, Swatch ~80% on Watches &amp; Jewellery) but not the intercept. Closing half the gap to the luxury line at the guided 2% margin (1.1x) would be worth DKK 15–16 per share.</li>
+<li><b>So the multiple is not "too high" on any luxury or blended comparison; it is too high only if you believe B&amp;O is Corsair with an aluminium finish.</b> The question the regression cannot answer is which line applies. That is a governance and execution question, which is why the ownership event matters more than the next quarter.</li>
+</ul>
+
+<h3>5.4 Scenario values (per share, 147.3m shares, net debt incl. leases DKK ~180m)</h3>
+<table>
+<tr><th>Scenario</th><th class="n">FY27/28 revenue (DKKm)</th><th class="n">EBIT margin</th><th class="n">TEV / Sales</th><th class="n">TEV (DKKm)</th><th class="n">Equity value / share</th><th>Anchor</th></tr>
+<tr><td>Bear: hardware re-rating plus dilution</td><td class="n">2,350</td><td class="n">-4%</td><td class="n">0.45x</td><td class="n">1,060</td><td class="n neg">DKK 4.7</td><td>Sound United sale multiple, 180m diluted shares</td></tr>
+<tr><td>Base: muddle-through, guidance met</td><td class="n">2,550</td><td class="n">2.5%</td><td class="n">0.80x</td><td class="n">2,040</td><td class="n">DKK 12.6</td><td>Midpoint between hardware-ex-GoPro (0.5x) and full-set (1.5x) fitted values</td></tr>
+<tr><td>Bull: luxury operator, no raise</td><td class="n">2,800</td><td class="n">6%</td><td class="n">1.50x</td><td class="n">4,200</td><td class="n pos">DKK 27.3</td><td>Luxury line at 6% margin, discounted for size and liquidity</td></tr>
+<tr><td>Event: control transaction</td><td class="n">2,468</td><td class="n">n/a</td><td class="n">1.0–1.2x</td><td class="n">2,470–2,960</td><td class="n pos">DKK 15.5–18.9</td><td>Strategic buyer pays for brand at Sonos-to-Burberry multiples; 2016 Sparkle Roll approach was at DKK 60+ pre-rights-issue basis</td></tr>
+</table>
+<p class="small">Probability-weighting bear 30%, base 40%, bull 15%, event 15% gives roughly DKK 13, about 30% above the current price, with the entire excess return coming from the event and bull branches. Remove the event branch and the weighted value is close to the current price: the fundamental case alone is fair, not cheap.</p>
+
+<h2 class="pb">6. Contrarian view: what the market refuses to see</h2>
+
+<div class="box blue">
+<p><b>The consensus framing is "can the luxury strategy work?" The right framing is "who will own this company in 18 months?"</b> Three things the market is treating as noise are, in our view, the signal.</p>
+</div>
+
+<h3>6.1 The register has quietly become a control situation</h3>
+<p>Disclosed holders: New Sparkle Roll 10.1%, ATP 8.4%, Dyvig Holdings 8.4%, UBS Asset Management 5.5–5.6%, Chr. Augustinus Fabrikker 4.2%, Azura Partners 4.2%. That is roughly 41% in six hands, with retail holding about half of the rest. Sparkle Roll is a Hong Kong luxury-car and watch dealer with HKD 1.9bn of assets, a debt-to-equity ratio above 50%, and a shrinking mainland business; it tried to buy all of B&amp;O in 2016 and is now a forced seller of a block it cannot use. Dyvig Holdings (Christian Dyvig, Copenhagen private-equity veteran) and Chr. Augustinus Fabrikker (the Augustinus Foundation's industrial arm, owner of Tivoli and stakes in Scandinavian Tobacco and Jeudan) are not passive index money; they are Danish patient capital that bought at DKK 9.27 with a view. A 10% block changing hands at a premium is the trigger that turns a passive register into an active one. Danish takeover law requires a mandatory offer at one-third control; a buyer of Sparkle Roll's block plus Azura's plus open-market stock can reach 20–25% without one, which is exactly the "creeping control" set-up an activist or strategic buyer wants.</p>
+
+<h3>6.2 The gross margin is worth more to an acquirer than to B&amp;O</h3>
+<p>Inside B&amp;O, 58% gross margin funds a DKK 1.45bn cost base that includes a full corporate function, Danish engineering, an owned factory, an owned retail estate and a listed-company overhead, for DKK 2.5bn of revenue. Inside Harman/Samsung (already the licensee for car audio and now the owner of Bowers &amp; Wilkins, Denon and Marantz), or Bose (now the owner of McIntosh and Sonus faber), or a luxury group looking for a "hard luxury" adjacency, half of that cost base is duplicative. A strategic buyer paying 1.2x sales (DKK 3.0bn TEV, DKK 19 per share, a 90% premium) that removes DKK 300m of cost would be buying at roughly 8x synergised EBIT. Sound United went for 0.45x sales because it was a distressed seller of mid-market brands with 30% gross margins. B&amp;O is neither distressed nor mid-market, and the difference between 0.45x and 1.2x is the brand the market currently values at DKK 5 per share.</p>
+
+<h3>6.3 The March 2026 profit warning was the bottom for expectations, not for the business</h3>
+<p>The company withdrew targets, took the centenary write-off in Q2, closed 40 stores, cut capex guidance by DKK 50m, and reset FY26/27 guidance to numbers it beat in FY23/24 with a worse gross margin. Q4 delivered 5.7% EBIT margin and positive FCF. The interim CEO who ran the reset is now CFO and COO, which is the person with the numbers, not the person with the vision, in charge of the P&amp;L. The market is still pricing the March warning: the shares are at the level they hit that week. A new CEO who is not responsible for the past has the classic option to kitchen-sink in his first results (Q1 FY26/27 on 8 October 2026 and H1 in January 2027) or to reaffirm; either path ends with a low bar being cleared in calendar 2027.</p>
+
+<h3>6.4 What the market is right about</h3>
+<p>Contrarianism has limits. The market is right that B&amp;O has told the "luxury transformation" story since 2016 under four CEOs and has not once delivered a year of both growth and mid-single-digit EBIT. It is right that Testa's appointment is a bet on the brand rather than on the factory. And it is right that a business that loses money at 58% gross margin has a cost problem that neither pricing nor Win Cities solves. Our contrarian view is not that the strategy will work; it is that the ownership event will resolve the question one way or the other before the strategy has to.</p>
+
+<h2>7. Shareholder activist case</h2>
+
+<h3>7.1 Why B&amp;O screens as an activist target</h3>
+<table>
+<tr><th style="width:30%">Activist criterion</th><th>B&amp;O fit</th><th style="width:12%">Score</th></tr>
+<tr><td>Asset value not reflected in market value</td><td>Brand with 58% gross margin, Harman licence annuity, Struer factory and real estate, DKK 2.5bn revenue at 0.67x sales</td><td>Strong</td></tr>
+<tr><td>Persistent underperformance with clear operational fix</td><td>Six years of sub-3% EBIT margins; capacity costs 58% of sales versus 40–45% at profitable audio peers</td><td>Strong</td></tr>
+<tr><td>Fragmented register with a catalyst</td><td>Six holders at 41%; 10.1% block for sale; retail ~50%; no controlling shareholder</td><td>Strong</td></tr>
+<tr><td>Governance vulnerability</td><td>Chair since 2020 has presided over two CEO exits and two equity raises; board re-elected unopposed in August 2026; Danish one-share-one-vote (B shares only after 2020)</td><td>Moderate</td></tr>
+<tr><td>Strategic alternatives available</td><td>Multiple logical acquirers (Harman/Samsung, Bose, Sonova, LVMH/Kering-type luxury groups, Asian luxury conglomerates, PE with a brand-licensing model)</td><td>Strong</td></tr>
+<tr><td>Size and liquidity</td><td>DKK 1.5bn market cap is too small for most US activists; suited to Nordic or European small-cap activists and family offices</td><td>Weak</td></tr>
+</table>
+
+<h3>7.2 The activist thesis and demands</h3>
+<ul>
+<li><b>Cost base.</b> Demand a published plan to bring capacity costs below 50% of revenue within two years (DKK 200–250m of savings): consolidate the product portfolio, exit the television category (LG-panel products with structurally low margins and high engineering cost), outsource non-aluminium manufacturing, and cap corporate headcount. At 56% gross margin and 50% capacity costs the company earns 6% EBIT on flat revenue.</li>
+<li><b>Brand-licensing expansion.</b> Turn Brand Partnering into a segment with its own targets: automotive beyond Harman when the licence allows, hospitality, marine, and a headphone or hearable partner (the Sonova/Sennheiser and Samsung/Harman models). Licensing revenue at near-100% margin is the fastest route to the luxury intercept.</li>
+<li><b>Capital structure and strategic review.</b> Demand that the board run a formal review of strategic alternatives now, while a 10% block is in play, rather than after it has gone to a financial buyer. Insist on no equity issuance below 1.0x sales without a rights issue.</li>
+<li><b>Board refresh.</b> Two seats: an audio-hardware operator (ex-Sonos, ex-Harman, ex-GN) and a representative of the anchor holders, replacing long-tenured directors. Tie the CEO's long-term incentive to EBIT margin and FCF, not revenue.</li>
+</ul>
+
+<h3>7.3 Who could act, and how</h3>
+<ul>
+<li><b>Existing anchor holders as "constructivists".</b> Dyvig Holdings and Chr. Augustinus Fabrikker together hold 12.6% and are the natural buyers of the Sparkle Roll block. A Danish consortium at 25–30% could install directors and drive the review without a public campaign, in the Nordic style. This is the most probable path.</li>
+<li><b>A strategic buyer using the block as a toehold.</b> Harman already has the automotive relationship and Sound United; Bose has McIntosh; both could buy 10% and approach the board. Under Danish rules a mandatory offer is triggered at one-third, so a 10–30% stake with board representation is available without a full bid.</li>
+<li><b>A European small-cap activist.</b> Names that operate at this size (Nordic event funds, Petrus Advisers, Teleios, Sterling Strategic Value, Accendo Capital) have run comparable campaigns on Nordic consumer names; the DKK 1.5bn market cap and 50% retail float make a 5% position buildable in weeks.</li>
+</ul>
+
+<h3>7.4 Obstacles</h3>
+<ul>
+<li>The board has just appointed a CEO and refreshed the executive team; an activist attacking within six months faces "give the new team a chance" pushback from ATP and Danish institutions.</li>
+<li>Danish foundations and pension funds are consensus-driven and rarely support public campaigns; a constructive private approach is the only realistic style.</li>
+<li>The Harman licence is the company's most valuable contract and its terms (change-of-control clauses, exclusivity, duration to 2037) are not public. Any bidder's diligence starts there.</li>
+<li>Struer is a company town; factory rationalisation carries political and reputational cost in Denmark that a foreign activist will underestimate.</li>
+</ul>
+
+<div class="box"><b>Activist verdict.</b> High-probability target for a constructivist or strategic approach in the next 6–12 months, precisely because the Sparkle Roll sale forces the issue. Low probability of a public US-style campaign. The activist value-creation bridge is DKK 10 (current) to DKK 16–19 (1.0–1.2x sales), or DKK 20+ if the cost plan is executed and the company is sold at a synergised multiple.</div>
+
+<h2 class="pb">8. Catalysts, monitoring and positioning</h2>
+
+<h3>8.1 Catalyst calendar</h3>
+<table>
+<tr><th style="width:24%">Timing</th><th>Event</th><th style="width:30%">What would change our view</th></tr>
+<tr><td>Coming weeks</td><td>Sparkle Roll process: adviser appointed, buyer identity, price</td><td>Strategic or Danish-consortium buyer at a premium confirms the event thesis; financial buyer at market removes it</td></tr>
+<tr><td>8 Oct 2026 (approx.)</td><td>Q1 FY26/27 trading statement, first under Testa</td><td>Capacity costs flat or down year-on-year and EMEA decline moderating to mid-single-digit; watch for any guide change</td></tr>
+<tr><td>Nov 2026 – Jan 2027</td><td>Testa's strategy update; Q4-loaded product launches; H1 results ~14 Jan 2027</td><td>A plan with a cost target and no equity raise is the bull trigger; a plan with "investment phase" language and capex above DKK 310m is the bear trigger</td></tr>
+<tr><td>2027</td><td>US-EU tariff outcome; RAM pricing; Harman licence renegotiation window</td><td>Each worth ±0.5–1pp of margin</td></tr>
+</table>
+
+<h3>8.2 Key monitoring indicators</h3>
+<ul>
+<li>Capacity costs as a percentage of revenue (FY25/26: ~58%). The thesis fails above 60% and works below 52%.</li>
+<li>EMEA LC growth. Sustained -10% is the structural-decline signal.</li>
+<li>Monobrand store count and the ratio of company-owned to partner doors.</li>
+<li>Available liquidity and RCF drawings at each half-year; any covenant disclosure.</li>
+<li>Major-shareholder announcements above and below 5% and 10%.</li>
+</ul>
+
+<h3>8.3 Positioning for an event-driven book</h3>
+<ul>
+<li><b>Long with defined exit.</b> The asymmetry is 30% probability of a DKK 4–5 outcome against 30% of DKK 16+, with a base case near fair. That is a positive expected value only while the block sale is live. Size accordingly and cut on any placement announcement or on a Sparkle Roll sale to a passive financial buyer at market.</li>
+<li><b>Pairs.</b> Long B&amp;O against short Sonos captures "luxury audio brand re-rating" while hedging the sector demand risk; Sonos at 1.0x sales with a working profit model is the cleaner short only if B&amp;O's event closes.</li>
+<li><b>Liquidity warning.</b> Average daily value traded is thin (low single-digit DKK millions). A 5% position in a DKK 1.5bn company takes weeks to build and longer to exit in a bear branch. This is a position for a fund that can hold through an 18-month process, not a trade.</li>
+</ul>
+
+<h2>9. Data quality and sources</h2>
+<p class="small">All figures are drawn from Bang &amp; Olufsen company announcements (annual report FY25/26 of 2 July 2026; Q3 trading statement of 16 April 2026; preliminary Q3 and outlook adjustment of 23 March 2026; H1 FY25/26 interim of 14 January 2026; CEO change of 7 January 2026; executive appointments of 12 August 2026; AGM of 13 August 2026; November 2024 placement documents), Bloomberg reporting of 10 September 2026 on New Sparkle Roll, and public market-data summaries for peers (stock-analysis and company filings, June–September 2026). Direct access to several primary sites was unavailable when this note was prepared, so the following items are estimates and should be verified before any position is sized: the current share price (last verified around DKK 10 in late August 2026, before the Bloomberg report), B&amp;O's net cash and lease liabilities at 31 May 2026 (we assume net debt including leases of about DKK 180m; the annual report shows capital resources of DKK 294m and available liquidity of DKK 94m), peer multiples to ±0.2x, and the exact terms of the Harman licence. Historical revenue figures FY19/20–FY23/24 are as published in the FY23/24 five-year summary; FY24/25 is derived. Nothing in this note is investment advice; it is an analytical framework for an institutional reader to test.</p>
+
+</body>
+</html>
