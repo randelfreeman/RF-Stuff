@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Coupang IC Memo</title>
+<style>
+@page{size:13.333in 7.5in;margin:0}
+*{box-sizing:border-box}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#1f2937;background:#fff}
+a{color:inherit;text-decoration:none;border-bottom:1px dotted #9aa3b2}
+.slide{width:13.333in;height:7.5in;position:relative;overflow:hidden;page-break-after:always;padding:0.42in 0.47in 0.5in}
+.dark{background:#13213d;color:#fff}
+.dark a{border-bottom-color:#5b6b8c}
+.eyebrow{font-size:10pt;font-weight:700;color:#2f6fd0;letter-spacing:.02em;text-transform:uppercase}
+.tag{position:absolute;top:0.38in;right:0.47in;background:#13213d;color:#fff;font-size:9pt;font-weight:700;padding:7pt 16pt;letter-spacing:.03em}
+.rule{border-top:1.3px solid #1f2937;margin:0.18in 0 0.12in}
+h1{font-size:22pt;line-height:1.18;margin:0 0 0.14in;color:#13213d}
+h2{font-size:11.5pt;margin:0 0 6pt;color:#13213d;border-bottom:1px solid #c9ced6;padding-bottom:4pt}
+.foot{position:absolute;bottom:0.22in;left:0.47in;right:0.47in;font-size:7.5pt;color:#6b7280;display:flex;justify-content:space-between}
+.dark .foot{color:#9fb0cf}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:0.35in}
+.grid32{display:grid;grid-template-columns:1.45fr 1fr;gap:0.3in}
+ul.sq{list-style:none;padding:0;margin:0}
+ul.sq li{position:relative;padding-left:16pt;margin:0 0 7pt;font-size:10pt;line-height:1.38}
+ul.sq li:before{content:"";position:absolute;left:0;top:5pt;width:9pt;height:6pt;background:#2f6fd0}
+ul.sq.grey li:before{background:#6b7280}
+.tiles{display:grid;gap:0.1in;margin:0.05in 0 0.18in}
+.t5{grid-template-columns:repeat(5,1fr)}.t4{grid-template-columns:repeat(4,1fr)}
+.tile{background:#eef0f4;padding:12pt 13pt;min-height:1.05in}
+.tile .v{font-size:19pt;font-weight:700;color:#13213d}
+.tile .l{font-size:8.3pt;color:#4b5563;margin-top:5pt;line-height:1.35}
+.note{background:#eef0f4;border-left:6px solid #13213d;padding:10pt 16pt;font-size:9.6pt;line-height:1.45;position:absolute;left:0.47in;right:0.47in;bottom:0.62in}
+table{border-collapse:collapse;width:100%;font-size:8.6pt}
+th{background:#13213d;color:#fff;text-align:left;padding:5pt 6pt;font-weight:700}
+td{padding:4.5pt 6pt;border-bottom:1px solid #d6dbe3;vertical-align:top}
+tr.hl td{background:#dbe5f7;font-weight:700}
+td.b{font-weight:700}
+.src{font-size:7.4pt;color:#6b7280;margin-top:4pt}
+img.chart{width:100%;display:block}
+.big{font-size:40pt;font-weight:800;line-height:1.05;margin:0.15in 0 0.1in}
+.kv{display:grid;grid-template-columns:repeat(4,1fr);gap:10pt 18pt;margin-top:0.25in;font-size:9pt}
+.kv .k{color:#9fb0cf}.kv .val{color:#fff;margin-top:2pt}
+.btn{display:inline-block;padding:9pt 18pt;font-weight:700;font-size:11pt;margin-right:10pt}
+.cal{display:grid;grid-template-columns:1.55in 2.9in 1fr 0.9in;border-bottom:1px solid #d6dbe3;padding:10.5pt 0;font-size:9.4pt;align-items:center}
+.cal .d{color:#2f6fd0;font-weight:700;font-size:8.6pt}.cal .e{font-weight:700}.cal .w{color:#4b5563}.cal .i{text-align:right;color:#2f6fd0;font-weight:700;font-size:8.6pt}
+.risk{background:#eef0f4;padding:14pt 16pt;display:grid;grid-template-columns:0.55in 1fr;min-height:1.55in}
+.mini{background:#eef0f4;border-left:4px solid #13213d;padding:8pt 12pt;font-size:9pt;line-height:1.45;margin-top:12pt}
+table.sm{font-size:8.2pt}table.sm th{padding:4pt 6pt}table.sm td{padding:3.4pt 6pt}
+.risk .n{font-size:22pt;font-weight:800;color:#2f6fd0}.risk .h{font-weight:700;font-size:10.5pt;color:#13213d;margin-bottom:5pt}.risk .x{font-size:8.8pt;color:#4b5563;line-height:1.4}
+</style></head><body>
+
+<!-- 1 COVER -->
+<div class="slide dark">
+ <div style="display:grid;grid-template-columns:1fr 3.3in;gap:0.4in;height:100%">
+  <div style="padding-top:0.45in">
+   <div class="eyebrow" style="color:#8fb3ea">Investment Committee Memo</div>
+   <div style="width:1.1in;border-top:1.5px solid #8fb3ea;margin:6pt 0 0.25in"></div>
+   <div style="font-size:34pt;font-weight:800;line-height:1.15">Coupang, Inc.</div>
+   <div style="font-size:14pt;color:#d6deeb;margin:0.15in 0 0.25in;line-height:1.4">NYSE: CPNG. Korea's Rocket Delivery leader, priced as if a data breach permanently broke its margins. Customers have come back; margins, the KRW and the regulators are next.</div>
+   <span class="btn" style="background:#2f6fd0">RECOMMENDATION: BUY</span><span class="btn" style="border:1.5px solid #fff">12-MO TARGET: US$21 (+33%)</span>
+   <div class="kv">
+    <div><div class="k">Reference price</div><div class="val">US$15.82 (9-Oct-26)</div></div>
+    <div><div class="k">52-wk range</div><div class="val">US$13.35-32.35</div></div>
+    <div><div class="k">Mkt cap / EV</div><div class="val">~US$28.5bn / ~US$28.0bn</div></div>
+    <div><div class="k">Net cash (incl. leases)</div><div class="val"><a href="https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=264559057">US$0.48bn (Jun-26)</a></div></div>
+    <div><div class="k">Dividend</div><div class="val">None; US$907m buyback left</div></div>
+    <div><div class="k">Control</div><div class="val"><a href="https://gam.prontonlp.com/#/ref/$SENTID_SEC000255973354-1187">Bom Kim 74.1% of votes</a></div></div>
+    <div><div class="k">Next catalyst</div><div class="val">Q3'26 results, 3-Nov-26</div></div>
+    <div><div class="k">Ticker note</div><div class="val">"CPHG US" resolved to CPNG</div></div>
+   </div>
+  </div>
+  <div style="border-left:1px solid #3b4a69;padding:0.55in 0 0 0.35in">
+   <div style="font-size:30pt;font-weight:800">0.79x</div><div style="font-size:9pt;color:#cfd8e6;margin:4pt 0 0.3in">LTM EV/Sales, a five-year low; peer median 1.29x</div>
+   <div style="border-top:1px solid #3b4a69;margin-bottom:0.3in"></div>
+   <div style="font-size:30pt;font-weight:800">24.7m</div><div style="font-size:9pt;color:#cfd8e6;margin:4pt 0 0.3in">Active customers in Q2'26, back above pre-incident; WOW at an all-time high</div>
+   <div style="border-top:1px solid #3b4a69;margin-bottom:0.3in"></div>
+   <div style="font-size:30pt;font-weight:800;color:#8fb3ea">US$21</div><div style="font-size:9pt;color:#cfd8e6;margin-top:4pt">12-mo target; probability-weighted value ~US$20.8</div>
+  </div>
+ </div>
+ <div class="foot" style="border-top:1px solid #3b4a69;padding-top:8pt"><span>Prepared for Investment Committee review | 12 October 2026 | Sources: S&amp;P Global Capital IQ; ProntoNLP</span><span></span></div>
+</div>
+
+<!-- 2 EXEC SUMMARY -->
+<div class="slide">
+ <div class="eyebrow">Executive summary</div><div class="tag">RECOMMENDATION</div><div class="rule"></div>
+ <h1>Buy: the customers came back; the margin, the won and the regulator are what is priced</h1>
+ <div class="tiles t5">
+  <div class="tile"><div class="v">0.79x</div><div class="l">LTM EV/Sales vs 1.10-1.29x at 2022-25 year-ends and a 1.29x peer median</div></div>
+  <div class="tile"><div class="v"><a href="{S}T000003779883-169">5.1%</a></div><div class="l">Q2'26 Product Commerce adj. EBITDA margin vs 8.8% in Q3'25; mgmt targets pre-incident by mid-2027</div></div>
+  <div class="tile"><div class="v"><a href="{S}T000003779883-180">+10%</a></div><div class="l">Q2'26 revenue growth in constant currency (+4% in USD); KRW at a <a href="{S}T000003779883-150">15-yr low</a></div></div>
+  <div class="tile"><div class="v">US$21</div><div class="l">12-mo target (+33%); upside to bull +100%, downside to bear -40%</div></div>
+  <div class="tile"><div class="v">25%</div><div class="l">Bear-case probability we assign (regulatory package / share loss)</div></div>
+ </div>
+ <div class="grid2">
+  <div><h2>Why now: four forces converging</h2><ul class="sq">
+   <li><b>The glitch is fading:</b> WOW members are above pre-incident levels and active customers are back to 24.7m. Underlying spend from returners is +16% (<a href="https://gam.prontonlp.com/#/ref/$SENTID_T000003779883-43">Q2'26 call</a>)</li>
+   <li><b>One-offs roll off:</b> <a href="{S}SEC000264559057-16">US$1.2bn of vouchers ended in April</a>; <a href="{S}SEC000261784634-8">US$410m of fines</a> are booked; <a href="{S}T000003779883-55">marketing steps down in 2027</a></li>
+   <li><b>Self-help bid:</b> <a href="{S}SEC000264559057-369">43.7m shares (US$850m)</a> bought back in H1'26 at ~US$19.5 [d]; <a href="{S}SEC000264559057-140">US$907m authorisation left</a></li>
+   <li><b>Sentiment trough:</b> -61% from the Sep-25 high; ProntoNLP call sentiment fell from <a href="{D}T000003578475">0.81</a> to <a href="{D}T000003711263">0.34</a> and is recovering (<a href="{D}T000003779883">0.53</a>)</li>
+  </ul></div>
+  <div><h2>What has to go right</h2><ul class="sq grey">
+   <li>PC margin recovers toward ~8% through 2027; management targets <a href="{S}T000003779883-220">pre-incident by mid-2027</a> (each 100bp is ~US$0.35bn of EBITDA [d])</li>
+   <li>Developing Offerings losses fall from <a href="{S}T000003779883-223">US$950m-1bn in 2026</a> (Taiwan scaling; <a href="{S}T000003665452-121">Farfetch positive</a>)</li>
+   <li>No forced <a href="{S}SEC000264559057-452">Eats-WOW unbundling</a> and no <a href="{S}SEC000255973354-861">night-delivery ban</a></li>
+   <li>The <a href="{S}SEC000255973354-619">Dec-2026 settlement-period rules</a> do not drain much of the <a href="{C}255973354&amp;uctSearch=6298.000000">~US$6.3bn payables float</a></li>
+  </ul></div>
+ </div>
+ <div class="note"><b>Position sizing:</b> event-driven, medium conviction. Optional hedges: (i) pair against NAVER (035420 KS) to isolate share recapture from Korean e-commerce beta; (ii) USD/KRW exposure if a won recovery is wanted as upside rather than risk. First review: Q3'26 results (3-Nov-2026), then the 2027 guide promised "towards the end of the year".</div>
+ <div class="foot"><span>Coupang, Inc. | NYSE: CPNG | Reference price US$15.82 (9-Oct-2026) | [u] = unverified, [e] = estimate | Full citations in research report</span><span>2</span></div>
+</div>
+
+<!-- 3 BUSINESS OVERVIEW -->
+<div class="slide">
+ <div class="eyebrow">Business overview</div><div class="tag">CONTEXT</div><div class="rule"></div>
+ <h1>Coupang at a glance: Korea's owned-logistics e-commerce leader with a loss-making second engine</h1>
+ <div class="grid2">
+  <div><h2>What it does</h2><ul class="sq">
+   <li>1P retail plus a 3P marketplace with fulfilment (FLC), ads and a WOW membership. Free next-day "Rocket Delivery" since ~2014</li>
+   <li>More than <a href="https://gam.prontonlp.com/#/ref/$SENTID_SEC000255973354-1295">78m sq ft</a> of fulfilment and logistics space; S&amp;P lists 108,000 employees</li>
+   <li>FY25: revenue <a href="https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=255973354&amp;uctSearch=34534.000000">US$34.5bn</a>, adj. EBITDA <a href="{S}SEC000255972090-45">~US$1.5bn (4.3%)</a>, net income <a href="{C}255973354&amp;uctSearch=208.000000">US$208m</a>. <a href="{S}SEC000255973354-1624">Over 90% of revenue</a> is in KRW</li>
+   <li><a href="{S}SEC000264559057-28">Developing Offerings</a> (Taiwan, Eats, Play, Pay, Rocket Now Japan, Farfetch): <a href="{S}SEC000255972090-55">US$4.9bn of revenue</a>, <a href="{S}SEC000255972090-56">-US$995m adj. EBITDA</a></li>
+   <li>Founder Bom Kim holds all Class B (29 votes per share): <a href="{S}SEC000255973354-1187">74.1% of votes</a></li>
+  </ul></div>
+  <div><h2>Segments (US$bn; company disclosures)</h2>
+   <table><tr><th>Segment</th><th>FY24</th><th>FY25</th><th>Q2'26</th><th>Trend</th></tr>
+   <tr><td class="b">PC revenue</td><td><a href="{S}SEC000237406755-49">26.7</a></td><td><a href="{S}SEC000255972090-50">29.6</a></td><td><a href="{S}T000003779883-158">7.4</a></td><td>+8% cc / +1% USD</td></tr>
+   <tr><td class="b">PC adj. EBITDA</td><td><a href="{S}SEC000237406755-50">2.0 (7.5%)</a></td><td><a href="{S}SEC000255972090-54">2.5 (8.4%)</a></td><td><a href="{S}T000003779883-169">0.38 (5.1%)</a></td><td><a href="{S}T000003779883-170">-390bp YoY</a></td></tr>
+   <tr><td class="b">DO revenue</td><td><a href="{S}SEC000237406755-51">3.6</a></td><td><a href="{S}SEC000255972090-55">4.9</a></td><td><a href="{S}T000003779883-175">1.4</a></td><td><a href="{S}T000003779883-176">+24% cc</a></td></tr>
+   <tr><td class="b">DO adj. EBITDA</td><td><a href="{S}SEC000237406755-53">-0.63</a></td><td><a href="{S}SEC000255972090-56">-0.995</a></td><td><a href="{S}T000003779883-179">-0.22</a></td><td>Loss -US$110m QoQ</td></tr>
+   <tr class="hl"><td>Group revenue</td><td><a href="{C}255973354&amp;uctSearch=30268.000000">30.3</a></td><td><a href="{C}255973354&amp;uctSearch=34534.000000">34.5</a></td><td><a href="{C}264559057&amp;uctSearch=8856.000000">8.9</a></td><td><a href="{S}T000003779883-223">FY26 DO loss guide 0.95-1.0</a></td></tr></table>
+   <div class="src">Sources: FY24/FY25 earnings releases and the Q2'26 call via ProntoNLP; S&amp;P Capital IQ.</div>
+  </div>
+ </div>
+ <div class="note"><b>The single most distinctive fact:</b> the Korean core earned ~US$2.5bn of adj. EBITDA in FY25. About 40% of it was reinvested in Developing Offerings. At ~US$28bn of EV, the market is paying ~11x for the core's pre-incident EBITDA and giving nothing for Taiwan, Eats or Farfetch.</div>
+ <div class="foot"><span>Coupang, Inc. | NYSE: CPNG | Reference price US$15.82 (9-Oct-2026) | [u] = unverified, [e] = estimate</span><span>3</span></div>
+</div>
+
+<!-- 4 SETUP -->
+<div class="slide">
+ <div class="eyebrow">The setup</div><div class="tag">CONTEXT</div><div class="rule"></div>
+ <h1>IPO (2021), profitability (2022-23), breach (Nov-25), Q1'26 loss: -61% from the high</h1>
+ <div class="grid32">
+  <div><img class="chart" src="out/charts/price_memo.png"></div>
+  <div><h2>Key catalysts</h2>
+   <table>
+    <tr><td class="b" style="color:#2f6fd0">MAR 2021</td><td><a href="{S}SEC000177952319-1284">IPO at US$35</a>; first day +41% ‡</td></tr>
+    <tr><td class="b" style="color:#2f6fd0">MAY 2022</td><td>Low US$8.98 ‡; <a href="{S}T000002563967-92">Q1'22 margin inflection</a> +38% in 2 days</td></tr>
+    <tr><td class="b" style="color:#2f6fd0">FEB 2024</td><td><a href="{S}T000003041770-30">Record NI/FCF</a>; <a href="{S}SEC000255973354-2035">Farfetch closes</a> (+15.5%)</td></tr>
+    <tr><td class="b" style="color:#2f6fd0">MAY 2025</td><td><a href="{S}SEC000259645823-296">First US$1bn buyback</a> (+10.8%)</td></tr>
+    <tr><td class="b" style="color:#2f6fd0">SEP 2025</td><td>High of US$34.08 ‡</td></tr>
+    <tr><td class="b" style="color:#2f6fd0">NOV-DEC 2025</td><td><a href="{S}SEC000253203320-2">Breach of 33m accounts</a>; <a href="{S}SEC000253203320-10">Korea CEO resigns</a>; <a href="{S}SEC000264559057-16">US$1.2bn vouchers</a></td></tr>
+    <tr><td class="b" style="color:#2f6fd0">MAY 2026</td><td><a href="{S}T000003711263-132">Q1'26 op. loss -US$242m</a> (-13.8% day)</td></tr>
+    <tr><td class="b" style="color:#2f6fd0">JUN-JUL 2026</td><td><a href="{S}SEC000261784634-8">PIPC fines US$410m</a>; <a href="{S}SEC000264559057-470">Incheon FC fire (~US$246m exposure)</a></td></tr>
+    <tr><td class="b" style="color:#2f6fd0">OCT 2026</td><td>Low US$13.35, then +15% in a week ‡</td></tr>
+   </table>
+   <div class="mini"><b>Read-across:</b> results drove most of the &gt;10% moves, above all the 2022 profitability inflection and its reversal in Q1'26. Several of the steepest falls (Jan-22, Apr-May 22, Sep-Oct 26) had no company-specific trigger in the filings [u]. The stock trades as a high-beta growth proxy. ‡ = price-derived; source link unavailable.</div></div>
+ </div>
+ <div class="foot"><span>Coupang, Inc. | NYSE: CPNG | Weekly closes: ProntoNLP price series (source link unavailable) | Events: SEC filings and transcripts via ProntoNLP</span><span>4</span></div>
+</div>
+
+<!-- 5 VALUATION TABLE -->
+<div class="slide">
+ <div class="eyebrow">Question 1: Is Coupang undervalued?</div><div class="tag">VALUATION</div><div class="rule"></div>
+ <h1>Cheap on sales, expensive on trough earnings: the stock is a margin-recovery bet</h1>
+ <table>
+  <tr><th>Metric (LTM Jun-26)</th><th>Coupang</th><th>Amazon</th><th>MELI</th><th>Sea</th><th>PDD</th><th>Alibaba</th><th>NAVER</th><th>E-MART</th><th>Lotte Shop.</th><th>Walmart</th><th>Peer median*</th></tr>
+  <tr><td class="b">EV/Sales</td><td class="b">0.79x</td><td>3.85x</td><td>2.94x</td><td>2.07x</td><td>0.89x</td><td>1.69x</td><td>1.88x</td><td>0.41x</td><td>1.05x</td><td>1.29x</td><td>1.29x</td></tr>
+  <tr><td class="b">EV/EBITDA</td><td class="b">n.m. (32x adj.)</td><td>17.7x</td><td>26.5x</td><td>21.4x</td><td>4.0x</td><td>17.7x</td><td>8.0x</td><td>6.9x</td><td>8.4x</td><td>21.6x</td><td>9.4x</td></tr>
+  <tr><td class="b">EV/EBIT</td><td class="b">n.m.</td><td>31.9x</td><td>35.5x</td><td>25.1x</td><td>4.1x</td><td>37.0x</td><td>10.9x</td><td>50.4x</td><td>22.5x</td><td>32.8x</td><td>24.2x</td></tr>
+  <tr><td class="b">P/E</td><td class="b">n.m.</td><td>21.2x</td><td>51.4x</td><td>38.1x</td><td>9.2x</td><td>25.6x</td><td>13.7x</td><td>88.4x</td><td>15.3x</td><td>40.2x</td><td>25.6x</td></tr>
+  <tr><td class="b">EBITDA margin</td><td class="b">-0.1%</td><td>21.8%</td><td>11.1%</td><td>9.7%</td><td>22.0%</td><td>9.5%</td><td>23.3%</td><td>5.9%</td><td>12.4%</td><td>6.0%</td><td>9.7%</td></tr>
+  <tr><td class="b">EBIT margin</td><td class="b">-1.7%</td><td>12.1%</td><td>8.3%</td><td>8.2%</td><td>21.9%</td><td>4.6%</td><td>17.3%</td><td>0.8%</td><td>4.7%</td><td>3.9%</td><td>5.6%</td></tr>
+  <tr><td class="b">Sales growth</td><td class="b">9.9%</td><td>15.8%</td><td>46.0%</td><td>43.1%</td><td>10.0%</td><td>4.4%</td><td>14.7%</td><td>-0.9%</td><td>1.1%</td><td>6.2%</td><td>10.9%</td></tr>
+  <tr><td class="b">Net debt/EBITDA</td><td class="b">net cash</td><td>0.8x</td><td>1.9x</td><td>net cash</td><td>net cash</td><td>net cash</td><td>net cash</td><td>5.8x</td><td>6.9x</td><td>1.4x</td><td>net cash</td></tr>
+  <tr><td class="b">FCF yield</td><td class="b">0.3%</td><td>-0.4%</td><td>13.0%</td><td>6.7%</td><td>13.0%</td><td>-4.1%</td><td>5.3%</td><td>n.m.</td><td>n.m.</td><td>1.5%</td><td>8.6%</td></tr>
+ </table>
+ <div class="src">*Median of 15 listed peers (adds JD, Vipshop, Rakuten, Zalando, Allegro, Jumia). S&amp;P Capital IQ LTM financials and net debt incl. leases; ProntoNLP prices (9-Oct-2026). CNY ADRs at CNY7.10/US$ [e].</div>
+ <div class="grid2" style="margin-top:0.12in">
+  <div><h2>What the comparison shows</h2><ul class="sq">
+   <li>EV/Sales of 0.79x is 39% below the peer median and a five-year low for Coupang (1.10-1.29x at 2022-25 year-ends)</li>
+   <li>Coupang has traded at a 39-60% EV/Sales discount to a core peer set every year since IPO. The discount is not new; the absolute de-rating is</li>
+  </ul></div>
+  <div><h2>The honest counter-read</h2><ul class="sq grey">
+   <li>LTM EBITDA is ~zero, FCF yield 0.3%, and GAAP EPS is negative. On earnings the stock is not cheap</li>
+   <li>Unless PC margins recover, 0.79x sales is fair for a 1-2% margin retailer (E-MART 0.41x, Lotte 1.05x)</li>
+  </ul></div>
+ </div>
+ <h2 style="margin-top:6pt">Coupang vs its own history: EV/Sales at each year-end [d]</h2>
+ <table class="sm"><tr><th></th><th>Dec-21</th><th>Dec-22</th><th>Dec-23</th><th>Dec-24</th><th>Dec-25</th><th>Oct-26 (LTM)</th></tr>
+ <tr><td class="b">Coupang EV/Sales</td><td>2.72x</td><td>1.23x</td><td>1.10x</td><td>1.29x</td><td>1.19x</td><td class="b">0.79x</td></tr>
+ <tr><td class="b">Core-peer median (AMZN, MELI, SE, NAVER, E-MART, Lotte)</td><td>6.00x</td><td>2.00x</td><td>2.34x</td><td>3.03x</td><td>2.95x</td><td>1.97x</td></tr>
+ <tr class="hl"><td>Coupang discount</td><td>-55%</td><td>-39%</td><td>-53%</td><td>-57%</td><td>-60%</td><td>-60%</td></tr></table>
+ <div class="foot"><span>Coupang, Inc. | NYSE: CPNG | Reference price US$15.82 (9-Oct-2026) | [u] = unverified, [e] = estimate</span><span>5</span></div>
+</div>
+
+<!-- 6 REGRESSION -->
+<div class="slide">
+ <div class="eyebrow">Question 1: Is Coupang undervalued?</div><div class="tag">VALUATION</div><div class="rule"></div>
+ <h1>Regression: on the line at pre-incident margins; the re-rating needs the margin back</h1>
+ <div class="grid32">
+  <div><div style="font-size:10pt;font-weight:700;margin-bottom:4pt">EV/Sales vs EBIT margin (14 listed peers, LTM)</div><img class="chart" src="out/charts/regression.png"></div>
+  <div><h2>How to read it</h2><ul class="sq">
+   <li><b>OLS:</b> EV/Sales = 0.62 + 0.112 × EBIT margin (%), R² = 0.31 (n = 14, ex-Jumia)</li>
+   <li><b>LTM (-1.7% EBIT):</b> the line implies 0.43x; Coupang trades at 0.79x, so the market already looks through the trough</li>
+   <li><b>FY25 (1.4% EBIT):</b> implies 0.78x. Coupang sits on the line, so it is fair, not cheap</li>
+   <li><b>FY28E (2.7% EBIT, base):</b> implies 0.92x. Our 0.85x target multiple sits below the line</li>
+   <li>R² is moderate: PDD (China discount) and Allegro (premium) flatten the slope</li>
+  </ul></div>
+ </div>
+ <div class="foot"><span>Coupang, Inc. | NYSE: CPNG | Regression: analyst calculation on S&amp;P Capital IQ LTM data | [d] derived</span><span>6</span></div>
+</div>
+
+<!-- 7 MARGIN BRIDGE -->
+<div class="slide">
+ <div class="eyebrow">Question 2: Glitch or permanent damage?</div><div class="tag">EARNINGS</div><div class="rule"></div>
+ <h1>Half the path to FY28E EBITDA is margin recovery on the revenue Coupang already has</h1>
+ <div class="grid32">
+  <div><img class="chart" src="out/charts/bridge.png"></div>
+  <div>
+   <table><tr><th>US$m</th><th>FY25A</th><th>FY26E</th><th>FY27E</th><th>FY28E</th></tr>
+   <tr><td class="b">Revenue</td><td><a href="{C}255973354&amp;uctSearch=34534.000000">34,534</a></td><td>36,686</td><td>41,139</td><td>45,817</td></tr>
+   <tr><td class="b">Adj. EBITDA</td><td><a href="{S}SEC000255972090-45">~1,485</a></td><td>608</td><td>1,689</td><td>2,625</td></tr>
+   <tr><td class="b">PC margin</td><td><a href="{S}SEC000255972090-54">8.4%</a></td><td>5.2%</td><td>7.3%</td><td>8.6%</td></tr>
+   <tr><td class="b">GAAP EBIT</td><td><a href="{S}SEC000255972090-42">473</a></td><td>-1,117</td><td>529</td><td>1,225</td></tr>
+   <tr><td class="b">Net income</td><td><a href="{C}255973354&amp;uctSearch=208.000000">208</a></td><td>-1,195</td><td>256</td><td>753</td></tr>
+   <tr class="hl"><td>Diluted EPS (US$)</td><td>0.11</td><td>-0.67</td><td>0.14</td><td>0.42</td></tr></table>
+   <div class="src">Our estimates [e]. No current FY27/28 consensus in S&amp;P/ProntoNLP; ProntoNLP 3Q/4Q26 consensus is stale (Mar-25).</div>
+   <ul class="sq" style="margin-top:8pt">
+    <li>Guide: <a href="{S}T000003779883-213">Q3'26 +8-9% cc revenue</a>, margin -300 to -400bp; <a href="{S}T000003779883-220">PC margin pre-incident by mid-2027</a></li>
+    <li>FY26E one-offs: <a href="{S}SEC000261784634-8">US$410m fines</a>, ~US$150m fire [e]; ETR n.m.</li>
+    <li>Half of the FY26E-28E EBITDA bridge (US$1.06bn of US$2.0bn) is the PC margin returning to 8.6% on FY26E revenue [d]</li>
+   </ul>
+  </div>
+ </div>
+ <div class="foot"><span>Coupang, Inc. | NYSE: CPNG | Reference price US$15.82 (9-Oct-2026) | [u] = unverified, [e] = estimate</span><span>7</span></div>
+</div>
+
+<!-- 8 DID CUSTOMERS COME BACK -->
+<div class="slide">
+ <div class="eyebrow">Question 2: Glitch or permanent damage?</div><div class="tag">DEEP DIVE</div><div class="rule"></div>
+ <h1>Customers came back with full wallets; the trust gap is a cohort, not the base</h1>
+ <div class="grid32">
+  <div><img class="chart" src="out/charts/sentiment.png"><img class="chart" style="width:70%;margin-top:6pt" src="out/charts/margins_q.png"></div>
+  <div><h2>Evidence for "glitch"</h2><ul class="sq">
+   <li>Active customers: <a href="{S}T000003665452-135">24.6m (Q4'25)</a> → <a href="{S}T000003711263-92">23.9m (Q1'26)</a> → <a href="https://gam.prontonlp.com/#/ref/$SENTID_SEC000264557825-29">24.7m (Q2'26)</a></li>
+   <li>~80% of the WOW decline was recovered by April; WOW now above pre-incident (<a href="https://gam.prontonlp.com/#/ref/$SENTID_T000003779883-39">#39</a>)</li>
+   <li>Returners "have not split that spend" (<a href="https://gam.prontonlp.com/#/ref/$SENTID_T000003779883-268">#268</a>); <a href="{S}T000003779883-43">underlying spend +16% vs +8% reported</a></li>
+  </ul>
+  <h2 style="margin-top:10pt">Evidence for "lasting"</h2><ul class="sq grey">
+   <li>A lower-spending non-returning cohort and "lingering trust issues" (<a href="https://gam.prontonlp.com/#/ref/$SENTID_T000003779883-478">#478</a>)</li>
+   <li>NAVER reported GMV and member gains in Jan-26 (<a href="https://gam.prontonlp.com/#/ref/$SENTID_T000003646016-298">#298</a>)</li>
+   <li><a href="{S}T000003779883-167">PC gross margin -210bp</a> on promotions; recovery date slipped to <a href="{S}T000003779883-220">mid-2027</a></li>
+  </ul></div>
+ </div>
+ <div class="foot"><span>Coupang, Inc. | NYSE: CPNG | Sentiment: ProntoNLP document scores per earnings call | Company metrics via ProntoNLP transcripts</span><span>8</span></div>
+</div>
+
+<!-- 9 BALANCE SHEET -->
+<div class="slide">
+ <div class="eyebrow">Balance sheet and capital allocation</div><div class="tag">CAPITAL</div><div class="rule"></div>
+ <h1>Still net cash, but buybacks now outrun free cash flow and the payables float is under regulatory attack</h1>
+ <div class="tiles t4">
+  <div class="tile"><div class="v">US$3.5bn</div><div class="l">Net cash ex-leases [d] (cash <a href="{C}264559057&amp;uctSearch=6110.000000">US$6.1bn</a>; debt US$2.6bn). Incl. US$3.0bn leases: <a href="{C}264559057">US$0.48bn</a></div></div>
+  <div class="tile"><div class="v"><a href="{S}T000003779883-206">~US$0.1bn</a></div><div class="l">LTM FCF, down from US$1.76bn in FY23 (CFO US$1.43bn less capex US$1.33bn) [d]</div></div>
+  <div class="tile"><div class="v">US$1.09bn</div><div class="l">Buybacks over the same LTM [d]; <a href="{S}SEC000264559057-165">US$750m revolver draw</a> in Q1'26</div></div>
+  <div class="tile"><div class="v">-57 days</div><div class="l">FY25 cash conversion cycle [d]; <a href="{S}SEC000255973354-619">settlement rules</a> shorten merchant terms from Dec-26</div></div>
+ </div>
+ <div class="grid2">
+  <div><h2>Capital-allocation record</h2><ul class="sq">
+   <li><b>Good:</b> self-funded the 78m sq ft network; Farfetch bought out of administration; refinanced SOFR+6.25% Farfetch loans</li>
+   <li><b>Poor:</b> ~US$1bn/yr DO losses with no published hurdle; Japan v1 exit; debt-funded buybacks</li>
+   <li><b>Related party:</b> Greenoaks (director Mehta) bought out at US$122-140m vs US$70m contributed</li>
+   <li><b>Contingent calls:</b> PIPC US$410m unpaid; NTS ~US$208m claim (unreserved); KFTC Eats case</li>
+  </ul></div>
+  <div><h2>Priorities we would push for</h2><ul class="sq grey">
+   <li>1. An explicit capital-return framework tied to FCF and leverage, not the share price</li>
+   <li>2. Disclosure of settlement-float exposure and of Taiwan's break-even path and investment cap</li>
+   <li>3. A permanent Korean CEO and a regulator-facing governance upgrade</li>
+   <li>4. Restate the long-term margin target (10%+ adj. EBITDA, Feb-2023)</li>
+  </ul></div>
+ </div>
+ <h2 style="margin-top:4pt">Debt and liquidity (30-Jun-2026)</h2>
+ <table class="sm"><tr><th>Instrument</th><th>Amount</th><th>Pricing</th><th>Maturity</th><th>Terms</th></tr>
+ <tr><td class="b">Revolver (parent, US$1.5bn)</td><td><a href="{S}SEC000264559057-165">US$750m drawn</a></td><td><a href="{S}SEC000264559057-371">Term SOFR + 0.75-1.25%</a></td><td>Jun-2025 + 5 yrs (~2030 [d])</td><td>Unsecured; financial covenants</td></tr>
+ <tr><td class="b">Korean credit facilities (KRW)</td><td><a href="{S}SEC000264559057-173">US$1.2bn of US$1.6bn</a></td><td>Weighted avg 2.89%</td><td>Mostly within 12 months</td><td>Unsecured; financial covenants</td></tr>
+ <tr><td class="b">Unsecured term loan (Sep-2025)</td><td><a href="{S}SEC000255973354-1514">US$439m</a></td><td>Fixed 3.80% (avg)</td><td>~Sep-2028</td><td>Refinanced secured FC loans</td></tr>
+ <tr><td class="b">Operating leases</td><td><a href="{C}264559057&amp;uctSearch=560.000000">US$560m</a> + <a href="{C}264559057&amp;uctSearch=2470.000000">US$2,470m</a></td><td>n.a.</td><td>1-10 years</td><td>Plus US$689m signed, not commenced</td></tr>
+ <tr class="hl"><td>Total funded debt / cash</td><td><a href="{C}264559057&amp;uctSearch=1985.000000">US$1,985m</a> ST + <a href="{C}264559057&amp;uctSearch=618.000000">US$618m</a> LT</td><td>Cash <a href="{C}264559057&amp;uctSearch=6110.000000">US$6,110m</a></td><td>Mostly offshore subsidiaries</td><td><a href="{S}SEC000264559057-377">Covenants in compliance</a></td></tr></table>
+ <div class="foot"><span>Coupang, Inc. | NYSE: CPNG | S&amp;P Capital IQ (Q2'26 balance sheet; LTM cash flow); 10-Q via ProntoNLP | [d] derived</span><span>9</span></div>
+</div>
+
+<!-- 10 GOVERNANCE -->
+<div class="slide">
+ <div class="eyebrow">Is there an activist in here?</div><div class="tag">GOVERNANCE</div><div class="rule"></div>
+ <h1>No, and there cannot be: the founder holds 74% of the votes; pressure comes from regulators and courts</h1>
+ <div class="tiles t4">
+  <div class="tile"><div class="v"><a href="{S}SEC000255973354-1187">74.1%</a></div><div class="l">Bom Kim's voting power (all Class B at 29 votes per share), down from 76.2% in FY21</div></div>
+  <div class="tile"><div class="v">0</div><div class="l"><a href="{S}SEC000261896065-1">Shareholder proposals at 2022-26 AGMs</a>; no 13D or activist campaign found</div></div>
+  <div class="tile"><div class="v">Interim</div><div class="l"><a href="{S}SEC000253203320-10">Korea CEO since 10-Dec-25 (GC Harold Rogers)</a>; CFO reassigned to Korea</div></div>
+  <div class="tile"><div class="v">5 suits</div><div class="l"><a href="{S}SEC000255973354-1980">US securities, consumer and derivative actions</a> over the breach, plus the IPO appeal</div></div>
+ </div>
+ <div style="display:grid;grid-template-columns:1.35fr 1fr;gap:0.3in">
+  <div><h2>Board of eight</h2>
+   <table class="sm"><tr><th>Director</th><th>Joined</th><th>Committee</th><th>Background / affiliation</th></tr>
+   <tr><td class="b">Bom Kim (Chair)</td><td>Founder</td><td>n/a</td><td>Founder-CEO; controlling holder (<a href="{S}SEC000255973354-1187">74.1% of votes</a>)</td></tr>
+   <tr><td class="b">Neil Mehta</td><td><a href="{S}SEC000177952319-1710">by FY21</a></td><td>Lead independent [u]</td><td><a href="{S}SEC000255973354-2050">Greenoaks MP; related party</a></td></tr>
+   <tr><td class="b">Benjamin Sun</td><td>by FY21</td><td>‡</td><td>Not available in the connectors ‡</td></tr>
+   <tr><td class="b">Kevin Warsh</td><td>by FY21</td><td>‡</td><td><a href="{S}SEC000255152730-0">Fed Chair nominee (Jan-26)</a>; leaves if confirmed</td></tr>
+   <tr><td class="b">Pedro Franceschi</td><td><a href="{S}SEC000178637463-0">Mar-2022</a></td><td>Compensation</td><td>Co-founder of Brex [u]</td></tr>
+   <tr><td class="b">Jason Child</td><td><a href="{S}SEC000180700685-0">Apr-2022</a></td><td>Audit</td><td>CFO of Arm Holdings [u]</td></tr>
+   <tr><td class="b">Ambereen Toubassy</td><td><a href="{S}SEC000200940081-0">Mar-2023</a></td><td>Audit</td><td>Not available in the connectors ‡</td></tr>
+   <tr><td class="b">Asha Sharma</td><td><a href="{S}SEC000225830033-0">Jun-2024</a></td><td>Compensation</td><td>Ex-Instacart, Microsoft [u]; independent</td></tr></table>
+   <div class="src">Change: Audit Chair Harry You <a href="{S}SEC000203357895-0">retired Jun-2023</a>. Proxy (pay, top holders, full independence roster) not indexed in the connectors ‡.</div>
+  </div>
+  <div><h2>Where the pressure comes from</h2><ul class="sq grey">
+   <li>Korean regulators: PIPC, KFTC (<a href="{S}SEC000264559057-452">Eats-WOW bundling</a>), NTS, Ministry of Labor, National Assembly</li>
+   <li>A reported regulatory "designation" concerning Bom Kim personally (Q1'26 Q&amp;A)</li>
+   <li>US litigation: <i>Lee and Park</i>; <a href="{S}SEC000255973354-1980"><i>Warga v. Bom Kim</i></a>; EDNY consumer class action</li>
+   <li>Short interest: not available in S&amp;P/ProntoNLP ‡</li>
+  </ul>
+  <h2 style="margin-top:10pt">Insider selling</h2><ul class="sq grey">
+   <li>Post-breach 10b5-1 plans by the CFO, GC and CAO (<a href="{S}SEC000259645823-303">Mar</a>-<a href="{S}SEC000264559057-294">May 2026</a>)</li>
+   <li>Kim's <a href="{S}SEC000232383623-311">15m-share plan</a> (Aug-2024) for "significant financial requirements, including tax"</li>
+  </ul></div>
+ </div>
+ <div class="foot"><span>Coupang, Inc. | NYSE: CPNG | FY2025 10-K, 8-Ks and 10-Qs via ProntoNLP</span><span>10</span></div>
+</div>
+
+<!-- 11 M&A -->
+<div class="slide">
+ <div class="eyebrow">Question 3: Takeover target?</div><div class="tag">M&amp;A</div><div class="rule"></div>
+ <h1>Only with the founder's blessing; delivery-platform deals clear at ~1.1-1.3x sales</h1>
+ <div class="grid32">
+  <div><table>
+   <tr><th>Transaction</th><th>Date</th><th>Value</th><th>EV/Sales</th><th>Read-across</th></tr>
+   <tr><td class="b">Uber → Delivery Hero (Baemin)</td><td>Jul-26</td><td>EUR41.50/sh; US$14.8bn equity</td><td>1.06x</td><td>Korean food delivery consolidates</td></tr>
+   <tr><td class="b">Grab → Foodpanda Taiwan</td><td>Mar-26</td><td>US$600m</td><td>n.a.</td><td>Taiwan delivery consolidates</td></tr>
+   <tr><td class="b">Uber → Foodpanda Taiwan (blocked)</td><td>May-24</td><td>US$950m</td><td>n.a.</td><td>Regulatory risk in Taiwan</td></tr>
+   <tr><td class="b">DoorDash → Deliveroo</td><td>May-25</td><td>~GBP2.8bn</td><td>1.15x</td><td>Platform control value</td></tr>
+   <tr><td class="b">Prosus → Just Eat Takeaway</td><td>Feb-25</td><td>EUR4.1bn</td><td>1.26x</td><td>28.7x EBITDA</td></tr>
+   <tr><td class="b">JD.com → Ceconomy</td><td>Jul-25</td><td>EUR4.60/sh</td><td>0.17x</td><td>Low-margin retail: 9.6x EBITDA</td></tr>
+   <tr><td class="b">Zalando → ABOUT YOU</td><td>Dec-24</td><td>~EUR1.14bn</td><td>0.59x</td><td>E-commerce consolidation</td></tr>
+   <tr><td class="b">E-mart → eBay Korea (80%)</td><td>Jun-21</td><td>~US$3.0bn</td><td>n.a.</td><td>Korean marketplace control</td></tr>
+   <tr><td class="b">Coupang → Farfetch</td><td>Jan-24</td><td>Bridge + ~US$300m</td><td>n.d.</td><td>Distressed luxury option</td></tr>
+  </table><div class="src">Deal terms: acquirer filings via ProntoNLP. Target financials: S&amp;P Capital IQ. Multiples [d].</div></div>
+  <div><h2>What a control price would look like</h2><ul class="sq">
+   <li>1.0-1.3x LTM sales (US$35.5bn) gives <b>~US$20-26 a share</b>; a 30-40% premium gives US$20.6-22.1</li>
+   <li><b>Impediment:</b> 74.1% founder voting control. No deal happens without Bom Kim</li>
+   <li><b>Size</b> (~US$37bn at a premium) and Korean data-sovereignty and regulatory sensitivity after the breach</li>
+   <li><b>Most plausible path:</b> founder-led take-private with financial partners, or carve-outs (Eats, Farfetch, Taiwan)</li>
+   <li>Treat as a tail option, not the thesis</li>
+  </ul></div>
+ </div>
+ <div class="foot"><span>Coupang, Inc. | NYSE: CPNG | Reference price US$15.82 (9-Oct-2026) | [u] = unverified, [e] = estimate</span><span>11</span></div>
+</div>
+
+<!-- 12 SCENARIOS -->
+<div class="slide">
+ <div class="eyebrow">Scenario analysis</div><div class="tag">VALUATION</div><div class="rule"></div>
+ <h1>Asymmetric: -40% downside vs +100% upside; probability-weighted ~US$20.8</h1>
+ <div class="grid32">
+  <div><table>
+   <tr><th style="width:25%"></th><th style="width:25%">Bear (25%)</th><th style="width:25%">Base (50%)</th><th style="width:25%">Bull (25%)</th></tr>
+   <tr><td class="b">PC cc growth FY27/28</td><td>+5.5% / +5.5%</td><td>+11% / +10%</td><td>+14% / +13%</td></tr>
+   <tr><td class="b">PC margin FY27/28</td><td>5.8% / 6.2%</td><td>7.3% / 8.6%</td><td>8.0% / 10.0%</td></tr>
+   <tr><td class="b">DO adj. EBITDA FY28</td><td>-US$850m</td><td>-US$600m</td><td>-US$450m</td></tr>
+   <tr><td class="b">FY28E revenue / adj. EBITDA</td><td>US$41.5bn / 1.27bn</td><td>US$45.8bn / 2.63bn</td><td>US$48.3bn / 3.51bn</td></tr>
+   <tr><td class="b">FY28E GAAP EPS</td><td>-US$0.20</td><td>US$0.42</td><td>US$0.79</td></tr>
+   <tr><td class="b">Multiple (NTM sales, Oct-27)</td><td>0.45x (Rakuten / E-MART band)</td><td>0.85x (below 0.92x regression)</td><td>1.20x (FY24-25 average)</td></tr>
+   <tr><td class="b">Implied EV / FY28E adj. EBITDA</td><td>14.5x</td><td>14.5x</td><td>16.0x</td></tr>
+   <tr><td class="b">Net debt (cash)</td><td>+US$1.2bn</td><td>+US$0.3bn</td><td>-US$0.5bn</td></tr>
+   <tr class="hl"><td>Per share</td><td>US$9.5 (-40%)</td><td>US$21.0 (+33%)</td><td>US$31.7 (+100%)</td></tr>
+   <tr><td class="b">Key triggers</td><td>KFTC unbundling; night-delivery ban; settlement drain; share loss</td><td>Mid-2027 margin normalisation; DO losses fall</td><td>KRW recovery; faster margins; Taiwan inflects; PIPC appeal win</td></tr>
+  </table><div class="src">Our estimates [e]. Net debt includes leases. Probability-weighted value US$20.8 (+31%).</div></div>
+  <div><img class="chart" src="out/charts/scenarios.png"></div>
+ </div>
+ <div class="note"><b>Downside support:</b> net cash, a US$907m buyback and 24.7m loyal customers; the bear case needs a regulatory package plus permanent share loss. <b>Upside driver:</b> PC margin normalisation (each 100bp is ~US$0.35bn of EBITDA) plus KRW mean-reversion (10% FX is ~US$3.5-4bn of revenue). Most of the downside is regulatory and can be monitored.</div>
+ <div class="foot"><span>Coupang, Inc. | NYSE: CPNG | Reference price US$15.82 (9-Oct-2026) | [e] = estimate</span><span>12</span></div>
+</div>
+
+<!-- 13 CATALYSTS -->
+<div class="slide">
+ <div class="eyebrow">Catalyst calendar</div><div class="tag">CATALYSTS</div><div class="rule"></div>
+ <h1>Q3 results, the KFTC bundling decision and the 2027 guide dominate the next two quarters</h1>
+ <div class="cal"><div class="d">3-NOV-26 (SCHEDULED)</div><div class="e"><a href="{D}upcoming-doc-704377650">Q3'26 results</a></div><div class="w"><a href="{S}T000003779883-213">+8-9% cc revenue</a>, -300 to -400bp margin; first Incheon fire losses; buyback pace</div><div class="i">HIGH</div></div>
+ <div class="cal"><div class="d">Q4-2026 (TBC)</div><div class="e"><a href="{S}SEC000264559057-452">KFTC Eats-WOW bundling decision</a></div><div class="w">Fine and/or forced unbundling; the hearing was tentatively Sep-26</div><div class="i">CRITICAL</div></div>
+ <div class="cal"><div class="d">DEC-2026</div><div class="e"><a href="{S}SEC000255973354-619">Settlement-period rules start</a></div><div class="w">EFTA (≥60% external custody) and Large-Scale Retail Business Act: payables and cash impact</div><div class="i">HIGH</div></div>
+ <div class="cal"><div class="d">LATE 2026</div><div class="e"><a href="{S}T000003779883-221">2027 guidance</a></div><div class="w">PC margin path to "pre-incident by mid-2027"; DO losses; capex</div><div class="i">HIGH</div></div>
+ <div class="cal"><div class="d">PENDING</div><div class="e">PIPC decisions and appeal; NTS assessment</div><div class="w"><a href="{S}SEC000261784634-7">US$410m payable despite appeal</a>; <a href="{S}SEC000264559057-345">~US$208m transfer-pricing claim</a></div><div class="i">MEDIUM</div></div>
+ <div class="cal"><div class="d">H2-2026 / 2027</div><div class="e"><a href="{S}SEC000263635795-1089">Uber-Delivery Hero</a>; Grab-Foodpanda Taiwan</div><div class="w">Competitive structure in Korean and Taiwanese food delivery</div><div class="i">MEDIUM</div></div>
+ <div class="cal"><div class="d">LATE FEB-27 [e]</div><div class="e">Q4'26 results</div><div class="w">WOW and active-customer disclosure; FY27 outlook</div><div class="i">HIGH</div></div>
+ <div class="cal"><div class="d">MID-2027</div><div class="e">PC margin normalisation milestone</div><div class="w"><a href="{S}T000003779883-220">Delivery vs promise</a>: the thesis test</div><div class="i">CRITICAL</div></div>
+ <div class="cal"><div class="d">ONGOING</div><div class="e">Night-delivery legislation; US class actions</div><div class="w"><a href="{S}SEC000255973354-862">A ban would end Dawn Delivery</a>; breach litigation in the EDNY</div><div class="i">MEDIUM</div></div>
+ <div class="foot"><span>Coupang, Inc. | NYSE: CPNG | ProntoNLP (upcoming Q3'26 call), 10-K/10-Q disclosures</span><span>13</span></div>
+</div>
+
+<!-- 14 RISKS -->
+<div class="slide">
+ <div class="eyebrow">Key risks</div><div class="tag">RISKS</div><div class="rule"></div>
+ <h1>What would make this thesis wrong</h1>
+ <div class="grid2" style="gap:0.2in">
+  <div class="risk"><div class="n">01</div><div><div class="h">Regulatory package hits the model</div><div class="x"><a href="{S}SEC000255973354-862">Night-delivery ban</a> (ends Dawn Delivery), <a href="{S}SEC000255973354-2009">Eats-WOW unbundling</a>, <a href="{S}SEC000255973354-619">settlement-period rules</a> and more fines. Cumulative accrued fines are already ~US$531m [d] (<a href="{S}SEC000255973354-1064">US$121m</a> + <a href="{S}SEC000261784634-8">US$410m</a>)</div></div></div>
+  <div class="risk"><div class="n">02</div><div><div class="h">Share loss becomes permanent</div><div class="x">NAVER's <a href="{S}NONSEC000256804358-321">asset-light alliance (Plus + Kurly + CJ Logistics)</a> and <a href="{S}T000003711263-344">Chinese cross-border platforms (&gt;10m users)</a> keep the share they won during the incident</div></div></div>
+  <div class="risk"><div class="n">03</div><div><div class="h">Margin recovery slips again</div><div class="x">Already moved from "next year" to "<a href="{S}T000003779883-220">mid-2027</a>"; promotions persist; <a href="{S}T000003779883-170">fixed costs stay sized</a> for a demand curve that does not return</div></div></div>
+  <div class="risk"><div class="n">04</div><div><div class="h">Cash engine breaks</div><div class="x"><a href="{S}T000003779883-206">FCF ~US$0.1bn LTM</a>; <a href="{S}SEC000264559057-165">debt-funded buybacks</a>; payables float shrinks from Dec-26; <a href="{S}SEC000264559057-345">NTS claim</a>; ~US$1bn/yr of DO losses</div></div></div>
+  <div class="risk"><div class="n">05</div><div><div class="h">KRW keeps weakening</div><div class="x">USD-reported growth stays in single digits (<a href="{S}SEC000264559057-60">-7pts FX in Q2'26</a>); a 10% move cut <a href="{S}SEC000255973354-1624">FY25 revenue by US$3.0bn</a>; ~US$3.5-4bn on FY28E revenue [d]</div></div></div>
+  <div class="risk"><div class="n">06</div><div><div class="h">Governance and key-person risk</div><div class="x"><a href="{S}SEC000255973354-1187">74.1% founder control</a>, personal regulatory exposure, an <a href="{S}SEC000253203320-10">interim Korea CEO</a>, and post-breach <a href="{S}SEC000264559057-294">insider selling plans</a></div></div></div>
+ </div>
+ <div class="foot"><span>Coupang, Inc. | NYSE: CPNG | Reference price US$15.82 (9-Oct-2026)</span><span>14</span></div>
+</div>
+
+<!-- 15 DECISION -->
+<div class="slide dark">
+ <div class="eyebrow" style="color:#8fb3ea;margin-top:0.25in">Investment Committee decision</div>
+ <div style="font-size:30pt;font-weight:800;margin:0.15in 0 0.35in">Recommendation: BUY</div>
+ <div style="display:grid;grid-template-columns:1fr 4.1in;gap:0.35in">
+  <div>
+   <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12pt;margin-bottom:0.35in">
+    <div><div style="font-size:20pt;font-weight:800;color:#8fb3ea">US$21</div><div style="font-size:8.5pt;color:#cfd8e6">12-mo target (+33%)</div></div>
+    <div><div style="font-size:20pt;font-weight:800">0.79x</div><div style="font-size:8.5pt;color:#cfd8e6">LTM EV/Sales (5-yr low)</div></div>
+    <div><div style="font-size:20pt;font-weight:800">24.7m</div><div style="font-size:8.5pt;color:#cfd8e6">Active customers (recovered)</div></div>
+    <div><div style="font-size:20pt;font-weight:800">74.1%</div><div style="font-size:8.5pt;color:#cfd8e6">Founder voting control</div></div>
+   </div>
+   <ul class="sq" style="color:#e5ebf5">
+    <li>The breach was a glitch for customers: WOW at a record, actives back to 24.7m, returners not splitting wallet. It was not a glitch for margins, cash flow or the regulator</li>
+    <li>At 0.79x sales the market prices today's 1-2% margins as permanent; a return toward FY25 margins by 2027-28 supports US$21 (base) to US$32 (bull)</li>
+    <li>Catalysts are dated: Q3'26 (3-Nov), the KFTC decision, the 2027 guide, the mid-2027 margin milestone</li>
+    <li>Key risk: the Korean regulatory package (night delivery, bundling, settlement terms). Hence event-driven sizing</li>
+   </ul>
+  </div>
+  <div style="background:#22355a;padding:16pt 20pt;height:4.1in">
+   <div style="font-weight:700;font-size:11pt;margin-bottom:10pt">Sizing and monitoring</div>
+   <p style="font-size:9pt;line-height:1.5;color:#dce4f1">Hold as event-driven, not core. Optional pair against NAVER to isolate share recapture; consider USD/KRW as a separate view.</p>
+   <p style="font-size:9pt;line-height:1.5;color:#dce4f1"><b>Hard review triggers:</b> PC margin below 6% in Q4'26/Q1'27; KFTC forced unbundling; payables days down &gt;10 after Dec-26; buyback suspended; DO 2027 loss guide above US$800m.</p>
+   <p style="font-size:9pt;line-height:1.5;color:#dce4f1"><b>Track:</b> Q3'26 (3-Nov), 2027 guide, KFTC, PIPC appeal, NTS, Incheon insurance, KRW/USD, NAVER commerce KPIs.</p>
+  </div>
+ </div>
+ <div class="foot" style="border-top:1px solid #3b4a69;padding-top:8pt"><span>Coupang, Inc. | NYSE: CPNG | Reference price US$15.82 (9-Oct-2026) | 12 October 2026 | Data: S&amp;P Global Capital IQ, ProntoNLP</span><span>15</span></div>
+</div>
+</body></html>
