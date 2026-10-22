@@ -1,0 +1,17 @@
+# Lossless TSV re-encoding of ProntoNLP searchSentences response (call F_segments_kpis-060). Rows in returned (relevance) order; every field kept.
+# params: {"topicSearchQuery": "number of clients plants employees", "transcriptsIds": ["T000003468571"], "size": 12, "autoContext": false}
+# Fields constant for every row: companyId=27989 | companyName=[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989) | transcriptId=T000003468571 | documentType=Analyst/Investor Day | sector=Industrials-Commercial Services and Supplies | date=2025-05-27 | title=[Elis SA - Analyst/Investor Day](https://gam.prontonlp.com/#/ref/$DOCID_T000003468571)
+# Response had no "total" field; 12 results.
+sentenceId	section	speakerType	text
+T000003468571-2467	AnalystInvestorDay_PresenterSpeech	Executives	And in some cases, we are talking about customers with a facility of 3,000, 4,000 employees. [#2467](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-2467)
+T000003468571-2951	AnalystInvestorDay_PresenterSpeech	Executives	It's a business with approximately 250 employees. [#2951](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-2951)
+T000003468571-2707	AnalystInvestorDay_PresenterSpeech	Executives	We have a local team working with customers with [indiscernible] less than 50. [#2707](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-2707)
+T000003468571-1571	AnalystInvestorDay_PresenterSpeech	Executives	And more recently, 2 business clients have stood out. [#1571](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-1571)
+T000003468571-2824	AnalystInvestorDay_PresenterSpeech	Executives	Mainly, we serve a little more than close to 2,000 customers, and we are close to 3,000 employees in the country. [#2824](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-2824)
+T000003468571-2460	AnalystInvestorDay_PresenterSpeech	Executives	We have more than 10,000 employees. [#2460](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-2460)
+T000003468571-569	AnalystInvestorDay_PresenterSpeech	Executives	And in mirror of this organization, we have customer teams serving existing business. [#569](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-569)
+T000003468571-3387	AnalystInvestorDay_Question	Analysts	Second question is regarding SME clients. [#3387](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3387)
+T000003468571-1644	AnalystInvestorDay_PresenterSpeech	Executives	We are mirroring what our customers are doing. [#1644](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-1644)
+T000003468571-2008	AnalystInvestorDay_PresenterSpeech	Executives	So we have an opportunity of 400,000 clients. [#2008](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-2008)
+T000003468571-1848	AnalystInvestorDay_PresenterSpeech	Executives	And those customers, you can see there's 120 active customers, so that means the users you can multiply by 4 or 5, have access to our systems. [#1848](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-1848)
+T000003468571-1378	AnalystInvestorDay_PresenterSpeech	Executives_COO	So we have quite a good proximity with customers as we have seen this morning with Elis, and we have a strong workforce of 6,300 employees. [#1378](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-1378)

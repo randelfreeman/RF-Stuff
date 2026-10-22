@@ -1,0 +1,130 @@
+{
+  "27989": [
+    {
+      "companyName": "[Rentokil Initial plc](https://gam.prontonlp.com/#/ref/$COMPANY_411004)",
+      "companyDescription": "Operates primarily in the fields of pest control, hygiene, and workwear services. Offers a range of solutions including pest management, washroom hygiene, and textile rental services. Actively developing innovative technologies for pest detection and control, as well as enhancing hygiene solutions. Targeting markets across various sectors including commercial, industrial, and residential spaces globally.",
+      "companyId": "411004",
+      "relation": "competitor",
+      "segment": "Workwear rental, hygiene, and pest control services",
+      "reason": "Direct competitor in textile rental, washroom hygiene, and pest management across commercial markets.",
+      "strength": "strong"
+    },
+    {
+      "companyName": "[Cintas Corporation](https://gam.prontonlp.com/#/ref/$COMPANY_260725)",
+      "companyDescription": "Operates primarily in the fields of corporate uniform rental, facility services, and safety products. Offers a range of products and services including uniforms, mats, mops, restroom supplies, first aid and safety products, and fire protection services. Actively developing solutions to enhance workplace safety and hygiene, targeting markets such as healthcare, hospitality, food service, and manufacturing.",
+      "companyId": "260725",
+      "relation": "competitor",
+      "segment": "Workwear rental, facility services, and hygiene solutions",
+      "reason": "Leading competitor in uniform rental, restroom supplies, and facility services to commercial customers.",
+      "strength": "strong"
+    },
+    {
+      "companyName": "[UniFirst Corporation](https://gam.prontonlp.com/#/ref/$COMPANY_309966)",
+      "companyDescription": "Operates primarily in the fields of uniform rental and facility services. Offers a range of products including workwear, protective clothing, and related accessories, as well as services such as laundering, maintenance, and delivery. Actively developing its service offerings to include more comprehensive facility management solutions. Targets markets across various industries including manufacturing, healthcare, and food service.",
+      "companyId": "309966",
+      "relation": "competitor",
+      "segment": "Workwear rental and facility services",
+      "reason": "Direct competitor in uniform rental, laundering, and facility management services.",
+      "strength": "strong"
+    },
+    {
+      "companyName": "[Johnson Service Group PLC](https://gam.prontonlp.com/#/ref/$COMPANY_876284)",
+      "companyDescription": "Operates primarily in the textile rental and related services industry, focusing on providing high-quality workwear, linen, and laundry services. Their offerings include rental and maintenance of garments, linens, and other textile products for various sectors such as hospitality, healthcare, and industrial markets. Actively developing sustainable and innovative solutions to enhance service efficiency and customer satisfaction, targeting markets that require reliable and hygienic textile management solutions.",
+      "companyId": "876284",
+      "relation": "competitor",
+      "segment": "Textile rental and laundry services",
+      "reason": "Focused competitor in workwear and linen rental with laundry services across hospitality and industrial sectors.",
+      "strength": "strong"
+    },
+    {
+      "companyName": "[ISS A/S](https://gam.prontonlp.com/#/ref/$COMPANY_26972979)",
+      "companyDescription": "Operates primarily in the fields of facility management and workplace experience services. Their offerings include cleaning, catering, security, property, and support services, aimed at enhancing the efficiency and well-being of workplaces. Actively developing integrated solutions to improve sustainability and operational efficiency, targeting markets across various sectors including corporate, healthcare, education, and public institutions.",
+      "companyId": "26972979",
+      "relation": "competitor",
+      "segment": "Facility management and workplace services",
+      "reason": "Competitor in cleaning, facility management, and integrated workplace solutions for commercial clients.",
+      "strength": "moderate"
+    },
+    {
+      "companyName": "[Aramark](https://gam.prontonlp.com/#/ref/$COMPANY_1004106)",
+      "companyDescription": "Operates primarily in the fields of food services, facilities management, and uniform services. Offers a range of products and services including catering, dining solutions, facility maintenance, and uniform rental and cleaning. Actively developing sustainable and innovative solutions to enhance customer experience and operational efficiency. Targets markets such as education, healthcare, business, sports, and leisure.",
+      "companyId": "1004106",
+      "relation": "competitor",
+      "segment": "Facility management and uniform services",
+      "reason": "Competitor in uniform rental, facility maintenance, and integrated facility services.",
+      "strength": "moderate"
+    },
+    {
+      "companyName": "[Rollins, Inc.](https://gam.prontonlp.com/#/ref/$COMPANY_300753)",
+      "companyDescription": "Operates primarily in the pest control industry, providing services for the management and eradication of various pests. Their offerings include residential and commercial pest control solutions, termite protection, and wildlife control services. Actively developing advanced pest management technologies and expanding their market presence globally, targeting both urban and rural areas.",
+      "companyId": "300753",
+      "relation": "competitor",
+      "segment": "Pest control services",
+      "reason": "Competitor in commercial pest control and pest management services.",
+      "strength": "moderate"
+    },
+    {
+      "companyName": "[Sodexo S.A.](https://gam.prontonlp.com/#/ref/$COMPANY_808038)",
+      "companyDescription": "Operates primarily in the fields of food services and facilities management. Offers a range of services including catering, cleaning, and maintenance for various sectors such as corporate, healthcare, education, and remote sites. Actively developing integrated solutions to enhance quality of life and sustainability. Targeting markets across North America, Europe, and Asia-Pacific.",
+      "companyId": "808038",
+      "relation": "competitor",
+      "segment": "Facility management and cleaning services",
+      "reason": "Competitor in cleaning, maintenance, and integrated facility management for corporate and institutional sectors.",
+      "strength": "moderate"
+    },
+    {
+      "companyName": "[Securitas AB (publ)](https://gam.prontonlp.com/#/ref/$COMPANY_621976)",
+      "companyDescription": "Operates primarily in the security services industry, focusing on providing a wide range of protective services. Their offerings include on-site guarding, electronic security solutions, fire and safety services, and risk management. Actively developing integrated security solutions that combine human expertise with advanced technology. Targeting markets across various sectors, including commercial, industrial, and governmental clients, with a strong emphasis on enhancing safety and security through innovative approaches.",
+      "companyId": "621976",
+      "relation": "competitor",
+      "segment": "Facility services and security",
+      "reason": "Competitor in on-site services and integrated facility solutions for commercial properties.",
+      "strength": "weak"
+    },
+    {
+      "companyName": "[Fomento de Construcciones y Contratas, S.A.](https://gam.prontonlp.com/#/ref/$COMPANY_693671)",
+      "companyDescription": "Operates primarily in the fields of environmental services, water management, infrastructure development, and renewable energy. Offers a range of services including waste management, water treatment, construction of public and private infrastructure, and energy solutions. Actively developing projects in urban infrastructure, sustainable energy, and smart city solutions, targeting markets in Europe, Latin America, and the Middle East.",
+      "companyId": "693671",
+      "relation": "competitor",
+      "segment": "Environmental services and facility management",
+      "reason": "Competitor in waste management, water treatment, and environmental services for commercial clients.",
+      "strength": "weak"
+    },
+    {
+      "companyName": "[Cleanaway Waste Management Limited](https://gam.prontonlp.com/#/ref/$COMPANY_22277298)",
+      "companyDescription": "Operates primarily in waste management and environmental services, focusing on the collection, treatment, recycling, and disposal of various waste types. Offers a range of services including general waste collection, hazardous waste management, industrial cleaning, and resource recovery solutions. Actively developing sustainable waste management practices and targeting markets that prioritize environmental sustainability and regulatory compliance.",
+      "companyId": "22277298",
+      "relation": "competitor",
+      "segment": "Waste management and industrial cleaning",
+      "reason": "Competitor in waste collection, industrial cleaning, and environmental services.",
+      "strength": "weak"
+    },
+    {
+      "companyName": "[Hong Kong Johnson Holdings Co., Ltd.](https://gam.prontonlp.com/#/ref/$COMPANY_635903149)",
+      "companyDescription": "Operates primarily in the fields of environmental hygiene and facility management. Their services include cleaning, waste management, and pest control for various sectors such as commercial, residential, and industrial properties. Actively developing sustainable and eco-friendly solutions, targeting markets in urban and densely populated areas.",
+      "companyId": "635903149",
+      "relation": "competitor",
+      "segment": "Facility management and environmental hygiene",
+      "reason": "Competitor in cleaning, waste management, and pest control for commercial and residential sectors.",
+      "strength": "weak"
+    },
+    {
+      "companyName": "[Hygieia Group Limited](https://gam.prontonlp.com/#/ref/$COMPANY_649645039)",
+      "companyDescription": "Operates primarily in the fields of cleaning services and environmental hygiene. Their offerings include a range of cleaning and hygiene solutions for commercial, industrial, and residential clients. Actively developing advanced cleaning technologies and eco-friendly products, targeting markets in Asia and expanding globally.",
+      "companyId": "649645039",
+      "relation": "competitor",
+      "segment": "Cleaning and environmental hygiene services",
+      "reason": "Competitor in commercial and industrial cleaning and hygiene solutions.",
+      "strength": "weak"
+    },
+    {
+      "companyName": "[IWS Group Holdings Limited](https://gam.prontonlp.com/#/ref/$COMPANY_638544721)",
+      "companyDescription": "Operates primarily in the fields of facility management and environmental hygiene services. Offers a range of services including cleaning, security, and landscaping for various sectors such as commercial, residential, and public institutions. Actively developing integrated solutions to enhance operational efficiency and sustainability. Targeting markets that require comprehensive facility management and environmental hygiene solutions.",
+      "companyId": "638544721",
+      "relation": "competitor",
+      "segment": "Facility management and environmental hygiene",
+      "reason": "Competitor in cleaning, facility management, and environmental hygiene services.",
+      "strength": "weak"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "total": 1,
+  "results": [
+    {
+      "companyId": "411004",
+      "companyName": "[Rentokil Initial plc](https://gam.prontonlp.com/#/ref/$COMPANY_411004)",
+      "GVKEY": "100091",
+      "marketCap": 10278725055,
+      "country": "US",
+      "ticker": "RTO",
+      "CIK": "0000930157",
+      "displayName": "[Rentokil Initial plc (RTO)](https://gam.prontonlp.com/#/ref/$COMPANY_411004)",
+      "subSector": "Commercial Services and Supplies",
+      "hqCountry": "United Kingdom",
+      "ISIN": "US7601251041",
+      "updateFromCorpus": "transcripts",
+      "originalCap": 7767632524,
+      "collapseKey": "411004",
+      "exchange": "NYSE",
+      "webpage": "www.rentokil-initial.com",
+      "sector": "Industrials"
+    }
+  ]
+}

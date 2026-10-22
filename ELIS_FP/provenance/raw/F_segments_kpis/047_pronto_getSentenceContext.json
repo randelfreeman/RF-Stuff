@@ -1,0 +1,35 @@
+{
+  "_call": "F_segments_kpis-047",
+  "_params": {"sentenceIds": ["T000003676656-707", "T000003394029-413", "T000003774119-366", "T000002520475-495", "T000003512646-310"], "beforeSentence": 4, "afterSentence": 4},
+  "_note": "Verbatim response below (four ids returned empty text: not present in index).",
+  "response": {
+  "results": [
+    {
+      "sentenceId": "T000003676656-707",
+      "text": " [#707](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-707)",
+      "companyName": ""
+    },
+    {
+      "sentenceId": "T000003394029-413",
+      "text": " [#413](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-413)",
+      "companyName": ""
+    },
+    {
+      "sentenceId": "T000003774119-366",
+      "text": " [#366](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-366)",
+      "companyName": ""
+    },
+    {
+      "sentenceId": "T000002520475-495",
+      "text": "The first is just a clarification of what you said on price. I didn't really quite got that. Did you say the price increase -- including price increase and recovery you're expecting around 12% growth in FY '22? I'm not sure I understood -- your question I understand is going back to what I said about the split of organic growth in, say, let's say, so the 13% to 15% we mentioned. So it's -- you can see that in theory between hotel recoveries, pricing and core organic growth is the rest, I would say. And so we mentioned something in the region of 8% for hotels, something in the region of 4% for pricing, but it's all, of course, rough estimation. It depends again, of what we shall do with the next wave of pricing. [#495](https://gam.prontonlp.com/#/ref/$SENTID_T000002520475-495)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    },
+    {
+      "sentenceId": "T000003512646-310",
+      "text": " [#310](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-310)",
+      "companyName": ""
+    }
+  ]
+}
+}

@@ -1,0 +1,224 @@
+{
+  "latest_close": {
+    "date": "2026-10-09",
+    "close_eur": 21.26
+  },
+  "change_1y": {
+    "from_date": "2025-10-09",
+    "from_close": 24.04,
+    "to_date": "2026-10-09",
+    "to_close": 21.26,
+    "pct": -11.56,
+    "cagr_pct": -11.56
+  },
+  "change_3y": {
+    "from_date": "2023-10-09",
+    "from_close": 15.97,
+    "to_date": "2026-10-09",
+    "to_close": 21.26,
+    "pct": 33.12,
+    "cagr_pct": 10.01
+  },
+  "change_5y": {
+    "from_date": "2021-10-08",
+    "from_close": 14.97,
+    "to_date": "2026-10-09",
+    "to_close": 21.26,
+    "pct": 42.02,
+    "cagr_pct": 7.27
+  },
+  "52w_close_basis": {
+    "window": "2025-10-10 to 2026-10-09",
+    "high": 28.2,
+    "high_date": "2026-07-03",
+    "low": 20.98,
+    "low_date": "2026-09-21"
+  },
+  "52w_intraday_basis": {
+    "high": 28.34,
+    "high_date": "2026-07-06",
+    "low": 20.88,
+    "low_date": "2026-10-08"
+  },
+  "latest_vs_52w": {
+    "pct_below_52w_close_high": -24.61,
+    "pct_above_52w_close_low": 1.33
+  },
+  "max_drawdown_5y_close_basis": {
+    "max_drawdown_pct": -37.63,
+    "peak_date": "2022-01-13",
+    "peak_close": 15.89,
+    "trough_date": "2022-09-29",
+    "trough_close": 9.91,
+    "recovered_to_peak_on": "2023-02-03",
+    "current_drawdown_from_window_high_pct": -24.61
+  },
+  "5y_high_low_close_basis": {
+    "high": 28.2,
+    "high_date": "2026-07-03",
+    "low": 9.91,
+    "low_date": "2022-09-29"
+  },
+  "realised_vol_annualised_pct": {
+    "1y": 23.5,
+    "5y": 27.5
+  },
+  "weekly_series_since_2019": {
+    "first_bar": "2018-12-31",
+    "first_close": 13.37,
+    "max_weekly_close": 28.2,
+    "max_week": "2026-06-29",
+    "min_weekly_close": 7.26,
+    "min_week": "2020-03-30",
+    "max_drawdown_weekly_close_basis": {
+      "max_drawdown_pct": -58.51,
+      "peak_date": "2019-12-23",
+      "peak_close": 17.5,
+      "trough_date": "2020-03-30",
+      "trough_close": 7.26,
+      "recovered_to_peak_on": "2023-07-10",
+      "current_drawdown_from_window_high_pct": -24.61
+    },
+    "note": "ProntoNLP weekly data starts 2018-12-31; 2015 IPO to 2018 not available in ProntoNLP"
+  },
+  "calendar_year_returns": {
+    "2019": {
+      "basis": "last weekly bar of each year",
+      "pct": 30.29
+    },
+    "2020": {
+      "basis": "last weekly bar of each year",
+      "pct": -26.98
+    },
+    "2021": {
+      "basis": "last weekly bar of each year",
+      "pct": 11.64
+    },
+    "2022": {
+      "basis": "daily year-end closes",
+      "pct": -6.76
+    },
+    "2023": {
+      "basis": "daily year-end closes",
+      "pct": 40.03
+    },
+    "2024": {
+      "basis": "daily year-end closes",
+      "pct": 1.94
+    },
+    "2025": {
+      "basis": "daily year-end closes",
+      "pct": 28.36
+    },
+    "2026": {
+      "basis": "daily year-end closes",
+      "pct": -12.37,
+      "note": "YTD to 2026-10-09"
+    }
+  },
+  "weekly_vs_daily_consistency": {
+    "weeks_checked": 265,
+    "weeks_matching_last_daily_close": 265
+  },
+  "counts": {
+    "single_day_ge5pct": 20,
+    "episodes_ge10pct_1to20d": 38,
+    "months_ge10pct": 19
+  },
+  "peer_split_check": {
+    "CTAS": 10.6,
+    "UNF": 20.9,
+    "VSTS": 45.0,
+    "RTO": 21.0,
+    "SW": 17.1
+  },
+  "peer_price_change": {
+    "note": "CTAS/UNF/VSTS in USD; RTO = NYSE ADR in USD; SW = USD line (FX included); end date = last close in each series (2026-10-09)",
+    "ELIS (EUR)": {
+      "1y_pct": -11.6,
+      "3y_pct": 33.1,
+      "5y_pct": 42.0
+    },
+    "CTAS": {
+      "1y_pct": 5.6,
+      "3y_pct": 62.9,
+      "5y_pct": 107.3
+    },
+    "UNF": {
+      "1y_pct": 61.7,
+      "3y_pct": 65.7,
+      "5y_pct": 19.7
+    },
+    "VSTS": {
+      "1y_pct": 183.2,
+      "3y_pct": -4.7,
+      "5y_pct": "n/a (listed 2023-09-27)"
+    },
+    "RTO": {
+      "1y_pct": -24.8,
+      "3y_pct": -43.4,
+      "5y_pct": -48.5
+    },
+    "SW": {
+      "1y_pct": -1.2,
+      "3y_pct": -8.9,
+      "5y_pct": 8.1
+    }
+  },
+  "dividend_adjustment_check": {
+    "observations": [
+      {
+        "date": "2021-05-21",
+        "filing_close_eur": 14.93,
+        "pronto_close_eur": 13.93,
+        "pronto_basis": "weekly close (week of 2021-05-17)",
+        "ratio_pronto_to_filing": 0.933,
+        "filing_source": "[#318](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000163792445-318) (2021 employee plan: closing price on subscription closing date)"
+      },
+      {
+        "date": "2021-12-31",
+        "filing_close_eur": 15.22,
+        "pronto_close_eur": 14.2,
+        "pronto_basis": "daily close 2021-12-31",
+        "ratio_pronto_to_filing": 0.933,
+        "filing_source": "[#4455](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000180181407-4455); [#4014](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000180181407-4014)"
+      },
+      {
+        "date": "2022-12-30",
+        "filing_close_eur": 13.82,
+        "pronto_close_eur": 13.24,
+        "pronto_basis": "daily close 2022-12-30",
+        "ratio_pronto_to_filing": 0.958,
+        "filing_source": "[#5365](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000202465426-5365) (another AR 2022 sentence [#4828](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000202465426-4828) says 15.22 - apparent copy error)"
+      },
+      {
+        "date": "2023-12-29",
+        "filing_close_eur": 18.39,
+        "pronto_close_eur": 18.54,
+        "pronto_basis": "daily close 2023-12-29",
+        "ratio_pronto_to_filing": 1.0082,
+        "filing_source": "[#625](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000219356666-625) (garbled extraction)"
+      },
+      {
+        "date": "2024-12-31",
+        "filing_close_eur": 18.93,
+        "pronto_close_eur": 18.9,
+        "pronto_basis": "daily close 2024-12-31",
+        "ratio_pronto_to_filing": 0.9984,
+        "filing_source": "[#4110](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000239166805-4110) (also 18.90 in [#4661](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000239166805-4661))"
+      },
+      {
+        "date": "2025-12-31",
+        "filing_close_eur": 24.26,
+        "pronto_close_eur": 24.26,
+        "pronto_basis": "daily close 2025-12-31",
+        "ratio_pronto_to_filing": 1.0,
+        "filing_source": "[#6050](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6050); [#6682](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6682) (another AR 2025 sentence [#6325](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6325) says 21.64 - apparent typo)"
+      }
+    ],
+    "conclusion": "Inconsistent/partial adjustment: ProntoNLP equals filing closes at end-2024 and end-2025 (no back-adjustment for the EUR0.45 (May-2025) and EUR0.48 (May-2026) dividends), but is 6.7% below filings in 2021 and 4.2% below at end-2022, consistent with back-adjustment for dividends paid 2022-2024 (EUR0.37/0.41/0.43); the end-2023 filing value (EUR18.39, garbled text) does not fit. Treat pre-mid-2024 levels as approximately dividend-adjusted and later levels as raw prices. [calc]",
+    "price_return_5y_on_filing_basis_pct": 32.5,
+    "price_return_5y_note": "5y anchor (2021-10-08) divided by the 2021 ratio 0.933 to approximate the raw quoted price [calc, approximate]"
+  },
+  "source": "ProntoNLP getStockPrices companyId 27989 interval=day (log D_price_catalysts-001; raw/D_price_catalysts/001_getStockPrices.json); ProntoNLP getStockPrices companyId 27989 interval=week (log D_price_catalysts-002; raw/D_price_catalysts/002_getStockPrices.json); all figures [calc]"
+}

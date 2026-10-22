@@ -1,0 +1,328 @@
+{
+ "company": "Elis SA",
+ "period": "FY2025",
+ "documents": {
+  "call": "[Elis SA, 2025 Earnings Call, Mar 11, 2026](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656)",
+  "fin_supp": "[Elis SA - FIN SUPP - 2025-12-31](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000256665099)",
+  "annual_report": "[Elis SA - AR - 2025-12-31](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000259591248)"
+ },
+ "publication": {
+  "date": "FIN SUPP dated 10-Mar-2026 20:00Z; call 11-Mar-2026 07:30Z",
+  "reaction_day": "11-Mar-2026"
+ },
+ "group": [
+  {
+   "metric": "Revenue",
+   "value": 4796.8,
+   "unit": "EUR m",
+   "basis": "IFRS reported; +4.9% reported, +5.5% constant FX",
+   "source": "[#21](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-21) [#215](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-215)",
+   "note": ""
+  },
+  {
+   "metric": "Organic revenue growth",
+   "value": 3.8,
+   "unit": "%",
+   "basis": "organic",
+   "source": "[#22](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-22) [#45](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-45)",
+   "note": ""
+  },
+  {
+   "metric": "M&A contribution",
+   "value": 1.8,
+   "unit": "pp",
+   "basis": "",
+   "source": "[#49](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-49)",
+   "note": ""
+  },
+  {
+   "metric": "FX contribution",
+   "value": -0.7,
+   "unit": "pp",
+   "basis": "",
+   "source": "[#51](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-51)",
+   "note": ""
+  },
+  {
+   "metric": "Adjusted EBITDA",
+   "value": 1701,
+   "unit": "EUR m",
+   "basis": "adjusted; +5.6% (transcript reads \"EUR 1.701 million\")",
+   "source": "[#23](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-23) [#239](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-239)",
+   "note": ""
+  },
+  {
+   "metric": "Adjusted EBITDA margin",
+   "value": 35.4,
+   "unit": "%",
+   "basis": "+20bp; record",
+   "source": "[#24](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-24) [#225](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-225)",
+   "note": ""
+  },
+  {
+   "metric": "Adjusted EBIT",
+   "value": 766.6,
+   "unit": "EUR m",
+   "basis": "+4.6%",
+   "source": "[#27](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-27) [#247](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-247)",
+   "note": ""
+  },
+  {
+   "metric": "Adjusted EBIT margin",
+   "value": 16.0,
+   "unit": "%",
+   "basis": "stable",
+   "source": "[#27](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-27) [#247](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-247)",
+   "note": "FY2024 adj EBIT margin 16.0% [#23](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-23) -> flat, i.e. NOT the \"slightly up\" guided in Mar-2025 [calc]"
+  },
+  {
+   "metric": "Net income (IFRS)",
+   "value": 366.6,
+   "unit": "EUR m",
+   "basis": "+8.6%",
+   "source": "[#262](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-262)",
+   "note": ""
+  },
+  {
+   "metric": "IFRS diluted EPS (S&P)",
+   "value": 1.463653,
+   "unit": "EUR",
+   "basis": "S&P Net EPS - Diluted",
+   "source": "S&P Capital IQ C_27989 [1.46](https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=256665099) (A_earnings-039)",
+   "note": "FY2024 1.344797 -> +8.8% [calc]"
+  },
+  {
+   "metric": "Headline net income",
+   "value": 467.3,
+   "unit": "EUR m",
+   "basis": "+4.7%",
+   "source": "[#279](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-279)",
+   "note": ""
+  },
+  {
+   "metric": "Headline EPS, basic",
+   "value": 2.0,
+   "unit": "EUR",
+   "basis": "+5.6%",
+   "source": "[#280](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-280)",
+   "note": ""
+  },
+  {
+   "metric": "Headline EPS, fully diluted",
+   "value": 1.85,
+   "unit": "EUR",
+   "basis": "+5.2%",
+   "source": "[#28](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-28) [#280](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-280)",
+   "note": ""
+  },
+  {
+   "metric": "Free cash flow",
+   "value": 358.6,
+   "unit": "EUR m",
+   "basis": "+12.3m YoY (CFO: ~EUR 359m)",
+   "source": "[#30](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-30) [#291](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-291)",
+   "note": ""
+  },
+  {
+   "metric": "Financial leverage ratio",
+   "value": 1.75,
+   "unit": "x",
+   "basis": "-0.1x YoY",
+   "source": "[#31](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-31) [#340](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-340)",
+   "note": ""
+  },
+  {
+   "metric": "Net financial debt 31-Dec-2025",
+   "value": 3020.2,
+   "unit": "EUR m",
+   "basis": "ex IFRS 16",
+   "source": "[#103](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-103)",
+   "note": ""
+  },
+  {
+   "metric": "Pre-tax ROCE",
+   "value": 14.7,
+   "unit": "%",
+   "basis": "+20bp; target 15%",
+   "source": "[#270](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-270) [#272](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-272)",
+   "note": ""
+  },
+  {
+   "metric": "Effective tax rate",
+   "value": 25.6,
+   "unit": "%",
+   "basis": "",
+   "source": "[#260](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-260)",
+   "note": ""
+  },
+  {
+   "metric": "Insurance compensation in non-current operating income",
+   "value": 25,
+   "unit": "EUR m (circa)",
+   "basis": "positive one-off",
+   "source": "[#251](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-251)",
+   "note": ""
+  },
+  {
+   "metric": "IFRS 2 charge",
+   "value": 46,
+   "unit": "EUR m",
+   "basis": "26 free shares + 11 social tax + 9 employee capital-increase subsidy; 2026e 40-45m",
+   "source": "[#688](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-688) [#689](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-689) [#690](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-690) [#691](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-691) [#696](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-696)",
+   "note": ""
+  },
+  {
+   "metric": "Cash tax ratio",
+   "value": 23.4,
+   "unit": "%",
+   "basis": "~EUR 10m one-offs; 22% expected 2026",
+   "source": "[#302](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-302) [#303](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-303)",
+   "note": ""
+  },
+  {
+   "metric": "Lease payments increase",
+   "value": 27,
+   "unit": "EUR m (approx.)",
+   "basis": "EV fleet electrification",
+   "source": "[#310](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-310) [#311](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-311)",
+   "note": ""
+  },
+  {
+   "metric": "M&A cash (incl. EUR 20m final Mexico earn-out)",
+   "value": 139,
+   "unit": "EUR m (circa)",
+   "basis": "",
+   "source": "[#314](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-314) [#315](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-315)",
+   "note": ""
+  },
+  {
+   "metric": "Share buyback 2025",
+   "value": 150.0,
+   "unit": "EUR m",
+   "basis": "6,560,820 shares at avg EUR 22.87",
+   "source": "[#511](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-511) [#663](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000256665099-663)",
+   "note": ""
+  },
+  {
+   "metric": "Dividend proposed (paid May-2026)",
+   "value": 0.48,
+   "unit": "EUR/share",
+   "basis": "+7%",
+   "source": "[#507](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-507)",
+   "note": ""
+  }
+ ],
+ "regions": [
+  {
+   "region": "France",
+   "organic_pct": 3.3,
+   "adj_EBITDA_margin_pct": 41.9,
+   "margin_change_bp": 10,
+   "source": "[#143](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-143)"
+  },
+  {
+   "region": "Central Europe",
+   "constant_fx_growth_pct": 8.1,
+   "organic_pct": 3.0,
+   "M&A_pp": 5.1,
+   "margin_change_bp": 50,
+   "germany_margin_change_bp": 90,
+   "source": "[#147](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-147) [#150](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-150) [#151](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-151) [#152](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-152)"
+  },
+  {
+   "region": "Scandinavia & Eastern Europe",
+   "organic_pct": 1.9,
+   "margin_change_bp": 20,
+   "source": "[#155](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-155) [#158](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-158)"
+  },
+  {
+   "region": "UK & Ireland",
+   "organic_pct": 2.6,
+   "adj_EBITDA_margin_pct": 32.4,
+   "margin_change_bp": 70,
+   "source": "[#161](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-161) [#165](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-165)"
+  },
+  {
+   "region": "Latin America",
+   "organic_pct": 8.2,
+   "FX_pp": -8,
+   "margin_change_bp": -130,
+   "source": "[#168](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-168) [#169](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-169) [#170](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-170)"
+  },
+  {
+   "region": "Southern Europe",
+   "constant_fx_growth_pct": 11.2,
+   "M&A_pp": 4.4,
+   "adj_EBITDA_margin_pct": 33.7,
+   "margin_change_bp": 100,
+   "source": "[#175](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-175) [#178](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-178) [#181](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-181)"
+  }
+ ],
+ "FY2025_actual_vs_guidance": [
+  {
+   "metric": "Organic growth",
+   "guidance_6Mar2025": "slightly below 4% (incl. ~-0.3% calendar)",
+   "actual": "3.8%",
+   "status": "met",
+   "source": "[#383](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-383) [#22](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-22)"
+  },
+  {
+   "metric": "Adj EBITDA margin",
+   "guidance_6Mar2025": "slightly up",
+   "actual": "35.4% (+20bp)",
+   "status": "met",
+   "source": "[#384](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-384) [#24](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-24)"
+  },
+  {
+   "metric": "Adj EBIT margin",
+   "guidance_6Mar2025": "slightly up",
+   "actual": "16.0% (stable)",
+   "status": "NOT met (flat) [calc]",
+   "source": "[#384](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-384) [#27](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-27)"
+  },
+  {
+   "metric": "Diluted headline EPS",
+   "guidance_6Mar2025": "slightly up",
+   "actual": "EUR 1.85 (+5.2%)",
+   "status": "met",
+   "source": "[#384](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-384) [#28](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-28)"
+  },
+  {
+   "metric": "Free cash flow",
+   "guidance_6Mar2025": "slightly up",
+   "actual": "EUR 358.6m (+12.3m)",
+   "status": "met",
+   "source": "[#384](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-384) [#30](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-30)"
+  },
+  {
+   "metric": "Leverage",
+   "guidance_6Mar2025": "-0.1x",
+   "actual": "1.75x (-0.1x)",
+   "status": "met",
+   "source": "[#384](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-384) [#31](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-31)"
+  }
+ ],
+ "FY2026_guidance": {
+  "issued": "11-Mar-2026",
+  "organic": "slightly below 2025 level (softer Q4-25 signings)",
+  "margins": "slight expansion adj EBITDA and adj EBIT margin",
+  "EPS": "high single-digit growth in fully diluted headline EPS",
+  "FCF": "mid-single-digit growth",
+  "leverage": "~1.65x at YE2026 (~-0.1x)",
+  "source": "[#464](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-464) [#465](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-465) [#469](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-469) [#472](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-472) [#474](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-474) [#477](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-477)",
+  "other_quantified": {
+   "buyback_2026": "up to EUR 500m [#519](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-519)",
+   "new_bond": "EUR 500-600m [#526](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-526)",
+   "energy_bill_2026": "~EUR 190m [#449](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-449)",
+   "wages_2026": "~+4% group [#712](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-712)",
+   "LatAm_margin_2026": "at least 2025 level, more probably better [#580](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-580) [#587](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-587)",
+   "German_healthcare_contract": "~EUR 30m per year from Oct/Nov 2026 [#625](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-625) [#626](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-626)",
+   "IFRS2_2026": "EUR 40-45m [#696](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-696)",
+   "cash_interest_2026": "~EUR 10m below 2025 EUR 99m [#656](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-656)"
+  }
+ },
+ "notes": [
+  "FY2024 comparatives restated under IFRS 3 (Carsan, Wasned, Wascherei Ernst PPA) [#102](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000256665099-102) [#104](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000256665099-104)",
+  "Q3 2025 standalone revenue: not available in ProntoNLP (no document Aug-2025..Jan-2026, A_earnings-032) or S&P (semi-annual split only, A_earnings-041). Derived [calc]: FY2025 4,796.8 - H1 2025 2,343.1 - Q4 2025 1,205.7 (consensus actual) = ~1,248.0m."
+ ]
+}

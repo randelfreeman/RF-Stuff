@@ -1,0 +1,43 @@
+# S&P Capital IQ via mcp__S_P_-_Deterministic_Retrieval__get_financial_statement_from_identifiers (call M-006)
+# params: {"identifiers":["C_27989"],"statement":"income_statement","period_type":"annual","calendar_type":"fiscal","start_year":2016,"end_year":2025}
+# company: Elis SA (ENXTPA:ELIS), currency EUR, period ends 31-Dec, num_months 12. Every line item's "sources" array was EMPTY -> source link unavailable.
+# Lossless re-encoding: values divided by 1,000,000 (EUR m), no rounding (raw values were exact multiples of 100,000). Blank = line item not returned for that year.
+line_item,FY2016,FY2017,FY2018,FY2019,FY2020,FY2021,FY2022,FY2023,FY2024,FY2025
+Revenues,1512.8,2193.6,3133.3,3281.8,2806.3,3048.3,3820.9,4309.4,4573.7,4796.8
+Total Revenues,1512.8,2193.6,3133.3,3281.8,2806.3,3048.3,3820.9,4309.4,4573.7,4796.8
+Cost Of Revenues,1055.6,1553.0,2200.2,2300.7,1971.3,2116.2,2651.8,2893.3,3069.5,3186.6
+"Cost of Goods Sold, Total",1055.6,1553.0,2200.2,2300.7,1971.3,2116.2,2651.8,2893.3,3069.5,3186.6
+Gross Profit,457.2,640.6,933.1,981.1,835.0,932.1,1169.1,1416.1,1504.2,1610.2
+Selling General & Admin Expenses (Summary Subtotal),250.2,357.0,527.0,541.3,559.0,573.9,649.4,765.7,804.4,891.5
+"Selling General & Admin Expenses, Total",250.2,352.3,521.5,541.8,545.3,582.3,655.1,763.6,798.0,890.4
+Provision for Bad Debts,,4.7,5.5,-0.5,13.7,-8.4,-5.7,2.1,6.4,1.1
+"Depreciation & Amortization, Total - (IS)",45.8,79.1,112.5,88.5,93.9,81.1,82.9,85.7,85.0,85.7
+Amortization of Goodwill and Intangible Assets - (IS),45.8,79.1,112.5,88.5,93.9,81.1,82.9,85.7,85.0,85.7
+Other Operating Expenses,-0.2,,,,,6.4,-2.3,7.6,9.2,19.1
+"Other Operating Expenses, Total",295.8,436.1,639.5,629.8,652.9,661.4,730.0,859.0,898.6,996.3
+Operating Income,161.4,204.5,293.6,351.3,182.1,270.7,439.1,557.1,605.6,613.9
+"Interest Expense, Total",-55.6,-78.6,-106.4,-130.0,-86.2,-93.3,-100.6,-129.1,-149.9,-151.6
+Interest And Investment Income,,3.9,0.4,1.2,1.0,0.9,9.5,18.0,25.5,17.5
+Net Interest Expenses,-55.6,-74.7,-106.0,-128.8,-85.2,-92.4,-91.1,-111.1,-124.4,-134.1
+"Other Non Operating Expenses, Total",0.9,15.6,-3.1,-18.9,-2.7,2.3,4.3,-13.4,-5.9,-3.0
+Currency Exchange Gains (Loss),0.3,18.3,1.5,0.3,-3.1,2.5,4.4,-0.2,2.5,1.9
+Other Non Operating Income (Expenses),0.6,-2.7,-4.6,-19.2,0.4,-0.2,-0.1,-13.2,-8.4,-4.9
+"EBT, Excl. Unusual Items",106.7,145.4,184.5,203.6,94.2,180.6,352.3,432.6,475.3,476.8
+Merger & Restructuring Charges,-6.4,-75.4,-61.0,-21.6,-39.1,-8.5,-9.8,-6.7,-12.5,-7.8
+Restructuring Charges,-2.3,-45.1,-30.0,-12.7,-33.4,-6.4,-5.5,-5.2,-7.3,-5.4
+Merger & Related Restructuring Charges,-4.1,-30.3,-31.0,-8.9,-5.7,-2.1,-4.3,-1.5,-5.2,-2.4
+Impairment of Goodwill,0.8,,,,,,-58.7,,,
+Gain (Loss) On Sale Of Assets,35.6,-0.3,3.8,-4.4,-0.2,1.7,-3.1,-2.1,-1.7,25.3
+"Other Unusual Items, Total",-5.7,-13.3,7.4,7.6,-25.2,-2.9,1.6,-51.5,4.9,-1.5
+Asset Writedown,,,,,,,,,-3.3,-0.1
+Legal Settlements,-1.2,-1.2,14.8,11.6,-0.9,0.1,-0.8,-2.6,-0.5,-1.2
+Other Unusual Items,-4.5,-12.1,-7.4,-4.0,-24.3,-3.0,2.4,-48.9,8.7,-0.2
+"EBT, Incl. Unusual Items",131.0,56.4,134.7,185.2,29.7,170.9,282.3,372.3,466.0,492.8
+Income Tax Expense,38.0,13.6,51.7,47.5,27.0,56.6,79.7,110.3,128.3,126.2
+Earnings From Continuing Operations,93.0,42.8,83.0,137.7,2.7,114.3,202.6,262.0,337.7,366.6
+Earnings Of Discontinued Operations,,-0.7,-1.2,4.1,,,,,,
+Net Income to Company,93.0,42.1,81.8,141.8,2.7,114.3,202.6,262.0,337.7,366.6
+Minority Interest,,-0.6,0.4,0.2,,,,,,
+Net Income - (IS),93.0,41.5,82.2,142.0,2.7,114.3,202.6,262.0,337.7,366.6
+Net Income to Common Incl Extra Items,93.0,41.5,82.2,142.0,2.7,114.3,202.6,262.0,337.7,366.6
+Net Income to Common Excl. Extra Items,93.0,42.2,83.4,137.9,2.7,114.3,202.6,262.0,337.7,366.6

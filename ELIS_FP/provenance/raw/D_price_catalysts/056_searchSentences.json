@@ -1,0 +1,30 @@
+{
+  "results": [
+    {
+      "sentenceId": "T000003676656-514",
+      "companyId": "27989",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "transcriptId": "T000003676656",
+      "text": "The market condition is a threshold of 130% of the par value that is approximately EUR 21.5. [#514](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-514)",
+      "documentType": "Earnings Calls",
+      "sector": "Industrials-Commercial Services and Supplies",
+      "date": "2026-03-11",
+      "title": "[Elis SA, 2025 Earnings Call, Mar 11, 2026](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656)",
+      "section": "EarningsCalls_PresenterSpeech",
+      "speakerType": "Executives_CFO"
+    },
+    {
+      "sentenceId": "T000003676656-170",
+      "companyId": "27989",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "transcriptId": "T000003676656",
+      "text": "The EBITDA margin declined by 130 bps. [#170](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-170)",
+      "documentType": "Earnings Calls",
+      "sector": "Industrials-Commercial Services and Supplies",
+      "date": "2026-03-11",
+      "title": "[Elis SA, 2025 Earnings Call, Mar 11, 2026](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656)",
+      "section": "EarningsCalls_PresenterSpeech",
+      "speakerType": "Executives_CEO"
+    }
+  ]
+}

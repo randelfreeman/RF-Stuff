@@ -1,0 +1,25 @@
+# Lossless re-encoding of ProntoNLP searchSentences response (call B_governance-070). Every field kept; fields identical across rows are factored into this header.
+# params: {"topicSearchQuery":"short selling short position securities lending","companiesIds":["27989"],"size":15,"autoContext":false}
+# total: (field absent in response) ; results returned: 15 (no short-interest / securities-lending disclosure found)
+# constant fields for every row: companyId=27989 | companyName=[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989) | sector=Industrials-Commercial Services and Supplies
+# per-document constant fields: NONSEC000259591248 -> documentType=AR | date=2026-05-04 | title=[Elis SA - AR - 2025-12-31](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000259591248)
+#   NONSEC000256665099 -> documentType=FIN SUPP | date=2026-03-10 | title=[Elis SA - FIN SUPP - 2025-12-31](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000256665099)
+#   NONSEC000264324010 -> documentType=SR | date=2026-07-30 | title=[Elis SA - SR - 2026-06-30](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000264324010)
+#   NONSEC000264346860 -> documentType=SR | date=2026-07-30 | title=[Elis SA - SR - 2026-06-30](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000264346860)
+#   T000003676656 -> documentType=Earnings Calls | date=2026-03-11 | title=[Elis SA, 2025 Earnings Call, Mar 11, 2026](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656) (row also carries speakerType, noted in section column as section|speakerType)
+# columns: sentenceId<TAB>transcriptId<TAB>section(blank = field absent)<TAB>text
+NONSEC000259591248-6773	NONSEC000259591248		Market on which the security is traded [#6773](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6773)
+NONSEC000264324010-392	NONSEC000264324010	SR_AnalysisReview	Note  Financing And Financial Instruments. [#392](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-392)
+NONSEC000264346860-392	NONSEC000264346860	SR_AnalysisReview	Note  Financing And Financial Instruments. [#392](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-392)
+NONSEC000259591248-6358	NONSEC000259591248		equity investments. [#6358](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6358)
+NONSEC000256665099-814	NONSEC000256665099		equity investments. [#814](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000256665099-814)
+NONSEC000256665099-613	NONSEC000256665099		Foreign exchange derivatives: forward pricing. [#613](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000256665099-613)
+NONSEC000259591248-6138	NONSEC000259591248		Foreign exchange derivatives: forward pricing. [#6138](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6138)
+NONSEC000259591248-6600	NONSEC000259591248	AR_Data	(k) Capital reduction through the cancellation oftreasury shares. [#6600](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6600)
+T000003676656-646	T000003676656	EarningsCalls_Question|Analysts	And second question is regarding -- you have mentioned potentially some share buyback or special dividend in terms of capital allocation. [#646](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-646)
+NONSEC000264324010-155	NONSEC000264324010		Share Capital And Shareholding Structure. [#155](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-155)
+NONSEC000264346860-155	NONSEC000264346860		Share Capital And Shareholding Structure. [#155](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-155)
+NONSEC000256665099-6	NONSEC000256665099		Details are presented in Note 8.8 "Derivative financial instruments and hedges." [#6](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000256665099-6)
+NONSEC000259591248-5522	NONSEC000259591248		Details are presented in Note 8.8 "Derivative financial instruments and hedges." [#5522](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-5522)
+NONSEC000264324010-170	NONSEC000264324010		Potential New Shares. [#170](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-170)
+NONSEC000264346860-170	NONSEC000264346860		Potential New Shares. [#170](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-170)

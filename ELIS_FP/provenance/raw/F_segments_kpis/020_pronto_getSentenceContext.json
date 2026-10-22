@@ -1,0 +1,15 @@
+{
+  "_call": "F_segments_kpis-020",
+  "_params": {"sentenceIds": ["NONSEC000202465426-4055"], "beforeSentence": 3, "afterSentence": 4},
+  "_note": "Verbatim response below.",
+  "response": {
+  "results": [
+    {
+      "sentenceId": "NONSEC000202465426-4055",
+      "text": "The acquisition of the leading player in the Mexican market had an accretive effect on the region's margin. In addition, productivity is improving and inflation is falling in all countries. This has enabled us to benefit from the delayed implementation of price adjustments, which remain significant. In Southern Europe, adjusted EBITDA margin fell by 140 bps compared with 2021, to 27.2%. As in France, the absence of hedging on gas and the relative share of the Flat Linen business (which is more gas-intensive) impacted the cost base. Group results December 31, 2022 The table below shows certain line items from the income statement for the financial years ended December 31, 2021 and December 31, (In millions of euros) 2021 restated Change Change (%) Cost of linen, equipment and other consumables Net impairment on trade and other receivables OPERATING INCOME BEFORE OTHER INCOME AND EXPENSES, AMORTIZATION OF INTANGIBLE ASSETS RECOGNIZED IN A Amortization of intangible assets recognized Income from discontinued operations, net of tax Revenue The Group's consolidated revenue rose by 772.6 million, or 25.3%, from 3,048.3 million for the year ended December 31, 2021 to 3,820.9 million for the year ended December 31, 2022. [#4055](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000202465426-4055)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    }
+  ]
+}
+}

@@ -1,0 +1,62 @@
+{
+ "event": "[Elis SA, H1 2026 Earnings Call, Jul 29, 2026](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119)",
+ "what_analysts_pushed_on": "Mexico (3 of 7 analysts), pricing vs volume and contract-signing conversion, cash flow (DSO/WC/capex), cost-inflation offsets (savings permanence), LatAm margins, M&A size, 2027 outlook",
+ "qa": [
+  {
+   "analyst": "Annelies Vermeulen",
+   "firm": "Morgan Stanley",
+   "question_summary": "Price vs volume mix (Q1 vs Q2; H2); whether the EUR 14m Mexico hit assumes no recovery; what drives record signings amid macro uncertainty",
+   "question_citations": "[#360](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-360) [#362](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-362) [#363](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-363) [#364](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-364) [#365](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-365) [#381](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-381) [#382](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-382)",
+   "answer_summary": "Slightly more price than volume in Q2 and FY; H2 mix similar as signed contracts start invoicing; Mexico recovery possible but not in 2026 forecast; signings reflect sustained marketing/sales investment (margin traded off for growth)",
+   "answer_citations": "[#367](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-367) [#369](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-369) [#371](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-371) [#376](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-376) [#377](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-377) [#386](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-386) [#389](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-389)"
+  },
+  {
+   "analyst": "Ben Wild",
+   "firm": "Deutsche Bank",
+   "question_summary": "Can Mexico volumes be redirected/recovered; working capital beyond seasonality given DSO deterioration; capex 19.5% vs 18.5%; wildfire impact",
+   "question_citations": "[#398](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-398) [#399](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-399) [#402](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-402) [#403](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-403) [#404](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-404) [#408](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-408) [#437](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-437)",
+   "answer_summary": "Competitors lack capacity, hospitals struggling with small suppliers; capex is timing (plants delivered early), FY close to/slightly above 18%; DSO \"a couple of days\" around ~60 days, not to be over-read; wildfire revenue risk ~EUR 1m",
+   "answer_citations": "[#411](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-411) [#412](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-412) [#415](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-415) [#418](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-418) [#423](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-423) [#424](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-424) [#429](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-429) [#430](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-430) [#433](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-433) [#449](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-449)"
+  },
+  {
+   "analyst": "Simon LeChipre",
+   "firm": "Jefferies",
+   "question_summary": "Size and permanence of cost savings; France election risk",
+   "question_citations": "[#455](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-455) [#456](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-456) [#457](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-457) [#458](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-458)",
+   "answer_summary": "Savings ~EUR 10m vs ME extra cost EUR 20-25m; offset by temporary index-linked fees + mostly temporary savings (postponed projects); 2027 to start stronger on indexation; France resilient, not worried about 2027 election",
+   "answer_citations": "[#460](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-460) [#464](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-464) [#465](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-465) [#467](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-467) [#468](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-468) [#471](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-471) [#473](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-473) [#485](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-485)"
+  },
+  {
+   "analyst": "Christoph Greulich",
+   "firm": "Berenberg",
+   "question_summary": "Q2 vs Q1 signing momentum; how fast signings convert to organic growth",
+   "question_citations": "[#489](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-489) [#491](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-491) [#494](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-494)",
+   "answer_summary": "Low signatures end-Q3/Q4-25; Q1 record, Q2 even better; 3-4 months average to invoice; large German healthcare contract invoicing from ~November",
+   "answer_citations": "[#496](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-496) [#497](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-497) [#498](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-498) [#500](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-500) [#502](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-502)"
+  },
+  {
+   "analyst": "Timothy Ramskill",
+   "firm": "BofA Securities",
+   "question_summary": "2027 organic acceleration; transferability of France margin gains; LatAm margin path; how rich the M&A pipeline is",
+   "question_citations": "[#509](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-509) [#510](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-510) [#512](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-512) [#514](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-514) [#519](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-519) [#563](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-563) [#564](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-564)",
+   "answer_summary": "No 2027 guidance but agrees organic will be better (volume + pricing); France efficiency (AI routing, best practice) to roll out; LatAm H2 margin decline more limited, 2027 recovery start; pipeline significantly higher than usual, bigger targets, Europe",
+   "answer_citations": "[#521](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-521) [#522](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-522) [#524](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-524) [#528](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-528) [#531](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-531) [#541](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-541) [#558](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-558) [#559](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-559) [#568](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-568) [#569](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-569) [#571](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-571)"
+  },
+  {
+   "analyst": "Christophe Chaput",
+   "firm": "ODDO BHF",
+   "question_summary": "Size of M&A targets (>EUR 200m?); energy savings 2026/2027; 2027 revenue from new contracts; Flat Linen vs Workwear",
+   "question_citations": "[#577](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-577) [#579](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-579) [#582](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-582) [#583](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-583) [#586](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-586) [#605](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-605)",
+   "answer_summary": "No >EUR 200m \"elephant\", but bigger than usual EUR 15-20m; existing European countries, no US; energy saving ~EUR 20m 2026, slightly below EUR 10m 2027 (down from EUR 10-15m guided in March); no 2027 contract quantification; majority Flat Linen",
+   "answer_citations": "[#588](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-588) [#589](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-589) [#592](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-592) [#594](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-594) [#599](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-599) [#601](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-601) [#607](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-607)"
+  },
+  {
+   "analyst": "Oliver Davies",
+   "firm": "Rothschild & Co Redburn",
+   "question_summary": "More sales-force investment? Drivers of cross-selling traction",
+   "question_citations": "[#613](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-613) [#616](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-616) [#617](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-617)",
+   "answer_summary": "No step-up in sales investment (keep regular pace); cross-selling from initiatives and new CRM (France, Netherlands, Ireland; rolling out)",
+   "answer_citations": "[#619](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-619) [#623](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-623) [#625](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-625) [#626](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-626)"
+  }
+ ]
+}

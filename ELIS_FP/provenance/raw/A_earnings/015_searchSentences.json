@@ -1,0 +1,31 @@
+{
+  "results": [
+    {
+      "sentenceId": "T000003774119-126",
+      "companyId": "27989",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "transcriptId": "T000003774119",
+      "text": "Reported revenue, however, was down minus 0.8%, reflecting the negative evolution of the British pound, which had a minus 2.4% impact on revenue. [#126](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-126)",
+      "documentType": "Earnings Calls",
+      "sector": "Industrials-Commercial Services and Supplies",
+      "date": "2026-07-29",
+      "title": "[Elis SA, H1 2026 Earnings Call, Jul 29, 2026](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119)",
+      "section": "EarningsCalls_PresenterSpeech",
+      "speakerType": "Executives_CEO"
+    },
+    {
+      "sentenceId": "T000003774119-448",
+      "companyId": "27989",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "transcriptId": "T000003774119",
+      "text": "Second topic, what is the impact? [#448](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-448)",
+      "documentType": "Earnings Calls",
+      "sector": "Industrials-Commercial Services and Supplies",
+      "date": "2026-07-29",
+      "title": "[Elis SA, H1 2026 Earnings Call, Jul 29, 2026](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119)",
+      "section": "EarningsCalls_Answer",
+      "speakerType": "Executives_CEO"
+    }
+  ],
+  "total": 2
+}

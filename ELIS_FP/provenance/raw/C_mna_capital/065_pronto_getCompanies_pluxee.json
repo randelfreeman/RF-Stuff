@@ -1,0 +1,24 @@
+{
+  "total": 1,
+  "results": [
+    {
+      "companyId": "674985564",
+      "companyName": "[Pluxee N.V.](https://gam.prontonlp.com/#/ref/$COMPANY_674985564)",
+      "GVKEY": "360332",
+      "marketCap": 2323306231,
+      "country": "FR",
+      "ticker": "PLX",
+      "CIK": "",
+      "displayName": "[Pluxee N.V. (PLX)](https://gam.prontonlp.com/#/ref/$COMPANY_674985564)",
+      "subSector": "Financial Services",
+      "hqCountry": "France",
+      "ISIN": "NL0015001W49",
+      "updateFromCorpus": "transcripts",
+      "originalCap": 2039862871,
+      "collapseKey": "674985564",
+      "exchange": "ENXTPA",
+      "webpage": "www.pluxeegroup.com",
+      "sector": "Financials"
+    }
+  ]
+}

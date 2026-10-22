@@ -1,0 +1,4 @@
+Call F_segments_kpis-090 — mcp__Pronto__getSentenceContext
+params: {"sentenceIds":["T000003054377-155","T000003054377-167","T000002520475-103"],"beforeSentence":0,"afterSentence":11}
+Verbatim error response:
+<error>Input validation error: Invalid arguments for tool getSentenceContext: afterSentence: Too big: expected number to be <=10</error>

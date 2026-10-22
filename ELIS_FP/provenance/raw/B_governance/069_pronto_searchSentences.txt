@@ -1,0 +1,25 @@
+# Lossless re-encoding of ProntoNLP searchSentences response (call B_governance-069). Every field kept; fields identical across rows are factored into this header.
+# params: {"topicSearchQuery":"proxy advisors voting recommendation","companiesIds":["27989"],"size":15,"autoContext":false}
+# total: (field absent in response) ; results returned: 15 (no proxy-adviser opposition found)
+# constant fields for every row: companyId=27989 | companyName=[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989) | sector=Industrials-Commercial Services and Supplies
+# per-document constant fields: NONSEC000259591248 -> documentType=AR | date=2026-05-04 | title=[Elis SA - AR - 2025-12-31](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000259591248)
+#   NONSEC000256665099 -> documentType=FIN SUPP | date=2026-03-10 | title=[Elis SA - FIN SUPP - 2025-12-31](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000256665099)
+#   NONSEC000264324010 -> documentType=SR | date=2026-07-30 | title=[Elis SA - SR - 2026-06-30](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000264324010)
+#   NONSEC000264346860 -> documentType=SR | date=2026-07-30 | title=[Elis SA - SR - 2026-06-30](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000264346860)
+#   T000003676656 -> documentType=Earnings Calls | date=2026-03-11 | title=[Elis SA, 2025 Earnings Call, Mar 11, 2026](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656) (row also carries speakerType, noted in section column as section|speakerType)
+# columns: sentenceId<TAB>transcriptId<TAB>section(blank = field absent)<TAB>text
+NONSEC000259591248-1279	NONSEC000259591248		It may also use other methods for choosing candidates when making its selection. [#1279](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1279)
+NONSEC000259591248-1271	NONSEC000259591248		The recommendations issued by the Audit Committee are adopted by a simple majority of the members present. [#1271](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1271)
+NONSEC000259591248-1277	NONSEC000259591248		The Appointments, Compensation and Governance Committee makes its recommendations by indicating to the Supervisory Board the number of favorable opinions collected. [#1277](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1277)
+NONSEC000259591248-1237	NONSEC000259591248		Analysis of the candidacy of non-independent members of the Supervisory Board and proposal for appointment to the Supervisory Board. [#1237](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1237)
+NONSEC000259591248-1126	NONSEC000259591248		Decisions are made by a majority vote of the members present or represented. [#1126](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1126)
+NONSEC000259591248-2261	NONSEC000259591248		The Management Board has the option to authorize proxy and vote-by-mail forms to be sent to the Company by remote transmission (including any electronic means) per the legal and regulatory provisions in force. [#2261](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-2261)
+NONSEC000259591248-2011	NONSEC000259591248	AR_RF	In addition, the Group monitors legislation, either directly or through its local advisers. [#2011](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-2011)
+NONSEC000259591248-1278	NONSEC000259591248		As part of the selection process for Supervisory Board members, the Committee may use the services of a specialized firm. [#1278](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1278)
+NONSEC000259591248-1280	NONSEC000259591248		It then recommends one or two candidates to the Chairman of the Supervisory Board and the Chairman of the Management Board. [#1280](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1280)
+NONSEC000259591248-1216	NONSEC000259591248		Selection of the Statutory Auditors and monitoring of their independence. [#1216](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1216)
+NONSEC000259591248-2260	NONSEC000259591248		They may also participate in any meeting by voting by mail or online under the conditions provided by the legal and regulatory provisions in force. [#2260](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-2260)
+NONSEC000259591248-1285	NONSEC000259591248		The CSR Committee makes its recommendations by indicating to the Supervisory Board the number of favorable opinions collected. [#1285](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1285)
+NONSEC000259591248-3521	NONSEC000259591248	AR_RF	If necessary, the Group uses external information provided by specialist advisers in order to be certain of its positioning relative to the local reference market. [#3521](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-3521)
+NONSEC000259591248-925	NONSEC000259591248		The committee chairs could also ask the non-voting member's opinion on topics pertaining to his or her expertise. [#925](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-925)
+NONSEC000259591248-1270	NONSEC000259591248		Committee members cannot give a proxy to another member to represent them. [#1270](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-1270)

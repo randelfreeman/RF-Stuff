@@ -1,0 +1,15 @@
+{
+  "_call": "F_segments_kpis-050",
+  "_params": {"sentenceIds": ["T000003194583-527"], "beforeSentence": 0, "afterSentence": 10},
+  "_note": "Verbatim response below.",
+  "response": {
+  "results": [
+    {
+      "sentenceId": "T000003194583-527",
+      "text": "Would you be willing to give us the numbers, how much pricing has contributed to the organic growth in Q2? And then what you're expecting for H2? Yes. So the impact, what we see today for the volume and what we so-called lost due to Olympics we are talking about something close to EUR 2 million to EUR 3 million expected in this period of June, July. So it is a magnitude of this you can see that it's not a drama in comparison to the size of the group. Nevertheless, it's quite disappointing and we could have expected more. Hopefully, if you remember, we have always been very careful with the impact of Olympics. And if you remember, when we had discussion at the end of '23 to design the guidance for '24 and so on, we have always said that, we don't take too much into consideration for the impact of Olympics because we had the experience of Rio 2014, where it was not massive massive improvement in volume. So that's why it is below last year, so it is disappointing, but not a drama. For renewal Olympics to '16 it was a world cup in '14 so inflation, so we are in the range of what we said. [#527](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-527)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    }
+  ]
+}
+}

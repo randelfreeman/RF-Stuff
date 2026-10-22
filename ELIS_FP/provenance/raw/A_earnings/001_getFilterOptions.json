@@ -1,0 +1,35 @@
+{
+  "speakerTypes": [
+    "Analysts",
+    "Operator",
+    "Executives",
+    "Attendees",
+    "Shareholders",
+    "Executives_CEO",
+    "Executives_CFO",
+    "Executives_IR",
+    "Executives_Board",
+    "Executives_VP",
+    "Executives_Director",
+    "Executives_COO",
+    "Executives_President",
+    "Executives_CMO",
+    "Executives_CCO",
+    "Executives_CSO",
+    "Executives_ChiefOfficer",
+    "Executives_CIO",
+    "Executives_CTO",
+    "Executives_CRO",
+    "Executives_CLO",
+    "Executives_CPO",
+    "Executives_CBO",
+    "Executives_CDO",
+    "Executives_CAO",
+    "Executives_CGO"
+  ],
+  "importance": [
+    "High",
+    "Medium",
+    "Low"
+  ]
+}

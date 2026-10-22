@@ -1,0 +1,11 @@
+# Lossless TSV re-encoding of ProntoNLP searchSentences response (call F_segments_kpis-019). Rows in returned (relevance) order; every field kept (no row had a section field).
+# params: {"topicSearchQuery":"Southern Europe adjusted EBITDA margin","transcriptsIds":["NONSEC000202465426"],"size":6,"autoContext":false}
+# Fields constant for every row: companyId=27989 | companyName=[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989) | transcriptId=NONSEC000202465426 | documentType=AR | sector=Industrials-Commercial Services and Supplies | date=2023-04-07 | title=[Elis SA - AR - 2022-12-31](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000202465426)
+# Response "total": 105
+sentenceId	text
+NONSEC000202465426-4055	In Southern Europe, adjusted EBITDA margin fell by 140 bps compared with 2021, to 27.2%. [#4055](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000202465426-4055)
+NONSEC000202465426-4043	In Central Europe, adjusted EBITDA margin was down 290 bps compared with 2021, to 29.6%. [#4043](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000202465426-4043)
+NONSEC000202465426-4046	In Scandinavia & Eastern Europe, adjusted EBITDA margin was down 230 bps compared with 2021, to 36.2%. [#4046](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000202465426-4046)
+NONSEC000202465426-4039	In France, adjusted EBITDA margin fell by 70 bps compared with 2021, to 38.4%. [#4039](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000202465426-4039)
+NONSEC000202465426-4049	In the United Kingdom & Ireland, adjusted EBITDA margin was down 70 bps compared with 2021, to 30.0%. [#4049](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000202465426-4049)
+NONSEC000202465426-4051	In Latin America, adjusted EBITDA margin rose by 30 bps compared with 2021, to 33.5%. [#4051](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000202465426-4051)

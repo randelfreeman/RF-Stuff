@@ -1,0 +1,45 @@
+{
+  "27989": {
+    "result": {
+      "revenue": {
+        "timeSeries": [
+          {"periodEndDate": "2021-01-01", "effectiveDate": "2021-05-05T15:40:00Z", "actualValue": 658200000, "expectedValue": 638000000, "id": "27989-revenue-0"},
+          {"periodEndDate": "2021-04-01", "effectiveDate": "2021-07-28T15:40:00Z", "actualValue": 717300000, "expectedValue": 698300000, "id": "27989-revenue-1"},
+          {"periodEndDate": "2021-07-01", "effectiveDate": "2021-10-26T15:40:00Z", "actualValue": 839400000, "expectedValue": 834000000, "id": "27989-revenue-2"},
+          {"periodEndDate": "2021-10-01", "effectiveDate": "2022-01-31T16:40:00Z", "actualValue": 833300000, "id": "27989-revenue-3"},
+          {"periodEndDate": "2022-01-01", "effectiveDate": "2022-05-10T15:40:00Z", "actualValue": 832800000, "expectedValue": 809200000, "id": "27989-revenue-4"},
+          {"periodEndDate": "2022-04-01", "effectiveDate": "2022-07-27T15:40:00Z", "actualValue": 951000000, "expectedValue": 1317600000, "id": "27989-revenue-5"},
+          {"periodEndDate": "2022-07-01", "effectiveDate": "2022-10-26T15:40:00Z", "actualValue": 1031000000, "expectedValue": 998000000, "id": "27989-revenue-6"},
+          {"periodEndDate": "2022-10-01", "effectiveDate": "2023-01-30T16:40:00Z", "actualValue": 1006100000, "expectedValue": 990000000, "id": "27989-revenue-7"},
+          {"periodEndDate": "2023-01-01", "effectiveDate": "2023-05-10T12:51:44Z", "actualValue": 1013400000, "expectedValue": 991800000, "id": "27989-revenue-8"},
+          {"periodEndDate": "2023-04-01", "effectiveDate": "2023-07-26T15:40:00Z", "actualValue": 1087900000, "expectedValue": 1087000000, "id": "27989-revenue-9"},
+          {"periodEndDate": "2023-07-01", "effectiveDate": "2023-10-26T15:40:00Z", "actualValue": 1123300000, "expectedValue": 1134400000, "id": "27989-revenue-10"},
+          {"periodEndDate": "2023-10-01", "effectiveDate": "2024-01-30T16:40:00Z", "actualValue": 1084700000, "expectedValue": 1091000000, "id": "27989-revenue-11"},
+          {"periodEndDate": "2024-01-01", "effectiveDate": "2024-05-06T15:40:00Z", "actualValue": 1092400000, "expectedValue": 1076400000, "id": "27989-revenue-12"},
+          {"periodEndDate": "2024-04-01", "effectiveDate": "2024-07-24T15:40:00Z", "actualValue": 1154200000, "expectedValue": 1156100000, "id": "27989-revenue-13"},
+          {"periodEndDate": "2024-07-01", "effectiveDate": "2024-10-30T16:40:00Z", "actualValue": 1184900000, "expectedValue": 1194000000, "id": "27989-revenue-14"},
+          {"periodEndDate": "2024-10-01", "effectiveDate": "2025-03-06T06:00:00Z", "actualValue": 1142100000, "expectedValue": 1155000000, "id": "27989-revenue-15"},
+          {"periodEndDate": "2025-01-01", "id": "27989-revenue-16"},
+          {"periodEndDate": "2025-04-01", "id": "27989-revenue-17"},
+          {"periodEndDate": "2025-07-01", "id": "27989-revenue-18"},
+          {"periodEndDate": "2025-10-01", "effectiveDate": "2026-01-29T16:40:00Z", "actualValue": 1205700000, "expectedValue": 1195000000, "id": "27989-revenue-19"},
+          {"periodEndDate": "2026-01-01", "effectiveDate": "2026-05-04T15:40:00Z", "actualValue": 1180500000, "expectedValue": 1183100000, "id": "27989-revenue-20"},
+          {"periodEndDate": "2026-04-01", "effectiveDate": "2026-07-29T15:40:00Z", "actualValue": 1276600000, "expectedValue": 1274800000, "id": "27989-revenue-21"}
+        ],
+        "metricLabel": "revenue",
+        "yoy": {"value": 1276600000, "lastYearValue": null, "currency": "EUR", "change": null}
+      },
+      "ebitda": {"timeSeries": [], "metricLabel": "ebitda", "yoy": null},
+      "epsGaap": {"timeSeries": [], "metricLabel": "epsGaap", "yoy": null},
+      "netIncomeGaap": {"timeSeries": [], "metricLabel": "netIncomeGaap", "yoy": null},
+      "freeCashFlow": {
+        "timeSeries": [
+          {"periodEndDate": "2022-04-01", "effectiveDate": "2022-07-27T15:40:00Z", "actualValue": 61950000, "expectedValue": 205000000, "id": "27989-freeCashFlow-0"}
+        ],
+        "metricLabel": "freeCashFlow",
+        "yoy": {"value": 61950000, "lastYearValue": null, "currency": "EUR", "change": null}
+      },
+      "capitalExpenditure": {"timeSeries": [], "metricLabel": "capitalExpenditure", "yoy": null}
+    }
+  }
+}

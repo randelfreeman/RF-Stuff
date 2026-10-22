@@ -1,0 +1,24 @@
+{
+  "total": 1,
+  "results": [
+    {
+      "companyId": "694763",
+      "companyName": "[Vestis Corporation](https://gam.prontonlp.com/#/ref/$COMPANY_694763)",
+      "GVKEY": "043360",
+      "marketCap": 1803985433,
+      "country": "US",
+      "ticker": "VSTS",
+      "CIK": "0001967649",
+      "displayName": "[Vestis Corporation (VSTS)](https://gam.prontonlp.com/#/ref/$COMPANY_694763)",
+      "subSector": "Commercial Services and Supplies",
+      "hqCountry": "United States",
+      "ISIN": "US29430C1027",
+      "updateFromCorpus": "transcripts",
+      "originalCap": 1803985433,
+      "collapseKey": "694763",
+      "exchange": "NYSE",
+      "webpage": "www.vestis.com",
+      "sector": "Industrials"
+    }
+  ]
+}

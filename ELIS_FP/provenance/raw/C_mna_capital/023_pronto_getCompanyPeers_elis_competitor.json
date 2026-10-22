@@ -1,0 +1,85 @@
+{
+  "27989": [
+    {
+      "companyName": "[Aramark](https://gam.prontonlp.com/#/ref/$COMPANY_1004106)",
+      "companyDescription": "Operates primarily in the fields of food services, facilities management, and uniform services. Offers a range of products and services including catering, dining solutions, facility maintenance, and uniform rental and cleaning. Actively developing sustainable and innovative solutions to enhance customer experience and operational efficiency. Targets markets such as education, healthcare, business, sports, and leisure.",
+      "companyId": "1004106",
+      "relation": "competitor",
+      "segment": "Workwear rental, linen services, and facility management",
+      "reason": "Direct competitor in workwear rental, linen services, and facility management across commercial markets.",
+      "strength": "strong"
+    },
+    {
+      "companyName": "[Brambles Limited](https://gam.prontonlp.com/#/ref/$COMPANY_34536531)",
+      "companyDescription": "Operates primarily in the fields of supply chain logistics and asset management, focusing on the pooling of reusable pallets, crates, and containers. Their services include the rental, management, and maintenance of these assets, which are used to transport goods efficiently and sustainably. Actively developing digital solutions to enhance supply chain visibility and efficiency, targeting markets in the consumer goods, retail, and manufacturing sectors.",
+      "companyId": "34536531",
+      "relation": "competitor",
+      "segment": "Asset rental and management services",
+      "reason": "Competes in reusable asset rental and management; similar recurring revenue model and customer base.",
+      "strength": "moderate"
+    },
+    {
+      "companyName": "[EVI Industries, Inc.](https://gam.prontonlp.com/#/ref/$COMPANY_397867)",
+      "companyDescription": "Operates primarily in the commercial laundry and dry cleaning equipment industry, providing a range of products and services including equipment distribution, installation, maintenance, and repair. Actively developing its market presence through acquisitions and expanding its service offerings to better serve the commercial, industrial, and institutional sectors. Targeting markets such as hospitality, healthcare, and multi-family housing to meet the growing demand for efficient and reliable laundry solutions.",
+      "companyId": "397867",
+      "relation": "competitor",
+      "segment": "Commercial laundry equipment and services",
+      "reason": "Serves commercial laundry market with equipment and services; overlaps in workwear and linen processing.",
+      "strength": "moderate"
+    },
+    {
+      "companyName": "[Essity AB (publ)](https://gam.prontonlp.com/#/ref/$COMPANY_403212338)",
+      "companyDescription": "Operates primarily in the fields of hygiene and health, providing essential products and services for personal care, consumer tissue, and professional hygiene. Their offerings include a wide range of hygiene products such as tissues, wipes, and incontinence products, as well as solutions for professional hygiene in public and private spaces. Actively developing sustainable and innovative solutions to improve well-being and hygiene standards. Targeting global markets with a strong presence in Europe, North America, and emerging markets.",
+      "companyId": "403212338",
+      "relation": "competitor",
+      "segment": "Professional hygiene products and services",
+      "reason": "Major competitor in professional hygiene products for commercial and industrial customers.",
+      "strength": "moderate"
+    },
+    {
+      "companyName": "[Paul Hartmann AG](https://gam.prontonlp.com/#/ref/$COMPANY_876847)",
+      "companyDescription": "Operates primarily in the healthcare sector, focusing on wound management, incontinence care, infection prevention, and personal healthcare. Their offerings include medical and hygiene products, such as dressings, bandages, and disinfectants, as well as services aimed at improving patient care and hygiene standards. Actively developing innovative solutions to enhance patient outcomes and targeting markets in both professional healthcare settings and home care environments.",
+      "companyId": "876847",
+      "relation": "competitor",
+      "segment": "Healthcare hygiene and infection prevention products",
+      "reason": "Competes in hygiene products and infection prevention; overlaps in washroom and healthcare facility solutions.",
+      "strength": "weak"
+    },
+    {
+      "companyName": "[Bunzl plc](https://gam.prontonlp.com/#/ref/$COMPANY_410348)",
+      "companyDescription": "Operates primarily in the distribution and outsourcing sectors, focusing on providing a wide range of non-food consumable products. Their offerings include packaging, cleaning and hygiene supplies, safety products, and healthcare consumables. Actively expanding its footprint through acquisitions and targeting markets in North America, Europe, and other international regions.",
+      "companyId": "410348",
+      "relation": "competitor",
+      "segment": "Hygiene and cleaning supplies distribution",
+      "reason": "Distributes cleaning and hygiene supplies to commercial customers; overlaps in washroom and facility solutions.",
+      "strength": "weak"
+    },
+    {
+      "companyName": "[McBride plc](https://gam.prontonlp.com/#/ref/$COMPANY_881857)",
+      "companyDescription": "Operates primarily in the manufacturing and distribution of household and personal care products. Their offerings include a wide range of cleaning agents, personal hygiene items, and related consumer goods. Actively developing eco-friendly and sustainable product lines, targeting both European and international markets.",
+      "companyId": "881857",
+      "relation": "competitor",
+      "segment": "Household and commercial cleaning products",
+      "reason": "Manufactures and distributes cleaning and hygiene products for commercial and household markets.",
+      "strength": "weak"
+    },
+    {
+      "companyName": "[Blue Moon Group Holdings Limited](https://gam.prontonlp.com/#/ref/$COMPANY_695297229)",
+      "companyDescription": "Operates primarily in the fields of household care, personal care, and fabric care. Their product lines include a variety of cleaning agents, personal hygiene products, and laundry care solutions. Actively developing eco-friendly and innovative formulations to cater to the growing demand for sustainable products. Targeting markets in Asia, with a focus on expanding their presence in both urban and rural areas.",
+      "companyId": "695297229",
+      "relation": "competitor",
+      "segment": "Household and fabric care products",
+      "reason": "Produces cleaning and fabric care solutions; overlaps in laundry and facility care markets.",
+      "strength": "weak"
+    },
+    {
+      "companyName": "[GHCL Limited](https://gam.prontonlp.com/#/ref/$COMPANY_881288)",
+      "companyDescription": "Operates primarily in the fields of chemicals and textiles. Their product lines include inorganic chemicals, home textiles, and consumer products. Actively developing sustainable and eco-friendly solutions, targeting both domestic and international markets.",
+      "companyId": "881288",
+      "relation": "competitor",
+      "segment": "Chemicals and home textiles",
+      "reason": "Produces chemicals and home textiles; overlaps in textile care and facility solutions.",
+      "strength": "weak"
+    }
+  ]
+}

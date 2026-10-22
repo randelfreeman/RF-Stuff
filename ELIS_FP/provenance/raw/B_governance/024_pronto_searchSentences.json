@@ -1,0 +1,50 @@
+{
+  "results": [
+    {
+      "sentenceId": "NONSEC000264346860-155",
+      "companyId": "27989",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "transcriptId": "NONSEC000264346860",
+      "text": "Share Capital And Shareholding Structure. [#155](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-155)",
+      "documentType": "SR",
+      "sector": "Industrials-Commercial Services and Supplies",
+      "date": "2026-07-30",
+      "title": "[Elis SA - SR - 2026-06-30](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000264346860)"
+    },
+    {
+      "sentenceId": "NONSEC000264346860-125",
+      "companyId": "27989",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "transcriptId": "NONSEC000264346860",
+      "text": "It may be exposed to military conflicts or changes of government that could impact results. [#125](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-125)",
+      "documentType": "SR",
+      "sector": "Industrials-Commercial Services and Supplies",
+      "date": "2026-07-30",
+      "title": "[Elis SA - SR - 2026-06-30](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000264346860)"
+    },
+    {
+      "sentenceId": "NONSEC000264346860-29",
+      "companyId": "27989",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "transcriptId": "NONSEC000264346860",
+      "text": "Percentage change calculations are based on actual figures. [#29](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-29)",
+      "documentType": "SR",
+      "sector": "Industrials-Commercial Services and Supplies",
+      "date": "2026-07-30",
+      "title": "[Elis SA - SR - 2026-06-30](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000264346860)"
+    },
+    {
+      "sentenceId": "NONSEC000264346860-426",
+      "companyId": "27989",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "transcriptId": "NONSEC000264346860",
+      "text": "The \"Changes in treasury shares\" line item of the consolidated statement of changes in equity shows the shares repurchased during the financial year as part of the share buyback program, the associated tax and the changes in the liquidity agreement. [#426](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-426)",
+      "documentType": "SR",
+      "sector": "Industrials-Commercial Services and Supplies",
+      "date": "2026-07-30",
+      "title": "[Elis SA - SR - 2026-06-30](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000264346860)",
+      "section": "SR_AnalysisReview"
+    }
+  ],
+  "total": 4
+}

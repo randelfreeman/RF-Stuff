@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "sentenceId": "NONSEC000259591248-6776",
+      "companyId": "27989",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "transcriptId": "NONSEC000259591248",
+      "text": "The Company is included in the SBF 120 index and in the Euro Stoxx 600 index. [#6776](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6776)",
+      "documentType": "AR",
+      "sector": "Industrials-Commercial Services and Supplies",
+      "date": "2026-05-04",
+      "title": "[Elis SA - AR - 2025-12-31](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000259591248)",
+      "section": "AR_Data"
+    },
+    {
+      "sentenceId": "NONSEC000259591248-311",
+      "companyId": "27989",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "transcriptId": "NONSEC000259591248",
+      "text": "Company listed on Euronext (SBF 120) Strong business model ensuring profitable growth [#311](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-311)",
+      "documentType": "AR",
+      "sector": "Industrials-Commercial Services and Supplies",
+      "date": "2026-05-04",
+      "title": "[Elis SA - AR - 2025-12-31](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000259591248)"
+    },
+    {
+      "sentenceId": "NONSEC000259591248-2790",
+      "companyId": "27989",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "transcriptId": "NONSEC000259591248",
+      "text": "Participation in this initiative demonstrates companies' commitment to this topic,  through publications, including that of the sustainable investment forum (Forum pour l'investissement responsable - FIR), on the analysis of the SBF 120's circular economy practices (2023), and of the International Center for Research and Innovation for Sustainable Development (Centre International de ressources et d'innovation pour le dveloppement durable - CIRIDD - 2023), in partnership with Grand Lyon, on \"The sustainable transformation of companies and regions - 50 circular economy solutions.\" [#2790](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-2790)",
+      "documentType": "AR",
+      "sector": "Industrials-Commercial Services and Supplies",
+      "date": "2026-05-04",
+      "title": "[Elis SA - AR - 2025-12-31](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000259591248)",
+      "section": "AR_RF"
+    }
+  ],
+  "total": 43
+}

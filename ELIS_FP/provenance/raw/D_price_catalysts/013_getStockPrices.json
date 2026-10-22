@@ -1,0 +1,6084 @@
+{
+  "694763": [
+    {
+      "date": "2023-09-27",
+      "open": 20.02,
+      "close": 19.04,
+      "high": 20.02,
+      "low": 19.04,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-09-28",
+      "open": 19.05,
+      "close": 19.28,
+      "high": 19.28,
+      "low": 18.98,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-09-29",
+      "open": 19.28,
+      "close": 19.09,
+      "high": 19.38,
+      "low": 18.99,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-10-02",
+      "open": 18.99,
+      "close": 16.82,
+      "high": 19.1,
+      "low": 15.82,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-10-03",
+      "open": 16.82,
+      "close": 16.42,
+      "high": 17.16,
+      "low": 15.71,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-10-04",
+      "open": 16.62,
+      "close": 16.06,
+      "high": 16.62,
+      "low": 15.7,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-10-05",
+      "open": 15.48,
+      "close": 15.48,
+      "high": 15.72,
+      "low": 14.78,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-10-06",
+      "open": 14.98,
+      "close": 15.19,
+      "high": 15.57,
+      "low": 14.18,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-10-09",
+      "open": 14.94,
+      "close": 14.83,
+      "high": 15.13,
+      "low": 14.39,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-10-10",
+      "open": 14.78,
+      "close": 16.03,
+      "high": 16.34,
+      "low": 14.44,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-10-11",
+      "open": 15.95,
+      "close": 15.23,
+      "high": 16.17,
+      "low": 15.09,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-10-12",
+      "open": 15.03,
+      "close": 14.57,
+      "high": 15.63,
+      "low": 14.34,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-10-13",
+      "open": 14.56,
+      "close": 14.34,
+      "high": 14.77,
+      "low": 14.07,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-10-16",
+      "open": 14.59,
+      "close": 15.48,
+      "high": 15.7,
+      "low": 14.59,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-10-17",
+      "open": 15.39,
+      "close": 15.71,
+      "high": 15.77,
+      "low": 15.35,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-10-18",
+      "open": 15.58,
+      "close": 14.83,
+      "high": 15.74,
+      "low": 14.8,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-10-19",
+      "open": 14.83,
+      "close": 14.14,
+      "high": 14.98,
+      "low": 14.14,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-10-20",
+      "open": 14.33,
+      "close": 14.35,
+      "high": 14.44,
+      "low": 13.68,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-10-23",
+      "open": 14.43,
+      "close": 14.6,
+      "high": 14.66,
+      "low": 14.33,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-10-24",
+      "open": 14.95,
+      "close": 15.06,
+      "high": 15.18,
+      "low": 14.74,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-10-25",
+      "open": 14.86,
+      "close": 14.56,
+      "high": 15.14,
+      "low": 14.4,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-10-26",
+      "open": 14.58,
+      "close": 14.58,
+      "high": 14.93,
+      "low": 14.54,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-10-27",
+      "open": 14.54,
+      "close": 14.4,
+      "high": 14.79,
+      "low": 14.29,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-10-30",
+      "open": 14.56,
+      "close": 14.67,
+      "high": 14.7,
+      "low": 14.42,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-10-31",
+      "open": 14.78,
+      "close": 15.12,
+      "high": 15.32,
+      "low": 14.48,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-11-01",
+      "open": 15.13,
+      "close": 15.4,
+      "high": 15.46,
+      "low": 14.34,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-11-02",
+      "open": 15.58,
+      "close": 16.11,
+      "high": 16.32,
+      "low": 15.58,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-11-03",
+      "open": 16.36,
+      "close": 16.57,
+      "high": 16.76,
+      "low": 16.12,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-11-06",
+      "open": 16.91,
+      "close": 16.81,
+      "high": 17.31,
+      "low": 16.52,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-11-07",
+      "open": 16.82,
+      "close": 16.94,
+      "high": 17.08,
+      "low": 16.7,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-11-08",
+      "open": 17.04,
+      "close": 16.81,
+      "high": 17.24,
+      "low": 16.67,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-11-09",
+      "open": 16.86,
+      "close": 16.33,
+      "high": 17.18,
+      "low": 16.3,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-11-10",
+      "open": 16.32,
+      "close": 16.45,
+      "high": 16.61,
+      "low": 15.76,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-11-13",
+      "open": 16.32,
+      "close": 16.14,
+      "high": 16.45,
+      "low": 15.96,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-11-14",
+      "open": 16.45,
+      "close": 16.44,
+      "high": 16.65,
+      "low": 16.2,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-11-15",
+      "open": 16.5,
+      "close": 17.08,
+      "high": 17.24,
+      "low": 16.33,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-11-16",
+      "open": 16.95,
+      "close": 16.31,
+      "high": 17.07,
+      "low": 16.24,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-11-17",
+      "open": 16.8,
+      "close": 16.27,
+      "high": 16.8,
+      "low": 16.21,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-11-20",
+      "open": 16.17,
+      "close": 16,
+      "high": 16.29,
+      "low": 15.95,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-11-21",
+      "open": 16.01,
+      "close": 16.21,
+      "high": 16.25,
+      "low": 15.82,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-11-22",
+      "open": 16.23,
+      "close": 16.51,
+      "high": 16.53,
+      "low": 16.12,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-11-24",
+      "open": 16.51,
+      "close": 16.66,
+      "high": 16.7,
+      "low": 16.42,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-11-27",
+      "open": 16.61,
+      "close": 16.71,
+      "high": 16.83,
+      "low": 16.52,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-11-28",
+      "open": 16.61,
+      "close": 16.55,
+      "high": 16.8,
+      "low": 16.54,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-11-29",
+      "open": 17.46,
+      "close": 17.89,
+      "high": 18.04,
+      "low": 17.13,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-11-30",
+      "open": 18.09,
+      "close": 18.11,
+      "high": 18.6,
+      "low": 18.02,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-12-01",
+      "open": 18.12,
+      "close": 18.48,
+      "high": 18.73,
+      "low": 18.08,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-12-04",
+      "open": 18.83,
+      "close": 18.57,
+      "high": 18.84,
+      "low": 18.48,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-12-05",
+      "open": 18.7,
+      "close": 18.17,
+      "high": 18.7,
+      "low": 18.16,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-12-06",
+      "open": 18.64,
+      "close": 18.42,
+      "high": 18.69,
+      "low": 18.19,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-12-07",
+      "open": 18.32,
+      "close": 18.77,
+      "high": 18.95,
+      "low": 18.3,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-12-08",
+      "open": 18.69,
+      "close": 18.81,
+      "high": 19.17,
+      "low": 18.69,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-12-11",
+      "open": 18.8,
+      "close": 18.59,
+      "high": 18.81,
+      "low": 18.49,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-12-12",
+      "open": 18.44,
+      "close": 18.28,
+      "high": 18.82,
+      "low": 18.03,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-12-13",
+      "open": 18.26,
+      "close": 18.58,
+      "high": 18.76,
+      "low": 18.1,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-12-14",
+      "open": 18.94,
+      "close": 18.91,
+      "high": 19.29,
+      "low": 18.71,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-12-15",
+      "open": 19.42,
+      "close": 19.19,
+      "high": 19.69,
+      "low": 19.07,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-12-18",
+      "open": 18.91,
+      "close": 19.38,
+      "high": 19.78,
+      "low": 18.91,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-12-19",
+      "open": 19.54,
+      "close": 20.25,
+      "high": 20.5,
+      "low": 19.43,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-12-20",
+      "open": 20.12,
+      "close": 19.93,
+      "high": 20.36,
+      "low": 19.73,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-12-21",
+      "open": 20.06,
+      "close": 20.56,
+      "high": 20.73,
+      "low": 20.06,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-12-22",
+      "open": 20.67,
+      "close": 20.6,
+      "high": 20.71,
+      "low": 20.26,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-12-26",
+      "open": 20.56,
+      "close": 20.58,
+      "high": 20.81,
+      "low": 20.46,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-12-27",
+      "open": 20.73,
+      "close": 20.98,
+      "high": 20.99,
+      "low": 20.68,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-12-28",
+      "open": 20.99,
+      "close": 20.9,
+      "high": 21.24,
+      "low": 20.63,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2023-12-29",
+      "open": 20.88,
+      "close": 20.94,
+      "high": 21.21,
+      "low": 20.78,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-01-02",
+      "open": 20.82,
+      "close": 20.58,
+      "high": 20.88,
+      "low": 20.48,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-01-03",
+      "open": 20.13,
+      "close": 20,
+      "high": 20.35,
+      "low": 19.96,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-01-04",
+      "open": 20,
+      "close": 20.1,
+      "high": 20.28,
+      "low": 19.89,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-01-05",
+      "open": 20,
+      "close": 20.55,
+      "high": 20.89,
+      "low": 19.98,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-01-08",
+      "open": 20.43,
+      "close": 20.61,
+      "high": 20.84,
+      "low": 20.36,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-01-09",
+      "open": 20.48,
+      "close": 20.42,
+      "high": 21.17,
+      "low": 20.31,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-01-10",
+      "open": 20.45,
+      "close": 20.39,
+      "high": 20.58,
+      "low": 20.14,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-01-11",
+      "open": 20.68,
+      "close": 20.82,
+      "high": 20.82,
+      "low": 20.4,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-01-12",
+      "open": 20.9,
+      "close": 20.85,
+      "high": 21.08,
+      "low": 20.63,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-01-16",
+      "open": 20.71,
+      "close": 20.61,
+      "high": 20.81,
+      "low": 20.28,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-01-17",
+      "open": 20.36,
+      "close": 20.5,
+      "high": 20.78,
+      "low": 20.36,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-01-18",
+      "open": 20.62,
+      "close": 20.4,
+      "high": 20.66,
+      "low": 20.3,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-01-19",
+      "open": 20.35,
+      "close": 20.54,
+      "high": 20.66,
+      "low": 20.26,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-01-22",
+      "open": 20.77,
+      "close": 21.16,
+      "high": 21.47,
+      "low": 20.75,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-01-23",
+      "open": 21.3,
+      "close": 21.47,
+      "high": 21.61,
+      "low": 21.15,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-01-24",
+      "open": 21.59,
+      "close": 21.11,
+      "high": 21.79,
+      "low": 21.07,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-01-25",
+      "open": 21.03,
+      "close": 21.28,
+      "high": 21.31,
+      "low": 20.75,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-01-26",
+      "open": 21.44,
+      "close": 21.12,
+      "high": 21.63,
+      "low": 21.09,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-01-29",
+      "open": 21.12,
+      "close": 21.56,
+      "high": 21.6,
+      "low": 20.95,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-01-30",
+      "open": 21.41,
+      "close": 21.63,
+      "high": 21.67,
+      "low": 21.24,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-01-31",
+      "open": 21.61,
+      "close": 21.2,
+      "high": 21.72,
+      "low": 21.12,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-02-01",
+      "open": 21.43,
+      "close": 21.65,
+      "high": 21.8,
+      "low": 21.23,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-02-02",
+      "open": 21.56,
+      "close": 22,
+      "high": 22.16,
+      "low": 21.56,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-02-05",
+      "open": 21.75,
+      "close": 21.7,
+      "high": 21.9,
+      "low": 21.59,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-02-06",
+      "open": 21.72,
+      "close": 22.09,
+      "high": 22.11,
+      "low": 21.67,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-02-07",
+      "open": 21.55,
+      "close": 19.24,
+      "high": 21.7,
+      "low": 19.05,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-02-08",
+      "open": 19.19,
+      "close": 19.92,
+      "high": 20.09,
+      "low": 18.74,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-02-09",
+      "open": 19.81,
+      "close": 18.8,
+      "high": 19.86,
+      "low": 18.79,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-02-12",
+      "open": 18.95,
+      "close": 19.23,
+      "high": 19.54,
+      "low": 18.86,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-02-13",
+      "open": 19.78,
+      "close": 18.78,
+      "high": 19.81,
+      "low": 18.62,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-02-14",
+      "open": 18.89,
+      "close": 18.83,
+      "high": 19.09,
+      "low": 18.58,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-02-15",
+      "open": 18.93,
+      "close": 19.35,
+      "high": 19.5,
+      "low": 18.91,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-02-16",
+      "open": 19.18,
+      "close": 18.8,
+      "high": 19.27,
+      "low": 18.72,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-02-20",
+      "open": 18.66,
+      "close": 19.15,
+      "high": 19.18,
+      "low": 18.6,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-02-21",
+      "open": 18.91,
+      "close": 19.14,
+      "high": 19.22,
+      "low": 18.84,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-02-22",
+      "open": 19.18,
+      "close": 19.37,
+      "high": 19.38,
+      "low": 19.07,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-02-23",
+      "open": 19.62,
+      "close": 19.84,
+      "high": 19.88,
+      "low": 19.31,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-02-26",
+      "open": 19.72,
+      "close": 19.52,
+      "high": 19.78,
+      "low": 19.25,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-02-27",
+      "open": 19.68,
+      "close": 19.33,
+      "high": 19.75,
+      "low": 19.21,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-02-28",
+      "open": 18.87,
+      "close": 19.06,
+      "high": 19.11,
+      "low": 18.68,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-02-29",
+      "open": 19.17,
+      "close": 18.59,
+      "high": 19.17,
+      "low": 18.14,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-03-01",
+      "open": 18.64,
+      "close": 18.54,
+      "high": 18.8,
+      "low": 18.46,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-03-04",
+      "open": 18.68,
+      "close": 18.58,
+      "high": 18.8,
+      "low": 18.33,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-03-05",
+      "open": 18.48,
+      "close": 18.24,
+      "high": 18.58,
+      "low": 18.16,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-03-06",
+      "open": 18.46,
+      "close": 18.35,
+      "high": 18.6,
+      "low": 18.19,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-03-07",
+      "open": 18.49,
+      "close": 18.84,
+      "high": 18.92,
+      "low": 18.49,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-03-08",
+      "open": 18.92,
+      "close": 18.47,
+      "high": 18.99,
+      "low": 18.26,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-03-11",
+      "open": 18.49,
+      "close": 18.63,
+      "high": 18.67,
+      "low": 18.3,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-03-12",
+      "open": 18.7,
+      "close": 18.53,
+      "high": 18.82,
+      "low": 18.44,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-03-13",
+      "open": 18.47,
+      "close": 18.27,
+      "high": 18.57,
+      "low": 18.22,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-03-14",
+      "open": 18.26,
+      "close": 18.09,
+      "high": 18.34,
+      "low": 17.95,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-03-15",
+      "open": 18.1,
+      "close": 17.73,
+      "high": 18.12,
+      "low": 17.5,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-03-18",
+      "open": 17.74,
+      "close": 17.79,
+      "high": 17.89,
+      "low": 17.33,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-03-19",
+      "open": 17.72,
+      "close": 17.62,
+      "high": 17.87,
+      "low": 17.49,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-03-20",
+      "open": 17.62,
+      "close": 17.92,
+      "high": 18.05,
+      "low": 17.47,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-03-21",
+      "open": 18.06,
+      "close": 17.97,
+      "high": 18.22,
+      "low": 17.9,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-03-22",
+      "open": 18.02,
+      "close": 17.95,
+      "high": 18.05,
+      "low": 17.72,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-03-25",
+      "open": 17.82,
+      "close": 18.09,
+      "high": 18.22,
+      "low": 17.71,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-03-26",
+      "open": 18.14,
+      "close": 18.2,
+      "high": 18.25,
+      "low": 17.89,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-03-27",
+      "open": 18.28,
+      "close": 18.82,
+      "high": 18.89,
+      "low": 18.26,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-03-28",
+      "open": 18.82,
+      "close": 19.13,
+      "high": 19.29,
+      "low": 18.77,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-04-01",
+      "open": 19.16,
+      "close": 18.98,
+      "high": 19.16,
+      "low": 18.58,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-04-02",
+      "open": 18.79,
+      "close": 18.49,
+      "high": 18.82,
+      "low": 18.17,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-04-03",
+      "open": 18.63,
+      "close": 18.95,
+      "high": 19.09,
+      "low": 18.43,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-04-04",
+      "open": 19.04,
+      "close": 18.68,
+      "high": 19.39,
+      "low": 18.56,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-04-05",
+      "open": 18.69,
+      "close": 18.98,
+      "high": 19.04,
+      "low": 18.59,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-04-08",
+      "open": 19.01,
+      "close": 19.02,
+      "high": 19.18,
+      "low": 18.85,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-04-09",
+      "open": 19.06,
+      "close": 19.5,
+      "high": 19.61,
+      "low": 19.06,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-04-10",
+      "open": 18.94,
+      "close": 19.06,
+      "high": 19.26,
+      "low": 18.87,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-04-11",
+      "open": 19.29,
+      "close": 19.05,
+      "high": 19.36,
+      "low": 18.86,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-04-12",
+      "open": 18.87,
+      "close": 19.09,
+      "high": 19.25,
+      "low": 18.87,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-04-15",
+      "open": 19.2,
+      "close": 18.51,
+      "high": 19.2,
+      "low": 18.45,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-04-16",
+      "open": 18.47,
+      "close": 18.56,
+      "high": 18.6,
+      "low": 18.22,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-04-17",
+      "open": 18.67,
+      "close": 18.65,
+      "high": 18.73,
+      "low": 18.47,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-04-18",
+      "open": 18.56,
+      "close": 18.43,
+      "high": 18.83,
+      "low": 18.35,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-04-19",
+      "open": 18.42,
+      "close": 18.52,
+      "high": 18.73,
+      "low": 18.4,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-04-22",
+      "open": 18.59,
+      "close": 18.64,
+      "high": 18.81,
+      "low": 18.44,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-04-23",
+      "open": 18.64,
+      "close": 18.8,
+      "high": 18.97,
+      "low": 18.64,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-04-24",
+      "open": 18.76,
+      "close": 18.56,
+      "high": 18.84,
+      "low": 18.55,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-04-25",
+      "open": 18.46,
+      "close": 18.67,
+      "high": 18.7,
+      "low": 18.18,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-04-26",
+      "open": 18.68,
+      "close": 18.76,
+      "high": 18.8,
+      "low": 18.59,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-04-29",
+      "open": 18.84,
+      "close": 18.69,
+      "high": 18.85,
+      "low": 18.58,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-04-30",
+      "open": 18.6,
+      "close": 18.28,
+      "high": 18.85,
+      "low": 18.28,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-05-01",
+      "open": 18.28,
+      "close": 18.33,
+      "high": 18.81,
+      "low": 18.21,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-05-02",
+      "open": 12.82,
+      "close": 10.08,
+      "high": 12.97,
+      "low": 8.85,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-05-03",
+      "open": 10.15,
+      "close": 9.34,
+      "high": 10.3,
+      "low": 9.08,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-05-06",
+      "open": 9.35,
+      "close": 9.84,
+      "high": 9.9,
+      "low": 8.99,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-05-07",
+      "open": 10.25,
+      "close": 10.15,
+      "high": 10.56,
+      "low": 10.11,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-05-08",
+      "open": 10.13,
+      "close": 10.48,
+      "high": 10.59,
+      "low": 9.94,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-05-09",
+      "open": 11.28,
+      "close": 11.49,
+      "high": 11.61,
+      "low": 11.01,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-05-10",
+      "open": 11.49,
+      "close": 11.41,
+      "high": 11.94,
+      "low": 11.4,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-05-13",
+      "open": 11.52,
+      "close": 12.19,
+      "high": 12.33,
+      "low": 11.51,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-05-14",
+      "open": 12.31,
+      "close": 12.5,
+      "high": 12.62,
+      "low": 12.21,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-05-15",
+      "open": 12.76,
+      "close": 12.68,
+      "high": 12.85,
+      "low": 12.43,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-05-16",
+      "open": 12.55,
+      "close": 12.74,
+      "high": 12.87,
+      "low": 12.51,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-05-17",
+      "open": 12.77,
+      "close": 12.43,
+      "high": 12.81,
+      "low": 12.42,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-05-20",
+      "open": 12.5,
+      "close": 12.45,
+      "high": 12.56,
+      "low": 12.28,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-05-21",
+      "open": 12.53,
+      "close": 12.35,
+      "high": 12.69,
+      "low": 12.28,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-05-22",
+      "open": 12.36,
+      "close": 12.55,
+      "high": 12.63,
+      "low": 12.29,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-05-23",
+      "open": 12.51,
+      "close": 12.02,
+      "high": 12.59,
+      "low": 11.96,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-05-24",
+      "open": 12.21,
+      "close": 11.92,
+      "high": 12.26,
+      "low": 11.79,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-05-28",
+      "open": 11.99,
+      "close": 11.53,
+      "high": 12.02,
+      "low": 11.41,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-05-29",
+      "open": 11.36,
+      "close": 11.56,
+      "high": 11.65,
+      "low": 11.28,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-05-30",
+      "open": 11.73,
+      "close": 12.03,
+      "high": 12.3,
+      "low": 11.72,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-05-31",
+      "open": 11.97,
+      "close": 12.23,
+      "high": 12.26,
+      "low": 11.85,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-06-03",
+      "open": 12.17,
+      "close": 12.35,
+      "high": 12.52,
+      "low": 12.05,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-06-04",
+      "open": 12.31,
+      "close": 12.27,
+      "high": 12.44,
+      "low": 12.2,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-06-05",
+      "open": 12.27,
+      "close": 12.42,
+      "high": 12.48,
+      "low": 12.1,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-06-06",
+      "open": 12.22,
+      "close": 12.34,
+      "high": 12.47,
+      "low": 12.22,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-06-07",
+      "open": 12.2,
+      "close": 12.16,
+      "high": 12.38,
+      "low": 12.03,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-06-10",
+      "open": 12,
+      "close": 11.93,
+      "high": 12.09,
+      "low": 11.59,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-06-11",
+      "open": 11.91,
+      "close": 11.95,
+      "high": 11.95,
+      "low": 11.66,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-06-12",
+      "open": 12.25,
+      "close": 12.15,
+      "high": 12.4,
+      "low": 11.95,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-06-13",
+      "open": 12.07,
+      "close": 11.89,
+      "high": 12.19,
+      "low": 11.77,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-06-14",
+      "open": 11.76,
+      "close": 11.65,
+      "high": 11.9,
+      "low": 11.38,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-06-17",
+      "open": 11.63,
+      "close": 11.75,
+      "high": 11.89,
+      "low": 11.61,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-06-18",
+      "open": 11.68,
+      "close": 11.63,
+      "high": 11.84,
+      "low": 11.51,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-06-20",
+      "open": 11.61,
+      "close": 11.78,
+      "high": 11.94,
+      "low": 11.58,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-06-21",
+      "open": 11.8,
+      "close": 12,
+      "high": 12.03,
+      "low": 11.72,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-06-24",
+      "open": 11.92,
+      "close": 12.05,
+      "high": 12.39,
+      "low": 11.92,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-06-25",
+      "open": 12.04,
+      "close": 11.9,
+      "high": 12.07,
+      "low": 11.85,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-06-26",
+      "open": 11.83,
+      "close": 12.15,
+      "high": 12.17,
+      "low": 11.83,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-06-27",
+      "open": 12.12,
+      "close": 12.07,
+      "high": 12.18,
+      "low": 12.01,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-06-28",
+      "open": 12.06,
+      "close": 12.18,
+      "high": 12.21,
+      "low": 11.96,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-07-01",
+      "open": 12.28,
+      "close": 11.6,
+      "high": 12.53,
+      "low": 11.53,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-07-02",
+      "open": 11.65,
+      "close": 11.4,
+      "high": 11.92,
+      "low": 11.32,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-07-03",
+      "open": 11.46,
+      "close": 11.33,
+      "high": 11.53,
+      "low": 11.31,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-07-05",
+      "open": 11.28,
+      "close": 11.21,
+      "high": 11.36,
+      "low": 11.05,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-07-08",
+      "open": 11.32,
+      "close": 11.46,
+      "high": 11.52,
+      "low": 11.22,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-07-09",
+      "open": 11.45,
+      "close": 12.2,
+      "high": 12.41,
+      "low": 11.45,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-07-10",
+      "open": 12.21,
+      "close": 11.92,
+      "high": 13.64,
+      "low": 11.21,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-07-11",
+      "open": 12.02,
+      "close": 12.27,
+      "high": 12.45,
+      "low": 11.74,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-07-12",
+      "open": 12.38,
+      "close": 12.28,
+      "high": 12.51,
+      "low": 12.2,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-07-15",
+      "open": 12.27,
+      "close": 12.28,
+      "high": 12.36,
+      "low": 12.17,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-07-16",
+      "open": 12.26,
+      "close": 12.84,
+      "high": 12.86,
+      "low": 12.21,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-07-17",
+      "open": 12.75,
+      "close": 12.34,
+      "high": 12.94,
+      "low": 12.3,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-07-18",
+      "open": 12.4,
+      "close": 11.91,
+      "high": 12.53,
+      "low": 11.84,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-07-19",
+      "open": 11.95,
+      "close": 12.45,
+      "high": 12.55,
+      "low": 11.67,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-07-22",
+      "open": 12.45,
+      "close": 12.52,
+      "high": 12.6,
+      "low": 12.16,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-07-23",
+      "open": 12.44,
+      "close": 12.5,
+      "high": 12.72,
+      "low": 12.42,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-07-24",
+      "open": 12.5,
+      "close": 12.34,
+      "high": 12.64,
+      "low": 12.28,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-07-25",
+      "open": 12.41,
+      "close": 12.46,
+      "high": 12.58,
+      "low": 12.12,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-07-26",
+      "open": 12.91,
+      "close": 12.41,
+      "high": 12.91,
+      "low": 12.28,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-07-29",
+      "open": 12.41,
+      "close": 12.64,
+      "high": 12.68,
+      "low": 12.32,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-07-30",
+      "open": 12.62,
+      "close": 12.7,
+      "high": 12.83,
+      "low": 12.56,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-07-31",
+      "open": 12.8,
+      "close": 12.91,
+      "high": 13.15,
+      "low": 12.57,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-08-01",
+      "open": 12.89,
+      "close": 12.96,
+      "high": 13.06,
+      "low": 12.65,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-08-02",
+      "open": 12.82,
+      "close": 12.51,
+      "high": 12.86,
+      "low": 12.47,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-08-05",
+      "open": 11.9,
+      "close": 12.06,
+      "high": 12.22,
+      "low": 11.63,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-08-06",
+      "open": 11.96,
+      "close": 12.44,
+      "high": 12.48,
+      "low": 11.95,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-08-07",
+      "open": 13.06,
+      "close": 12.65,
+      "high": 13.06,
+      "low": 11.71,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-08-08",
+      "open": 12.21,
+      "close": 12.71,
+      "high": 13,
+      "low": 11.65,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-08-09",
+      "open": 12.81,
+      "close": 12.94,
+      "high": 12.98,
+      "low": 12.62,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-08-12",
+      "open": 12.95,
+      "close": 12.53,
+      "high": 13.23,
+      "low": 12.44,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-08-13",
+      "open": 12.56,
+      "close": 13.17,
+      "high": 13.28,
+      "low": 12.55,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-08-14",
+      "open": 13.14,
+      "close": 12.96,
+      "high": 13.22,
+      "low": 12.8,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-08-15",
+      "open": 13.14,
+      "close": 13.26,
+      "high": 13.44,
+      "low": 12.96,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-08-16",
+      "open": 13.21,
+      "close": 13.03,
+      "high": 13.3,
+      "low": 12.95,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-08-19",
+      "open": 13.02,
+      "close": 13.25,
+      "high": 13.33,
+      "low": 12.91,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-08-20",
+      "open": 13.25,
+      "close": 13.41,
+      "high": 13.5,
+      "low": 13.21,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-08-21",
+      "open": 13.43,
+      "close": 13.37,
+      "high": 13.52,
+      "low": 13.24,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-08-22",
+      "open": 13.37,
+      "close": 13.14,
+      "high": 13.37,
+      "low": 12.75,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-08-23",
+      "open": 13.13,
+      "close": 13.75,
+      "high": 13.82,
+      "low": 12.98,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-08-26",
+      "open": 13.86,
+      "close": 13.66,
+      "high": 13.86,
+      "low": 13.63,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-08-27",
+      "open": 13.66,
+      "close": 13.68,
+      "high": 13.86,
+      "low": 13.59,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-08-28",
+      "open": 13.6,
+      "close": 13.6,
+      "high": 13.65,
+      "low": 13.42,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-08-29",
+      "open": 13.62,
+      "close": 13.53,
+      "high": 13.76,
+      "low": 13.5,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-08-30",
+      "open": 13.55,
+      "close": 14.01,
+      "high": 14.32,
+      "low": 13.47,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-09-03",
+      "open": 13.73,
+      "close": 13.92,
+      "high": 14.07,
+      "low": 13.73,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-09-04",
+      "open": 13.9,
+      "close": 13.62,
+      "high": 13.98,
+      "low": 13.58,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-09-05",
+      "open": 13.67,
+      "close": 15.22,
+      "high": 15.7,
+      "low": 13.63,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-09-06",
+      "open": 15.24,
+      "close": 14.37,
+      "high": 15.54,
+      "low": 14.26,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-09-09",
+      "open": 14.43,
+      "close": 14.85,
+      "high": 14.93,
+      "low": 14.37,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-09-10",
+      "open": 14.91,
+      "close": 14.64,
+      "high": 15.04,
+      "low": 14.62,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-09-11",
+      "open": 14.61,
+      "close": 14.59,
+      "high": 14.63,
+      "low": 14.29,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-09-12",
+      "open": 14.65,
+      "close": 14.81,
+      "high": 15.04,
+      "low": 14.64,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-09-13",
+      "open": 14.89,
+      "close": 14.99,
+      "high": 15.22,
+      "low": 14.8,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-09-16",
+      "open": 14.95,
+      "close": 14.96,
+      "high": 15.14,
+      "low": 14.91,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-09-17",
+      "open": 14.98,
+      "close": 15.14,
+      "high": 15.35,
+      "low": 14.96,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-09-18",
+      "open": 15.09,
+      "close": 15.16,
+      "high": 15.29,
+      "low": 14.86,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-09-19",
+      "open": 15.45,
+      "close": 15.57,
+      "high": 15.77,
+      "low": 15.17,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-09-20",
+      "open": 15.48,
+      "close": 15.68,
+      "high": 15.94,
+      "low": 15.38,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-09-23",
+      "open": 15.63,
+      "close": 15.41,
+      "high": 15.78,
+      "low": 15.28,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-09-24",
+      "open": 15.53,
+      "close": 15.65,
+      "high": 15.84,
+      "low": 15.48,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-09-25",
+      "open": 15.76,
+      "close": 15.19,
+      "high": 15.76,
+      "low": 15.18,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-09-26",
+      "open": 15.37,
+      "close": 15.29,
+      "high": 15.45,
+      "low": 15.12,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-09-27",
+      "open": 15.39,
+      "close": 15.08,
+      "high": 15.48,
+      "low": 14.94,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-09-30",
+      "open": 15.17,
+      "close": 14.87,
+      "high": 15.22,
+      "low": 14.68,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-10-01",
+      "open": 14.81,
+      "close": 14.74,
+      "high": 14.89,
+      "low": 14.58,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-10-02",
+      "open": 14.76,
+      "close": 14.8,
+      "high": 14.99,
+      "low": 14.63,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-10-03",
+      "open": 14.77,
+      "close": 14.49,
+      "high": 14.96,
+      "low": 14.45,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-10-04",
+      "open": 13.77,
+      "close": 14.77,
+      "high": 14.88,
+      "low": 13.47,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-10-07",
+      "open": 14.68,
+      "close": 14.6,
+      "high": 15.08,
+      "low": 14.5,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-10-08",
+      "open": 14.63,
+      "close": 14.72,
+      "high": 14.88,
+      "low": 14.51,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-10-09",
+      "open": 14.75,
+      "close": 14.84,
+      "high": 14.88,
+      "low": 14.65,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-10-10",
+      "open": 14.83,
+      "close": 14.73,
+      "high": 14.95,
+      "low": 14.59,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-10-11",
+      "open": 14.72,
+      "close": 14.91,
+      "high": 14.92,
+      "low": 14.72,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-10-14",
+      "open": 14.95,
+      "close": 14.94,
+      "high": 15.01,
+      "low": 14.8,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-10-15",
+      "open": 14.84,
+      "close": 15,
+      "high": 15.32,
+      "low": 14.84,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-10-16",
+      "open": 15.05,
+      "close": 15.08,
+      "high": 15.13,
+      "low": 14.94,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-10-17",
+      "open": 15.05,
+      "close": 15.21,
+      "high": 15.28,
+      "low": 14.98,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-10-18",
+      "open": 15.23,
+      "close": 15.2,
+      "high": 15.38,
+      "low": 15.16,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-10-21",
+      "open": 15.22,
+      "close": 15.02,
+      "high": 15.29,
+      "low": 14.97,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-10-22",
+      "open": 14.91,
+      "close": 14.86,
+      "high": 15.05,
+      "low": 14.71,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-10-23",
+      "open": 14.82,
+      "close": 14.32,
+      "high": 14.87,
+      "low": 14.21,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-10-24",
+      "open": 14.35,
+      "close": 14.26,
+      "high": 14.52,
+      "low": 14.21,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-10-25",
+      "open": 14.33,
+      "close": 13.96,
+      "high": 14.33,
+      "low": 13.89,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-10-28",
+      "open": 14.15,
+      "close": 14.1,
+      "high": 14.38,
+      "low": 14.06,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-10-29",
+      "open": 13.99,
+      "close": 14.07,
+      "high": 14.15,
+      "low": 13.92,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-10-30",
+      "open": 14.06,
+      "close": 13.94,
+      "high": 14.26,
+      "low": 13.91,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-10-31",
+      "open": 13.9,
+      "close": 13.49,
+      "high": 13.91,
+      "low": 13.42,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-11-01",
+      "open": 13.54,
+      "close": 13.37,
+      "high": 13.62,
+      "low": 13.18,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-11-04",
+      "open": 13.4,
+      "close": 13.22,
+      "high": 13.55,
+      "low": 13.18,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-11-05",
+      "open": 13.21,
+      "close": 13.46,
+      "high": 13.57,
+      "low": 13.19,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-11-06",
+      "open": 14.3,
+      "close": 14.12,
+      "high": 14.43,
+      "low": 13.83,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-11-07",
+      "open": 14.17,
+      "close": 14.02,
+      "high": 14.28,
+      "low": 13.86,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-11-08",
+      "open": 14.07,
+      "close": 14.09,
+      "high": 14.36,
+      "low": 14.03,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-11-11",
+      "open": 14.22,
+      "close": 14.05,
+      "high": 14.29,
+      "low": 14.02,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-11-12",
+      "open": 13.92,
+      "close": 14.06,
+      "high": 14.18,
+      "low": 13.91,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-11-13",
+      "open": 14.24,
+      "close": 14.32,
+      "high": 14.41,
+      "low": 13.95,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-11-14",
+      "open": 14.3,
+      "close": 14.11,
+      "high": 14.44,
+      "low": 14.08,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-11-15",
+      "open": 14.11,
+      "close": 13.83,
+      "high": 14.29,
+      "low": 13.69,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-11-18",
+      "open": 13.79,
+      "close": 13.44,
+      "high": 13.88,
+      "low": 13.44,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-11-19",
+      "open": 13.3,
+      "close": 13.38,
+      "high": 13.47,
+      "low": 13.25,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-11-20",
+      "open": 13.35,
+      "close": 13.28,
+      "high": 13.58,
+      "low": 13.07,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-11-21",
+      "open": 13.26,
+      "close": 15.59,
+      "high": 15.66,
+      "low": 13.23,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-11-22",
+      "open": 15.42,
+      "close": 15.99,
+      "high": 16.13,
+      "low": 15.15,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-11-25",
+      "open": 16.23,
+      "close": 16.28,
+      "high": 16.59,
+      "low": 16.05,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-11-26",
+      "open": 16.23,
+      "close": 16.3,
+      "high": 16.36,
+      "low": 16.04,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-11-27",
+      "open": 16.28,
+      "close": 16.15,
+      "high": 16.49,
+      "low": 16.04,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-11-29",
+      "open": 16.14,
+      "close": 16.05,
+      "high": 16.26,
+      "low": 15.89,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-12-02",
+      "open": 16,
+      "close": 16.29,
+      "high": 16.29,
+      "low": 15.83,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-12-03",
+      "open": 16.22,
+      "close": 16.35,
+      "high": 16.4,
+      "low": 16.11,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-12-04",
+      "open": 16.23,
+      "close": 16.33,
+      "high": 16.36,
+      "low": 15.89,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-12-05",
+      "open": 16.41,
+      "close": 16.27,
+      "high": 16.41,
+      "low": 16.1,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-12-06",
+      "open": 16.35,
+      "close": 16.3,
+      "high": 16.36,
+      "low": 15.97,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-12-09",
+      "open": 16.44,
+      "close": 16.27,
+      "high": 16.52,
+      "low": 15.93,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-12-10",
+      "open": 16.33,
+      "close": 16.58,
+      "high": 17.79,
+      "low": 16.18,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-12-11",
+      "open": 16.51,
+      "close": 16.44,
+      "high": 16.58,
+      "low": 16.02,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-12-12",
+      "open": 16.43,
+      "close": 16.35,
+      "high": 16.57,
+      "low": 16.28,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-12-13",
+      "open": 16.42,
+      "close": 16.05,
+      "high": 16.42,
+      "low": 16.04,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-12-16",
+      "open": 16.02,
+      "close": 16.35,
+      "high": 16.45,
+      "low": 15.95,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-12-17",
+      "open": 16.17,
+      "close": 16.11,
+      "high": 16.34,
+      "low": 15.99,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-12-18",
+      "open": 16.26,
+      "close": 15.72,
+      "high": 16.4,
+      "low": 15.68,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-12-19",
+      "open": 15.75,
+      "close": 15.59,
+      "high": 15.86,
+      "low": 15.19,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-12-20",
+      "open": 16.67,
+      "close": 16.39,
+      "high": 16.67,
+      "low": 15.96,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-12-23",
+      "open": 16.33,
+      "close": 15.84,
+      "high": 16.36,
+      "low": 15.62,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-12-24",
+      "open": 15.82,
+      "close": 15.84,
+      "high": 15.9,
+      "low": 15.69,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-12-26",
+      "open": 15.75,
+      "close": 15.7,
+      "high": 15.78,
+      "low": 15.58,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-12-27",
+      "open": 15.62,
+      "close": 15.36,
+      "high": 15.72,
+      "low": 15.25,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-12-30",
+      "open": 15.11,
+      "close": 15.26,
+      "high": 15.32,
+      "low": 14.96,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2024-12-31",
+      "open": 15.31,
+      "close": 15.24,
+      "high": 15.43,
+      "low": 15.18,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-01-02",
+      "open": 15.41,
+      "close": 15.3,
+      "high": 15.41,
+      "low": 15.2,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-01-03",
+      "open": 15.27,
+      "close": 15.26,
+      "high": 15.36,
+      "low": 14.87,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-01-06",
+      "open": 15.33,
+      "close": 16.16,
+      "high": 16.26,
+      "low": 15.33,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-01-07",
+      "open": 16.5,
+      "close": 16.45,
+      "high": 16.68,
+      "low": 16.03,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-01-08",
+      "open": 16.42,
+      "close": 16.34,
+      "high": 16.42,
+      "low": 15.96,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-01-10",
+      "open": 16.09,
+      "close": 15.97,
+      "high": 16.11,
+      "low": 15.7,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-01-13",
+      "open": 15.72,
+      "close": 16.03,
+      "high": 16.08,
+      "low": 15.68,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-01-14",
+      "open": 16.12,
+      "close": 16.15,
+      "high": 16.29,
+      "low": 15.94,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-01-15",
+      "open": 16.5,
+      "close": 16.28,
+      "high": 16.5,
+      "low": 16.06,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-01-16",
+      "open": 16.28,
+      "close": 16.45,
+      "high": 16.49,
+      "low": 16.17,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-01-17",
+      "open": 16.56,
+      "close": 16.21,
+      "high": 16.56,
+      "low": 16.07,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-01-21",
+      "open": 16.38,
+      "close": 16.32,
+      "high": 16.47,
+      "low": 16.25,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-01-22",
+      "open": 16.26,
+      "close": 16.31,
+      "high": 16.39,
+      "low": 16.14,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-01-23",
+      "open": 16.27,
+      "close": 16.24,
+      "high": 16.33,
+      "low": 16.1,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-01-24",
+      "open": 16.08,
+      "close": 16.1,
+      "high": 16.39,
+      "low": 16.03,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-01-27",
+      "open": 15.9,
+      "close": 15.99,
+      "high": 16.23,
+      "low": 15.78,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-01-28",
+      "open": 16.05,
+      "close": 16.03,
+      "high": 16.23,
+      "low": 15.96,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-01-29",
+      "open": 15.97,
+      "close": 15.67,
+      "high": 16.01,
+      "low": 15.59,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-01-30",
+      "open": 15.82,
+      "close": 15.84,
+      "high": 16.13,
+      "low": 15.79,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-01-31",
+      "open": 14.08,
+      "close": 13.98,
+      "high": 14.49,
+      "low": 13.3,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-02-03",
+      "open": 14.02,
+      "close": 13.85,
+      "high": 14.13,
+      "low": 13.38,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-02-04",
+      "open": 13.74,
+      "close": 13.66,
+      "high": 13.8,
+      "low": 13.52,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-02-05",
+      "open": 13.8,
+      "close": 13.57,
+      "high": 13.8,
+      "low": 13.52,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-02-06",
+      "open": 13.52,
+      "close": 13.75,
+      "high": 13.77,
+      "low": 13.5,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-02-07",
+      "open": 13.85,
+      "close": 13.76,
+      "high": 13.9,
+      "low": 13.48,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-02-10",
+      "open": 13.77,
+      "close": 13.81,
+      "high": 13.91,
+      "low": 13.59,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-02-11",
+      "open": 13.77,
+      "close": 13.76,
+      "high": 13.79,
+      "low": 13.54,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-02-12",
+      "open": 13.59,
+      "close": 13.74,
+      "high": 13.76,
+      "low": 13.5,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-02-13",
+      "open": 13.72,
+      "close": 13.73,
+      "high": 13.81,
+      "low": 13.56,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-02-14",
+      "open": 13.71,
+      "close": 13.69,
+      "high": 13.85,
+      "low": 13.65,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-02-18",
+      "open": 13.67,
+      "close": 13.54,
+      "high": 13.76,
+      "low": 13.46,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-02-19",
+      "open": 13.51,
+      "close": 13.6,
+      "high": 13.7,
+      "low": 13.4,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-02-20",
+      "open": 13.65,
+      "close": 13.41,
+      "high": 13.72,
+      "low": 13.4,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-02-21",
+      "open": 13.41,
+      "close": 13.04,
+      "high": 13.46,
+      "low": 12.92,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-02-24",
+      "open": 13.06,
+      "close": 13.05,
+      "high": 13.15,
+      "low": 12.82,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-02-25",
+      "open": 12.89,
+      "close": 12.84,
+      "high": 13.15,
+      "low": 12.61,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-02-26",
+      "open": 12.85,
+      "close": 12.36,
+      "high": 12.95,
+      "low": 12.18,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-02-27",
+      "open": 12.37,
+      "close": 11.93,
+      "high": 12.53,
+      "low": 11.9,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-02-28",
+      "open": 11.89,
+      "close": 11.85,
+      "high": 12.09,
+      "low": 11.71,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-03-03",
+      "open": 11.85,
+      "close": 11.59,
+      "high": 11.97,
+      "low": 11.5,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-03-04",
+      "open": 11.45,
+      "close": 11.05,
+      "high": 11.48,
+      "low": 10.9,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-03-05",
+      "open": 11.02,
+      "close": 11.29,
+      "high": 11.32,
+      "low": 10.93,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-03-06",
+      "open": 11.29,
+      "close": 11.41,
+      "high": 11.47,
+      "low": 11.17,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-03-07",
+      "open": 11.35,
+      "close": 11.35,
+      "high": 11.58,
+      "low": 11.26,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-03-10",
+      "open": 11.23,
+      "close": 10.84,
+      "high": 11.32,
+      "low": 10.78,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-03-11",
+      "open": 10.87,
+      "close": 10.96,
+      "high": 11.1,
+      "low": 10.69,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-03-12",
+      "open": 11.04,
+      "close": 10.93,
+      "high": 11.04,
+      "low": 10.74,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-03-13",
+      "open": 10.88,
+      "close": 10.65,
+      "high": 11.01,
+      "low": 10.55,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-03-14",
+      "open": 10.8,
+      "close": 10.81,
+      "high": 11,
+      "low": 10.65,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-03-17",
+      "open": 10.79,
+      "close": 11.02,
+      "high": 11.23,
+      "low": 10.79,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-03-18",
+      "open": 10.95,
+      "close": 10.92,
+      "high": 11.01,
+      "low": 10.86,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-03-19",
+      "open": 10.37,
+      "close": 10.37,
+      "high": 10.65,
+      "low": 9.55,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-03-20",
+      "open": 10.24,
+      "close": 10.15,
+      "high": 10.47,
+      "low": 10.13,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-03-21",
+      "open": 10.17,
+      "close": 10,
+      "high": 10.17,
+      "low": 9.85,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-03-24",
+      "open": 10.19,
+      "close": 10.32,
+      "high": 10.34,
+      "low": 10.07,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-03-25",
+      "open": 10.35,
+      "close": 10.12,
+      "high": 10.51,
+      "low": 10.12,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-03-26",
+      "open": 10.22,
+      "close": 10.33,
+      "high": 10.38,
+      "low": 10.09,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-03-27",
+      "open": 10.31,
+      "close": 10.22,
+      "high": 10.52,
+      "low": 10.18,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-03-28",
+      "open": 10.24,
+      "close": 10.07,
+      "high": 10.24,
+      "low": 9.9,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-03-31",
+      "open": 9.96,
+      "close": 9.9,
+      "high": 10.05,
+      "low": 9.77,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-04-01",
+      "open": 9.8,
+      "close": 9.61,
+      "high": 9.8,
+      "low": 9.49,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-04-02",
+      "open": 9.62,
+      "close": 9.99,
+      "high": 10.04,
+      "low": 9.51,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-04-03",
+      "open": 9.45,
+      "close": 9.04,
+      "high": 9.7,
+      "low": 9.01,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-04-04",
+      "open": 8.76,
+      "close": 7.98,
+      "high": 8.92,
+      "low": 7.89,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-04-07",
+      "open": 7.67,
+      "close": 7.81,
+      "high": 8.38,
+      "low": 7.37,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-04-08",
+      "open": 8.06,
+      "close": 7.54,
+      "high": 8.15,
+      "low": 7.44,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-04-09",
+      "open": 7.52,
+      "close": 8.59,
+      "high": 8.66,
+      "low": 7.44,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-04-10",
+      "open": 8.42,
+      "close": 7.89,
+      "high": 8.42,
+      "low": 7.76,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-04-11",
+      "open": 7.91,
+      "close": 7.87,
+      "high": 7.91,
+      "low": 7.67,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-04-14",
+      "open": 8.01,
+      "close": 7.98,
+      "high": 8.16,
+      "low": 7.8,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-04-15",
+      "open": 7.91,
+      "close": 7.76,
+      "high": 8.14,
+      "low": 7.74,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-04-16",
+      "open": 7.64,
+      "close": 7.44,
+      "high": 7.76,
+      "low": 7.38,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-04-17",
+      "open": 7.35,
+      "close": 7.65,
+      "high": 7.71,
+      "low": 7.35,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-04-21",
+      "open": 7.51,
+      "close": 7.76,
+      "high": 7.81,
+      "low": 7.37,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-04-22",
+      "open": 7.86,
+      "close": 8.03,
+      "high": 8.03,
+      "low": 7.73,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-04-23",
+      "open": 8.35,
+      "close": 8.3,
+      "high": 8.62,
+      "low": 8.23,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-04-24",
+      "open": 8.32,
+      "close": 8.82,
+      "high": 8.82,
+      "low": 8.28,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-04-25",
+      "open": 8.8,
+      "close": 8.8,
+      "high": 8.82,
+      "low": 8.63,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-04-28",
+      "open": 8.84,
+      "close": 8.83,
+      "high": 9.05,
+      "low": 8.81,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-04-29",
+      "open": 8.79,
+      "close": 8.94,
+      "high": 8.95,
+      "low": 8.78,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-04-30",
+      "open": 8.76,
+      "close": 8.76,
+      "high": 8.84,
+      "low": 8.56,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-05-01",
+      "open": 8.83,
+      "close": 8.7,
+      "high": 8.9,
+      "low": 8.66,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-05-02",
+      "open": 8.91,
+      "close": 8.98,
+      "high": 8.98,
+      "low": 8.8,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-05-05",
+      "open": 8.89,
+      "close": 8.88,
+      "high": 9.01,
+      "low": 8.81,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-05-06",
+      "open": 8.9,
+      "close": 8.71,
+      "high": 8.96,
+      "low": 8.6,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-05-07",
+      "open": 5.44,
+      "close": 5.44,
+      "high": 5.87,
+      "low": 5.2,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-05-08",
+      "open": 5.5,
+      "close": 6.27,
+      "high": 6.33,
+      "low": 5.5,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-05-09",
+      "open": 6.26,
+      "close": 6.29,
+      "high": 6.76,
+      "low": 6.12,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-05-12",
+      "open": 6.77,
+      "close": 6.55,
+      "high": 7.08,
+      "low": 6.34,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-05-13",
+      "open": 6.85,
+      "close": 6.42,
+      "high": 6.94,
+      "low": 6.38,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-05-14",
+      "open": 6.31,
+      "close": 6.1,
+      "high": 6.36,
+      "low": 6.07,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-05-15",
+      "open": 6,
+      "close": 6.2,
+      "high": 6.27,
+      "low": 5.98,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-05-16",
+      "open": 6.23,
+      "close": 6.18,
+      "high": 6.34,
+      "low": 6.13,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-05-19",
+      "open": 6.07,
+      "close": 6.02,
+      "high": 6.1,
+      "low": 5.91,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-05-20",
+      "open": 6.02,
+      "close": 5.91,
+      "high": 6.05,
+      "low": 5.85,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-05-21",
+      "open": 5.79,
+      "close": 5.59,
+      "high": 5.88,
+      "low": 5.57,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-05-22",
+      "open": 5.52,
+      "close": 5.75,
+      "high": 5.87,
+      "low": 5.52,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-05-23",
+      "open": 5.56,
+      "close": 5.98,
+      "high": 6,
+      "low": 5.56,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-05-27",
+      "open": 6.1,
+      "close": 6.12,
+      "high": 6.12,
+      "low": 5.95,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-05-28",
+      "open": 6.16,
+      "close": 6.04,
+      "high": 6.24,
+      "low": 5.99,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-05-29",
+      "open": 6.53,
+      "close": 6.2,
+      "high": 6.54,
+      "low": 6.05,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-05-30",
+      "open": 6.18,
+      "close": 6.16,
+      "high": 6.26,
+      "low": 6.06,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-06-02",
+      "open": 6.09,
+      "close": 6.33,
+      "high": 6.35,
+      "low": 5.94,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-06-03",
+      "open": 6.31,
+      "close": 6.39,
+      "high": 6.56,
+      "low": 6.29,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-06-04",
+      "open": 6.42,
+      "close": 6.3,
+      "high": 6.52,
+      "low": 6.29,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-06-05",
+      "open": 6.29,
+      "close": 6.18,
+      "high": 6.35,
+      "low": 6.13,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-06-06",
+      "open": 6.28,
+      "close": 6.29,
+      "high": 6.39,
+      "low": 6.22,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-06-09",
+      "open": 6.36,
+      "close": 6.38,
+      "high": 6.43,
+      "low": 6.29,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-06-10",
+      "open": 6.43,
+      "close": 6.17,
+      "high": 6.48,
+      "low": 6.17,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-06-11",
+      "open": 6.2,
+      "close": 6.17,
+      "high": 6.32,
+      "low": 6.16,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-06-12",
+      "open": 6.1,
+      "close": 6.16,
+      "high": 6.24,
+      "low": 6.02,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-06-13",
+      "open": 6.1,
+      "close": 5.85,
+      "high": 6.13,
+      "low": 5.84,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-06-16",
+      "open": 5.92,
+      "close": 5.82,
+      "high": 5.96,
+      "low": 5.8,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-06-17",
+      "open": 5.74,
+      "close": 5.79,
+      "high": 5.9,
+      "low": 5.73,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-06-18",
+      "open": 5.76,
+      "close": 5.82,
+      "high": 6.03,
+      "low": 5.72,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-06-20",
+      "open": 5.96,
+      "close": 5.72,
+      "high": 5.99,
+      "low": 5.7,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-06-23",
+      "open": 5.69,
+      "close": 5.81,
+      "high": 5.84,
+      "low": 5.62,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-06-24",
+      "open": 5.87,
+      "close": 6.07,
+      "high": 6.08,
+      "low": 5.87,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-06-25",
+      "open": 6.09,
+      "close": 6.05,
+      "high": 6.09,
+      "low": 5.97,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-06-26",
+      "open": 6.13,
+      "close": 6.16,
+      "high": 6.26,
+      "low": 6.08,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-06-27",
+      "open": 6.17,
+      "close": 6.11,
+      "high": 6.21,
+      "low": 6.05,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-06-30",
+      "open": 6.12,
+      "close": 5.73,
+      "high": 6.12,
+      "low": 5.67,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-07-01",
+      "open": 5.64,
+      "close": 6.08,
+      "high": 6.16,
+      "low": 5.56,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-07-02",
+      "open": 6.01,
+      "close": 6.14,
+      "high": 6.18,
+      "low": 5.89,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-07-03",
+      "open": 6.22,
+      "close": 6.15,
+      "high": 6.23,
+      "low": 6.06,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-07-07",
+      "open": 6.07,
+      "close": 5.87,
+      "high": 6.15,
+      "low": 5.87,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-07-08",
+      "open": 5.9,
+      "close": 6.04,
+      "high": 6.22,
+      "low": 5.89,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-07-09",
+      "open": 6.06,
+      "close": 6.13,
+      "high": 6.2,
+      "low": 6.04,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-07-10",
+      "open": 6.19,
+      "close": 6.22,
+      "high": 6.36,
+      "low": 6.06,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-07-11",
+      "open": 6.14,
+      "close": 6.14,
+      "high": 6.16,
+      "low": 6.02,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-07-14",
+      "open": 5.95,
+      "close": 5.94,
+      "high": 6.06,
+      "low": 5.85,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-07-15",
+      "open": 6.02,
+      "close": 5.99,
+      "high": 6.16,
+      "low": 5.94,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-07-16",
+      "open": 6.06,
+      "close": 6,
+      "high": 6.09,
+      "low": 5.75,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-07-17",
+      "open": 6,
+      "close": 6.3,
+      "high": 6.35,
+      "low": 6,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-07-18",
+      "open": 6.34,
+      "close": 6.2,
+      "high": 6.41,
+      "low": 6.13,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-07-21",
+      "open": 6.26,
+      "close": 5.98,
+      "high": 6.29,
+      "low": 5.97,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-07-22",
+      "open": 6.02,
+      "close": 6.19,
+      "high": 6.3,
+      "low": 5.96,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-07-23",
+      "open": 6.29,
+      "close": 6.5,
+      "high": 6.52,
+      "low": 6.21,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-07-24",
+      "open": 6.43,
+      "close": 6.38,
+      "high": 6.56,
+      "low": 6.35,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-07-25",
+      "open": 6.43,
+      "close": 6.38,
+      "high": 6.43,
+      "low": 6.26,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-07-28",
+      "open": 6.34,
+      "close": 6.42,
+      "high": 6.56,
+      "low": 6.29,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-07-29",
+      "open": 6.48,
+      "close": 6.34,
+      "high": 6.53,
+      "low": 6.28,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-07-30",
+      "open": 6.37,
+      "close": 6.11,
+      "high": 6.38,
+      "low": 6.04,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-07-31",
+      "open": 6.03,
+      "close": 6.06,
+      "high": 6.13,
+      "low": 5.94,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-08-01",
+      "open": 6.01,
+      "close": 5.73,
+      "high": 6.07,
+      "low": 5.72,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-08-04",
+      "open": 5.78,
+      "close": 5.96,
+      "high": 6.02,
+      "low": 5.75,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-08-05",
+      "open": 5.96,
+      "close": 5.99,
+      "high": 6.07,
+      "low": 5.86,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-08-06",
+      "open": 5.85,
+      "close": 5.64,
+      "high": 5.9,
+      "low": 5.38,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-08-07",
+      "open": 5.75,
+      "close": 5.19,
+      "high": 5.77,
+      "low": 5.1,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-08-08",
+      "open": 5.2,
+      "close": 4.83,
+      "high": 5.26,
+      "low": 4.81,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-08-11",
+      "open": 4.79,
+      "close": 4.44,
+      "high": 4.88,
+      "low": 4.38,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-08-12",
+      "open": 4.5,
+      "close": 4.36,
+      "high": 4.56,
+      "low": 4.32,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-08-13",
+      "open": 4.36,
+      "close": 4.64,
+      "high": 4.7,
+      "low": 4.36,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-08-14",
+      "open": 4.54,
+      "close": 4.61,
+      "high": 4.62,
+      "low": 4.42,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-08-15",
+      "open": 4.67,
+      "close": 4.68,
+      "high": 4.76,
+      "low": 4.58,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-08-18",
+      "open": 4.73,
+      "close": 4.89,
+      "high": 4.98,
+      "low": 4.66,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-08-19",
+      "open": 4.93,
+      "close": 4.73,
+      "high": 5.05,
+      "low": 4.72,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-08-20",
+      "open": 4.76,
+      "close": 4.84,
+      "high": 4.89,
+      "low": 4.73,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-08-21",
+      "open": 4.76,
+      "close": 4.69,
+      "high": 4.8,
+      "low": 4.66,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-08-22",
+      "open": 4.71,
+      "close": 4.78,
+      "high": 5.04,
+      "low": 4.71,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-08-25",
+      "open": 4.77,
+      "close": 4.58,
+      "high": 4.82,
+      "low": 4.57,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-08-26",
+      "open": 4.55,
+      "close": 4.54,
+      "high": 4.64,
+      "low": 4.48,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-08-27",
+      "open": 4.52,
+      "close": 4.6,
+      "high": 4.63,
+      "low": 4.46,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-08-28",
+      "open": 4.64,
+      "close": 4.62,
+      "high": 4.67,
+      "low": 4.47,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-08-29",
+      "open": 4.6,
+      "close": 4.68,
+      "high": 4.7,
+      "low": 4.58,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-09-02",
+      "open": 4.61,
+      "close": 4.5,
+      "high": 4.67,
+      "low": 4.44,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-09-03",
+      "open": 4.45,
+      "close": 4.36,
+      "high": 4.55,
+      "low": 4.32,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-09-04",
+      "open": 4.35,
+      "close": 4.51,
+      "high": 4.51,
+      "low": 4.34,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-09-05",
+      "open": 4.52,
+      "close": 4.56,
+      "high": 4.79,
+      "low": 4.51,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-09-08",
+      "open": 4.57,
+      "close": 4.26,
+      "high": 4.57,
+      "low": 4.2,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-09-09",
+      "open": 4.22,
+      "close": 4.18,
+      "high": 4.3,
+      "low": 4.17,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-09-10",
+      "open": 4.17,
+      "close": 4.07,
+      "high": 4.22,
+      "low": 3.98,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-09-11",
+      "open": 4.07,
+      "close": 4.36,
+      "high": 4.37,
+      "low": 4.04,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-09-12",
+      "open": 4.31,
+      "close": 4.2,
+      "high": 4.35,
+      "low": 4.18,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-09-15",
+      "open": 4.26,
+      "close": 4.21,
+      "high": 4.26,
+      "low": 4.13,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-09-16",
+      "open": 4.2,
+      "close": 4.11,
+      "high": 4.24,
+      "low": 4.05,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-09-17",
+      "open": 4.1,
+      "close": 4.06,
+      "high": 4.27,
+      "low": 4.04,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-09-18",
+      "open": 4.17,
+      "close": 4.15,
+      "high": 4.19,
+      "low": 4.04,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-09-19",
+      "open": 4.2,
+      "close": 4.15,
+      "high": 4.2,
+      "low": 4.06,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-09-22",
+      "open": 4.07,
+      "close": 4.08,
+      "high": 4.16,
+      "low": 4.02,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-09-23",
+      "open": 4.08,
+      "close": 4.08,
+      "high": 4.2,
+      "low": 4.06,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-09-24",
+      "open": 4.02,
+      "close": 4.18,
+      "high": 4.24,
+      "low": 4.02,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-09-25",
+      "open": 4.15,
+      "close": 4.2,
+      "high": 4.23,
+      "low": 4.09,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-09-26",
+      "open": 4.19,
+      "close": 4.34,
+      "high": 4.38,
+      "low": 4.15,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-09-29",
+      "open": 4.35,
+      "close": 4.42,
+      "high": 4.43,
+      "low": 4.23,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-09-30",
+      "open": 4.4,
+      "close": 4.53,
+      "high": 4.54,
+      "low": 4.39,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-10-01",
+      "open": 4.46,
+      "close": 4.93,
+      "high": 5.01,
+      "low": 4.45,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-10-02",
+      "open": 4.84,
+      "close": 4.86,
+      "high": 5.03,
+      "low": 4.78,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-10-03",
+      "open": 4.91,
+      "close": 5.05,
+      "high": 5.11,
+      "low": 4.88,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-10-06",
+      "open": 5.06,
+      "close": 5.02,
+      "high": 5.12,
+      "low": 4.88,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-10-07",
+      "open": 5.01,
+      "close": 5.07,
+      "high": 5.13,
+      "low": 4.96,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-10-08",
+      "open": 5.1,
+      "close": 5.07,
+      "high": 5.17,
+      "low": 5,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-10-09",
+      "open": 5.05,
+      "close": 4.99,
+      "high": 5.1,
+      "low": 4.99,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-10-10",
+      "open": 4.99,
+      "close": 4.82,
+      "high": 5.05,
+      "low": 4.81,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-10-13",
+      "open": 4.84,
+      "close": 4.62,
+      "high": 4.92,
+      "low": 4.61,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-10-14",
+      "open": 4.56,
+      "close": 4.87,
+      "high": 4.95,
+      "low": 4.5,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-10-15",
+      "open": 4.87,
+      "close": 4.77,
+      "high": 4.92,
+      "low": 4.71,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-10-16",
+      "open": 4.78,
+      "close": 4.81,
+      "high": 4.85,
+      "low": 4.69,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-10-17",
+      "open": 4.79,
+      "close": 4.81,
+      "high": 4.88,
+      "low": 4.75,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-10-20",
+      "open": 4.87,
+      "close": 4.88,
+      "high": 4.96,
+      "low": 4.81,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-10-21",
+      "open": 4.87,
+      "close": 5.04,
+      "high": 5.06,
+      "low": 4.85,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-10-22",
+      "open": 4.98,
+      "close": 5.04,
+      "high": 5.08,
+      "low": 4.89,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-10-23",
+      "open": 5.07,
+      "close": 5.13,
+      "high": 5.22,
+      "low": 4.99,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-10-24",
+      "open": 5.2,
+      "close": 5.26,
+      "high": 5.31,
+      "low": 5.1,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-10-27",
+      "open": 5.36,
+      "close": 5.36,
+      "high": 5.4,
+      "low": 5.27,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-10-28",
+      "open": 5.33,
+      "close": 5.38,
+      "high": 5.41,
+      "low": 5.22,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-10-29",
+      "open": 5.38,
+      "close": 5.23,
+      "high": 5.38,
+      "low": 5.16,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-10-30",
+      "open": 5.15,
+      "close": 5.12,
+      "high": 5.23,
+      "low": 5.1,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-10-31",
+      "open": 5.05,
+      "close": 5.25,
+      "high": 5.3,
+      "low": 4.99,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-11-03",
+      "open": 5.25,
+      "close": 5.07,
+      "high": 5.25,
+      "low": 4.83,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-11-04",
+      "open": 5,
+      "close": 4.99,
+      "high": 5.1,
+      "low": 4.93,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-11-05",
+      "open": 4.99,
+      "close": 5.3,
+      "high": 5.35,
+      "low": 4.97,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-11-06",
+      "open": 5.28,
+      "close": 5.22,
+      "high": 5.3,
+      "low": 5.16,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-11-07",
+      "open": 5.19,
+      "close": 5.3,
+      "high": 5.31,
+      "low": 5.13,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-11-10",
+      "open": 5.32,
+      "close": 5.44,
+      "high": 5.46,
+      "low": 5.14,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-11-11",
+      "open": 5.44,
+      "close": 5.37,
+      "high": 5.44,
+      "low": 5.31,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-11-12",
+      "open": 5.37,
+      "close": 5.39,
+      "high": 5.54,
+      "low": 5.35,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-11-13",
+      "open": 5.34,
+      "close": 5.35,
+      "high": 5.5,
+      "low": 5.27,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-11-14",
+      "open": 5.3,
+      "close": 5.34,
+      "high": 5.37,
+      "low": 5.16,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-11-17",
+      "open": 5.29,
+      "close": 5.18,
+      "high": 5.3,
+      "low": 5.16,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-11-18",
+      "open": 5.17,
+      "close": 5.46,
+      "high": 5.55,
+      "low": 5,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-11-19",
+      "open": 5.42,
+      "close": 5.5,
+      "high": 5.62,
+      "low": 5.34,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-11-20",
+      "open": 5.54,
+      "close": 5.53,
+      "high": 5.62,
+      "low": 5.45,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-11-21",
+      "open": 5.6,
+      "close": 6.08,
+      "high": 6.11,
+      "low": 5.56,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-11-24",
+      "open": 6.05,
+      "close": 6.07,
+      "high": 6.17,
+      "low": 5.97,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-11-25",
+      "open": 6.11,
+      "close": 6.34,
+      "high": 6.43,
+      "low": 6.11,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-11-26",
+      "open": 6.29,
+      "close": 6.44,
+      "high": 6.61,
+      "low": 6.28,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-11-28",
+      "open": 6.44,
+      "close": 6.48,
+      "high": 6.56,
+      "low": 6.43,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-12-01",
+      "open": 6.45,
+      "close": 6.72,
+      "high": 6.73,
+      "low": 6.34,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-12-02",
+      "open": 6.16,
+      "close": 6.23,
+      "high": 6.46,
+      "low": 5.3,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-12-03",
+      "open": 6.26,
+      "close": 6.36,
+      "high": 6.43,
+      "low": 5.94,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-12-04",
+      "open": 6.36,
+      "close": 6.56,
+      "high": 6.58,
+      "low": 6.14,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-12-05",
+      "open": 6.6,
+      "close": 7,
+      "high": 7,
+      "low": 6.53,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-12-08",
+      "open": 7.46,
+      "close": 7.4,
+      "high": 7.71,
+      "low": 7.27,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-12-09",
+      "open": 7.39,
+      "close": 7.13,
+      "high": 7.48,
+      "low": 7.1,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-12-10",
+      "open": 7.16,
+      "close": 7.17,
+      "high": 7.38,
+      "low": 7.13,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-12-11",
+      "open": 7.22,
+      "close": 7.25,
+      "high": 7.35,
+      "low": 7.16,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-12-12",
+      "open": 7.3,
+      "close": 7.6,
+      "high": 7.66,
+      "low": 7.2,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-12-15",
+      "open": 7.63,
+      "close": 7.56,
+      "high": 7.7,
+      "low": 7.42,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-12-16",
+      "open": 7.25,
+      "close": 6.9,
+      "high": 7.46,
+      "low": 6.42,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-12-17",
+      "open": 6.95,
+      "close": 6.96,
+      "high": 7.12,
+      "low": 6.7,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-12-18",
+      "open": 7.22,
+      "close": 6.89,
+      "high": 7.36,
+      "low": 6.77,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-12-19",
+      "open": 6.89,
+      "close": 6.87,
+      "high": 6.97,
+      "low": 6.77,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-12-22",
+      "open": 6.84,
+      "close": 7.14,
+      "high": 7.28,
+      "low": 6.83,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-12-23",
+      "open": 7.37,
+      "close": 6.69,
+      "high": 7.44,
+      "low": 6.62,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-12-24",
+      "open": 6.67,
+      "close": 6.74,
+      "high": 6.93,
+      "low": 6.67,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-12-26",
+      "open": 6.71,
+      "close": 6.55,
+      "high": 6.72,
+      "low": 6.54,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-12-29",
+      "open": 6.53,
+      "close": 6.71,
+      "high": 6.72,
+      "low": 6.43,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-12-30",
+      "open": 6.7,
+      "close": 6.77,
+      "high": 6.87,
+      "low": 6.67,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2025-12-31",
+      "open": 6.75,
+      "close": 6.67,
+      "high": 6.81,
+      "low": 6.63,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-01-02",
+      "open": 6.67,
+      "close": 6.58,
+      "high": 6.72,
+      "low": 6.31,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-01-05",
+      "open": 6.51,
+      "close": 6.43,
+      "high": 6.72,
+      "low": 6.43,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-01-06",
+      "open": 6.37,
+      "close": 7,
+      "high": 7.03,
+      "low": 6.32,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-01-07",
+      "open": 6.99,
+      "close": 6.89,
+      "high": 7.12,
+      "low": 6.64,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-01-08",
+      "open": 6.15,
+      "close": 6.32,
+      "high": 6.52,
+      "low": 6.03,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-01-09",
+      "open": 6.35,
+      "close": 6.44,
+      "high": 6.55,
+      "low": 6.24,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-01-12",
+      "open": 6.39,
+      "close": 6.37,
+      "high": 6.49,
+      "low": 6.25,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-01-13",
+      "open": 6.38,
+      "close": 6.46,
+      "high": 6.49,
+      "low": 6.3,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-01-14",
+      "open": 6.47,
+      "close": 6.5,
+      "high": 6.64,
+      "low": 6.32,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-01-15",
+      "open": 6.5,
+      "close": 6.87,
+      "high": 6.88,
+      "low": 6.47,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-01-16",
+      "open": 6.83,
+      "close": 6.88,
+      "high": 6.93,
+      "low": 6.74,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-01-20",
+      "open": 6.74,
+      "close": 6.55,
+      "high": 6.74,
+      "low": 6.46,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-01-21",
+      "open": 6.59,
+      "close": 6.67,
+      "high": 6.75,
+      "low": 6.51,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-01-22",
+      "open": 6.71,
+      "close": 6.75,
+      "high": 6.83,
+      "low": 6.64,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-01-23",
+      "open": 6.72,
+      "close": 6.85,
+      "high": 6.87,
+      "low": 6.66,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-01-26",
+      "open": 6.84,
+      "close": 6.77,
+      "high": 6.86,
+      "low": 6.69,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-01-27",
+      "open": 6.79,
+      "close": 6.75,
+      "high": 6.81,
+      "low": 6.6,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-01-28",
+      "open": 6.91,
+      "close": 6.32,
+      "high": 7.05,
+      "low": 6.25,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-01-29",
+      "open": 6.31,
+      "close": 6.56,
+      "high": 6.65,
+      "low": 6.3,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-01-30",
+      "open": 6.53,
+      "close": 6.53,
+      "high": 6.7,
+      "low": 6.49,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-02-02",
+      "open": 6.49,
+      "close": 6.68,
+      "high": 6.79,
+      "low": 6.48,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-02-03",
+      "open": 6.65,
+      "close": 6.78,
+      "high": 6.84,
+      "low": 6.52,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-02-04",
+      "open": 6.85,
+      "close": 6.94,
+      "high": 7.16,
+      "low": 6.83,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-02-05",
+      "open": 6.82,
+      "close": 6.83,
+      "high": 7.02,
+      "low": 6.81,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-02-06",
+      "open": 6.89,
+      "close": 7.18,
+      "high": 7.23,
+      "low": 6.85,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-02-09",
+      "open": 7.17,
+      "close": 7.32,
+      "high": 7.51,
+      "low": 7.12,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-02-10",
+      "open": 8.99,
+      "close": 8.5,
+      "high": 9.8,
+      "low": 8.49,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-02-11",
+      "open": 8.61,
+      "close": 8.67,
+      "high": 8.89,
+      "low": 8.4,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-02-12",
+      "open": 8.86,
+      "close": 8.23,
+      "high": 8.87,
+      "low": 8.23,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-02-13",
+      "open": 8.26,
+      "close": 7.7,
+      "high": 8.35,
+      "low": 7.68,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-02-17",
+      "open": 7.64,
+      "close": 7.55,
+      "high": 7.73,
+      "low": 7.32,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-02-20",
+      "open": 7.64,
+      "close": 7.98,
+      "high": 8.05,
+      "low": 7.56,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-02-23",
+      "open": 7.89,
+      "close": 7.58,
+      "high": 7.97,
+      "low": 7.56,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-02-24",
+      "open": 7.7,
+      "close": 7.46,
+      "high": 7.7,
+      "low": 7.36,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-02-25",
+      "open": 7.57,
+      "close": 7.65,
+      "high": 7.65,
+      "low": 7.38,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-02-26",
+      "open": 7.67,
+      "close": 7.83,
+      "high": 8.03,
+      "low": 7.61,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-02-27",
+      "open": 7.69,
+      "close": 7.87,
+      "high": 8.03,
+      "low": 7.64,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-03-02",
+      "open": 7.78,
+      "close": 7.86,
+      "high": 7.92,
+      "low": 7.68,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-03-03",
+      "open": 7.67,
+      "close": 7.62,
+      "high": 7.75,
+      "low": 7.35,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-03-04",
+      "open": 7.69,
+      "close": 7.66,
+      "high": 7.77,
+      "low": 7.6,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-03-05",
+      "open": 7.65,
+      "close": 8.06,
+      "high": 8.18,
+      "low": 7.54,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-03-06",
+      "open": 7.94,
+      "close": 7.86,
+      "high": 7.95,
+      "low": 7.61,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-03-09",
+      "open": 7.67,
+      "close": 8.06,
+      "high": 8.1,
+      "low": 7.48,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-03-10",
+      "open": 8.02,
+      "close": 7.79,
+      "high": 8.14,
+      "low": 7.76,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-03-11",
+      "open": 7.69,
+      "close": 7.5,
+      "high": 7.73,
+      "low": 7.23,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-03-12",
+      "open": 7.41,
+      "close": 7.53,
+      "high": 7.99,
+      "low": 7.39,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-03-13",
+      "open": 7.58,
+      "close": 7.59,
+      "high": 7.62,
+      "low": 7.4,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-03-16",
+      "open": 7.65,
+      "close": 7.35,
+      "high": 7.66,
+      "low": 7.35,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-03-17",
+      "open": 7.44,
+      "close": 7.66,
+      "high": 7.74,
+      "low": 7.41,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-03-18",
+      "open": 7.6,
+      "close": 7.34,
+      "high": 7.63,
+      "low": 7.33,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-03-19",
+      "open": 7.24,
+      "close": 7.38,
+      "high": 7.48,
+      "low": 7.05,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-03-20",
+      "open": 7.45,
+      "close": 7.25,
+      "high": 7.45,
+      "low": 7.03,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-03-23",
+      "open": 7.42,
+      "close": 7.72,
+      "high": 7.83,
+      "low": 7.3,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-03-24",
+      "open": 7.59,
+      "close": 7.67,
+      "high": 7.77,
+      "low": 7.53,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-03-25",
+      "open": 7.9,
+      "close": 7.97,
+      "high": 8,
+      "low": 7.61,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-03-26",
+      "open": 7.86,
+      "close": 7.72,
+      "high": 8.07,
+      "low": 7.71,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-03-27",
+      "open": 7.69,
+      "close": 7.71,
+      "high": 7.82,
+      "low": 7.56,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-03-30",
+      "open": 7.79,
+      "close": 7.82,
+      "high": 7.91,
+      "low": 7.7,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-03-31",
+      "open": 7.93,
+      "close": 7.86,
+      "high": 7.97,
+      "low": 7.65,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-04-01",
+      "open": 8,
+      "close": 7.82,
+      "high": 8,
+      "low": 7.78,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-04-02",
+      "open": 7.61,
+      "close": 7.83,
+      "high": 7.9,
+      "low": 7.37,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-04-06",
+      "open": 7.8,
+      "close": 7.8,
+      "high": 7.86,
+      "low": 7.7,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-04-07",
+      "open": 7.77,
+      "close": 7.88,
+      "high": 7.94,
+      "low": 7.75,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-04-08",
+      "open": 8.11,
+      "close": 8.16,
+      "high": 8.44,
+      "low": 8.09,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-04-09",
+      "open": 8.07,
+      "close": 8.59,
+      "high": 8.62,
+      "low": 8.06,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-04-10",
+      "open": 8.58,
+      "close": 8.66,
+      "high": 8.84,
+      "low": 8.55,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-04-13",
+      "open": 8.55,
+      "close": 8.83,
+      "high": 8.83,
+      "low": 8.48,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-04-14",
+      "open": 8.83,
+      "close": 9.22,
+      "high": 9.24,
+      "low": 8.82,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-04-15",
+      "open": 9.2,
+      "close": 9.25,
+      "high": 9.34,
+      "low": 9.09,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-04-16",
+      "open": 9.24,
+      "close": 9.48,
+      "high": 9.67,
+      "low": 9.24,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-04-17",
+      "open": 9.58,
+      "close": 9.89,
+      "high": 9.95,
+      "low": 9.54,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-04-20",
+      "open": 9.88,
+      "close": 10.19,
+      "high": 10.29,
+      "low": 9.88,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-04-21",
+      "open": 10.22,
+      "close": 10.1,
+      "high": 10.38,
+      "low": 10.01,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-04-22",
+      "open": 10.16,
+      "close": 9.98,
+      "high": 10.34,
+      "low": 9.84,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-04-23",
+      "open": 9.93,
+      "close": 9.5,
+      "high": 10.12,
+      "low": 9.39,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-04-24",
+      "open": 9.5,
+      "close": 9.79,
+      "high": 9.82,
+      "low": 9.4,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-04-27",
+      "open": 9.78,
+      "close": 9.64,
+      "high": 9.94,
+      "low": 9.63,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-04-28",
+      "open": 9.7,
+      "close": 9.62,
+      "high": 9.79,
+      "low": 9.48,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-04-29",
+      "open": 9.53,
+      "close": 9.57,
+      "high": 9.64,
+      "low": 9.35,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-04-30",
+      "open": 9.59,
+      "close": 9.72,
+      "high": 9.87,
+      "low": 9.58,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-05-01",
+      "open": 9.78,
+      "close": 9.71,
+      "high": 9.82,
+      "low": 9.57,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-05-04",
+      "open": 9.63,
+      "close": 8.92,
+      "high": 9.64,
+      "low": 8.9,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-05-05",
+      "open": 9.05,
+      "close": 9.27,
+      "high": 9.38,
+      "low": 9.04,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-05-06",
+      "open": 9.41,
+      "close": 9.22,
+      "high": 9.44,
+      "low": 9.1,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-05-07",
+      "open": 9.3,
+      "close": 9.29,
+      "high": 9.5,
+      "low": 9.26,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-05-08",
+      "open": 9.31,
+      "close": 9.24,
+      "high": 9.31,
+      "low": 9.12,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-05-11",
+      "open": 9.26,
+      "close": 9.3,
+      "high": 9.36,
+      "low": 9.15,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-05-12",
+      "open": 11.78,
+      "close": 12,
+      "high": 12.47,
+      "low": 11.03,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-05-13",
+      "open": 12.49,
+      "close": 11.25,
+      "high": 12.6,
+      "low": 10.61,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-05-14",
+      "open": 11.44,
+      "close": 12.17,
+      "high": 12.17,
+      "low": 11.39,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-05-15",
+      "open": 12.08,
+      "close": 12.25,
+      "high": 12.36,
+      "low": 11.95,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-05-18",
+      "open": 12.2,
+      "close": 12.17,
+      "high": 12.42,
+      "low": 11.99,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-05-19",
+      "open": 12.2,
+      "close": 11.84,
+      "high": 12.25,
+      "low": 11.84,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-05-20",
+      "open": 11.87,
+      "close": 11.7,
+      "high": 12.04,
+      "low": 11.54,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-05-21",
+      "open": 11.5,
+      "close": 11.61,
+      "high": 11.68,
+      "low": 11.32,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-05-22",
+      "open": 11.66,
+      "close": 11.74,
+      "high": 11.88,
+      "low": 11.51,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-05-26",
+      "open": 11.87,
+      "close": 11.79,
+      "high": 12.03,
+      "low": 11.27,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-05-27",
+      "open": 11.82,
+      "close": 11.97,
+      "high": 12.2,
+      "low": 11.62,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-05-28",
+      "open": 11.85,
+      "close": 12.8,
+      "high": 12.91,
+      "low": 11.67,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-05-29",
+      "open": 12.7,
+      "close": 12.92,
+      "high": 12.95,
+      "low": 12.6,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-06-01",
+      "open": 12.88,
+      "close": 12.89,
+      "high": 12.9,
+      "low": 12.46,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-06-02",
+      "open": 12.75,
+      "close": 12.8,
+      "high": 12.89,
+      "low": 12.54,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-06-03",
+      "open": 12.62,
+      "close": 13.15,
+      "high": 13.25,
+      "low": 12.57,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-06-04",
+      "open": 13.36,
+      "close": 13.24,
+      "high": 13.52,
+      "low": 13.2,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-06-05",
+      "open": 13.21,
+      "close": 12.85,
+      "high": 13.24,
+      "low": 12.76,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-06-08",
+      "open": 12.85,
+      "close": 12.46,
+      "high": 12.87,
+      "low": 12.34,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-06-09",
+      "open": 12.62,
+      "close": 12.87,
+      "high": 12.96,
+      "low": 12.34,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-06-10",
+      "open": 12.87,
+      "close": 13.02,
+      "high": 13.16,
+      "low": 12.81,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-06-11",
+      "open": 13.14,
+      "close": 13.31,
+      "high": 13.44,
+      "low": 12.17,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-06-12",
+      "open": 13.4,
+      "close": 13.19,
+      "high": 13.4,
+      "low": 12.86,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-06-15",
+      "open": 13.26,
+      "close": 13.14,
+      "high": 13.35,
+      "low": 12.93,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-06-16",
+      "open": 13.1,
+      "close": 13.17,
+      "high": 13.35,
+      "low": 12.85,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-06-17",
+      "open": 13.15,
+      "close": 12.8,
+      "high": 13.44,
+      "low": 12.68,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-06-18",
+      "open": 12.7,
+      "close": 12.88,
+      "high": 13,
+      "low": 12.69,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-06-22",
+      "open": 13.02,
+      "close": 13.11,
+      "high": 13.25,
+      "low": 12.77,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-06-23",
+      "open": 12.98,
+      "close": 13.2,
+      "high": 13.26,
+      "low": 12.9,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-06-24",
+      "open": 13.4,
+      "close": 13.49,
+      "high": 13.56,
+      "low": 13.27,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-06-25",
+      "open": 13.6,
+      "close": 13.74,
+      "high": 14.04,
+      "low": 13.56,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-06-26",
+      "open": 13.71,
+      "close": 14.42,
+      "high": 14.42,
+      "low": 13.68,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-06-29",
+      "open": 14.39,
+      "close": 14.83,
+      "high": 14.85,
+      "low": 14.16,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-06-30",
+      "open": 14.71,
+      "close": 14.52,
+      "high": 14.84,
+      "low": 14.29,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-07-01",
+      "open": 14.51,
+      "close": 14.68,
+      "high": 15.06,
+      "low": 14.47,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-07-02",
+      "open": 14.64,
+      "close": 14.28,
+      "high": 14.9,
+      "low": 14.19,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-07-06",
+      "open": 14.18,
+      "close": 13.59,
+      "high": 14.2,
+      "low": 13.54,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-07-07",
+      "open": 13.73,
+      "close": 14.11,
+      "high": 14.31,
+      "low": 13.4,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-07-08",
+      "open": 13.98,
+      "close": 14.16,
+      "high": 14.18,
+      "low": 13.84,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-07-09",
+      "open": 14.15,
+      "close": 14.35,
+      "high": 14.38,
+      "low": 13.97,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-07-10",
+      "open": 14.35,
+      "close": 14.53,
+      "high": 14.59,
+      "low": 14.11,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-07-13",
+      "open": 14.56,
+      "close": 14.74,
+      "high": 14.95,
+      "low": 14.53,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-07-14",
+      "open": 14.66,
+      "close": 14.9,
+      "high": 14.98,
+      "low": 14.34,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-07-15",
+      "open": 15.01,
+      "close": 15.51,
+      "high": 15.62,
+      "low": 14.99,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-07-16",
+      "open": 15.67,
+      "close": 16.42,
+      "high": 16.9,
+      "low": 15.67,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-07-17",
+      "open": 16.35,
+      "close": 16.5,
+      "high": 16.82,
+      "low": 16.2,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-07-20",
+      "open": 16.5,
+      "close": 16.14,
+      "high": 16.7,
+      "low": 16.05,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-07-21",
+      "open": 16.05,
+      "close": 16.01,
+      "high": 16.2,
+      "low": 15.73,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-07-22",
+      "open": 15.94,
+      "close": 15.9,
+      "high": 16.13,
+      "low": 15.41,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-07-23",
+      "open": 15.62,
+      "close": 15.59,
+      "high": 15.74,
+      "low": 15.43,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-07-24",
+      "open": 15.66,
+      "close": 15.58,
+      "high": 15.87,
+      "low": 15.54,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-07-27",
+      "open": 15.68,
+      "close": 15.35,
+      "high": 15.85,
+      "low": 15.27,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-07-28",
+      "open": 15.58,
+      "close": 15.36,
+      "high": 15.74,
+      "low": 15.3,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-07-29",
+      "open": 15.36,
+      "close": 14.92,
+      "high": 15.61,
+      "low": 14.87,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-07-30",
+      "open": 15.33,
+      "close": 14.59,
+      "high": 15.33,
+      "low": 14.52,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-07-31",
+      "open": 14.59,
+      "close": 14.46,
+      "high": 14.74,
+      "low": 14.4,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-08-03",
+      "open": 14.51,
+      "close": 14.27,
+      "high": 14.81,
+      "low": 14.27,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-08-04",
+      "open": 14.27,
+      "close": 14.17,
+      "high": 14.45,
+      "low": 14.04,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-08-05",
+      "open": 14.24,
+      "close": 13.93,
+      "high": 14.38,
+      "low": 13.85,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-08-06",
+      "open": 13.86,
+      "close": 13.85,
+      "high": 13.99,
+      "low": 13.66,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-08-07",
+      "open": 13.87,
+      "close": 14.21,
+      "high": 14.27,
+      "low": 13.87,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-08-10",
+      "open": 14.03,
+      "close": 13.87,
+      "high": 14.25,
+      "low": 13.68,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-08-11",
+      "open": 14.13,
+      "close": 13.88,
+      "high": 14.36,
+      "low": 12.93,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-08-12",
+      "open": 14.5,
+      "close": 14.16,
+      "high": 15.06,
+      "low": 14.1,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-08-13",
+      "open": 14.24,
+      "close": 13.52,
+      "high": 14.36,
+      "low": 13.51,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-08-14",
+      "open": 13.53,
+      "close": 13.33,
+      "high": 13.87,
+      "low": 13.21,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-08-17",
+      "open": 13.29,
+      "close": 13.41,
+      "high": 13.6,
+      "low": 13.22,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-08-18",
+      "open": 13.53,
+      "close": 13.01,
+      "high": 13.61,
+      "low": 12.96,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-08-19",
+      "open": 13.14,
+      "close": 13.05,
+      "high": 13.34,
+      "low": 12.94,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-08-20",
+      "open": 12.89,
+      "close": 12.82,
+      "high": 13.08,
+      "low": 12.66,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-08-21",
+      "open": 12.87,
+      "close": 12.69,
+      "high": 12.9,
+      "low": 12.54,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-08-24",
+      "open": 12.79,
+      "close": 12.75,
+      "high": 12.9,
+      "low": 12.63,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-08-25",
+      "open": 12.85,
+      "close": 12.88,
+      "high": 12.94,
+      "low": 12.74,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-08-26",
+      "open": 12.88,
+      "close": 13.03,
+      "high": 13.05,
+      "low": 12.72,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-08-27",
+      "open": 12.99,
+      "close": 12.75,
+      "high": 13,
+      "low": 12.74,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-08-28",
+      "open": 12.85,
+      "close": 12.48,
+      "high": 12.85,
+      "low": 12.43,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-08-31",
+      "open": 12.54,
+      "close": 12.51,
+      "high": 12.61,
+      "low": 12.25,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-09-01",
+      "open": 12.5,
+      "close": 12.13,
+      "high": 12.65,
+      "low": 12.07,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-09-02",
+      "open": 12.2,
+      "close": 12.17,
+      "high": 12.46,
+      "low": 12.11,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-09-03",
+      "open": 12.24,
+      "close": 12.54,
+      "high": 12.55,
+      "low": 12.14,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-09-04",
+      "open": 13.12,
+      "close": 13.26,
+      "high": 13.32,
+      "low": 13,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-09-08",
+      "open": 13.06,
+      "close": 13.65,
+      "high": 13.8,
+      "low": 13.05,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-09-09",
+      "open": 13.45,
+      "close": 13.12,
+      "high": 13.75,
+      "low": 12.89,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-09-10",
+      "open": 13.17,
+      "close": 13.04,
+      "high": 13.34,
+      "low": 12.87,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-09-11",
+      "open": 13.02,
+      "close": 12.97,
+      "high": 13.35,
+      "low": 12.89,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-09-14",
+      "open": 13,
+      "close": 12.93,
+      "high": 13.21,
+      "low": 12.8,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-09-15",
+      "open": 12.89,
+      "close": 13.27,
+      "high": 13.31,
+      "low": 12.77,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-09-16",
+      "open": 13.25,
+      "close": 13.77,
+      "high": 14.02,
+      "low": 13.12,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-09-17",
+      "open": 13.9,
+      "close": 13.84,
+      "high": 14.09,
+      "low": 13.71,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-09-18",
+      "open": 13.71,
+      "close": 13.82,
+      "high": 14.01,
+      "low": 13.58,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-09-21",
+      "open": 13.93,
+      "close": 14.23,
+      "high": 14.47,
+      "low": 13.81,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-09-22",
+      "open": 14.21,
+      "close": 14.43,
+      "high": 14.66,
+      "low": 13.98,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-09-23",
+      "open": 14.3,
+      "close": 13.87,
+      "high": 14.52,
+      "low": 13.86,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-09-24",
+      "open": 13.85,
+      "close": 13.84,
+      "high": 14.1,
+      "low": 13.53,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-09-25",
+      "open": 13.8,
+      "close": 13.65,
+      "high": 14.16,
+      "low": 13.65,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-09-28",
+      "open": 13.32,
+      "close": 13.45,
+      "high": 13.66,
+      "low": 13.01,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-09-29",
+      "open": 13.43,
+      "close": 13.46,
+      "high": 13.53,
+      "low": 13.33,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-09-30",
+      "open": 13.48,
+      "close": 13.36,
+      "high": 13.67,
+      "low": 13.31,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-10-01",
+      "open": 13.39,
+      "close": 13.78,
+      "high": 13.91,
+      "low": 13.09,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-10-02",
+      "open": 14.01,
+      "close": 14.03,
+      "high": 14.51,
+      "low": 13.67,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-10-05",
+      "open": 13.94,
+      "close": 14.01,
+      "high": 14.15,
+      "low": 13.72,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-10-06",
+      "open": 14.06,
+      "close": 13.92,
+      "high": 14.45,
+      "low": 13.87,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-10-07",
+      "open": 14.01,
+      "close": 13.94,
+      "high": 14.18,
+      "low": 13.65,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-10-08",
+      "open": 13.91,
+      "close": 14,
+      "high": 14.1,
+      "low": 13.6,
+      "stockCurrency": "USD"
+    },
+    {
+      "date": "2026-10-09",
+      "open": 13.82,
+      "close": 14.13,
+      "high": 14.16,
+      "low": 13.82,
+      "stockCurrency": "USD"
+    }
+  ]
+}

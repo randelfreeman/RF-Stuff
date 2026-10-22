@@ -1,0 +1,521 @@
+{
+  "27989": {
+    "result": {
+      "revenue": {
+        "timeSeries": [
+          {
+            "periodEndDate": "2025-10-01",
+            "effectiveDate": "2026-01-29T16:40:00Z",
+            "actualValue": 1205700000,
+            "expectedValue": 1195000000,
+            "id": "27989-revenue-0"
+          },
+          {
+            "periodEndDate": "2026-01-01",
+            "effectiveDate": "2026-05-04T15:40:00Z",
+            "actualValue": 1180500000,
+            "expectedValue": 1183100000,
+            "id": "27989-revenue-1"
+          },
+          {
+            "periodEndDate": "2026-04-01",
+            "effectiveDate": "2026-07-29T15:40:00Z",
+            "actualValue": 1276600000,
+            "expectedValue": 1274800000,
+            "id": "27989-revenue-2"
+          }
+        ],
+        "metricLabel": "revenue"
+      },
+      "ebitda": {
+        "timeSeries": [],
+        "metricLabel": "ebitda"
+      },
+      "epsGaap": {
+        "timeSeries": [],
+        "metricLabel": "epsGaap"
+      },
+      "netIncomeGaap": {
+        "timeSeries": [],
+        "metricLabel": "netIncomeGaap"
+      },
+      "freeCashFlow": {
+        "timeSeries": [],
+        "metricLabel": "freeCashFlow"
+      }
+    }
+  },
+  "260725": {
+    "result": {
+      "revenue": {
+        "timeSeries": [
+          {
+            "periodEndDate": "2025-10-01",
+            "effectiveDate": "2025-12-18T13:30:00Z",
+            "actualValue": 2799992000,
+            "expectedValue": 2766682230,
+            "id": "260725-revenue-0"
+          },
+          {
+            "periodEndDate": "2026-01-01",
+            "effectiveDate": "2026-03-25T12:30:00Z",
+            "actualValue": 2841444000,
+            "expectedValue": 2820350840,
+            "id": "260725-revenue-1"
+          },
+          {
+            "periodEndDate": "2026-04-01",
+            "effectiveDate": "2026-07-15T12:30:00Z",
+            "actualValue": 2905203000,
+            "expectedValue": 2872801560,
+            "id": "260725-revenue-2"
+          },
+          {
+            "periodEndDate": "2026-07-01",
+            "effectiveDate": "2026-09-23T12:30:00Z",
+            "actualValue": 3013981000,
+            "expectedValue": 2984611530,
+            "id": "260725-revenue-3"
+          },
+          {
+            "periodEndDate": "2026-10-01",
+            "effectiveDate": "2024-12-20T09:19:21Z",
+            "expectedValue": 2890416410,
+            "id": "260725-revenue-4"
+          },
+          {
+            "periodEndDate": "2027-01-01",
+            "effectiveDate": "2024-12-20T09:19:21Z",
+            "expectedValue": 2914730290,
+            "id": "260725-revenue-5"
+          },
+          {
+            "periodEndDate": "2027-04-01",
+            "effectiveDate": "2024-12-20T09:19:21Z",
+            "expectedValue": 2946763610,
+            "id": "260725-revenue-6"
+          }
+        ],
+        "metricLabel": "revenue"
+      },
+      "ebitda": {
+        "timeSeries": [
+          {
+            "periodEndDate": "2025-10-01",
+            "effectiveDate": "2025-12-18T13:30:00Z",
+            "actualValue": 783215000,
+            "expectedValue": 766670360,
+            "id": "260725-ebitda-0"
+          },
+          {
+            "periodEndDate": "2026-01-01",
+            "effectiveDate": "2026-03-25T12:30:00Z",
+            "actualValue": 788574000,
+            "expectedValue": 787226790,
+            "id": "260725-ebitda-1"
+          },
+          {
+            "periodEndDate": "2026-04-01",
+            "effectiveDate": "2026-07-15T12:30:00Z",
+            "actualValue": 803773000,
+            "expectedValue": 786391630,
+            "id": "260725-ebitda-2"
+          },
+          {
+            "periodEndDate": "2026-07-01",
+            "effectiveDate": "2026-09-23T12:30:00Z",
+            "actualValue": 839213000,
+            "expectedValue": 828891670,
+            "id": "260725-ebitda-3"
+          },
+          {
+            "periodEndDate": "2026-10-01",
+            "effectiveDate": "2024-12-20T09:19:21Z",
+            "expectedValue": 788463970,
+            "id": "260725-ebitda-4"
+          },
+          {
+            "periodEndDate": "2027-01-01",
+            "effectiveDate": "2024-12-20T09:19:21Z",
+            "expectedValue": 769940580,
+            "id": "260725-ebitda-5"
+          },
+          {
+            "periodEndDate": "2027-04-01",
+            "effectiveDate": "2024-12-20T09:19:21Z",
+            "expectedValue": 792842310,
+            "id": "260725-ebitda-6"
+          }
+        ],
+        "metricLabel": "ebitda"
+      },
+      "epsGaap": {
+        "timeSeries": [
+          {
+            "periodEndDate": "2025-10-01",
+            "effectiveDate": "2025-12-18T13:30:00Z",
+            "actualValue": 1210000,
+            "expectedValue": 1194530,
+            "id": "260725-epsGaap-0"
+          },
+          {
+            "periodEndDate": "2026-01-01",
+            "effectiveDate": "2026-03-25T12:30:00Z",
+            "actualValue": 1240000,
+            "expectedValue": 1235090,
+            "id": "260725-epsGaap-1"
+          },
+          {
+            "periodEndDate": "2026-04-01",
+            "effectiveDate": "2026-07-15T12:30:00Z",
+            "actualValue": 1260000,
+            "expectedValue": 1231040,
+            "id": "260725-epsGaap-2"
+          },
+          {
+            "periodEndDate": "2026-07-01",
+            "effectiveDate": "2026-09-23T12:30:00Z",
+            "actualValue": 1360000,
+            "expectedValue": 1356910,
+            "id": "260725-epsGaap-3"
+          },
+          {
+            "periodEndDate": "2026-10-01",
+            "effectiveDate": "2024-12-20T09:19:21Z",
+            "expectedValue": 1268430,
+            "id": "260725-epsGaap-4"
+          },
+          {
+            "periodEndDate": "2027-01-01",
+            "effectiveDate": "2024-12-20T09:19:21Z",
+            "expectedValue": 1213840,
+            "id": "260725-epsGaap-5"
+          },
+          {
+            "periodEndDate": "2027-04-01",
+            "effectiveDate": "2024-12-20T09:19:21Z",
+            "expectedValue": 1236170,
+            "id": "260725-epsGaap-6"
+          }
+        ],
+        "metricLabel": "epsGaap"
+      },
+      "netIncomeGaap": {
+        "timeSeries": [
+          {
+            "periodEndDate": "2025-10-01",
+            "effectiveDate": "2025-12-18T13:30:00Z",
+            "actualValue": 495343000,
+            "expectedValue": 485300000,
+            "id": "260725-netIncomeGaap-0"
+          },
+          {
+            "periodEndDate": "2026-01-01",
+            "effectiveDate": "2026-03-25T12:30:00Z",
+            "actualValue": 502496000,
+            "expectedValue": 499308990,
+            "id": "260725-netIncomeGaap-1"
+          },
+          {
+            "periodEndDate": "2026-04-01",
+            "effectiveDate": "2026-07-15T12:30:00Z",
+            "actualValue": 510989000,
+            "expectedValue": 498367510,
+            "id": "260725-netIncomeGaap-2"
+          },
+          {
+            "periodEndDate": "2026-07-01",
+            "effectiveDate": "2026-09-23T12:30:00Z",
+            "actualValue": 551711000,
+            "expectedValue": 543133450,
+            "id": "260725-netIncomeGaap-3"
+          },
+          {
+            "periodEndDate": "2026-10-01",
+            "effectiveDate": "2024-12-20T09:19:21Z",
+            "expectedValue": 516201110,
+            "id": "260725-netIncomeGaap-4"
+          },
+          {
+            "periodEndDate": "2027-01-01",
+            "effectiveDate": "2024-12-20T09:19:21Z",
+            "expectedValue": 493280770,
+            "id": "260725-netIncomeGaap-5"
+          },
+          {
+            "periodEndDate": "2027-04-01",
+            "effectiveDate": "2024-12-20T09:19:21Z",
+            "expectedValue": 501636350,
+            "id": "260725-netIncomeGaap-6"
+          }
+        ],
+        "metricLabel": "netIncomeGaap"
+      },
+      "freeCashFlow": {
+        "timeSeries": [
+          {
+            "periodEndDate": "2025-10-01",
+            "effectiveDate": "2025-12-18T13:30:00Z",
+            "actualValue": 424971000,
+            "expectedValue": 525100000,
+            "id": "260725-freeCashFlow-0"
+          },
+          {
+            "periodEndDate": "2026-01-01",
+            "effectiveDate": "2026-03-25T12:31:08Z",
+            "actualValue": 530574000,
+            "expectedValue": 592033330,
+            "id": "260725-freeCashFlow-1"
+          },
+          {
+            "periodEndDate": "2026-04-01",
+            "effectiveDate": "2026-07-15T12:30:00Z",
+            "actualValue": 613106000,
+            "expectedValue": 681733330,
+            "id": "260725-freeCashFlow-2"
+          },
+          {
+            "periodEndDate": "2026-07-01",
+            "effectiveDate": "2026-09-23T12:31:07Z",
+            "actualValue": 464799000,
+            "expectedValue": 406200000,
+            "id": "260725-freeCashFlow-3"
+          }
+        ],
+        "metricLabel": "freeCashFlow"
+      }
+    }
+  },
+  "309966": {
+    "result": {
+      "revenue": {
+        "timeSeries": [
+          {
+            "periodEndDate": "2025-10-01",
+            "effectiveDate": "2026-01-07T13:00:00Z",
+            "actualValue": 621318000,
+            "expectedValue": 615225820,
+            "id": "309966-revenue-0"
+          },
+          {
+            "periodEndDate": "2026-01-01",
+            "effectiveDate": "2026-04-01T12:00:00Z",
+            "actualValue": 622505000,
+            "expectedValue": 614912050,
+            "id": "309966-revenue-1"
+          },
+          {
+            "periodEndDate": "2026-04-01",
+            "effectiveDate": "2026-07-01T12:00:00Z",
+            "actualValue": 634402000,
+            "expectedValue": 627659500,
+            "id": "309966-revenue-2"
+          },
+          {
+            "periodEndDate": "2026-07-01",
+            "effectiveDate": "2025-01-09T09:21:10Z",
+            "expectedValue": 629643340,
+            "id": "309966-revenue-3"
+          },
+          {
+            "periodEndDate": "2026-10-01",
+            "effectiveDate": "2025-01-09T09:21:10Z",
+            "expectedValue": 645552100,
+            "id": "309966-revenue-4"
+          },
+          {
+            "periodEndDate": "2027-01-01",
+            "effectiveDate": "2025-01-09T09:21:10Z",
+            "expectedValue": 647358400,
+            "id": "309966-revenue-5"
+          },
+          {
+            "periodEndDate": "2027-04-01",
+            "effectiveDate": "2025-01-09T09:21:10Z",
+            "expectedValue": 660842520,
+            "id": "309966-revenue-6"
+          },
+          {
+            "periodEndDate": "2027-07-01",
+            "effectiveDate": "2025-01-09T09:21:10Z",
+            "expectedValue": 657254820,
+            "id": "309966-revenue-7"
+          }
+        ],
+        "metricLabel": "revenue"
+      },
+      "ebitda": {
+        "timeSeries": [
+          {
+            "periodEndDate": "2025-10-01",
+            "effectiveDate": "2026-01-07T13:00:00Z",
+            "actualValue": 82524000,
+            "expectedValue": 88454360,
+            "id": "309966-ebitda-0"
+          },
+          {
+            "periodEndDate": "2026-01-01",
+            "effectiveDate": "2026-04-01T12:00:00Z",
+            "actualValue": 69995000,
+            "expectedValue": 67112990,
+            "id": "309966-ebitda-1"
+          },
+          {
+            "periodEndDate": "2026-04-01",
+            "effectiveDate": "2026-07-01T12:00:00Z",
+            "actualValue": 82587000,
+            "expectedValue": 84817330,
+            "id": "309966-ebitda-2"
+          },
+          {
+            "periodEndDate": "2026-07-01",
+            "effectiveDate": "2025-01-09T09:21:10Z",
+            "expectedValue": 98417820,
+            "id": "309966-ebitda-3"
+          },
+          {
+            "periodEndDate": "2026-10-01",
+            "effectiveDate": "2025-01-09T09:21:10Z",
+            "expectedValue": 105896800,
+            "id": "309966-ebitda-4"
+          },
+          {
+            "periodEndDate": "2027-01-01",
+            "effectiveDate": "2025-01-09T09:21:10Z",
+            "expectedValue": 80602430,
+            "id": "309966-ebitda-5"
+          },
+          {
+            "periodEndDate": "2027-04-01",
+            "effectiveDate": "2025-01-09T09:21:10Z",
+            "expectedValue": 101474940,
+            "id": "309966-ebitda-6"
+          },
+          {
+            "periodEndDate": "2027-07-01",
+            "effectiveDate": "2025-01-09T09:21:10Z",
+            "expectedValue": 100524940,
+            "id": "309966-ebitda-7"
+          }
+        ],
+        "metricLabel": "ebitda"
+      },
+      "epsGaap": {
+        "timeSeries": [
+          {
+            "periodEndDate": "2025-10-01",
+            "effectiveDate": "2026-01-07T13:00:00Z",
+            "actualValue": 1890000,
+            "expectedValue": 1990640,
+            "id": "309966-epsGaap-0"
+          },
+          {
+            "periodEndDate": "2026-01-01",
+            "effectiveDate": "2026-04-01T12:00:00Z",
+            "actualValue": 1130000,
+            "expectedValue": 1081290,
+            "id": "309966-epsGaap-1"
+          },
+          {
+            "periodEndDate": "2026-04-01",
+            "effectiveDate": "2026-07-01T12:00:00Z",
+            "actualValue": 1090000,
+            "expectedValue": 1883180,
+            "id": "309966-epsGaap-2"
+          },
+          {
+            "periodEndDate": "2026-07-01",
+            "effectiveDate": "2025-01-09T09:21:10Z",
+            "expectedValue": 2239840,
+            "id": "309966-epsGaap-3"
+          },
+          {
+            "periodEndDate": "2026-10-01",
+            "effectiveDate": "2025-01-09T09:21:10Z",
+            "expectedValue": 2626580,
+            "id": "309966-epsGaap-4"
+          },
+          {
+            "periodEndDate": "2027-01-01",
+            "effectiveDate": "2025-01-09T09:21:10Z",
+            "expectedValue": 1631390,
+            "id": "309966-epsGaap-5"
+          },
+          {
+            "periodEndDate": "2027-04-01",
+            "effectiveDate": "2025-01-09T09:21:10Z",
+            "expectedValue": 2483100,
+            "id": "309966-epsGaap-6"
+          },
+          {
+            "periodEndDate": "2027-07-01",
+            "effectiveDate": "2025-01-09T09:21:10Z",
+            "expectedValue": 2457960,
+            "id": "309966-epsGaap-7"
+          }
+        ],
+        "metricLabel": "epsGaap"
+      },
+      "netIncomeGaap": {
+        "timeSeries": [
+          {
+            "periodEndDate": "2025-10-01",
+            "effectiveDate": "2026-01-07T13:00:00Z",
+            "actualValue": 34363000,
+            "expectedValue": 36524550,
+            "id": "309966-netIncomeGaap-0"
+          },
+          {
+            "periodEndDate": "2026-01-01",
+            "effectiveDate": "2026-04-01T12:00:00Z",
+            "actualValue": 20484000,
+            "expectedValue": 20198320,
+            "id": "309966-netIncomeGaap-1"
+          },
+          {
+            "periodEndDate": "2026-04-01",
+            "effectiveDate": "2026-07-01T12:00:00Z",
+            "actualValue": 19916000,
+            "expectedValue": 33595890,
+            "id": "309966-netIncomeGaap-2"
+          },
+          {
+            "periodEndDate": "2026-07-01",
+            "effectiveDate": "2025-01-09T09:21:10Z",
+            "expectedValue": 40773130,
+            "id": "309966-netIncomeGaap-3"
+          },
+          {
+            "periodEndDate": "2026-10-01",
+            "effectiveDate": "2025-01-09T09:21:10Z",
+            "expectedValue": 48398320,
+            "id": "309966-netIncomeGaap-4"
+          },
+          {
+            "periodEndDate": "2027-01-01",
+            "effectiveDate": "2025-01-09T09:21:10Z",
+            "expectedValue": 30018930,
+            "id": "309966-netIncomeGaap-5"
+          },
+          {
+            "periodEndDate": "2027-04-01",
+            "effectiveDate": "2025-01-09T09:21:10Z",
+            "expectedValue": 45626780,
+            "id": "309966-netIncomeGaap-6"
+          },
+          {
+            "periodEndDate": "2027-07-01",
+            "effectiveDate": "2025-01-09T09:21:10Z",
+            "expectedValue": 45099950,
+            "id": "309966-netIncomeGaap-7"
+          }
+        ],
+        "metricLabel": "netIncomeGaap"
+      },
+      "freeCashFlow": {
+        "timeSeries": [],
+        "metricLabel": "freeCashFlow"
+      }
+    }
+  }
+}

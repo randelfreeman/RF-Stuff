@@ -1,0 +1,27 @@
+{
+  "_call": "F_segments_kpis-091",
+  "_params": {"sentenceIds": ["T000003054377-155", "T000003054377-167", "T000002520475-103"], "beforeSentence": 0, "afterSentence": 10},
+  "_note": "Verbatim response below.",
+  "response": {
+  "results": [
+    {
+      "sentenceId": "T000003054377-155",
+      "text": "Moving to the next slide, let's have a look now at organic growth and EBITDA margin by geography. All in, the 11.8% full year growth organic, is largely driven by pricing [ for 9% ]. The recovery of hospitality in Q1, roughly 1%, and the other volume growth FX accounts for 2%. Pricing has been strong everywhere, but especially in the higher inflation countries like Germany and U.K. The recovery of hospitality impacted mostly France, Southern Europe and U.K., as they are the main contributors to this market. The regular volume effect was driven largely by workwear, where the volume of new contracts signed was 14%, 14% above last year, especially in the Netherlands, Germany, Southern Europe, U.K. and France. Healthcare also contributed with new contracts, 3% above '22, whereas hospitality dynamics were more subdued. All these successes were balanced with a slight 1% increase in churn on the back of our discipline and pricing at the beginning of the year. As far as EBITDA margin is concerned, we posted 130 bps improvement at 34.2%, and we are very happy that now all geographies are above 30%. Globally, this improvement is driven in all geographies by productivity gains and logistics and industrial performance. Please note that in '23, pricing and energy costs were margin neutral at Group level, as they were in line with group inflation. [#155](https://gam.prontonlp.com/#/ref/$SENTID_T000003054377-155)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    },
+    {
+      "sentenceId": "T000003054377-167",
+      "text": "So let's have a look now per geography. For example, in France, logistics savings on industrial performance were very strong, along with good pricing and positive impact of energy hedging, leading to this record margin of 40.3%. In Central Europe, productivity progress were also good, but pricing, however, strong was lower than inflation, especially as energy costs increased in '23, leading to this 30.5% the lower of the Group. Please note that in H2, the margin improvement was plus 180 bps, paving the path for '24 improvement. In Scandinavia, Eastern Europe, productivity progress were also good. We faced sometimes tough pricing negotiation with clients from the public healthcare sector, but the margin improved in H2 by 100 bps. In the U.K. alone, pricing and productivity were very strong, but energy was a headwind and the limited improvement, leading to 30.7%. There also, the margin improvement in H2 was much better at 160 bps. Latin America, the industrial progress are regular, so inflation was less impressive than in Europe. The integration of Mexico was a tailwind to the margin, which stands now above the Group average. In Southern Europe, strong revenue increase, productivity savings, along with positive impact of energy led to a spectacular [ 3.60 ] (sic) [ 360 bps ] improvement in adjusted EBITDA margin at 30.8%. [#167](https://gam.prontonlp.com/#/ref/$SENTID_T000003054377-167)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    },
+    {
+      "sentenceId": "T000002520475-103",
+      "text": "Revenue by region now, the performance of France, U.K., Ireland, Southern Europe is mostly a consequence of the level of hospitality in terms of region mix with activity significantly picking up on the back of easy comps. But the growth is not limited to that. And it's worth mentioning that in '21, outside this recovering hospitality volumes, the core organic growth is above 3% as a result of -- as mentioned by Xavier. New services proposed to customers, development of outsourcing and better retention of the clients. The best example to illustrate this dynamism is certainly Latin America, where organic growth was plus 14% in '21 after already plus 5.4% in 2020, which was the most in Hospitality in the region. Now looking at EBITDA margin, one of our main satisfaction in the way we handle the situation during the pandemic is a very efficient operational adjustments, quickly implemented by our teams to maintain a high level of productivity. This resulted in '21 EBITDA margin being 90 bps above pre-pandemic level, which is 2019. We have been able to improve or maintain margin in most geographies, reflecting Elis' operational excellence with a window in optimizing logistics and factory efficiency. This also reflects the in-depth and sustainable cost savings efforts achieved in the second half of 2020, which generated significant operating leverage in 2021 with 90 bps margin expansion at Group level compared to '19. I would like to stress that our sales teams were not affected by the cost savings efforts. So the commercial dynamism going forward remains intact. [#103](https://gam.prontonlp.com/#/ref/$SENTID_T000002520475-103)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    }
+  ]
+}
+}

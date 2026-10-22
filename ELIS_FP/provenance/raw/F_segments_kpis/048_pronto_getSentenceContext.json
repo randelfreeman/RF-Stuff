@@ -1,0 +1,33 @@
+{
+  "_call": "F_segments_kpis-048",
+  "_params": {"sentenceIds": ["T000003676656-703", "T000003394029-417", "T000003774119-367", "T000003512646-313"], "beforeSentence": 5, "afterSentence": 6},
+  "_note": "Verbatim response below.",
+  "response": {
+  "results": [
+    {
+      "sentenceId": "T000003676656-703",
+      "text": "Your next question today comes from the line of Olivier Calvet from UBS. Olivier Calvet covering for [ Louis Wizer ]. I have two questions left. First on volume and price. What was the split of volume and price in the '25 organic growth? And what do you expect for '26? And then you gave some color on adjusted EBITDA and adjusted EBIT. I just wanted to know if you could discuss how you see the evolution of cost in '26 besides the energy and productivity topics on the labor, distribution costs, SG&A, perhaps? Volume and price is more or less the same, I would say, in '25 and '26. So it's a mix of volume and price, equally split, I would say, to roughly summarize. [#703](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-703)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    },
+    {
+      "sentenceId": "T000003394029-417",
+      "text": "And of course, if we have less M&A, if during the year, we have no bolt-on or a very small amount of bolt-on, as we want to stick to a decrease of the leverage of 1.1x, that means that we will have much more money to give back to the shareholders, and then we'll see what is the best way to give back this money depending on the market condition, whether exceptional dividend or share buyback program. For the split between volume and price in '24, '25. So '24 more price than volume, of course, because we still had some huge inflation of our cost base. It will be more balanced in '25, where it will be quite comparable. So around the same level of price and volume in '25, perhaps slightly more price, but you can take an assumption, same level of volume and price in '25. For the cost and -- in '25 in the guidance, so yes, we still have the benefit of our energy hedging policy, and we will save around EUR 30 million again in '25 in the total cost of energy. On the same time, we still see some increase of the level of salaries. I think that all in, at the group level, we can expect something close to plus 4% as an increase of the cost of wages in the group. And the last question you had was the impact of the budget in France. [#417](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-417)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    },
+    {
+      "sentenceId": "T000003774119-367",
+      "text": "Could you talk about how pricing has developed as a component of organic growth relative to Q1? And do you expect pricing to be a larger component of growth in the second half? And then secondly, on Mexico, the EUR 14 million impact that you expect for full year '26, does that assume that you don't win any of that volume back of that 50%? Or is there a possibility that you do reach some agreement and you can reclaim some of that contract in the second half? So the gap between price and volume, so it is slightly more price and volume in Q2 and for the full year. I don't share exactly your analysis for the second half when you say that less volume in Mexico and extra pricing, yes. But on top of that, we have also implementation of all the big signatures of contracts in H1 that will start to invoice in H2. And so it will bring some additional volume. So I think that will keep more or less the same breakdown between price and volume for the full year. And second part of your question, Mexico. [#367](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-367)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    },
+    {
+      "sentenceId": "T000003512646-313",
+      "text": "And how has this developed so far in Q3? And what are your expectations more generally for that going into the second half. Thank you for the question. So pricing and volume. If we exclude the calendar effect, pricing and volume are more or less the same. So [indiscernible] for the situation in 2025. And you're perfectly right, the geographies where we see the biggest impact of cost inflation in Lat Am. You know that we operate in 4 countries with less [indiscernible] now, Mexico, Brazil, Chile and Colombia. And those governments have decided some strong merger for workers. And so it's not only a question of cost per hour, but also in some countries, they decided to decrease the number of working hours per week. And so it is clearly the geographies where we are seeing the biggest level of inflation of our costs. [#313](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-313)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    }
+  ]
+}
+}

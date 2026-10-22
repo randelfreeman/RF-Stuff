@@ -1,0 +1,43 @@
+{
+  "results": [
+    {
+      "sentenceId": "T000003054377-232",
+      "companyId": "27989",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "transcriptId": "T000003054377",
+      "text": "And in November, Standard & Poor's upgraded us to investment grade with a BBB- rating, which is an important achievement for us. [#232](https://gam.prontonlp.com/#/ref/$SENTID_T000003054377-232)",
+      "documentType": "Earnings Calls",
+      "sector": "Industrials-Commercial Services and Supplies",
+      "date": "2024-03-07",
+      "title": "[Elis SA, 2023 Earnings Call, Mar 07, 2024](https://gam.prontonlp.com/#/ref/$DOCID_T000003054377)",
+      "section": "EarningsCalls_PresenterSpeech",
+      "speakerType": "Executives_CFO"
+    },
+    {
+      "sentenceId": "T000003054377-270",
+      "companyId": "27989",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "transcriptId": "T000003054377",
+      "text": "In 2023, MSCI improved its rating from BBB to A, recognizing Group's CSR perform. [#270](https://gam.prontonlp.com/#/ref/$SENTID_T000003054377-270)",
+      "documentType": "Earnings Calls",
+      "sector": "Industrials-Commercial Services and Supplies",
+      "date": "2024-03-07",
+      "title": "[Elis SA, 2023 Earnings Call, Mar 07, 2024](https://gam.prontonlp.com/#/ref/$DOCID_T000003054377)",
+      "section": "EarningsCalls_PresenterSpeech",
+      "speakerType": "Executives_CEO"
+    },
+    {
+      "sentenceId": "T000003054377-323",
+      "companyId": "27989",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "transcriptId": "T000003054377",
+      "text": "If I look at the adjusted EBIT guidance, I think it would be including the already done M&A about 7% or 8% increase year-over-year. [#323](https://gam.prontonlp.com/#/ref/$SENTID_T000003054377-323)",
+      "documentType": "Earnings Calls",
+      "sector": "Industrials-Commercial Services and Supplies",
+      "date": "2024-03-07",
+      "title": "[Elis SA, 2023 Earnings Call, Mar 07, 2024](https://gam.prontonlp.com/#/ref/$DOCID_T000003054377)",
+      "section": "EarningsCalls_Question",
+      "speakerType": "Analysts"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Lossless CSV re-encoding of ProntoNLP getAnalytics response (call A_earnings-011). Every field kept; name column holds verbatim markdown citation link.
+# params: {"analyticsType":["aspects","patternSentiment","scores"],"transcriptsIds":["T000003676656"],"speakerTypes":["Analysts"]}  (FY2025 call, analysts only)
+dimension,id,name,total,totalPositives,totalNegatives,totalNeutrals,score
+aspects,Forecast,[Forecast](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656_$GROUPBY_Aspects_$KEY_Forecast),18,2,0,16,0.86
+aspects,CurrentState,[CurrentState](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656_$GROUPBY_Aspects_$KEY_CurrentState),14,1,1,12,-0.29
+aspects,Other,[Other](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656_$GROUPBY_Aspects_$KEY_Other),12,0,0,12,0
+aspects,StrategicPosition,[StrategicPosition](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656_$GROUPBY_Aspects_$KEY_StrategicPosition),8,0,0,8,0
+aspects,Filler,[Filler](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656_$GROUPBY_Aspects_$KEY_Filler),6,0,0,6,0
+patternSentiment,_,[Pattern Sentiment](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656_$GROUPBY_PatternSentiment),,3,1,54,
+scores,investmentScore,[0.83](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656_$GROUPBY_Scores_$KEY_Investment),,,,,0.83
+scores,sentimentScore,[0.31](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656_$GROUPBY_Scores_$KEY_Sentiment),,,,,0.31

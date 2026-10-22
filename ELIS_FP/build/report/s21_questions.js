@@ -1,0 +1,21 @@
+module.exports = [
+  { t: 'h1', text: '21. Fifteen questions for the CEO and the Chairman of the Supervisory Board' },
+  { t: 'p', text: 'Ordered by information value (most decision-relevant first).' },
+  { t: 'bullets', numbered: true, items: [
+    'If the share price is below the ~€20.8 trigger when you want to call the OCEANE, what is plan B for leverage, the 2027 buyback and the €300m 2027 maturity?',
+    'What organic growth do the record 2026 signings imply for 2027, and how much of it is price versus volume once the end-2026 index negotiations close?',
+    'Why did EBIT grow more slowly than revenue in both FY2025 and H1 2026 despite the CMD commitment — when does D&A/sales actually turn down?',
+    'What is the full-cycle return on the €467m bought back at €26.25, and what share price or leverage level would stop future buybacks?',
+    'Under what conditions would you again pursue a large US or European acquisition, and what return hurdle and leverage ceiling would the Supervisory Board impose?',
+    'What is BWSA/BWGI\'s long-term intention for its ~20% stake, and how does the 25% standstill interact with any approach for the company?',
+    'What did the Mexico and Chile impairment-indicator tests show (headroom), and could the multi-lot tender model spread to Brazil or other public buyers?',
+    'How much of the 2026 minimum-wage increases in Germany, the UK and LatAm remains unrecovered, and by when do indexation clauses close the gap?',
+    'How much of 2026–27 energy is hedged at what price versus 2025, and what is the true energy bill including vehicle fuel?',
+    'What drove the H1 2026 working-capital outflow and DSO rise, and what FCF is required in H2 to meet the "mid-single-digit growth" guide?',
+    'Where are you losing share — UK, Scandinavia, German healthcare — and to whom?',
+    'What is the succession plan for the Management Board beyond Yann Michel, and why did the CEO sell €2.3m of shares while the company was buying back?',
+    'Should the capital-intensive linen model change (e.g. more customer-owned or leased linen, RFID-driven loss reduction) to lift ROIC above ~7%?',
+    'How large is the cleanroom and pest-control opportunity by 2030 and what margins do they earn relative to the group?',
+    'What would trigger a new Capital Markets Day or revised 2028 targets given organic growth below 4% for two years?',
+  ] },
+];

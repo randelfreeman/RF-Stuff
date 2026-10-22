@@ -1,0 +1,24 @@
+{
+  "total": 1,
+  "results": [
+    {
+      "companyId": "260725",
+      "companyName": "[Cintas Corporation](https://gam.prontonlp.com/#/ref/$COMPANY_260725)",
+      "GVKEY": "003062",
+      "marketCap": 80371969574,
+      "country": "US",
+      "ticker": "CTAS",
+      "CIK": "0000723254",
+      "displayName": "[Cintas Corporation (CTAS)](https://gam.prontonlp.com/#/ref/$COMPANY_260725)",
+      "subSector": "Commercial Services and Supplies",
+      "hqCountry": "United States",
+      "ISIN": "US1729081059",
+      "updateFromCorpus": "transcripts",
+      "originalCap": 80371969574,
+      "collapseKey": "260725",
+      "exchange": "NasdaqGS",
+      "webpage": "www.cintas.com",
+      "sector": "Industrials"
+    }
+  ]
+}

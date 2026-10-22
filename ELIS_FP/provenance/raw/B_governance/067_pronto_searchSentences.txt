@@ -1,0 +1,25 @@
+# Lossless re-encoding of ProntoNLP searchSentences response (call B_governance-067). Every field kept; fields identical across rows are factored into this header.
+# params: {"topicSearchQuery":"activist investor","companiesIds":["27989"],"size":15,"autoContext":false}
+# total: (field absent in response) ; results returned: 15 (none relate to shareholder activism)
+# constant fields for every row: companyId=27989 | companyName=[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989) | sector=Industrials-Commercial Services and Supplies
+# per-document constant fields: NONSEC000259591248 -> documentType=AR | date=2026-05-04 | title=[Elis SA - AR - 2025-12-31](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000259591248)
+#   NONSEC000256665099 -> documentType=FIN SUPP | date=2026-03-10 | title=[Elis SA - FIN SUPP - 2025-12-31](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000256665099)
+#   NONSEC000264324010 -> documentType=SR | date=2026-07-30 | title=[Elis SA - SR - 2026-06-30](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000264324010)
+#   NONSEC000264346860 -> documentType=SR | date=2026-07-30 | title=[Elis SA - SR - 2026-06-30](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000264346860)
+#   T000003676656 -> documentType=Earnings Calls | date=2026-03-11 | title=[Elis SA, 2025 Earnings Call, Mar 11, 2026](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656) (row also carries speakerType, noted in section column as section|speakerType)
+# columns: sentenceId<TAB>transcriptId<TAB>section(blank = field absent)<TAB>text
+NONSEC000256665099-814	NONSEC000256665099		equity investments. [#814](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000256665099-814)
+NONSEC000259591248-6358	NONSEC000259591248		equity investments. [#6358](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6358)
+NONSEC000256665099-115	NONSEC000256665099		ability to affect those returns through its power over the investee. [#115](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000256665099-115)
+NONSEC000259591248-5643	NONSEC000259591248		Specifically, the Group controls an investee if, and only if, the Group has: power over the investee (i.e., existing rights that give it the current ability to direct the relevant activities of the investee); exposure, or rights, to variable returns from its involvement with the investee; the ability to use its power over the investee to affect its returns. [#5643](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-5643)
+NONSEC000264324010-170	NONSEC000264324010		Potential New Shares. [#170](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-170)
+NONSEC000264346860-170	NONSEC000264346860		Potential New Shares. [#170](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-170)
+NONSEC000259591248-6773	NONSEC000259591248		Market on which the security is traded [#6773](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6773)
+NONSEC000259591248-774	NONSEC000259591248		Listed company. [#774](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-774)
+NONSEC000259591248-6236	NONSEC000259591248	AR_Data	To the Shareholders, [#6236](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6236)
+NONSEC000256665099-709	NONSEC000256665099	Finsupp_Data	To the Shareholders, [#709](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000256665099-709)
+NONSEC000256665099-817	NONSEC000256665099		equity investments for the purposes of the impairment test. [#817](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000256665099-817)
+NONSEC000259591248-6361	NONSEC000259591248		equity investments for the purposes of the impairment test. [#6361](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6361)
+NONSEC000264324010-165	NONSEC000264324010		Shareholding Disclosure Thresholds. [#165](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-165)
+NONSEC000264346860-165	NONSEC000264346860		Shareholding Disclosure Thresholds. [#165](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264346860-165)
+NONSEC000259591248-6717	NONSEC000259591248		The Investment Agreement contains an anti-dilution clause pursuant to which, as long as CPP Investments holds at least 8% of Elis's share capital, Elis must make any and all efforts to give CPP Investments, in connection with any future offerings of securities by Elis, including any offering of equity securities, the right to purchase or subscribe for a portion of such new securities pro rata to its shareholding in the Company for the same price per security either (i) as part of the offering, or (ii) by any other means agreed among the parties so that the CPP Investments shareholding remains unchanged and in all cases on the same terms as those applicable to the purchase or subscription of the securities offered to others. [#6717](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-6717)

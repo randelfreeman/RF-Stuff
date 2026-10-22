@@ -1,0 +1,13 @@
+# Lossless TSV re-encoding of ProntoNLP searchSentences response (call F_segments_kpis-085). Rows in returned (relevance) order; every field kept ("section" blank where absent).
+# params: {"topicSearchQuery":"hygiene appliances dispensers installed base water fountains","transcriptsIds":["T000003468571","NONSEC000259591248"],"size":8,"autoContext":false}
+# Fields constant for every row: companyId=27989 | companyName=[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989) | transcriptId=NONSEC000259591248 (all 8 rows from the FY2025 AR) | documentType=AR | sector=Industrials-Commercial Services and Supplies | date=2026-05-04 | title=[Elis SA - AR - 2025-12-31](https://gam.prontonlp.com/#/ref/$DOCID_NONSEC000259591248)
+# Response had no "total" field; 8 results.
+sentenceId	section	text
+NONSEC000259591248-77		Hygiene appliances and water coolers are refilled and maintained on site. [#77](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-77)
+NONSEC000259591248-4757	AR_Data	The Group has repair and refurbishing units for certain products, such as mats, water fountains and washroom items. [#4757](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-4757)
+NONSEC000259591248-2710	AR_RF	In France, Elis has a workshop that specializes in refurbishing its water fountains and hygiene appliances (dispensers, etc.). [#2710](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-2710)
+NONSEC000259591248-5209	AR_Data	This is true in particular for segments such as soap, water fountains and paper. [#5209](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-5209)
+NONSEC000259591248-4488	AR_Data	In this vein, the Group offers emulsion soap dispensers to reduce the amount of product used and make the rinsing stage easier, thereby also slashing water consumption. [#4488](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-4488)
+NONSEC000259591248-2761	AR_RF	Water fountain bottles are also picked up during delivery trips and then returned to water suppliers, who clean them and then reuse them for subsequent deliveries. [#2761](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-2761)
+NONSEC000259591248-693		Designed for medical environments, the Victoria fountain offers enhanced hygiene with an elegant design. [#693](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-693)
+NONSEC000259591248-4901	AR_Data	Products that ensure good personal hygiene and help to protect the health of all The Group offers services that help to fight health and contamination risks, notably through soap and hand sanitizer dispensers. [#4901](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259591248-4901)

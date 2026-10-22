@@ -1,0 +1,341 @@
+{
+ "events": [
+  {
+   "event": "H1 2024 results call",
+   "date": "2024-07-24",
+   "doc": "[Elis SA, H1 2024 Earnings Call, Jul 24, 2024](https://gam.prontonlp.com/#/ref/$DOCID_T000003194583)",
+   "sentiment": 0.7,
+   "tone": "Confident/upbeat: guidance raised; only cautions were France politics and Olympics.",
+   "themes": [
+    {
+     "rank": 1,
+     "theme": "Guidance upgrade",
+     "summary": "FY2024 organic raised to +5.2%-5.5% (from ~+5%) and adj EBITDA margin to 35.2%-35.5% (from ~35%); other objectives confirmed",
+     "citations": "[#270](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-270) [#271](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-271) [#272](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-272) [#273](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-273) [#274](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-274)"
+    },
+    {
+     "rank": 2,
+     "theme": "Pricing discipline and churn normalisation",
+     "summary": "Pricing offsets salary inflation; churn back to pre-2023 levels; pricing effect to ease as inflation slows",
+     "citations": "[#26](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-26) [#34](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-34) [#36](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-36) [#457](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-457)"
+    },
+    {
+     "rank": 3,
+     "theme": "Margin expansion, productivity and energy hedging",
+     "summary": "EBITDA EUR 774m, margin 34.5% (+120bp); hedging favourable; France margin +190bp",
+     "citations": "[#19](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-19) [#35](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-35) [#78](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-78)"
+    },
+    {
+     "rank": 4,
+     "theme": "Workwear-led commercial momentum",
+     "summary": "Strong workwear signings; Germany workwear +15%; record healthcare signings",
+     "citations": "[#33](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-33) [#93](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-93)"
+    },
+    {
+     "rank": 5,
+     "theme": "France political risk and Olympics",
+     "summary": "Stock -15% since dissolution called exaggerated; minimum-wage scenario +1-2% revenue at stable margin; Olympics weighed on Paris hospitality",
+     "citations": "[#81](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-81) [#82](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-82) [#83](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-83) [#44](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-44)"
+    },
+    {
+     "rank": 6,
+     "theme": "LatAm strength",
+     "summary": "Mexico ~10% organic and record 42% EBITDA margin; LatAm organic +7.5%",
+     "citations": "[#113](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-113) [#114](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-114)"
+    },
+    {
+     "rank": 7,
+     "theme": "Cash and leverage",
+     "summary": "Record H1 FCF EUR 55.5m; leverage 2.06x, on track for ~1.8x",
+     "citations": "[#208](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-208) [#221](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-221)"
+    },
+    {
+     "rank": 8,
+     "theme": "Asia bolt-ons",
+     "summary": "Small Malaysia acquisition, Colombia-style build-up",
+     "citations": "[#566](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-566) [#578](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-578) [#579](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-579)"
+    }
+   ]
+  },
+  {
+   "event": "FY2024 results call",
+   "date": "2025-03-06",
+   "doc": "[Elis SA, 2024 Earnings Call, Mar 06, 2025](https://gam.prontonlp.com/#/ref/$DOCID_T000003394029)",
+   "sentiment": 0.78,
+   "tone": "Upbeat with a shareholder-return pivot; first explicit admission that pricing tailwind fades.",
+   "themes": [
+    {
+     "rank": 1,
+     "theme": "Record year and valuation disconnect",
+     "summary": "Record KPIs; stock below 2019 level; EV/EBITDA and P/E ~9.6x",
+     "citations": "[#19](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-19) [#358](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-358) [#369](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-369) [#370](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-370)"
+    },
+    {
+     "rank": 2,
+     "theme": "New capital-allocation policy and EUR 150m buyback",
+     "summary": "Bolt-ons EUR 50-150m/yr; deleverage capped at ~0.1x/yr; remaining cash to shareholders; EUR 150m buyback; DPS EUR 0.45 (+5%)",
+     "citations": "[#372](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-372) [#373](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-373) [#374](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-374) [#375](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-375) [#377](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-377) [#378](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-378)"
+    },
+    {
+     "rank": 3,
+     "theme": "FY2025 guidance and pricing normalisation",
+     "summary": "Organic slightly below 4%; margins/EPS/FCF slightly up; pricing negotiations less easy; EUR 30m energy savings given back",
+     "citations": "[#383](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-383) [#384](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-384) [#493](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-493) [#495](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-495) [#497](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-497)"
+    },
+    {
+     "rank": 4,
+     "theme": "Germany turnaround",
+     "summary": "Margin +450bp to 29%; more to come",
+     "citations": "[#122](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-122) [#130](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-130) [#483](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-483) [#484](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-484)"
+    },
+    {
+     "rank": 5,
+     "theme": "Pest control and clean room growth",
+     "summary": "Clean room EUR 255m (+11%); pest control EUR 75m (+24%)",
+     "citations": "[#79](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-79) [#86](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-86)"
+    },
+    {
+     "rank": 6,
+     "theme": "M&A discipline incl. US",
+     "summary": "US negotiation stopped in October (2024); no large deal discussions; bolt-on range is EV",
+     "citations": "[#451](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-451) [#453](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-453) [#460](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-460)"
+    },
+    {
+     "rank": 7,
+     "theme": "Cost inflation",
+     "summary": "Wages ~+4% in 2025; energy saving ~EUR 30m; French budget ~EUR 7m one-off cash tax",
+     "citations": "[#419](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-419) [#421](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-421) [#427](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-427)"
+    },
+    {
+     "rank": 8,
+     "theme": "Balance sheet",
+     "summary": "Leverage 1.85x; Moody's upgrade to Baa3",
+     "citations": "[#26](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-26) [#286](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-286)"
+    }
+   ]
+  },
+  {
+   "event": "Capital Markets Day",
+   "date": "2025-05-27",
+   "doc": "[Elis SA - Analyst/Investor Day](https://gam.prontonlp.com/#/ref/$DOCID_T000003468571)",
+   "sentiment": 0.77,
+   "tone": "Strategic and promotional; highest StrategicPosition volume; Surprise aspect negative (-0.68).",
+   "themes": [
+    {
+     "rank": 1,
+     "theme": "2025-28 financial targets",
+     "summary": "+5% to +6% growth (CFO wrap-up says 5.5%-6%) incl. ~4% organic; ~+20bp EBITDA margin p.a.; EBITDA/EBIT/EPS faster than revenue; ~EUR 1.5bn cumulative FCF",
+     "citations": "[#3206](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3206) [#3208](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3208) [#3214](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3214) [#3222](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3222) [#3225](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3225) [#3227](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3227) [#3229](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3229) [#3230](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3230)"
+    },
+    {
+     "rank": 2,
+     "theme": "Capital allocation",
+     "summary": "Bolt-ons up to EUR 150m EV (~EUR 100m avg); small deleveraging; buyback and/or special dividend yearly",
+     "citations": "[#3239](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3239) [#3240](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3240) [#3242](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3242) [#3243](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3243) [#3244](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3244)"
+    },
+    {
+     "rank": 3,
+     "theme": "Valuation gap",
+     "summary": "~11x vs US peers; 4x below historical multiples",
+     "citations": "[#3195](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3195) [#3197](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3197) [#3199](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3199)"
+    },
+    {
+     "rank": 4,
+     "theme": "Large-M&A boundaries",
+     "summary": "Was ready to evaluate Vestis; nothing on the table for US; European large player below EUR 1bn turnover",
+     "citations": "[#3277](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3277) [#3279](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3279) [#3280](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3280) [#3281](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3281)"
+    },
+    {
+     "rank": 5,
+     "theme": "Organic growth engine",
+     "summary": "Sales machine, outsourcing, small customers; analysts challenge 4% ambition",
+     "citations": "[#514](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-514) [#767](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-767) [#777](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-777)"
+    },
+    {
+     "rank": 6,
+     "theme": "Productivity and pricing power",
+     "summary": "Margin guide kept at 20bp despite productivity (mix, sales investment ~EUR 20m); price increases above inflation",
+     "citations": "[#3375](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3375) [#3378](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3378) [#3380](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3380) [#3382](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3382) [#3400](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3400)"
+    },
+    {
+     "rank": 7,
+     "theme": "Competition and market share",
+     "summary": "Analyst questions on competitive landscape; market-share-driven profitability",
+     "citations": "[#3408](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3408) [#1018](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-1018)"
+    }
+   ]
+  },
+  {
+   "event": "H1 2025 results call",
+   "date": "2025-07-30",
+   "doc": "[Elis SA, H1 2025 Earnings Call, Jul 30, 2025](https://gam.prontonlp.com/#/ref/$DOCID_T000003512646)",
+   "sentiment": 0.67,
+   "tone": "Constructive but defensive on LatAm and EBIT margin; Surprise aspect -0.89.",
+   "themes": [
+    {
+     "rank": 1,
+     "theme": "LatAm margin squeeze and Mexico tender win",
+     "summary": "LatAm margin -220bp to 32.5% (minimum wage, hours, premiums); Brazil productivity; big Mexico public-hospital tender won (\"massive\", \"super profitable\"); H2 back to 2024 margin",
+     "citations": "[#85](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-85) [#86](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-86) [#87](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-87) [#347](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-347) [#349](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-349) [#350](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-350) [#351](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-351)"
+    },
+    {
+     "rank": 2,
+     "theme": "Reaffirmed FY2025 guidance; calendar effects",
+     "summary": "Organic +3.5% (~4% ex calendar); all FY2025 objectives reaffirmed",
+     "citations": "[#11](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-11) [#18](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-18) [#288](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-288) [#289](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-289)"
+    },
+    {
+     "rank": 3,
+     "theme": "Margin vs D&A",
+     "summary": "EBITDA margin +30bp but EBIT margin -20bp (D&A 19.6%); linen capex normalising; D&A/sales peak 2025",
+     "citations": "[#12](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-12) [#13](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-13) [#147](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-147) [#166](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-166) [#409](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-409)"
+    },
+    {
+     "rank": 4,
+     "theme": "Regional dispersion",
+     "summary": "Denmark losses, Scandinavia margin -50bp (\"cash cow\"); Southern Europe margin flat; UK subdued",
+     "citations": "[#57](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-57) [#60](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-60) [#383](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-383) [#390](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-390) [#93](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-93) [#69](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-69)"
+    },
+    {
+     "rank": 5,
+     "theme": "CMD targets and capital returns",
+     "summary": "2025-28 targets restated; EUR 150m buyback (~4m shares at ~EUR 22 by June)",
+     "citations": "[#262](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-262) [#263](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-263) [#264](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-264) [#265](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-265) [#278](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-278) [#285](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-285)"
+    },
+    {
+     "rank": 6,
+     "theme": "Resilience",
+     "summary": "~70% of revenue resilient; no change in customer behaviour",
+     "citations": "[#21](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-21) [#439](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-439) [#469](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-469) [#474](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-474)"
+    },
+    {
+     "rank": 7,
+     "theme": "M&A",
+     "summary": "Carsan, Neutral, Ernst, Bodensee; good bolt-on year",
+     "citations": "[#101](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-101) [#104](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-104) [#106](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-106) [#452](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-452) [#456](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-456)"
+    }
+   ]
+  },
+  {
+   "event": "FY2025 results call",
+   "date": "2026-03-11",
+   "doc": "[Elis SA, 2025 Earnings Call, Mar 11, 2026](https://gam.prontonlp.com/#/ref/$DOCID_T000003676656)",
+   "sentiment": 0.81,
+   "tone": "Most positive call in the series (0.81; investmentScore 0.83); celebratory, capital-return-heavy.",
+   "themes": [
+    {
+     "rank": 1,
+     "theme": "Record 2025",
+     "summary": "Revenue EUR 4,796.8m; adj EBITDA margin 35.4%; FCF EUR 358.6m; leverage 1.75x",
+     "citations": "[#20](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-20) [#21](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-21) [#24](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-24) [#30](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-30) [#31](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-31)"
+    },
+    {
+     "rank": 2,
+     "theme": "Capital returns step-up",
+     "summary": "DPS EUR 0.48 (+7%); buyback up to EUR 500m tied to OCEANE soft call (debt component EUR 362m); new EUR 500-600m bond",
+     "citations": "[#505](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-505) [#507](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-507) [#513](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-513) [#514](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-514) [#517](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-517) [#519](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-519) [#526](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-526)"
+    },
+    {
+     "rank": 3,
+     "theme": "Energy hedging and Middle East",
+     "summary": "93%/94% hedged 2026; energy bill ~EUR 190m; no significant ME impact; fuel ~EUR 60m exposed",
+     "citations": "[#446](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-446) [#447](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-447) [#449](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-449) [#454](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-454) [#460](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-460)"
+    },
+    {
+     "rank": 4,
+     "theme": "FY2026 guidance",
+     "summary": "Organic slightly below 2025 (soft Q4-25 signings); slight margin expansion; HSD EPS; MSD FCF; ~1.65x",
+     "citations": "[#464](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-464) [#465](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-465) [#469](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-469) [#472](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-472) [#474](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-474) [#477](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-477)"
+    },
+    {
+     "rank": 5,
+     "theme": "M&A 2025",
+     "summary": "EUR 91m revenue acquired for EUR 108m (~1.2x sales, ~5x EBITDA pre-synergies)",
+     "citations": "[#93](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-93) [#116](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-116) [#117](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-117)"
+    },
+    {
+     "rank": 6,
+     "theme": "CSR 2030",
+     "summary": "70% taxonomy-aligned revenue; new 2030 plan",
+     "citations": "[#378](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-378) [#383](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-383)"
+    },
+    {
+     "rank": 7,
+     "theme": "Regional margin outlook",
+     "summary": "LatAm 2026 margin at least flat, probably up; Germany minimum-wage caution; UK competitive above 32%",
+     "citations": "[#580](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-580) [#587](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-587) [#740](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-740) [#744](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-744) [#746](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-746) [#750](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-750)"
+    },
+    {
+     "rank": 8,
+     "theme": "Q&A: price/volume, wages, energy savings",
+     "summary": "Price ~= volume in 2025/26; wages ~+4%; energy savings ~EUR 20m 2026, EUR 10-15m 2027; German contract ~EUR 30m/yr",
+     "citations": "[#708](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-708) [#712](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-712) [#640](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-640) [#641](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-641) [#625](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-625)"
+    }
+   ]
+  },
+  {
+   "event": "H1 2026 results call",
+   "date": "2026-07-29",
+   "doc": "[Elis SA, H1 2026 Earnings Call, Jul 29, 2026](https://gam.prontonlp.com/#/ref/$DOCID_T000003774119)",
+   "sentiment": 0.52,
+   "tone": "Defensive: confirmations and explanations of headwinds; investmentScore 0.20; macro/geopolitics share of sentences 5.2% vs <=1.6% previously.",
+   "themes": [
+    {
+     "rank": 1,
+     "theme": "Mexico tender reset and LatAm margin",
+     "summary": "50% of tender volume lost (~EUR 2m/month, ~EUR 14m FY26); LatAm margin -180bp; H2 decline more limited; recovery not in forecast",
+     "citations": "[#136](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-136) [#137](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-137) [#139](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-139) [#146](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-146) [#147](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-147) [#377](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-377) [#557](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-557) [#558](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-558)"
+    },
+    {
+     "rank": 2,
+     "theme": "Macro deterioration and resilience narrative",
+     "summary": "Record insolvencies France/Germany; organic >3% despite macro; France election risk downplayed",
+     "citations": "[#59](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-59) [#60](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-60) [#62](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-62) [#64](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-64) [#478](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-478) [#485](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-485)"
+    },
+    {
+     "rank": 3,
+     "theme": "Middle East cost inflation, hedging and cost savings",
+     "summary": "Spot energy +50%; 93-94% hedged 2026; other commodities EUR 7m H1; FY extra cost EUR 20-25m; ~EUR 10m mostly temporary savings plus surcharges",
+     "citations": "[#73](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-73) [#76](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-76) [#77](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-77) [#78](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-78) [#460](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-460) [#464](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-464) [#465](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-465) [#467](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-467)"
+    },
+    {
+     "rank": 4,
+     "theme": "Record contract signings and H2/2027 acceleration",
+     "summary": "Q1 record, Q2 better; 3-4 months to invoice; 2027 organic growth better with strong price indexation",
+     "citations": "[#31](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-31) [#41](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-41) [#333](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-333) [#497](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-497) [#502](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-502) [#523](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-523) [#524](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-524) [#472](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-472)"
+    },
+    {
+     "rank": 5,
+     "theme": "Wage pass-through lag",
+     "summary": "Germany and UK minimum wage hard to pass; LatAm wage inflation (Colombia +23%, Mexico +13%)",
+     "citations": "[#111](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-111) [#131](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-131) [#147](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-147) [#545](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-545) [#550](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-550)"
+    },
+    {
+     "rank": 6,
+     "theme": "Cash flow and working capital",
+     "summary": "FCF EUR -30.1m (WC, capex phasing); DSO \"a couple of days\"; capex FY close to 18%",
+     "citations": "[#262](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-262) [#263](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-263) [#251](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-251) [#253](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-253) [#429](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-429) [#424](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-424)"
+    },
+    {
+     "rank": 7,
+     "theme": "Capital returns and leverage",
+     "summary": "EUR 500m buyback completed; OCEANE soft call from mid-October; leverage 2.09x, ~1.65x by YE",
+     "citations": "[#36](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-36) [#292](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-292) [#297](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-297) [#302](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-302) [#276](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-276) [#279](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-279) [#341](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-341)"
+    },
+    {
+     "rank": 8,
+     "theme": "M&A pipeline",
+     "summary": "Four bolt-ons; pipeline \"significantly higher than usual\", targets bigger than usual EUR 15-20m but no >EUR 200m \"elephant\"",
+     "citations": "[#159](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-159) [#160](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-160) [#568](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-568) [#569](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-569) [#571](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-571) [#588](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-588) [#589](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-589)"
+    }
+   ]
+  }
+ ],
+ "shift": [
+  "Macro/geopolitics rose from <=1.6% of sentences (2024-25) to 5.2% in H1 2026; Mexico from 0.45% (FY2025) to 3.8%; FCF/working capital to 4.0% (highest); wage inflation to 2.4% (highest) [calc; model/A_theme_intensity.csv].",
+  "Celebratory topics fell: CSR/circular from 6.1% (FY2025) to 2.2%; dividend/buyback/convertible 5.5% to 3.6%; energy 5.5% to 3.2% [calc].",
+  "Analyst focus in H1 2026: contracts/volumes 11.3% of analyst sentences (<=3.8% before), pricing 8.5%, LatAm 7.0%, Mexico 5.6%, M&A 5.6%, France 5.6%, macro 4.2% [calc].",
+  "Narrative arc: 2024 \"record + upgrades\" [#29](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-29) -> FY2024/CMD \"valuation gap + shareholder returns\" [#358](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-358) [#3238](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3238) -> FY2025 \"record + EUR 500m buyback\" [#505](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-505) -> H1 2026 \"resilience despite headwinds, guidance confirmed\" [#19](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-19) [#37](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-37).",
+  "LatAm narrative reversal: H1 2025 Mexico tender \"massive... super profitable\" [#349](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-349) [#350](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-350); FY2025 \"huge contracts in Mexico\" [#588](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-588); Q1 2026 Mexico organic ~+16% [#43](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259598338-43); H1 2026 tender reset lost 50% of volume [#139](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-139)."
+ ]
+}

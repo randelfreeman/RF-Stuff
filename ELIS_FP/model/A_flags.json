@@ -1,0 +1,82 @@
+{
+ "flags": [
+  {
+   "severity": "HIGH",
+   "flag": "OCEANE 2029 soft call / leverage target dependency",
+   "detail": "YE2026 ~1.65x leverage target and the EUR 500m buyback were sized on conversion of the OCEANE 2029 (debt component EUR 362m). Soft call possible from Oct-2026 at 130% of par (CFO: ~EUR 21.5). After the 28-May-2026 adjustment (6,256.8564 shares per bond; 3,800 bonds = 23,776,054 shares) implied conversion price ~EUR 15.98 and 130% trigger ~EUR 20.78 [calc]. Last close EUR 21.26 (9-Oct-2026), 2026 low EUR 20.98 (21-Sep): cushion ~2% [calc]. Exact trigger test (averaging period) not in sources. If no conversion, YE leverage ~0.2x above target [e]. Bondholder put 22-Sep-2027.",
+   "evidence": "[#513](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-513) [#514](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-514) [#516](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-516) [#517](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-517) [#518](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-518) [#519](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-519) [#792](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-792) [#173](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-173) [#174](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-174) [#175](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-175) [#297](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-297) [#301](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-301) + prices: raw/A_earnings/012_getStockPrices.json"
+  },
+  {
+   "severity": "HIGH",
+   "flag": "First negative H1 FCF in sample; FCF bridge",
+   "detail": "H1 FCF EUR -30.1m vs +31m H1 2025 and +55.5m H1 2024 (H1 2023 EUR 17m): swing EUR -61.1m [calc] = CF before fin/tax +33.9m, net capex -47.3m, WC -51.0m, net interest +14.2m, tax -7.1m, leases -3.8m [calc]. Management: timing only; nearly all FCF generated in H2; FY MSD growth reaffirmed.",
+   "evidence": "[#16](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-16) [#90](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-90) [#93](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-93) [#94](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-94) [#96](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-96) [#97](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-97) [#245](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-245) [#263](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-263) [#190](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-190) [#208](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-208) [#197](https://gam.prontonlp.com/#/ref/$SENTID_T000003194583-197)"
+  },
+  {
+   "severity": "MEDIUM",
+   "flag": "Working capital: inventory build and DSO deterioration",
+   "detail": "WC change EUR -164.0m (vs -113m): flat-linen and workwear inventory build plus DSO 57 days (vs 54). CFO: \"a couple of days\", ~60 days group level, not to over-read. Credit-risk vigilance strengthened in Mexico. Securitisation programme (France, up to EUR 200m, since Jun-2023) and supplier-finance programme exist; utilisation not disclosed in indexed prose.",
+   "evidence": "[#93](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-93) [#253](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-253) [#429](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-429) [#430](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-430) [#433](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-433) [#127](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-127) [#128](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-128) [#498](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000256665099-498) [#583](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000256665099-583) [#253](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000256665099-253)"
+  },
+  {
+   "severity": "HIGH",
+   "flag": "Leverage jump",
+   "detail": "Leverage 2.09x at 30-Jun-2026 vs 1.75x Dec-2025 and 1.92x Jun-2025; net debt +EUR 650m in H1 (buyback 466.8m, dividend 105.6m, M&A 36m, negative FCF). CFO: 2026 \"not exactly a normative year\". Covenant <3.75x (RCF/USPP).",
+   "evidence": "[#103](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-103) [#104](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-104) [#265](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-265) [#266](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-266) [#277](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-277) [#278](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-278) [#551](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000256665099-551) [#581](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000256665099-581)"
+  },
+  {
+   "severity": "HIGH",
+   "flag": "Mexico tender reset and impairment indicators",
+   "detail": "Mexico federal healthcare tender re-run as multi-lot: 50% of volume lost (~EUR 2m/month from June; ~EUR 14m 2026); not in forecast to recover. Months earlier the tender win was \"massive... super profitable\" and Q1 2026 Mexico organic was ~+16%. SR: impairment indicators at Mexico (tenders not renewed) and Chile (EBITDA <90% of budget) CGUs; tests showed no impairment.",
+   "evidence": "[#136](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-136) [#137](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-137) [#139](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-139) [#377](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-377) [#349](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-349) [#350](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-350) [#43](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000259598338-43) [#329](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-329) [#330](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-330)"
+  },
+  {
+   "severity": "MEDIUM",
+   "flag": "Guidance credibility versus CMD and LatAm commentary",
+   "detail": "FY2025 adj EBIT margin flat at 16.0% vs \"slightly up\" guided; adj EBIT grew slower than revenue in FY2025 and H1 2026 vs CMD target of faster; organic below ~4% CMD target in 2025 and guided below again in 2026; LatAm 2026 margin guided flat-to-up in March, -180bp in H1 with further H2 decline expected; German healthcare contract restated from ~EUR 30m/yr to ~EUR 20m additional revenue in 2027; 2027 energy saving cut from EUR 10-15m to slightly below EUR 10m.",
+   "evidence": "[#384](https://gam.prontonlp.com/#/ref/$SENTID_T000003394029-384) [#27](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-27) [#3208](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3208) [#3230](https://gam.prontonlp.com/#/ref/$SENTID_T000003468571-3230) [#580](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-580) [#558](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-558) [#625](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-625) [#108](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-108) [#641](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-641) [#599](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-599)"
+  },
+  {
+   "severity": "MEDIUM",
+   "flag": "Accounting/restatements and one-offs",
+   "detail": "H1 2025 restated under IFRS 3 (Neutral PPA; NI 152.5m published -> 152.4m); FY2024 restated under IFRS 3 (Carsan, Wasned, Ernst); IFRS 9/7 amendment cut opening 2026 cash by EUR 1.8m (non-retrospective); IFRS 18 from 2027. FY2025 non-current income included ~EUR 25m insurance compensation; FY2025 IFRS 2 EUR 46m incl. one-offs; H1 2026 IFRS 2 down to 16.3m; French 2025 surtax gone (ETR 27.7% vs 29.3%); H1 net interest paid -EUR 14.2m from coupon timing after early refinancing.",
+   "evidence": "[#251](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-251) [#254](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-254) [#160](https://gam.prontonlp.com/#/ref/$SENTID_T000003512646-160) [#102](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000256665099-102) [#104](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000256665099-104) [#240](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-240) [#241](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-241) [#243](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-243) [#251](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-251) [#692](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-692) [#80](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-80) [#85](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-85) [#95](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-95)"
+  },
+  {
+   "severity": "MEDIUM",
+   "flag": "Source inconsistencies on bonds",
+   "detail": "SR: early refinancing in Nov-2025 of the EUR 600m bond originally maturing Mar-2026. FY2025 call: early repayment of a EUR 350m bond maturing Feb-2026 and a EUR 350m 3.375% Sep-2031 issue. Cannot reconcile from prose; flag for capital-structure workstream.",
+   "evidence": "[#95](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-95) [#326](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-326) [#329](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-329)"
+  },
+  {
+   "severity": "LOW",
+   "flag": "Transcription errors in H1 2026 call (use SR)",
+   "detail": "EBITDA margin \"35.7%\" (SR 34.7%); adj EBIT \"EUR 317 million\" (SR 370.0m); leverage \"2.9x\" (SR 2.09x); \"nearly 180 million share\" repurchased (466.8m/26.25 = ~17.8m [calc]); net income \"+3.3%\" (SR +7.3%); revenue \"EUR 245.1 billion\"; LatAm margin 30.8% (SR 30.7%).",
+   "evidence": "[#22](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-22) [#214](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-214) [#273](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-273) [#292](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-292) [#230](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-230) [#211](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-211) [#146](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-146) [#10](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-10) [#11](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-11) [#13](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-13) [#66](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-66)"
+  },
+  {
+   "severity": "MEDIUM",
+   "flag": "Management changes (not discussed on the call)",
+   "detail": "Effective 5-Sep-2026: Xavier Martire reappointed Chairman of Management Board and Louis Guyot reappointed (4 years); Yann Michel (Group COO) joins Management Board; Matthieu Lecharny did not seek reappointment and steps back from Group roles end-2026; from 1-Jul-2026 three new Deputy COOs; Andreas Schneider left as Deputy COO.",
+   "evidence": "[#139](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-139) [#142](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-142) [#143](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-143)"
+  },
+  {
+   "severity": "LOW",
+   "flag": "Shareholder register moves",
+   "detail": "BWSA crossed above/below/above 20% of voting rights (Feb/Mar/Jun-2026); CPPIB fell below 10% (Feb) then 5% (Jul); Invesco above 5% (Mar) and 10% (Jul); Wellington around 5%.",
+   "evidence": "[#166](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-166) [#167](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-167)"
+  },
+  {
+   "severity": "MEDIUM",
+   "flag": "Share-price path after buyback completion",
+   "detail": "Close peaked EUR 28.20 on 3-Jul-2026; buyback completed 9-Jul-2026; -5.68% on results day; EUR 21.26 on 9-Oct-2026 (-24.6% from peak, -18.4% from pre-results close) [calc]. No volume data in getStockPrices to assess buyback support.",
+   "evidence": "raw/A_earnings/012_getStockPrices.json; buyback completion [#17](https://gam.prontonlp.com/#/ref/$SENTID_NONSEC000264324010-17)"
+  },
+  {
+   "severity": "LOW",
+   "flag": "Coverage gaps in ProntoNLP",
+   "detail": "No Elis document between Aug-2025 and Jan-2026 (no Q3 2025 revenue release or call); no Q1/Q3 sales calls after Jan-2024; consensus limited to quarterly revenue; regional EUR revenue and \"Others\" only in non-indexed tables.",
+   "evidence": "A_earnings-032, A_earnings-035..038"
+  }
+ ]
+}

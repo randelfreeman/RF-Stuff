@@ -1,0 +1,27 @@
+{
+  "_call": "F_segments_kpis-083",
+  "_params": {"sentenceIds": ["T000003054377-218", "T000003774119-417", "T000003676656-300"], "beforeSentence": 4, "afterSentence": 7},
+  "_note": "Verbatim response below.",
+  "response": {
+  "results": [
+    {
+      "sentenceId": "T000003054377-218",
+      "text": "Let's have a look, sale at this -- just below EBITDA, you have around EUR 14 million, which corresponds to [indiscernible]. The CapEx stood at EUR 821 million in '23, around EUR 130 million more than in '22, as a percentage of revenue, representing 19% compared to 18.1% in the same period last year. This ratio increase reflects the implementation of [indiscernible] contracts, as well as marginally a slight evolution of the '23 mix towards more linen products and less washroom. '23 change in working capital was negative at minus EUR 6 million compared to minus EUR 43 million [Technical Difficulty] reflects the decrease of central linen inventories and the good cash collection at year-end. This performance of cash collection is very impressive, as the last 2 days were Saturday 30 and Sunday 31. Usually, this has a very negative impact on DSO. It happened, for example, in April '23, but our process are much better since COVID times, and we were able to keep the DSO at 55 days, only 1 day above ' 22. We estimate this overperformance to be around EUR 25 million positive impact. That, of course, we will see as a counterpart in the -- we have seen in the counterpart in the early days of January '24. All other items in the table are normative. Interest increased due to the higher cost of the new bonds despite the reduction of the debt. Cash tax paid is 24%. [#218](https://gam.prontonlp.com/#/ref/$SENTID_T000003054377-218)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    },
+    {
+      "sentenceId": "T000003774119-417",
+      "text": "In some cases also because part of the gain that we had with [indiscernible] hospital, very often it was by closing the internal laundry. And so, we have some situation probably where the small supplier is not able to deliver the full service and I'm sure that some hospitals are forced to reopen part of their equipment to process some additional volume. So it doesn't change significantly the fact that the market today is not able to offer a lot of capacity and it doesn't change the incredible strong position that we have for the mid long term in Mexico. Regarding the cash, Louis will cover the DSO subject. For CapEx, it's just a question of timing during the year. So no -- nothing behind. And when you will see for the full year '26, we will be close to the 18%. So it's just that we have some big project of new plants that has been delivered in the first semester. We can be happy that our industrial team has been super efficient and we have some projects that have been delivered on time in the first semester, even before what we were expecting. And so that's why we have this extra CapEx in the first semester in percentage, but it's absolutely not a structural change. And we will have for the full year '26 the amount expected in percentage of sales, so  close to the 18%, slightly above, but super close to the 18%. [#417](https://gam.prontonlp.com/#/ref/$SENTID_T000003774119-417)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    },
+    {
+      "sentenceId": "T000003676656-300",
+      "text": "It means that as a percentage of sales, it decreased by 1 full point, reflecting a much better linen CapEx ratio. That is linked to better purchasing condition and disciplined purchasing management. Importantly, this did not constrain growth, as investment levels remained fully aligned with commercial development and contract rates. Working capital evolution remained well controlled. We continue to manage receivables, payables and inventories with discipline, maintaining a structurally efficient working capital profile. Cash taxes were a bit high in terms of ratio and [ EBIT ] at 23.4% due to approximately EUR 10 million of one-off items during the year, including the French exceptional [ over ] tax and some catch-up adjustments related to prior years. We expect that ratio to come back to 22% in '26. Net interest paid increased year-on-year. This reflects the higher cost of refinancing and the early reimbursement of the '26 bonds, [ procuring ] a double coupon of EUR 8 million...  [Technical Difficulty]  Hello, everybody. Sorry about that. [#300](https://gam.prontonlp.com/#/ref/$SENTID_T000003676656-300)",
+      "companyName": "[Elis SA](https://gam.prontonlp.com/#/ref/$COMPANY_27989)",
+      "companyId": "27989"
+    }
+  ]
+}
+}

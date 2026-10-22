@@ -1,0 +1,24 @@
+{
+  "total": 1,
+  "results": [
+    {
+      "companyId": "692472",
+      "companyName": "[Compass Group PLC](https://gam.prontonlp.com/#/ref/$COMPANY_692472)",
+      "GVKEY": "243090",
+      "marketCap": 50057221402,
+      "country": "GB",
+      "ticker": "CPG",
+      "CIK": "0001091877",
+      "displayName": "[Compass Group PLC](https://gam.prontonlp.com/#/ref/$COMPANY_692472)",
+      "subSector": "Hotels Restaurants and Leisure",
+      "hqCountry": "United Kingdom",
+      "ISIN": "GB00BD6K4575",
+      "updateFromCorpus": "non_sec_filings",
+      "originalCap": 50057221402,
+      "collapseKey": "692472",
+      "exchange": "LSE",
+      "webpage": "www.compass-group.com",
+      "sector": "Hotels Restaurants and Leisure"
+    }
+  ]
+}
