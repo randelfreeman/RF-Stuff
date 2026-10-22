@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>YTL Corporation Berhad (YTL MK) — Holding Company Analysis</title>
+<style>
+  @page { size: A4; margin: 15mm 14mm 16mm 14mm; }
+  :root{
+    --ink:#15202b; --muted:#5b6b7c; --line:#d6dee6; --line2:#eef2f6;
+    --accent:#0f4c75; --accent2:#1b6ca8; --bull:#1d6b45; --bear:#9b2c2c;
+    --warn:#8a5a00; --bg-soft:#f6f9fb;
+  }
+  *{box-sizing:border-box;}
+  body{ font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; color:var(--ink);
+        font-size:9.2pt; line-height:1.45; margin:0; }
+  h1{ font-size:20pt; margin:0 0 2mm; letter-spacing:-.4pt; }
+  h2{ font-size:12.2pt; margin:8mm 0 2.5mm; padding-bottom:1.4mm;
+      border-bottom:1.6pt solid var(--accent); color:var(--accent); letter-spacing:-.2pt;
+      page-break-after:avoid; }
+  h3{ font-size:10.2pt; margin:5mm 0 1.6mm; color:var(--accent2); page-break-after:avoid; }
+  h4{ font-size:9.4pt; margin:3.5mm 0 1mm; color:var(--ink); page-break-after:avoid; }
+  p{ margin:0 0 2.2mm; }
+  ul,ol{ margin:0 0 2.6mm; padding-left:5mm; }
+  li{ margin-bottom:1.1mm; }
+  table{ width:100%; border-collapse:collapse; margin:2mm 0 3mm; font-size:8.1pt; page-break-inside:avoid; }
+  th{ background:var(--accent); color:#fff; text-align:left; padding:1.6mm 1.8mm; font-weight:600;
+      font-size:7.8pt; letter-spacing:.15pt; }
+  td{ padding:1.5mm 1.8mm; border-bottom:.6pt solid var(--line); vertical-align:top; }
+  tr:nth-child(even) td{ background:var(--bg-soft); }
+  .num{ text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap; }
+  tr.total td{ font-weight:700; background:#e6eef5 !important; border-top:1.2pt solid var(--accent);
+               border-bottom:1.2pt solid var(--accent); }
+  tr.sub td{ font-style:italic; color:var(--muted); }
+  .lead{ font-size:9.6pt; }
+  .cover{ border-top:5pt solid var(--accent); padding-top:4mm; margin-bottom:5mm; }
+  .sub{ color:var(--muted); font-size:8.6pt; }
+  .kpis{ display:flex; gap:2.5mm; margin:4mm 0 3mm; }
+  .kpi{ flex:1; border:.8pt solid var(--line); border-top:2.4pt solid var(--accent2);
+        padding:2.2mm 2.4mm; background:#fff; }
+  .kpi .l{ font-size:6.9pt; text-transform:uppercase; letter-spacing:.5pt; color:var(--muted); }
+  .kpi .v{ font-size:13pt; font-weight:700; margin-top:.6mm; letter-spacing:-.3pt; }
+  .kpi .n{ font-size:7pt; color:var(--muted); margin-top:.4mm; }
+  .box{ border:.8pt solid var(--line); background:var(--bg-soft); padding:2.6mm 3mm; margin:2.5mm 0 3mm;
+        page-break-inside:avoid; }
+  .box h4{ margin-top:0; }
+  .callout{ border-left:3pt solid var(--accent2); background:#f2f7fb; padding:2.4mm 3mm; margin:2.5mm 0 3mm;
+        page-break-inside:avoid; }
+  .bull{ border-left:3pt solid var(--bull); background:#f2f8f5; }
+  .bear{ border-left:3pt solid var(--bear); background:#fdf4f4; }
+  .warnbox{ border-left:3pt solid var(--warn); background:#fdf9f0; }
+  .tag{ display:inline-block; font-size:6.8pt; font-weight:700; text-transform:uppercase;
+        letter-spacing:.5pt; padding:.6mm 1.6mm; border-radius:1.5pt; color:#fff; background:var(--accent2); }
+  .tag.g{background:var(--bull);} .tag.r{background:var(--bear);} .tag.a{background:var(--warn);}
+  .two{ display:flex; gap:4mm; } .two > div{ flex:1; }
+  .footnote{ font-size:7.3pt; color:var(--muted); line-height:1.35; }
+  hr{ border:0; border-top:.6pt solid var(--line); margin:4mm 0; }
+  .pb{ page-break-before:always; }
+  .nobreak{ page-break-inside:avoid; }
+  .src{ font-size:7.2pt; color:var(--muted); }
+  .src li{ margin-bottom:.6mm; word-break:break-all; }
+  code{ font-family:"SF Mono",Consolas,monospace; font-size:7.8pt; background:#eef2f6; padding:.3mm 1mm; }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <h1>YTL Corporation Berhad</h1>
+  <p class="lead" style="margin-bottom:1mm;"><strong>YTL MK / 4677.KL</strong> &nbsp;·&nbsp; Bursa Malaysia &nbsp;·&nbsp; Diversified infrastructure holding company</p>
+  <p class="sub">Institutional equity research note &nbsp;|&nbsp; Holding-company / sum-of-the-parts analysis &nbsp;|&nbsp; Prepared 30 August 2026 &nbsp;|&nbsp; Market data as at 26–28 August 2026 unless stated</p>
+</div>
+
+<div class="kpis">
+  <div class="kpi"><div class="l">Share price</div><div class="v">RM 2.58</div><div class="n">52wk RM1.58–2.82</div></div>
+  <div class="kpi"><div class="l">Market cap</div><div class="v">RM 30.0bn</div><div class="n">11,624m shares</div></div>
+  <div class="kpi"><div class="l">Est. SOTP / share</div><div class="v">RM 3.10</div><div class="n">RM2.90 fully diluted</div></div>
+  <div class="kpi"><div class="l">Discount to SOTP</div><div class="v">16.8%</div><div class="n">11.0% fully diluted</div></div>
+  <div class="kpi"><div class="l">FY26 DPS</div><div class="v">8.0 sen</div><div class="n">3.1% yield</div></div>
+</div>
+
+<h2>1. Executive Summary</h2>
+
+<p>YTL Corporation is the top holding company of the Yeoh family's Malaysian infrastructure group. Its value is overwhelmingly a claim on <strong>four listed vehicles</strong> — YTL Power International, Malayan Cement, YTL Hospitality REIT and Singapore-listed Starhill Global REIT (plus SGX-listed NSL Ltd held through YTL Cement) — wrapped around a set of unlisted businesses in construction, hotels, property and cement.</p>
+
+<ul>
+  <li><strong>The listed stakes alone are worth roughly RM31.3bn, or RM2.70 per share — approximately 105% of the current market capitalisation.</strong> On our estimates the market is therefore ascribing a negative value to the entire unlisted estate (hotels, construction, property, the non-Malayan-Cement part of YTL Cement) net of holding-company debt.</li>
+  <li>Adding an estimated <strong>RM9.2bn of unlisted assets</strong> and deducting an estimated <strong>RM4.5bn of net debt sitting outside the listed subsidiaries</strong> gives a sum-of-the-parts of <strong>RM3.10/share — a 16.8% discount</strong>. This is materially narrower than the "~30% conglomerate discount" often quoted, because most sell-side SOTPs do not fully charge the ex-listed leverage or the outstanding warrants.</li>
+  <li><strong>The single most important, least-discussed fact in this story is the 2025 bonus warrant issue.</strong> Up to 2.27bn free non-tradeable YTL Corp warrants struck at RM1.50 (three-year tenure) are deeply in the money against a RM2.58 share price and a RM3.10 SOTP. Full exercise adds ~20% to share count and destroys roughly <strong>20 sen per share of NAV</strong>. Fully diluted, the discount is only ~11%.</li>
+  <li>YTL Power is up ~63% year-to-date on AI data-centre enthusiasm. YTL Corp is a <em>levered claim on an asset that has already re-rated</em>. That is the central risk: the stub is cheap, but the anchor asset is not.</li>
+  <li><strong>Management's track record on discount narrowing is mixed-to-poor.</strong> Genuine positives (2012 YTL Cement delisting, 2018 YTL Land privatisation, the 2022 cement consolidation, the January 2026 RM755m Malayan Cement placement) are offset by adding two new listed layers since 2024 (Ranhill, NSL), a dormant buyback (58.7m treasury shares, ~0.5% of capital, with no purchases in the 12 months to the 2025 statement date) and a warrant issue the market read as dilution — both stocks fell sharply on announcement.</li>
+</ul>
+
+<div class="callout">
+<h4>Our conclusion in one line</h4>
+<p style="margin-bottom:0;">YTL Corp is <strong>modestly cheap on assets and expensive on earnings</strong> (~20x FY26 attributable EPS). The discount is real but roughly half as wide as the consensus narrative claims once warrants and ex-listed debt are charged. We would own it as a lower-beta way to hold YTL Power's data-centre optionality plus a free option on Malaysian cement — <strong>not</strong> as a discount-closure trade, because the controlling family has a structural economic incentive to keep the holding-company layer in place.</p>
+</div>
+
+<h3>Basis of preparation and data caveats</h3>
+<div class="box">
+<p class="footnote" style="margin-bottom:1.5mm;">This note was compiled from public sources: exchange filings coverage, company results releases, press reporting and market data. Direct retrieval of YTL Corp's FY2025/FY2026 annual report PDF and Bursa filing archive was not possible from this environment, so a number of items are <strong>estimates or reconciliations</strong> rather than transcriptions of the filings. Where that is the case it is flagged explicitly. Specifically:</p>
+<ul class="footnote" style="margin-bottom:0;">
+  <li><strong>Balance-sheet dates are not uniform.</strong> Group figures are as at 31 March 2026 (3QFY26); YTL Power and Malayan Cement subsidiary debt figures are the latest disclosed and may pre-date 30 June 2026. Any reconciliation therefore carries date-mismatch error.</li>
+  <li><strong>YTL Corp's holding in YTL Power is the largest single uncertainty.</strong> Sources for 2026 range from 45.6% to 52%; the FY2025 annual report is cited as 48.45% direct. We use 45.6% as the base and provide a sensitivity. Every 1pp of YTL Power equals ~RM469m, or 4 sen per YTL Corp share.</li>
+  <li><strong>Unlisted asset values are our estimates</strong>, built from segment profitability, transaction comparables and disclosed land/asset positions. They are not company disclosures. Ranges are given.</li>
+  <li>FX assumptions: <code>SGD/MYR 3.28</code>, <code>GBP/MYR 5.50</code>.</li>
+  <li>Before acting on this note, the ex-listed net debt bridge and the YTL Power stake should be verified against the FY2026 annual report (expected October 2026) and the Bursa substantial-shareholder register.</li>
+</ul>
+</div>
+
+<h2>2. Group Structure</h2>
+
+<p>YTL Corp sits at the top of a four-tier structure. Understanding <em>which</em> tier an asset sits in is essential, because several assets commonly attributed to YTL Corp (Brabazon, the Kulai data centres, Ranhill, Yes/YTL Communications, Wessex Water) are held inside <strong>YTL Power</strong> and are already reflected in YTL Power's quoted price.</p>
+
+<table>
+<thead><tr><th style="width:26%">Tier</th><th>Contents</th></tr></thead>
+<tbody>
+<tr><td><strong>YTL Corporation Bhd</strong><br><span class="sub">Listed — YTL MK</span></td><td>Top holdco. Direct interests in YTL Power, YTL Cement (unlisted, wholly owned), YTL Hospitality REIT, Starhill Global REIT, YTL Construction, YTL Hotels, property/land, management services.</td></tr>
+<tr><td><strong>YTL Power International</strong><br><span class="sub">Listed — YTLPOWR MK</span></td><td>Wessex Water (UK regulated water), PowerSeraya/Geneco (Singapore generation &amp; retail), YTL Data Center Holdings (Kulai + Sedenak), YTL Communications "Yes" (telco), Ranhill Utilities (53.19% with SIPP Power, <em>listed</em>), Attarat Power Jordan (45%), PT Jawa Power (Indonesia), YTL Developments UK (Brabazon, Bristol).</td></tr>
+<tr><td><strong>YTL Cement Bhd</strong><br><span class="sub">Unlisted, YTL Corp subsidiary</span></td><td>Holds ~66% of Malayan Cement (<em>listed</em>) and 81.24% of NSL Ltd (<em>SGX-listed</em>), plus Singapore concrete/IBS operations and Cepco (acquired April 2026 for RM103.8m).</td></tr>
+<tr><td><strong>Operating subsidiaries</strong></td><td>YTL Construction, YTL Hotels &amp; Properties, YTL Land &amp; Development (privatised 2018), YTL e-Solutions/Digital, Pintar Projek (REIT manager), YTL Starhill Global REIT Management.</td></tr>
+</tbody>
+</table>
+
+<div class="warnbox callout">
+<p style="margin-bottom:0;"><strong>Layering matters.</strong> Ranhill and NSL are the third and fourth <em>listed</em> entities inside the group, both added since May 2024. Every additional listed layer between YTL Corp and an operating asset compounds the discount at which minorities are marked — a "discount on a discount". Since 2024 YTL has been <em>adding</em> layers, not removing them.</p>
+</div>
+
+<h2 class="pb">3. Listed Holdings</h2>
+
+<h3>3.1 Holdings, stakes and value</h3>
+
+<table>
+<thead>
+<tr>
+  <th>Listed entity</th><th>Ticker</th><th>Held via</th>
+  <th class="num">Stake<br>held</th><th class="num">Shares/units<br>held (m)</th>
+  <th class="num">Price</th><th class="num">Entity<br>mkt cap</th><th class="num">Value to<br>YTL (RMm)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><strong>YTL Power International</strong><br><span class="sub">UK water, SG power, data centres, telco</span></td>
+  <td>YTLPOWR MK</td><td>Direct</td>
+  <td class="num">45.6%<sup>1</sup></td><td class="num">3,979</td>
+  <td class="num">RM5.37</td><td class="num">RM46.9bn</td><td class="num"><strong>21,367</strong></td>
+</tr>
+<tr>
+  <td><strong>Malayan Cement</strong><br><span class="sub">Malaysian cement / concrete leader</span></td>
+  <td>MCEMENT MK</td><td>YTL Cement (100%)</td>
+  <td class="num">66.0%</td><td class="num">917</td>
+  <td class="num">RM6.86</td><td class="num">RM9.5bn</td><td class="num"><strong>6,289</strong></td>
+</tr>
+<tr>
+  <td><strong>Starhill Global REIT</strong><br><span class="sub">Wisma Atria/Ngee Ann City, Starhill Gallery</span></td>
+  <td>P40U SP</td><td>Direct + manager</td>
+  <td class="num">38.0%</td><td class="num">~953</td>
+  <td class="num">S$0.53</td><td class="num">S$1.33bn</td><td class="num"><strong>1,658</strong></td>
+</tr>
+<tr>
+  <td><strong>YTL Hospitality REIT</strong><br><span class="sub">Malaysian/Australian/Japanese hotels</span></td>
+  <td>YTLREIT MK</td><td>55.0% direct + 3.6% indirect</td>
+  <td class="num">58.6%</td><td class="num">1,017</td>
+  <td class="num">RM1.10</td><td class="num">RM1.91bn</td><td class="num"><strong>1,119</strong></td>
+</tr>
+<tr>
+  <td><strong>NSL Ltd</strong><br><span class="sub">Singapore IBS / precast / building products</span></td>
+  <td>N02 SP</td><td>YTL Cement</td>
+  <td class="num">81.24%</td><td class="num">303</td>
+  <td class="num">S$0.91</td><td class="num">S$0.34bn</td><td class="num"><strong>906</strong></td>
+</tr>
+<tr class="total"><td colspan="7">Total value of listed holdings</td><td class="num">31,339</td></tr>
+<tr class="total"><td colspan="7">Per YTL Corp share (11,624m shares)</td><td class="num">RM 2.70</td></tr>
+<tr class="sub">
+  <td><em>Memo: Ranhill Utilities</em><br><span class="sub">Johor water &amp; power — held inside YTL Power</span></td>
+  <td>RANHILL MK</td><td>YTL Power + SIPP Power</td>
+  <td class="num">53.19%</td><td class="num">689</td>
+  <td class="num">RM1.79</td><td class="num">RM2.3bn</td><td class="num"><em>in YTLPOWR</em></td>
+</tr>
+</tbody>
+</table>
+<p class="footnote"><sup>1</sup> Sources for 2026 range 45.6%–52%; FY2025 annual report cited at 48.45% direct. See sensitivity in §7.2. Ranhill is <em>not</em> added to the total — it is consolidated within YTL Power and already inside YTLPOWR's quoted market capitalisation. Double-counting it is a common error in third-party SOTPs.</p>
+
+<h3>3.2 Recent changes in listed holdings</h3>
+
+<table>
+<thead><tr><th style="width:14%">Date</th><th style="width:24%">Action</th><th class="num" style="width:11%">Size</th><th>Read-through</th></tr></thead>
+<tbody>
+<tr><td>May 2024</td><td>SIPP Power (70% YTL Power) buys 31.42% of <strong>Ranhill Utilities</strong> from Tan Sri Hamdan Mohamad at 99.5 sen; triggers MGO</td><td class="num">RM405m</td><td>Group stake settles at 53.19% (689.4m shares) at MGO close; listing status maintained. Strategic fit with Johor water/JS-SEZ, but <strong>adds a listed layer</strong>.</td></tr>
+<tr><td>Jun 2024</td><td>YTL Cement places 5% of <strong>Malayan Cement</strong> at RM4.93</td><td class="num">RM325m</td><td>Driven by Bursa's 25% public-float requirement, not value crystallisation. Stake 78.58% → 73.58%.</td></tr>
+<tr><td>Oct 2024</td><td>YTL Cement completes acquisition of 81.24% of <strong>NSL Ltd</strong> (SGX) at S$0.75/share</td><td class="num">RM792m</td><td>IBS/precast expansion into Singapore. <strong>Adds a second listed layer</strong> under YTL Cement.</td></tr>
+<tr><td>Apr–Jun 2025</td><td><strong>1-for-5 bonus issue of free non-tradeable warrants</strong> at YTL Corp (RM1.50 strike, up to 2.27bn warrants) and YTL Power (RM2.45 strike, up to 1.67bn warrants), 3-year tenure</td><td class="num">up to<br>RM3.4bn</td><td>Both stocks sold off sharply on announcement. Economically a deferred rights issue struck well below NAV. <strong>The most consequential structural change of the period.</strong></td></tr>
+<tr><td>Jan 2026</td><td>YTL Cement secondary placement of up to 7.2% (100m shares) of <strong>Malayan Cement</strong> at RM7.55 (3.6% discount to RM7.83)</td><td class="num">RM755m</td><td>Genuine monetisation near the highs; stake falls to ~66%. Best-executed capital action of the cycle.</td></tr>
+<tr><td>Apr 2026</td><td>YTL Cement takes control of <strong>Cepco</strong></td><td class="num">RM104m</td><td>Bolt-on building-materials consolidation.</td></tr>
+<tr><td>2026 YTD</td><td><strong>EPF</strong> raises YTL Corp stake from 10.28% to 12.6% (1.47bn shares); also adding to YTL Power (10m shares on 17 Aug 2026)</td><td class="num">~RM0.7bn</td><td>The domestic institutional swing holder is accumulating into the discount — relevant to the activism section (§13).</td></tr>
+<tr><td>Ongoing</td><td>Warrant conversions at YTL Power (share count +5.1% over 12 months)</td><td class="num">—</td><td>Explains why YTL Corp's YTL Power stake appears to have drifted from ~48% toward ~46%: <strong>dilution at the subsidiary the holdco is not fully offsetting</strong>. This requires verification against the register.</td></tr>
+</tbody>
+</table>
+
+<h2>4. Treasury Shares</h2>
+
+<table>
+<thead><tr><th style="width:45%">Item</th><th class="num">Amount</th><th class="num">% of issued capital</th></tr></thead>
+<tbody>
+<tr><td>Ordinary shares in issue</td><td class="num">11,624m</td><td class="num">100.0%</td></tr>
+<tr><td><strong>Treasury shares held</strong> (per 2025 Share Buy-Back Statement, at last practicable date)</td><td class="num">58,675,950</td><td class="num">~0.50%</td></tr>
+<tr><td>Purchases / resales / transfers / cancellations in the preceding 12 months</td><td class="num">Nil</td><td class="num">—</td></tr>
+<tr><td>Mandate ceiling (renewed annually; buyback plan commenced 27 May 2022)</td><td class="num">10% of issued capital</td><td class="num">10.0%</td></tr>
+<tr class="total"><td>Unused headroom</td><td class="num">~1,104m shares</td><td class="num">9.5%</td></tr>
+</tbody>
+</table>
+
+<div class="callout bear">
+<p style="margin-bottom:0;"><strong>Assessment:</strong> The treasury position is immaterial and, more importantly, <strong>static</strong>. The buyback mandate has been renewed every year since 2021 but the company bought no shares in the 12 months to the 2025 statement date — a period in which the stock traded as low as RM1.58 against a SOTP above RM3. A company that will not buy its own equity at a ~40% discount, while simultaneously issuing 2.27bn warrants at RM1.50, is signalling that per-share value is not the governing objective. The 58.7m treasury shares have also never been cancelled.</p>
+</div>
+
+<h2 class="pb">5. Private (Unlisted) Holdings and Estimated Value</h2>
+
+<p>These are our estimates, not company disclosures. Method is stated per line. Base case is used in the SOTP; the range reflects genuine uncertainty rather than false precision.</p>
+
+<table>
+<thead>
+<tr><th style="width:22%">Asset</th><th style="width:34%">What it is</th><th style="width:22%">Valuation method</th><th class="num">Base (RMm)</th><th class="num">Range (RMm)</th></tr>
+</thead>
+<tbody>
+<tr>
+  <td><strong>YTL Hotels &amp; Properties</strong><br><span class="sub">(hotels outside the REIT)</span></td>
+  <td>Niseko Village resort estate (Japan), Threadneedles &amp; Monkey Island Estate (UK), Hôtel Muse Saint-Tropez, Gaya Island Resort, Spa Village brand, plus the hotel operating/management platform across Malaysia, Thailand, Japan, Australia, France, Netherlands and the UK.</td>
+  <td>Per-key comparables on trophy resort assets + capitalised management fees</td>
+  <td class="num">3,000</td><td class="num">2,000 – 4,500</td>
+</tr>
+<tr>
+  <td><strong>Property investment &amp; development (MY/SG)</strong></td>
+  <td>Sentul master plan (~294 acres of KL city-fringe land, held at historic cost), Sentul Depot, Lake Edge, Singapore residential (3 Orchard By-The-Park). YTL Land &amp; Development was privatised in 2018 and the land bank has not been revalued into the share price.</td>
+  <td>Land value less development cost; discounted RNAV</td>
+  <td class="num">2,500</td><td class="num">1,500 – 3,500</td>
+</tr>
+<tr>
+  <td><strong>YTL Cement — residual</strong><br><span class="sub">(ex-Malayan Cement, ex-NSL)</span></td>
+  <td>Singapore concrete/aggregates operations, Cepco, and other building-materials interests not yet injected into Malayan Cement. Note the group is running an "asset rationalisation and optimisation plan" that progressively pushes these <em>into</em> the listed vehicle.</td>
+  <td>8–10x normalised EBIT</td>
+  <td class="num">1,500</td><td class="num">800 – 2,500</td>
+</tr>
+<tr>
+  <td><strong>YTL Construction</strong></td>
+  <td>Captive EPC arm. Delivers group data-centre, rail (Gemas–JB) and infrastructure work. <strong>Loss-making in FY2026</strong> (segment estimated at roughly –RM62m for the year following a major contract completion).</td>
+  <td>Asset/order-book backing, not earnings — no multiple applied to a loss</td>
+  <td class="num">1,500</td><td class="num">500 – 3,000</td>
+</tr>
+<tr>
+  <td><strong>Fund / REIT management franchises</strong></td>
+  <td>Pintar Projek (manager of YTL Hospitality REIT) and YTL Starhill Global REIT Management (Singapore). Annuity fee streams, wholly owned.</td>
+  <td>Capitalised base + performance fees</td>
+  <td class="num">400</td><td class="num">250 – 600</td>
+</tr>
+<tr>
+  <td><strong>YTL Digital / e-Solutions / education / other</strong></td>
+  <td>Digital services, YTL International College of Hotel Management, Sentul Depot events, ancillary businesses.</td>
+  <td>Book value / nominal</td>
+  <td class="num">300</td><td class="num">100 – 600</td>
+</tr>
+<tr class="total"><td colspan="3">Total unlisted assets</td><td class="num">9,200</td><td class="num">5,150 – 14,700</td></tr>
+<tr class="total"><td colspan="3">Per YTL Corp share</td><td class="num">RM 0.79</td><td class="num">RM0.44 – 1.26</td></tr>
+</tbody>
+</table>
+
+<div class="warnbox callout">
+<h4>Two assets frequently double-counted — do not add them here</h4>
+<ul style="margin-bottom:0;">
+<li><strong>Brabazon, Bristol.</strong> The 380-acre former Filton Airfield township (up to 25,000 homes under its new-town designation; RHB uses a £6bn GDV over 20 years, ~RM33bn, worth ~36 sen per <em>YTL Power</em> share) sits inside <strong>YTL Power</strong>, not YTL Corp directly. It is captured in the RM21.4bn YTL Power line.</li>
+<li><strong>The Kulai and Sedenak data centres and YTL AI Cloud.</strong> Also inside YTL Power. The August 2026 JLand/SIPP Power partnership at Sedenak Tech Park West (145 acres, option on 400 more) supports a plan to roughly double capacity toward 2.4GW by 2030.</li>
+</ul>
+</div>
+
+<h2>6. Non-Consolidated Net Debt — Stripping Out the Listed Subsidiaries</h2>
+
+<p>YTL Corp's consolidated balance sheet is dominated by YTL Power's project and regulated-utility debt, which is non-recourse to the holding company in economic substance. The question that matters for a holdco investor is: <strong>how much debt sits at, or close to, the parent — that is, outside the listed subsidiaries?</strong> The bridge below strips out YTL Power, Malayan Cement and YTL Hospitality REIT.</p>
+
+<table>
+<thead><tr><th style="width:38%">Entity / perimeter</th><th class="num">Borrowings &amp; debt securities (RMm)</th><th class="num">Cash &amp; deposits (RMm)</th><th class="num">Net debt / (cash) (RMm)</th><th>As at</th></tr></thead>
+<tbody>
+<tr><td><strong>YTL Corp consolidated group</strong></td><td class="num">52,320</td><td class="num">14,480</td><td class="num">37,840</td><td>31 Mar 2026</td></tr>
+<tr><td>less: YTL Power International group</td><td class="num">(38,925)</td><td class="num">(10,048)</td><td class="num">(28,877)</td><td>latest reported</td></tr>
+<tr><td>less: Malayan Cement group</td><td class="num">(2,590)</td><td class="num">(848)</td><td class="num">(1,742)</td><td>30 Jun 2025</td></tr>
+<tr><td>less: YTL Hospitality REIT</td><td class="num">(2,392)</td><td class="num">(300)<sup>e</sup></td><td class="num">(2,092)</td><td>latest reported</td></tr>
+<tr class="total"><td>= Residual "ex-listed" perimeter<br><span class="sub" style="font-weight:400">Holdco + YTL Cement residual + construction + hotels + property + Starhill stake</span></td><td class="num">8,413</td><td class="num">3,284</td><td class="num">5,129</td><td>—</td></tr>
+</tbody>
+</table>
+
+<div class="box">
+<h4>Sensitivity and the honest range</h4>
+<p style="margin-bottom:1.5mm;">The group also reports a broader liquidity measure — cash <em>plus short-term investments</em> of roughly RM19.6bn versus the RM14.5bn of cash and deposits used above. Running the same bridge on that basis, and assuming YTL Power holds the majority of those investments, the residual perimeter comes out closer to <strong>RM3.0bn net debt</strong>.</p>
+<table style="margin-bottom:1mm;">
+<thead><tr><th>Scenario</th><th class="num">Ex-listed net debt (RMm)</th><th class="num">Per YTL Corp share</th></tr></thead>
+<tbody>
+<tr><td>Conservative — cash &amp; deposits only</td><td class="num">5,129</td><td class="num">RM0.44</td></tr>
+<tr class="total"><td>Base case used in SOTP</td><td class="num">4,500</td><td class="num">RM0.39</td></tr>
+<tr><td>Including short-term investments</td><td class="num">~3,000</td><td class="num">RM0.26</td></tr>
+</tbody>
+</table>
+<p class="footnote" style="margin-bottom:0;"><strong>Caveat:</strong> subsidiary balance-sheet dates do not all match the 31 March 2026 group date, and Malayan Cement in particular has deleveraged through FY2026 on strong cash generation plus the RM755m placement proceeds (which accrue to YTL Cement, i.e. to the residual perimeter, not to Malayan Cement). A true <em>company-only</em> holdco balance sheet is disclosed in the annual report and should be checked. Our judgement is that the ex-listed perimeter carries meaningful — not trivial — leverage: a good deal of it sits at YTL Cement (which borrowed for NSL) and against the hotel estate.</p>
+</div>
+
+<div class="callout">
+<h4>Look-through leverage — the number bulls understate</h4>
+<p style="margin-bottom:0;">Attributable net debt = 45.6% × RM28.9bn (YTL Power) + 66.0% × RM1.7bn (Malayan Cement) + 58.6% × RM2.1bn (REIT) + RM4.5bn (residual) ≈ <strong>RM20.0bn</strong>, against a RM30.0bn equity value. On a look-through basis an investor is buying roughly <strong>RM50bn of enterprise value with RM30bn of equity</strong>. The holding-company discount is partly compensation for that gearing, and gearing is why the discount should <em>not</em> be expected to close to zero.</p>
+</div>
+
+<h2 class="pb">7. Sum-of-the-Parts and the Discount</h2>
+
+<h3>7.1 Base case</h3>
+<table>
+<thead><tr><th style="width:46%">Component</th><th class="num">RMm</th><th class="num">RM / share</th><th class="num">% of GAV</th></tr></thead>
+<tbody>
+<tr><td>Listed holdings (§3.1)</td><td class="num">31,339</td><td class="num">2.70</td><td class="num">77.3%</td></tr>
+<tr><td>Unlisted holdings (§5)</td><td class="num">9,200</td><td class="num">0.79</td><td class="num">22.7%</td></tr>
+<tr class="total"><td>Gross asset value</td><td class="num">40,539</td><td class="num">3.49</td><td class="num">100.0%</td></tr>
+<tr><td>less: ex-listed net debt (§6)</td><td class="num">(4,500)</td><td class="num">(0.39)</td><td class="num"></td></tr>
+<tr class="total"><td>Net asset value (SOTP)</td><td class="num">36,039</td><td class="num">3.10</td><td class="num"></td></tr>
+<tr><td>Current market capitalisation</td><td class="num">29,990</td><td class="num">2.58</td><td class="num"></td></tr>
+<tr class="total"><td>Discount to SOTP</td><td class="num">6,049</td><td class="num">0.52</td><td class="num">16.8%</td></tr>
+<tr class="sub"><td>Fully diluted for ~1.7bn outstanding warrants @ RM1.50 (adds RM2,550m cash, 1,700m shares)</td><td class="num">38,589</td><td class="num">2.90</td><td class="num"><strong>11.0%</strong></td></tr>
+</tbody>
+</table>
+
+<p class="footnote">Cross-check: an independent February 2026 press analysis valued YTL Corp's listed interests alone at RM27.83bn (RM2.39/share) against a ~17% gap to the then share price. Our RM31.3bn reflects the subsequent 63% year-to-date rally in YTL Power. The consistency of the ~17% figure across two independent builds gives reasonable comfort in the order of magnitude.</p>
+
+<h3>7.2 Sensitivity — the discount is mostly a function of one unverified number</h3>
+<table>
+<thead><tr><th>YTL Corp's stake in YTL Power</th><th class="num">Value of stake (RMm)</th><th class="num">SOTP / share</th><th class="num">Discount at RM2.58</th><th class="num">Fully diluted discount</th></tr></thead>
+<tbody>
+<tr><td>44.0%</td><td class="num">20,614</td><td class="num">RM3.03</td><td class="num">14.8%</td><td class="num">8.9%</td></tr>
+<tr class="total"><td>45.6% — base case</td><td class="num">21,367</td><td class="num">RM3.10</td><td class="num">16.8%</td><td class="num">11.0%</td></tr>
+<tr><td>48.45% (per FY2025 annual report, direct)</td><td class="num">22,699</td><td class="num">RM3.22</td><td class="num">19.8%</td><td class="num">13.9%</td></tr>
+<tr><td>52.0%</td><td class="num">24,362</td><td class="num">RM3.36</td><td class="num">23.2%</td><td class="num">17.2%</td></tr>
+</tbody>
+</table>
+<p class="footnote">Even at the most generous stake assumption, the <strong>fully diluted</strong> discount does not reach the "~30%" figure widely quoted. The gap between the popular number and ours is almost entirely the warrants and the ex-listed debt.</p>
+
+<h2>8. Bull Case — and the Path to a Narrower Discount</h2>
+
+<div class="callout bull">
+<h4>The core proposition</h4>
+<p style="margin-bottom:0;">You are buying, at a ~17% discount (11% diluted), a controlling interest in the only Malaysian-listed platform that combines a regulated UK water monopoly, a Singapore generation and retail utility, a genuinely contracted AI data-centre business, the dominant Malaysian cement franchise and a Singapore/Malaysia prime-retail REIT — with a captive construction arm to build it all.</p>
+</div>
+
+<h4>1. The data-centre business has crossed from narrative to earnings</h4>
+<ul>
+<li>YTL Power's data-centre segment pre-tax profit rose <strong>more than tenfold to RM345.5m in FY2026</strong> from RM32.1m — this is now a real, ramping P&amp;L line, not a slide.</li>
+<li>The first Nvidia GB200-powered facility at Kulai was completed October 2025; ~300MW built with a further 200MW targeted for 1Q2027; ~298MW contracted as at March 2026.</li>
+<li>August 2026: a gigawatt-scale campus with JLand Group at Sedenak Tech Park West takes planned capacity toward <strong>2.4GW by 2030</strong>. Land optionality of up to 545 acres.</li>
+<li>Critically, YTL owns the <em>power</em>, the <em>land</em>, the <em>construction arm</em> and the <em>cement</em>. Very few operators capture the whole value chain; the intra-group margin recapture is real and accrues to YTL Corp shareholders at multiple levels.</li>
+</ul>
+
+<h4>2. The cement business is being systematically underrated</h4>
+<ul>
+<li>Malayan Cement FY2026: pre-tax profit <strong>+35% to RM1.33bn</strong>, net profit <strong>+34% to RM903m</strong>, revenue +10% to RM4.99bn. Q4 cement &amp; building materials segment profit RM493m, +31% y/y.</li>
+<li>This is a consolidated domestic industry with pricing discipline, feeding a construction upcycle (data centres, JS-SEZ, rail, housing) with multi-year visibility.</li>
+<li>YTL Corp's 66% of Malayan Cement alone is worth <strong>RM6.3bn — 21% of YTL Corp's market cap</strong> — for an asset the market treats as a late-cycle commodity.</li>
+</ul>
+
+<h4>3. Wessex Water is at maximum pessimism</h4>
+<ul>
+<li>The CMA's PR24 redetermination concluded March 2026 with marginally improved terms and £104bn of sector AMP8 investment confirmed. The regulatory reset risk that has capped the stock for two years is now <em>behind</em> the asset, not ahead of it.</li>
+<li>UK regulated water assets are typically valued at a premium to RCV in M&amp;A. Nothing in YTL Power's price reflects that.</li>
+</ul>
+
+<h4>4. The holdco has genuine, near-dated catalysts for narrowing</h4>
+<ul>
+<li><strong>A YTL Data Center Holdings IPO</strong> (Malaysia, Singapore, US or UK have all been floated) or a data-centre sukuk would put an explicit market value on the asset, which is currently embedded and invisible. A PowerSeraya listing has been mentioned for 2027–28.</li>
+<li><strong>Capital returned from the Malayan Cement placement</strong> (RM755m, January 2026) sits at YTL Cement — deployable into a buyback rather than more bolt-ons.</li>
+<li><strong>Warrant proceeds of up to RM3.4bn</strong> (YTL Corp) and further sums at YTL Power arrive as primary equity over 2026–28, removing any need for a dilutive rights issue to fund Wessex equity or DC capex.</li>
+<li><strong>EPF is buying</strong> — 10.28% to 12.6% of YTL Corp during 2026. A large domestic institution accumulating is the most plausible source of governance pressure in this market.</li>
+</ul>
+
+<h4>5. Valuation support and the discount arithmetic</h4>
+<ul>
+<li>FY26 DPS held at 8 sen (interim raised to 6 sen from 5 sen) — a 3.1% yield, covered ~1.6x by attributable earnings.</li>
+<li>Consensus one-year targets cluster around RM3.42 (range RM2.79–4.25), broadly the undiluted SOTP.</li>
+<li>If the discount merely compresses from 17% to 8% with no change in underlying asset values, the stock is worth ~RM2.85 (+10%). Combine that with mid-single-digit NAV growth and the holding-period return is respectable without requiring heroics.</li>
+</ul>
+
+<h2 class="pb">9. Bear Case — Why the Discount Widens, or Simply Never Closes</h2>
+
+<div class="callout bear">
+<h4>The structural objection</h4>
+<p style="margin-bottom:0;">The Yeoh family holds ~47.7% of YTL Corp, which in turn holds ~45.6% of YTL Power. Their <em>economic</em> interest in YTL Power is therefore only about <strong>21.8%</strong>, yet they control it absolutely. <strong>The holding-company layer is the mechanism that converts a minority economic stake into full control.</strong> Collapsing the structure — the single action that would eliminate the discount — would force the family either to dilute control or to spend a great deal of capital. The discount is not an oversight the market will one day correct. It is the price of a control arrangement the controller has every incentive to preserve.</p>
+</div>
+
+<h4>1. The warrants are a structural, dated headwind</h4>
+<ul>
+<li>Up to 2.27bn YTL Corp warrants at RM1.50 and 1.67bn YTL Power warrants at RM2.45 — both deeply in the money, both expiring on a three-year clock from mid-2025.</li>
+<li>Full exercise expands YTL Corp's share capital by ~20% at a price ~52% below our SOTP. The mechanical NAV destruction is roughly <strong>20 sen per share</strong>.</li>
+<li>YTL Power's share count has already grown 5.1% in twelve months; net income fell 15% while EPS fell 17% — the wedge <em>is</em> the dilution.</li>
+<li>Because the warrants are non-tradeable, minorities who cannot or will not fund the exercise are diluted outright. The market understood this instantly: both stocks fell sharply on the January 2025 announcement.</li>
+</ul>
+
+<h4>2. Two businesses are losing meaningful money</h4>
+<ul>
+<li><strong>YTL Communications ("Yes").</strong> 3QFY26 loss before tax widened to RM115.0m from RM41.4m; 9M FY26 loss RM310.6m versus RM125.4m. Revenue fell 28% to RM522.7m for the nine months. This single line accounted for roughly <strong>35% of the entire decline in YTL Power's group pre-tax profit</strong>. There is no credible path to scale against Maxis, CelcomDigi and U Mobile.</li>
+<li><strong>Construction.</strong> Estimated at approximately a RM62m loss for FY2026. The captive EPC arm the bulls describe as strategic is, on current disclosure, destroying earnings.</li>
+</ul>
+
+<h4>3. Group earnings are going backwards</h4>
+<ul>
+<li>FY2026: revenue +3% to RM31.61bn but <strong>profit after tax fell to RM2.83bn from RM3.58bn</strong>. Net profit attributable for 9M FY26 fell to RM1.11bn from RM1.35bn; basic EPS 9.61 sen versus 12.20 sen.</li>
+<li>Q4 FY26 pre-tax profit of RM1,192.8m was +38% q/q but <strong>–15% y/y</strong>. The sequential improvement flatters a declining year.</li>
+<li>PowerSeraya — historically the group's cash engine — earned S$70m in 3QFY26 against S$128m a year earlier, on weaker retail and vesting margins, lower volumes and an adverse MYR/SGD move. Forthcoming LRMC-based vesting resets (carbon tax rising to S$45/tCO2e in 2026 and potentially S$50–80 by 2028–30) are a live margin risk.</li>
+</ul>
+
+<h4>4. Wessex Water is a call on shareholder capital, not a source of it</h4>
+<ul>
+<li>2024–25 RoRE of <strong>0.4% against a 4.2% base allowance</strong>, driven by overspend and a negative retail margin.</li>
+<li>Credit outlooks moved from Stable to Negative in March 2025 pending clarity on shareholder support to strengthen the capital structure.</li>
+<li>Wessex's own PR24 plan contemplated a full dividend restriction through AMP8 (2025–30) with no new equity. Wessex has estimated net ODI penalties of around <strong>£162m</strong> over 2025–30 and has said some targets make underperformance more likely than outperformance.</li>
+<li>Translation: for five years the UK asset may pay YTL Power nothing and may require an equity injection. In the current UK political climate, water is a franchise with regulatory, reputational and political tail risk.</li>
+</ul>
+
+<h4>5. The group keeps adding complexity</h4>
+<ul>
+<li>Ranhill (2024) and NSL (2024) added two listed layers. Cepco (2026) added another unlisted one. The direction of travel is <em>more</em> structure, not less.</li>
+<li>Related-party flows are pervasive: YTL Construction builds YTL Power's data centres using Malayan Cement's cement on YTL Land's land, financed at the holdco. Every one of those is a governance question mark for a global allocator, and each is a reason to apply a discount.</li>
+</ul>
+
+<h4>6. Attarat Power (Jordan) remains an unresolved liability</h4>
+<ul>
+<li>YTL Power holds 45% of the oil-shale plant. Jordan and NEPCO have pursued ICC arbitration alleging "gross unfairness" in a PPA tariff of ~US$0.17/kWh against peers at ~US$0.10/kWh.</li>
+<li>An adverse or renegotiated outcome is a discrete impairment and cash-flow risk that no part of the current price appears to reflect.</li>
+</ul>
+
+<h4>7. The mechanical case for a <em>static</em> discount</h4>
+<ul>
+<li>Discounts close through forced events — liquidation, merger, a hostile bid, an activist. <strong>None is available here.</strong> Family control at ~47.7%, no meaningful Malaysian activist precedent, a family-dominated board and no takeover possibility.</li>
+<li>Malaysian conglomerates persistently trade at holdco discounts. There is no reason to assume mean reversion toward a global norm.</li>
+<li>The most likely outcome is not "widens" or "closes" but <strong>"oscillates in a 10–30% band forever"</strong> — in which case the return you earn is simply NAV growth minus dilution, and dilution over the next two years is ~20%.</li>
+</ul>
+
+<h2 class="pb">10. Pre-Mortem</h2>
+
+<p><em>It is August 2029. The position has lost 40%. Written from that vantage point, here is what happened, ranked by our assessment of probability.</em></p>
+
+<table>
+<thead><tr><th style="width:5%">#</th><th style="width:26%">Cause of failure</th><th>The path</th><th class="num" style="width:11%">Est. prob.</th></tr></thead>
+<tbody>
+<tr><td>1</td><td><strong>Data-centre economics compressed</strong></td><td>Johor became the most oversupplied data-centre market in Asia. YTL, Sunway, IJM, Gamuda, Sime and the state vehicles all built simultaneously; Singapore lifted its own moratorium. Lease rates fell, YTL's uncontracted 200MW sat empty, and the RM345m FY26 segment profit never scaled to the RM1.5–2bn the bulls modelled. GPUs in the YTL AI Cloud depreciated on a three-year schedule against contracts that repriced downward.</td><td class="num">High</td></tr>
+<tr><td>2</td><td><strong>Warrant dilution compounded with a de-rating</strong></td><td>Both warrant tranches were exercised into the 2028 expiry. YTL Corp's share count rose ~20% and YTL Power's ~19%, at strikes far below NAV. Because the exercise coincided with a falling market, the primary cash arrived but the per-share value did not. The discount widened to 35% as minorities concluded the structure exists to fund the controller, not them.</td><td class="num">High</td></tr>
+<tr><td>3</td><td><strong>Wessex Water absorbed equity</strong></td><td>Continued ODI penalties and totex overspend, plus the negative rating outlook, forced YTL Power to inject £800m–1.0bn. Group dividends were cut to fund it. The UK asset paid nothing for the whole of AMP8 and the market reclassified it from "regulated annuity" to "capital sink".</td><td class="num">Medium-High</td></tr>
+<tr><td>4</td><td><strong>PowerSeraya normalised down</strong></td><td>Singapore's capacity additions — including YTL's own 600MW hydrogen-ready CCGT commissioned end-2027 — plus LRMC vesting resets at a higher carbon tax compressed spreads. Quarterly net profit settled below S$70m rather than reverting to the S$110–120m the bulls assumed.</td><td class="num">Medium-High</td></tr>
+<tr><td>5</td><td><strong>The cement cycle turned</strong></td><td>The JS-SEZ and data-centre build-out completed. Malaysian cement volumes fell, discipline broke, and Malayan Cement de-rated from ~15x to ~8x. YTL Corp's most visible "hidden" asset halved.</td><td class="num">Medium</td></tr>
+<tr><td>6</td><td><strong>Telco losses never stopped</strong></td><td>Yes's losses widened past RM500m a year. The DNB wholesale model never produced acceptable unit economics for a fourth player, and management refused to exit an asset with strategic/political significance.</td><td class="num">Medium</td></tr>
+<tr><td>7</td><td><strong>Ex-listed leverage forced a bad sale</strong></td><td>The ~RM4–5bn of debt outside the listed subsidiaries, plus hotel refurbishment capex and Wessex support, forced YTL Cement to place another Malayan Cement tranche and YTL Corp to sell Starhill Global units — both into weakness. Value was crystallised at the bottom of the cycle.</td><td class="num">Medium</td></tr>
+<tr><td>8</td><td><strong>Attarat went against APCO</strong></td><td>The ICC tribunal reduced the tariff. YTL Power impaired its 45%, and the market marked down the credibility of every other overseas project return.</td><td class="num">Medium-Low</td></tr>
+<tr><td>9</td><td><strong>Complexity kept compounding</strong></td><td>Rather than simplifying, the group listed YTL DC as a fifth listed layer <em>and</em> raised primary capital in it, so YTL Corp's look-through economics were diluted a third time. Each layer added another discount.</td><td class="num">Medium-Low</td></tr>
+<tr><td>10</td><td><strong>Succession</strong></td><td>A leadership transition within the Yeoh family created strategic drift and a control overhang, and the market applied a succession discount on top of the holdco discount.</td><td class="num">Low</td></tr>
+</tbody>
+</table>
+
+<div class="callout">
+<h4>What the pre-mortem tells us to monitor</h4>
+<ul style="margin-bottom:0;">
+<li><strong>Contracted vs built MW</strong> at Kulai and Sedenak — the single most important disclosure. If contracted MW stops tracking built MW, the thesis is broken.</li>
+<li><strong>Warrant exercise pace and who is exercising</strong> — family exercise funded by share pledges would be a red flag.</li>
+<li><strong>Wessex dividend to YTL Power</strong> — any equity injection is a thesis-changing event.</li>
+<li><strong>Whether the buyback is ever actually used.</strong> This is the cleanest available test of management intent.</li>
+</ul>
+</div>
+
+<h2 class="pb">11. Is the Current Valuation Too High?</h2>
+
+<table>
+<thead><tr><th style="width:34%">Metric</th><th class="num">Value</th><th>Assessment</th></tr></thead>
+<tbody>
+<tr><td>Price</td><td class="num">RM2.58</td><td>Near the top of a 52-week RM1.58–2.82 range; +~47% YTD.</td></tr>
+<tr><td>P/E on FY2026 attributable EPS<br><span class="sub">est. ~12.9 sen basic (9M actual 9.61 sen + est. Q4)</span></td><td class="num">~20x</td><td><span class="tag r">Rich</span> For a conglomerate with a loss-making contractor, a loss-making telco and a UK utility in a penalty regime.</td></tr>
+<tr><td>P/E on FY2025 attributable EPS (16.2 sen)</td><td class="num">~15.9x</td><td>The "cheap" multiples quoted in the press generally use trailing FY2025 earnings, which have since declined.</td></tr>
+<tr><td>Diluted P/E (post-warrants)</td><td class="num">~21x+</td><td><span class="tag r">Rich</span> Dilution has not been earned back by incremental profit.</td></tr>
+<tr><td>Dividend yield (8 sen)</td><td class="num">3.1%</td><td><span class="tag a">Adequate</span> Below Malaysian large-cap norms; flat y/y despite the interim being raised.</td></tr>
+<tr><td>Discount to SOTP</td><td class="num">16.8% / 11.0% diluted</td><td><span class="tag a">Thin</span> Not a wide margin of safety for a controlled, levered, complex holdco.</td></tr>
+<tr><td>Look-through net debt / equity value</td><td class="num">~RM20bn / RM30bn</td><td><span class="tag r">High</span> ~0.67x. A 20% fall in asset values is a ~33% fall in equity.</td></tr>
+</tbody>
+</table>
+
+<h4>Our answer: yes on earnings, marginally no on assets — and the asset case rests on a stock that has already run</h4>
+<ul>
+<li><strong>The multiple is not being paid for YTL Corp.</strong> It is being paid for the AI data-centre option inside YTL Power, an asset that has added over RM18bn of market value in eight months. YTL Corp is a second-order claim on that re-rating, at 45.6%, through a discount that has been widening as fast as the underlying has risen.</li>
+<li><strong>The margin of safety is thinner than advertised.</strong> An 11% fully diluted discount is inside the noise band for a Malaysian holdco. Bought at RM1.60–1.80 earlier in 2026, this was a genuine value proposition. At RM2.58 it is a growth proposition wearing a value costume.</li>
+<li><strong>But it is not a bubble.</strong> 20x earnings for an entity whose earnings are cyclically depressed (telco losses, construction losses, a Seraya trough, a Wessex trough) is not obviously excessive. If Yes is fixed or exited, construction turns, and Seraya normalises to S$110m a quarter, FY2028 attributable earnings could plausibly be 40–50% above FY2026 — putting the stock on ~13–14x forward with the DC ramp still ahead.</li>
+</ul>
+
+<div class="callout warnbox">
+<p style="margin-bottom:0;"><strong>Position-sizing conclusion:</strong> we would treat RM2.58 as fair-to-slightly-full, not expensive. It is a hold and an accumulate-on-weakness rather than an initiation. A pullback toward RM2.10–2.20 (a ~25–30% diluted discount) would be a materially better entry, and the warrant expiry cycle in 2028 makes such a pullback more likely than usual.</p>
+</div>
+
+<h2>12. Management Actions to Narrow the Discount — a Scorecard</h2>
+
+<p>Judged on what has actually been done, not on what has been said. Ranked chronologically.</p>
+
+<table>
+<thead><tr><th style="width:9%">Date</th><th style="width:27%">Action</th><th style="width:8%">Type</th><th>Effect on the discount</th><th class="num" style="width:8%">Grade</th></tr></thead>
+<tbody>
+<tr><td>2012</td><td>Privatisation / delisting of <strong>YTL Cement Bhd</strong></td><td>Simplification</td><td>Removed a listed layer between YTL Corp and the cement assets. Structurally the right direction.</td><td class="num"><span class="tag g">Good</span></td></tr>
+<tr><td>2018</td><td>Privatisation of <strong>YTL Land &amp; Development</strong></td><td>Simplification</td><td>Removed a second listed layer. Executed at a low valuation — good for YTL Corp, contentious for the minorities bought out.</td><td class="num"><span class="tag g">Good</span></td></tr>
+<tr><td>2019–22</td><td>Acquisition of Lafarge Malaysia → <strong>Malayan Cement</strong>; 2022 injection of YTL Cement's Malaysian cement &amp; ready-mixed business into MCB for <strong>RM5.16bn</strong></td><td>Consolidation</td><td>Created one listed cement champion and, in the company's words, "significantly reduce[d] related party transactions and conflicts of interest". The best structural action of the last decade — and directly responsible for MCEMENT's subsequent re-rating.</td><td class="num"><span class="tag g">Good</span></td></tr>
+<tr><td>May 2022</td><td><strong>Share buyback plan commenced</strong> under the Dec 2021 mandate; renewed annually since</td><td>Capital return</td><td>Only 58.7m shares (~0.5%) ever accumulated; <strong>nil purchases in the 12 months to the 2025 statement date</strong>, a period in which the stock traded near RM1.58. Never cancelled. Effectively a dormant authority.</td><td class="num"><span class="tag r">Poor</span></td></tr>
+<tr><td>Jun 2024</td><td>Placement of 5% of Malayan Cement at RM4.93 (<strong>RM325m</strong>)</td><td>Monetisation</td><td>Regulatory (25% free-float compliance) rather than strategic. Reduced a listed holding at a price that in hindsight was ~35% below the January 2026 placement.</td><td class="num"><span class="tag a">Neutral</span></td></tr>
+<tr><td>2024</td><td>Ranhill (May) and <strong>NSL Ltd</strong> (Oct, RM792m) acquisitions</td><td>Complexity</td><td><strong>Works against narrowing.</strong> Two new listed layers added in five months. Both may be commercially sound; both make the SOTP harder to value and deepen the layering discount.</td><td class="num"><span class="tag r">Poor</span></td></tr>
+<tr><td>2025</td><td><strong>1-for-5 bonus issue of free warrants</strong> — YTL Corp at RM1.50, YTL Power at RM2.45, 3-year tenure, non-tradeable</td><td>Capital raise</td><td>Presented as "rewarding shareholders"; received as a deferred rights issue struck ~44% below market. <strong>Both stocks went into freefall on announcement.</strong> Raises up to RM3.4bn at YTL Corp but permanently impairs NAV per share. Non-tradeability penalises minorities who cannot fund exercise.</td><td class="num"><span class="tag r">Poor</span></td></tr>
+<tr><td>FY25–26</td><td>Dividend held at <strong>8 sen</strong>; interim raised to 6 sen from 5 sen</td><td>Capital return</td><td>Stable but unambitious. No formal dividend policy linked to look-through dividends received from subsidiaries — a standard holdco discount-narrowing tool that YTL has not adopted.</td><td class="num"><span class="tag a">Neutral</span></td></tr>
+<tr><td>Jan 2026</td><td>Secondary placement of up to 7.2% of Malayan Cement at <strong>RM7.55</strong> (RM755m)</td><td>Monetisation</td><td>Well-timed and well-priced (3.6% discount, near the highs). Genuine value crystallisation. <strong>The test now is what the proceeds do</strong> — a buyback would be transformative for credibility; another bolt-on would not.</td><td class="num"><span class="tag g">Good</span></td></tr>
+<tr><td>Stated</td><td>Exploring a <strong>YTL Data Center IPO</strong> and DC sukuk; PowerSeraya listing mooted for 2027–28</td><td>Value unlock</td><td>Potentially the largest single catalyst — but note it would add a <em>fifth</em> listed layer. Whether it narrows or widens the group discount depends entirely on whether YTL Power distributes the value or simply raises primary capital.</td><td class="num"><span class="tag a">Watch</span></td></tr>
+</tbody>
+</table>
+
+<div class="callout bear">
+<h4>Verdict on the scorecard</h4>
+<p style="margin-bottom:0;">Over fifteen years YTL has done <strong>three genuinely good structural things</strong> (two delistings and the cement consolidation) and <strong>one genuinely good capital action</strong> (the January 2026 placement). Against that, it has since 2024 added two listed layers, left a 10% buyback mandate almost entirely unused through a period of extreme cheapness, and issued 2.27bn warrants at a 42% discount to SOTP. <strong>Net, over the last three years, management's actions have widened rather than narrowed the structural discount.</strong> Any thesis that relies on management closing the gap is relying on a behavioural change for which there is currently no evidence.</p>
+</div>
+
+<h2 class="pb">13. Contrarian View — What the Market Is Refusing to See</h2>
+
+<p>Three things, in ascending order of how uncomfortable they are.</p>
+
+<h3>13.1 The discount is smaller than everyone says — and that is bearish, not bullish</h3>
+<div class="callout">
+<p>The consensus story is "YTL trades at a 30% conglomerate discount and that gap will close." Our work says the gap is <strong>16.8% undiluted and 11.0% fully diluted</strong>. The difference is the RM4–5bn of net debt sitting outside the listed subsidiaries and the RM2.5bn of warrant dilution — <em>neither of which appears in the back-of-envelope "add up the stakes" calculations that circulate in the market.</em></p>
+<p style="margin-bottom:0;"><strong>The contrarian implication is uncomfortable for bulls:</strong> the "discount closure" leg of the thesis is worth ~11%, not ~30%. Anyone underwriting a double on discount closure is mis-specified. The return has to come from NAV compounding, which means this is a growth investment that must be judged on data-centre and cement execution — not a value investment with a structural catch-up.</p>
+</div>
+
+<h3>13.2 The warrants are not dilution — they are the funding plan, and that is bullish</h3>
+<div class="callout bull">
+<p>The market punished both stocks in January 2025 for "dilution". That reading is incomplete. Read the warrants instead as a <strong>pre-committed, three-year, self-selecting rights issue</strong> that raises up to RM3.4bn at YTL Corp and further sums at YTL Power, at a moment when the group faces three simultaneous capital calls: Wessex Water's AMP8 equity requirement, RM10bn+ of data-centre capex, and the residual ex-listed leverage.</p>
+<p style="margin-bottom:0;">What the market is refusing to see is the counterfactual: <strong>without the warrants, YTL would have needed a discounted rights issue or a forced asset sale in 2027–28</strong> — precisely when Wessex needs equity. The Yeoh family, with 47.7%, must fund ~RM1.6bn of exercise to hold their stake; they have effectively pre-committed to injecting their own capital. The instrument is ugly and unfriendly to small holders, but it removes the single largest financing tail-risk in the story. The dilution is real; the alternative was worse.</p>
+</div>
+
+<h3>13.3 The unlisted stub is being marked at less than zero, and the cement franchise inside it is a different business than the market thinks</h3>
+<div class="callout bull">
+<p>At RM2.58 the listed stakes alone are worth ~RM2.70 per share. <strong>The market is paying nothing — arithmetically, less than nothing — for:</strong> a 294-acre KL city-fringe land bank at historic cost; a global trophy-hotel portfolio (Niseko Village, Threadneedles, Saint-Tropez, Monkey Island); the Singapore concrete and IBS operations; two REIT management franchises; and the construction arm that is currently building Malaysia's largest AI campus.</p>
+<p style="margin-bottom:0;">And on cement specifically, the market still models Malayan Cement as a cyclical. It is not. Post-consolidation it is the price-setter in a domestic duopoly, delivering FY2026 PBT +35% to RM1.33bn into a construction cycle underwritten by data centres, the Johor–Singapore SEZ and rail — with visibility to 2030. <strong>YTL Corp's 66% is worth RM6.3bn against a RM30bn market cap, and the market is valuing it as though the next downturn is imminent.</strong> If cement holds these earnings for three years, that stake alone re-rates by RM3–4bn.</p>
+</div>
+
+<div class="box">
+<h4>The synthesis — and the trade it implies</h4>
+<p style="margin-bottom:0;">The genuinely contrarian position is <strong>not</strong> "buy YTL Corp because the discount will close" (it is too narrow and the controller will not close it), nor "avoid YTL Corp because of dilution" (the dilution is the funding solution). It is: <strong>own YTL Corp as the cheapest available way to hold Malaysian cement and the group's unlisted real assets, with a 45.6% call on the data-centre business attached — and accept that the discount will never close.</strong> Underwrite NAV growth of 8–12% p.a. against ~7% p.a. of warrant dilution over the next two years, and require the discount only to stay stable. On that basis the stock works. On any basis requiring management to act, it does not.</p>
+</div>
+
+<h2>14. Shareholder Activist Case</h2>
+
+<h3>14.1 The ownership arithmetic</h3>
+<table>
+<thead><tr><th>Holder</th><th class="num">Shares (m)</th><th class="num">%</th><th>Alignment</th></tr></thead>
+<tbody>
+<tr><td>Yeoh Tiong Lay &amp; Sons Holdings Sdn Bhd (direct)</td><td class="num">5,544</td><td class="num">47.69%</td><td>Controller</td></tr>
+<tr><td>Employees Provident Fund (EPF)</td><td class="num">1,470</td><td class="num">12.60%</td><td><strong>The swing holder</strong> — raised from 10.28% during 2026</td></tr>
+<tr><td>Other institutions, family members, nominees, retail</td><td class="num">~4,551</td><td class="num">~39.2%</td><td>Dispersed</td></tr>
+<tr><td>Treasury shares (no votes)</td><td class="num">59</td><td class="num">0.50%</td><td>—</td></tr>
+<tr class="total"><td>Total</td><td class="num">11,624</td><td class="num">100.0%</td><td></td></tr>
+</tbody>
+</table>
+<p class="footnote">Note: the reported "free float" of ~51% overstates the contestable share register. Once family-associated vehicles and EPF are excluded, the genuinely dispersed float is closer to 39%. Related Yeoh vehicles (e.g. Cornerstone Crest) also hold directly in YTL Power, further entrenching control at the subsidiary level.</p>
+
+<h3>14.2 Why classical activism cannot work here</h3>
+<ul>
+<li><strong>The controller has an absolute blocking position.</strong> At ~47.7%, plus board control and family members in every senior executive role, no resolution passes without consent and no special resolution can be forced. There is no proxy path.</li>
+<li><strong>No takeover pressure.</strong> A change of control is not available at any price, so the classic "close the discount or we sell the company" lever does not exist.</li>
+<li><strong>Jurisdiction.</strong> Malaysia has essentially no successful activist precedent against a founder-controlled conglomerate. Minority Shareholder Watch Group engagement is advisory. Litigation risk to the controller is negligible.</li>
+<li><strong>The controller is economically motivated to keep the structure.</strong> As set out in §9, the family's ~21.8% look-through economic interest in YTL Power is converted into full control by the holdco layer. Collapsing YTL Corp into YTL Power — the single highest-value action available — would either dilute their control or require them to fund a buy-in. <strong>The discount is the rent minorities pay for that arrangement.</strong></li>
+</ul>
+
+<h3>14.3 Where realistic pressure could come from — and what to ask for</h3>
+<div class="callout">
+<p><strong>EPF is the only credible agent.</strong> At 12.6% and rising, EPF is large enough to matter, domestic enough to be heard, and increasingly governed by a stewardship framework. The realistic mechanism is not a proxy fight but <em>private engagement backed by voting on the annual buyback and RRPT mandates</em>. Note that EPF's accumulation into the discount is itself a signal — it is being paid to wait.</p>
+</div>
+
+<table>
+<thead><tr><th style="width:30%">Ask</th><th>Rationale</th><th class="num" style="width:14%">Value if delivered</th><th class="num" style="width:11%">Likelihood</th></tr></thead>
+<tbody>
+<tr><td><strong>1. Actually use the buyback</strong> — deploy the RM755m Malayan Cement proceeds into repurchasing YTL Corp stock, and cancel the 58.7m treasury shares</td><td>Buying back at a 17% discount to SOTP is immediately NAV-accretive and is the cheapest credible signal available. The mandate already exists; only intent is missing.</td><td class="num">+3–5% NAV/share; larger signalling effect</td><td class="num">Medium</td></tr>
+<tr><td><strong>2. Adopt a formal look-through dividend policy</strong> — e.g. distribute 60–80% of dividends received from subsidiaries</td><td>Converts an opaque holdco into a transparent income stream. This is the single most reliable discount-narrowing mechanism used by European and Asian holdcos.</td><td class="num">3–6pp of discount</td><td class="num">Medium</td></tr>
+<tr><td><strong>3. Commit to no further listed layers</strong>; inject NSL into Malayan Cement and consider taking Ranhill private within YTL Power</td><td>Directly reverses the 2024 complexity additions. NSL's IBS business is a natural fit inside Malayan Cement, which is already absorbing YTL Cement assets under the stated rationalisation plan.</td><td class="num">2–4pp of discount</td><td class="num">Medium-High</td></tr>
+<tr><td><strong>4. If YTL DC is listed, distribute rather than raise</strong> — an in-specie distribution or carve-out with a dividend to YTL Power shareholders, not a primary raise</td><td>Determines whether the DC IPO narrows the discount or adds a fifth layer that widens it. This is the highest-stakes governance decision on the horizon.</td><td class="num">Potentially 5–10pp either way</td><td class="num">Low-Medium</td></tr>
+<tr><td><strong>5. Fix or exit YTL Communications</strong></td><td>RM310.6m of 9M FY26 pre-tax losses for a distant fourth mobile player. Sale, JV or shutdown removes a visible, recurring value leak.</td><td class="num">RM1.5–3bn of NPV</td><td class="num">Low</td></tr>
+<tr><td><strong>6. Collapse YTL Corp into YTL Power</strong> (share-for-share)</td><td>The complete solution — eliminates the double discount entirely. Also the one action that directly costs the controller either control or capital.</td><td class="num">Full discount</td><td class="num"><strong>Very low</strong></td></tr>
+</tbody>
+</table>
+
+<div class="callout bear">
+<p style="margin-bottom:0;"><strong>Activist verdict:</strong> the case is intellectually strong and practically weak. Asks 1–3 are achievable through EPF-led engagement and would be worth perhaps 5–10 percentage points of discount in aggregate. Asks 4–6, which carry the real value, require the controlling family to act against its own control economics and will not happen absent an external shock. <strong>An investor should underwrite this position assuming no activist outcome, and treat any of asks 1–3 as free upside.</strong></p>
+</div>
+
+<h2 class="pb">15. Conclusion and Monitoring Framework</h2>
+
+<div class="box">
+<h4>Summary judgement</h4>
+<ul style="margin-bottom:0;">
+<li><strong>Assets:</strong> RM3.10/share SOTP; RM2.90 fully diluted. Listed stakes alone are RM2.70 — 105% of the share price.</li>
+<li><strong>Discount:</strong> 16.8% undiluted, 11.0% diluted. Real but roughly half the popular claim. Unlikely to close; underwrite it as stable.</li>
+<li><strong>Earnings:</strong> ~20x FY26 attributable EPS on cyclically depressed earnings. Rich on the print, reasonable on normalised power.</li>
+<li><strong>Balance sheet:</strong> ~RM4.5bn of net debt outside the listed subsidiaries (range RM3.0–5.1bn); ~RM20bn of look-through attributable net debt against RM30bn of equity.</li>
+<li><strong>Management:</strong> net negative on discount-narrowing over the last three years. Do not pay for a re-rating that requires them to act.</li>
+<li><strong>Stance:</strong> <span class="tag a">Hold / accumulate on weakness.</span> Better entry RM2.10–2.20. The 2028 warrant-expiry cycle raises the probability of getting it.</li>
+</ul>
+</div>
+
+<h3>What would change our mind — in either direction</h3>
+<div class="two">
+<div>
+<div class="callout bull" style="height:100%">
+<h4>Turns us positive</h4>
+<ul style="margin-bottom:0;">
+<li>A buyback of scale funded by the Malayan Cement placement proceeds</li>
+<li>A formal look-through dividend policy</li>
+<li>Contracted MW at Kulai/Sedenak continuing to track built MW as capacity doubles</li>
+<li>Wessex Water paying a dividend to YTL Power in AMP8</li>
+<li>YTL Communications sold, JV'd or closed</li>
+<li>NSL injected into Malayan Cement; no new listed layers</li>
+<li>A YTL DC listing structured as a distribution rather than a primary raise</li>
+</ul>
+</div>
+</div>
+<div>
+<div class="callout bear" style="height:100%">
+<h4>Turns us negative</h4>
+<ul style="margin-bottom:0;">
+<li>Contracted MW stalling while built MW rises — the single clearest broken-thesis signal</li>
+<li>An equity injection into Wessex Water</li>
+<li>Telco losses exceeding RM500m annualised</li>
+<li>A further placement of Malayan Cement or Starhill Global units into weakness (distress signal)</li>
+<li>An adverse Attarat arbitration outcome</li>
+<li>A sixth listed layer, or a further warrant/bonus-warrant issue</li>
+<li>PowerSeraya quarterly net profit settling below S$70m post-vesting reset</li>
+</ul>
+</div>
+</div>
+</div>
+
+<hr>
+
+<h3>Sources</h3>
+<p class="footnote">Market data and company disclosure compiled from public sources, 26–30 August 2026. Principal references:</p>
+<ol class="src">
+<li>YTL Corporation Berhad — Annual Report 2025 and Share Buy-Back Statement 2025 (ytl.com)</li>
+<li>The Star — "YTL Corp posts stronger 4Q performance, raises FY26 dividend", 20 Aug 2026; "YTL Corp's revenue rises", 21 Aug 2026; "YTL Corp 3Q net profit falls to RM326mil", 28 May 2026; "YTL Power, JLand to develop data centre campus", 20 Aug 2026; "YTL's Brabazon project in UK acquires 'new town' status", 3 Oct 2025</li>
+<li>The Edge Malaysia — "Zooming in on holding company discounts"; "YTL Cement to cut stake in Malayan Cement by 7.2% for RM755 mil", Jan 2026; "YTL Cement to offload 5% stake in Malayan Cement for RM325 mil"; "YTL Power and SIPP's stake in Ranhill Utilities stay at 53.19% at close of MGO"; "YTL Corp, YTL Power plan free non-tradeable warrants"; "YTL 1HFY2026 earnings hit by lower power prices"; "YTL Hospitality REIT posts higher 4Q net property income"; "YTL Power completes first Nvidia-powered AI data centre in Johor"</li>
+<li>New Straits Times — "YTL Power shares up 63pct this year, but analysts aren't calling time", Aug 2026; "YTL Power expands Johor data centre footprint", Aug 2026; "YTL Cement to take controlling stake in Singapore's NSL for RM792m"</li>
+<li>Malaysian Wireless — "YTL Communications loss widens to RM115mil in 3Q26", May 2026</li>
+<li>Ofwat — "Overview of Wessex Water's PR24 final determination"; Monitoring Financial Resilience Report 2024-25. CMA — PR24 Final Determinations, March 2026. Wessex Water — PR24 Statement of Case</li>
+<li>Malayan Cement Berhad / YTL Cement corporate releases (ytlcement.my); RAM Ratings sukuk affirmations</li>
+<li>Starhill Global REIT — shareholding structure and FY2024/25 annual report (starhillglobalreit.com)</li>
+<li>Forbes — "Tycoon Francis Yeoh's YTL Power Doubling Data Center Capacity To 2.4 Gigawatts By 2030", 19 Aug 2026</li>
+<li>Business Today — "YTL Corp In Main Driving Seat", Apr 2026; "Analysts Upbeat On YTL Power's Data Centre Expansion Plans", Apr 2026. MBSB/MIDF/RHB research summaries as reported</li>
+<li>Jus Mundi / Jordan Times — Jordan &amp; NEPCO v. Attarat Power Company arbitration filings and reporting</li>
+</ol>
+
+<hr>
+<p class="footnote"><strong>Disclaimer.</strong> This document has been prepared for information and discussion purposes only. It is not investment advice, an offer, or a solicitation to buy or sell any security. Valuations of unlisted assets, the ex-listed net debt bridge and certain ownership percentages are the author's estimates derived from public information and are explicitly flagged as such; they have not been verified against primary regulatory filings, which were not retrievable at the time of writing. Market prices are indicative and drawn from different dates in August 2026. Readers should verify all figures against YTL Corporation's FY2026 annual report and Bursa Malaysia filings before making any investment decision.</p>
+
+</body>
+</html>
