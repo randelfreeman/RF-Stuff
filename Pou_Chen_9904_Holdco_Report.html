@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Pou Chen (9904 TT) – Holding Company Analysis</title>
+<style>
+  @page { size: A4; margin: 16mm 14mm 16mm 14mm; }
+  :root { --ink:#1b1f23; --muted:#5a6270; --line:#d9dee5; --accent:#0b3d5c; --soft:#eef3f7; --warn:#8a2a0b; --good:#1f6b3a; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", Helvetica, Arial, sans-serif; color: var(--ink); font-size: 10.6pt; line-height: 1.42; margin: 0; padding: 0 8px; background:#fff; }
+  h1 { font-size: 22pt; margin: 0 0 4px 0; color: var(--accent); letter-spacing: -0.2px; }
+  h2 { font-size: 14.5pt; color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 3px; margin: 22px 0 10px 0; page-break-after: avoid; }
+  h3 { font-size: 11.8pt; margin: 14px 0 6px 0; color: var(--ink); page-break-after: avoid; }
+  p { margin: 6px 0; }
+  ul { margin: 4px 0 8px 18px; padding: 0; }
+  li { margin: 2px 0; }
+  table { border-collapse: collapse; width: 100%; margin: 8px 0 12px 0; font-size: 9.4pt; page-break-inside: avoid; }
+  th, td { border: 1px solid var(--line); padding: 4px 6px; vertical-align: top; }
+  th { background: var(--soft); text-align: left; font-weight: 600; }
+  td.n, th.n { text-align: right; white-space: nowrap; }
+  tr.total td { font-weight: 700; background: #f7f9fb; }
+  .meta { color: var(--muted); font-size: 9.5pt; margin-bottom: 10px; }
+  .box { border: 1px solid var(--line); background: var(--soft); padding: 8px 12px; margin: 10px 0; page-break-inside: avoid; }
+  .box.warn { border-color: #e2b8a8; background: #fbf2ee; }
+  .kpi { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
+  .kpi div { flex: 1 1 120px; border: 1px solid var(--line); padding: 6px 8px; background:#fff; }
+  .kpi b { display:block; font-size: 13pt; color: var(--accent); }
+  .kpi span { font-size: 8.8pt; color: var(--muted); }
+  .small { font-size: 8.8pt; color: var(--muted); }
+  .pb { page-break-before: always; }
+  .two { display: flex; gap: 16px; }
+  .two > div { flex: 1; }
+  .tag { display:inline-block; padding: 1px 6px; border-radius: 3px; font-size: 8.5pt; font-weight: 600; }
+  .tag.bull { background:#e3f2e8; color: var(--good); }
+  .tag.bear { background:#fbe9e3; color: var(--warn); }
+  .src { font-size: 8.4pt; color: var(--muted); }
+  .src ol { margin: 4px 0 0 16px; padding: 0; }
+</style>
+</head>
+<body>
+
+<h1>Pou Chen Corporation (9904 TT)</h1>
+<div class="meta">Holding-company and sum-of-the-parts analysis &nbsp;|&nbsp; Prepared 14 September 2026 &nbsp;|&nbsp; Prices as of 11–14 September 2026 &nbsp;|&nbsp; Currency: NT$ unless stated (USD/TWD 31.63, HKD/TWD 4.06)</div>
+
+<div class="kpi">
+  <div><b>NT$24.05</b><span>Share price (14 Sep 2026 close)</span></div>
+  <div><b>NT$70.9bn</b><span>Market cap (2,946.8m shares)</span></div>
+  <div><b>0.38x</b><span>P/B on reported BVPS NT$63.46 (Jun-26)</span></div>
+  <div><b>~41%</b><span>Discount to base-case NAV (NT$40.6/sh)</span></div>
+  <div><b>5.4%</b><span>Dividend yield (NT$1.30 paid Jul-26)</span></div>
+  <div><b>~5x</b><span>P/E on 2026E EPS (~NT$4.6–5.0)</span></div>
+</div>
+
+<div class="box">
+<b>Summary view.</b> Pou Chen is no longer a shoe company with a financial sideline; it is a two-asset holding company. Asset one is a 51.4% stake in Hong Kong-listed Yue Yuen Industrial (551 HK), the world's largest athletic-footwear contract manufacturer, which itself controls Pou Sheng (3813 HK) and Eagle Nice (2368 HK). Asset two is an 18.09% economic interest in unlisted Nan Shan Life, Taiwan's third-largest life insurer, held mostly through the Ruen Chen Investment Holding vehicle it shares with the Ruentex group. The stock trades at roughly 0.38x book and, on our base case, a ~41% discount to a sum-of-the-parts that marks Yue Yuen at market and Nan Shan at a conservative 0.7x IFRS 17 book. The discount exists for identifiable reasons: Nan Shan pays no cash dividend, its equity is volatile, Pou Chen's parent-level net debt of roughly NT$19bn is serviced almost entirely by Yue Yuen dividends, and the controlling Tsai family has shown no appetite for structural action. Three things changed in 2026 that the market has been slow to price: Nan Shan crossed the IFRS 17 / TIS finish line with a 129.5% solvency ratio and a NT$375–393bn contractual service margin, Ruentex patriarch Yin Yen-liang died in May, and Nan Shan's chairman has publicly made cash dividends and an IPO the stated priorities. We think the risk-reward is favourable, but the catalyst is in Ruentex's hands more than Pou Chen's.
+</div>
+
+<h2>1. Bull case: why own it, and how the discount narrows</h2>
+<ul>
+  <li><b>Nan Shan has moved from liability to asset.</b> Under the old accounting the market treated the 18.09% stake as an open-ended call on capital. From 1 January 2026 Nan Shan reports under IFRS 17 with an opening net worth of NT$293.4bn, an adjusted net worth (including after-tax CSM) of NT$593.2bn, and a TIS solvency ratio of 129.5% against a 100% floor. First-half 2026 net profit was NT$30.9bn (+114.5% y/y) and consolidated equity reached NT$563bn at end-June, up 92% year-to-date. Pou Chen's share of that book is NT$101.8bn, which alone exceeds Pou Chen's NT$70.9bn market cap.</li>
+  <li><b>Cash flow from Nan Shan is the catalyst, and it is now on the agenda.</b> Nan Shan paid no dividend for 2025 in order to build IFRS 17 capital, but chairman Yin Chung-yao told the June 2026 AGM that a cash dividend is "absolutely the company's biggest goal". Nan Shan last paid NT$6.1bn to shareholders in 2022. A resumption at even NT$10–15bn per year would send NT$1.8–2.7bn to Pou Chen, roughly half its own dividend bill, and would break the "paper earnings" narrative.</li>
+  <li><b>IPO optionality.</b> Nan Shan management calls an IPO its top priority once labour disputes are settled and the 2026 accounting transition is bedded down. A listing would give the market a price for Pou Chen's largest asset and force the discount to be measured rather than assumed.</li>
+  <li><b>Succession at Ruentex reopens the structure.</b> Yin Yen-liang, the architect of the 2011 Nan Shan purchase, died on 26 May 2026. His son chairs Nan Shan and a professional-manager structure runs Ruentex. The 15-year status quo in Ruen Chen, which Pou Chen could never change as a 20% partner, is more likely to move in the next three years than in the last ten.</li>
+  <li><b>Manufacturing trough, not decline.</b> Yue Yuen's H1 2026 profit fell 58% on tariff-driven order caution, holiday-overlap scheduling and ramp costs at new Indonesian and Indian capacity. Management guides to a sequential improvement from Q4 2026 as capacity loading normalises. Yue Yuen kept its interim dividend at HK$0.40 and a 70% payout policy, so the cash stream to Pou Chen has held.</li>
+  <li><b>Double discount.</b> Yue Yuen itself trades near 0.7x book and Pou Chen then applies a further ~40% discount on top. Pou Chen's Taichung land bank (16,000 ping in the Unit 1 rezoning district, estimated development potential above NT$20bn in 2022) is carried at historical cost and is not in most models.</li>
+  <li><b>Valuation floor.</b> At 0.38x reported book, 5x earnings and a 5.4% yield covered by Yue Yuen dividends alone, the downside is cushioned even if Nan Shan is valued at zero for cash purposes.</li>
+</ul>
+
+<h2>2. Bear case: why the discount stays or widens</h2>
+<ul>
+  <li><b>Nan Shan's equity is a marked-to-market number, not cash.</b> The NT$270bn jump in Nan Shan equity in H1 2026 came largely through other comprehensive income (bond and equity valuation, FX). The same mechanics erased NT$428bn of equity in H1 2022. Under IFRS 17 the liability side is also discounted at market rates, so volatility is lower than before, but a sharp move in TWD or US rates can still swing Pou Chen's book by tens of billions in a quarter.</li>
+  <li><b>No control, no dividend, no exit.</b> Pou Chen holds 20% of Ruen Chen, which holds 89.55% of Nan Shan. Ruentex entities hold the other 80% of Ruen Chen. Pou Chen cannot force a dividend, a listing or a sale, and any transfer of a life-insurer stake needs Financial Supervisory Commission (FSC) approval. Fifteen years after the 2011 purchase Pou Chen has received one cash distribution.</li>
+  <li><b>Capital calls are a real cost.</b> Ruen Chen has raised capital at least nine times since 2015; total paid-in capital reached NT$291bn by mid-2022. Pou Chen's 20% share of that is about NT$58bn of cumulative investment, funded largely by parent-level debt. If Nan Shan's TIS ratio slips, or a regulator asks for buffers ahead of an IPO, Pou Chen pays again.</li>
+  <li><b>Structural pressure on the core business.</b> Yue Yuen's gross margin fell from 22.6% to 20.7% in H1 2026 and manufacturing profit fell 68%. Wage inflation in Vietnam and Indonesia, US tariffs on both countries, brand customers (Nike, adidas) running leaner inventories, and the cost of India ramp-up are not one-quarter issues. 2025 group revenue already fell 4.7%.</li>
+  <li><b>Holdco leverage and thin coverage.</b> Parent-level net debt of roughly NT$19bn is serviced by Yue Yuen dividends of about NT$4.4bn a year, out of which Pou Chen also pays its own NT$3.8bn dividend. Coverage is roughly 1.1x before interest. A cut to Yue Yuen's dividend flows straight through to Pou Chen's payout.</li>
+  <li><b>Governance and capital allocation.</b> The Tsai family controls the board through Pi Hsi, Chuan Mao and Hong Tzu Development (about 17% combined in the disclosed top three), directors and supervisors hold 7.7%, and the group has never articulated a discount-narrowing policy. The only buyback in memory was 27.5m shares (1%) cancelled in 2009. Payout has stayed at roughly 25–32% of EPS.</li>
+  <li><b>Concentrated idiosyncratic exposure inside Nan Shan.</b> In January 2026 the FSC disclosed Nan Shan's NT$62.9bn exposure to Colombia and NT$13.6bn to Venezuela-linked development-bank bonds, the largest such exposure of any Taiwanese insurer. Nan Shan has also been an aggressive buyer of Taiwanese financials (it became Mega Financial's ninth-largest holder in 2026), adding equity beta.</li>
+  <li><b>Yin's death could cut either way.</b> A sale of the Ruentex stake to a financial-holding company would likely be structured around Ruentex's needs; Pou Chen's 20% could be dragged along at a price it does not set, or be left as a permanent minority behind a new controller.</li>
+</ul>
+
+<h2 class="pb">3. Listed holdings</h2>
+<table>
+<tr><th>Company</th><th>Ticker</th><th class="n">Stake</th><th class="n">Shares held (m)</th><th class="n">Price</th><th class="n">Value HK$bn</th><th class="n">Value NT$bn</th><th>How held / notes</th></tr>
+<tr><td>Yue Yuen Industrial (Holdings)</td><td>551 HK</td><td class="n">51.36%</td><td class="n">828.0</td><td class="n">HK$15.60</td><td class="n">12.92</td><td class="n">52.4</td><td>Direct, via Wealthplus (47.95%) and Win Fortune (3.16%) plus small later additions. Consolidated. Market cap HK$25.2bn; 52-week range HK$9.63–18.40; ex-dividend HK$0.40 on 14 Sep 2026.</td></tr>
+<tr><td>Pou Sheng International</td><td>3813 HK</td><td class="n">32.2% look-through</td><td class="n">~1,716 (via YY)</td><td class="n">HK$0.48</td><td class="n">0.82</td><td class="n">3.3</td><td>Yue Yuen owns 62.67% (up from 62.41%). Already embedded in Yue Yuen's market value; not additive. Market cap ~HK$2.6bn. Quotes range HK$0.37–0.57 across sources in Aug–Sep 2026.</td></tr>
+<tr><td>Eagle Nice (International)</td><td>2368 HK</td><td class="n">17.2% look-through</td><td class="n">~99 (via YY)</td><td class="n">~HK$3.8</td><td class="n">0.38</td><td class="n">1.5</td><td>Yue Yuen holds 192m shares (~33% of ~574m issued) through Pou Hing / Great Pacific. Sportswear garment maker; FY Mar-26 profit HK$174m. Embedded in Yue Yuen; not additive.</td></tr>
+<tr class="total"><td colspan="5">Directly held listed assets at market (Yue Yuen only, since Pou Sheng and Eagle Nice sit inside it)</td><td class="n">12.92</td><td class="n">52.4</td><td>Equivalent to NT$17.8 per Pou Chen share, or 74% of the current share price.</td></tr>
+</table>
+
+<h3>Recent changes in listed holdings</h3>
+<ul>
+  <li><b>Yue Yuen:</b> stake crept from 51.11% (end-2021) to 51.36% (April 2026). Yue Yuen's issued share count has been flat at 1,612m since 2020, so the increase reflects small open-market additions of roughly 4m shares. There has been no disposal.</li>
+  <li><b>Pou Sheng:</b> Yue Yuen's holding has risen from 62.41% to 62.55% and then 62.67%, a passive creep from scrip and buybacks at Pou Sheng. A 2018 attempt to privatise Pou Sheng at HK$2.03 (Yue Yuen would have realised HK$6.7bn) failed; the shares now trade at a quarter of that price.</li>
+  <li><b>No new listed positions and no sales.</b> Pou Chen has not used the listed portfolio as a source of funds at any point in the last decade, even when Ruen Chen capital calls were being met with debt.</li>
+</ul>
+
+<h3>Treasury shares</h3>
+<p>Pou Chen reports no treasury shares. Paid-in capital is NT$29.468bn, equal to 2,946.8m ordinary shares, all outstanding. The company's last buyback programme ran from 25 November 2007 to 21 January 2008; the 27.5m shares acquired (1% of capital) were cancelled on 31 March 2009, reducing paid-in capital to NT$27.13bn at the time. Capital has since risen through stock dividends. No buyback has been announced in 2022–2026.</p>
+
+<h3>Shareholder structure</h3>
+<table>
+<tr><th>Holder / group</th><th class="n">Approx. stake</th><th>Comment</th></tr>
+<tr><td>Pi Hsi Co. (chair: Tsai Ming-chieh)</td><td class="n">7.24%</td><td>Tsai family vehicle; Tsai Ming-chieh is daughter of co-founder Tsai Chi-jui and a director</td></tr>
+<tr><td>Chuan Mao Investment</td><td class="n">5.55%</td><td>Family-linked investment company</td></tr>
+<tr><td>Hong Tzu Development (BVI)</td><td class="n">4.60%</td><td>Represented by director Wu Bang-chih</td></tr>
+<tr><td>Directors and supervisors (aggregate)</td><td class="n">7.67%</td><td>May 2025 disclosure; board fully re-elected May 2025 for a three-year term to 2028</td></tr>
+<tr><td>Foreign investors</td><td class="n">43–51%</td><td>Range across 2025–2026 disclosures; Vanguard ~3.2%, BlackRock ~1.6%, Norges ~1.0%, Dimensional ~0.9%</td></tr>
+<tr><td>Institutions (all)</td><td class="n">~24%</td><td>Simply Wall St ownership breakdown, late 2024</td></tr>
+<tr><td>Retail</td><td class="n">~48%</td><td>Large and dispersed Taiwanese retail base</td></tr>
+</table>
+
+<h2>4. Private (unlisted) holdings and estimated value</h2>
+<table>
+<tr><th>Asset</th><th class="n">Pou Chen interest</th><th>Basis</th><th class="n">Low</th><th class="n">Base</th><th class="n">High</th><th>Comment</th></tr>
+<tr><td>Nan Shan Life Insurance</td><td class="n">18.09%</td><td>0.5x / 0.7x / 0.9x end-June 2026 IFRS 17 equity of NT$563bn</td><td class="n">50.9</td><td class="n">71.3</td><td class="n">91.7</td><td>Held ~17.9% via 20% of Ruen Chen (89.55% owner) plus ~0.2% direct. Pou Chen's own carrying value was NT$60.3bn at 31 Mar 2026 (16.1% of consolidated assets) and rose sharply in Q2. Base case cross-checks to ~7x 2026E earnings of NT$55–60bn.</td></tr>
+<tr><td>Taichung land and buildings</td><td class="n">100%</td><td>Development potential net of tax and time; HQ tower and Yuanyuan hotel building</td><td class="n">10.0</td><td class="n">15.0</td><td class="n">20.0</td><td>~16,000 ping in Taichung Unit 1 rezoning district beside Taiwan Boulevard; 2022 press estimate of "over NT$20bn" potential gain; HQ/hotel "over NT$10bn". Carried at cost; no monetisation plan disclosed.</td></tr>
+<tr><td>Other unlisted subsidiaries and investees</td><td class="n">various</td><td>Pou Yuen Technology (automation/machinery), Yuanyuan Hotel, Taiwan trading and property units</td><td class="n">—</td><td class="n">—</td><td class="n">—</td><td>Immaterial individually; included at book inside the holdco balance sheet rather than valued separately.</td></tr>
+<tr class="total"><td colspan="3">Total unlisted value attributable to Pou Chen</td><td class="n">60.9</td><td class="n">86.3</td><td class="n">111.7</td><td>NT$20.7 / 29.3 / 37.9 per share</td></tr>
+</table>
+
+<h3>Nan Shan Life: five-year operating metrics (consolidated, NT$bn)</h3>
+<p class="small">Nan Shan is a life insurer, so EBIT and EBITDA are not meaningful; the table uses total premium income as the sales line, pre-tax profit as the operating line, and reports equity, ROE and new-business volume, which are the value drivers for an insurer. 2021–2025 are under the old IFRS 4 basis; 2026 is IFRS 17. Figures marked (e) are derived from reported growth rates or partial-year data.</p>
+<table>
+<tr><th></th><th class="n">2021</th><th class="n">2022</th><th class="n">2023</th><th class="n">2024</th><th class="n">2025</th><th class="n">H1 2026 (IFRS 17)</th></tr>
+<tr><td>Total premium income ("sales")</td><td class="n">n/a</td><td class="n">n/a</td><td class="n">~290 (e)</td><td class="n">299.3</td><td class="n">294.3</td><td class="n">n/a</td></tr>
+<tr><td>Sales growth y/y</td><td class="n">—</td><td class="n">—</td><td class="n">—</td><td class="n">~+3%</td><td class="n">-1.7%</td><td class="n">—</td></tr>
+<tr><td>First-year premium (new business)</td><td class="n">n/a</td><td class="n">n/a</td><td class="n">69.7 (e)</td><td class="n">84.3</td><td class="n">93.0</td><td class="n">2026 target 100</td></tr>
+<tr><td>Net profit after tax</td><td class="n">59.7</td><td class="n">31.5</td><td class="n">22.1</td><td class="n">42.5</td><td class="n">29.0</td><td class="n">30.9</td></tr>
+<tr><td>Net profit growth y/y</td><td class="n">record</td><td class="n">-47%</td><td class="n">-30%</td><td class="n">+92%</td><td class="n">-32%</td><td class="n">+115%</td></tr>
+<tr><td>Net margin on total premium</td><td class="n">—</td><td class="n">—</td><td class="n">~7.6%</td><td class="n">14.2%</td><td class="n">9.9%</td><td class="n">—</td></tr>
+<tr><td>Shareholders' equity (year-end)</td><td class="n">511.5</td><td class="n">281.6</td><td class="n">343.9</td><td class="n">356.3</td><td class="n">357.1 (IFRS 4) / 293.4 (IFRS 17 opening)</td><td class="n">563.0</td></tr>
+<tr><td>Return on average equity</td><td class="n">~12%</td><td class="n">~8%</td><td class="n">~7%</td><td class="n">12.1%</td><td class="n">8.1%</td><td class="n">~14% annualised</td></tr>
+<tr><td>Total assets (NT$tn)</td><td class="n">~5.4</td><td class="n">~5.3</td><td class="n">~5.4</td><td class="n">5.6</td><td class="n">5.6</td><td class="n">~5.7</td></tr>
+<tr><td>Contractual service margin (CSM)</td><td class="n">—</td><td class="n">—</td><td class="n">—</td><td class="n">—</td><td class="n">374.8 at transition</td><td class="n">392.8</td></tr>
+<tr><td>Solvency (TIS) / adjusted net worth</td><td class="n">—</td><td class="n">—</td><td class="n">—</td><td class="n">—</td><td class="n">129.5% / NT$593.2bn</td><td class="n">—</td></tr>
+<tr><td>Pou Chen equity-method pickup</td><td class="n">~10.7</td><td class="n">~5.7</td><td class="n">~4.0</td><td class="n">~7.7</td><td class="n">~5.2</td><td class="n">5.44 (H1)</td></tr>
+</table>
+<p class="small">The 2022 equity collapse (to NT$83.6bn at mid-year before an October 2022 asset reclassification to amortised cost) is the episode that still anchors the market's view of Nan Shan risk. Under IFRS 17 the liability side is also discounted at current rates, which dampens that asymmetry.</p>
+
+<h2 class="pb">5. Non-consolidated net debt at the holding-company level</h2>
+<p>Pou Chen consolidates Yue Yuen, so its reported balance sheet mixes the manufacturer's working-capital debt with the parent's acquisition debt. Stripping Yue Yuen out at 31 December 2025:</p>
+<table>
+<tr><th>NT$bn (31 Dec 2025 unless stated)</th><th class="n">Pou Chen consolidated</th><th class="n">less Yue Yuen consolidated</th><th class="n">Holdco ex-Yue Yuen</th></tr>
+<tr><td>Gross borrowings</td><td class="n">78.7</td><td class="n">(23.9)</td><td class="n">54.8</td></tr>
+<tr><td>Cash and short-term investments</td><td class="n">61.9</td><td class="n">(25.8)</td><td class="n">36.1</td></tr>
+<tr class="total"><td>Net debt / (net cash)</td><td class="n">16.8</td><td class="n">1.9 net cash</td><td class="n">~18.8</td></tr>
+<tr><td>Memo: Yue Yuen at 30 Jun 2026</td><td class="n"></td><td class="n">net borrowing US$224m; gearing 20.6%; cash US$816m</td><td class="n"></td></tr>
+<tr><td>Memo: consolidated equity / of which attributable</td><td class="n">213.5 / 140.9</td><td class="n"></td><td class="n">NCI 72.6 (mostly Yue Yuen minorities)</td></tr>
+</table>
+<p class="small">Method: Yue Yuen reported net cash of US$62.5m and a gearing ratio (bank borrowings to total equity) of 15.4% at 31 December 2025; applying that ratio to Yue Yuen's ~US$4.9bn total equity gives borrowings of ~US$755m and cash of ~US$817m, converted at 31.63. Pou Chen consolidated figures are from the FY2025 balance sheet as summarised by Simply Wall St. Residual "holdco" therefore includes the parent plus non-Yue Yuen subsidiaries (property, hotel, machinery). Treat as an estimate with a range of NT$15–22bn. Yue Yuen moved to net borrowing of US$224m by June 2026 on working capital and capex, which does not change the parent-level figure.</p>
+
+<div class="box">
+<b>Why the parent carries debt.</b> Pou Chen's cumulative outlay for Nan Shan is roughly NT$58bn (20% of Ruen Chen's NT$291bn paid-in capital, including NT$4.15bn in 2019 and a ~NT$5.8bn share of the NT$28.8bn 2021 call). Against that it has received one dividend from Nan Shan (2022, roughly NT$1.1bn share). The gap was filled with parent borrowings and Yue Yuen dividends. Annual cash inflow to the parent is about NT$4.4bn (828m Yue Yuen shares x HK$1.30); outflows are the NT$3.8bn Pou Chen dividend plus roughly NT$1.0–1.2bn of interest. The parent is cash-neutral at best, which is the practical reason the payout ratio sits near 30% despite reported EPS of NT$4–5.
+</div>
+
+<h2>6. Sum-of-the-parts and discount</h2>
+<table>
+<tr><th>NT$bn</th><th class="n">Bear</th><th class="n">Base</th><th class="n">Bull</th><th class="n">At reported book</th><th>Basis</th></tr>
+<tr><td>Yue Yuen 51.36% at market</td><td class="n">52.4</td><td class="n">52.4</td><td class="n">52.4</td><td class="n">52.4</td><td>HK$15.60, 828m shares, HKD/TWD 4.06</td></tr>
+<tr><td>Nan Shan Life 18.09%</td><td class="n">50.9</td><td class="n">71.3</td><td class="n">91.7</td><td class="n">101.8</td><td>0.5x / 0.7x / 0.9x / 1.0x Jun-26 equity NT$563bn</td></tr>
+<tr><td>Land, buildings, other unlisted</td><td class="n">10.0</td><td class="n">15.0</td><td class="n">20.0</td><td class="n">15.0</td><td>Taichung land bank and HQ, net of tax and time</td></tr>
+<tr><td>Holdco net debt</td><td class="n">(19.0)</td><td class="n">(19.0)</td><td class="n">(19.0)</td><td class="n">(19.0)</td><td>Section 5 estimate</td></tr>
+<tr class="total"><td>Net asset value</td><td class="n">94.3</td><td class="n">119.7</td><td class="n">145.1</td><td class="n">150.2</td><td></td></tr>
+<tr class="total"><td>NAV per share (NT$)</td><td class="n">32.0</td><td class="n">40.6</td><td class="n">49.2</td><td class="n">51.0</td><td>2,946.8m shares</td></tr>
+<tr class="total"><td>Discount at NT$24.05</td><td class="n">25%</td><td class="n">41%</td><td class="n">51%</td><td class="n">53%</td><td>Reported BVPS NT$63.46 implies 0.38x P/B</td></tr>
+</table>
+<p>The reported book value (NT$63.46) is higher than even the bull-case NAV because Yue Yuen is carried at its own book (roughly 1.4x its market value) and Nan Shan at full IFRS 17 equity. The market is therefore applying two haircuts: one on Yue Yuen's earnings power and one on Nan Shan's convertibility into cash. The first is arguably fair; the second is the debate.</p>
+
+<h3>Is the current valuation too high?</h3>
+<ul>
+  <li><b>On assets, no.</b> Even the bear case, which values Nan Shan at half of book and gives no credit to CSM, leaves a 25% discount. Yue Yuen at market plus land alone covers 95% of the share price before any value for Nan Shan.</li>
+  <li><b>On cash earnings, it is roughly fair.</b> Strip out the non-cash Nan Shan pickup and Pou Chen's economic cash yield is the Yue Yuen dividend stream (NT$4.4bn, or 6.2% of market cap) less interest, which is about 4.5–5%. That is close to the dividend yield the stock offers. In other words, the market is paying for what it can see arriving in cash and nothing for what is accruing in Nan Shan.</li>
+  <li><b>On reported earnings, cheap but of low quality.</b> 2026E EPS of ~NT$4.6–5.0 (H1 NT$2.37) is 80% Nan Shan equity accounting. A 5x multiple on that is optically cheap but appropriate for earnings that do not convert to cash. The multiple re-rates only if Nan Shan distributes.</li>
+  <li><b>Verdict:</b> not too high. The stock is priced as if Nan Shan will never pay and Yue Yuen's dividend is the only asset. That is a defensible bear stance but not a base case once IFRS 17 capital is in place and management has committed publicly to dividends.</li>
+</ul>
+
+<h2 class="pb">7. Management's historical actions on the discount</h2>
+<table>
+<tr><th>Lever</th><th>What has been done</th><th>Assessment</th></tr>
+<tr><td>Share buybacks</td><td>One programme: Nov 2007–Jan 2008, 27.5m shares (1%) bought and cancelled Mar 2009. Nothing since, including at 0.38x book in 2026.</td><td><span class="tag bear">Absent</span> The most obvious discount tool has not been used in 17 years.</td></tr>
+<tr><td>Dividends</td><td>38 consecutive years of payment. Cash DPS: FY2022 NT$1.50, FY2023 NT$1.30, FY2024 NT$1.70, FY2025 NT$1.30 (paid 2 Jul 2026). Payout ~25–32% of EPS.</td><td><span class="tag bear">Static</span> Dividends track Yue Yuen's cash, not Pou Chen's reported EPS. No progressive policy.</td></tr>
+<tr><td>Asset sales</td><td>None. Pou Chen has repeatedly said it will not reduce its Nan Shan holding ("only temporary; long-term we are optimistic", 2022). No land monetisation; a 2018 plan to privatise Pou Sheng failed.</td><td><span class="tag bear">Absent</span> Management's stance is accumulate-and-hold.</td></tr>
+<tr><td>Reduction in listed holdings</td><td>Opposite: Yue Yuen stake rose from 51.11% to 51.36%; Yue Yuen's Pou Sheng stake rose to 62.67%.</td><td><span class="tag bear">Opposite direction</span> Consolidating control, not simplifying.</td></tr>
+<tr><td>Nan Shan capital participation</td><td>Met every Ruen Chen capital call (NT$4.15bn 2019; share of NT$28.8bn 2021; ~NT$58bn cumulative).</td><td><span class="tag bull">Protective of stake</span> Kept the 18.09% intact; but funded with debt.</td></tr>
+<tr><td>Disclosure and IR</td><td>Quarterly investor calls, English filings; the group now explicitly reports Nan Shan's contribution and the IFRS 17 restatement.</td><td><span class="tag bull">Adequate</span> Transparency has improved; strategy has not.</td></tr>
+<tr><td>Operational restructuring</td><td>Capacity shifted from China (10%) to Indonesia (47%) and Vietnam (37%); India plant under construction (US$200m+); Indonesia Central Java in mass production since 2025.</td><td><span class="tag bull">Real</span> Addresses tariff and labour risk in the operating asset.</td></tr>
+</table>
+<p>The record is clear: the company has protected and grown its two assets but has done nothing to change how the market values the wrapper. Every discount-narrowing lever remains untouched, which is both the bear point and the activist opportunity.</p>
+
+<h2>8. Recent news flow (last 12 months)</h2>
+<table>
+<tr><th>Date</th><th>Event</th><th>Relevance</th></tr>
+<tr><td>Jan 2026</td><td>FSC discloses Nan Shan's NT$62.9bn Colombia and NT$13.6bn Venezuela-linked exposure after US–Colombia tensions.</td><td>Reminder of concentration risk in Nan Shan's overseas book.</td></tr>
+<tr><td>11 Mar 2026</td><td>Yue Yuen FY2025: revenue US$8.03bn (-1.8%), profit US$381m (-2.9%), DPS HK$1.30, 70% payout kept.</td><td>Cash stream to parent maintained.</td></tr>
+<tr><td>Mar 2026</td><td>Pou Chen FY2025: revenue NT$251.4bn (-4.7%), net profit NT$12.07bn (-24.7%), EPS NT$4.10, DPS NT$1.30; 9M Nan Shan pickup only NT$3.6bn.</td><td>Nan Shan drag on 2025 explained the profit decline.</td></tr>
+<tr><td>Mar–Apr 2026</td><td>Nan Shan discloses IFRS 17 opening balance: net worth NT$293.4bn, adjusted NT$593.2bn, CSM NT$374.8bn, TIS 129.5%.</td><td>The key de-risking event for the private asset.</td></tr>
+<tr><td>14 May 2026</td><td>Pou Chen 1Q26 net profit NT$2.23bn (EPS NT$0.76), +1,622% on restated base; 2025 comparatives restated for IFRS 17.</td><td>First quarter reflecting new accounting for Nan Shan.</td></tr>
+<tr><td>26 May 2026</td><td>Ruentex founder Yin Yen-liang dies aged 76. Son Yin Chung-yao remains Nan Shan chairman; Huang Ming-tuan returns as group CEO.</td><td>Succession is the biggest structural variable for the Nan Shan stake.</td></tr>
+<tr><td>23 Jun 2026</td><td>Nan Shan AGM: 2025 profit NT$29.0bn; no cash dividend to build IFRS 17 capital; IPO remains top priority but no timetable; ~200 union members protest; 2026 FYP target NT$100bn.</td><td>Dividend and IPO now explicit management objectives; labour is the stated gating item.</td></tr>
+<tr><td>Jul 2026</td><td>Yue Yuen profit warning: H1 profit down 55–60%. Nan Shan issues NT$ Tier 2 subordinated bonds following US$700m (2024) and US$653m (2025) offshore deals.</td><td>Operating trough; Nan Shan continues to term out capital.</td></tr>
+<tr><td>12–14 Aug 2026</td><td>Yue Yuen H1: revenue US$3.97bn (-2.2%), profit US$72m (-57.9%), GPM 20.7%, interim DPS HK$0.40 held. Pou Chen H1: net profit NT$6.98bn (+191%), EPS NT$2.37, equity-method income NT$6.24bn of which Nan Shan NT$5.44bn. Nan Shan H1: profit NT$30.9bn (+114.5%), equity NT$563bn (+92% YTD).</td><td>Manufacturing weak, insurance strong; Pou Chen BVPS jumps to NT$63.46.</td></tr>
+<tr><td>Sep 2026</td><td>Pou Chen August revenue NT$20.6bn (+4.3% y/y, +5.4% m/m); Nan Shan becomes Mega Financial's ninth-largest shareholder; Daiwa trims Yue Yuen target to HK$17, keeps Buy.</td><td>Early signs of order recovery into Q4.</td></tr>
+</table>
+
+<h2 class="pb">9. Pre-mortem: it is September 2029 and the stock is at NT$15. What happened?</h2>
+<ol>
+  <li><b>Nan Shan's equity round-tripped.</b> A 10% TWD appreciation and a US rate spike took NT$200bn off Nan Shan's OCI in two quarters. Pou Chen's BVPS fell back below NT$45, the "IFRS 17 fixed it" narrative died, and the FSC asked Ruen Chen for another NT$30bn of capital. Pou Chen borrowed NT$6bn to follow.</li>
+  <li><b>The IPO never came; a control transaction did.</b> Ruentex, managing estate and liquidity needs after Yin's death, sold its Nan Shan interest to a financial holding company. The price was set on Ruentex's terms and paid partly in the buyer's shares. Pou Chen was offered the same terms, accepted a below-book exit, and booked a loss against its carrying value. The discount closed, but on a smaller NAV.</li>
+  <li><b>Yue Yuen's dividend was cut.</b> Tariffs on Vietnam and Indonesia rose, Nike and adidas moved volume to Indian and lower-cost suppliers, ramp costs in India ran two years longer than planned, and the payout policy dropped to 50%. Pou Chen's parent cash flow turned negative and the company cut its own dividend to NT$0.80.</li>
+  <li><b>Governance surprise.</b> A related-party transaction (land, hotel, or a family vehicle) or a Pou Sheng privatisation at a low price drew a regulatory inquiry and foreign holders sold.</li>
+  <li><b>Nothing happened.</b> No buyback, no distribution from Nan Shan, no land sale. Retail holders who bought the 5% yield rotated into Taiwanese tech. The discount widened to 55% simply through neglect. This is the base-rate outcome for Taiwanese family holding companies and should carry the highest weight in the pre-mortem.</li>
+</ol>
+<p><b>What to watch to falsify the thesis early:</b> Nan Shan's quarterly TIS ratio and OCI; any Ruen Chen capital-call announcement; Yue Yuen's payout ratio at the March 2027 results; the Nan Shan labour-union settlement (the stated IPO gate); and whether Pou Chen's 2027 dividend rises with the Nan Shan pickup.</p>
+
+<h2>10. Contrarian view: what the market refuses to see</h2>
+<ul>
+  <li><b>Nan Shan is now a cash-generating asset with a capital surplus, not a capital sink.</b> A TIS ratio of 129.5% against a 100% requirement and a CSM of NT$375–393bn that amortises into profit at roughly NT$25–30bn a year make Nan Shan one of the more over-capitalised life books in Taiwan on the new basis. The market still prices it off the 2022 trauma. First-half 2026 profit of NT$30.9bn is not a valuation mark; it is largely CSM release plus investment spread.</li>
+  <li><b>Pou Chen's book value is now higher than its own NAV models, and the market has not noticed.</b> BVPS jumped from NT$47.81 in December 2025 to NT$63.46 in June 2026 while the share price fell. A 0.38x P/B on a company whose largest assets are a listed subsidiary and a solvent insurer is the kind of gap that closes either through price or through a transaction.</li>
+  <li><b>The Ruentex succession is a catalyst, not just a risk.</b> Consensus reads Yin's death as uncertainty. The contrarian read is that the person who kept Nan Shan private for 15 years is gone, the heirs have publicly committed to dividends and an IPO, and the 20% partner (Pou Chen) now has more leverage in any restructuring than it has ever had, because Ruentex needs Pou Chen's consent inside Ruen Chen.</li>
+  <li><b>The manufacturing collapse is partly self-inflicted and reversing.</b> Half of the H1 2026 profit decline came from uneven capacity loading during the shift to Indonesia and India, not from lost customers. Yue Yuen still produces roughly 250m pairs a year for nine of the top ten brands. As India ramps and the World Cup restock lands in H2 2026, the operating leverage runs the other way.</li>
+  <li><b>Dividend yield is the wrong lens.</b> Investors screen Pou Chen as a 5% yielder with falling earnings. The better lens is a NT$71bn market cap that owns NT$52bn of listed Yue Yuen plus NT$100bn of insurer book with a 14% annualised ROE, and pays a yield while you wait.</li>
+</ul>
+
+<h2>11. Activist case</h2>
+<h3>Feasibility</h3>
+<table>
+<tr><th>Factor</th><th>Reading</th></tr>
+<tr><td>Free float and register</td><td>Foreign ownership 43–51%, institutions ~24%, retail ~48%, family vehicles and directors roughly 20–25% combined. A 5% activist position costs about NT$3.5bn (US$110m). Family control is real but not absolute; it rests on retail proxies.</td></tr>
+<tr><td>Taiwan Company Act tools</td><td>1% holders may submit AGM proposals and nominate directors; 3% holders for one year may requisition an EGM; proxy solicitation is permitted with disclosure. Independent directors (currently three) must sit on audit and remuneration committees, and the FSC has pushed cumulative voting and e-voting, which favour dissidents. Board next up for election in 2028.</td></tr>
+<tr><td>Precedents</td><td>Taiwanese activism succeeds when it aligns with regulators and retail: Tatung (2020 board change), the Shin Kong/Taishin contest (2024), and repeated pressure on financial holdcos to lift payouts. Pure-play foreign activism against a founding family has a thin record.</td></tr>
+<tr><td>Regulatory overlay</td><td>Any change to the Nan Shan stake, Ruen Chen governance or a Nan Shan IPO needs FSC approval; the regulator has historically resisted Nan Shan becoming an "exit ticket" for its owners. This limits an activist's ability to force a sale but supports a dividend-and-IPO agenda, which the FSC is likely to welcome as it improves transparency.</td></tr>
+</table>
+
+<h3>Agenda an activist would push</h3>
+<ol>
+  <li><b>Capital return at 0.38x book.</b> A NT$5bn buyback (7% of market cap) funded from parent cash of ~NT$36bn would be accretive to NAV per share by roughly 3% and would signal that the board recognises the discount. Pair it with a stated payout floor (for example 50% of Yue Yuen dividends received plus 100% of any Nan Shan dividend).</li>
+  <li><b>A published Nan Shan policy.</b> Commit publicly, as a Ruen Chen shareholder, to support a Nan Shan dividend from 2027 and a listing by 2028; disclose the Ruen Chen shareholders' agreement terms (tag-along, pre-emption, drag) so the market can price Pou Chen's rights.</li>
+  <li><b>Monetise non-core property.</b> Sell or joint-venture the Taichung land bank and hotel (NT$20–30bn potential) and use the proceeds to repay parent debt, which removes the "holdco leverage" argument entirely.</li>
+  <li><b>Simplify the listed chain.</b> Either privatise Pou Sheng at a fair price and merge it into Yue Yuen's retail arm, or distribute Yue Yuen shares in specie to Pou Chen holders, which collapses one layer of discount.</li>
+  <li><b>Board refresh in 2028.</b> Nominate two independent directors with insurance and capital-markets backgrounds ahead of the scheduled election.</li>
+</ol>
+<h3>Assessment</h3>
+<p>The economic case is strong: every lever above is value-accretive and none requires the family to give up control of Yue Yuen. The practical case is moderate: the register is dispersed enough for a well-organised campaign to win proposals and possibly board seats, and the FSC's own agenda (IFRS 17 transparency, an eventual Nan Shan listing) runs in the same direction. The obstacle is cultural rather than legal. A constructive, private campaign built around a buyback and a Nan Shan dividend policy has a realistic chance; a hostile campaign to force asset sales does not. For an event-driven holder, the more likely path to a re-rating is a Ruentex-initiated transaction in Nan Shan, with an activist presence in Pou Chen serving to ensure Pou Chen's 20% is not treated as a passenger.</p>
+
+<h2>12. Yue Yuen five-year summary (for reference)</h2>
+<table>
+<tr><th>US$m</th><th class="n">2021</th><th class="n">2022</th><th class="n">2023</th><th class="n">2024</th><th class="n">2025</th><th class="n">H1 2026</th></tr>
+<tr><td>Revenue</td><td class="n">8,533</td><td class="n">8,970</td><td class="n">7,890</td><td class="n">8,182</td><td class="n">8,031</td><td class="n">3,970</td></tr>
+<tr><td>Growth y/y</td><td class="n">+1.0%</td><td class="n">+5.1%</td><td class="n">-12.0%</td><td class="n">+3.7%</td><td class="n">-1.8%</td><td class="n">-2.2%</td></tr>
+<tr><td>Profit attributable</td><td class="n">115</td><td class="n">296</td><td class="n">275</td><td class="n">392</td><td class="n">381</td><td class="n">72</td></tr>
+<tr><td>Net margin</td><td class="n">1.3%</td><td class="n">3.3%</td><td class="n">3.5%</td><td class="n">4.8%</td><td class="n">4.7%</td><td class="n">1.8%</td></tr>
+<tr><td>Dividend per share (HK$)</td><td class="n">0.40</td><td class="n">0.90</td><td class="n">1.10</td><td class="n">1.30</td><td class="n">1.30</td><td class="n">0.40 interim</td></tr>
+<tr><td>Memo: Pou Sheng profit (RMB m)</td><td class="n">n/a</td><td class="n">n/a</td><td class="n">n/a</td><td class="n">491</td><td class="n">211</td><td class="n">+30% y/y</td></tr>
+</table>
+<p class="small">Yue Yuen operating profit H1 2026 US$112m (-45.9%), EBITDA US$167.7m (-37.1%), gross margin 20.7% (22.6%). Pou Chen consolidated: FY2024 revenue NT$263.8bn, net profit NT$16.04bn, EPS NT$5.44 (record); FY2025 revenue NT$251.4bn, net profit NT$12.07bn, EPS NT$4.10; H1 2026 revenue NT$126.1bn, net profit NT$6.98bn, EPS NT$2.37.</p>
+
+<div class="box warn">
+<b>Data caveats.</b> Company websites (Pou Chen, Yue Yuen, Nan Shan) and most Taiwanese financial data portals were not reachable from this environment, so figures are taken from press reports of the filings (UDN, CNA, Anue, CTEE, Focus Taiwan, Yue Yuen and Pou Chen results releases as quoted) and from aggregator summaries. Holdco net debt, Nan Shan 2021–2023 premium data and the land valuation are estimates and are flagged as such. Pou Sheng's share price is quoted inconsistently (HK$0.37–0.57) across sources; HK$0.48 is used. Before acting, verify against the 2Q26 consolidated statements (notes on equity-method investments and borrowings) and Nan Shan's 2Q26 financial summary.
+</div>
+
+<div class="src">
+<b>Principal sources.</b>
+<ol>
+<li>Pou Chen H1 2026 results coverage: UDN/Economic Daily, Anue (13 Aug 2026); 1Q26 coverage: UDN, TaroNews (14 May 2026); FY2025 results and dividend: Anue, MoneyDJ (Mar 2026).</li>
+<li>Pou Chen 1Q 2026 consolidated financial statements (Nan Shan carrying amount NT$60.3bn, 16.10% of assets) as indexed by search.</li>
+<li>Yue Yuen 2026 interim results press release (12 Aug 2026) and FY2025 results (11 Mar 2026); profit warning coverage (Sohu, GPLP, MoneyDJ, Jul 2026); Daiwa note via Sohu.</li>
+<li>Nan Shan Life: AGM coverage 23 Jun 2026 (CTEE, NextApple, NOWnews, TechNews); H1 2026 results (Anue, UDN, 14 Aug 2026); IFRS 17 transition disclosure (UDN, ETtoday); 2023–2025 results (UDN, CTEE); shareholder register 30 Jun 2026 (Nan Shan disclosure); Colombia exposure (Focus Taiwan, 7 Jan 2026).</li>
+<li>Ruen Chen structure and capital history: CNA (2019), Yahoo Taiwan / Wealth Magazine (2022), PTS (2011).</li>
+<li>Yin Yen-liang: CNA, CTEE, NextApple (26 May and 23 Jun 2026).</li>
+<li>Shareholder data: Goodinfo, ifa.ai, Simply Wall St ownership; 2023 annual report top holders via search summary; board re-election CTEE (30 May 2025).</li>
+<li>Treasury share history: MoneyDJ (2009 cancellation). Land: UDN/Economic Daily (2022). Balance sheet: Simply Wall St (FY2025 basis).</li>
+<li>Prices: TWSE close 14 Sep 2026 (Pou Chen); Stockopedia / Simply Wall St (Yue Yuen, Pou Sheng, Eagle Nice); FX: Investing.com / Pluang (USD/TWD 31.63, 12 Sep 2026).</li>
+</ol>
+</div>
+
+</body>
+</html>
