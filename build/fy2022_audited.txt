@@ -1,0 +1,132 @@
+FY2022 ANNUAL REPORT — AUDITED (George Yeandle, Chair of Remuneration Committee, 21 June 2022)
+
+*** THE OLD BONUS FORMULA — finally disclosed ***
+ - Group-wide annual bonus pool CAPPED AT 27% of pre-cash-annual-bonus Adjusted PBT.
+   FY2022 actual: 20.5% (FY2021: 21%).
+ - "Historically, the Committee has increased the aggregate annual bonus pool for the Executive Directors
+   ('ED Pool') by 50% OF THE INCREASE IN Adjusted Profit before tax (excluding performance fee profits)."
+ - FY2022 mechanic: adj PBT ex perf fees +63.7% like-for-like -> ED Pool rises to GBP5.89m (+32.1% on GBP4.46m).
+   Scorecard 75.3% applied to GBP5.89m = GBP4.44m. Prior year ED Pool GBP4.36m.
+   COMMITTEE USED DISCRETION TO CAP THE ED POOL AT LAST YEAR'S LEVEL (GBP4.36m).
+ - Individual bonuses 480%-800% of base remuneration (2021: same). Ions 800%, Abrol 479%.
+ - Cash element limited to 250% of salary. Ions cash 250%, Abrol 240% (2021: 250% and 149%).
+ - Exec bonus as % of aggregate group pool: 6.6% FY2022 (2021: 8.5%). Ions 4.3% (5.4%); Abrol 2.3% (3.1%).
+
+SINGLE FIGURE (audited) GBP'000          Ions22  Ions21  Abrol22 Abrol21
+ Base salary                               348     348     328     328
+ Benefits (private medical)                  4       4       5       4
+ Cash in lieu of pension                    35      35      33      33
+ TOTAL FIXED                               387     387     366     365
+ Cash bonus                                870     870     786     488
+ DBVAP                                   1,915   1,915     786   1,085
+ TOTAL ANNUAL BONUS                      2,785   2,785   1,572   1,573
+ Sub-total                               3,172   3,172   1,938   1,938
+ LTIP base value of vested awards          863     829     569     546
+ LTIP SHARE PRICE APPRECIATION + div eq  1,975   2,643   1,301   1,742
+ TOTAL LTIP VESTING                      2,838   3,472   1,870   2,288
+ SIP matching                                4       4       4       4
+ TOTAL REMUNERATION                      6,014   6,648   3,812   4,230
+ Total variable                          5,623   6,257   3,443   3,861
+ => 47% of the FY2022 total and 52% of the FY2021 total was LTIP VESTING, and of that
+    GBP1,975k / GBP2,643k was PURE SHARE PRICE APPRECIATION on awards granted 3 years earlier.
+
+CEO SINGLE FIGURE HISTORY extends back to FY2013:
+ 2013 2,186 LTIP Nil | 2014 2,271 LTIP 100% | 2015 1,544 Nil | 2016 1,572 Nil | 2017 1,751 Nil
+ 2018 2,191 Nil | 2019 4,419 100% | 2020 4,555 100% | 2021 6,648 100% | 2022 6,014 99%
+ FY2013-FY2026 CUMULATIVE = 38,149
+
+FY2022 BONUS SCORECARD = 75.3%
+ FINANCIAL (33.4%): Change in Adj PBT ex perf fees 22.20% wt, thr 30% tgt 35%, ACTUAL 63.70% -> 22.20% (100%)
+                    Operating Margin 11.20% wt, thr 38% tgt 39%, ACTUAL 41.60% -> 11.20% (100%)
+ BUSINESS (33.3%):  Distribution effectiveness (net flows vs budget GBP2,941m) 13.9% wt, thr 80% tgt 110%,
+                      ACTUAL 85% -> 7.0% (50%)
+                    Broadening international sales 5.5% wt, thr 35% tgt 50%, ACTUAL 3% -> 0.0%
+                    Investment performance (1/3/5yr top-2 quartile) 13.9% wt, thr 50% tgt 75%, ACTUAL 71% -> 8.3% (60%)
+ STRATEGIC (33.3%): Talent management 8.3% -> 5.8% (70%); Diversity & Inclusion 8.3% -> 5.8% (70%);
+                    Risk/compliance/conduct 8.3% -> 7.5% (90%); Personal performance 8.3% -> 7.5% (90%)
+ TOTAL 75.3%
+
+FY2019 LTIP VESTED 99.18% (granted 27 Jun 2018, vested 22 Jun 2021)
+ TSR 40%: start 580.13p; 3-month avg to end 1,558.57p = 42% ANNUALISED vs 15% p.a. stretch -> 100% vests
+ EPS 30%: starting 40.19p (FY2018) to 80.14p (FY2021) = 26% ANNUALISED vs 15% p.a. stretch -> 100% vests
+ Strategic 30%: net inflows 7.5%; AuM growth 7.5% (cumulative excess 216% vs 125% target);
+   investment performance 7.06% (avg 94% in top-2 quartiles vs 75% target -> 94.08% vests);
+   other strategic 7.12% (95% vests)
+ TOTAL 99.18%. Ions 146,397 shares vested; value on grant GBP863,113; GAIN GBP1,974,559; value on vesting GBP2,837,672.
+ FY2021 comparative: Ions 234,771 shares; value on grant GBP828,753; gain GBP2,642,555; vesting GBP3,471,308.
+
+*** THE TSR HURDLE COLLAPSE — the key finding ***
+ OLD LTIP (awards to FY2022): absolute TSR "below 10% PER ANNUM nil; at 10% p.a. 10-20% vests;
+   at 15% PER ANNUM AND ABOVE 100% vests". Over three years 15% p.a. = 1.15^3 = 52% CUMULATIVE for max.
+ 2024 DRP LTIP (FY2026 award): absolute TSR threshold 10% TOTAL (10% payout), maximum 15% TOTAL (100% payout)
+   over the three-year period.
+ => The hurdle for MAXIMUM vesting fell from ~52% cumulative to 15% cumulative — a cut of roughly 71%.
+
+*** THREE LTIP STRUCTURES IN THREE POLICIES ***
+ 1. PRE-2022 policy: FIXED FACE VALUE. Ions face value GBP870,250 every year FY2019-FY2022; share count varied
+    inversely with price: FY2017 59,070 @280.6p (GBP828,750); FY2018 73,628 @450.2p (GBP828,750);
+    FY2019 147,607 @589.6p; FY2020 114,206 @762.0p; FY2021 61,719 @1410.0p; FY2022 53,389 @1630.0p.
+    Face value equated to 250% (Ions) and 175% (Abrol) of base remuneration.
+ 2. 2022 DRP: FIXED NUMBER OF SHARES (153,130 / 112,295), value varies with price.
+    Committee's own words: "The Committee specifically designed the LTIP as a fixed number of shares...
+    No adjustment will be made on account of short term share price volatility which AVOIDS ANY POTENTIAL
+    WINDFALL GAINS from the LTIP based on award date. Decoupling the size of the LTIP award from a percentage
+    of salary also REMOVES ANY RATCHET AFFECT."
+ 3. 2024 DRP: PERCENTAGE OF SALARY (350% / 250% max) — reintroduces exactly the ratchet the 2022 Committee
+    designed the plan to avoid.
+
+CEO PAY RATIO extends back:
+              FY2019 FY2020 FY2021 FY2022
+ Lower quartile  56x    78x    84x    69x
+ MEDIAN          33x    43x    45x    39x
+ Upper quartile  17x    18x    22x    16x
+ FY2022 workforce: LQ GBP87k, MEDIAN GBP156k, UQ GBP384k; salary component 54/88/126. CEO 6,014.
+ => PEAK MEDIAN RATIO WAS 45x IN FY2021, not 39x in FY2022.
+
+SHAREHOLDING at 31 Mar 2022 (requirement then 4x salary; raised to 5x under new DRP)
+ Ions  746,593 shares + 95,372 vested unexercised options | GBP10,140k | 18x SALARY
+ Abrol 900,614 shares + 62,850 vested unexercised options | GBP11,888k | 28x SALARY
+ (vs 31 Mar 2026: Ions GBP2,623k / 4.5x; Abrol GBP2,659k / 6.0x)
+ Options at 31 Mar 2022: Ions 95,372 vested unexercised + 229,314 perf-conditioned = 324,686
+                         Abrol 62,850 + 151,112 = 213,962
+ NEDs at 31 Mar 2022: Barbour 34,175; Yeandle 20,000; Howard Boyd 2,500; Price 2,200; Donald nil; Shelley nil
+
+AGM / GM VOTES
+ 2021 AGM (23 Sep 2021) Annual Report on Remuneration: FOR 40,077,908 = 90.55%; AGAINST 4,183,385 = 9.45%;
+   WITHHELD 969,314  -> THE PRE-REVOLT BASELINE
+ Feb 2022 GM (16 Feb 2022) Directors' Remuneration Policy: FOR 24,896,831 = 54.06%; AGAINST 21,155,267 = 45.94%;
+   WITHHELD 520,989
+ NOTE: the Feb 2022 GM was called with FOURTEEN not twenty-one days' notice — "caused some disquiet";
+   the Committee committed that future remuneration GMs will be called with 21 days' notice.
+
+FY2023 SALARY DECISION (announced in this report)
+ Ions to GBP550,000; Abrol to GBP420,000. Rationale: base pay had seen "only one 5% increase in the last six years".
+ Workforce average salary increase that year 11.7% (six-year average 5.3%).
+ Pension 10% of salary (later 12.5%). Old shareholding requirement 4x salary; new DRP 5x.
+
+FY2023 LTIP (2022 DRP): 153,130 / 112,295 shares. EPS 60% starting 120.68p (FY2022), entry 8.5% p.a. (10% vest),
+ target 11% (50%), stretch 16.75% (100%). Relative TSR vs FTSE250 ex-IT 40%: entry median (10%), stretch upper quintile (100%).
+ Committee raised EPS threshold from 7% to 8.5% p.a. and cut threshold vesting from 20% to 10%;
+ and restated Adjusted PBT to include share incentivisation expense and depreciation, making EPS harder.
+
+DBVAP HISTORY extends back
+ Ions:  FY2019 61% GBP1,104,000; FY2020 61% GBP870,000; FY2021 80% GBP1,392,000; FY2022 69% GBP1,915,000
+ Abrol: FY2019 50% GBP525,000;  FY2020 50% GBP492,000; FY2021 80% GBP786,000;  FY2022 69% GBP1,085,000
+
+COMMITTEE COMPOSITION FY2022 — heavy churn
+ George Yeandle (Chair); Mike Bishop (RESIGNED 23 Sep 2021); Sophia Tickell (RESIGNED 23 Sep 2021);
+ Mandy Donald (stepped down from Committee 25 Mar 2022); Quintin Price (appt 1 Jul 2021);
+ Rebecca Shelley (appt 1 Nov 2021); Emma Howard Boyd (appt 19 Jan 2022). Committee met seven times.
+ => Bishop and Tickell BOTH resigned on the 2021 AGM date; Howard Boyd and Price both then resigned Mar 2023.
+
+SERVICE CONTRACTS (FY2022 disclosure): Ions letter 23 Jan 2014 (6 months) + LLP deed 8 Jul 2010 (6 months);
+ Abrol letter 23 Jan 2014 (12 months) + LLP deed 8 Jul 2010 (12 months). NEDs 3 months.
+
+ADVISERS: PwC appointed Jan 2021 to review Executive Director remuneration.
+REGULATION: BIPRU/UCITS/AIFM until 1 Apr 2022, then MIFIDPRU SYSC 19G under IFPR.
+DILUTION: 10% rolling ten-year cap; EBT; SIP and CSOP satisfied by market purchases.
+
+FY2022 BUSINESS PERFORMANCE (context)
+ Gross profit ex perf fees +41%, incl +46%; adjusted PBT ex perf fees +55%, incl +50%;
+ diluted adj EPS ex perf fees +50%; dividend +53% to 72p; net inflows +GBP2.5bn (LAST YEAR OF NET INFLOWS);
+ AuMA +25% to GBP38.7bn INCLUDING Majedie acquired 1 Apr 2022 (GBP33.5bn at 31 Mar 2022 + GBP5.2bn Majedie).

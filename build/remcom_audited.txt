@@ -1,0 +1,167 @@
+AUDITED DATA — Liontrust FY2026 Directors' Remuneration Report (signed Miriam Greenwood, 23 June 2026)
+
+TEN-YEAR CEO SINGLE FIGURE (audited, s5.1)
+YE31Mar | Single figure £'000 | Bonus scorecard % of max | LTIP vesting % of max
+2026 667   0.0%   0.0%
+2025 1031  12.9%  6.2%
+2024 1367  20.0%  37.3%
+2023 1933  25.0%  58.0%
+2022 6014  74.0%  99.0%
+2021 6648  100.0% 100.0%
+2020 4555  100.0% 100.0%
+2019 4419  100.0% 100.0%
+2018 2191  100.0% Nil
+2017 1751  100.0% Nil
+TEN-YEAR CUMULATIVE = 30,576
+
+SINGLE FIGURE DETAIL (audited, s1.1) £'000
+                          Ions26 Ions25 Abrol26 Abrol25
+Base salary/fixed alloc     584    584    445     445
+Benefits (private medical)    6      5      5       5
+Cash in lieu of pension      73     69     57      53
+TOTAL FIXED                 663    658    507     503
+Cash bonus                    0      0      0       0
+DBVAP                         0    339      0     201
+TOTAL ANNUAL BONUS            0    339      0     201
+Sub-total (A+B)             663    997    507     704
+LTIP base value element       0     54      0      35
+LTIP share price deprec/div   0    (24)     0     (16)
+TOTAL LTIP VESTING            0     30      0      19
+SIP matching shares           4      4      4       4
+TOTAL REMUNERATION          667  1,031    511     727
+Total variable (B+D)          0    369      0     220
+
+FY2027 salaries frozen: Ions GBP583,600; Abrol GBP445,600. Pension 12.5% (workforce-aligned).
+
+FY2026 BONUS SCORECARD (audited, s1.2)
+FINANCIAL 80%:
+ Adjusted PBT incl perf fees 55.0% wt | thr 85% tgt 100% max 107.5% | ACTUAL 84.0% -> 0.0%  (target set at GBP37m)
+ Distribution effectiveness  12.5% wt | thr 67% tgt 100% max 116.7% | ACTUAL (178.9%) -> 0.0% (net outflows 4,184m vs target 1,500m)
+ Investment performance      12.5% wt | thr 50% tgt 67.5% max 80%   | ACTUAL 33% -> 0.0%
+NON-FINANCIAL 20%:
+ Client experience 5.0% -> 80% -> 4.0%
+ Diversify product range 5.0% -> 67% -> 3.4%
+ Broaden distribution/client base 5.0% -> 50% -> 2.5%
+ Technology/data/digital 5.0% -> 80% -> 4.0%
+ TOTAL SCORECARD = 13.9%
+SHARE PRICE UNDERPIN: TSR FY26 < 37.1p (10% of 371p opening) => scorecard set to NIL. TSR was negative.
+=> ACTUAL BONUS NIL for both (2025: 58% of salary Ions, 45% Abrol)
+No further risk/personal moderator adjustment.
+
+SHARE PRICES: 31 Mar 2025 = 371p. 31 Mar 2026 = 241p (from FY27 underpin of 24.1p). FY26 price change -35%.
+
+LTIP GRANT HISTORY (audited, s7.9)
+Ions:  FY2023 award 153,130 sh, FV GBP1,439k @940p,   granted 23Jun22, perf end 23Jun25 -> LAPSED IN FULL
+       FY2024 award 153,130 sh, FV GBP1,152k @752.5p, granted 22Jun23, perf end 22Jun26
+       FY2025 award 153,130 sh, FV GBP1,112k @726p,   granted 27Jun24, perf end 27Jun27
+       FY2026 award 452,963 sh, FV GBP1,736,210 @383.3p, granted 26Jun25, vest 26Jun28  (297.5% of salary)
+Abrol: FY2023 112,295 @940p GBP1,056k -> LAPSED; FY2024 112,295 GBP845k; FY2025 112,295 GBP815k;
+       FY2026 247,038 @383.3p GBP946,900 (212.5% of salary)
+FY2027 grant (RNS 6 Aug 2026, after this report): Ions 566,203 (284% salary); Abrol 308,797 (203%)
+
+FY2023 LTIP VESTING TEST (s3.1) — NIL VESTED
+ Adjusted Diluted EPS 60% wt: entry 8.5%, target 11%, stretch 16.75% | ACTUAL (19)% -> Nil
+ Relative TSR v FTSE250 40% wt: entry Median, stretch Top Quintile | ACTUAL Bottom Quartile -> Nil
+
+FY2026 LTIP PERFORMANCE CONDITIONS (granted 26 Jun 2025, s3.2)
+ Adjusted Diluted EPS ex perf fees 30%: threshold 41.9p =10%; target 46.6p =50%; max 51.3p =100%
+ Absolute TSR 40%: threshold 10% TSR =10% payout; maximum 15% TSR =100% payout; relative FTSE250 underpin flexes up to 10%
+ Investment performance 30%: weighted AuMA top-2 IA quartiles 3Y and 5Y (15% each): threshold 50% =10%; max 75% =100%
+ Two-year post-vest holding period. Threshold vesting set at 10% though DRP permits up to 25%.
+
+DBVAP HISTORY (audited, s7.9)
+ Ions:  FY2023 69% of bonus GBP1,915,000 (23Jun22); FY2024 50% GBP310,000; FY2025 50% GBP263,000; FY2026 100% GBP339,000
+ Abrol: FY2023 50% GBP786,000; FY2024 50% GBP184,000; FY2025 50% GBP156,000; FY2026 100% GBP201,000
+ DBVAP = nil-price options over Liontrust shares and/or units in Liontrust-managed funds. Min 50% deferral; one third exercisable each year.
+
+DEFERRAL OF VARIABLE REMUNERATION FY2026 (s3): both defer 100%.
+ Ions LTIP FY2026 award GBP1,736k, 100% deferred. Abrol GBP947k, 100% deferred.
+
+% CHANGE TABLE (s2.1) salary / benefits / bonus
+        2026            2025            2024           2023             2022
+Ions    0% / 20% /-100% 0% / 0% /-36%   6% / 25% /-15% 58% / 0% /-78%   0% / 0% / 0%
+Abrol   0% / 0% /-100%  0% / 0% /-36%   6% / 0% /-15%  28% / 25% /-77%  0% / 0% / 0%
+Staff   4% / 0% /-24%   5% / 4% /-21%   6% / 39% /-7%  11% / 14% /-38%  12% / 7% /+103%
+
+CEO PAY RATIO (voluntary — exempt, UK headcount <250) (s2.2)
+              FY2026 FY2025 FY2024 FY2023
+Lower quartile   8x    12x    15x    21x
+Median           5x     9x    10x    13x
+Upper quartile   3x     5x     5x     7x
+Workforce single figure: LQ GBP81k, median GBP129k, UQ GBP216k. Salary component: 70/100/140.
+CEO single figure 667.
+
+RELATIVE SPEND ON PAY FY25->FY26 (s2.3)
+ Adjusted PBT excl perf fee profit: -38%
+ Adjusted PBT: -37%
+ Total member and employee remuneration: -22%
+ Dividend spend: -75%
+
+SHAREHOLDING (audited, s6.1/6.2) at 31 Mar 2026. Requirement 5x salary (500%).
+ Ions:  1,041,256 ord + 85,013 unvested | value GBP2,623k | 450% of salary  -> BELOW REQUIREMENT
+ Abrol: 1,074,380 ord + 50,846 unvested | value GBP2,659k | 598% of salary  -> COMPLIANT
+ Options: Ions 759,223 perf-conditioned + 93,477 non-perf = 852,700
+          Abrol 471,628 perf-conditioned + 58,950 non-perf = 530,578
+ NEDs: Savage 15,000; Donald 1,579; Shelley 2,082; Greenwood 2,750
+ Post-employment: hold for 2 years the lower of pre-cessation requirement or actual holding.
+ Post year-end: 29 Apr 2026 Ions sold 89,849/bought 76,298; Paige Ions (PCA) sold 215,041/bought 43,258;
+   dependent children bought 185,334 — net holding incl PCAs UNCHANGED. 5 May 2026 both bought 2,043 SIP shares.
+
+NED FEES (audited, s1.1) GBP'000
+                    FY2026 FY2025
+ Luke Savage (Chair)   210    105 (part yr; annual 210)
+ Mandy Donald          126    126
+ Rebecca Shelley       112    113
+ Miriam Greenwood      104    104
+FY2027 fees frozen. Base NED 65k; Chair 210k aggregate cap; other NEDs aggregate cap 150k.
+Role fees: SID 12k; A&R chair/member 20k/9k; Nomination 15k/5k; Remuneration 20k/9k; Sustainability 12k/5k;
+ other committees 9k; engagement roles 5k-7.5k.
+
+AGM VOTES (audited, s7.6)
+ 2025 Annual Report on Remuneration (18 Sep 2025): FOR 14,619,673 = 72.57%; AGAINST 5,525,591 = 27.43%; WITHHELD 1,555,403
+ 2024 Directors' Remuneration Policy (19 Sep 2024): FOR 24,746,170 = 86.46%; AGAINST 4,032,396 = 13.54%; WITHHELD 2,416,697
+ TOTAL VOTES CAST 2025 = 20,145,264 (~31.6% of ~63.8m shares) — LOW TURNOUT
+
+POLICY: 2024 DRP approved Sept 2024 AGM (86.46%), effective 1 Apr 2025. Only material change vs 2022 policy:
+ LTIP moved FROM fixed number of shares with UNCAPPED VALUE AT GRANT TO percentage-of-salary (CEO 350% max, CFO 250% max).
+ Bonus max: CEO 450% salary, CFO 350%. Entry-level payout up to 25% of max. Financial measures at least 80%.
+ Pension: aligned to workforce, currently 12.5%. Shareholding requirement 500% of salary.
+ SIP: up to GBP1,800 Partnership Shares matched 2:1 (face value 3,600/yr). SAYE: GBP500/month, up to 20% discount.
+ Malus: grant to vesting. Clawback: 2 years from vesting. Both bonus and LTIP.
+ Dilution cap: no more than 10% in any rolling 10-year period; EBT used; SIP/CSOP satisfied by market purchases.
+ Committee considered a cap on TOTAL remuneration and DECIDED AGAINST.
+
+FY2027 BONUS SCORECARD REDESIGN (s4.2)
+ 80% financial: Adjusted PBT 20% (was 55%); Distribution effectiveness 30% (was 12.5%); Investment performance 30% (was 12.5%)
+ 20% non-financial: Strategic objectives 10%; River Global integration 10%
+ Share price underpin retained: TSR FY27 < 24.1p => nil. Committee notes underpin "may not be in future years".
+ Deferral min 50%, into shares or fund units if shareholding requirement met.
+FY2027 LTIP: level still under consideration at report date "to reflect the current share price".
+ Conditions: Absolute TSR 40% w/ relative FTSE250 underpin; EPS 30% with STARTING EPS 35.66p (diluted adj ex perf fees);
+ Investment performance 30% (3Y and 5Y, 15% each). Perf period 1 Apr 2026 - 31 Mar 2029.
+
+GOVERNANCE (s7)
+ Remuneration Committee: Miriam Greenwood OBE DL (Chair), Mandy Donald, Rebecca Shelley. All independent NEDs. Met 7 times.
+ Adviser: PricewaterhouseCoopers LLP. Fees GBP106,000 (time and materials).
+ Codes: FCA MIFIDPRU, UCITS and AIFM remuneration codes.
+ Response to 2025 AGM <80%: engaged broad range of shareholders; UPDATE STATEMENT PUBLISHED 11 FEBRUARY 2026.
+  Themes: disclosure of 2025 LTIP targets; annual bonus methodology. Actions: enhanced LTI target disclosure; refined bonus framework/scorecard.
+ Service contracts: Ions & Abrol — Director letter 23 Jan 2014 (6 months notice); LLP deed of adherence 8 Jul 2010 (12 months).
+  NEDs 3 months. Savage letter 19 Sep 2024; Donald 18 Jul 2019; Greenwood 15 Nov 2023; Shelley 12 Oct 2021.
+ No payments for loss of office FY2026 or FY2025. No payments to former directors.
+ Workforce Advisory Forum used for employee engagement; Mandy Donald is NED for employee engagement.
+
+OTHER FACTS DISCLOSED (useful beyond remuneration)
+ M&A activity FY2026: signed NDAs with a global fund-of-funds REITs business and a global EM equities business;
+  made an offer for one business that did not meet seller's expectations; passed on a minority investment;
+  made an unsuccessful offer for a GEM equities business; announced River Global 16 Mar 2026; reviewed five other fund managers.
+ River Global brings SEVEN teams.
+ Outsourced trade execution to BNY Buy-side Trading Solutions. ADP payroll go-live.
+ AI: 182 of 189 Copilot licensees active (96%); 54 of 76 ChatGPT Enterprise licensees active (71%). System uptime >=99%.
+ New funds: GF Global Alpha launched (c.GBP50m); six GF funds over 3 years totalling c.GBP500m.
+ Institutional wins: eurozone mandate from large Swiss wealth manager grown to nearly EUR300m; first German institutional
+  mandate from a German pension fund EUR75m. 30+ meetings across China, Japan, UAE, Singapore, Australia, Canada, Korea, USA.
+ Analyst coverage NINE firms at 31 Mar 2026: Singer Capital Markets, Panmure Liberum, Deutsche Numis, Peel Hunt, Barclays,
+  Investec, RBC Capital Markets, Berenberg, Cavendish (initiated during the year).
+ Brand research (Research in Finance): ranked avg 7th best asset manager by advisers; 2nd highest familiarity with advisers;
+  20% spontaneous mention by retail investors (7th). Weakest on USAGE (investment in funds).

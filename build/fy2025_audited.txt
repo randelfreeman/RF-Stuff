@@ -1,0 +1,134 @@
+FY2025 ANNUAL REPORT — AUDITED (signed Miriam Greenwood 24 June 2025; accounts signed V.K. Abrol, 24 June 2025)
+
+SINGLE FIGURE (s1.1) GBP'000        Ions25 Ions24 Abrol25 Abrol24
+Base salary/fixed allocation          584    584    445    445
+Benefits (private medical)              5      5      5      5
+Cash in lieu of pension                69     69     53     53
+TOTAL FIXED                           658    658    503    503
+Cash bonus/variable allocation           -    263      -    156
+DBVAP                                  339    263    201    156
+TOTAL ANNUAL BONUS                     339    526    201    312
+Sub-total                              997  1,184    704    815
+LTIP base value of vested awards        54    324     35    214
+LTIP share price deprec/div equiv      (24)  (145)   (16)   (96)
+TOTAL LTIP VESTING                      30    179     19    118
+SIP matching                             4      4      4      4
+TOTAL REMUNERATION                   1,031  1,367    727    937
+Total variable (B+D)                   369    705    220    430
+
+CEO 11-YEAR HISTORY adds: 2016 John Ions 1,572 | bonus 100.0% | LTIP Nil
+(so FY2016-FY2026 cumulative = 32,148)
+
+FY2025 BONUS SCORECARD (70% financial / 30% non-financial)
+ Change in Adjusted PBT      50.0% wt | thr 80% tgt 100% max 110% | ACTUAL 80% -> 5.0%  (target GBP60.6m)
+ Distribution effectiveness  10.0% wt | thr 90% tgt 100% max 110% | ACTUAL (7006%) -> 0.0% (outflows 4,904m vs BUDGET +70m INFLOW)
+ Investment performance      10.0% wt | thr 67.5% tgt 75% max 82.5% | ACTUAL 34% -> 0.0%
+ Enhance client experience    7.5% -> 0%   -> 0.0%
+ Increase/diversify products  7.5% -> 25%  -> 1.9%
+ Expand distribution          7.5% -> 0%   -> 0.0%
+ Technology/data/digital      7.5% -> 80%  -> 6.0%
+ TOTAL 12.9%
+ Bonus: Ions 58% of salary (2024: 90%); Abrol 45% (2024: 70%). Cash element 0% (2024: 45% and 35%).
+ Deferral set at 100% (2024: 50%), 25 Jun 2025 to 25 Jun 2028.
+ Exec bonus as % of aggregate group bonus pool: 1.8% FY2025 (FY2024: 2.1%). Ions 1.1%, Abrol 0.7%.
+
+FY2022 LTIP VESTING (granted 23 Jun 2021, vested 27 Jun 2024) — 6.19% VESTED
+ Absolute TSR (20%): start 23 Jun 2021 at 1,559.5p; actual TSR -14% vs 10%pa threshold -> 0%
+ Relative TSR (20%): vs FTSE All-Share TR; actual -15% -> 0%
+ EPS growth (30%): starting EPS 73.46p (FY2021); FY2024 adj dil EPS ex perf fees 74.84p = +0.61% pa vs 15% target -> 0%
+ Strategic objectives (30%): net inflows 0%; investment performance (avg 36.11% in top 2 quartiles) 0%;
+   four soft sub-objectives -> 6.19%
+ => ONLY the soft strategic sub-component paid. All financial measures scored zero.
+ Shares vested: Ions 3,304 (of 53,389); Abrol 2,177 (of 35,182). Exercised 26 Jun 2024 at 720p.
+ Ions value on grant GBP53,855; loss from share price depreciation (GBP24,434); value on vesting GBP29,421.
+ FY2024 comparative: Ions 66,605 shares vested, value on grant GBP507,530, GAIN GBP192,888, value on vesting GBP700,418.
+
+HISTORIC LTIP AWARDS (s7.9) — face value / share price used
+ Ions:  FY2022 GBP870,250 @1630.0p, 53,389 sh, granted 23 Jun 2021 -> 50,085 FORFEIT, 3,304 exercised
+        FY2023 GBP1,439,422 @940.0p, 153,130 sh, granted 23 Jun 2022
+        FY2024 GBP1,152,303 @752.5p, 153,130 sh, granted 22 Jun 2023
+        FY2025 GBP1,111,724 @726.0p, 153,130 sh, granted 27 Jun 2024  = 190% of base remuneration
+ Abrol: FY2022 GBP573,475 @1630.0p, 35,182 sh -> 33,005 forfeit, 2,177 exercised
+        FY2023 GBP1,055,573 @940p, 112,295; FY2024 GBP845,020 @752.5p; FY2025 GBP815,262 @726.0p = 183%
+ FY2025 LTIP conditions (2022 DRP): Diluted adj EPS ex perf fees 60% — starting EPS 74.82p (FY2024),
+   entry 8.5%pa (10% vest), target 11%pa (50%), stretch 16.75%pa (100%); end 31 Mar 2027.
+   Relative TSR vs FTSE250 ex-IT 40% — entry median (10%), stretch upper quintile (100%).
+
+DBVAP (s7.9)
+ Ions:  FY2022 69% GBP1,915,000 (23 Jun 2021); FY2023 69% GBP1,915,000 (22 Jun 2022);
+        FY2024 50% GBP310,000; FY2025 50% GBP263,000
+ Abrol: FY2022 50% GBP786,000; FY2023 50% GBP786,000; FY2024 50% GBP184,000; FY2025 50% GBP156,000
+
+CEO PAY RATIO — adds FY2022: lower quartile 69x, MEDIAN 39x, upper quartile 16x
+ FY2025 workforce: LQ GBP87k, median GBP124k, UQ GBP209k; salary component 68/95/140. CEO 1,031.
+
+RELATIVE SPEND ON PAY FY2024 -> FY2025
+ Adj PBT excl perf fee profit -25.9%; Adj PBT -28.4%; Total member+employee remuneration -12.8%; DIVIDEND SPEND -0.3%
+
+% CHANGE TABLE adds FY2021 column: Ions salary 0% / benefits 0% / bonus +60%; Abrol same;
+ Staff FY2021: salary +9%, benefits +19%, bonus +181%. Staff FY2025 bonus +14% (note: FY2026 report shows -21% for 2025 — different basis).
+
+SHAREHOLDING at 31 Mar 2025 (requirement 500%)
+ Ions  1,035,620 shares | GBP3,842k | 658% of salary  -> COMPLIANT
+ Abrol 1,068,744 shares | GBP3,965k | 891%            -> COMPLIANT
+ Options subject to performance: Ions 459,390; Abrol 336,885
+ NEDs at 31 Mar 2025: Savage nil; Donald 1,579; Shelley 2,082; Greenwood 2,750
+ Post year-end: Savage bought 10,000 on 10 Apr 2025; Ions and Abrol bought 1,614 SIP shares 2 May 2025.
+
+AGM VOTES 19 Sep 2024
+ Annual Report on Remuneration: FOR 24,567,967 = 82.49%; AGAINST 5,215,593 = 17.51%; WITHHELD 2,417,556
+ Directors' Remuneration Policy: FOR 25,746,170 = 86.46%; AGAINST 4,032,396 = 13.54%; WITHHELD 2,416,697
+ NOTE: the FY2026 report states DRP votes FOR as 24,746,170. 86.46% of (x + 4,032,396) resolves to 25,746,170,
+ so the FY2026 report contains a typographical error. Percentages are unaffected.
+
+NED FEES FY2025 / FY2024 (GBP'000)
+ Alastair Barbour (retired 19 Sep 2024) 108 / 214 ; Luke Savage (appt 20 Sep 2024) 105 / - ;
+ Mandy Donald 126 / 121 ; George Yeandle (retired 19 Sep 2024) 56 / 108 ; Rebecca Shelley 113 / 105 ;
+ Miriam Greenwood 104 / 32 (joined Nov 2023; became Committee Chair 1 Apr 2024)
+
+ADVISERS: PwC fees FY2025 GBP153,420 (FY2026: GBP106,000). PwC also provided other tax services to Liontrust.
+Committee met seven times in FY2025.
+
+=========================  FINANCIAL STATEMENTS (audited)  =========================
+CONSOLIDATED STATEMENT OF COMPREHENSIVE INCOME  GBP'000        FY2025      FY2024
+ Revenue                                                      169,790     197,889
+ Cost of sales                                                (12,088)    (11,828)
+ GROSS PROFIT                                                 157,702     186,061
+ Realised profit on sale of financial assets                       85         184
+ Unrealised gain on financial assets                               58         838
+ Administration expenses                                     (137,633)   (188,932)
+ OPERATING PROFIT / (LOSS)                                     20,212      (1,849)
+ Interest receivable                                            2,162       1,337
+ Interest payable                                                 (82)        (67)
+ PROFIT / (LOSS) BEFORE TAX                                    22,292        (579)
+ Taxation                                                      (5,596)     (2,911)
+ PROFIT / (LOSS) FOR THE YEAR                                  16,696      (3,490)
+ Basic EPS (p)                                                  26.20      (5.46)
+ Diluted EPS (p)                                                26.20      (5.46)
+
+CONSOLIDATED BALANCE SHEET  GBP'000                        31-Mar-25   31-Mar-24
+ Intangible assets                                            39,367      48,472
+ GOODWILL                                                     32,110      32,110   <- UNCHANGED, NO IMPAIRMENT
+ Property, plant and equipment                                 2,241       3,719
+ Total non-current assets                                     73,718      84,301
+ Trade and other receivables                                 200,993     229,586
+ Financial assets                                              3,866       8,157
+ Cash and cash equivalents                                    75,901     104,318
+ Total current assets                                        280,760     342,061
+ Deferred tax liability                                       (8,946)    (11,227)
+ Lease liability (non-current)                                (1,514)     (2,538)
+ Total non-current liabilities                               (10,460)    (13,765)
+ Trade and other payables (current)                         (205,856)   (241,363)
+ Net current assets                                           74,904     100,698
+ NET ASSETS                                                  138,162     171,234
+ Ordinary shares                                                 637         648
+ Capital redemption reserve                                       19          19
+ Retained earnings                                           150,445     183,461
+ Own shares held (EBT)                                       (12,939)    (12,894)
+ TOTAL EQUITY                                                138,162     171,234
+ Company number 2954692
+
+DERIVED: goodwill + intangibles = 71,477 (FY25) vs 80,582 (FY24) = 52% / 47% of net assets.
+ Intangible amortisation implied ~9,105 in FY2025. Goodwill flat at 32,110 despite AuMA -19% in the year.
+ FY2024 admin expenses 188,932 EXCEEDED gross profit 186,061 -> operating loss.
+ Receivables 200,993 and payables 205,856 are fund-settlement gross-ups, not operating working capital.
