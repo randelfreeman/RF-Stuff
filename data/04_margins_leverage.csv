@@ -1,0 +1,21 @@
+rank,company,ticker,ebit_margin_pct,ebitda_margin_pct,net_cash_jpy_bn,net_cash_pct_mcap,net_debt_ebitda_x,balance_sheet_status,screen_pass_leverage
+1,Shimano,7309,17.0,22.0,550,28.9,-2.50,Net cash,PASS
+2,SMC Corporation,6273,28.0,33.0,1100,31.4,-2.00,Net cash,PASS
+3,Kyocera,6971,4.5,12.0,300,10.0,-0.80,Net cash,PASS
+4,Omron,6645,6.0,11.0,75,7.5,-0.50,Net cash,PASS
+5,Nikon,7731,3.5,9.0,210,35.0,-1.50,Net cash,PASS
+6,Casio Computer,6952,7.0,11.0,90,30.0,-1.80,Net cash,PASS
+7,Mabuchi Motor,6592,9.0,14.0,130,72.2,-3.50,Net cash,PASS
+8,Hirose Electric,6806,22.0,28.0,250,35.7,-1.80,Net cash,PASS
+9,Alps Alpine,6770,3.0,8.0,20,6.7,-0.30,Net cash,PASS
+10,Yamaha Corporation,7951,8.0,13.0,100,16.7,-0.60,Net cash,PASS
+11,Kamigumi,9364,11.0,16.0,150,30.0,-1.00,Net cash,PASS
+12,Mitsubishi Logistics,9301,12.0,19.0,-30,-7.5,0.30,Net debt,PASS
+13,Yamato Holdings,9064,2.0,6.0,100,16.7,-0.50,Net cash,PASS
+14,Shimamura,8227,8.0,10.0,150,37.5,-2.50,Net cash,PASS
+15,Wacoal Holdings,3591,2.5,6.0,30,12.0,-0.50,Net cash,PASS
+16,TBS Holdings,9401,5.0,10.0,100,16.7,-0.80,Net cash,PASS
+17,Square Enix Holdings,9684,12.0,15.0,250,22.7,-1.50,Net cash,PASS
+18,Nihon Kohden,6849,8.0,12.0,50,14.3,-0.80,Net cash,PASS
+19,Shimizu Corporation,1803,2.5,4.0,-60,-6.7,0.50,Net debt,PASS
+20,Nippon Shokubai,4114,4.0,10.0,-15,-5.0,0.30,Net debt,PASS

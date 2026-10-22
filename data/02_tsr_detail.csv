@@ -1,0 +1,21 @@
+rank,company,ticker,sub_sector,tsr_1y_pct,tsr_3y_pct,tsr_5y_pct,sector_tsr_1y_pct,sector_tsr_3y_pct,topix_tsr_5y_pct,rel_1y_vs_sector_pp,rel_3y_vs_sector_pp,rel_5y_vs_topix_pp,screen_pass_tsr,comment
+1,Shimano,7309,Bicycle components,-5.0,-25.0,-35.0,12.0,30.0,55.0,-17.0,-55.0,-90.0,PASS,Fails vs sector and index on all horizons. De-rated ~40% from the 2021 bicycle-demand peak.
+2,SMC Corporation,6273,Pneumatic automation,-8.0,-10.0,5.0,10.0,25.0,55.0,-18.0,-35.0,-50.0,PASS,Fails on 3yr and 5yr relative. Earnings growth absorbed by a rising cash balance.
+3,Kyocera,6971,Diversified electronics,0.0,-5.0,-10.0,15.0,35.0,55.0,-15.0,-40.0,-65.0,PASS,Sustained underperformance. The equity has tracked the KDDI stake while the operating business de-rated to nil.
+4,Omron,6645,"Factory automation, healthcare devices",5.0,-35.0,-40.0,10.0,25.0,55.0,-5.0,-60.0,-95.0,PASS,Among the worst large-cap records in Japanese industrials; roughly -60% from the 2021 high.
+5,Nikon,7731,"Optics, imaging, semicap",-10.0,-25.0,0.0,15.0,35.0,55.0,-25.0,-60.0,-55.0,PASS,Fails on every horizon. Zero five-year return in one of the strongest equity markets globally.
+6,Casio Computer,6952,"Watches, electronics",-15.0,-30.0,-25.0,12.0,30.0,55.0,-27.0,-60.0,-80.0,PASS,Consistent underperformance across all horizons despite owning an appreciating global brand asset.
+7,Mabuchi Motor,6592,Small electric motors,0.0,10.0,0.0,10.0,25.0,55.0,-10.0,-15.0,-55.0,PASS,"Chronic index underperformance. Stable, cash-generative business; equity return destroyed by capital structure."
+8,Hirose Electric,6806,Connectors,-5.0,-10.0,0.0,15.0,35.0,55.0,-20.0,-45.0,-55.0,PASS,Fails on 3yr and 5yr relative. De-rated as margins compressed and cash accumulated.
+9,Alps Alpine,6770,"Components, automotive infotainment",10.0,-10.0,-20.0,15.0,35.0,55.0,-5.0,-45.0,-75.0,PASS,Fails clearly on 3yr and 5yr. The 2019 Alps/Alpine merger has not produced the promised returns.
+10,Yamaha Corporation,7951,"Musical instruments, audio",-10.0,-35.0,-40.0,12.0,30.0,55.0,-22.0,-65.0,-95.0,PASS,Severe underperformance on every horizon; roughly -50% from the 2021 peak.
+11,Kamigumi,9364,"Port logistics, warehousing",10.0,30.0,40.0,12.0,28.0,55.0,-2.0,2.0,-15.0,PARTIAL,PARTIAL SCREEN FAIL — recent TSR respectable; 5yr still lags the index. Carried on asset-value grounds.
+12,Mitsubishi Logistics,9301,"Warehousing, real estate",8.0,15.0,20.0,12.0,28.0,55.0,-4.0,-13.0,-35.0,PASS,Fails on 3yr and 5yr against sector and index despite owning one of the better hidden property portfolios listed.
+13,Yamato Holdings,9064,"Parcel delivery, logistics",-20.0,-40.0,-45.0,12.0,28.0,55.0,-32.0,-68.0,-100.0,PASS,Worst absolute and relative record in the screen. Sustained value destruction across all horizons.
+14,Shimamura,8227,Apparel retail,-15.0,-10.0,20.0,10.0,25.0,55.0,-25.0,-35.0,-35.0,PASS,Fails on all three horizons versus the index; the 2021 turnaround re-rating has largely unwound.
+15,Wacoal Holdings,3591,"Innerwear, apparel",5.0,20.0,0.0,10.0,25.0,55.0,-5.0,-5.0,-55.0,PASS,The 3yr figure reflects an activist-driven re-rating rather than operating improvement; 5yr against the index remains a clear fail.
+16,TBS Holdings,9401,"Broadcasting, real estate",20.0,50.0,60.0,15.0,30.0,55.0,5.0,20.0,5.0,PARTIAL,PARTIAL SCREEN FAIL — TSR re-rated strongly as the market began pricing the securities portfolio. Carried on SOTP grounds; the core business is still valued at nil.
+17,Square Enix Holdings,9684,"Video games, entertainment",25.0,10.0,-10.0,20.0,45.0,55.0,5.0,-35.0,-65.0,PASS,Recent recovery does not offset a five-year failure against peers and index; Capcom and Bandai Namco roughly doubled over the period.
+18,Nihon Kohden,6849,"Medical devices, patient monitoring",-10.0,-30.0,-25.0,8.0,20.0,55.0,-18.0,-50.0,-80.0,PASS,Clear failure on every horizon against both the healthcare sector and the index.
+19,Shimizu Corporation,1803,"General construction, real estate",30.0,20.0,-10.0,25.0,35.0,55.0,5.0,-15.0,-65.0,PASS,The construction-sector re-rating masks a poor five-year record; lags Kajima and Obayashi materially on 3yr and 5yr.
+20,Nippon Shokubai,4114,Specialty and commodity chemicals,-5.0,0.0,-10.0,8.0,20.0,55.0,-13.0,-20.0,-65.0,PASS,Fails on all horizons. A chronic sub-book chemical company with no re-rating catalyst under current management.

@@ -1,0 +1,101 @@
+rank,company,ticker,holder_rank,holder,stake_pct,register_comment
+1,Shimano,7309,1,Master Trust Bank of Japan (trust),15.0,No controlling block. Foreign ownership ~35–40%.
+1,Shimano,7309,2,Shimano family and related entities,9.0,
+1,Shimano,7309,3,Custody Bank of Japan (trust),5.0,
+1,Shimano,7309,4,State Street / SSBTC omnibus,4.0,
+1,Shimano,7309,5,Nippon Life and domestic insurers,3.0,
+2,SMC Corporation,6273,1,Takada family and related vehicles,15.0,Founder-family aggregate ~15% is the largest bloc but far short of control. Foreign ownership ~40%.
+2,SMC Corporation,6273,2,Master Trust Bank of Japan (trust),14.0,
+2,SMC Corporation,6273,3,"Foreign institutions (BlackRock, Capital, SSgA)",10.0,
+2,SMC Corporation,6273,4,Custody Bank of Japan (trust),5.0,
+2,SMC Corporation,6273,5,"Palliser Capital (activist, disclosed 2026)",2.0,
+3,Kyocera,6971,1,Master Trust Bank of Japan (trust),13.0,Genuinely fragmented — no holder near control. Among the most attackable large-cap registers in Japan.
+3,Kyocera,6971,2,Custody Bank of Japan (trust),5.0,
+3,Kyocera,6971,3,Oasis Management (activist),3.0,
+3,Kyocera,6971,4,Nippon Life and domestic insurers,3.0,
+3,Kyocera,6971,5,Kyocera-related foundations and employee plans,3.0,
+4,Omron,6645,1,Master Trust Bank of Japan (trust),15.0,Fully fragmented; no family or corporate anchor. Foreign ownership ~35%.
+4,Omron,6645,2,"Foreign institutions (BlackRock, Norges)",8.0,
+4,Omron,6645,3,Custody Bank of Japan (trust),6.0,
+4,Omron,6645,4,"Japan Activation Capital (activist, disclosed 2026)",3.0,
+4,Omron,6645,5,Nippon Life and domestic insurers,3.0,
+5,Nikon,7731,1,Master Trust Bank of Japan (trust),15.0,Fragmented. Legacy keiretsu ties too small to block. Foreign ownership ~35%.
+5,Nikon,7731,2,"Foreign institutions (BlackRock, Norges, Dimensional)",8.0,
+5,Nikon,7731,3,Custody Bank of Japan (trust),6.0,
+5,Nikon,7731,4,Mitsubishi group cross-shareholdings,5.0,
+5,Nikon,7731,5,Nippon Life and domestic insurers,3.0,
+6,Casio Computer,6952,1,Master Trust Bank of Japan (trust),14.0,Founder family retains board influence but holds under 10%. No blocking stake.
+6,Casio Computer,6952,2,Kashio family and related entities,9.0,
+6,Casio Computer,6952,3,Foreign institutions (aggregate),7.0,
+6,Casio Computer,6952,4,Custody Bank of Japan (trust),6.0,
+6,Casio Computer,6952,5,Domestic insurers and banks,4.0,
+7,Mabuchi Motor,6592,1,Master Trust Bank of Japan (trust),14.0,Family and foundation aggregate ~14%; nowhere near control. High free float.
+7,Mabuchi Motor,6592,2,Mabuchi family and related foundations,14.0,
+7,Mabuchi Motor,6592,3,Foreign institutions (value and small-cap funds),10.0,
+7,Mabuchi Motor,6592,4,Custody Bank of Japan (trust),5.0,
+7,Mabuchi Motor,6592,5,Domestic insurers,3.0,
+8,Hirose Electric,6806,1,Master Trust Bank of Japan (trust),15.0,No family or corporate anchor — one of the most fragmented registers in the screen.
+8,Hirose Electric,6806,2,"Foreign institutions (BlackRock, Capital, Norges)",12.0,
+8,Hirose Electric,6806,3,Custody Bank of Japan (trust),6.0,
+8,Hirose Electric,6806,4,Domestic insurers and banks,4.0,
+8,Hirose Electric,6806,5,Employee shareholding association,2.0,
+9,Alps Alpine,6770,1,Master Trust Bank of Japan (trust),13.0,The Murakami group's ~10% is the defining register feature — an activist catalyst already pressing.
+9,Alps Alpine,6770,2,"Murakami-affiliated vehicles (City Index, Reno et al.)",10.0,
+9,Alps Alpine,6770,3,Foreign institutions (aggregate),8.0,
+9,Alps Alpine,6770,4,Custody Bank of Japan (trust),5.0,
+9,Alps Alpine,6770,5,Domestic insurers and banks,4.0,
+10,Yamaha Corporation,7951,1,Master Trust Bank of Japan (trust),15.0,Fragmented apart from the reciprocal Yamaha Motor holding — itself a target rather than a defence.
+10,Yamaha Corporation,7951,2,"Foreign institutions (BlackRock, Norges)",9.0,
+10,Yamaha Corporation,7951,3,Custody Bank of Japan (trust),6.0,
+10,Yamaha Corporation,7951,4,Yamaha Motor (cross-shareholding),4.0,
+10,Yamaha Corporation,7951,5,Domestic insurers and banks,4.0,
+11,Kamigumi,9364,1,Master Trust Bank of Japan (trust),12.0,Cross-shareholder aggregate is meaningful friction but far from control. Ample free float.
+11,Kamigumi,9364,2,Kansai corporate cross-shareholders,10.0,
+11,Kamigumi,9364,3,Foreign institutions (aggregate),7.0,
+11,Kamigumi,9364,4,Domestic insurers and banks,6.0,
+11,Kamigumi,9364,5,Custody Bank of Japan (trust),5.0,
+12,Mitsubishi Logistics,9301,1,Mitsubishi group companies (aggregate cross-shareholdings),20.0,NOTE: Mitsubishi group aggregate ~20% — below the 40% screen threshold but the most coordinated friendly bloc in the screen.
+12,Mitsubishi Logistics,9301,2,Master Trust Bank of Japan (trust),12.0,
+12,Mitsubishi Logistics,9301,3,Foreign institutions (aggregate),7.0,
+12,Mitsubishi Logistics,9301,4,Meiji Yasuda and domestic insurers,5.0,
+12,Mitsubishi Logistics,9301,5,Custody Bank of Japan (trust),5.0,
+13,Yamato Holdings,9064,1,Master Trust Bank of Japan (trust),15.0,Entirely fragmented — no anchor shareholder of any kind. Structurally among the most attackable registers in Japan.
+13,Yamato Holdings,9064,2,"Foreign institutions (BlackRock, Norges)",9.0,
+13,Yamato Holdings,9064,3,Custody Bank of Japan (trust),6.0,
+13,Yamato Holdings,9064,4,Domestic insurers and banks,5.0,
+13,Yamato Holdings,9064,5,Employee shareholding association,2.0,
+14,Shimamura,8227,1,Founding family and related entities,18.0,"Family aggregate ~18% is the largest bloc — influential, but short of the screen threshold and of blocking a special resolution."
+14,Shimamura,8227,2,Master Trust Bank of Japan (trust),13.0,
+14,Shimamura,8227,3,Foreign institutions (aggregate),10.0,
+14,Shimamura,8227,4,Custody Bank of Japan (trust),5.0,
+14,Shimamura,8227,5,Domestic insurers and banks,4.0,
+15,Wacoal Holdings,3591,1,Tsukamoto family and related entities,12.0,Family plus regional cross-shareholders form a cohesive ~20% bloc; an activist is already established at ~5%.
+15,Wacoal Holdings,3591,2,Master Trust Bank of Japan (trust),11.0,
+15,Wacoal Holdings,3591,3,Kyoto-region corporate cross-shareholders and banks,8.0,
+15,Wacoal Holdings,3591,4,Foreign institutions (aggregate),8.0,
+15,Wacoal Holdings,3591,5,Oasis Management (activist),5.0,
+16,TBS Holdings,9401,1,"Media and corporate cross-shareholders (Mainichi, Dentsu, Mitsui)",20.0,"The ~20% media and trading-house bloc is entrenched and motivated by editorial and relationship considerations. Below threshold, but the hardest register here."
+16,TBS Holdings,9401,2,Master Trust Bank of Japan (trust),11.0,
+16,TBS Holdings,9401,3,Foreign institutions (aggregate),10.0,
+16,TBS Holdings,9401,4,Custody Bank of Japan (trust),5.0,
+16,TBS Holdings,9401,5,Domestic insurers and banks,5.0,
+17,Square Enix Holdings,9684,1,Master Trust Bank of Japan (trust),13.0,"Founder stake ~10%, influential but not controlling. Foreign ownership ~40% — unusually favourable."
+17,Square Enix Holdings,9684,2,"Foreign institutions (BlackRock, Capital, Norges)",12.0,
+17,Square Enix Holdings,9684,3,Fukushima Yasuhiro and related entities (founder),10.0,
+17,Square Enix Holdings,9684,4,Custody Bank of Japan (trust),5.0,
+17,Square Enix Holdings,9684,5,Domestic insurers and banks,3.0,
+18,Nihon Kohden,6849,1,Master Trust Bank of Japan (trust),13.0,Founder family aggregate ~12%. No controlling position; substantial free float.
+18,Nihon Kohden,6849,2,Ogino family and related entities,12.0,
+18,Nihon Kohden,6849,3,Foreign institutions (aggregate),9.0,
+18,Nihon Kohden,6849,4,Custody Bank of Japan (trust),5.0,
+18,Nihon Kohden,6849,5,Domestic insurers and banks,4.0,
+19,Shimizu Corporation,1803,1,Master Trust Bank of Japan (trust),12.0,Fragmented with a moderate relationship-bank and corporate bloc. No controlling shareholder.
+19,Shimizu Corporation,1803,2,Corporate cross-shareholders and relationship banks,12.0,
+19,Shimizu Corporation,1803,3,Foreign institutions (aggregate),8.0,
+19,Shimizu Corporation,1803,4,Domestic insurers,5.0,
+19,Shimizu Corporation,1803,5,Custody Bank of Japan (trust),5.0,
+20,Nippon Shokubai,4114,1,Master Trust Bank of Japan (trust),12.0,Fragmented with a legacy relationship-bank and corporate bloc. No controlling holder.
+20,Nippon Shokubai,4114,2,Corporate cross-shareholders and relationship banks,12.0,
+20,Nippon Shokubai,4114,3,Foreign institutions (value funds),8.0,
+20,Nippon Shokubai,4114,4,Domestic insurers,5.0,
+20,Nippon Shokubai,4114,5,Custody Bank of Japan (trust),5.0,

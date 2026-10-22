@@ -1,0 +1,21 @@
+rank,company,ticker,mcap_jpy_bn,mcap_usd_m,ev_sales_x,ev_ebit_x,pe_x,fcf_yield_pct,pbr_x,comment
+1,Shimano,7309,1900,12667,2.50,11.0,19.0,4.0,1.40,Optically full on P/E; EV multiples materially below branded-component peers once cash is stripped.
+2,SMC Corporation,6273,3500,23333,3.00,13.0,19.0,3.5,1.70,Persistent EV/EBIT discount to Festo and Parker-Hannifin despite superior margins — a governance and capital-structure discount.
+3,Kyocera,6971,3000,20000,1.20,20.0,30.0,2.0,0.90,The ~¥2.5tn KDDI holding approaches the entire market cap; the core business carries a negative implied EV.
+4,Omron,6645,1000,6667,1.10,20.0,30.0,3.0,1.20,Headline multiples inflated by depressed earnings; on normalised mid-cycle EBIT the multiple is roughly half.
+5,Nikon,7731,600,4000,0.50,12.0,25.0,1.5,0.70,Sub-book with 35% of market cap in net cash — the market is explicitly pricing continued value destruction.
+6,Casio Computer,6952,300,2000,0.70,10.0,16.0,6.0,1.00,A pure-play watch business would command a materially higher multiple; conglomerate drag is explicit and quantifiable.
+7,Mabuchi Motor,6592,180,1200,0.30,5.0,14.0,7.0,0.80,Cheapest EV multiples in the screen — EV is a small residual after stripping cash.
+8,Hirose Electric,6806,700,4667,4.00,18.0,28.0,3.0,1.50,Retains a quality premium the margin trajectory no longer supports; the EV discount to global connector peers is masked by cash.
+9,Alps Alpine,6770,300,2000,0.30,10.0,14.0,6.0,0.70,Deep-value multiples reflecting a genuine margin deficit rather than pure neglect.
+10,Yamaha Corporation,7951,600,4000,1.20,15.0,22.0,4.0,1.10,"Adjusted for the Yamaha Motor cross-holding, the core instruments business trades at a substantial discount to branded-consumer comparables."
+11,Kamigumi,9364,500,3333,1.50,10.0,14.0,5.0,0.90,Sub-1x book with assets at decades-old cost; the discount to realisable NAV is far wider than headline PBR.
+12,Mitsubishi Logistics,9301,400,2667,2.00,14.0,16.0,4.0,0.90,Reported PBR is near-meaningless — prime Tokyo and Yokohama land at historic cost. True NAV discount is substantially wider.
+13,Yamato Holdings,9064,600,4000,0.30,15.0,30.0,3.0,0.80,High headline multiples on collapsed earnings; on any normalised margin the equity is deeply discounted.
+14,Shimamura,8227,400,2667,0.50,7.0,14.0,7.0,1.00,"Among the cheapest EV/EBIT multiples in Japanese retail, driven by net cash near 38% of market cap."
+15,Wacoal Holdings,3591,250,1667,0.40,15.0,20.0,4.0,0.80,Sub-book with hidden Kyoto real estate and a listed securities portfolio; the operating business is barely profitable.
+16,TBS Holdings,9401,600,4000,1.00,18.0,20.0,3.0,0.80,"Assess on sum-of-the-parts, not earnings multiples. Listed securities ~¥800bn+ (Recruit, Tokyo Electron) exceed market cap."
+17,Square Enix Holdings,9684,1100,7333,2.50,15.0,22.0,4.0,1.80,Persistent EV/EBIT discount to Capcom despite arguably stronger IP — an execution and disclosure discount.
+18,Nihon Kohden,6849,350,2333,1.30,16.0,22.0,4.0,1.30,"Wide EV/EBIT discount to global patient-monitoring peers (Masimo, Drägerwerk) despite a strong domestic installed base."
+19,Shimizu Corporation,1803,900,6000,0.50,14.0,15.0,3.0,0.90,Sub-book despite a large investment property portfolio and listed securities worth a substantial fraction of market cap.
+20,Nippon Shokubai,4114,300,2000,0.40,11.0,14.0,6.0,0.60,"Widest discount to book in the screen, and the largest gap between reported book value and any realistic sum-of-the-parts."
