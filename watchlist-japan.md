@@ -2,11 +2,11 @@
 
 Source of truth for the Japan Portfolio daily news run (Japan + Korea names). JT/JP suffixes
 both denote Japan (Tokyo) listings. ⇄GGOF / ⇄EM marks overlap with the other portfolios;
-cover independently. Identities verified on the Aug 16, 2026 run except where flagged.
+cover independently. Identities verified on the Aug 16, 2026 run (Oct 23 run: no identity changes confirmed) except where flagged.
 
 **OPEN QUESTION FOR OWNER:** 8551 JP is The Kita-Nippon Bank (Iwate) — the original list said
 "North Pacific Bank", which trades as 8524 JP. Confirm which bank is actually held; coverage
-currently follows the ticker (Kita-Nippon).
+currently follows the ticker (Kita-Nippon). Oct 23 run: still unresolved; 8524 Q1 ordinary profit ¥11.2bn (25% of ¥44.4bn FY forecast).
 
 | Ticker | Name |
 |---|---|
@@ -76,6 +76,6 @@ currently follows the ticker (Kita-Nippon).
 | 3697 JP | SHIFT Inc |
 | 6758 JP | Sony Group |
 | 7995 JT | Valqua (seals/gaskets + semi plastics; verified) |
-| JP1024661QB1 Govt | JGB 0.50% maturing Nov 1, 2026 (identified via fund collateral report; MATURES SOON — reinvestment decision due; confirm exact issue vs MOF records) |
+| JP1024661QB1 Govt | JGB 0.50% maturing Nov 1, 2026 (identified via fund collateral report; MATURES Nov 1, 2026 (Sunday; redemption likely Mon Nov 2) — reinvestment decision due; exact issue still unverified vs MOF records; remove after redemption confirmed) |
 | 6875 JP | MegaChips |
 | 5711 JP | Mitsubishi Materials |
