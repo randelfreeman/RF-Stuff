@@ -1,33 +1,49 @@
 # Genting Malaysia Berhad (GENM MK / Bursa 4715): Equity Research Deep-Dive
 
-**Event-driven / special situation | Leisure & Gaming | Malaysia, United States, United Kingdom | 18 October 2026**
+**Event-driven / special situation | Leisure & Gaming | Malaysia, United States, United Kingdom | 24 October 2026 (update of our 18-Oct-2026 note)**
 
-> **Recommendation: SPECULATIVE BUY (event-driven, half position). 12-month target RM1.85 (+46%); probability-weighted value RM1.94 (+53%); bear case RM0.76 (−40%).** Malaysia's only casino and New York City's only full casino, owned through a levered equity stub that the market has priced for its parent's problems. At RM1.27, 46% below the lapsed RM2.35 offer, the market pays ~US$0.7bn for the whole US business (≈ the licence fee) if RWG is valued at 7x. Minorities' >10% veto over any delisting makes this a blocking-stake event rather than a pure value bet.
+> **Recommendation: SPECULATIVE BUY (event-driven, half position). 12-month target RM1.85 (+55%, unchanged); probability-weighted value RM1.94 (+63%); bear case RM0.76 (−36%).** Malaysia's only casino and New York City's only full casino, owned through a levered equity stub that the market has priced for its parent's problems. At RM1.19, a record low and 49% below the lapsed RM2.35 offer, the market pays ~US$0.56bn for the whole US business (roughly the US$500m licence fee) if RWG is valued at 7x. Minorities' >10% veto over any delisting makes this a blocking-stake event rather than a pure value bet.
 
-| Key data (16-Oct-2026 close) | | Key data | |
+| Key data (21-Oct-2026 close) | | Key data | |
 |---|---|---|---|
-| Share price | RM1.27 (10-year low) | Largest shareholder | Genting Bhd 73.84% (Lim family via Kien Huat) |
-| 52-week closing range | RM1.23-2.37 | Free float | ~26.2% |
-| Market cap | RM7.2bn / US$1.76bn | Lapsed parent offer | RM2.35 (Oct-Dec 2025; closed at 73.13%) |
-| EV (incl. leases) | RM21.4bn (CIQ TEV RM20.4bn) | Independent adviser SOTP (Nov-25) | RM3.48-3.77 |
-| Net debt incl. leases (Jun-26) | RM14.2bn (4.9x LTM adj. EBITDA ex-FX) | Consensus target (pre-12-Oct) | RM2.19 mean / RM1.89 median (4 Buy, 8 Hold) |
-| EV / FY26E-FY27E EBITDA (ours) | 6.8x / 6.3x | Credit ratings | Fitch BBB- (Sep-26); RAM AA1 |
-| P/E FY26E-FY27E (our EPS 4.3 / 8.6 sen) | 29.6x / 14.8x | Dividend | FY25 7 sen (5.5%); FY26E 5 sen (ours) |
-| P/B | 0.64x (record low) | Next catalyst | 3Q26 results (~26-Nov-2026) |
+| Share price | RM1.19 (record low; RM1.18 intraday) | Largest shareholder | Genting Bhd 73.84% (Lim family via Kien Huat) |
+| 52-week range | RM1.18-2.39 | Free float | ~26.2% |
+| Market cap | RM6.7bn / US$1.65bn | Lapsed parent offer | RM2.35 (Oct-Dec 2025; closed at 73.13%) |
+| EV (incl. leases) | RM20.9bn (CIQ-basis TEV ~RM19.9bn) | Independent adviser SOTP (Nov-25) | RM3.48-3.77 |
+| Net debt incl. leases (Jun-26) | RM14.2bn (4.9x LTM adj. EBITDA ex-FX) | Consensus target | RM2.19 mean (stale); Affin cut to Sell, TP RM1.00 (Oct-26); ~4 Buy / 7 Hold / 1 Sell [e] |
+| EV / FY26E-FY27E EBITDA (ours) | 6.7x / 6.1x | Credit ratings | Fitch BBB- (Sep-26); RAM AA1 |
+| P/E FY26E-FY27E (our EPS 4.3 / 8.6 sen) | 27.7x / 13.8x | Dividend | FY25 7 sen (5.9%); FY26E 5 sen (ours, 4.2%) |
+| P/B | 0.60x (record low) | Next catalysts | UK Budget (28-Oct); 3Q26 results (~19-26 Nov-2026) |
 
 
+# 0. What Has Changed Since Our 18-October Note
+
+**Bottom line: no change to the thesis, target (RM1.85) or rating (Speculative Buy, half position). The share price is 6% lower with no GENM-specific news, so the upside to our target widens from +46% to +55%. New data from New York shows a modest fade from the July run-rate rather than a break.**
+
+| # | Development (not reflected in our 18-Oct note) | Read-across for GENM |
+|---|---|---|
+| 1 | **Share price −6% to RM1.19 (21-Oct close), a record low** (RM1.18 intraday per TradingView); −20% since the parent's rights issue was announced on 9-Oct | Still parent-driven; FBM KLCI rose four sessions in a row to 1,611.56 (23-Oct), so GENM is diverging from the market |
+| 2 | **Affin Hwang downgraded GENM to Sell, TP RM1.00 (from Hold, RM1.80)**, and Genting Bhd to Sell, TP RM1.10, arguing the RM1.25bn rights issue gives limited debt relief while New York costs loom | First Sell call on GENM; it sits close to our bear case (RM0.76). The RM2.19 consensus mean is stale and will fall |
+| 3 | **NY September data: RWNYC GGR US$126.7m** (slots/ETGs US$85.2m, tables US$41.5m, an average of 242 tables a day); 69% of New York's US$184.3m commercial casino GGR (+220% YoY). The August statewide total was US$198.9m [u] | ~US$1.5bn annualised vs ~US$1.6bn implied by the July weekly peak: a 4-5% fade (hold, seasonality, novelty). 3Q26 RWNYC GGR ~US$0.40bn [e]; no change to our FY27E US&B EBITDA (US$262m) |
+| 4 | **GENM bought back 550,000 shares at ~RM1.27 on 12-Oct** (RM0.70m); treasury shares 271,052,915 (4.56% of issued) | First executions under the June mandate; symbolic in size |
+| 5 | **Insiders bought the parent, not GENM:** Kien Huat (Lim family) bought 422,500 Genting Bhd shares on 14-15 Oct (LKT deemed 45.24%); Genting Bhd CEO Tan Kong Han bought on 12-13 Oct and again on 19-21 Oct at ~RM1.42. Genting Bhd said RM280m of the rights proceeds will fund interest costs | The family is committing to the rights issue (45.1% irrevocable); parent cash needs remain the overhang |
+| 6 | **Genting Malaysia-Alibaba Cloud MoU (13-Oct)** on AI and cloud across GENM's operations | Immaterial |
+| 7 | **3Q26 results date:** market calendars show ~19-Nov-2026 [u] (our previous estimate was ~26-Nov) | First full quarter of NY live tables |
+| 8 | **Overlooked option (from the Nov-2025 offer document):** had the offer reached the delisting threshold, Genting Bhd intended to combine its US gaming assets (principally Resorts World Las Vegas [e]) with GENM's US operations and pursue a US listing [u: GGRAsia]. In Jun-2026 Genting Bhd's CEO described the offer as about control and balance-sheet needs, not privatisation | A US listing of a combined "Genting Americas" is a plausible route to crystallise US value; we add it to the bull case and the M&A section |
+
+**Positioning after the update:** hold the half position. We would not add before the UK Budget (28-Oct) and 3Q26 (~19-26 Nov), which are the next two tests. Price-dependent figures throughout this note have been updated to RM1.19; peer multiples and company financials are unchanged from the 18-Oct note (S&P Capital IQ, 16-Oct-2026).
 
 
 # 1. Executive Summary and Investment Conclusion
 
 ## 1.1 The set-up in one paragraph
 
-Genting Malaysia owns **Resorts World Genting**, Malaysia's sole licensed casino (since 1969; ~RM2.1bn EBITDA, 30% margin, 28.6m visitors), and **Resorts World New York City**, which on 28-Apr-2026 became the first and, until ~2030, only full casino in New York City. It also owns ~32 UK casinos, loss-making upstate NY and Bahamas assets, and 30 acres of Miami waterfront. Its parent, Genting Bhd, bid RM2.35 a share for the minority in Oct-2025. The independent adviser called that "not fair and not reasonable" (SOTP RM3.48-3.77), and the offer lapsed at 73.13%. Since then GENM has paid a US$500m NY licence fee, lifted debt by RM3.8bn, skipped its interim dividend, been cut to BBB- by Fitch, and missed on net profit (2Q26 −89%). On 9-Oct-2026 the parent launched a RM1.25bn rights issue to repay its own debt. **GENM fell 17% on parent news alone, to a 10-year low of RM1.23.**
+Genting Malaysia owns **Resorts World Genting**, Malaysia's sole licensed casino (since 1969; ~RM2.1bn EBITDA, 30% margin, 28.6m visitors), and **Resorts World New York City**, which on 28-Apr-2026 became the first and, until ~2030, only full casino in New York City. It also owns ~32 UK casinos, loss-making upstate NY and Bahamas assets, and 30 acres of Miami waterfront. Its parent, Genting Bhd, bid RM2.35 a share for the minority in Oct-2025. The independent adviser called that "not fair and not reasonable" (SOTP RM3.48-3.77), and the offer lapsed at 73.13%. Since then GENM has paid a US$500m NY licence fee, lifted debt by RM3.8bn, skipped its interim dividend, been cut to BBB- by Fitch, and missed on net profit (2Q26 −89%). On 9-Oct-2026 the parent launched a RM1.25bn rights issue to repay its own debt. **GENM fell 17% on parent news alone, to RM1.23, and has since drifted to a record low of RM1.19 (21-Oct) as Affin cut it to Sell (TP RM1.00).**
 
 ## 1.2 Investment thesis: four forces converging
 
-1. **A monopoly at a trough multiple.** 6.6x NTM EV/EBITDA (11th percentile of 10 years; peers 7.5x; deals 9.2x); 0.64x book (record low); premium to its parent at a 2nd-percentile 0.6x. If RWG is worth 7x, the market values the US business at ~2.6x EBITDA (~US$0.7bn).
-2. **New York is ramping fast.** US revenue +166% in 2Q26; weekly GGR ~US$30.8m (~US$1.6bn annualised); slot tax down from ~68% to 56%; 1,400 more slots from July. 3Q26 (late Nov) is the first full quarter with tables.
+1. **A monopoly at a trough multiple.** ~6.5x NTM EV/EBITDA (bottom decile of 10 years [e]; peers 7.5x; deals 9.2x); 0.60x book (record low); premium to its parent at a 2nd-percentile 0.6x. If RWG is worth 7x, the market values the US business at ~2.1x EBITDA (~US$0.56bn).
+2. **New York is ramping fast.** US revenue +166% in 2Q26; September GGR US$126.7m (~US$1.5bn annualised; tables US$41.5m), 69% of the state's commercial casino GGR; slot tax down from ~68% to 56%; 1,400 more slots from July. 3Q26 (~19-26 Nov) is the first full quarter with tables.
 3. **Event optionality with a minority veto.** The parent is 1.16pp from 75% and does not intend to keep GENM listed, but cannot fund a fair cash offer today. Minorities with >10% can block a low-ball delisting [u: rule]. RM2.35 is the anchor; our fair takeout range is RM1.96-2.75 (8.5-10x FY26E EBITDA).
 4. **Self-help levers exist:** Miami land (US$1.225bn bid in 2023), NY real-estate sale-leaseback (REIT precedents at US$0.7-1.2bn), related-party fee benchmarking (~RM848m a year), and the end of debt-funded dividends.
 
@@ -43,9 +59,9 @@ Genting Malaysia owns **Resorts World Genting**, Malaysia's sole licensed casino
 | | Bear (25%) | Base (50%) | Bull (25%) |
 |---|---|---|---|
 | Key assumption | Racing support charged; RWG 6x; phase-2 value destruction | Partial racing support; RWG 7x; US 7.5x; 15% governance discount | Tax equalisation path; RWG 8x; US 9x; or privatisation at ~9.5x |
-| Value per share | **RM0.76 (−40%)** | **RM1.86 (+47%)** | **RM3.28 (+158%)** |
+| Value per share | **RM0.76 (−36%)** | **RM1.86 (+56%)** | **RM3.28 (+176%)** |
 
-**Probability-weighted value: RM1.94 (+53%)**, plus a ~4% dividend yield. **12-month target: RM1.85.**
+**Probability-weighted value: RM1.94 (+63%)**, plus a ~4% dividend yield. **12-month target: RM1.85 (unchanged; +55%).**
 
 ## 1.5 What has to go right
 
@@ -57,7 +73,7 @@ Genting Malaysia owns **Resorts World Genting**, Malaysia's sole licensed casino
 
 ## 1.6 Positioning
 
-**Event-driven, low-to-medium conviction. Build a half position now** (liquidity is ~2-4m shares a day). Add on:
+**Event-driven, low-to-medium conviction. Hold a half position** (liquidity is ~2-4m shares a day; 30m traded on 12-Oct). Do not add before the UK Budget (28-Oct) and 3Q26 (~19-26 Nov). Add on:
 - 3Q26 confirmation of the NY run-rate;
 - completion of Genting Bhd's rights issue (1Q27);
 - any asset-monetisation announcement.
@@ -113,7 +129,7 @@ GENM is a capital-intensive, regulated, mass-market gaming operator. It owns or 
 |---|---|---|
 | Resorts World Genting (Pahang) | SkyCasino and the new "Genting Casino" mass floor (opened Dec-2024); 7 hotels / ~10,500 rooms incl. First World Hotel (7,351 rooms, the world's largest); Genting SkyWorlds outdoor theme park (opened Feb-2022); Skytropolis indoor park; SkyAvenue mall; Awana SkyWay cable car (3,600 passengers/hr) | Two of three legacy casino floors closed for renovation in Feb-2024; reopening timetable not disclosed [u] |
 | RW Kijal, RW Langkawi | Beach resorts | Occupancy 42% / 56% (FY25) |
-| Resorts World New York City (Queens, Aqueduct) | ~3,900 slots (2,500 at conversion + 1,400 added Jul-26), 242 live tables, Hyatt Regency JFK hotel; US$5.5bn masterplan for ~6,000 slots, 800 tables, ~2,000 rooms and a 7,000-seat arena | Only full casino in NYC until ~2030; weekly GGR ~US$30.8m in Jul-26 (~US$1.6bn annualised) [e] |
+| Resorts World New York City (Queens, Aqueduct) | ~3,900 slots (2,500 at conversion + 1,400 added Jul-26), 242 live tables, Hyatt Regency JFK hotel; US$5.5bn masterplan for ~6,000 slots, 800 tables, ~2,000 rooms and a 7,000-seat arena | Only full casino in NYC until ~2030; weekly GGR ~US$30.8m in Jul-26; US$126.7m in Sep-26 (~US$1.5bn annualised) |
 | Empire Resorts: RW Catskills, RW Hudson Valley | Commercial casino and resort (Catskills); 1,200-VGM facility (Newburgh) | Loss-making; 100% owned since May-2025 |
 | Genting UK | ~32 casinos incl. RW Birmingham, Genting Casino Stratford (bought Apr-25 for £27.8m) | Coventry closing Oct-26; 13 casinos at risk if machine games duty doubles |
 | Crockfords Cairo | Hotel casino in the Nile Ritz-Carlton | Immaterial |
@@ -195,9 +211,9 @@ Source: GENM AR2025 (Notes 4-6, 18, 40, 44), QR 4Q25 RRPT table, NY Gaming Commi
 
 ## 5.2 Micro
 
-- RWNYC ramp: slots ~US$20-22m a week, tables from US$4.9m (first week) to US$10.4-11.1m (July).
+- RWNYC ramp: slots ~US$20-22m a week, tables from US$4.9m (first week) to US$10.4-11.1m (July). September: slots/ETGs US$85.2m and tables US$41.5m for the month (~US$19.9m and ~US$9.7m a week), a modest fade from July.
 - RWG: hotel occupancy 98%, two legacy floors still closed, new mass floor since Dec-2024, attractions revenue down YoY.
-- Parent: Genting Bhd's RM1.25bn rights issue (9-Oct-2026), group gross debt ~RM45-47bn; S&P BBB-/negative "fallen angel" risk.
+- Parent: Genting Bhd's RM1.25bn rights issue (9-Oct-2026; RM800m to repay debt, RM280m for interest costs), group gross debt ~RM45-47bn; S&P BBB-/negative "fallen angel" risk; Maybank and Affin cut Genting Bhd to Sell; Kien Huat and the CEO bought Genting Bhd shares on the slide.
 
 ## 5.3 Tailwinds and headwinds
 
@@ -245,7 +261,7 @@ Source: GENM AR2025 (Notes 4-6, 18, 40, 44), QR 4Q25 RRPT table, NY Gaming Commi
 
 | Stage | Role | Named counterparties |
 |---|---|---|
-| 1. Owners and parent | Control, strategy, brand and IP | Kien Huat Realty / Lim family trust (Parkview Management → Kien Huat International → KHR, ~43.8% of Genting Bhd votes) → **Genting Bhd (73.84% of GENM)**; Resorts World Inc (RWI, Genting Bhd JV, US/Bahamas IP, gaming software); sister companies Genting Singapore (also a competitor), Genting Plantations (Genting Premium Outlets JV with Simon Property) |
+| 1. Owners and parent | Control, strategy, brand and IP | Kien Huat Realty / Lim family trust (Parkview Management → Kien Huat International → KHR; LKT deemed 45.24% of Genting Bhd after Oct-2026 purchases) → **Genting Bhd (73.84% of GENM)**; Resorts World Inc (RWI, Genting Bhd JV, US/Bahamas IP, gaming software); sister companies Genting Singapore (also a competitor), Genting Plantations (Genting Premium Outlets JV with Simon Property) |
 | 2. Capital providers | Debt and equity | Holders of GENM Capital Labuan US$1bn 3.882% 2031 notes; Genting NY/GENNY Capital US$625m 7.25% 2029 notes; GENM Capital RM4.75bn MTNs; US$2.0bn Genting Americas secured facility (Jun-26; refinanced the KeyBanc-arranged US$925m facility and Empire's US$300m notes); minority shareholders (UBS, Vanguard, Dimensional, iShares, Norges, Prudential, Great Eastern) |
 | 3. Land and concessions | Sites, licences | Malaysian Ministry of Finance (casino licence); NY State Gaming Commission, NY Lottery, Franchise Oversight Board (Aqueduct lease), NYRA; UK Gambling Commission and local authorities; Bahamas Gaming Board; Egyptian authorities / Nile Ritz-Carlton |
 | 4. Construction and design | Capex delivery | Plaza Construction, Perkins Eastman, Cosentini (RWNYC); JCJ Architecture (Catskills); Leitner Ropeways (Awana SkyWay); Cyclect (SkyWorlds); RWNYC phase-2 contractor not disclosed [u] |
@@ -372,7 +388,7 @@ Source: S&P Capital IQ segments, GENM AR2025. GENM does not disclose segment D&A
 | Gaming share of L&H revenue | 76% | 74% | n/d | 74% | 77% in 1H26 (US mix) |
 | Malaysia adj. EBITDA margin | 31.1% | 32.0% | 30.7% | 30.0% | 32.8% in 1H26 (cost control + VIP hold) |
 | RWNYC capacity | VGMs only | VGMs only | VGMs only | VGMs only | 242 tables + ~3,900 slots after Jul-26 |
-| RWNYC weekly GGR (US$m) | n/a | n/a | n/a | n/a | ~30.8 (Jul-26) = ~US$1.6bn annualised [e] |
+| RWNYC weekly GGR (US$m) | n/a | n/a | n/a | n/a | ~30.8 (wk to 12-Jul-26); Sep-26 month US$126.7m (~29.6 a week) = ~US$1.5bn annualised |
 | US visitors (m) | n/d | n/d | 7.9 | 7.4 | Ramp under way |
 | Capex / revenue (cash PPE) | 7.6% | 6.8% | 5.2% | 7.6% | ~29% FY26E (consensus RM3.9bn) |
 | Net debt incl. leases / adj. EBITDA | 4.6x | 3.4x | 3.4x | 3.1x | 4.7x (Jun-26) |
@@ -385,9 +401,9 @@ Source: S&P Capital IQ segments, GENM AR2025. GENM does not disclose segment D&A
 
 # 9. Historical Share Price Catalysts (Moves of More Than 10%)
 
-![Figure: GENM weekly share price, Oct-2016 to 16-Oct-2026, with key events.](GENM_charts/price_10y.png)
+![Figure: GENM weekly share price, Oct-2016 to 16-Oct-2026, with key events (chart ends 16-Oct; last close RM1.19 on 21-Oct-2026).](GENM_charts/price_10y.png)
 
-**Performance (price only, to 16-Oct-2026, RM1.27):** −45.7% over 1 year, −48.8% over 3 years, −60.4% over 5 years, against the FBM KLCI −0.3%, +12% and +1.5%. YTD 2026: −37.7% vs KLCI −4.3%. GENM has underperformed in 7 of the last 9 full years. It is at a 10-year low, 46% below Genting Bhd's lapsed RM2.35 offer and 0.64x book value.
+**Performance (price only, to 21-Oct-2026, RM1.19):** −49% over 1 year, −52% over 3 years, −63% over 5 years [e], against the FBM KLCI −0.3%, +12% and +1.5% (to 16-Oct). YTD 2026: −42% vs KLCI −4.3% (to 16-Oct). GENM has underperformed in 7 of the last 9 full years. It is at a record low (RM1.18 intraday on 21-Oct-2026), 49% below Genting Bhd's lapsed RM2.35 offer and at 0.60x book value.
 
 ## 9.1 Single-day moves of 10% or more (last five years)
 
@@ -417,6 +433,7 @@ Near misses: 21-Nov-2022 (GE15 hung parliament; −10.7% at the open, −5.5% cl
 | Mar-26 → Apr-26 | +16% | RWNYC live tables announced and opened (28-Apr-26) |
 | Apr-26 → Sep-26 | **−28%** | 1Q26 miss (pre-opening loss), 2Q26 net profit −89%, no interim dividend, debt +RM3.8bn, Fitch downgrade to BBB- (Sep-26), parent-leverage worries |
 | 9-Oct-26 → 12-Oct-26 | −17% | Genting Bhd rights issue |
+| 9-Oct-26 → 21-Oct-26 | **−20%** (RM1.49 → 1.19) | Rights issue, then Affin's Sell call (TP RM1.00); record low with no GENM-specific news |
 
 ## 9.3 Ten-year context
 
@@ -449,14 +466,14 @@ Source: S&P Capital IQ key developments; GENM press releases; ASGAM, GGRAsia, Th
 1. **New York execution.** Ramping RWNYC (242 tables, ~3,900 slots), phase 2 (hotel tower, arena; groundbreaking Jul-2026), staffing (2,200+ hires), and the tax fight (racing-support payments). NY now dominates every briefing.
 2. **Protecting Malaysian margins.** Cost control, payroll, the mass-market floor, refurbishment, new attractions (Eufloria, golf), and managing VIP volatility.
 3. **Funding and the balance sheet.** The US$2.0bn Genting Americas facility (Jun-2026), the Empire note take-out, perpetual securities (Fitch said these alone would not prevent a downgrade), and preserving the BBB- rating.
-4. **Capital returns de-prioritised.** No interim dividend in either FY25 or FY26; final 7 sen for FY25 framed as "rewarding shareholders while maintaining deleveraging"; buyback "commenced" 17-Sep-2026 under the AGM mandate (no executions found).
+4. **Capital returns de-prioritised.** No interim dividend in either FY25 or FY26; final 7 sen for FY25 framed as "rewarding shareholders while maintaining deleveraging"; buyback "commenced" 17-Sep-2026 under the AGM mandate; the first disclosed purchase was 550,000 shares at ~RM1.27 on 12-Oct-2026 (RM0.7m), a token amount.
 
 ## 10.3 How sentiment has shifted
 
 - **Late 2024 to mid-2025: defensive.** Cost inflation, VIP softness and Empire losses; cash hoarding (dividend cut, skipped interim). FX gains masked weak trends.
 - **3Q25-4Q25: expansion optimism.** RWG recovered and the NY licence was won. The tone was the most constructive of the period, but the share price was pinned by the offer and then lost its support.
 - **1H26: "temporary earnings dilution".** Pre-opening costs, interest, D&A and FX losses; the group P&L and dividend are subordinated to the NY build.
-- **Market read:** the market has stopped crediting the "jam tomorrow" narrative. The stock fell 13.5% in September with no company news, and 17% on the parent's rights issue. Sentiment is now driven by balance-sheet risk at both GENM and its parent.
+- **Market read:** the market has stopped crediting the "jam tomorrow" narrative. The stock fell 13.5% in September with no company news, 17% on the parent's rights issue, and a further 3% to a record low after Affin's Sell call. Sentiment is now driven by balance-sheet risk at both GENM and its parent.
 
 
 # 11. Latest Result: 2Q26 / 1H26 (released 20-Aug-2026)
@@ -517,7 +534,7 @@ Flags:
 
 ## 11.6 Market reaction and what was priced in
 
-The stock slipped 0.6% the next day and 1.7% the next week: "in line" EBITDA had been expected. It then fell 13.5% in September without company news, before the parent's rights issue knocked it down another 17%. The muted initial reaction shows that the NY revenue ramp was priced in. The later slide shows that the market is pricing **the balance sheet, the dividend and the parent**, not the NY top line.
+The stock slipped 0.6% the next day and 1.7% the next week: "in line" EBITDA had been expected. It then fell 13.5% in September without company news, before the parent's rights issue knocked it down another 17% and Affin's downgrade took it to a record low of RM1.19. The muted initial reaction shows that the NY revenue ramp was priced in. The later slide shows that the market is pricing **the balance sheet, the dividend and the parent**, not the NY top line.
 
 ## 11.7 Unusual vs recent history
 
@@ -526,6 +543,20 @@ The stock slipped 0.6% the next day and 1.7% the next week: "in line" EBITDA had
 3. A 26% jump in gross debt in six months.
 4. Net profit swings of hundreds of millions of ringgit from unrealised FX on USD debt.
 5. The President (Lee Choong Yan, in role since 2006) stepped down on 1-Mar-2026, mid-ramp.
+
+## 11.8 3Q26 preview (results ~19-26 Nov-2026) [e]
+
+| RM m | 3Q25A | 3Q26E (ours) | What to watch |
+|---|---|---|---|
+| RWNYC GGR (US$m) | VLT only | ~400 (Jul ~135 [e], Aug ~133 [e], Sep 126.7) | First full quarter of tables; free-play intensity |
+| Malaysia adj. EBITDA | 627.4 | ~580-620 | VIP hold normalising after a lucky 2Q; visitation vs Middle East airfares |
+| UK & Egypt adj. EBITDA | 86.3 | ~70-85 | Coventry closure costs; Budget (28-Oct) commentary |
+| US & Bahamas adj. EBITDA | 151.2 | ~240-270 | **Key number: ≥RM250m (≈US$62m) supports our FY26-27E** |
+| Group adj. EBITDA ex-FX | 835.3 | ~880-920 | Margin ~23-24% vs 22.4% in 2Q26 |
+| Net income (before FX) | 119.7 | ~90-140 | Interest (~RM270m), D&A, tax rate |
+| Interim dividend | none | none expected | A surprise interim would be a strong signal |
+
+A US&B print below ~RM220m, or any provision for racing support, would be the first fundamental crack in the NY leg of the thesis.
 
 
 # 12. Earnings Estimates, FY2026E-FY2028E
@@ -629,33 +660,33 @@ Covenant headroom cannot be assessed from public data, and we flag this as a dil
 
 # 14. Valuation vs Peers and vs History
 
-**Bottom line: cheap on EV/EBITDA, sales and book, expensive on earnings, and roughly fair against peers at today's margins.** GENM trades at 6.6x NTM EBITDA (CIQ; peers 7.5x; own 10-year median 8.8x; 11th percentile), 1.56x sales (2nd percentile of its history) and 0.64x book (record low). But it trades at 14.9x NTM P/E (peers 10.1x) because leverage (5.6x net debt/EBITDA vs a 4.3x peer median), D&A and finance costs absorb most of the EBITDA. **The stock screens cheap only if the EBITDA converts into equity value, which depends on New York.**
+**Bottom line: cheap on EV/EBITDA, sales and book, expensive on earnings, and roughly fair against peers at today's margins.** At RM1.19, GENM trades at ~6.5x NTM EBITDA (CIQ basis; peers 7.5x; own 10-year median 8.8x; bottom decile [e]), 1.52x sales (near its 10-year low of 1.50x) and 0.60x book (record low). But it trades at 14.0x NTM P/E (peers 10.1x) because leverage (5.6x net debt/EBITDA vs a 4.3x peer median), D&A and finance costs absorb most of the EBITDA. **The stock screens cheap only if the EBITDA converts into equity value, which depends on New York.**
 
-## 14.1 Headline valuation (16-Oct-2026, RM1.27)
+## 14.1 Headline valuation (GENM at RM1.19, 21-Oct-2026; peers 16-Oct-2026)
 
 | Metric | GENM | Peer median (31) | Asia-Pac median | GENM 10-yr median | GENM percentile (10-yr) | Signal |
 |---|---|---|---|---|---|---|
-| TEV/Sales (LTM) | 1.56x | 1.86x | 1.66x | 2.65x | 2nd | Cheap |
-| TEV/EBITDA (LTM) | 8.1x | 7.9x | 7.6x | 9.4x (ex-Covid) | 39th | Fair |
-| TEV/EBITDA (NTM) | 6.6x | 7.5x | 7.4x | 8.8x | 11th | **Cheap** |
-| TEV/EBIT (LTM) | 18.2x | 12.8x | 13.2x | n/a | n/a | Expensive |
-| P/E (LTM / NTM) | 23.1x / 14.9x | 13.4x / 10.1x | 11.2x / 9.5x | 19.8x (LTM) | 76th | **Expensive** |
-| P/E on our FY27E EPS (8.6 sen) | 14.8x | | | | | Expensive |
+| TEV/Sales (LTM) | 1.52x | 1.86x | 1.66x | 2.65x | ~1st | Cheap |
+| TEV/EBITDA (LTM) | 7.9x | 7.9x | 7.6x | 9.4x (ex-Covid) | ~35th [e] | Fair |
+| TEV/EBITDA (NTM) | 6.5x | 7.5x | 7.4x | 8.8x | ~7th [e] | **Cheap** |
+| TEV/EBIT (LTM) | 17.8x | 12.8x | 13.2x | n/a | n/a | Expensive |
+| P/E (LTM / NTM) | 21.6x / 14.0x | 13.4x / 10.1x | 11.2x / 9.5x | 19.8x (LTM) | ~70th [e] | **Expensive** |
+| P/E on our FY27E EPS (8.6 sen) | 13.8x | | | | | Expensive |
 | Net debt / EBITDA | 5.6x (CIQ) / 4.9x (ex-FX adj.) | 4.3x | 3.9x | ~3.4x (FY23-25) | high | **Stretched** |
 | EBITDA margin (CIQ basis) | 19.2% | 24.7% | 23.5% | | | Below peers |
 | EBIT margin (CIQ basis) | 8.6% | 13.0% | 12.6% | | | Below peers |
 | Sales growth (LTM) | 19.1% | 5.9% | 7.9% | | | Above peers (NY, Empire consolidation) |
-| Dividend yield | 5.5% (FY25 DPS) | 0.8% | 3.3% | 3.5% | 80th | High, but at risk |
-| FCF yield (CFO − capex) | 7.3% (−21% incl. NY licence fee) | 10.0% | 10.6% | | | Weak |
-| P/B | 0.64x | 1.16x | 0.64x | 1.15x | 3rd | Cheap |
+| Dividend yield | 5.9% (FY25 DPS) | 0.8% | 3.3% | 3.5% | ~85th [e] | High, but at risk |
+| FCF yield (CFO − capex) | 7.8% (−22% incl. NY licence fee) | 10.0% | 10.6% | | | Weak |
+| P/B | 0.60x | 1.16x | 0.64x | 1.15x | <1st (record low) | Cheap |
 
-Source: S&P Capital IQ (multiples as of 16-Oct-2026; financials LTM to 30-Jun-2026). TEV includes leases. The CIQ LTM EBITDA (~RM2.5bn) is below company adj. EBITDA (RM3.0bn) because of classification; on the company basis, TEV/LTM adj. EBITDA is 6.8x (7.0x ex-FX; 7.4x on market cap plus net debt).
+Source: S&P Capital IQ (peer multiples as of 16-Oct-2026; financials LTM to 30-Jun-2026); GENM multiples re-based to RM1.19 by us (CIQ TEV less RM0.45bn of market cap). TEV includes leases. The CIQ LTM EBITDA (~RM2.5bn) is below company adj. EBITDA (RM3.0bn) because of classification; on the company basis, TEV/LTM adj. EBITDA is 6.6x (6.9x ex-FX; 7.2x on market cap plus net debt incl. leases).
 
 ## 14.2 Listed peer comparison (multiples)
 
 | Company | Ticker | Listed | Mkt cap US$m | TEV/Sales | TEV/EBITDA LTM | TEV/EBITDA NTM | TEV/EBIT | P/E LTM | P/E NTM |
 |---|---|---|---|---|---|---|---|---|---|
-| **Genting Malaysia** | KLSE:GENM | Yes | 1,763 | 1.56x | 8.1x | 6.6x | 18.2x | 23.1x | 14.9x |
+| **Genting Malaysia** | KLSE:GENM | Yes | 1,652 | 1.52x | 7.9x | 6.5x | 17.8x | 21.6x | 14.0x |
 | Genting Bhd | KLSE:GENTING | Yes | 1,368 | 1.78x | 6.4x | 6.1x | 12.4x | n/a | 8.8x |
 | Genting Singapore | SGX:G13 | Yes | 5,750 | 1.81x | 5.6x | 5.1x | 11.7x | 23.5x | 17.0x |
 | Las Vegas Sands | NYSE:LVS | Yes | 24,618 | 2.69x | 7.8x | 6.9x | 11.6x | 14.7x | 11.7x |
@@ -690,13 +721,13 @@ Source: S&P Capital IQ (multiples as of 16-Oct-2026; financials LTM to 30-Jun-20
 | Golden Entertainment | NasdaqGM:GDEN | No* | 754 | 1.92x | 7.5x | n/a | 38.3x | n/a | n/a |
 | **Peer median (ex-GENM)** | | | | **1.86x** | **7.9x** | **7.5x** | **12.8x** | **13.4x** | **10.1x** |
 
-Source: S&P Capital IQ, 16-Oct-2026; financials LTM to 30-Jun-2026. *Golden Entertainment was taken private in Apr-2026 (VICI/Sartini) and is shown at its last multiples, excluded from medians. n.m. = negative or >60x.
+Source: S&P Capital IQ, 16-Oct-2026 (GENM re-based to RM1.19, 21-Oct-2026); financials LTM to 30-Jun-2026. *Golden Entertainment was taken private in Apr-2026 (VICI/Sartini) and is shown at its last multiples, excluded from medians. n.m. = negative or >60x.
 
 ## 14.3 Listed peer comparison (operating and balance-sheet metrics)
 
 | Company | Country | EBITDA margin | EBIT margin | Sales growth (LTM) | Net debt/EBITDA | Div. yield | FCF yield |
 |---|---|---|---|---|---|---|---|
-| **Genting Malaysia** | Malaysia | 19.2% | 8.6% | 19.1% | 5.6x | 5.5% | 7.3% |
+| **Genting Malaysia** | Malaysia | 19.2% | 8.6% | 19.1% | 5.6x | 5.9% | 7.8% |
 | Genting Bhd | Malaysia | 28.0% | 14.3% | 7.9% | 3.6x | 3.5% | 4.6% |
 | Genting Singapore | Singapore | 32.4% | 15.4% | 2.2% | -3.7x | 6.6% | 2.3% |
 | Las Vegas Sands | USA/Macau/Singapore | 34.6% | 23.3% | 18.1% | 2.5x | 2.7% | 11.0% |
@@ -768,17 +799,17 @@ Exclusions from the core sample: Kangwon Land (negative TEV), Star Entertainment
 
 | What the line implies for GENM | Implied TEV/Sales | Implied TEV | vs current | Per share |
 |---|---|---|---|---|
-| LTM EBIT margin 8.6% (CIQ basis) | **1.64x** | RM21.5bn | +5% | **RM1.29-1.46** (+2% to +15%) |
-| FY26E consensus EBIT margin 12.7% | 1.93x | RM25.3bn | +24% | RM1.96-2.13 (+54% to +67%) |
-| Company adj. EBIT margin 12.4% (LTM) | 1.91x | RM25.0bn | +22% | ~RM2.08 (+64%) |
+| LTM EBIT margin 8.6% (CIQ basis) | **1.64x** | RM21.5bn | +8% | **RM1.30-1.47** (+9% to +24%) |
+| FY26E consensus EBIT margin 12.7% | 1.93x | RM25.3bn | +27% | RM1.96-2.13 (+65% to +79%) |
+| Company adj. EBIT margin 12.4% (LTM) | 1.91x | RM25.0bn | +25% | RM1.91-2.08 (+61% to +75%) |
 
-**Interpretation.** On today's margins GENM sits almost on the line: the market prices it in line with peers. The re-rating case rests on **margin recovery** as NY ramps and pre-opening costs roll off. With net debt at ~2x market cap, a 5% EV gap is worth only +2-15% to the equity, but a 20-24% EV gap (margin recovery to ~12.5%) is worth +54-67%. The per-share range reflects two TEV-to-equity bridges: CIQ's (RM13.2bn of claims) and net debt including leases (RM14.2bn).
+**Interpretation.** On today's margins GENM now sits slightly below the line (1.52x actual vs 1.64x implied): the market prices it at a modest discount to peers. The re-rating case still rests on **margin recovery** as NY ramps and pre-opening costs roll off. With net debt at ~2.1x market cap, the 8% EV gap is worth +9-24% to the equity, while a 25-27% EV gap (margin recovery to ~12.5%) is worth +61-79%. The per-share range reflects two TEV-to-equity bridges: CIQ's (RM13.2bn of claims) and net debt including leases (RM14.2bn). The reverse fit (EBIT margin on TEV/Sales, as plotted) is EBIT margin = −3.9% + 9.0% × TEV/Sales, with the same R² of 0.63.
 
 ## 14.6 Against its own history
 
 ![Figure: TEV/NTM EBITDA for GENM, Genting Singapore and Genting Bhd, 2016-2026.](GENM_charts/hist_multiple.png)
 
-| Series (month-end, CIQ) | Window | Average | Median | Min | Max | Current | Percentile |
+| Series (month-end, CIQ) | Window | Average | Median | Min | Max | Current (30-Sep) | Percentile |
 |---|---|---|---|---|---|---|---|
 | TEV/NTM EBITDA | 10-yr | 9.55x | 8.78x | 6.35x | 19.80x | 6.81x | 11th |
 | TEV/NTM EBITDA | 5-yr | 8.42x | 7.80x | 6.35x | 19.80x | 6.81x | 20th |
@@ -789,18 +820,20 @@ Exclusions from the core sample: Kangwon Land (negative TEV), Star Entertainment
 | Dividend yield (prior FY DPS) | 10-yr | 3.6% | 3.5% | 1.5% | 6.9% | 5.5% | 80th |
 | GENM premium to Genting Bhd (NTM EV/EBITDA, x pts) | 10-yr | 2.54 | 1.96 | 0.53 | 9.41 | 0.60 | 2nd |
 
+At RM1.19 (21-Oct) the equivalents are ~6.5x NTM EV/EBITDA, ~1.52x TEV/Sales, 0.60x P/B (a record low) and a 5.9% trailing dividend yield [e].
+
 **Relative to direct listed peers over time.** GENM historically traded at a **1.5-2.5 turn premium** to Genting Bhd and Genting Singapore on NTM EV/EBITDA, a premium for its domestic monopoly and net-cash balance sheet. That premium to the parent has collapsed to 0.6x (2nd percentile), while the gap to Genting Singapore (1.6x) is at its norm. The whole Genting complex is de-rating, and GENM has lost its monopoly premium as it has taken on NY capex and leverage.
 
 ## 14.7 Verdict: cheap, fair or expensive?
 
 | Lens | Verdict |
 |---|---|
-| EV/EBITDA vs peers and history | **Cheap** (−12% vs peers NTM; 11th percentile of its own history) |
-| EV/Sales vs margin (regression) | **Fair** today; cheap if margins recover to consensus |
+| EV/EBITDA vs peers and history | **Cheap** (−14% vs peers NTM; bottom decile of its own history) |
+| EV/Sales vs margin (regression) | **Fair to slightly cheap** today (−8% vs the line); cheap if margins recover to consensus |
 | P/E and EV/EBIT | **Expensive** (leverage, D&A, interest) |
-| P/B and vs the lapsed RM2.35 offer | **Cheap** (0.64x book; −46% vs offer) |
-| Sum-of-the-parts (Section 24) | **Cheap**: base RM1.86 (+47%) |
-| Market-implied | At RM1.27, if RWG is valued at 7x EBITDA, the market pays **~US$0.67bn (~2.6x EBITDA) for the entire US business**, barely more than the US$500m licence fee paid in January. Alternatively, valuing the US at 7.5x implies RWG at ~4.6x EBITDA |
+| P/B and vs the lapsed RM2.35 offer | **Cheap** (0.60x book; −49% vs offer) |
+| Sum-of-the-parts (Section 24) | **Cheap**: base RM1.86 (+56%) |
+| Market-implied | At RM1.19, if RWG is valued at 7x EBITDA, the market pays **~US$0.56bn (~2.1x FY27E EBITDA) for the entire US business**, roughly the US$500m licence fee paid in January. Alternatively, valuing the US at 7.5x implies RWG at ~4.4x EBITDA |
 
 
 # 15. M&A: Industry Transactions, Takeover Potential and Takeout Multiples
@@ -839,21 +872,21 @@ Source: S&P Capital IQ Transactions; company releases. **Median EV/EBITDA 9.2x (
 
 | Pros (why a renewed privatisation is likely, eventually) | Impediments |
 |---|---|
-| Genting Bhd is 1.16pp (≈66m shares, ~RM84m) from 75%, which reopens a delisting route once the post-offer restrictions lapse (~Dec-2026 [u]) | **Parent funding:** RM1.25bn rights issue to repay debt; ~RM45bn gross debt; S&P negative outlook; CreditSights expects no debt-funded GENM purchases for 12-18 months |
-| Full ownership gives the parent 100% of NY cash flows and ends minority scrutiny of related-party transactions | **Price anchoring:** minorities will treat RM2.35 (and the independent adviser's RM3.48-3.77) as the reference, not RM1.27 |
-| Minority buy-out is cheap in absolute terms: ~RM1.9bn at spot, ~RM3.5bn at RM2.35 | **Minority veto:** a delisting resolution typically fails if >10% of holders object [u]; minorities own ~26% |
+| Genting Bhd is 1.16pp (≈66m shares, ~RM78m) from 75%, which reopens a delisting route once the post-offer restrictions lapse (~Dec-2026 [u]) | **Parent funding:** RM1.25bn rights issue to repay debt; ~RM45bn gross debt; S&P negative outlook; CreditSights expects no debt-funded GENM purchases for 12-18 months |
+| Full ownership gives the parent 100% of NY cash flows and ends minority scrutiny of related-party transactions | **Price anchoring:** minorities will treat RM2.35 (and the independent adviser's RM3.48-3.77) as the reference, not RM1.19 |
+| Minority buy-out is cheap in absolute terms: ~RM1.8bn at spot, ~RM3.5bn at RM2.35 | **Minority veto:** a delisting resolution typically fails if >10% of holders object [u]; minorities own ~26% |
 | GENM's monopoly cash flows would help service parent debt | Ratings: a debt-funded offer risks a parent downgrade to junk (S&P BBB-/Negative) |
-| A share-swap (no cash) structure is possible | A share swap dilutes Kien Huat's ~43.8% of Genting Bhd and is unattractive at Genting Bhd's depressed price |
+| A share-swap (no cash) structure is possible | A share swap dilutes the Lim family's ~45% of Genting Bhd and is unattractive at Genting Bhd's depressed price (~RM1.42) |
 | Low liquidity and index exclusions depress the minority price | Malaysian Take-overs Code and SC scrutiny of a second low-ball attempt; reputational cost |
 
-**Most likely sequence [e]:** (1) Genting Bhd completes its rights issue (1Q27); (2) creeping purchases resume and it crosses 75% (2027); (3) a delisting proposal with an exit offer once RWNYC earnings are visible (2027-28), priced off a then-higher EBITDA but at a "control already held" discount. Alternatively, (4) asset-level deals (RWNYC PropCo sale-leaseback, Miami sale) happen first to fund NY.
+**Most likely sequence [e]:** (1) Genting Bhd completes its rights issue (1Q27); (2) creeping purchases resume and it crosses 75% (2027); (3) a delisting proposal with an exit offer once RWNYC earnings are visible (2027-28), priced off a then-higher EBITDA but at a "control already held" discount. Alternatively, (4) asset-level deals (RWNYC PropCo sale-leaseback, Miami sale) happen first to fund NY, or (5) the US route flagged in the Nov-2025 offer document: Genting Bhd combines Resorts World Las Vegas with GENM's US operations and lists the combined US business in the US [u], which would put a market price on New York without a cash bid for GENM's minorities.
 
 ## 15.4 Potential takeout multiples and values
 
 | TEV / FY26E EBITDA (consensus RM2,974m) | 7.0x | 8.0x | 9.0x | 9.2x (deal median) | 10.0x | 11.0x | 12.0x |
 |---|---|---|---|---|---|---|---|
 | Value per share (RM) | 1.17 | 1.70 | 2.22 | 2.33 | 2.75 | 3.27 | 3.80 |
-| Premium to RM1.27 | −8% | +34% | +75% | +83% | +116% | +158% | +199% |
+| Premium to RM1.19 | −2% | +43% | +87% | +96% | +131% | +175% | +219% |
 | On our FY27E EBITDA (RM3,415m), per share | 1.72 | 2.32 | 2.92 | 3.04 | 3.53 | 4.13 | 4.73 |
 
 Net debt RM14,166m (Jun-26, incl. leases) held flat; 5,667.7m shares. The RM2.35 offer equals ~9.2x FY26E EBITDA today; Kenanga's RM3.48-3.77 equals 11.4-11.9x.
@@ -986,7 +1019,7 @@ Source: S&P Capital IQ. Over FY2015-25, average ROE was ~1.6% and return on capi
 | 9 | WisdomTree | 0.31 | Foreign passive |
 | 10 | Norges Bank | 0.19 | Foreign sovereign wealth fund |
 
-Shares in issue 5,938.0m less 270.3m treasury = 5,667.7m outstanding; 72,243 holders. **EPF, KWAP and PNB/ASB no longer appear in the top 30** (each <0.11%), which implies they tendered into the RM2.35 offer or sold [e]. Public spread ≈ **26.1%**, only ~1.1pp (≈64m shares, ~RM81m at RM1.27) above Bursa's 25% minimum.
+Shares in issue 5,938.0m less 271.1m treasury (after the Oct-2026 buyback) = 5,667.0m outstanding; 72,243 holders. **EPF, KWAP and PNB/ASB no longer appear in the top 30** (each <0.11%), which implies they tendered into the RM2.35 offer or sold [e]. Public spread ≈ **26.1%**, only ~1.1pp (≈64m shares, ~RM76m at RM1.19) above Bursa's 25% minimum.
 
 ## 18.2 Activism
 
@@ -1004,7 +1037,7 @@ Shares in issue 5,938.0m less 270.3m treasury = 5,667.7m outstanding; 72,243 hol
 2. Any future delisting resolution, which typically fails if more than 10% of votes object [u: exact rule].
 3. Major related-party acquisitions above 5%.
 
-A coordinated minority holding ~10% of GENM (~38% of the free float; ~RM720m at today's price) would hold a blocking position against a lowball privatisation. That is the activist's real lever (see Section 26).
+A coordinated minority holding ~10% of GENM (~38% of the free float; ~RM675m at RM1.19) would hold a blocking position against a lowball privatisation. That is the activist's real lever (see Section 26).
 
 ## 18.3 Short interest
 
@@ -1046,7 +1079,7 @@ No GENM short-interest data are published. Bursa runs regulated short selling an
 | Money-market funds (FVTPL) | n/a | RM1,148m (Jun-26) | Liquidity | Treated as cash |
 | **Listed equity stakes** | **None** | - | - | - |
 
-**GENM's place in the group:** Lim family trust → Kien Huat Realty (~43.8% of Genting Bhd votes) → **Genting Bhd** (73.84% of GENM; ~52.6% of Genting Singapore; ~55.4% of Genting Plantations; 100% of Resorts World Las Vegas; Genting Energy). GENM holds no stake in its sister companies. Sister Genting Singapore (RWS) is both a related party and a regional competitor.
+**GENM's place in the group:** Lim family trust → Kien Huat Realty (LKT deemed 45.24% of Genting Bhd, Oct-2026) → **Genting Bhd** (73.84% of GENM; ~52.6% of Genting Singapore; ~55.4% of Genting Plantations; 100% of Resorts World Las Vegas; Genting Energy). GENM holds no stake in its sister companies. Sister Genting Singapore (RWS) is both a related party and a regional competitor.
 
 
 # 21. Dividends, Buybacks and Treasury Shares (Five-Year Timeline)
@@ -1058,12 +1091,12 @@ No GENM short-interest data are published. Bursa runs regulated short selling an
 | 2023 | 6.0 | 9.0 | - | 15.0 | 195% | 850.2 | - | 270.3 | None |
 | 2024 | 6.0 | 4.0 | - | 10.0 | 226% | 850.2 | - | 270.3 | None |
 | 2025 | **none** | 7.0 | - | 7.0 | 53% | 226.7 | - | 270.3 | None |
-| 2026 YTD | **none** | - | - | - | - | 396.7 (FY25 final, Apr-26) | Mandate renewed 10-Jun-26; "commenced" 17-Sep-26, no executions found | 270.3 | None |
+| 2026 YTD | **none** | - | - | - | - | 396.7 (FY25 final, Apr-26) | Mandate renewed 10-Jun-26; "commenced" 17-Sep-26; 550,000 shares at ~RM1.27 on 12-Oct-26 (RM0.70m); ~0.75m shares in total [e] | 271.1 | None |
 
 Earlier years: FY2016 16.5 sen; FY2017 17 sen (incl. 8 sen special); FY2018 19 sen (incl. 8 sen special); FY2019 20 sen (incl. 9 sen special); FY2020 14.5 sen (incl. 8.5 sen special).
 
 Notes:
-- Treasury shares: 270,302,915 held against 5,938,044,648 issued (Dec-25). Treasury cost fell from RM985.9m (FY21) to RM935.7m (FY23-25), consistent with re-issuance under an employee scheme [e]. **No cancellations** in the period.
+- Treasury shares: 270,302,915 held against 5,938,044,648 issued (Dec-25); 271,052,915 (4.565% of issued) after the 12-Oct-2026 purchase. Treasury cost fell from RM985.9m (FY21) to RM935.7m (FY23-25), consistent with re-issuance under an employee scheme [e]. **No cancellations** in the period.
 - Source: GENM AR2025, S&P Capital IQ.
 
 ![Figure: Dividend per share declared, FY2016-FY2025.](GENM_charts/dps.png)
@@ -1073,8 +1106,8 @@ Notes:
 
 # 22. Adversarial Analysis I: The Bull Case
 
-1. **A licence monopoly at a trough multiple.** RWG is Malaysia's only casino, with ~RM2.1bn of EBITDA at a ~30% margin, 28.6m visitors and 98% hotel occupancy. Comparable regional casino monopolies trade at 7-9x and change hands at 9-11x. At today's price, if the US business is valued at 7.5x, RWG is implicitly valued at **~4.6x EBITDA**.
-2. **New York is a scarce, appreciating licence.** RWNYC is the only full casino in NYC until ~2030, adjacent to JFK and on the subway. It ran ~US$30.8m of weekly GGR within 11 weeks of opening tables (~US$1.6bn annualised). The slot tax fell from ~68% to 56%. Fitch sees ~US$450m of NY EBITDA by 2028 and S&P a run-rate above US$400m; the market pays ~US$0.7bn for the whole US business.
+1. **A licence monopoly at a trough multiple.** RWG is Malaysia's only casino, with ~RM2.1bn of EBITDA at a ~30% margin, 28.6m visitors and 98% hotel occupancy. Comparable regional casino monopolies trade at 7-9x and change hands at 9-11x. At RM1.19, if the US business is valued at 7.5x, RWG is implicitly valued at **~4.4x EBITDA**.
+2. **New York is a scarce, appreciating licence.** RWNYC is the only full casino in NYC until ~2030, adjacent to JFK and on the subway. It ran ~US$30.8m of weekly GGR within 11 weeks of opening tables and US$126.7m in September (~US$1.5bn annualised; 69% of the state's commercial casino GGR). The slot tax fell from ~68% to 56%. Fitch sees ~US$450m of NY EBITDA by 2028 and S&P a run-rate above US$400m; the market pays ~US$0.56bn for the whole US business.
 3. **Moat sustainability.** Malaysia's government has repeatedly and publicly defended the single-licence model (Forest City denial, 2024). The NYC licence came with a ground lease running 60 years past licence expiry, and MGM's withdrawal shows the barrier to entry.
 4. **Growth levers and potential earnings surprises:**
    - a full quarter of NY tables in 3Q26 (late Nov);
@@ -1086,8 +1119,9 @@ Notes:
    - margin recovery as pre-opening costs roll off.
    - if the FY26E consensus EBIT margin (12.7%) is reached, the peer regression implies RM1.96-2.13.
 5. **Hidden and under-appreciated assets:** ~30 acres of freehold Miami waterfront (a US$1.225bn bid in 2023 vs book of ~US$0.5bn), the NY real estate (sale-leaseback potential at REIT cap rates), and the UK estate.
-6. **Event optionality.** The parent is 1.16pp from 75% and has said it does not intend to keep GENM listed. The lapsed RM2.35 offer and the independent adviser's RM3.48-3.77 SOTP anchor any future bid. **Holders get paid to wait**: the dividend yield is ~4-5.5%.
-7. **Capital allocation can only get better from here:** the NY capex peak is 2026-27, the buyback mandate is active, and the dividend payout reset is done.
+6. **Event optionality.** The parent is 1.16pp from 75% and has said it does not intend to keep GENM listed. The lapsed RM2.35 offer and the independent adviser's RM3.48-3.77 SOTP anchor any future bid. **Holders get paid to wait**: the dividend yield is ~4-6%.
+7. **Capital allocation can only get better from here:** the NY capex peak is 2026-27, the buyback mandate is active (first purchases on 12-Oct-2026), and the dividend payout reset is done.
+8. **A US listing route.** The Nov-2025 offer document flagged the intention to combine Genting Bhd's US gaming assets with GENM's US operations and seek a US listing [u]. US regional peers trade at 7.5-9x EBITDA, so a listed "Genting Americas" would put a market value on New York that GENM's share price currently ignores.
 
 
 # 23. Adversarial Analysis II: The Bear Case, Pre-Mortem and Contrarian View
@@ -1111,7 +1145,7 @@ Notes:
 
 ## 23.4 Are valuation multiples too high?
 
-On EV/EBITDA, no: 6.6x NTM vs 7.5x for peers and an 8.8x 10-year median. On P/E and EV/EBIT, yes: 14.9x and 18.2x vs 10.1x and 12.8x for peers. The right frame is that the EV multiple is low because the market discounts (a) NY returns, (b) parent extraction and (c) the probability of dilution.
+On EV/EBITDA, no: ~6.5x NTM vs 7.5x for peers and an 8.8x 10-year median. On P/E and EV/EBIT, yes: 14.0x and 17.8x vs 10.1x and 12.8x for peers. The right frame is that the EV multiple is low because the market discounts (a) NY returns, (b) parent extraction and (c) the probability of dilution.
 
 ## 23.5 Pre-mortem: "It is October 2027 and the position lost 40%. What happened?"
 
@@ -1133,8 +1167,8 @@ On EV/EBITDA, no: 6.6x NTM vs 7.5x for peers and an 8.8x 10-year median. On P/E 
 
 **The market is pricing GENM as if its parent's problems were its own, and as if New York were a liability.**
 
-1. **Most of the decline is the parent, not GENM.** The 17% drop on 12-Oct-2026 came on Genting Bhd's rights issue, with no GENM news. GENM's premium to its parent has collapsed to a 2nd-percentile 0.6x even though GENM holds the group's two best licences (Malaysia, NYC).
-2. **NY is already worth more than the market implies.** Annualised GGR of ~US$1.6bn at a 56% slot tax is a business worth US$2bn+ at maturity. The market implies ~US$0.7bn for all US assets (≈ the licence fee).
+1. **Most of the decline is the parent, not GENM.** The 17% drop on 12-Oct-2026 came on Genting Bhd's rights issue, with no GENM news, and the slide to a record RM1.19 came on a broker downgrade, also without GENM news. GENM's premium to its parent has collapsed to a 2nd-percentile 0.6x even though GENM holds the group's two best licences (Malaysia, NYC).
+2. **NY is already worth more than the market implies.** Annualised GGR of ~US$1.5-1.6bn at a 56% slot tax is a business worth US$2bn+ at maturity. The market implies ~US$0.56bn for all US assets (about the licence fee).
 3. **The parent's weakness strengthens the minority's hand.** A cash-strapped Genting Bhd cannot afford a fair cash offer. To get to 100% (which it has said it wants), it needs minority consent, and **minorities holding >10% can block a low-ball delisting** [u: rule]. A cheap stock with a hard veto attached is an event-driven asset, not a value trap.
 4. **Dividend cuts are a feature, not a bug.** Payouts of 195-226% in FY23-24 were the real value destruction (debt-funded dividends up-streamed to the parent). Retaining cash for NY at the capex peak is rational.
 5. **Asset monetisation is the obvious, under-discussed catalyst.** A RWNYC PropCo sale-leaseback (GLPI and VICI are active buyers; GLPI paid US$700m for Bally's Lincoln real estate in Feb-2026) or a Miami land sale could release US$1-2bn and remove the funding overhang without equity dilution.
@@ -1157,11 +1191,11 @@ On EV/EBITDA, no: 6.6x NTM vs 7.5x for peers and an 8.8x 10-year median. On P/E 
 | Implied EV / FY27E EBITDA | 5.6x | 7.8x | 10.2x (8.2x ex-Miami) |
 | Net debt (Jun-26, incl. leases) | RM14.2bn | RM14.2bn | RM14.2bn |
 | Control / governance discount | 10% | 15% | 10% |
-| **Value per share** | **RM0.76 (−40%)** | **RM1.86 (+47%)** | **RM3.28 (+158%)** |
+| **Value per share** | **RM0.76 (−36%)** | **RM1.86 (+56%)** | **RM3.28 (+176%)** |
 
 ![Figure: 12-month scenario values per share.](GENM_charts/scenarios.png)
 
-**Probability-weighted value: RM1.94 (+53%)**, plus a ~4% dividend yield (5 sen FY26E). The base case equals ~7.2x FY27E EBITDA after the discount, below the 9.2x precedent median and GENM's 8.8x 10-year median. **Implied valuation range: RM0.76-3.28.** The distribution is **asymmetric but fat-tailed on both sides**, because net debt is 2x market cap: every 1x change in the EBITDA multiple moves the equity by ~RM0.60 per share.
+**Probability-weighted value: RM1.94 (+63%)**, plus a ~4% dividend yield (5 sen FY26E). The base case equals ~7.2x FY27E EBITDA after the discount, below the 9.2x precedent median and GENM's 8.8x 10-year median. **Implied valuation range: RM0.76-3.28.** The distribution is **asymmetric but fat-tailed on both sides**, because net debt is 2x market cap: every 1x change in the EBITDA multiple moves the equity by ~RM0.60 per share.
 
 **Sensitivity of the base case (RM/share, after the 15% discount):**
 
@@ -1218,7 +1252,7 @@ On EV/EBITDA, no: 6.6x NTM vs 7.5x for peers and an 8.8x 10-year median. On P/E 
 
 ## 25.7 What must hold for the current price to be justified, and what if growth disappoints by 20-30%?
 
-At RM1.27 the market prices GENM at an EV of ~RM21.4bn (incl. leases), ~7.4x LTM adj. EBITDA ex-FX and ~6.3x our FY27E. For that to be fair value, RWG must hold ~RM2.2bn of EBITDA and NY must reach ~RM1bn of EBITDA (~US$260m) without further dilution. **If FY27E EBITDA is 20-30% below our RM3.4bn** (e.g., racing support fully charged and Malaysia −10%), EBITDA falls to RM2.4-2.7bn. At the same 6.3x multiple, EV falls to RM15.1-17.2bn. Against today's net debt of RM14.2bn (treating future phase-2 spend as value-neutral work in progress), **equity falls to RM0.9-3.0bn, or RM0.16-0.53 a share (−58% to −87%)**. This is the leverage trap: with net debt at ~2x market cap, a 25% EBITDA miss removes ~70% of the equity.
+At RM1.19 the market prices GENM at an EV of ~RM20.9bn (incl. leases), ~7.2x LTM adj. EBITDA ex-FX and ~6.1x our FY27E. For that to be fair value, RWG must hold ~RM2.2bn of EBITDA and NY must reach ~RM1bn of EBITDA (~US$260m) without further dilution. **If FY27E EBITDA is 20-30% below our RM3.4bn** (e.g., racing support fully charged and Malaysia −10%), EBITDA falls to RM2.4-2.7bn. At the same 6.1x multiple, EV falls to RM14.6-16.7bn. Against today's net debt of RM14.2bn (treating future phase-2 spend as value-neutral work in progress), **equity falls to RM0.5-2.6bn, or RM0.08-0.45 a share (−62% to −93%)**. This is the leverage trap: with net debt at ~2.1x market cap, a 25% EBITDA miss removes ~75% of the equity.
 
 ## 25.8 The single scenario that would permanently impair the business
 
@@ -1251,7 +1285,7 @@ At RM1.27 the market prices GENM at an EV of ~RM21.4bn (incl. leases), ~7.4x LTM
 
 | Lever | Mechanism | Why it matters |
 |---|---|---|
-| **1. Delisting veto** | A voluntary delisting with an exit offer typically fails if more than 10% of holders object [u: confirm rule with counsel] | ~10% of GENM (~567m shares, ~RM720m / US$178m at RM1.27; ~38% of the free float) is a blocking position against a low-ball privatisation |
+| **1. Delisting veto** | A voluntary delisting with an exit offer typically fails if more than 10% of holders object [u: confirm rule with counsel] | ~10% of GENM (~567m shares, ~RM675m / US$165m at RM1.19; ~38% of the free float) is a blocking position against a low-ball privatisation |
 | **2. RRPT mandate** | Recurrent related-party transaction mandates require shareholder approval with interested parties abstaining (Bursa Main Market Listing Requirements) | The ~RM848m a year of fees to Genting Bhd and RWI are renewed at each AGM. Minorities can withhold approval and force individual approvals, benchmarking and disclosure |
 | **3. Major related-party deals (>5%)** | Require independent shareholder approval | Historically avoided by sizing deals below 5%. A future Miami sale to a related party, or parent support arrangements, would come to a vote |
 
@@ -1268,7 +1302,7 @@ At RM1.27 the market prices GENM at an EV of ~RM21.4bn (incl. leases), ~7.4x LTM
 | Supports activism | Limits |
 |---|---|
 | Quantifiable value leakage (fees ~RM848m a year; pay) and an independent adviser on record that RM2.35 was "not fair" | Controller at 73.84%; no history of successful activism in the Genting group |
-| A low share price makes a 10% blocking stake affordable (~US$178m) | Liquidity: ~1-5m shares a day in 2026 (~RM2-6m), so building 10% takes months and moves the price |
+| A low share price makes a 10% blocking stake affordable (~US$165m) | Liquidity: ~1-5m shares a day in 2026 (~RM2-6m), so building 10% takes months and moves the price |
 | Government-linked funds (EPF, KWAP, PNB) have exited; the remaining float is foreign institutions and retail, so it can be aggregated | Foreign/retail dispersion makes coordination hard; Malaysian institutions rarely oppose the Lim family publicly |
 | MSWG has historically criticised GENM's related-party transactions | The exact delisting-objection rule and any creeping-acquisition restrictions need legal confirmation [u] |
 
@@ -1336,17 +1370,22 @@ At RM1.27 the market prices GENM at an EV of ~RM21.4bn (incl. leases), ~7.4x LTM
 | Sep-2026 | Fitch cuts GENM and Genting Bhd to BBB- |
 | 17-Sep-2026 | Buyback "commenced" under AGM mandate |
 | 9-Oct-2026 | Malaysia Budget 2027 (no gaming change identified [u]); Genting Bhd RM1.25bn rights issue |
-| 12-Oct-2026 | GENM −17.4% to RM1.23 (10-year low) |
+| 12-Oct-2026 | GENM −17.4% to RM1.23; GENM buys back 550,000 shares at ~RM1.27 (first disclosed purchases) |
+| 13-Oct-2026 | MoU with Alibaba Cloud (AI and cloud) |
+| 14-21 Oct-2026 | Kien Huat and Genting Bhd's CEO buy Genting Bhd shares; Genting Bhd says RM280m of rights proceeds will fund interest; Affin downgrades GENM to Sell (TP RM1.00) |
+| Mid-Oct-2026 | NY data: RWNYC September GGR US$126.7m (tables US$41.5m) |
+| 21-Oct-2026 | GENM closes at a record-low RM1.19 (RM1.18 intraday) |
 
 ## 28.2 Upcoming catalyst calendar
 
 | Date (est.) | Event | Why it matters | Importance |
 |---|---|---|---|
 | 28-Oct-2026 | UK Autumn Budget | Machine games duty doubling would put 13 of 32 UK casinos at risk; impairments | Medium |
-| Weekly, ongoing | NY Gaming Commission weekly RWNYC GGR data | Real-time test of the ramp (~US$30.8m a week in Jul-26) | High |
+| Weekly, ongoing | NY Gaming Commission weekly RWNYC GGR data | Real-time test of the ramp (~US$30.8m a week in Jul-26; ~US$29.6m in Sep-26) | High |
+| Mid-Nov-2026 | NY Gaming Commission October monthly report | Whether the Jul-Sep fade stabilises at ≥US$125m a month | High |
 | Mid-Nov-2026 | MSCI semi-annual review (GENM in Malaysia Small Cap) | Possible small-cap deletion or weight cut given 26% float | Medium |
-| ~26-Nov-2026 | **3Q26 results** | First full quarter of NY table games; FX; any dividend signal; NY EBITDA run-rate | **High** |
-| ~1-Dec-2026 [u] | End of the 12-month post-offer window | Genting Bhd can resume buying; 75% threshold (~66m shares, ~RM84m) reopens a delisting route | **High** |
+| ~19-26 Nov-2026 [u] | **3Q26 results** | First full quarter of NY table games; FX; any dividend signal; NY EBITDA run-rate | **High** |
+| ~1-Dec-2026 [u] | End of the 12-month post-offer window | Genting Bhd can resume buying; 75% threshold (~66m shares, ~RM78m at RM1.19) reopens a delisting route | **High** |
 | Dec-2026 | FBM KLCI semi-annual review | Re-entry unlikely | Low |
 | Dec-2026 / Jan-2027 | ECRL rail opens | Access to Genting Highlands | Low |
 | 4Q26-1Q27 | Genting Bhd rights issue (EGM, books close, completion 1Q27) | Removes parent overhang; shows parent's funding capacity | **High** |
@@ -1370,11 +1409,12 @@ At RM1.27 the market prices GENM at an EV of ~RM21.4bn (incl. leases), ~7.4x LTM
 - **Regulators and government:** New York State Gaming Commission, nycasinos.ny.gov, Franchise Oversight Board; Malaysian Budget 2026/2027 documents (via summaries); UK HMRC/gov.uk.
 - **News and research (via search-result summaries):** The Edge Malaysia, The Star, New Straits Times, Malay Mail, Bernama, BusinessToday, Free Malaysia Today, GGRAsia, Asia Gaming Brief, Inside Asian Gaming/ASGAM, CDC Gaming, NY Focus, iGaming Business, Yogonet, Bloomberg, Fitch, S&P, RAM, UOB Kay Hian, Maybank IB, Kenanga, HLIB, Affin Hwang, TA Securities, Nomura, CreditSights.
 - **Not available:** ProntoNLP is not authorised in this session, so sentiment uses a disclosed analyst rubric. S&P holds no GENM call transcripts.
+- **24-Oct-2026 update:** the S&P Global connectors were not authorised for this refresh. Price-dependent figures were re-based to the 21-Oct-2026 close (RM1.19; Investing.com, Morningstar, Yahoo Finance and TradingView quote pages via search) and new developments come from news searches (The Edge, The Star, BusinessToday, CDC Gaming, gambling.com, GGRAsia). Peer multiples, consensus and company financials are carried from S&P Capital IQ as of 16-Oct-2026. The 22-23 Oct closes could not be verified.
 
 ## A.2 Key definitions
 
 - **Adj. EBITDA (company):** EBITDA excluding impairments, pre-opening costs, disposal gains/losses and write-offs. **It includes unrealised FX translation on USD borrowings**; we show ex-FX figures alongside.
-- **EV / TEV:** market cap plus total debt including leases, less cash and money-market funds. CIQ TEV also deducts the negative non-controlling interest (Bimini), hence RM20.4bn vs RM21.4bn on our basis.
+- **EV / TEV:** market cap plus total debt including leases, less cash and money-market funds. CIQ TEV also deducts the negative non-controlling interest (Bimini), hence ~RM19.9bn vs RM20.9bn on our basis at RM1.19 (RM20.4bn vs RM21.4bn at RM1.27 in the 18-Oct note).
 - **Segment EBIT:** segment adj. EBITDA less segment D&A (our derivation; GENM does not report segment EBIT, PBT or net income).
 - **[u]** = unverified or single secondary source; **[e]** = our estimate or derivation.
 
@@ -1389,5 +1429,5 @@ At RM1.27 the market prices GENM at an EV of ~RM21.4bn (incl. leases), ~7.4x LTM
 ## A.4 Important caveats
 
 - Direct access to news websites was blocked in this environment. Press-sourced facts rest on search-engine summaries and should be verified against primary documents before external use. Items marked [u] in particular: the Bursa delisting-objection threshold and post-offer acquisition restrictions, the NY licence term and racing-support status, the VIP casino duty rate, and the Budget 2027 tax annex.
-- Consensus target prices predate the 12-Oct-2026 sell-off.
+- Consensus target prices predate the 12-Oct-2026 sell-off and Affin's mid-October Sell call; expect the mean to fall.
 - This document is for internal investment-committee discussion only and is not investment advice.
