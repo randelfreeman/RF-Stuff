@@ -12,13 +12,13 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | 1361 HK | 361 Degrees International |
 | ABG SJ | Absa Group |
 | ALB US | Albemarle |
-| AAUC CN | Allied Gold ⇄GGOF |
+| AAUC CN | Allied Gold ⇄GGOF (Zijin takeover terminated 29 Jul 2026; Zijin holds ~9.2% via placement) |
 | ALPHADHA UH | Alpha Dhabi Holding |
 | AMX US | América Móvil |
-| 002790 KS | Amorepacific Group (confirm) |
+| 002790 KS | Amorepacific Holdings (formerly Amorepacific Group; operating co. is 090430; confirmed 2026-10-26) |
 | ARMX UH | Aramex |
 | ALI PM | Ayala Land |
-| US912797SA68 Govt | US Treasury bill, CUSIP 912797SA68 — LIKELY MATURED 2026-10-01 (closest CUSIP 912797SA6); confirm and remove/roll |
+| US912797SA68 Govt | US Treasury bill, base CUSIP 912797SA6 (listed string has a stray 10th digit) — MATURED 2026-10-01 per fund holdings (not verified on TreasuryDirect); remove/roll |
 | B3SA3 BZ | B3 (Brasil Bolsa Balcão) |
 | BBAS3 BZ | Banco do Brasil |
 | 23 HK | Bank of East Asia |
@@ -41,7 +41,7 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | EMAAR UH | Emaar Properties |
 | EQX US | Equinox Gold |
 | ERO US | Ero Copper |
-| 383220 KS | F&F Co (confirm) |
+| 383220 KS | F&F Co (confirmed 2026-10-26) |
 | FAB UH | First Abu Dhabi Bank |
 | FM CN | First Quantum Minerals |
 | FCX US | Freeport-McMoRan |
@@ -56,7 +56,7 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | 015860 KS | Iljin Holdings (resolved 2026-10-23) |
 | INDF IJ | Indofood Sukses Makmur |
 | EMGA LN | iShares J.P. Morgan EM Local Govt Bond UCITS ETF USD Acc (resolved 2026-10-23) |
-| BLTN NA | iShares Brazil LTN BRL Govt Bond UCITS ETF (resolved 2026-10-23, ~70%; confirm ISIN) |
+| BLTN NA | UNCONFIRMED — iShares Brazil LTN BRL Govt Bond UCITS ETF (prior guess, ~70%); search surfaced only iShares MSCI Brazil IE00B0M63516 (IBZL LSE); confirm ISIN |
 | IVN CN | Ivanhoe Mines |
 | 9618 HK | JD.com |
 | KTN CN | Kootenay Silver |
@@ -74,7 +74,7 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | PRIO3 BZ | PRIO (PetroRio) |
 | PRX NA | Prosus ⇄GGOF |
 | RELIANCE IN | Reliance Industries |
-| RNW US | ReNew Energy Global |
+| RNW US | ReNew Energy Global (CPPIB/Sinha best-and-final proposal $7.02/share, 27 Jul 2026) |
 | 028260 KS | Samsung C&T ⇄GGOF |
 | 032830 KS | Samsung Life Insurance |
 | 006120 KS | SK Discovery (confirm) |
