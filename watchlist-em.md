@@ -46,7 +46,7 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | FM CN | First Quantum Minerals |
 | FCX US | Freeport-McMoRan |
 | GENT MK | Genting Berhad ⇄GGOF |
-| GORO US | Goldgroup Mining (formerly Gold Resource Corp; merger closed 2026-07-17, same ticker on NYSE American — 27 Oct check: closing release says GRC delisted from NYSE American and Goldgroup lists there; GORO US line may be stale, verify ticker) |
+| GORO US | Goldgroup Mining (formerly Gold Resource Corp; merger closed 2026-07-17; GRC delisted from NYSE American ~20 Jul and Goldgroup now trades as GORO on NYSE American/TSXV — ticker confirmed 2026-10-28; some data feeds still show old GORO as defunct) |
 | GTE US | Gran Tierra Energy |
 | GTCAP PM | GT Capital Holdings |
 | MOMO US | Hello Group |
