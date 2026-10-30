@@ -51,7 +51,7 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | GTCAP PM | GT Capital Holdings |
 | MOMO US | Hello Group |
 | HIDR LN | HSBC MSCI Indonesia UCITS ETF (GBP line; resolved 2026-10-23) |
-| HUYA US | HUYA Inc |
+| HUYA US | HUYA Inc (Q3 results 17 Nov 2026) |
 | 004800 KS | Hyosung Corp (confirmed 2026-10-27 via aggregators) |
 | 015860 KS | Iljin Holdings (resolved 2026-10-23) |
 | INDF IJ | Indofood Sukses Makmur |
@@ -68,13 +68,13 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | 006260 KS | LS Corp (confirmed 2026-10-27; aggregators list as "LS") |
 | MEDC IJ | Medco Energi |
 | MOVI3 BZ | Movida Participações |
-| MTN SJ | MTN Group |
+| MTN SJ | MTN Group (pending cash buy-in of ~75% of IHS Holding at $8.50/share; IHS holders approved Aug 2026; completion unverified) |
 | PAAS US | Pan American Silver |
 | 2318 HK | Ping An Insurance |
 | PRIO3 BZ | PRIO (PetroRio) |
 | PRX NA | Prosus ⇄GGOF |
 | RELIANCE IN | Reliance Industries |
-| RNW US | ReNew Energy Global (CPPIB/Sinha best-and-final proposal $7.02/share, 27 Jul 2026) |
+| RNW US | ReNew Energy Global (binding Transaction Agreement 11 Aug 2026: UK scheme of arrangement, $7.02 cash/share w/ rollover election; CPPIB/Sinha consortium; conditions/meeting dates unverified) |
 | 028260 KS | Samsung C&T ⇄GGOF |
 | 032830 KS | Samsung Life Insurance |
 | 006120 KS | SK Discovery (confirmed 2026-10-27; not 006125) |
