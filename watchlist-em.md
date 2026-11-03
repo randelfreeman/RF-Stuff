@@ -15,10 +15,10 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | AAUC CN | Allied Gold ⇄GGOF (Zijin takeover terminated 29 Jul 2026; Zijin holds ~9.2% via placement) |
 | ALPHADHA UH | Alpha Dhabi Holding |
 | AMX US | América Móvil |
-| 002790 KS | Amorepacific Holdings (formerly Amorepacific Group; operating co. is 090430; confirmed 2026-10-26) |
+| 002790 KS | Amorepacific Holdings (formerly Amorepacific Group; operating co. is 090430, which reported Q3 on 29 Oct; Holdings' own Q3 date unverified; confirmed 2026-10-26) |
 | ARMX UH | Aramex |
 | ALI PM | Ayala Land |
-| US912797SA68 Govt | US Treasury bill, base CUSIP 912797SA6 (listed string has a stray 10th digit) — MATURED 2026-10-01 (issued 2 Oct 2025; two fund reports agree 2026-11-02; not verified on TreasuryDirect); remove/roll |
+| US912797SA68 Govt | US Treasury bill, base CUSIP 912797SA6 (listed string has a stray 10th digit) — MATURED 2026-10-01 (corroborated 2026-11-03 by Econoday 52-wk auction listing + Gabelli/SEI fund holdings; TreasuryDirect not reachable); remove/roll |
 | B3SA3 BZ | B3 (Brasil Bolsa Balcão) |
 | BBAS3 BZ | Banco do Brasil |
 | 23 HK | Bank of East Asia |
@@ -74,7 +74,7 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | PRIO3 BZ | PRIO (PetroRio) |
 | PRX NA | Prosus ⇄GGOF |
 | RELIANCE IN | Reliance Industries |
-| RNW US | ReNew Energy Global (binding Transaction Agreement 11 Aug 2026: UK scheme of arrangement, $7.02 cash/share w/ rollover election; CPPIB/Sinha consortium; scheme document dated 28 Oct 2026; court meeting date not yet retrieved — check EDGAR) |
+| RNW US | ReNew Energy Global (binding Transaction Agreement 11 Aug 2026: UK scheme of arrangement, $7.02 cash/share w/ rollover election; CPPIB/Sinha consortium; scheme document dated 28 Oct 2026; court meeting date not yet retrieved — sec.gov blocked 2026-11-03; rollover deadline reportedly later of 80 days after circular and 10 business days pre-sanction, i.e. ~mid-Jan 2027 if circular 28 Oct, unconfirmed) |
 | 028260 KS | Samsung C&T ⇄GGOF |
 | 032830 KS | Samsung Life Insurance |
 | 006120 KS | SK Discovery (confirmed 2026-10-27; not 006125) |
