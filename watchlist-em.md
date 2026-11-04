@@ -18,7 +18,7 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | 002790 KS | Amorepacific Holdings (formerly Amorepacific Group; operating co. is 090430, which reported Q3 on 29 Oct; Holdings' own Q3 date unverified; confirmed 2026-10-26) |
 | ARMX UH | Aramex |
 | ALI PM | Ayala Land |
-| US912797SA68 Govt | US Treasury bill, base CUSIP 912797SA6 (listed string has a stray 10th digit) — MATURED 2026-10-01 (corroborated 2026-11-03 by Econoday 52-wk auction listing + Gabelli/SEI fund holdings; TreasuryDirect not reachable); remove/roll |
+| US912797SA68 Govt | US Treasury bill, base CUSIP 912797SA6 (listed string has a stray 10th digit) — MATURED 2026-10-01 (corroborated 2026-11-03/04 by Econoday 52-wk auction listing, TradingView listing, Gabelli 30 Sep and SEI fund holdings; TreasuryDirect not reachable); remove/roll |
 | B3SA3 BZ | B3 (Brasil Bolsa Balcão) |
 | BBAS3 BZ | Banco do Brasil |
 | 23 HK | Bank of East Asia |
@@ -68,9 +68,9 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | 006260 KS | LS Corp (confirmed 2026-10-27; aggregators list as "LS") |
 | MEDC IJ | Medco Energi |
 | MOVI3 BZ | Movida Participações |
-| MTN SJ | MTN Group (pending cash buy-in of ~75% of IHS Holding at $8.50/share; IHS holders approved Aug 2026; IHS holders approved 4 Aug; Nigeria FCCPC conditional approval ~29 Aug; completion unverified as of 2026-11-02) |
+| MTN SJ | MTN Group (pending cash buy-in of ~75% of IHS Holding at $8.50/share; IHS holders approved Aug 2026; IHS holders approved 4 Aug; Nigeria FCCPC conditional approval 24 Aug; SA Competition Tribunal nod reported 30 Sep; completion unverified as of 2026-11-04) |
 | PAAS US | Pan American Silver |
-| 2318 HK | Ping An Insurance |
+| 2318 HK | Ping An Insurance (9M NP -27.3% to RMB96.6bn, reported 28 Oct) |
 | PRIO3 BZ | PRIO (PetroRio) |
 | PRX NA | Prosus ⇄GGOF |
 | RELIANCE IN | Reliance Industries |
@@ -86,7 +86,7 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | SNB AB | Saudi National Bank |
 | 6425 JP | Universal Entertainment ⇄GGOF |
 | VEIL LN | Vietnam Enterprise Investments Ltd |
-| VOF LN | VinaCapital Vietnam Opportunity Fund |
+| VOF LN | VinaCapital Vietnam Opportunity Fund (latest NAV found $815m / $6.89 per share, 2 Oct RNS; $927.4m was a June-era figure) |
 | VZLA US | Vizsla Silver ⇄GGOF |
 | XP US | XP Inc |
 | YACCO AB | Yamama Cement (Tadawul 3020; resolved 2026-10-23, ~85-90%) |
