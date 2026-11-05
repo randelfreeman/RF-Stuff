@@ -2,9 +2,9 @@
 
 Source of truth for the Japan Portfolio daily news run (Japan + Korea names). JT/JP suffixes
 both denote Japan (Tokyo) listings. ⇄GGOF / ⇄EM marks overlap with the other portfolios;
-cover independently. Identities verified on the Aug 16, 2026 run (Oct 23, 26, 27, 28, 29, 30, Nov 2, Nov 3 and Nov 4 runs: no identity changes confirmed) except where flagged.
+cover independently. Identities verified on the Aug 16, 2026 run (Oct 23, 26, 27, 28, 29, 30, Nov 2, Nov 3, Nov 4 and Nov 5 runs: no identity changes confirmed) except where flagged.
 
-**OPEN QUESTION FOR OWNER (Nov 4: still unresolved, nothing found on either ticker; Nov 3: still unresolved; Nov 2: still unresolved; Oct 30: still unresolved; 8524 Q2 results Nov 13 14:00 per kabuyoho):** 8551 JP is The Kita-Nippon Bank (Iwate) — the original list said
+**OPEN QUESTION FOR OWNER (Nov 5: still unresolved, nothing found on either; 8551 Q2 Nov 12 15:00, 8524 Q2 Nov 13 14:00; Nov 4: still unresolved, nothing found on either ticker; Nov 3: still unresolved; Nov 2: still unresolved; Oct 30: still unresolved; 8524 Q2 results Nov 13 14:00 per kabuyoho):** 8551 JP is The Kita-Nippon Bank (Iwate) — the original list said
 "North Pacific Bank", which trades as 8524 JP. Confirm which bank is actually held; coverage
 currently follows the ticker (Kita-Nippon). Oct 29: 8524 = 北洋銀行 = The North Pacific Bank per J-LIC (matches owner's wording); 8551 = Kita-Nippon; still needs owner confirmation. Oct 23/26/27/28 runs: still unresolved (Oct 28: 8524 = North Pacific Bank 北洋銀行 Sapporo per ROIC; interim Nov 13); Oct 27 aggregators (Finboard) list 8524 as North Pacific Bank (北洋銀行, Hokkaido) and 8551 as The Kita-Nippon Bank (Morioka, Iwate) — owner must confirm which is held; Oct 26 found 8524 listed as 北洋銀行 (Hokuyo Bank, English name believed to be The North Pacific Bank — not sourced); 8524 Q1 ordinary profit ¥11.2bn (25% of ¥44.4bn FY forecast).
 
@@ -19,7 +19,7 @@ currently follows the ticker (Kita-Nippon). Oct 29: 8524 = 北洋銀行 = The No
 | 8309 JT | Sumitomo Mitsui Trust Group (4:1 split effective Aug 1, 2026) |
 | 6328 JT | Ebara Jitsugyo (environmental/water-treatment equipment; Dec FY; verified) |
 | 1813 JT | Fudo Tetra (civil engineering/ground improvement; verified) |
-| 7279 JT | Hi-Lex Corporation (auto control cables; Oct 31 FY-end, tanshin ~mid-Dec; verified) |
+| 7279 JT | Hi-Lex Corporation (auto control cables; Nov 5 run: now much larger after 10 new consolidations, blurb stale; Oct 31 FY-end, tanshin ~mid-Dec; verified) |
 | 4189 JP | KH Neochem |
 | 5408 JP | Nakayama Steel Works (Osaka EAF steelmaker; verified) |
 | 6877 JP | Obara Group (resistance-welding equipment; Sep FY-end; verified) |
@@ -76,6 +76,6 @@ currently follows the ticker (Kita-Nippon). Oct 29: 8524 = 北洋銀行 = The No
 | 3697 JP | SHIFT Inc |
 | 6758 JP | Sony Group |
 | 7995 JT | Valqua (seals/gaskets + semi plastics; verified) |
-| JP1024661QB1 Govt | JGB 0.50% MATURED Nov 1, 2026 (Nov 4 run: settlement still unverified, no MOF/custodian source; Nov 3 run: settlement still unverified; Nov 2 run: maturity passed; settlement Mon Nov 2 expected but unverified; remove after custodian confirms redemption) (identified via fund collateral report; MATURES Nov 1, 2026 (Sunday; redemption likely Mon Nov 2) — reinvestment decision due; Oct 28: no ISIN source found, Nov 2 payment unverified; Oct 27: JGB No. 466 (2y, 0.50%) maturity 2026/11/01 CONFIRMED on MOF auction results page; ISIN→No. 466 mapping still inferred; Oct 30: no new ISIN/payment-date source found, redemption Nov 1 (Sun) imminent; Oct 29: maturity re-confirmed via MOF pages; ISIN mapping still inferred; payment date still unverified; remove after redemption confirmed) |
+| JP1024661QB1 Govt | JGB 0.50% MATURED Nov 1, 2026 (Nov 5 run: settlement still unverified; Nagoya SE stats snippet lists No. 466 as a 2-YEAR note redeeming 2026-11-01, ISIN mapping still inferred; Nov 4 run: settlement still unverified, no MOF/custodian source; Nov 3 run: settlement still unverified; Nov 2 run: maturity passed; settlement Mon Nov 2 expected but unverified; remove after custodian confirms redemption) (identified via fund collateral report; MATURES Nov 1, 2026 (Sunday; redemption likely Mon Nov 2) — reinvestment decision due; Oct 28: no ISIN source found, Nov 2 payment unverified; Oct 27: JGB No. 466 (2y, 0.50%) maturity 2026/11/01 CONFIRMED on MOF auction results page; ISIN→No. 466 mapping still inferred; Oct 30: no new ISIN/payment-date source found, redemption Nov 1 (Sun) imminent; Oct 29: maturity re-confirmed via MOF pages; ISIN mapping still inferred; payment date still unverified; remove after redemption confirmed) |
 | 6875 JP | MegaChips |
 | 5711 JP | Mitsubishi Materials |
