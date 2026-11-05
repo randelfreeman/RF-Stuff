@@ -15,7 +15,7 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | AAUC CN | Allied Gold ⇄GGOF (Zijin takeover terminated 29 Jul 2026; Zijin holds ~9.2% via placement) |
 | ALPHADHA UH | Alpha Dhabi Holding |
 | AMX US | América Móvil |
-| 002790 KS | Amorepacific Holdings (formerly Amorepacific Group; operating co. is 090430, which reported Q3 on 29 Oct; Holdings' own Q3 date unverified; confirmed 2026-10-26) |
+| 002790 KS | Amorepacific Holdings (formerly Amorepacific Group; operating co. is 090430, which reported Q3 on 29 Oct (group OP KRW130.1bn +24.7%); Holdings' own Q3 date unverified; confirmed 2026-10-26) |
 | ARMX UH | Aramex |
 | ALI PM | Ayala Land |
 | US912797SA68 Govt | US Treasury bill, base CUSIP 912797SA6 (listed string has a stray 10th digit) — MATURED 2026-10-01 (corroborated 2026-11-03/04 by Econoday 52-wk auction listing, TradingView listing, Gabelli 30 Sep and SEI fund holdings; TreasuryDirect not reachable); remove/roll |
@@ -47,7 +47,7 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | FCX US | Freeport-McMoRan |
 | GENT MK | Genting Berhad ⇄GGOF |
 | GORO US | Goldgroup Mining (formerly Gold Resource Corp; merger closed 2026-07-17; GRC delisted from NYSE American ~20 Jul and Goldgroup now trades as GORO on NYSE American/TSXV — ticker confirmed 2026-10-28; some data feeds still show old GORO as defunct) |
-| GTE US | Gran Tierra Energy |
+| GTE US | Gran Tierra Energy (Q3 after close 5 Nov; sale of Colombia/Ecuador to Maurel & Prom ~US$1.33bn, closing ~31 Dec) |
 | GTCAP PM | GT Capital Holdings |
 | MOMO US | Hello Group |
 | HIDR LN | HSBC MSCI Indonesia UCITS ETF (GBP line; resolved 2026-10-23) |
@@ -61,15 +61,15 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | 9618 HK | JD.com |
 | KTN CN | Kootenay Silver |
 | KWEB LN | KraneShares CSI China Internet UCITS ETF |
-| 051915 KS | LG Chem preferred (confirmed 2026-10-27) |
+| 051915 KS | LG Chem preferred (confirmed 2026-10-27; Q3 reported 5 Nov: OP KRW561.2bn -17.4%) |
 | 003550 KS | LG Corp |
 | 066575 KS | LG Electronics preferred (confirmed 2026-10-27) |
 | LREN3 BZ | Lojas Renner |
 | 006260 KS | LS Corp (confirmed 2026-10-27; aggregators list as "LS") |
 | MEDC IJ | Medco Energi |
 | MOVI3 BZ | Movida Participações |
-| MTN SJ | MTN Group (pending cash buy-in of ~75% of IHS Holding at $8.50/share; IHS holders approved Aug 2026; IHS holders approved 4 Aug; Nigeria FCCPC conditional approval 24 Aug; SA Competition Tribunal nod reported 30 Sep; completion unverified as of 2026-11-04) |
-| PAAS US | Pan American Silver |
+| MTN SJ | MTN Group (pending cash buy-in of ~75% of IHS Holding at $8.50/share; IHS holders approved Aug 2026; IHS holders approved 4 Aug; Nigeria FCCPC conditional approval 24 Aug; SA Competition Tribunal nod reported 30 Sep; completion unverified as of 2026-11-05; single-source report of a 17 Nov 2026 outside date w/ 45-day auto extensions) |
+| PAAS US | Pan American Silver (Q3 reported 4 Nov: 2026 gold guidance cut to 660-680koz; silver at low end of 25-27Moz) |
 | 2318 HK | Ping An Insurance (9M NP -27.3% to RMB96.6bn, reported 28 Oct) |
 | PRIO3 BZ | PRIO (PetroRio) |
 | PRX NA | Prosus ⇄GGOF |
