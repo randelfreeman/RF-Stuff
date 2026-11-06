@@ -12,7 +12,7 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | 1361 HK | 361 Degrees International |
 | ABG SJ | Absa Group |
 | ALB US | Albemarle |
-| AAUC CN | Allied Gold ⇄GGOF (Zijin takeover terminated 29 Jul 2026; Zijin holds ~9.2% via placement) |
+| AAUC CN | Allied Gold ⇄GGOF (Zijin takeover terminated 29 Jul 2026; Zijin holds ~9.2% via placement; Q3 reported 4 Nov: 91,195oz, AISC $2,378/oz) |
 | ALPHADHA UH | Alpha Dhabi Holding |
 | AMX US | América Móvil |
 | 002790 KS | Amorepacific Holdings (formerly Amorepacific Group; operating co. is 090430, which reported Q3 on 29 Oct (group OP KRW130.1bn +24.7%); Holdings' own Q3 date unverified; confirmed 2026-10-26) |
@@ -47,7 +47,7 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | FCX US | Freeport-McMoRan |
 | GENT MK | Genting Berhad ⇄GGOF |
 | GORO US | Goldgroup Mining (formerly Gold Resource Corp; merger closed 2026-07-17; GRC delisted from NYSE American ~20 Jul and Goldgroup now trades as GORO on NYSE American/TSXV — ticker confirmed 2026-10-28; some data feeds still show old GORO as defunct) |
-| GTE US | Gran Tierra Energy (Q3 after close 5 Nov; sale of Colombia/Ecuador to Maurel & Prom ~US$1.33bn, closing ~31 Dec) |
+| GTE US | Gran Tierra Energy (Q3 reported 5 Nov: 39,904 boepd, adj. EBITDA $68m; call 6 Nov; sale of Colombia/Ecuador to Maurel & Prom ~US$1.33bn, closing ~31 Dec) |
 | GTCAP PM | GT Capital Holdings |
 | MOMO US | Hello Group |
 | HIDR LN | HSBC MSCI Indonesia UCITS ETF (GBP line; resolved 2026-10-23) |
@@ -62,7 +62,7 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | KTN CN | Kootenay Silver |
 | KWEB LN | KraneShares CSI China Internet UCITS ETF |
 | 051915 KS | LG Chem preferred (confirmed 2026-10-27; Q3 reported 5 Nov: OP KRW561.2bn -17.4%) |
-| 003550 KS | LG Corp |
+| 003550 KS | LG Corp (Q3 reportedly 12 Nov, unconfirmed) |
 | 066575 KS | LG Electronics preferred (confirmed 2026-10-27) |
 | LREN3 BZ | Lojas Renner |
 | 006260 KS | LS Corp (confirmed 2026-10-27; aggregators list as "LS") |
