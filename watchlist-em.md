@@ -37,7 +37,7 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | HEPS US | D-Market / Hepsiburada |
 | DQ US | Daqo New Energy |
 | DIDIY US | DiDi Global ⇄GGOF |
-| DDL US | Dingdong ⇄GGOF |
+| DDL US | Dingdong ⇄GGOF [Q3 date not yet announced as of 2026-11-10] |
 | EMAAR UH | Emaar Properties |
 | EQX US | Equinox Gold |
 | ERO US | Ero Copper |
@@ -45,7 +45,7 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | FAB UH | First Abu Dhabi Bank |
 | FM CN | First Quantum Minerals |
 | FCX US | Freeport-McMoRan |
-| GENT MK | Genting Berhad ⇄GGOF |
+| GENT MK | Genting Berhad ⇄GGOF [Genting Malaysia 12-month cooling-off after failed Dec 2025 offer ends ~Dec 2026; no new offer confirmed] |
 | GORO US | Goldgroup Mining (formerly Gold Resource Corp; merger closed 2026-07-17; GRC delisted from NYSE American ~20 Jul and Goldgroup now trades as GORO on NYSE American/TSXV — ticker confirmed 2026-10-28; some data feeds still show old GORO as defunct) |
 | GTE US | Gran Tierra Energy (Q3 reported 5 Nov: 39,904 boepd, adj. EBITDA $68m; call 6 Nov; sale of Colombia/Ecuador to Maurel & Prom ~US$1.33bn, closing ~31 Dec) |
 | GTCAP PM | GT Capital Holdings |
@@ -79,15 +79,15 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | 032830 KS | Samsung Life Insurance |
 | 006120 KS | SK Discovery (confirmed 2026-10-27; not 006125) |
 | 034730 KS | SK Inc. ⇄GGOF |
-| 7269 JP | Suzuki Motor |
+| 7269 JP | Suzuki Motor [H1 FY3/27 reported 10 Nov: OP ¥291.6bn +5.5%, FY OP guide ¥540bn unchanged, pre-tax guide cut to ¥690bn; H1 net profit figures conflict] |
 | 2330 TT | TSMC |
 | TBCG LN | TBC Bank Group |
-| TECK US | Teck Resources |
-| SNB AB | Saudi National Bank |
+| TECK US | Teck Resources [Anglo-Teck: SAMR last outstanding approval, undated] |
+| SNB AB | Saudi National Bank [Q3 net profit ~SAR6.45bn -0.3% y/y (date unverified)] |
 | 6425 JP | Universal Entertainment ⇄GGOF |
 | VEIL LN | Vietnam Enterprise Investments Ltd |
 | VOF LN | VinaCapital Vietnam Opportunity Fund (latest NAV found $815m / $6.89 per share, 2 Oct RNS; $927.4m was a June-era figure) |
 | VZLA US | Vizsla Silver ⇄GGOF |
 | XP US | XP Inc |
-| YACCO AB | Yamama Cement (Tadawul 3020; resolved 2026-10-23, ~85-90%) |
+| YACCO AB | Yamama Cement (Tadawul 3020; resolved 2026-10-23, ~85-90%) [Q3 net profit SAR74.7m +108% (date unverified)] |
 | 000670 KS | Young Poong (confirmed 2026-10-27) |
