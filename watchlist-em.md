@@ -18,11 +18,11 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | 002790 KS | Amorepacific Holdings (formerly Amorepacific Group; operating co. is 090430, which reported Q3 on 29 Oct (group OP KRW130.1bn +24.7%); Holdings' own Q3 date unverified; confirmed 2026-10-26) |
 | ARMX UH | Aramex |
 | ALI PM | Ayala Land |
-| US912797SA68 Govt | US Treasury bill, base CUSIP 912797SA6 (listed string has a stray 10th digit) — MATURED 2026-10-01 (corroborated 2026-11-03/04 by Econoday 52-wk auction listing, TradingView listing, Gabelli 30 Sep and SEI fund holdings; TreasuryDirect not reachable); remove/roll |
+| US912797SA68 Govt | US Treasury bill, base CUSIP 912797SA6 (listed string has a stray 10th digit) — MATURED 2026-10-01 (52-wk bill issued 2025-10-02; confirmed 2026-11-11 via TreasuryDirect auction announcement); remove/roll |
 | B3SA3 BZ | B3 (Brasil Bolsa Balcão) |
 | BBAS3 BZ | Banco do Brasil |
 | 23 HK | Bank of East Asia |
-| BOI IN | Bank of India |
+| BOI IN | Bank of India [Q2 FY27 NP Rs3,202cr +25.3% (resolved 2026-11-11)] |
 | BBRI IJ | Bank Rakyat Indonesia |
 | BRPT IJ | Barito Pacific |
 | AGRO3 BZ | BrasilAgro |
@@ -35,15 +35,15 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | CVCB3 BZ | CVC Brasil |
 | CYRE3 BZ | Cyrela Brazil Realty |
 | HEPS US | D-Market / Hepsiburada |
-| DQ US | Daqo New Energy |
+| DQ US | Daqo New Energy [Q3 reported 27 Oct 2026; 19 Nov calendar entry stale] |
 | DIDIY US | DiDi Global ⇄GGOF |
 | DDL US | Dingdong ⇄GGOF [Q3 date not yet announced as of 2026-11-10] |
-| EMAAR UH | Emaar Properties |
+| EMAAR UH | Emaar Properties [9M reported ~5 Nov: PBT AED19.8bn +18%; reported move to buy out a listed subsidiary — terms unverified] |
 | EQX US | Equinox Gold |
 | ERO US | Ero Copper |
-| 383220 KS | F&F Co (confirmed 2026-10-26) |
+| 383220 KS | F&F Co (confirmed 2026-10-26) [Q3 disclosed 10 Nov: OP ₩108.4bn -15.3%; all 825,501 treasury shares cancelled 30 Nov] |
 | FAB UH | First Abu Dhabi Bank |
-| FM CN | First Quantum Minerals |
+| FM CN | First Quantum Minerals [Panama commission recommended 'orderly closure' of Cobre Panamá 30 Sep 2026; Mulino decision pending] |
 | FCX US | Freeport-McMoRan |
 | GENT MK | Genting Berhad ⇄GGOF [Genting Malaysia 12-month cooling-off after failed Dec 2025 offer ends ~Dec 2026; no new offer confirmed] |
 | GORO US | Goldgroup Mining (formerly Gold Resource Corp; merger closed 2026-07-17; GRC delisted from NYSE American ~20 Jul and Goldgroup now trades as GORO on NYSE American/TSXV — ticker confirmed 2026-10-28; some data feeds still show old GORO as defunct) |
@@ -62,13 +62,13 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | KTN CN | Kootenay Silver |
 | KWEB LN | KraneShares CSI China Internet UCITS ETF |
 | 051915 KS | LG Chem preferred (confirmed 2026-10-27; Q3 reported 5 Nov: OP KRW561.2bn -17.4%) |
-| 003550 KS | LG Corp (Q3 reportedly 12 Nov, unconfirmed) |
+| 003550 KS | LG Corp (Q3 reportedly 12 Nov, unconfirmed; Korean Q3 filing deadline is Mon 16 Nov) |
 | 066575 KS | LG Electronics preferred (confirmed 2026-10-27) |
 | LREN3 BZ | Lojas Renner (Q3 reported ~5 Nov: NI R$246.4m -11.8%; 2026 and 2027-30 revenue growth guidance withdrawn) |
 | 006260 KS | LS Corp (confirmed 2026-10-27; aggregators list as "LS") |
 | MEDC IJ | Medco Energi |
-| MOVI3 BZ | Movida Participações |
-| MTN SJ | MTN Group (pending cash buy-in of ~75% of IHS Holding at $8.50/share; IHS holders approved Aug 2026; IHS holders approved 4 Aug; Nigeria FCCPC conditional approval 24 Aug; SA Competition Tribunal nod reported 30 Sep; completion unverified as of 2026-11-05; single-source report of a 17 Nov 2026 outside date w/ 45-day auto extensions — NOT corroborated 2026-11-09; NCC final approval and SA Tribunal status unverified) |
+| MOVI3 BZ | Movida Participações [Q3 reported 27 Oct 2026: NI R$152.1m +117%; deck reissued 3 Nov] |
+| MTN SJ | MTN Group (pending cash buy-in of ~75% of IHS Holding at $8.50/share; IHS holders approved Aug 2026; IHS holders approved 4 Aug; Nigeria FCCPC conditional approval 24 Aug; SA Competition Tribunal nod reported 30 Sep; completion unverified as of 2026-11-05; MTN guided 9 Nov to completion by year-end, Q3 9M service revenue +17.2% cc; Côte d'Ivoire/Cameroon/Zambia approvals also pending; single-source report of a 17 Nov 2026 outside date w/ 45-day auto extensions — NOT corroborated 2026-11-09; NCC final approval and SA Tribunal status unverified) |
 | PAAS US | Pan American Silver (Q3 reported 4 Nov: 2026 gold guidance cut to 660-680koz; silver at low end of 25-27Moz) |
 | 2318 HK | Ping An Insurance (9M NP -27.3% to RMB96.6bn, reported 28 Oct; operating profit attributable +8.3% to RMB125.9bn — different measure) |
 | PRIO3 BZ | PRIO (PetroRio) |
@@ -76,18 +76,18 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | RELIANCE IN | Reliance Industries |
 | RNW US | ReNew Energy Global (binding Transaction Agreement 11 Aug 2026: UK scheme of arrangement, $7.02 cash/share w/ rollover election; CPPIB/Sinha consortium; 28 Oct 2026 scheme document/13E-3 is the PRELIMINARY version, still under SEC review; Court/General Meeting dates not set (unlikely before Dec), effective date expected Q1 2027; $7.02 confirmed 2026-11-09 ($8.15 was the Oct 2025 Masdar proposal); court meeting date not yet retrieved — sec.gov blocked 2026-11-03; rollover deadline reportedly later of 80 days after circular and 10 business days pre-sanction, i.e. ~mid-Jan 2027 if circular 28 Oct, unconfirmed) |
 | 028260 KS | Samsung C&T ⇄GGOF |
-| 032830 KS | Samsung Life Insurance |
+| 032830 KS | Samsung Life Insurance [Q3 call 12 Nov 2026, medium confidence] |
 | 006120 KS | SK Discovery (confirmed 2026-10-27; not 006125) |
 | 034730 KS | SK Inc. ⇄GGOF |
-| 7269 JP | Suzuki Motor [H1 FY3/27 reported 10 Nov: OP ¥291.6bn +5.5%, FY OP guide ¥540bn unchanged, pre-tax guide cut to ¥690bn; H1 net profit figures conflict] |
+| 7269 JP | Suzuki Motor [H1 FY3/27 reported 10 Nov: OP ¥291.6bn +5.5%, H1 net attributable ¥253.7bn +31.6% (resolved 2026-11-11; RTT ¥209.4bn wrong), FY OP guide ¥540bn unchanged, pre-tax guide cut to ¥690bn] |
 | 2330 TT | TSMC |
-| TBCG LN | TBC Bank Group |
+| TBCG LN | TBC Bank Group [3Q26 reported 6 Nov: NI GEL404m +10%, ROE 23.2%; new GEL50m buyback to Feb] |
 | TECK US | Teck Resources [Anglo-Teck: SAMR last outstanding approval, undated] |
 | SNB AB | Saudi National Bank [Q3 net profit ~SAR6.45bn -0.3% y/y (date unverified)] |
-| 6425 JP | Universal Entertainment ⇄GGOF |
+| 6425 JP | Universal Entertainment ⇄GGOF [Q3 13 Nov 2026 per Kabuyoho/Kabutan] |
 | VEIL LN | Vietnam Enterprise Investments Ltd |
 | VOF LN | VinaCapital Vietnam Opportunity Fund (latest NAV found $815m / $6.89 per share, 2 Oct RNS; $927.4m was a June-era figure) |
 | VZLA US | Vizsla Silver ⇄GGOF |
 | XP US | XP Inc |
 | YACCO AB | Yamama Cement (Tadawul 3020; resolved 2026-10-23, ~85-90%) [Q3 net profit SAR74.7m +108% (date unverified)] |
-| 000670 KS | Young Poong (confirmed 2026-10-27) |
+| 000670 KS | Young Poong (confirmed 2026-10-27) [appeal ruling on Korea Zinc ₩527.2bn HMG share issue due 13 Nov 2026] |
