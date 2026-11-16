@@ -46,14 +46,14 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | FM CN | First Quantum Minerals [Panama commission recommended 'orderly closure' of Cobre Panamá 30 Sep 2026; Mulino decision pending] |
 | FCX US | Freeport-McMoRan |
 | GENT MK | Genting Berhad ⇄GGOF [Genting Malaysia 12-month cooling-off after failed Dec 2025 offer ends ~Dec 2026; no new offer confirmed] |
-| GORO US | Goldgroup Mining (formerly Gold Resource Corp; merger closed 2026-07-17; GRC delisted from NYSE American ~20 Jul and Goldgroup now trades as GORO on NYSE American/TSXV — ticker confirmed 2026-10-28; some data feeds still show old GORO as defunct) |
+| GORO US | Goldgroup Mining (formerly Gold Resource Corp; merger closed 2026-07-17; GRC delisted from NYSE American ~20 Jul and Goldgroup now trades as GORO on NYSE American/TSXV — ticker confirmed 2026-10-28; some data feeds still show old GORO as defunct; 2026-11-16 research found a source calling GORO = Gold Resource and Goldgroup = GGA TSXV — conflict, likely stale feed, verify line held) |
 | GTE US | Gran Tierra Energy (Q3 reported 5 Nov: 39,904 boepd, adj. EBITDA $68m; call 6 Nov; sale of Colombia/Ecuador to Maurel & Prom ~US$1.33bn, closing ~31 Dec) |
 | GTCAP PM | GT Capital Holdings [9M NI P23.31bn -10.5%, Q3 P6.91bn -9.3%, reported 12 Nov 2026 (company figures confirmed 2026-11-13)] |
 | MOMO US | Hello Group (Q3 results 7 Dec 2026, confirmed 2026-11-09) |
 | HIDR LN | HSBC MSCI Indonesia UCITS ETF (GBP line; resolved 2026-10-23) |
 | HUYA US | HUYA Inc (Q3 results 17 Nov 2026) |
 | 004800 KS | Hyosung Corp (confirmed 2026-10-27 via aggregators) |
-| 015860 KS | Iljin Holdings (resolved 2026-10-23) |
+| 015860 KS | Iljin Holdings (resolved 2026-10-23) [Q3 filing due 16 Nov not found as of 2026-11-16; sub Iljin Electric Q3 OP ₩70bn +98%] |
 | INDF IJ | Indofood Sukses Makmur |
 | EMGA LN | iShares J.P. Morgan EM Local Govt Bond UCITS ETF USD Acc (resolved 2026-10-23) |
 | BLTN NA | iShares Brazil LTN BRL Govt Bond UCITS ETF (DE), ISIN DE000A2QP4D2, accumulating, tracks JPM Brazil LTN index (identified 2026-10-27 via iShares product page 344494; verify listing line on your platform) |
@@ -65,7 +65,7 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | 003550 KS | LG Corp (Q3 reported 12 Nov 2026: OP ₩327.7bn -21.8%) |
 | 066575 KS | LG Electronics preferred (confirmed 2026-10-27) |
 | LREN3 BZ | Lojas Renner (Q3 reported ~5 Nov: NI R$246.4m -11.8%; 2026 and 2027-30 revenue growth guidance withdrawn) |
-| 006260 KS | LS Corp (confirmed 2026-10-27; aggregators list as "LS") |
+| 006260 KS | LS Corp (confirmed 2026-10-27; aggregators list as "LS") [Q3 reported 16 Nov 2026: OP ₩488.2bn +90%, NP ₩301.5bn +188%] |
 | MEDC IJ | Medco Energi |
 | MOVI3 BZ | Movida Participações [Q3 reported 27 Oct 2026: NI R$152.1m +117%; deck reissued 3 Nov] |
 | MTN SJ | MTN Group (pending cash buy-in of ~75% of IHS Holding at $8.50/share; IHS holders approved Aug 2026; IHS holders approved 4 Aug; Nigeria FCCPC conditional approval 24 Aug; 30 Sep 'Tribunal nod' headline was actually the Competition Commission recommendation (corrected 2026-11-12); SA Tribunal hearing 17 Nov; ECOWAS and CEMAC (≈23 Nov window) pending; NCC/FCCPC/COMESA secured; $2.2bn = equity value, $6.2bn = EV; MTN guided 9 Nov to completion by year-end, Q3 9M service revenue +17.2% cc; Côte d'Ivoire/Cameroon/Zambia approvals also pending; single-source report of a 17 Nov 2026 outside date w/ 45-day auto extensions — NOT corroborated 2026-11-09; NCC final approval and SA Tribunal status unverified) |
@@ -78,16 +78,16 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | 028260 KS | Samsung C&T ⇄GGOF |
 | 032830 KS | Samsung Life Insurance [Q3 reported 12 Nov 2026: 9M NP ₩2.686tn +26.9%, K-ICS 209%, 50% TSR target; SEC special dividend + SEC share-sale gains to go to shareholder returns, size TBD in early-2027 value-up plan] |
 | 006120 KS | SK Discovery (confirmed 2026-10-27; not 006125) [Q3 reported 13 Nov 2026: OP ₩170.8bn +2%, pretax +311%] |
-| 034730 KS | SK Inc. ⇄GGOF |
+| 034730 KS | SK Inc. ⇄GGOF [Q3 reported 16 Nov 2026: consolidated OP ₩5.03tn +608.5%, standalone OP ₩230bn +15%; reported NI ₩15.3tn flagged for DART verification] |
 | 7269 JP | Suzuki Motor [H1 FY3/27 reported 10 Nov: OP ¥291.6bn +5.5%, H1 net attributable ¥253.7bn +31.6% (resolved 2026-11-11; RTT ¥209.4bn wrong), FY OP guide ¥540bn unchanged, pre-tax guide cut to ¥690bn] |
 | 2330 TT | TSMC |
 | TBCG LN | TBC Bank Group [3Q26 reported 6 Nov: NI GEL404m +10%, ROE 23.2%; new GEL50m buyback to Feb] |
 | TECK US | Teck Resources [Anglo-Teck: SAMR last outstanding approval, undated] |
 | SNB AB | Saudi National Bank [Q3 net profit ~SAR6.45bn -0.3% y/y (date unverified)] |
-| 6425 JP | Universal Entertainment ⇄GGOF [Q3 reported 13 Nov 2026: 9M recurring profit ¥0.72bn (vs ¥17.1bn loss), Jul-Sep loss widened; FY forecast revision unverified] |
+| 6425 JP | Universal Entertainment ⇄GGOF [Q3 reported 13 Nov 2026: 9M recurring profit ¥0.72bn (vs ¥17.1bn loss), Jul-Sep loss widened; FY forecast unchanged (resolved 2026-11-16)] |
 | VEIL LN | Vietnam Enterprise Investments Ltd |
 | VOF LN | VinaCapital Vietnam Opportunity Fund (latest NAV found £5.25 vs price £4.24 on 6 Nov 2026, ~19% discount; earlier $6.89 2 Oct figure superseded) |
 | VZLA US | Vizsla Silver ⇄GGOF |
-| XP US | XP Inc [Q3 16 Nov 2026 after close per IR; 2025 R$1bn buyback expires 18 Nov, second R$1bn programme runs to 20 May 2027] |
+| XP US | XP Inc [Q3 16 Nov 2026 after close per IR; Nov-2025 buyback formally lapses 18 Nov (non-event); R$1bn May-2026 programme runs to 20 May 2027] |
 | YACCO AB | Yamama Cement (Tadawul 3020; resolved 2026-10-23, ~85-90%) [Q3 net profit SAR74.7m +108% (date unverified)] |
-| 000670 KS | Young Poong (confirmed 2026-10-27) [won 1st-instance ruling 12 Nov cancelling Korea Zinc Mar-2025 AGM resolutions (KZ appealing); LOST appeal 13 Nov 2026: Seoul High Court upheld Korea Zinc ₩527.2bn HMG share issue; Supreme Court appeal expected] |
+| 000670 KS | Young Poong (confirmed 2026-10-27) [won 1st-instance ruling 12 Nov cancelling Korea Zinc Mar-2025 AGM resolutions (KZ appealing); LOST appeal 13 Nov 2026: Seoul High Court upheld Korea Zinc ₩527.2bn HMG share issue; 13 Nov close ≈₩28,700 (unverified); no Supreme Court appeal filed as of 16 Nov — decision after written judgment served] |
