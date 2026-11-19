@@ -24,29 +24,29 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | 23 HK | Bank of East Asia |
 | BOI IN | Bank of India [Q2 FY27 NP Rs3,202cr +25.3% (resolved 2026-11-11)] |
 | BBRI IJ | Bank Rakyat Indonesia |
-| BRPT IJ | Barito Pacific [deleted from MSCI Global Standard, Nov 2026 review, effective 30 Nov close; ~Rp700bn passive outflow est.] |
+| BRPT IJ | Barito Pacific [deleted from MSCI Global Standard, Nov 2026 review, effective 30 Nov close; ~Rp700bn passive outflow est.; Rp700bn bond matures 28 Nov, funds reportedly ready] |
 | AGRO3 BZ | BrasilAgro |
 | BUKA IJ | Bukalapak ⇄GGOF |
 | BG US | Bunge Global |
 | 1211 HK | BYD |
-| CS CN | Capstone Copper [12 Nov 2026: Pinto Valley crusher restart delayed to mid-Dec; 2026 guide 195-230kt (low end cut)] |
+| CS CN | Capstone Copper [12-13 Nov 2026: Pinto Valley crusher needs more maintenance — partial restart up to 40ktpd planned mid-Nov, full recommissioning ~mid-Dec (clarified 2026-11-19); 2026 guide 195-230kt (low end cut)] |
 | 3983 HK | China BlueChemical |
 | 3818 HK | China Dongxiang |
 | CVCB3 BZ | CVC Brasil |
 | CYRE3 BZ | Cyrela Brazil Realty [Q3 reported 12 Nov 2026: NI R$481m -21%] |
 | HEPS US | D-Market / Hepsiburada |
 | DQ US | Daqo New Energy [Q3 reported 27 Oct 2026; 19 Nov calendar entry stale] |
-| DIDIY US | DiDi Global ⇄GGOF [Q3 date unconfirmed; ~26 Nov estimate] |
+| DIDIY US | DiDi Global ⇄GGOF [Q3 date unconfirmed; Quartr lists 25 Nov (aggregator, 2026-11-19)] |
 | DDL US | Dingdong ⇄GGOF [Q3 reported 12 Nov 2026 pre-market: rev RMB7.38bn +10.8%, non-GAAP NI RMB307.6m; China business held-for-sale pending Meituan deal] |
-| EMAAR UH | Emaar Properties [9M reported ~5 Nov: PBT AED19.8bn +18%; AED15/sh all-cash offer for Emaar Development (opened 6 Nov, closes 10 Dec, squeeze-out/delist at 90%); AED0.50/sh special dividend needs general assembly, no record date as of 2026-11-13; CONFLICT 2026-11-17: secondary sources say GA approved 4 Nov, ex 13 Nov, pay 27 Nov — weight of evidence favours this (2026-11-18) but still not verified on DFM] |
-| EQX US | Equinox Gold |
+| EMAAR UH | Emaar Properties [9M reported ~5 Nov: PBT AED19.8bn +18%; AED15/sh all-cash offer for Emaar Development (opened 6 Nov, closes 10 Dec, squeeze-out/delist at 90%); AED0.50/sh special dividend needs general assembly, no record date as of 2026-11-13; CONFLICT 2026-11-17: secondary sources say GA approved 4 Nov, ex 13 Nov, pay 27 Nov — weight of evidence favours this (2026-11-18) but still not verified on DFM; 2026-11-19: Argaam lists GA 4 Nov / ex 13 Nov / record 16 Nov / pay 27 Nov — second source, DFM still unverified] |
+| EQX US | Equinox Gold [dividend record 25 Nov, payable 10 Dec (single source)] |
 | ERO US | Ero Copper |
 | 383220 KS | F&F Co (confirmed 2026-10-26) [Q3 disclosed 10 Nov: OP ₩108.4bn -15.3%; all 825,501 treasury shares cancelled 30 Nov] |
 | FAB UH | First Abu Dhabi Bank [AED15bn rights issue at AED13.52 (30% discount) announced 11 Nov 2026; EGM 7 Dec; completion Q1 2027; proceeds for organic growth, not M&A; rights timetable after EGM] |
 | FM CN | First Quantum Minerals [Panama commission recommended 'orderly closure' of Cobre Panamá 30 Sep 2026; 16 Nov 2026: Mulino opened formal talks on a new agreement/possible restart, no timetable; confirmed by FQM release 17 Nov, led by Commerce Minister Moltó] |
 | FCX US | Freeport-McMoRan |
-| GENT MK | Genting Berhad ⇄GGOF [Genting Malaysia 12-month cooling-off after failed Dec 2025 offer ends ~Dec 2026; no new offer confirmed] |
-| GORO US | Goldgroup Mining [ticker conflict RESOLVED 2026-11-17: Goldgroup trades as GORO on both NYSE American and TSXV (moved from GGA ~22 Jul); 'GGA' source was stale; Q3 date 17, 18 or 24 Nov unconfirmed — no release found as of 18 Nov] (formerly Gold Resource Corp; merger closed 2026-07-17; GRC delisted from NYSE American ~20 Jul and Goldgroup now trades as GORO on NYSE American/TSXV — ticker confirmed 2026-10-28; some data feeds still show old GORO as defunct; 2026-11-16 research found a source calling GORO = Gold Resource and Goldgroup = GGA TSXV — conflict, likely stale feed, verify line held) |
+| GENT MK | Genting Berhad ⇄GGOF [Genting Malaysia 12-month cooling-off after failed Dec 2025 offer ends ~Dec 2026; no new offer confirmed — 2026-11-19 search could not verify the cooling-off note (only 2025 offer found); RM1.25bn rights issue due 1Q27] |
+| GORO US | Goldgroup Mining [ticker conflict RESOLVED 2026-11-17: Goldgroup trades as GORO on both NYSE American and TSXV (moved from GGA ~22 Jul); 'GGA' source was stale; Q3 RESOLVED 2026-11-19: reported 18 Nov — rev $57.1m, net loss $10.2m incl. $25.5m non-cash charge, cash $168.4m; possible going-concern flag (single source, verify 6-K)] (formerly Gold Resource Corp; merger closed 2026-07-17; GRC delisted from NYSE American ~20 Jul and Goldgroup now trades as GORO on NYSE American/TSXV — ticker confirmed 2026-10-28; some data feeds still show old GORO as defunct; 2026-11-16 research found a source calling GORO = Gold Resource and Goldgroup = GGA TSXV — conflict, likely stale feed, verify line held) |
 | GTE US | Gran Tierra Energy (Q3 reported 5 Nov: 39,904 boepd, adj. EBITDA $68m; call 6 Nov; sale of Colombia/Ecuador to Maurel & Prom ~US$1.33bn, closing ~31 Dec) |
 | GTCAP PM | GT Capital Holdings [9M NI P23.31bn -10.5%, Q3 P6.91bn -9.3%, reported 12 Nov 2026 (company figures confirmed 2026-11-13)] |
 | MOMO US | Hello Group (Q3 results 7 Dec 2026, confirmed 2026-11-09) |
@@ -62,7 +62,7 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | KTN CN | Kootenay Silver |
 | KWEB LN | KraneShares CSI China Internet UCITS ETF |
 | 051915 KS | LG Chem preferred (confirmed 2026-10-27; Q3 reported 5 Nov: OP KRW561.2bn -17.4%) |
-| 003550 KS | LG Corp (Q3 reported 12 Nov 2026: OP ₩327.7bn -21.8%) |
+| 003550 KS | LG Corp (Q3 reported 12 Nov 2026: OP ₩327.7bn -21.8%) [19 Nov reshuffle: affiliate CEOs largely retained; VC Kwon Bong-seok given direct group control] |
 | 066575 KS | LG Electronics preferred (confirmed 2026-10-27) |
 | LREN3 BZ | Lojas Renner (Q3 reported ~5 Nov: NI R$246.4m -11.8%; 2026 and 2027-30 revenue growth guidance withdrawn) |
 | 006260 KS | LS Corp (confirmed 2026-10-27; aggregators list as "LS") [Q3 reported 16 Nov 2026: OP ₩488.2bn +90%, NP ₩301.5bn +188%] |
@@ -88,6 +88,6 @@ once. Several names overlap with the GGOF portfolio (marked ⇄GGOF); each brief
 | VEIL LN | Vietnam Enterprise Investments Ltd |
 | VOF LN | VinaCapital Vietnam Opportunity Fund (NAV 531p on 11 Nov vs 434.5p close 17 Nov, ~18% discount; buyback active — 50k shares 16 Nov) |
 | VZLA US | Vizsla Silver ⇄GGOF |
-| XP US | XP Inc [Q3 reported 16 Nov 2026: adj NI R$1.38bn +4%, ROE 21.7%, new R$1.5bn buyback + R$1.3bn dividends; Nov-2025 buyback formally lapses 18 Nov (non-event); R$1bn May-2026 programme runs to 20 May 2027] |
-| YACCO AB | Yamama Cement (Tadawul 3020; resolved 2026-10-23, ~85-90%) [Q3 net profit SAR74.7m +108% (date unverified)] |
-| 000670 KS | Young Poong (confirmed 2026-10-27) [won 1st-instance ruling 12 Nov cancelling Korea Zinc Mar-2025 AGM resolutions (KZ appealing); LOST appeal 13 Nov 2026: Seoul High Court upheld Korea Zinc ₩527.2bn HMG share issue; 13 Nov close ≈₩28,700 (unverified); no Supreme Court appeal filed as of 18 Nov — decision after written judgment served; 18 Nov (MTN, single source): filed injunction to suspend 6 Korea Zinc directors incl. CEO Park Ki-duk] |
+| XP US | XP Inc [Q3 reported 16 Nov 2026: adj NI R$1.38bn +4%, ROE 21.7%, new R$1.5bn buyback + R$1.3bn dividends; Nov-2025 buyback formally lapses 18 Nov (non-event); R$1bn May-2026 programme runs to 20 May 2027; $0.46 dividend record 9 Dec, paid 17 Dec] |
+| YACCO AB | Yamama Cement (Tadawul 3020; resolved 2026-10-23, ~85-90%) [Q3 net profit SAR74.7m +108%, released ~21 Oct 2026 (Enterprise; resolved 2026-11-19)] |
+| 000670 KS | Young Poong (confirmed 2026-10-27) [won 1st-instance ruling 12 Nov cancelling Korea Zinc Mar-2025 AGM resolutions (KZ appealing); LOST appeal 13 Nov 2026: Seoul High Court upheld Korea Zinc ₩527.2bn HMG share issue; 13 Nov close ≈₩28,700 (unverified); no Supreme Court appeal filed as of 18 Nov — decision after written judgment served; injunction to suspend 6 Korea Zinc directors incl. CEO Park Ki-deok filed 16 Nov — corroborated by Korea Zinc disclosure 19 Nov (2026-11-19); still no Supreme Court appeal as of 19 Nov] |
