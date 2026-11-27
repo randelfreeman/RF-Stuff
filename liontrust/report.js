@@ -267,6 +267,12 @@ k.push(P('**Verdict:** Liontrust screens **cheap** on every earnings and sales m
 k.push(H2('10.2 Regression: TEV/Sales vs EBIT margin'));
 k.push(img(C + 'regression.png', 7.0, 3.9));
 k.push(P('OLS across ten listed UK asset/wealth managers (Ashmore excluded as an outlier because FactSet sales exclude its investment gains): **EBIT margin = 14.1 + 8.2 × (EV/Sales), R² = 0.33.** At Liontrust’s FY1 consensus EBIT margin of 22.4%, the fitted EV/Sales is **1.00x** versus 0.74x actual — implying EV of ~£129m, equity of ~£173m and **~275p per share (+22%)**. The modest R² reflects style/fee-mix dispersion (Polar, Ninety One and Man earn premium margins); results should be read as directional.'));
+k.push(H2('10.2a Additional regressions: PBR vs ROE and EV/AUM vs E/AUM'));
+k.push(img(C + 'reg_pbroe.png', 7.0, 3.9));
+k.push(P('Linear: ROE = −5.1 + 14.5×P/B (R² 0.94); log: ROE = 11.4 + 23.0×ln(P/B) (R² 0.73). Liontrust’s forward ROE of ~20% (FY27E consensus EPS on Mar-26 book equity of £108m) implies a fitted P/B of 1.73x (linear) / 1.45x (log) vs 1.29x actual — **~255–300p per share (+13% to +34%)**. Book value is mostly acquired intangibles, so this measure flatters slightly.'));
+k.push(img(C + 'reg_evaum.png', 7.0, 3.9));
+k.push(P('OLS ex-Ashmore: EV/AUM (%) = 0.010 + 0.0506 × E/AUM (bp), R² 0.69 — the market capitalises operating earnings at ~5x EBIT. Liontrust earns ~12bp of FY27E EBIT on AUM; the fitted EV/AUM is 0.61% vs 0.40% actual → EV ~£148m + ~£44m net cash ≈ **£192m, ~300–310p per share (+35%)**. Impax (IPX LN), shown for reference, screens similarly cheap (0.23% actual vs 0.36% fitted).'));
+k.push(SRC('Source: FactSet market values/prices (26-Nov-2026), book equity (latest FY), FY1 consensus EPS and EBIT; AUM from latest company releases (Jun–Sep 2026; Aberdeen AUMA incl. platform; USD AUM at 1.311). E/AUM = FY1 EBIT ÷ AUM.'));
 k.push(H2('10.3 Historical trading range'));
 k.push(img(C + 'histmult.png', 7.0, 2.5));
 k.push(table(['At FY-end price', 'FY21', 'FY22', 'FY23', 'FY24', 'FY25', 'FY26', 'Now'], [
