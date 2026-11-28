@@ -95,11 +95,11 @@ def build(c):
     S.append(frame(c, n, 'QUESTION 1 - IS %s UNDERVALUED?' % c['short'].upper(), 'VALUATION', p['title'], inner)); n += 1
     # 6 regression
     r = c['reg']
-    inner = '<div style="display:flex;gap:46px"><div><div style="font-size:12.5px;font-weight:700;margin-bottom:8px">EV/Sales (x-axis) vs EBIT margin (y-axis) - 10 UK listed asset & wealth managers</div><img class="ch" src="%s" style="width:720px"><div class="note">%s</div></div><div style="flex:1"><h3>How to read it</h3>%s</div></div>' % (CH + r['img'], esc(r['note']), bl(r['read']))
+    inner = '<div style="display:flex;gap:46px"><div><div style="font-size:12.5px;font-weight:700;margin-bottom:8px">TEV/Sales (x-axis) vs EBIT margin (y-axis) - 10 UK listed asset & wealth managers</div><img class="ch" src="%s" style="width:720px"><div class="note">%s</div></div><div style="flex:1"><h3>How to read it</h3>%s</div></div>' % (CH + r['img'], esc(r['note']), bl(r['read']))
     S.append(frame(c, n, 'QUESTION 1 - IS %s UNDERVALUED?' % c['short'].upper(), 'VALUATION', r['title'], inner)); n += 1
     r2 = c['reg2']
     inner = ('<div style="display:flex;gap:28px"><div><div style="font-size:12.5px;font-weight:700;margin-bottom:6px">PBR (x-axis) vs forward ROE (y-axis)</div><img class="ch" src="%s" style="width:395px"></div>'
-             '<div><div style="font-size:12.5px;font-weight:700;margin-bottom:6px">E/AUM (x-axis) vs EV/AUM (y-axis)</div><img class="ch" src="%s" style="width:395px"></div>'
+             '<div><div style="font-size:12.5px;font-weight:700;margin-bottom:6px">E/AUM (x-axis) vs TEV/AUM (y-axis)</div><img class="ch" src="%s" style="width:395px"></div>'
              '<div style="flex:1"><h3>How to read it</h3>%s</div></div><div class="note" style="margin-top:6px">%s</div>') % (CH + r2['img1'], CH + r2['img2'], bl(r2['read']), esc(r2['note']))
     S.append(frame(c, n, 'QUESTION 1 - IS %s UNDERVALUED?' % c['short'].upper(), 'VALUATION', r2['title'], inner)); n += 1
     # 7 SOTP

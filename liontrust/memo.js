@@ -3,14 +3,14 @@ const { P, H1, H2, B, SRC, img, table, doc, d, FONT } = require('./lib');
 const { Paragraph, TextRun, Packer } = d;
 const k = [];
 k.push(new Paragraph({ style: 'Title', children: [new TextRun({ text: 'IC Memo — Liontrust Asset Management (LIO LN)', font: FONT })] }));
-k.push(P('Date: 27-Nov-2026  |  Price 225.5p  |  Mkt cap £139.5m  |  EV ~£96m  |  AuMA £24.1bn (+£1.9bn Hawksmoor)  |  Strategy: event-driven / activist value'));
+k.push(P('Date: 27-Nov-2026  |  Price 225.5p  |  Mkt cap £139.5m  |  TEV ~£96m  |  AuMA £24.1bn (+£1.9bn Hawksmoor)  |  Strategy: event-driven / activist value  |  TEV = total enterprise value = market cap + net debt (or − net cash). '));
 k.push(table(['Recommendation', 'Base value', 'Event value', 'Bear value', 'Prob.-weighted', 'Yield'], [
   ['ACCUMULATE / ENGAGE', '265p (+18%)', '380p (+68%)', '145p (−36%)', '~264p (+17%)', '~7–8% (FY27E)'],
 ], [24, 15, 15, 15, 16, 15]));
 k.push(P('**Disclosure:** GAM special-situations funds hold ~5.01% and have publicly called for a sale (23-Mar-2026). This memo is prepared on that basis.', { run: { italics: true, size: 17 } }));
 
 k.push(H2('1. Thesis in three lines'));
-k.push(B('A debt-free UK active manager trading at **0.40% EV/AuMA, 3.3x EV/EBIT and 6.5x P/E** (consensus FY27E), with net cash ~31% of market cap — the cheapest name in the UK listed peer group and at the bottom of its own 5-year range (EV/EBITDA 3.1x vs ~6.5x average).'));
+k.push(B('A debt-free UK active manager trading at **0.40% TEV/AuMA, 3.3x TEV/EBIT and 6.5x P/E** (consensus FY27E), with net cash ~31% of market cap — the cheapest name in the UK listed peer group and at the bottom of its own 5-year range (TEV/EBITDA 3.1x vs ~6.5x average).'));
 k.push(B('Organic decay is slowing (annualised net outflows ~8% of AuMA vs ~18–22% in FY24–26); bolt-ons bought at 0.3–0.5% of AuM lift AuMA to ~£26bn; dividend re-based and now ~2x covered.'));
 k.push(B('**The value is most likely crystallised by a transaction.** Sector consolidation (Nuveen/Schroders £9.9bn; Jupiter/CCLA; PE take-privates) plus activist pressure and a consolidator (Martin Gilbert) on the board create a credible path to a sale at ~0.75% of AuMA (~380p).'));
 
@@ -26,8 +26,8 @@ k.push(table(['', 'FY24', 'FY25', 'FY26', 'H1 FY27', 'FY27E cons.', 'FY28E cons.
 k.push(SRC('Source: FactSet Fundamentals & EstimatesConsensus; company results via StreetAccount/press. Our FY27E/FY28E/FY29E EPS: 30.2p / 38.3p / 38.2p (7–17% below consensus).'));
 
 k.push(H2('3. Valuation'));
-k.push(B('**Peers:** EV/Sales FY1 0.74x vs median 1.58x; EV/EBIT FY1 3.3x vs 5.1x; P/E FY1 6.5x vs 9.6x. Discount warranted by −21% revenue growth, but excessive.'));
-k.push(B('**Regression** (10 UK managers, EBIT margin vs EV/Sales, R² 0.33): fitted EV/Sales 1.00x at Liontrust’s 22% margin → ~275p (+22%).'));
+k.push(B('**Peers:** TEV/Sales FY1 0.74x vs median 1.58x; TEV/EBIT FY1 3.3x vs 5.1x; P/E FY1 6.5x vs 9.6x. Discount warranted by −21% revenue growth, but excessive.'));
+k.push(B('**Regression** (10 UK managers, EBIT margin vs TEV/Sales, R² 0.33): fitted TEV/Sales 1.00x at Liontrust’s 22% margin → ~275p (+22%).'));
 k.push(B('**Takeout:** 0.6–0.9% of AuMA / 5–8x EBITDA / 9–12x FY28E P/E → 315–485p; central ~360–380p. Precedents: River 0.3%, Hawksmoor 0.3–0.5%, CCLA ~0.7%, Schroders ~1.2% AuM / ~17x, Gresham House ~16x EBITDA.'));
 k.push(img('charts/regression.png', 6.2, 3.45));
 

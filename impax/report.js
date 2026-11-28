@@ -16,20 +16,20 @@ k.push(P('Report date: 27 November 2026  |  Price: 89.3p (close 26-Nov-2026)  | 
 k.push(table(['Market data', 'Value', 'Valuation (FactSet consensus)', 'Value'], [
   ['Share price / 52-wk range', '89.3p / 78.8p–173.8p', 'P/E FY26A adj. / FY27E / FY28E', '7.3x / 9.3x / 7.3x'],
   ['Market cap (FactSet)', '£108.5m', 'P/E FY27E ex-net cash', '~4.0x'],
-  ['Net cash (Sep-26, FactSet; co. “cash reserves” £63.8m)', '~£62m (57% of mkt cap)', 'EV / EBIT FY27E', '3.3x'],
-  ['Enterprise value', '~£46m', 'EV / Sales FY27E', '0.47x'],
-  ['AUM (30-Sep-2026)', '£20.05bn', 'Mkt cap / AUM (EV / AUM)', '0.54% (0.23%)'],
+  ['Net cash (Sep-26, FactSet; co. “cash reserves” £63.8m)', '~£62m (57% of mkt cap)', 'TEV / EBIT FY27E', '3.3x'],
+  ['Total enterprise value (TEV)', '~£46m', 'TEV / Sales FY27E', '0.47x'],
+  ['AUM (30-Sep-2026)', '£20.05bn', 'Mkt cap / AUM (TEV / AUM)', '0.54% (0.23%)'],
   ['Shares (approx.)', '~121.5m', 'Dividend yield (FY26 DPS 6.7p)', '7.5%'],
   ['Peak-to-current (Dec-21 → now)', '1,482p → 89.3p (−94%)', 'Consensus target / ratings', '152p mean (95–200p); 3 Buy, 1 Hold'],
 ], [30, 20, 28, 22]));
-k.push(SRC('Source: FactSet Global Prices, Fundamentals (FY26 preliminary), EstimatesConsensus (accessed 27-Nov-2026); Impax FY26 results (25-Nov-2026) via StreetAccount and CallStreet transcript.'));
+k.push(SRC('TEV = total enterprise value = market cap + net debt (or − net cash). Source: FactSet Global Prices, Fundamentals (FY26 preliminary), EstimatesConsensus (accessed 27-Nov-2026); Impax FY26 results (25-Nov-2026) via StreetAccount and CallStreet transcript.'));
 
 k.push(H2('Investment summary'));
 k.push(P('**View: cash-backed deep value with operating leverage and a latent strategic option — Accumulate. Base value ~110p (+23%); strategic value ~165p (+85%); bear ~70p (−22%). Probability-weighted ~112p (+25%), plus a ~7.5% yield.**'));
 k.push(B('**What it is:** the world’s best-known listed specialist in “transition to a more sustainable economy” investing (founded 1998 by CEO Ian Simm). AUM £20.05bn, ~75% in listed equities (thematic and systematic), plus fixed income and private-markets infrastructure. Distribution is global: North America (ex-Pax World), BNP Paribas AM (a 14.4% shareholder and distribution partner), Europe and the UK.'));
 k.push(B('**What went wrong:** AUM has halved from a £40.1bn peak (Mar-2023). FY25 lost £13.0bn of net flows including the St James’s Place mandate (£6.2bn); FY26 lost a further £7.8bn including most of the Impax Environmental Markets trust after Saba Capital’s attack. Revenue fell from £181m (FY23) to £113m; adjusted operating margin from >30% to ~15%; DPS from 27.6p to 6.7p; the share price fell 94%.'));
 k.push(B('**Why now:** (1) the cost base has been reset (run-rate £86.5m vs £108m in FY25) and management says restructuring is complete; (2) investment performance has turned sharply in 2026 as market leadership broadened (energy security, resilience); (3) FY26 beat consensus (adj. EPS 12.2p vs 11.0p) and FY27 revenue guidance of £100–103m is above consensus (£98.7m); (4) net cash of ~£62m is 57% of market cap — the operating business trades at ~£46m, or 0.23% of AUM.'));
-k.push(B('**Valuation:** cheapest UK listed manager on EV/AUM. EV/AUM-vs-E/AUM regression (R² 0.69) implies ~110p; PBR-vs-ROE regression (R² 0.94) says fair (~87–97p); TEV/Sales-vs-margin says the market gives zero value to operations at today’s depressed 14% margin — i.e., the upside depends on margin recovery, which is now in management’s hands via operating leverage.'));
+k.push(B('**Valuation:** cheapest UK listed manager on TEV/AUM. TEV/AUM-vs-E/AUM regression (R² 0.69) implies ~110p; PBR-vs-ROE regression (R² 0.94) says fair (~87–97p); TEV/Sales-vs-margin says the market gives zero value to operations at today’s depressed 14% margin — i.e., the upside depends on margin recovery, which is now in management’s hands via operating leverage.'));
 k.push(B('**Ownership and event path:** ~50% of shares sit with four holders — BNP Paribas AM 14.4%, Liontrust funds 10.7%, Ian Simm 7.5% (management ~18% collectively), the EBT 5.1%. GAM special-situations funds disclosed ~2.2% (Jul-2026) citing deep undervaluation. BNPP is the natural acquirer; management has said it is not interested in merging or being acquired (May-2025).'));
 k.push(B('**Key risks:** continued outflows (structural ESG backlash, US politics), concentration on BNPP distribution, founder key-person risk, related-party governance (BNPP nominee on board), and the possibility that management uses the cash pile for acquisitions rather than returns.'));
 k.push(P('**Disclosure:** funds managed by GAM Investments’ special-situations team hold ~2.2% of Impax (StreetAccount, 14-Jul-2026). Readers should weigh this accordingly; limitations are listed in Section 23.', { run: { italics: true, size: 17 } }));
@@ -40,7 +40,7 @@ k.push(P('Impax charges an annual fee of about **0.48% of assets** (£4.80 per �
 k.push(table(['Division (company-reported)', 'What it does', 'FY25 revenue', 'Contribution'], [
   ['Listed Equities', 'Thematic “transition” strategies (Leaders, Water, Specialists, Climate, Sustainable Infrastructure), US Pax funds, and systematic (lower tracking error) equity', '£124.4m (88%)', 'Core profit engine; ~75% of AUM; systematic rising to 13% of AUM'],
   ['Fixed Income', 'Sustainable/transition credit incl. high yield (ex-Absalon, ex-SKY Harbor teams)', '£8.0m (6%)', 'Growth/diversification area; first significant credit mandate won Q2 FY26'],
-  ['Private Markets', 'New Energy infrastructure funds (renewables, storage, EV charging)', '£9.5m (7%)', 'Long-dated, sticky fees; small; timing-dependent'],
+  ['Private Markets', 'New Energy infrastructure funds (renewables, storage, TEV charging)', '£9.5m (7%)', 'Long-dated, sticky fees; small; timing-dependent'],
 ], [20, 46, 14, 20]));
 k.push(SRC('Source: FactSet segments (BUS SALES, FY25 — latest available); company presentations. Segment operating profit is not disclosed.'));
 k.push(H2('Contents'));
@@ -223,39 +223,39 @@ k.push(B('**Liquidity:** FY27E dividend ~£6m vs OCF ~£15–20m; EBT purchases 
 // ---------------- 10 ----------------
 k.push(H1('10. Valuation, peers and regressions'));
 const pr = peers.map(r => [r.n + ' (' + r.t + ')', '£' + Math.round(r.mc), '£' + Math.round(r.ev), fx(r.evs1), fx(r.eveb), fx(r.evebit1), fx(r.pe1), fx(r.pe2), f1(r.nd) + 'x', f1(r.ebm) + '%', f1(r.ebitm) + '%', f1(r.g) + '%', f1(r.ocfy) + '%']);
-k.push(table(['Company', 'Mkt cap £m', 'EV £m', 'EV/Sales FY1', 'EV/EBITDA LFY', 'EV/EBIT FY1', 'P/E FY1', 'P/E FY2', 'Net debt/EBITDA', 'EBITDA mgn LFY', 'EBIT mgn LFY', 'Sales g LFY', 'OCF yield'], pr, [17, 7, 7, 7, 7, 7, 6, 6, 8, 7, 7, 7, 7], { size: 13 }));
-k.push(SRC('Source: FactSet market values (26-Nov-2026), latest FY fundamentals (Impax FY26 preliminary), FY1/FY2 consensus. Man Group at USD/GBP 1.311; Rathbones EV ex balance-sheet cash; Liontrust EV pro forma Hawksmoor.'));
+k.push(table(['Company', 'Mkt cap £m', 'TEV £m', 'TEV/Sales FY1', 'TEV/EBITDA LFY', 'TEV/EBIT FY1', 'P/E FY1', 'P/E FY2', 'Net debt/EBITDA', 'EBITDA mgn LFY', 'EBIT mgn LFY', 'Sales g LFY', 'OCF yield'], pr, [17, 7, 7, 7, 7, 7, 6, 6, 8, 7, 7, 7, 7], { size: 13 }));
+k.push(SRC('Source: FactSet market values (26-Nov-2026), latest FY fundamentals (Impax FY26 preliminary), FY1/FY2 consensus. Man Group at USD/GBP 1.311; Rathbones TEV ex balance-sheet cash; Liontrust TEV pro forma Hawksmoor.'));
 const rr = reg.map(r => [r.n, r.pb.toFixed(2) + 'x', r.roe.toFixed(1) + '%', r.aum.toFixed(1), r.evaum.toFixed(2) + '%', r.mcaum.toFixed(2) + '%', r.eaum.toFixed(1)]);
-k.push(table(['Company', 'P/B', 'Fwd ROE', 'AUM £bn', 'EV/AUM', 'Mkt cap/AUM', 'E/AUM (bp)'], rr, [26, 11, 12, 12, 12, 14, 13]));
+k.push(table(['Company', 'P/B', 'Fwd ROE', 'AUM £bn', 'TEV/AUM', 'Mkt cap/AUM', 'E/AUM (bp)'], rr, [26, 11, 12, 12, 12, 14, 13]));
 k.push(SRC('Fwd ROE = FY1 consensus EPS × shares ÷ latest book equity. E/AUM = FY1 consensus EBIT ÷ latest AUM. AUM: latest company releases (Jun–Sep 2026); Aberdeen AUMA includes platform assets; Ashmore and Man converted from USD.'));
 k.push(table(['Metric', 'Impax', 'Peer median', 'Screen'], [
-  ['EV/Sales FY1', '0.47x', '1.58x', 'Cheap (but lowest-margin tier)'],
-  ['EV/EBIT FY1', '3.3x', '5.1x', 'Cheap'],
+  ['TEV/Sales FY1', '0.47x', '1.58x', 'Cheap (but lowest-margin tier)'],
+  ['TEV/EBIT FY1', '3.3x', '5.1x', 'Cheap'],
   ['P/E FY1 / FY2', '9.3x / 7.3x', '9.6x / 9.3x', 'Fair / cheap'],
-  ['EV/AUM', '0.23%', '~0.7%', 'Cheapest in group'],
+  ['TEV/AUM', '0.23%', '~0.7%', 'Cheapest in group'],
   ['P/B', '1.00x', '~1.4x', 'Fair for ROE'],
   ['Net cash / market cap', '57%', '~25%', 'Very high'],
 ], [26, 22, 22, 30]));
 k.push(H2('10.1 PBR vs ROE'));
 k.push(img(C + 'reg_pbroe.png', 7.0, 3.9));
 k.push(P('Linear: ROE = −5.1 + 14.5×P/B (R² 0.94; Polar Capital is influential); log: ROE = 11.4 + 23.0×ln(P/B) (R² 0.73). At Impax’s forward ROE of 10.7% the fitted P/B is 1.09x (linear) / 0.97x (log) vs 1.00x actual — **fair value ~87–97p**. Book-based valuation is not where the discount lies: ROE is depressed by a large, low-yielding cash balance.'));
-k.push(H2('10.2 EV/AUM vs E/AUM'));
+k.push(H2('10.2 TEV/AUM vs E/AUM'));
 k.push(img(C + 'reg_evaum.png', 7.0, 3.9));
-k.push(P('OLS (ex-Ashmore): EV/AUM (%) = 0.010 + 0.0506 × E/AUM (bp), R² 0.69 — i.e., the sector capitalises operating earnings at ~5x EBIT. Impax earns 6.9bp of EBIT on AUM; the fitted EV/AUM is 0.36% vs 0.23% actual → implied EV ~£72m + £62m net cash = **~£134m, ~110p per share (+23%)**. As margins recover toward 30% (E/AUM ~14bp), the same line implies EV/AUM ~0.72% (~£145m EV at £20bn AUM → ~170p).'));
+k.push(P('OLS (ex-Ashmore): TEV/AUM (%) = 0.010 + 0.0506 × E/AUM (bp), R² 0.69 — i.e., the sector capitalises operating earnings at ~5x EBIT. Impax earns 6.9bp of EBIT on AUM; the fitted TEV/AUM is 0.36% vs 0.23% actual → implied TEV ~£72m + £62m net cash = **~£134m, ~110p per share (+23%)**. As margins recover toward 30% (E/AUM ~14bp), the same line implies TEV/AUM ~0.72% (~£145m TEV at £20bn AUM → ~170p).'));
 k.push(H2('10.3 TEV/Sales vs EBIT margin'));
 k.push(img(C + 'reg_tevsales.png', 7.0, 3.9));
-k.push(P('OLS (ex-Ashmore): EBIT margin = 14.7 + 8.0 × (TEV/Sales), R² 0.34. Impax’s FY1 margin (14.1%) sits at/below the intercept, so the line implies little or no value for the operating business at current margins — the market is valuing Impax as cash plus an option on margin recovery. Each 5ppt of margin recovery is worth ~0.6x EV/Sales (~£60m EV, ~50p/share) on this relationship.'));
+k.push(P('OLS (ex-Ashmore): EBIT margin = 14.7 + 8.0 × (TEV/Sales), R² 0.34. Impax’s FY1 margin (14.1%) sits at/below the intercept, so the line implies little or no value for the operating business at current margins — the market is valuing Impax as cash plus an option on margin recovery. Each 5ppt of margin recovery is worth ~0.6x TEV/Sales (~£60m TEV, ~50p/share) on this relationship.'));
 k.push(H2('10.4 Historical trading range'));
 k.push(img(C + 'histmult.png', 7.0, 2.5));
 k.push(table(['At FY-end (Sep) price', 'FY22', 'FY23', 'FY24', 'FY25', 'FY26', 'Now'], [
   ['Share price (p)', '525', '459', '378', '191', '111', '89.3'],
-  ['EV (£m)', '570', '492', '382', '164', '71', '46'],
-  ['EV/Sales', '3.2x', '2.7x', '2.2x', '1.1x', '0.6x', '0.4x'],
-  ['EV/EBITDA', '8.1x', '7.9x', '6.5x', '4.3x', '3.4x', '2.2x'],
+  ['TEV (£m)', '570', '492', '382', '164', '71', '46'],
+  ['TEV/Sales', '3.2x', '2.7x', '2.2x', '1.1x', '0.6x', '0.4x'],
+  ['TEV/EBITDA', '8.1x', '7.9x', '6.5x', '4.3x', '3.4x', '2.2x'],
   ['P/E', '11.8x', '15.4x', '13.1x', '10.6x', '11.9x', '7.3x'],
   ['P/B', '4.9x', '4.4x', '3.7x', '2.1x', '1.2x', '1.0x'],
 ], [24, 12, 12, 12, 12, 12, 16]));
-k.push(P('Impax trades at the bottom of its range on every measure — EV/EBITDA 2.2x vs a five-year average of ~6x, P/B 1.0x vs ~3.3x.'));
+k.push(P('Impax trades at the bottom of its range on every measure — TEV/EBITDA 2.2x vs a five-year average of ~6x, P/B 1.0x vs ~3.3x.'));
 k.push(table(['Competitor', 'Ticker / owner', 'Listed?', 'Overlap'], [
   ['BNP Paribas Asset Management', 'BNP FP (parent)', 'Parent listed', 'Partner, shareholder and competitor (thematic/sustainable)'],
   ['Pictet Asset Management', 'Private partnership', 'No', 'Largest thematic equity franchise (Water, Clean Energy)'],
@@ -274,16 +274,16 @@ k.push(table(['Competitor', 'Ticker / owner', 'Listed?', 'Overlap'], [
 k.push(H1('11. M&A: industry, takeover candidacy and comparables'));
 k.push(P('Sector consolidation is accelerating (Nuveen/Schroders £9.9bn; BNPP/AXA IM €5.1bn; Jupiter/CCLA; Liontrust bolt-ons). Specialist brands with global institutional reach are scarce assets for large platforms building “transition” capabilities.'));
 k.push(table(['Pros (supporting a bid)', 'Impediments'], [
-  ['EV of only ~£46m (0.23% of AUM); net cash £62m', 'Founder-CEO and management (~18%) have said they are not interested in being acquired'],
+  ['TEV of only ~£46m (0.23% of AUM); net cash £62m', 'Founder-CEO and management (~18%) have said they are not interested in being acquired'],
   ['Natural strategic buyer in BNP Paribas AM (14.4% holder, distributor, board nominee) — could consolidate its own thematic range', 'BNPP stake gives it de facto blocking power and deters third-party bidders'],
   ['Brand and process are unique in transition investing; competitors retreating', 'Key-person dependence (Simm; listed-equity CIO Bruce Jenkyn-Jones, 3.1%)'],
   ['Cost synergies: a large owner could absorb most of £86.5m run-rate costs outside investment teams', 'Political/ESG stigma in the US may deter US buyers'],
   ['Concentrated register (four holders ≈ 50%) makes a negotiated deal executable', 'AIM listing, small free float, illiquid'],
 ], [50, 50]));
 k.push(P('**Potential acquirers:** BNP Paribas AM; Nuveen/Schroders; Amundi; Natixis IM (multi-boutique); AMG (affiliate model, as with Parnassus); Pictet; Liontrust/a UK merger of equals (Liontrust funds already hold 10.7%); private equity seeking a cash-rich platform.'));
-k.push(table(['Method', 'Range', 'Implied EV (£m)', 'Value/share'], [
+k.push(table(['Method', 'Range', 'Implied TEV (£m)', 'Value/share'], [
   ['% of AUM (£20bn)', '0.5% – 0.9%', '100 – 180', '~135p – 200p'],
-  ['EV/FY28E EBITDA (~£18m)', '6x – 8x', '108 – 144', '~140p – 170p'],
+  ['TEV/FY28E EBITDA (~£18m)', '6x – 8x', '108 – 144', '~140p – 170p'],
   ['P/E on recovered EPS (~13.5p FY29E)', '12x – 15x', '—', '~160p – 200p'],
   ['Premium to undisturbed (89.3p)', '40% – 80%', '—', '~125p – 160p'],
   ['**Central takeout**', '**~0.6–0.7% AUM**', '**~£130m**', '**~160–165p**'],
@@ -358,7 +358,7 @@ k.push(H1('15. Strategic initiatives (last 10 years)'));
 k.push(table(['Initiative', 'Period', 'Status', 'Assessment'], [
   ['US expansion via Pax World', '2017–18', 'Completed', 'Success: diversified client base; NA ~34% of revenue'],
   ['BNP Paribas strategic partnership & shareholding', '2010s–present', 'Ongoing', 'Major distribution channel (Luxembourg revenue £33m FY25); concentration risk'],
-  ['Private markets (New Energy funds)', '2000s–present', 'Ongoing', 'Small but sticky; energy storage, EV charging'],
+  ['Private markets (New Energy funds)', '2000s–present', 'Ongoing', 'Small but sticky; energy storage, TEV charging'],
   ['Fixed-income build-out (Absalon, SKY Harbor)', '2024–25', 'Integrated', 'Early success (first significant credit mandate)'],
   ['Systematic equity products', '2023–present', 'Growing', '8% → 13% of AUM; lower fee'],
   ['Cost reset (~30 roles; costs £108m → £86.5m run-rate)', 'FY25–26', 'Complete', 'Restores operating leverage'],
@@ -404,8 +404,8 @@ k.push(P('The market is pricing Impax as an ESG relic. It is better viewed as a 
 k.push(H1('19. Scenario analysis (12–18 months)'));
 k.push(table(['Scenario', 'Prob.', 'Key assumptions', 'EPS', 'Valuation basis', 'Value/share', 'vs 89.3p'], [
   ['Bear', '30%', 'Outflows £3bn p.a.; fee 45bp; margin <10%; no deal', '~6p', 'Cash (~£55m) + 3x EBIT', '~70p', '−22%'],
-  ['Base', '45%', 'Flows ~flat by FY28; revenue £100–103m; margin 12–15%', '~9–10p', 'EV/AUM regression (0.36%) ≈ 10–11x P/E', '~110p', '+23%'],
-  ['Bull / strategic', '25%', 'Sale or merger at ~0.65% of AUM; or flows positive with margin →25%', 'n.a.', 'EV ~£130m + net cash', '~165p', '+85%'],
+  ['Base', '45%', 'Flows ~flat by FY28; revenue £100–103m; margin 12–15%', '~9–10p', 'TEV/AUM regression (0.36%) ≈ 10–11x P/E', '~110p', '+23%'],
+  ['Bull / strategic', '25%', 'Sale or merger at ~0.65% of AUM; or flows positive with margin →25%', 'n.a.', 'TEV ~£130m + net cash', '~165p', '+85%'],
   ['**Weighted**', '', '', '', '', '**~112p**', '**+25%** (+7.5% yield)'],
 ], [14, 7, 34, 8, 19, 10, 8]));
 
@@ -415,7 +415,7 @@ k.push(H1('20. Questions for the CEO / Chair (by information value)'));
   'Under what circumstances would the board consider a sale or merger, and has it received any approach in the last 24 months?',
   'What is BNP Paribas AM’s strategic intention for its 14.4% stake after its AXA IM acquisition, and how is its board representative conflicted in strategic decisions?',
   'What is the regulatory capital requirement, and how much of the £63.8m cash is genuinely surplus?',
-  'Why not return surplus cash (special dividend/tender) at 0.23% EV/AUM rather than pursue acquisitions?',
+  'Why not return surplus cash (special dividend/tender) at 0.23% TEV/AUM rather than pursue acquisitions?',
   'What AUM retention rate do you expect from the BNPP channel over the next 24 months?',
   'Of the 8–10 strategic-partnership discussions, how many involve day-one AUM and what is the expected fee rate?',
   'What were Q1 FY27 net flows, and when do you expect a positive quarter?',
@@ -486,7 +486,7 @@ k.push(H1('23. Data audit trail and limitations'));
   'FY26 fundamentals in FactSet are preliminary (results 25-Nov-2026); FY26 segment data not yet available.',
   'Primary filings (annual report PDFs, RNS on Investegate/LSE) could not be fetched due to network policy; company figures from StreetAccount, CallStreet transcripts and press.',
   'Peer AUM from latest company releases (Jun–Sep 2026) via search summaries; Polar (£43.7bn), Jupiter (£75.9bn), Aberdeen (£578.9bn AUMA), Rathbones (£121.1bn FUMA), Brooks (£21.7bn FUMA) mix AUM and AUMA definitions; Ashmore and Man converted at 1.311.',
-  'Forward ROE uses FY1 consensus EPS (different fiscal year-ends) over latest book equity; regressions on 10–11 UK listed points — directional only; Ashmore excluded from EV/AUM and TEV/Sales fits as an outlier.',
+  'Forward ROE uses FY1 consensus EPS (different fiscal year-ends) over latest book equity; regressions on 10–11 UK listed points — directional only; Ashmore excluded from TEV/AUM and TEV/Sales fits as an outlier.',
   'Pax World and Absolute Return Partners consideration, FY24 flows, and FY22–24 interim/final split not verified; GAM stake not in FactSet holder data.',
   'Projections, scenarios and sentiment scores are analyst estimates.',
 ].forEach(t => k.push(B(t)));

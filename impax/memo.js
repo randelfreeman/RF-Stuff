@@ -3,13 +3,13 @@ const { P, H2, B, SRC, img, table, doc, d, FONT } = require('./lib');
 const { Paragraph, TextRun, Packer } = d;
 const k = [];
 k.push(new Paragraph({ style: 'Title', children: [new TextRun({ text: 'IC Memo — Impax Asset Management (IPX LN)', font: FONT })] }));
-k.push(P('Date: 27-Nov-2026  |  Price 89.3p  |  Mkt cap £108.5m  |  Net cash ~£62m  |  EV ~£46m  |  AUM £20.05bn  |  Strategy: event-driven / deep value'));
+k.push(P('Date: 27-Nov-2026  |  Price 89.3p  |  Mkt cap £108.5m  |  Net cash ~£62m  |  TEV ~£46m  |  AUM £20.05bn  |  Strategy: event-driven / deep value  |  TEV = total enterprise value = market cap + net debt (or − net cash). '));
 k.push(table(['Recommendation', 'Base value', 'Strategic value', 'Bear value', 'Prob.-weighted', 'Yield'], [
   ['ACCUMULATE / ENGAGE', '~110p (+23%)', '~165p (+85%)', '~70p (−22%)', '~112p (+25%)', '7.5% (FY26 DPS 6.7p)'],
 ], [22, 15, 16, 15, 16, 16]));
 k.push(P('**Disclosure:** GAM special-situations funds hold ~2.2% (Jul-2026).', { run: { italics: true, size: 17 } }));
 k.push(H2('1. Thesis'));
-k.push(B('**Cash covers 57% of the price.** Net cash ~£62m (51p/share); the operating franchise — the global leader in transition investing with £20bn AUM — is valued at ~£46m (0.23% of AUM, ~3x FY27E EBIT). Cheapest UK listed manager on EV/AUM.'));
+k.push(B('**Cash covers 57% of the price.** Net cash ~£62m (51p/share); the operating franchise — the global leader in transition investing with £20bn AUM — is valued at ~£46m (0.23% of AUM, ~3x FY27E EBIT). Cheapest UK listed manager on TEV/AUM.'));
 k.push(B('**Trough confirmed.** FY26 beat (adj. EPS 12.2p vs 11.0p consensus); costs reset to a £86.5m run-rate; FY27 revenue guided £100–103m (above £98.7m consensus); outflows “slowed considerably” in Q1 FY27; 2026 investment performance strong.'));
 k.push(B('**Operating leverage + optionality.** ~80% incremental margin; 30% margin target at £27–28bn AUM. Concentrated register (BNPP 14.4%, Liontrust funds 10.7%, management ~18%, EBT 5.1%) makes a negotiated outcome executable; BNPP is the natural buyer.'));
 k.push(H2('2. Key numbers'));
@@ -22,7 +22,7 @@ k.push(table(['', 'FY24', 'FY25', 'FY26', 'FY27E cons.', 'FY28E cons.'], [
   ['Closing AUM (£bn)', '37.2', '26.1', '20.05', '—', '—'],
 ], [20, 13, 13, 18, 20, 16]));
 k.push(H2('3. Valuation and regressions'));
-k.push(B('**EV/AUM vs E/AUM** (R² 0.69, ex-Ashmore; sector ≈ 5x EBIT): fitted 0.36% vs 0.23% actual → ~110p. At a 30% margin the same line implies ~170p.'));
+k.push(B('**TEV/AUM vs E/AUM** (R² 0.69, ex-Ashmore; sector ≈ 5x EBIT): fitted 0.36% vs 0.23% actual → ~110p. At a 30% margin the same line implies ~170p.'));
 k.push(B('**PBR vs ROE** (linear R² 0.94; log 0.73): fair at ~87–97p — ROE is diluted by cash. **TEV/Sales vs EBIT margin** (R² 0.34): market ascribes ~zero value to operations at the current 14% margin — upside is the margin recovery.'));
 k.push(B('**Takeout:** 0.5–0.9% of AUM / 6–8x FY28E EBITDA → 135–200p; central ~160–165p.'));
 k.push(img('charts/reg_evaum.png', 6.2, 3.45));

@@ -14,19 +14,19 @@ k.push(P('**Institutional equity research — deep dive, special-situations lens
 k.push(P('Report date: 27 November 2026  |  Price: 225.5p (close 26-Nov-2026)  |  Sector: UK traditional active asset management'));
 k.push(table(['Market data', 'Value', 'Valuation (FactSet consensus)', 'Value'], [
   ['Share price / 52-wk range', '225.5p / 225.5p–351p', 'P/E FY27E (Mar-27) / FY28E', '6.5x / 5.4x'],
-  ['Market cap (FactSet)', '£139.5m', 'EV / EBIT FY27E', '3.3x'],
-  ['Net cash (Mar-26, pro forma Hawksmoor)', '~£44m', 'EV / Sales FY27E', '0.74x'],
-  ['Enterprise value', '~£96m', 'Mkt cap / AuMA (EV / AuMA)', '0.58% (0.40%)'],
+  ['Market cap (FactSet)', '£139.5m', 'TEV / EBIT FY27E', '3.3x'],
+  ['Net cash (Mar-26, pro forma Hawksmoor)', '~£44m', 'TEV / Sales FY27E', '0.74x'],
+  ['Total enterprise value (TEV)', '~£96m', 'Mkt cap / AuMA (TEV / AuMA)', '0.58% (0.40%)'],
   ['AuMA (30-Sep-26) + Hawksmoor', '£24.1bn + ~£1.9bn', 'Dividend yield (FY27E, 50% payout)', '~7.7%'],
   ['Shares (approx.)', '~61.9m', 'Consensus target / ratings', '386p mean (190–550p); 6 Buy, 2 Sell'],
   ['Peak-to-current (Dec-21 → now)', '2,325p → 225.5p (−90%)', 'FY27E consensus EPS (8 est.)', '34.8p (all 8 revised down)'],
 ], [26, 18, 30, 26]));
-k.push(SRC('Source: FactSet Global Prices, Fundamentals, EstimatesConsensus (accessed 27-Nov-2026); company RNS via press. Net cash = FY26 cash £52.7m less £6.0m Hawksmoor cash consideration, plus £2.7m lease debt; H1 FY27 balance sheet not retrieved (see Audit & Limitations).'));
+k.push(SRC('TEV = total enterprise value = market cap + net debt (or − net cash). Source: FactSet Global Prices, Fundamentals, EstimatesConsensus (accessed 27-Nov-2026); company RNS via press. Net cash = FY26 cash £52.7m less £6.0m Hawksmoor cash consideration, plus £2.7m lease debt; H1 FY27 balance sheet not retrieved (see Audit & Limitations).'));
 
 k.push(H2('Investment summary (one page)'));
 k.push(P('**View: deep value with an event path — Accumulate / engage for a strategic outcome. Base value 265p (+18%); event (sale) value ~380p (+68%); bear 145p (−36%). Probability-weighted ~264p (+17%), plus ~7–8% dividend yield.**'));
 k.push(B('**What it is:** a UK-centric, retail-distributed active fund manager (AuMA £24.1bn) whose revenue is AuMA × ~50bp. It has suffered five consecutive years of net outflows (c.£20bn cumulative since FY23), a 90% share-price collapse and a 74% dividend cut.'));
-k.push(B('**Why it is cheap:** at 0.40% EV/AuMA, 3.3x EV/EBIT and 6.5x P/E it trades at the bottom of the UK peer group and below its own regression-implied value (1.0x EV/Sales for a 22% EBIT margin vs 0.74x actual). Cash is ~31% of market cap and there is no financial debt.'));
+k.push(B('**Why it is cheap:** at 0.40% TEV/AuMA, 3.3x TEV/EBIT and 6.5x P/E it trades at the bottom of the UK peer group and below its own regression-implied value (1.0x TEV/Sales for a 22% EBIT margin vs 0.74x actual). Cash is ~31% of market cap and there is no financial debt.'));
 k.push(B('**Why it is cheap for a reason:** flows remain negative (H1 FY27 −£0.8bn), the revenue margin is compressing (60bp → 50bp in 18 months), H1 FY27 produced a statutory loss (−£4.2m) and adjusted EPS fell 22%; consensus still embeds a sharp H2 recovery (FY27E 34.8p vs H1 14.5p).'));
 k.push(B('**The event:** GAM special-situations funds (5.01%) have publicly called (23-Mar-2026) for a strategic review and sale. Sector consolidation is accelerating (Nuveen/Schroders £9.9bn, Jupiter/CCLA, Liontrust’s own River Global and Hawksmoor bolt-ons). Martin Gilbert, the UK’s best-known asset-management consolidator, joined the board on 1-Jul-2026. A buyer stripping 35–45% of a ~£94m cost base would double earnings.'));
 k.push(B('**Key risks:** structural active-to-passive shift; UK retail/ESG concentration; key-person risk; management entrenchment (CEO since 2010, CFO since 1995); value-destructive M&A (Majedie impairment; River costs > consideration).'));
@@ -250,13 +250,13 @@ k.push(B('**Regulatory capital:** FCA IFPR applies to regulated subsidiaries; ow
 k.push(H1('10. Valuation and peer analysis'));
 k.push(H2('10.1 Listed peer multiples'));
 const pr = peers.map(r => [r.n + ' (' + r.t + ')', '£' + Math.round(r.mc), '£' + Math.round(r.ev), fx(r.evs1), fx(r.eveb), fx(r.evebit1), fx(r.pe1), fx(r.pe2), f1(r.nd) + 'x', f1(r.ebm) + '%', f1(r.ebitm) + '%', f1(r.g) + '%', f1(r.ocfy) + '%']);
-k.push(table(['Company', 'Mkt cap £m', 'EV £m', 'EV/Sales FY1', 'EV/EBITDA LFY', 'EV/EBIT FY1', 'P/E FY1', 'P/E FY2', 'Net debt/EBITDA', 'EBITDA mgn LFY', 'EBIT mgn LFY', 'Sales g LFY', 'OCF yield'], pr,
+k.push(table(['Company', 'Mkt cap £m', 'TEV £m', 'TEV/Sales FY1', 'TEV/EBITDA LFY', 'TEV/EBIT FY1', 'P/E FY1', 'P/E FY2', 'Net debt/EBITDA', 'EBITDA mgn LFY', 'EBIT mgn LFY', 'Sales g LFY', 'OCF yield'], pr,
   [17, 7, 7, 7, 7, 7, 6, 6, 8, 7, 7, 7, 7], { size: 13 }));
-k.push(SRC('Source: FactSet market values (26-Nov-2026), FactSet Fundamentals (latest reported FY), FactSet consensus FY1/FY2 (sales, EBIT, EPS). Man Group converted at USD/GBP 1.311 (implied from FactSet prices). Rathbones EV excludes balance-sheet cash (banking-licence cash). Liontrust EV pro forma Hawksmoor. Negative net debt = net cash. Ashmore sales exclude seed/investment gains, inflating its ratios.'));
+k.push(SRC('Source: FactSet market values (26-Nov-2026), FactSet Fundamentals (latest reported FY), FactSet consensus FY1/FY2 (sales, EBIT, EPS). Man Group converted at USD/GBP 1.311 (implied from FactSet prices). Rathbones TEV excludes balance-sheet cash (banking-licence cash). Liontrust TEV pro forma Hawksmoor. Negative net debt = net cash. Ashmore sales exclude seed/investment gains, inflating its ratios.'));
 k.push(table(['Metric', 'Liontrust', 'Peer median', 'Liontrust vs median', 'Screen'], [
-  ['EV/Sales FY1', '0.74x', '1.58x', '−53%', 'Cheap'],
-  ['EV/EBITDA LFY', '3.1x', '4.9x', '−36%', 'Cheap'],
-  ['EV/EBIT FY1', '3.3x', '5.1x', '−35%', 'Cheap'],
+  ['TEV/Sales FY1', '0.74x', '1.58x', '−53%', 'Cheap'],
+  ['TEV/EBITDA LFY', '3.1x', '4.9x', '−36%', 'Cheap'],
+  ['TEV/EBIT FY1', '3.3x', '5.1x', '−35%', 'Cheap'],
   ['P/E FY1 / FY2', '6.5x / 5.4x', '9.6x / 9.3x', '−33% / −42%', 'Cheap'],
   ['Net debt/EBITDA', '−1.4x (net cash)', '−1.6x', 'In line', 'Fair'],
   ['EBITDA / EBIT margin LFY', '22.7% / 15.3%', '28.3% / 25.7%', '−6 / −10 ppts', 'Below peers'],
@@ -266,24 +266,24 @@ k.push(table(['Metric', 'Liontrust', 'Peer median', 'Liontrust vs median', 'Scre
 k.push(P('**Verdict:** Liontrust screens **cheap** on every earnings and sales multiple — but its revenue decline is the worst in the group, so a discount is warranted. The question is the size of the discount. Adjusting for margin, it trades ~25% below where the peer regression would place it.'));
 k.push(H2('10.2 Regression: TEV/Sales vs EBIT margin'));
 k.push(img(C + 'regression.png', 7.0, 3.9));
-k.push(P('OLS across ten listed UK asset/wealth managers (Ashmore excluded as an outlier because FactSet sales exclude its investment gains): **EBIT margin = 14.1 + 8.2 × (EV/Sales), R² = 0.33.** At Liontrust’s FY1 consensus EBIT margin of 22.4%, the fitted EV/Sales is **1.00x** versus 0.74x actual — implying EV of ~£129m, equity of ~£173m and **~275p per share (+22%)**. The modest R² reflects style/fee-mix dispersion (Polar, Ninety One and Man earn premium margins); results should be read as directional.'));
-k.push(H2('10.2a Additional regressions: PBR vs ROE and EV/AUM vs E/AUM'));
+k.push(P('OLS across ten listed UK asset/wealth managers (Ashmore excluded as an outlier because FactSet sales exclude its investment gains): **EBIT margin = 14.1 + 8.2 × (TEV/Sales), R² = 0.33.** At Liontrust’s FY1 consensus EBIT margin of 22.4%, the fitted TEV/Sales is **1.00x** versus 0.74x actual — implying TEV of ~£129m, equity of ~£173m and **~275p per share (+22%)**. The modest R² reflects style/fee-mix dispersion (Polar, Ninety One and Man earn premium margins); results should be read as directional.'));
+k.push(H2('10.2a Additional regressions: PBR vs ROE and TEV/AUM vs E/AUM'));
 k.push(img(C + 'reg_pbroe.png', 7.0, 3.9));
 k.push(P('Linear: ROE = −5.1 + 14.5×P/B (R² 0.94); log: ROE = 11.4 + 23.0×ln(P/B) (R² 0.73). Liontrust’s forward ROE of ~20% (FY27E consensus EPS on Mar-26 book equity of £108m) implies a fitted P/B of 1.73x (linear) / 1.45x (log) vs 1.29x actual — **~255–300p per share (+13% to +34%)**. Book value is mostly acquired intangibles, so this measure flatters slightly.'));
 k.push(img(C + 'reg_evaum.png', 7.0, 3.9));
-k.push(P('OLS ex-Ashmore: EV/AUM (%) = 0.010 + 0.0506 × E/AUM (bp), R² 0.69 — the market capitalises operating earnings at ~5x EBIT. Liontrust earns ~12bp of FY27E EBIT on AUM; the fitted EV/AUM is 0.61% vs 0.40% actual → EV ~£148m + ~£44m net cash ≈ **£192m, ~300–310p per share (+35%)**. Impax (IPX LN), shown for reference, screens similarly cheap (0.23% actual vs 0.36% fitted).'));
+k.push(P('OLS ex-Ashmore: TEV/AUM (%) = 0.010 + 0.0506 × E/AUM (bp), R² 0.69 — the market capitalises operating earnings at ~5x EBIT. Liontrust earns ~12bp of FY27E EBIT on AUM; the fitted TEV/AUM is 0.61% vs 0.40% actual → TEV ~£148m + ~£44m net cash ≈ **£192m, ~300–310p per share (+35%)**. Impax (IPX LN), shown for reference, screens similarly cheap (0.23% actual vs 0.36% fitted).'));
 k.push(SRC('Source: FactSet market values/prices (26-Nov-2026), book equity (latest FY), FY1 consensus EPS and EBIT; AUM from latest company releases (Jun–Sep 2026; Aberdeen AUMA incl. platform; USD AUM at 1.311). E/AUM = FY1 EBIT ÷ AUM.'));
 k.push(H2('10.3 Historical trading range'));
 k.push(img(C + 'histmult.png', 7.0, 2.5));
 k.push(table(['At FY-end price', 'FY21', 'FY22', 'FY23', 'FY24', 'FY25', 'FY26', 'Now'], [
   ['Share price (p)', '1,420', '1,274', '1,022', '672', '371', '241.5', '225.5'],
-  ['EV (£m)', '789', '649', '525', '321', '155', '96', '96'],
-  ['EV/Sales', '4.5x', '2.6x', '2.1x', '1.6x', '0.9x', '0.7x', '0.7x'],
-  ['EV/EBITDA', '14.9x', '7.0x', '5.7x', '4.7x', '3.4x', '3.2x', '3.1x'],
-  ['EV/EBIT', '18.0x', '8.1x', '8.6x', '5.9x', '4.6x', '4.7x', '4.7x (3.3x FY27E)'],
+  ['TEV (£m)', '789', '649', '525', '321', '155', '96', '96'],
+  ['TEV/Sales', '4.5x', '2.6x', '2.1x', '1.6x', '0.9x', '0.7x', '0.7x'],
+  ['TEV/EBITDA', '14.9x', '7.0x', '5.7x', '4.7x', '3.4x', '3.2x', '3.1x'],
+  ['TEV/EBIT', '18.0x', '8.1x', '8.6x', '5.9x', '4.6x', '4.7x', '4.7x (3.3x FY27E)'],
   ['P/E (FactSet pre-unusual EPS)', '25.1x', '13.1x', '13.8x', '12.0x', '9.0x', '10.5x', '9.8x (6.5x FY27E adj.)'],
 ], [24, 10, 10, 10, 10, 10, 10, 16]));
-k.push(P('Liontrust is at the very bottom of its five-year range on every multiple (EV/EBITDA 3.1x vs 5-yr average ~6.4x). Relative to listed peers it moved from a premium (FY21: growth/ESG darling) to a ~35–50% discount.'));
+k.push(P('Liontrust is at the very bottom of its five-year range on every multiple (TEV/EBITDA 3.1x vs 5-yr average ~6.4x). Relative to listed peers it moved from a premium (FY21: growth/ESG darling) to a ~35–50% discount.'));
 k.push(H2('10.4 Competitor universe (listed and private)'));
 k.push(table(['Competitor', 'Ticker / owner', 'Listed?', 'Overlap'], [
   ['Jupiter Fund Management', 'JUP LN', 'Yes (LSE)', 'UK retail active equity; acquirer (CCLA 2026)'],
@@ -315,7 +315,7 @@ k.push(H2('11.1 Industry M&A context'));
 k.push(P('UK asset management is in a consolidation phase driven by fee compression, passive substitution, rising regulatory/technology fixed costs and depressed public valuations. 2026 has seen the largest UK deal in the sector’s history (Nuveen’s £9.9bn take-private of Schroders, completed 1-Oct-2026), Jupiter’s purchase of CCLA (£15bn AuM) and two bolt-ons by Liontrust itself. Private equity (Searchlight/Gresham House; CVC/Hargreaves Lansdown; Pollen Street/Mattioli Woods) and US/European strategics are active buyers of UK distribution and retail franchises.'));
 k.push(H2('11.2 Is Liontrust a takeover target?'));
 k.push(table(['Pros (supporting a bid)', 'Impediments'], [
-  ['Valuation: 0.40% EV/AuMA, 3.3x EV/EBIT, net cash ~31% of market cap', 'Continuing outflows: acquirer buys a shrinking book; client attrition on change of control'],
+  ['Valuation: 0.40% TEV/AuMA, 3.3x TEV/EBIT, net cash ~31% of market cap', 'Continuing outflows: acquirer buys a shrinking book; client attrition on change of control'],
   ['Cost synergies: ~£94m admin base; a consolidator could remove 35–45% (operations, distribution, listing, back office)', 'Key-person risk: investment teams may leave (LLP structure, retention payments required)'],
   ['UK retail distribution, platform relationships and brand have strategic value to a US/European manager seeking UK access', 'Management/board stance: board has rejected a strategic review; CEO/CFO long-tenured'],
   ['Activist pressure (GAM 5.01%) and retail-heavy register — low price anchoring', 'Small size (£140m) may be below the radar of large strategics'],
@@ -324,9 +324,9 @@ k.push(table(['Pros (supporting a bid)', 'Impediments'], [
 ], [50, 50]));
 k.push(P('**Potential acquirers (illustrative):** UK consolidators (Jupiter, Premier Miton merger-of-equals, Polar, Ninety One), European/US managers seeking UK retail access (e.g., Nuveen-Schroders bolt-on, Amundi, Natixis IM, AMG/Artemis-style affiliate model), private equity (Searchlight, Pollen Street, Bridgepoint-type investors), and wealth managers seeking manufacturing/MPS (Rathbones, Brooks Macdonald, Evelyn, Quilter).'));
 k.push(H2('11.3 Potential takeout valuation'));
-k.push(table(['Method', 'Range', 'Implied EV (£m)', 'Implied value/share'], [
+k.push(table(['Method', 'Range', 'Implied TEV (£m)', 'Implied value/share'], [
   ['% of AuMA (~£26bn incl. Hawksmoor)', '0.6% – 0.9%', '156 – 234', '~315p – 440p'],
-  ['EV / FY28E adj. EBITDA (~£33m)', '5x – 8x', '165 – 264', '~330p – 485p'],
+  ['TEV / FY28E adj. EBITDA (~£33m)', '5x – 8x', '165 – 264', '~330p – 485p'],
   ['P/E on FY28E EPS (38p)', '9x – 12x', '—', '~340p – 455p'],
   ['Premium to undisturbed (225.5p)', '30% – 60%', '—', '~295p – 360p'],
   ['**Central takeout estimate**', '**~0.75% AuMA / ~6x EBITDA**', '**~195**', '**~360p – 380p**'],
@@ -341,7 +341,7 @@ k.push(table(['Announced', 'Target', 'Acquirer', 'Value', 'AuM', 'Multiples / no
   ['Aug-2024', 'Hargreaves Lansdown (platform)', 'CVC / Nordic Capital / ADIA', '£5.4bn (1,140p incl. div)', '~£155bn AuA', '~3.5% of AuA; ~22x P/E (approx.)'],
   ['Aug-2024', 'AXA Investment Managers', 'BNP Paribas', '€5.1bn', '~€850bn', '~0.6% of AuM (approx.)'],
   ['Mar-2024', 'Mattioli Woods', 'Pollen Street Capital', '£432m', '~£15bn AuMA', 'Wealth; ~2.9% of AuMA (approx.)'],
-  ['Jul-2023', 'Gresham House', 'Searchlight Capital', '£470m equity / £441m EV', '~£8.4bn', '~16x EBITDA; 63% premium'],
+  ['Jul-2023', 'Gresham House', 'Searchlight Capital', '£470m equity / £441m TEV', '~£8.4bn', '~16x EBITDA; 63% premium'],
   ['May-2023', 'GAM Holding (failed)', 'Liontrust', 'All-share offer ~CHF 100m (approx.)', '~CHF 23bn', '~0.4–0.5% of AuM; 33.45% acceptance; lapsed Aug-2023'],
   ['Mar-2023', 'Investec Wealth & Investment UK', 'Rathbones', '£839m (all-share)', '~£40bn', '~2.1% of AuM'],
   ['Apr-2022', 'Brewin Dolphin', 'RBC Wealth Management', '£1.6bn', '~£59bn', '~2.7% of AuM; ~63% premium (approx.)'],
@@ -452,7 +452,7 @@ k.push(P('**Treasury shares and cancellations:** FactSet carries a treasury/own-
 // ---------------- 18 BULL BEAR ----------------
 k.push(H1('18. Bull vs bear — adversarial analysis'));
 k.push(H2('18.1 Bull case'));
-k.push(B('**Asymmetric valuation:** EV £96m for a £26bn franchise; a buyer needs only ~£25m of synergies to justify a 50%+ premium. Cash (~£44m) and a ~7–8% yield limit downside.'));
+k.push(B('**Asymmetric valuation:** TEV £96m for a £26bn franchise; a buyer needs only ~£25m of synergies to justify a 50%+ premium. Cash (~£44m) and a ~7–8% yield limit downside.'));
 k.push(B('**Flow inflection:** organic decay slowed from ~18–22% to ~8% annualised; multi-asset in modest inflow; institutional pipeline converting. Positive flows on a fixed cost base would lift EPS sharply (each £1bn ≈ 5p).'));
 k.push(B('**Secular tailwinds:** UK equity re-rating, cash-ISA reform (Apr-2027), and demand for diversification away from US mega-caps.'));
 k.push(B('**Corporate catalyst:** activist (5%), consolidator on the board, peers being taken out at 1%+ of AuM; scale bolt-ons make Liontrust a more meaningful target.'));
@@ -473,8 +473,8 @@ k.push(P('The market values Liontrust as a melting ice cube run by management, b
 k.push(H1('19. Scenario analysis (12–18 month view)'));
 k.push(table(['Scenario', 'Prob.', 'Key assumptions', 'FY28E EPS', 'Multiple', 'Value/share', 'vs 225.5p'], [
   ['Bear — continued melt', '25%', 'Net outflows ~£2bn p.a.; margin 45bp; no bid; further dividend cut', '~24p', '6x P/E', '~145p', '−36%'],
-  ['Base — stabilisation', '50%', 'Outflows ~£1bn FY28; margin 47bp; cost saves; 50% payout', '~38p', '7x P/E (≈1.0x EV/Sales regression)', '~265p', '+18%'],
-  ['Bull — strategic sale / merger', '25%', 'Sale at ~0.75% of £26bn AuMA (~6x EBITDA pre-synergy)', 'n.a.', 'EV ~£195m + net cash', '~380p', '+68%'],
+  ['Base — stabilisation', '50%', 'Outflows ~£1bn FY28; margin 47bp; cost saves; 50% payout', '~38p', '7x P/E (≈1.0x TEV/Sales regression)', '~265p', '+18%'],
+  ['Bull — strategic sale / merger', '25%', 'Sale at ~0.75% of £26bn AuMA (~6x EBITDA pre-synergy)', 'n.a.', 'TEV ~£195m + net cash', '~380p', '+68%'],
   ['**Probability-weighted**', '', '', '', '', '**~264p**', '**+17%** (+~7% yield)'],
 ], [18, 7, 33, 9, 15, 10, 8]));
 k.push(P('**Sensitivity:** ±£1bn annual flows ≈ ±5p EPS ≈ ±35p/share at 7x; ±2bp revenue margin ≈ ±4p EPS. A 20–30% growth disappointment vs consensus (FY28E 41.4p → 29–33p) at 6–7x implies 175–230p — roughly today’s price, i.e., the current price already discounts a material miss.'));
@@ -595,7 +595,7 @@ k.push(H2('23.2 Limitations'));
   'Liontrust discloses a single segment; divisional revenue/EBITDA/EBIT/net income do not exist in public data.',
   'FactSet “revenue” (£134.4m FY26) differs from company gross profit (£123.0m) because of cost-of-sales treatment; FactSet free cash flow is negative FY23–26 due to classification of investment purchases — OCF used instead.',
   'FactSet ownership includes a 5.24% holding attributed to “Lamprell plc” (likely a mapping error) and a stale Canaccord position (May-2025).',
-  'Peer EVs use latest fiscal-year balance sheets (different year-ends); Man Group converted at an implied USD/GBP 1.311; Rathbones balance-sheet cash excluded; Ashmore excluded from the regression.',
+  'Peer TEVs use latest fiscal-year balance sheets (different year-ends); Man Group converted at an implied USD/GBP 1.311; Rathbones balance-sheet cash excluded; Ashmore excluded from the regression.',
   'H1 FY27 consensus was not available in FactSet; the “miss” is measured against the pre-results FY27E run-rate.',
   'Several historical transaction values (pre-2023 Liontrust deals, BNP/AXA IM, RBC/Brewin, Mattioli Woods, Hargreaves Lansdown) and some former NED names are from public reporting/memory and marked “approx.”/“verify”.',
   'Projections, scenario values and sentiment scores are analyst estimates, not company guidance.',
